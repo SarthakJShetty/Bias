@@ -1,0 +1,710 @@
+Session: 25/8/2018
+Time: 15:2:58
+[INFO]15:2:58 Built LOG folder for session
+[INFO]15:2:59 Page status: 200
+[INFO]15:2:59 Souping page
+[INFO]15:3:0 Souped page
+[INFO]15:3:0 Scraping IDs
+[INFO]15:3:2 Scraped IDs
+[INFO]15:3:2 Extracting Abstract IDs from disc
+[INFO]15:3:2 Extracted Abstract IDs from disc
+[INFO]15:3:2 Abstract Number: 1
+[INFO]15:3:2 Abstract ID: S2351989417300604
+[INFO]15:3:2 Page status: 200
+[INFO]15:3:2 Souping page
+[INFO]15:3:5 Souped page
+[INFO]15:3:5 Writing 'Original Research ArticleAre conflict-causing tigers different? Another perspective for understanding human-tiger conflict in Chitwan National Park, Nepal' by 'B.R.' to disc
+[INFO]15:3:5 Written 'Original Research ArticleAre conflict-causing tigers different? Another perspective for understanding human-tiger conflict in Chitwan National Park, Nepal' to disc
+[INFO]15:3:5 Abstract Number: 2
+[INFO]15:3:5 Abstract ID: S2351989417301130
+[INFO]15:3:5 Page status: 200
+[INFO]15:3:5 Souping page
+[INFO]15:3:6 Souped page
+[INFO]15:3:6 Writing 'Original Research ArticleUsing non-invasively collected genetic data to estimate density and population size of tigers in the Bangladesh Sundarbans' by 'M. Abdul' to disc
+[INFO]15:3:6 Written 'Original Research ArticleUsing non-invasively collected genetic data to estimate density and population size of tigers in the Bangladesh Sundarbans' to disc
+[INFO]15:3:6 Abstract Number: 3
+[INFO]15:3:6 Abstract ID: S2351989416301287
+[INFO]15:3:7 Page status: 200
+[INFO]15:3:7 Souping page
+[INFO]15:3:8 Souped page
+[INFO]15:3:8 Writing 'Original Research ArticleInvestigating patterns of tiger and prey poaching in the Bangladesh Sundarbans: Implications for improved management' by 'M. Abdul' to disc
+[INFO]15:3:8 Written 'Original Research ArticleInvestigating patterns of tiger and prey poaching in the Bangladesh Sundarbans: Implications for improved management' to disc
+[INFO]15:3:8 Abstract Number: 4
+[INFO]15:3:8 Abstract ID: S2351989418300350
+[INFO]15:3:9 Page status: 200
+[INFO]15:3:9 Souping page
+[INFO]15:3:10 Souped page
+[INFO]15:3:10 Writing 'Original Research ArticleIdentifying landscape factors affecting tiger decline in the Bangladesh Sundarbans' by 'Abu Naser Mohsin' to disc
+[INFO]15:3:10 Written 'Original Research ArticleIdentifying landscape factors affecting tiger decline in the Bangladesh Sundarbans' to disc
+[INFO]15:3:10 Abstract Number: 5
+[INFO]15:3:10 Abstract ID: S246842871730076X
+[INFO]15:3:11 Page status: 200
+[INFO]15:3:11 Souping page
+[INFO]15:3:12 Souped page
+[INFO]15:3:12 Writing 'Case reportEndovascular aneurysm repairPreservation of internal iliac arteries during endovascular aneurysm repair using \xe2\x80\x9ceye of the tiger\xe2\x80\x9d technique' by 'Tariq' to disc
+[INFO]15:3:12 Written 'Case reportEndovascular aneurysm repairPreservation of internal iliac arteries during endovascular aneurysm repair using \xe2\x80\x9ceye of the tiger\xe2\x80\x9d technique' to disc
+[INFO]15:3:12 Abstract Number: 6
+[INFO]15:3:12 Abstract ID: S0304380015002574
+[INFO]15:3:12 Page status: 200
+[INFO]15:3:12 Souping page
+[INFO]15:3:14 Souped page
+[INFO]15:3:14 Writing 'Modeling tiger population and territory dynamics using an agent-based approach' by 'Neil' to disc
+[INFO]15:3:14 Written 'Modeling tiger population and territory dynamics using an agent-based approach' to disc
+[INFO]15:3:14 Abstract Number: 7
+[INFO]15:3:14 Abstract ID: S2078152015000152
+[INFO]15:3:14 Page status: 200
+[INFO]15:3:14 Souping page
+[INFO]15:3:15 Souped page
+[INFO]15:3:15 Writing 'Population and Habitat of the Amur Tiger in the Russian Far East' by 'Dmitry G.' to disc
+[INFO]15:3:15 Written 'Population and Habitat of the Amur Tiger in the Russian Far East' to disc
+[INFO]15:3:15 Abstract Number: 8
+[INFO]15:3:15 Abstract ID: S2351989416301019
+[INFO]15:3:16 Page status: 200
+[INFO]15:3:16 Souping page
+[INFO]15:3:17 Souped page
+[INFO]15:3:17 Writing 'Original research articleFrom intent to action: A case study for the expansion of tiger conservation from southern India' by 'Sanjay' to disc
+[INFO]15:3:17 Written 'Original research articleFrom intent to action: A case study for the expansion of tiger conservation from southern India' to disc
+[INFO]15:3:17 Abstract Number: 9
+[INFO]15:3:17 Abstract ID: S0019483215002564
+[INFO]15:3:17 Page status: 200
+[INFO]15:3:17 Souping page
+[INFO]15:3:18 Souped page
+[INFO]15:3:18 Writing 'Research LetterAbnormal origin of right coronary artery and use of Tiger catheter through femoral route' by 'Goutam' to disc
+[INFO]15:3:18 Written 'Research LetterAbnormal origin of right coronary artery and use of Tiger catheter through femoral route' to disc
+[INFO]15:3:18 Abstract Number: 10
+[INFO]15:3:18 Abstract ID: S0960982213004958
+[INFO]15:3:19 Page status: 200
+[INFO]15:3:19 Souping page
+[INFO]15:3:19 Souped page
+[INFO]15:3:19 Writing 'ReportThe Genetic Basis of White Tigers' by 'Xiao' to disc
+[INFO]15:3:19 Written 'ReportThe Genetic Basis of White Tigers' to disc
+[INFO]15:3:20 Abstract Number: 11
+[INFO]15:3:20 Abstract ID: S0022510X13029511
+[INFO]15:3:20 Page status: 200
+[INFO]15:3:20 Souping page
+[INFO]15:3:21 Souped page
+[INFO]15:3:21 Writing 'Short communicationEye-of-the-tiger-sign in a 48\xc2\xa0year healthy adult' by 'Simon J.A.' to disc
+[INFO]15:3:21 Written 'Short communicationEye-of-the-tiger-sign in a 48\xc2\xa0year healthy adult' to disc
+[INFO]15:3:21 Abstract Number: 12
+[INFO]15:3:21 Abstract ID: S2078152015000036
+[INFO]15:3:21 Page status: 200
+[INFO]15:3:21 Souping page
+[INFO]15:3:22 Souped page
+[INFO]15:3:22 Writing 'Assessing the Influence of Environmental Parameters on Amur Tiger Distribution in the Russian Far East Using a MaxEnt Modeling Approach' by 'D.S.' to disc
+[INFO]15:3:22 Written 'Assessing the Influence of Environmental Parameters on Amur Tiger Distribution in the Russian Far East Using a MaxEnt Modeling Approach' to disc
+[INFO]15:3:22 Abstract Number: 13
+[INFO]15:3:22 Abstract ID: S2352513415300156
+[INFO]15:3:23 Page status: 200
+[INFO]15:3:23 Souping page
+[INFO]15:3:24 Souped page
+[INFO]15:3:24 Writing 'Conditioning of broodstock of tiger grouper, Epinephelus fuscoguttatus, in a recirculating aquaculture system' by 'Saleem' to disc
+[INFO]15:3:24 Written 'Conditioning of broodstock of tiger grouper, Epinephelus fuscoguttatus, in a recirculating aquaculture system' to disc
+[INFO]15:3:24 Abstract Number: 14
+[INFO]15:3:24 Abstract ID: S0960982210006986
+[INFO]15:3:25 Page status: 200
+[INFO]15:3:25 Souping page
+[INFO]15:3:26 Souped page
+[INFO]15:3:26 Writing 'News focusTiger in the bank' by 'Michael' to disc
+[INFO]15:3:26 Written 'News focusTiger in the bank' to disc
+[INFO]15:3:26 Abstract Number: 15
+[INFO]15:3:26 Abstract ID: S1687850714000983
+[INFO]15:3:26 Page status: 200
+[INFO]15:3:26 Souping page
+[INFO]15:3:27 Souped page
+[INFO]15:3:27 Writing 'Physicochemical, functional and sensory attributes of milk prepared from irradiated tiger nut (Cyperus esculentus L.)' by 'Abenaa A.' to disc
+[INFO]15:3:27 Written 'Physicochemical, functional and sensory attributes of milk prepared from irradiated tiger nut (Cyperus esculentus L.)' to disc
+[INFO]15:3:27 Abstract Number: 16
+[INFO]15:3:27 Abstract ID: S2214241X1630027X
+[INFO]15:3:28 Page status: 200
+[INFO]15:3:28 Souping page
+[INFO]15:3:28 Souped page
+[INFO]15:3:28 Writing 'Effect of Phytase Enzyme on Growth Boost in the Artificial Feed Made of Plant Protein to Shorten Production Time of Giant Tiger Prawn [Penaeus Monodon, (Fabricus 1798)]\xe2\x98\x86' by 'Diana' to disc
+[INFO]15:3:28 Written 'Effect of Phytase Enzyme on Growth Boost in the Artificial Feed Made of Plant Protein to Shorten Production Time of Giant Tiger Prawn [Penaeus Monodon, (Fabricus 1798)]\xe2\x98\x86' to disc
+[INFO]15:3:28 Abstract Number: 17
+[INFO]15:3:28 Abstract ID: S2452316X17302648
+[INFO]15:3:29 Page status: 200
+[INFO]15:3:29 Souping page
+[INFO]15:3:30 Souped page
+[INFO]15:3:30 Writing 'Original ArticleOntogenetic development of the digestive tract and ultrastructure of the anterior intestinal epithelia in tiger grouper Epinephelus fuscoguttatus (Forssk\xc3\xa5l, 1775) larvae' by 'Kornrawee' to disc
+[INFO]15:3:30 Written 'Original ArticleOntogenetic development of the digestive tract and ultrastructure of the anterior intestinal epithelia in tiger grouper Epinephelus fuscoguttatus (Forssk\xc3\xa5l, 1775) larvae' to disc
+[INFO]15:3:30 Abstract Number: 18
+[INFO]15:3:30 Abstract ID: S221359601730048X
+[INFO]15:3:30 Page status: 200
+[INFO]15:3:30 Souping page
+[INFO]15:3:31 Souped page
+[INFO]15:3:31 Writing 'De novo transcriptome assembly and its annotation for the aposematic wood tiger moth (Parasemia plantaginis)' by 'Juan A.' to disc
+[INFO]15:3:31 Written 'De novo transcriptome assembly and its annotation for the aposematic wood tiger moth (Parasemia plantaginis)' to disc
+[INFO]15:3:31 Abstract Number: 19
+[INFO]15:3:31 Abstract ID: S0006320714004170
+[INFO]15:3:32 Page status: 200
+[INFO]15:3:32 Souping page
+[INFO]15:3:32 Souped page
+[INFO]15:3:32 Writing 'An assessment of South China tiger reintroduction potential in Hupingshan and Houhe National Nature Reserves, China' by 'Yiyuan' to disc
+[INFO]15:3:33 Written 'An assessment of South China tiger reintroduction potential in Hupingshan and Houhe National Nature Reserves, China' to disc
+[INFO]15:3:33 Abstract Number: 20
+[INFO]15:3:33 Abstract ID: S002199751300371X
+[INFO]15:3:33 Page status: 200
+[INFO]15:3:33 Souping page
+[INFO]15:3:34 Souped page
+[INFO]15:3:34 Writing 'Disease in wildlife or exotic speciesT-lymphocyte-rich Thymoma and Myasthenia Gravis in a Siberian Tiger (Panthera tigris altaica)' by 'K.' to disc
+[INFO]15:3:34 Written 'Disease in wildlife or exotic speciesT-lymphocyte-rich Thymoma and Myasthenia Gravis in a Siberian Tiger (Panthera tigris altaica)' to disc
+[INFO]15:3:34 Abstract Number: 21
+[INFO]15:3:34 Abstract ID: S1978301916300419
+[INFO]15:3:35 Page status: 200
+[INFO]15:3:35 Souping page
+[INFO]15:3:35 Souped page
+[INFO]15:3:35 Writing 'Original research articleElimination of Chloramphenicol by Tiger Shrimp (Penaeus monodon) and White Shrimp (Litopenaeus vannamei)' by 'Heny' to disc
+[INFO]15:3:35 Written 'Original research articleElimination of Chloramphenicol by Tiger Shrimp (Penaeus monodon) and White Shrimp (Litopenaeus vannamei)' to disc
+[INFO]15:3:35 Abstract Number: 22
+[INFO]15:3:35 Abstract ID: S2351989414000833
+[INFO]15:3:36 Page status: 200
+[INFO]15:3:36 Souping page
+[INFO]15:3:37 Souped page
+[INFO]15:3:37 Writing 'Original research articleImpacts of people and tigers on leopard spatiotemporal activity patterns in a global biodiversity hotspot' by 'Neil' to disc
+[INFO]15:3:37 Written 'Original research articleImpacts of people and tigers on leopard spatiotemporal activity patterns in a global biodiversity hotspot' to disc
+[INFO]15:3:37 Abstract Number: 23
+[INFO]15:3:37 Abstract ID: S2352513416300278
+[INFO]15:3:37 Page status: 200
+[INFO]15:3:37 Souping page
+[INFO]15:3:38 Souped page
+[INFO]15:3:38 Writing 'Effects of delayed first feeding on nutritional condition of tiger grouper, Epinephelus fuscoguttatus (Forssk\xc3\xa5l, 1775) larvae' by 'Fui Fui' to disc
+[INFO]15:3:38 Written 'Effects of delayed first feeding on nutritional condition of tiger grouper, Epinephelus fuscoguttatus (Forssk\xc3\xa5l, 1775) larvae' to disc
+[INFO]15:3:38 Abstract Number: 24
+[INFO]15:3:38 Abstract ID: S004268220500526X
+[INFO]15:3:39 Page status: 200
+[INFO]15:3:39 Souping page
+[INFO]15:3:40 Souped page
+[INFO]15:3:40 Writing 'Genetic characterization of H5N1 influenza A viruses isolated from zoo tigers in Thailand' by 'Alongkorn' to disc
+[INFO]15:3:40 Written 'Genetic characterization of H5N1 influenza A viruses isolated from zoo tigers in Thailand' to disc
+[INFO]15:3:40 Abstract Number: 25
+[INFO]15:3:40 Abstract ID: S092966461200109X
+[INFO]15:3:40 Page status: 200
+[INFO]15:3:40 Souping page
+[INFO]15:3:41 Souped page
+[INFO]15:3:41 Writing 'Case ReportToxin ophthalmia caused by nuchal gland secretion of the Taiwan tiger keelback (Rhabdophis tigrinus formosanus)' by 'Yen-Chia' to disc
+[INFO]15:3:41 Written 'Case ReportToxin ophthalmia caused by nuchal gland secretion of the Taiwan tiger keelback (Rhabdophis tigrinus formosanus)' to disc
+[INFO]15:3:41 Abstract Number: 26
+[INFO]15:3:41 Abstract ID: S1878029611004506
+[INFO]15:3:41 Page status: 200
+[INFO]15:3:42 Souping page
+[INFO]15:3:42 Souped page
+[INFO]15:3:42 Writing 'Prediction of Potential Habitat for South China Tiger (Panthera tigris) Based on GIS and Web Datasets' by 'Ming Yang' to disc
+[INFO]15:3:42 Written 'Prediction of Potential Habitat for South China Tiger (Panthera tigris) Based on GIS and Web Datasets' to disc
+[INFO]15:3:42 Abstract Number: 27
+[INFO]15:3:42 Abstract ID: S0717345817300817
+[INFO]15:3:43 Page status: 200
+[INFO]15:3:43 Souping page
+[INFO]15:3:44 Souped page
+[INFO]15:3:44 Writing 'Research articleCloning and heterologous expression of a hydrophobin gene Ltr.hyd from the tiger milk mushroom Lentinus tuber-regium in yeast-like cells of Tremella fuciformis' by 'Dongmei' to disc
+[INFO]15:3:44 Written 'Research articleCloning and heterologous expression of a hydrophobin gene Ltr.hyd from the tiger milk mushroom Lentinus tuber-regium in yeast-like cells of Tremella fuciformis' to disc
+[INFO]15:3:44 Abstract Number: 28
+[INFO]15:3:44 Abstract ID: S1617138115000515
+[INFO]15:3:44 Page status: 200
+[INFO]15:3:44 Souping page
+[INFO]15:3:45 Souped page
+[INFO]15:3:45 Writing 'Teleodynamics and institutional change: The hardship of protecting the Amur tiger, big-leaf mahogany, and gray wolf' by 'Juha' to disc
+[INFO]15:3:45 Written 'Teleodynamics and institutional change: The hardship of protecting the Amur tiger, big-leaf mahogany, and gray wolf' to disc
+[INFO]15:3:45 Abstract Number: 29
+[INFO]15:3:45 Abstract ID: S2352513415300119
+[INFO]15:3:46 Page status: 200
+[INFO]15:3:46 Souping page
+[INFO]15:3:46 Souped page
+[INFO]15:3:46 Writing 'A crustin isoform from black tiger shrimp, Penaeus monodon exhibits broad spectrum anti-bacterial activity' by 'Debashis' to disc
+[INFO]15:3:46 Written 'A crustin isoform from black tiger shrimp, Penaeus monodon exhibits broad spectrum anti-bacterial activity' to disc
+[INFO]15:3:46 Abstract Number: 30
+[INFO]15:3:46 Abstract ID: S0044848613006911
+[INFO]15:3:47 Page status: 200
+[INFO]15:3:47 Souping page
+[INFO]15:3:48 Souped page
+[INFO]15:3:48 Writing 'Comparative study of the reproductive performance and White Spot Syndrome Virus (WSSV) status of black tiger shrimp (Penaeus monodon) collected from the Bay of Bengal' by 'Partho' to disc
+[INFO]15:3:48 Written 'Comparative study of the reproductive performance and White Spot Syndrome Virus (WSSV) status of black tiger shrimp (Penaeus monodon) collected from the Bay of Bengal' to disc
+[INFO]15:3:48 Abstract Number: 31
+[INFO]15:3:48 Abstract ID: S0272771413001522
+[INFO]15:3:48 Page status: 200
+[INFO]15:3:48 Souping page
+[INFO]15:3:49 Souped page
+[INFO]15:3:49 Writing 'Impact of cyclones and aquatic macrophytes on recruitment and landings of tiger prawns Penaeus esculentus in Exmouth Gulf, Western Australia' by 'N.R.' to disc
+[INFO]15:3:49 Written 'Impact of cyclones and aquatic macrophytes on recruitment and landings of tiger prawns Penaeus esculentus in Exmouth Gulf, Western Australia' to disc
+[INFO]15:3:49 Abstract Number: 32
+[INFO]15:3:49 Abstract ID: S0042698906005323
+[INFO]15:3:50 Page status: 200
+[INFO]15:3:50 Souping page
+[INFO]15:3:51 Souped page
+[INFO]15:3:51 Writing 'Dopaminergic modulation and rod contribution in the generation of oscillatory potentials in the tiger salamander retina' by 'B.' to disc
+[INFO]15:3:51 Written 'Dopaminergic modulation and rod contribution in the generation of oscillatory potentials in the tiger salamander retina' to disc
+[INFO]15:3:51 Abstract Number: 33
+[INFO]15:3:51 Abstract ID: S1936879814013685
+[INFO]15:3:52 Page status: 200
+[INFO]15:3:52 Souping page
+[INFO]15:3:53 Souped page
+[INFO]15:3:53 Writing 'Images in InterventionLeft Ventricular Perforation During Ventriculogram Using an Optitorque Tiger Catheter' by 'Jarrod D.' to disc
+[INFO]15:3:53 Written 'Images in InterventionLeft Ventricular Perforation During Ventriculogram Using an Optitorque Tiger Catheter' to disc
+[INFO]15:3:53 Abstract Number: 34
+[INFO]15:3:53 Abstract ID: S2211124715000510
+[INFO]15:3:54 Page status: 200
+[INFO]15:3:54 Souping page
+[INFO]15:3:55 Souped page
+[INFO]15:3:55 Writing 'ArticleTiger Swallowtail Genome Reveals Mechanisms for Speciation and Caterpillar Chemical Defense' by 'Qian' to disc
+[INFO]15:3:55 Written 'ArticleTiger Swallowtail Genome Reveals Mechanisms for Speciation and Caterpillar Chemical Defense' to disc
+[INFO]15:3:55 Abstract Number: 35
+[INFO]15:3:55 Abstract ID: S0254627209600443
+[INFO]15:3:56 Page status: 200
+[INFO]15:3:56 Souping page
+[INFO]15:3:57 Souped page
+[INFO]15:3:57 Writing 'A Survey of the Studies on White Tiger Shaking Head Method Described by Ancient and Modern Physicians' by 'Gong-lei' to disc
+[INFO]15:3:57 Written 'A Survey of the Studies on White Tiger Shaking Head Method Described by Ancient and Modern Physicians' to disc
+[INFO]15:3:57 Abstract Number: 36
+[INFO]15:3:57 Abstract ID: S096098220800434X
+[INFO]15:3:58 Page status: 200
+[INFO]15:3:58 Souping page
+[INFO]15:4:0 Souped page
+[INFO]15:4:0 Writing 'ReportSubspecies Genetic Assignments of Worldwide Captive Tigers Increase Conservation Value of Captive Populations' by 'Shu-Jin' to disc
+[INFO]15:4:0 Written 'ReportSubspecies Genetic Assignments of Worldwide Captive Tigers Increase Conservation Value of Captive Populations' to disc
+[INFO]15:4:0 Abstract Number: 37
+[INFO]15:4:0 Abstract ID: S0042698904005024
+[INFO]15:4:1 Page status: 200
+[INFO]15:4:1 Souping page
+[INFO]15:4:2 Souped page
+[INFO]15:4:2 Writing 'Characterization of displaced bipolar cells in the tiger salamander retina' by 'Bruce R.' to disc
+[INFO]15:4:2 Written 'Characterization of displaced bipolar cells in the tiger salamander retina' to disc
+[INFO]15:4:2 Abstract Number: 38
+[INFO]15:4:2 Abstract ID: S1877042812053074
+[INFO]15:4:4 Page status: 200
+[INFO]15:4:4 Souping page
+[INFO]15:4:5 Souped page
+[INFO]15:4:5 Writing 'Design ond Implementation of Zoopedia: Behaviour of Non Playable Character (NPC) of Tiger Hunting the Prey\xe2\x98\x86' by 'Heri Ahmad' to disc
+[INFO]15:4:5 Written 'Design ond Implementation of Zoopedia: Behaviour of Non Playable Character (NPC) of Tiger Hunting the Prey\xe2\x98\x86' to disc
+[INFO]15:4:5 Abstract Number: 39
+[INFO]15:4:5 Abstract ID: S0960982210015824
+[INFO]15:4:6 Page status: 200
+[INFO]15:4:6 Souping page
+[INFO]15:4:7 Souped page
+[INFO]15:4:7 Writing 'News focusNew support for polar bears and tigers' by 'Nigel' to disc
+[INFO]15:4:7 Written 'News focusNew support for polar bears and tigers' to disc
+[INFO]15:4:7 Abstract Number: 40
+[INFO]15:4:7 Abstract ID: S2352771415300161
+[INFO]15:4:9 Page status: 200
+[INFO]15:4:9 Souping page
+[INFO]15:4:10 Souped page
+[INFO]15:4:10 Writing 'Ten years of the Tiger: Aedes albopictus presence in Australia since its discovery in the Torres Strait in 2005' by 'Andrew F.' to disc
+[INFO]15:4:10 Written 'Ten years of the Tiger: Aedes albopictus presence in Australia since its discovery in the Torres Strait in 2005' to disc
+[INFO]15:4:10 Abstract Number: 41
+[INFO]15:4:10 Abstract ID: S0960982209017758
+[INFO]15:4:11 Page status: 200
+[INFO]15:4:11 Souping page
+[INFO]15:4:12 Souped page
+[INFO]15:4:12 Writing 'ReportGenetic Assimilation and the Postcolonization Erosion of Phenotypic Plasticity in Island Tiger Snakes' by 'Fabien' to disc
+[INFO]15:4:12 Written 'ReportGenetic Assimilation and the Postcolonization Erosion of Phenotypic Plasticity in Island Tiger Snakes' to disc
+[INFO]15:4:12 Abstract Number: 42
+[INFO]15:4:12 Abstract ID: S0042698908004835
+[INFO]15:4:13 Page status: 200
+[INFO]15:4:13 Souping page
+[INFO]15:4:13 Souped page
+[INFO]15:4:14 Writing 'Immunocytochemical analysis of photoreceptors in the tiger salamander retina' by 'Jian' to disc
+[INFO]15:4:14 Written 'Immunocytochemical analysis of photoreceptors in the tiger salamander retina' to disc
+[INFO]15:4:14 Abstract Number: 43
+[INFO]15:4:14 Abstract ID: S0044848615000654
+[INFO]15:4:14 Page status: 200
+[INFO]15:4:14 Souping page
+[INFO]15:4:15 Souped page
+[INFO]15:4:15 Writing 'Farm-raised tiger shrimp, Penaeus monodon, fed commercial feeds with added organic acids showed enhanced nutrient utilization, immune response and resistance to Vibrio harveyi challenge' by 'Wing-Keong' to disc
+[INFO]15:4:15 Written 'Farm-raised tiger shrimp, Penaeus monodon, fed commercial feeds with added organic acids showed enhanced nutrient utilization, immune response and resistance to Vibrio harveyi challenge' to disc
+[INFO]15:4:15 Abstract Number: 44
+[INFO]15:4:15 Abstract ID: S0042698907000818
+[INFO]15:4:15 Page status: 200
+[INFO]15:4:15 Souping page
+[INFO]15:4:16 Souped page
+[INFO]15:4:16 Writing 'Morphological and optical properties of the corneal lens and retinal structure in the posterior large stemma of the tiger beetle larva' by 'Yoshihiro' to disc
+[INFO]15:4:16 Written 'Morphological and optical properties of the corneal lens and retinal structure in the posterior large stemma of the tiger beetle larva' to disc
+[INFO]15:4:16 Abstract Number: 45
+[INFO]15:4:16 Abstract ID: S1877042810013170
+[INFO]15:4:17 Page status: 200
+[INFO]15:4:17 Souping page
+[INFO]15:4:18 Souped page
+[INFO]15:4:18 Writing 'Sixth International Conference on Sensitivity Analysis of Model OutputWhat do tigers and backswimmers have in common? an analysis of structure and sensitivity in individual-based models' by 'Muhammad Ali' to disc
+[INFO]15:4:18 Written 'Sixth International Conference on Sensitivity Analysis of Model OutputWhat do tigers and backswimmers have in common? an analysis of structure and sensitivity in individual-based models' to disc
+[INFO]15:4:18 Abstract Number: 46
+[INFO]15:4:18 Abstract ID: S2352513415000071
+[INFO]15:4:18 Page status: 200
+[INFO]15:4:18 Souping page
+[INFO]15:4:19 Souped page
+[INFO]15:4:19 Writing 'Short communicationExpression of Toll-like receptors (TLR), in lymphoid organ of black tiger shrimp (Penaeus monodon) in response to Vibrio harveyi infection' by 'Mundanda Muthappa' to disc
+[INFO]15:4:19 Written 'Short communicationExpression of Toll-like receptors (TLR), in lymphoid organ of black tiger shrimp (Penaeus monodon) in response to Vibrio harveyi infection' to disc
+[INFO]15:4:19 Abstract Number: 47
+[INFO]15:4:19 Abstract ID: S1679007314000115
+[INFO]15:4:20 Page status: 200
+[INFO]15:4:20 Souping page
+[INFO]15:4:20 Souped page
+[INFO]15:4:20 Writing 'Research LettersRichness and composition of tiger moths (Erebidae: Arctiinae) in a Neotropical savanna: are heterogeneous habitats richer in species?' by 'Carolina' to disc
+[INFO]15:4:20 Written 'Research LettersRichness and composition of tiger moths (Erebidae: Arctiinae) in a Neotropical savanna: are heterogeneous habitats richer in species?' to disc
+[INFO]15:4:20 Abstract Number: 48
+[INFO]15:4:20 Abstract ID: S0042698996002313
+[INFO]15:4:21 Page status: 200
+[INFO]15:4:21 Souping page
+[INFO]15:4:22 Souped page
+[INFO]15:4:22 Writing 'Characterization of Glutamate Transporter Function in the Tiger Salamander Retina' by 'JUN-HAI' to disc
+[INFO]15:4:22 Written 'Characterization of Glutamate Transporter Function in the Tiger Salamander Retina' to disc
+[INFO]15:4:22 Abstract Number: 49
+[INFO]15:4:22 Abstract ID: S0042698996001265
+[INFO]15:4:22 Page status: 200
+[INFO]15:4:22 Souping page
+[INFO]15:4:23 Souped page
+[INFO]15:4:23 Writing 'Synaptic inputs mediating bipolar cell responses in the tiger salamander retina' by 'Bruce R.' to disc
+[INFO]15:4:23 Written 'Synaptic inputs mediating bipolar cell responses in the tiger salamander retina' to disc
+[INFO]15:4:23 Abstract Number: 50
+[INFO]15:4:23 Abstract ID: S1201971214010339
+[INFO]15:4:24 Page status: 200
+[INFO]15:4:24 Souping page
+[INFO]15:4:24 Souped page
+[INFO]15:4:25 Writing 'Type: Oral PresentationStudy on pathogenesis and genetic characterization of HPAI H5N1 isolated from a tiger in China' by 'M.' to disc
+[INFO]15:4:25 Written 'Type: Oral PresentationStudy on pathogenesis and genetic characterization of HPAI H5N1 isolated from a tiger in China' to disc
+[INFO]15:4:25 Abstract Number: 51
+[INFO]15:4:25 Abstract ID: S2451943X17301163
+[INFO]15:4:25 Page status: 200
+[INFO]15:4:25 Souping page
+[INFO]15:4:26 Souped page
+[INFO]15:4:26 Writing 'An assessment of health management practices and occupational health hazards in tiger shrimp (Penaeus monodon) and freshwater prawn (Macrobrachium rosenbergii) aquaculture in Bangladesh' by 'Hazrat' to disc
+[INFO]15:4:26 Written 'An assessment of health management practices and occupational health hazards in tiger shrimp (Penaeus monodon) and freshwater prawn (Macrobrachium rosenbergii) aquaculture in Bangladesh' to disc
+[INFO]15:4:26 Abstract Number: 52
+[INFO]15:4:26 Abstract ID: S0042682201912450
+[INFO]15:4:27 Page status: 200
+[INFO]15:4:27 Souping page
+[INFO]15:4:27 Souped page
+[INFO]15:4:27 Writing 'Regular ArticleSequence Analysis of the Complete Genome of an Iridovirus Isolated from the Tiger Frog' by 'Jian G.' to disc
+[INFO]15:4:27 Written 'Regular ArticleSequence Analysis of the Complete Genome of an Iridovirus Isolated from the Tiger Frog' to disc
+[INFO]15:4:27 Abstract Number: 53
+[INFO]15:4:27 Abstract ID: S2351989417302615
+[INFO]15:4:28 Page status: 200
+[INFO]15:4:28 Souping page
+[INFO]15:4:29 Souped page
+[INFO]15:4:29 Writing "Original Research ArticleA review of bear farming and bear trade in Lao People's Democratic Republic" by 'E.' to disc
+[INFO]15:4:29 Written "Original Research ArticleA review of bear farming and bear trade in Lao People's Democratic Republic" to disc
+[INFO]15:4:29 Abstract Number: 54
+[INFO]15:4:29 Abstract ID: S152573041830192X
+[INFO]15:4:29 Page status: 200
+[INFO]15:4:29 Souping page
+[INFO]15:4:30 Souped page
+[INFO]15:4:30 Writing 'Original StudyCell-Free DNA NGS Prediction of Response and Resistance to a 3rd-Generation EGFR Inhibitor' by 'Elena' to disc
+[INFO]15:4:30 Written 'Original StudyCell-Free DNA NGS Prediction of Response and Resistance to a 3rd-Generation EGFR Inhibitor' to disc
+[INFO]15:4:30 Abstract Number: 55
+[INFO]15:4:30 Abstract ID: S0735109710023727
+[INFO]15:4:31 Page status: 200
+[INFO]15:4:31 Souping page
+[INFO]15:4:32 Souped page
+[INFO]15:4:32 Writing 'Images in CardiologyLeft Ventricular Outflow Tract Ectopy: Tiger Territory' by 'Malini' to disc
+[INFO]15:4:32 Written 'Images in CardiologyLeft Ventricular Outflow Tract Ectopy: Tiger Territory' to disc
+[INFO]15:4:32 Abstract Number: 56
+[INFO]15:4:32 Abstract ID: S0042682205002692
+[INFO]15:4:32 Page status: 200
+[INFO]15:4:32 Souping page
+[INFO]15:4:33 Souped page
+[INFO]15:4:33 Writing 'Inhibition of reporter gene and Iridovirus-tiger frog virus in fish cell by RNA interference' by 'Junfeng' to disc
+[INFO]15:4:33 Written 'Inhibition of reporter gene and Iridovirus-tiger frog virus in fish cell by RNA interference' to disc
+[INFO]15:4:33 Abstract Number: 57
+[INFO]15:4:33 Abstract ID: S2095754816300102
+[INFO]15:4:34 Page status: 200
+[INFO]15:4:34 Souping page
+[INFO]15:4:34 Souped page
+[INFO]15:4:34 Writing 'Property combination patterns of traditional Chinese medicines' by 'Yanan' to disc
+[INFO]15:4:34 Written 'Property combination patterns of traditional Chinese medicines' to disc
+[INFO]15:4:34 Abstract Number: 58
+[INFO]15:4:34 Abstract ID: S1074761306005115
+[INFO]15:4:35 Page status: 200
+[INFO]15:4:35 Souping page
+[INFO]15:4:36 Souped page
+[INFO]15:4:36 Writing 'ArticleExpression of Interleukin-10 in Intestinal Lymphocytes Detected by an Interleukin-10 Reporter Knockin tiger Mouse' by 'Masahito' to disc
+[INFO]15:4:36 Written 'ArticleExpression of Interleukin-10 in Intestinal Lymphocytes Detected by an Interleukin-10 Reporter Knockin tiger Mouse' to disc
+[INFO]15:4:36 Abstract Number: 59
+[INFO]15:4:36 Abstract ID: S0960982298702106
+[INFO]15:4:36 Page status: 200
+[INFO]15:4:36 Souping page
+[INFO]15:4:37 Souped page
+[INFO]15:4:37 Writing 'MagazineThe buffalo that would be a tiger' by 'K' to disc
+[INFO]15:4:37 Written 'MagazineThe buffalo that would be a tiger' to disc
+[INFO]15:4:37 Abstract Number: 60
+[INFO]15:4:37 Abstract ID: S2352146517307731
+[INFO]15:4:38 Page status: 200
+[INFO]15:4:38 Souping page
+[INFO]15:4:38 Souped page
+[INFO]15:4:38 Writing 'Port and hinterland network: a case study of the Crescent Corridor intermodal freight program in the US' by 'Junko' to disc
+[INFO]15:4:38 Written 'Port and hinterland network: a case study of the Crescent Corridor intermodal freight program in the US' to disc
+[INFO]15:4:38 Abstract Number: 61
+[INFO]15:4:38 Abstract ID: S0091743515000171
+[INFO]15:4:39 Page status: 200
+[INFO]15:4:39 Souping page
+[INFO]15:4:40 Souped page
+[INFO]15:4:40 Writing 'Hyper-parenting is negatively associated with physical activity among 7\xe2\x80\x9312\xc2\xa0year olds' by 'Ian' to disc
+[INFO]15:4:40 Written 'Hyper-parenting is negatively associated with physical activity among 7\xe2\x80\x9312\xc2\xa0year olds' to disc
+[INFO]15:4:40 Abstract Number: 62
+[INFO]15:4:40 Abstract ID: S1201971208007066
+[INFO]15:4:40 Page status: 200
+[INFO]15:4:40 Souping page
+[INFO]15:4:41 Souped page
+[INFO]15:4:41 Writing '40.064Prevalence and Risks of Vibrio parahaemolyticus in Black Tiger Shrimp (Penaeus monodon)' by 'N. Abdullah' to disc
+[INFO]15:4:41 Written '40.064Prevalence and Risks of Vibrio parahaemolyticus in Black Tiger Shrimp (Penaeus monodon)' to disc
+[INFO]15:4:41 Abstract Number: 63
+[INFO]15:4:41 Abstract ID: S0042698999001121
+[INFO]15:4:42 Page status: 200
+[INFO]15:4:42 Souping page
+[INFO]15:4:43 Souped page
+[INFO]15:4:43 Writing 'Section 1Anatomical and electrophysiological evidence for GABAergic bipolar cells in tiger salamander retina' by 'Chen-Yu' to disc
+[INFO]15:4:43 Written 'Section 1Anatomical and electrophysiological evidence for GABAergic bipolar cells in tiger salamander retina' to disc
+[INFO]15:4:43 Abstract Number: 64
+[INFO]15:4:43 Abstract ID: S2468600X16300287
+[INFO]15:4:43 Page status: 200
+[INFO]15:4:43 Souping page
+[INFO]15:4:44 Souped page
+[INFO]15:4:44 Writing 'Case ReportJL 3.5/4 as a multipurpose guiding catheter for simultaneous multivessel (left and right) transradial PCI' by 'Suresh' to disc
+[INFO]15:4:44 Written 'Case ReportJL 3.5/4 as a multipurpose guiding catheter for simultaneous multivessel (left and right) transradial PCI' to disc
+[INFO]15:4:44 Abstract Number: 65
+[INFO]15:4:44 Abstract ID: S207815201630027X
+[INFO]15:4:44 Page status: 200
+[INFO]15:4:44 Souping page
+[INFO]15:4:45 Souped page
+[INFO]15:4:45 Writing 'Behavior of Brown Bears During Feeding in the Sikhote-Alin' by 'Ivan V.' to disc
+[INFO]15:4:45 Written 'Behavior of Brown Bears During Feeding in the Sikhote-Alin' to disc
+[INFO]15:4:45 Abstract Number: 66
+[INFO]15:4:45 Abstract ID: S1534580708000403
+[INFO]15:4:46 Page status: 200
+[INFO]15:4:46 Souping page
+[INFO]15:4:46 Souped page
+[INFO]15:4:46 Writing 'PreviewTaming the Tiger of Tissue Aggregation: How Epithelia Control Structural Assembly of Underlying Cells' by 'Lance A.' to disc
+[INFO]15:4:46 Written 'PreviewTaming the Tiger of Tissue Aggregation: How Epithelia Control Structural Assembly of Underlying Cells' to disc
+[INFO]15:4:46 Abstract Number: 67
+[INFO]15:4:46 Abstract ID: 0014579383802208
+[INFO]15:4:47 Page status: 200
+[INFO]15:4:47 Souping page
+[INFO]15:4:48 Souped page
+[INFO]15:4:48 Writing 'The observation of quasi-molecular ions from a tiger snake venom component (Mr 13 309) using 252Cf-plasma desorption mass spectrometry' by 'I.' to disc
+[INFO]15:4:48 Written 'The observation of quasi-molecular ions from a tiger snake venom component (Mr 13 309) using 252Cf-plasma desorption mass spectrometry' to disc
+[INFO]15:4:48 Abstract Number: 68
+[INFO]15:4:48 Abstract ID: S2351989418300052
+[INFO]15:4:49 Page status: 200
+[INFO]15:4:49 Souping page
+[INFO]15:4:49 Souped page
+[INFO]15:4:49 Writing 'Original Research ArticleObservations of illegal wildlife trade in Boten, a Chinese border town within a Specific Economic Zone in northern Lao PDR' by 'Kanitha' to disc
+[INFO]15:4:49 Written 'Original Research ArticleObservations of illegal wildlife trade in Boten, a Chinese border town within a Specific Economic Zone in northern Lao PDR' to disc
+[INFO]15:4:49 Abstract Number: 69
+[INFO]15:4:49 Abstract ID: S0042698907001745
+[INFO]15:4:50 Page status: 200
+[INFO]15:4:50 Souping page
+[INFO]15:4:51 Souped page
+[INFO]15:4:51 Writing 'Anisotropy for spatial summation of elongated patches of grating: A tale of two tails' by 'Tim S.' to disc
+[INFO]15:4:51 Written 'Anisotropy for spatial summation of elongated patches of grating: A tale of two tails' to disc
+[INFO]15:4:51 Abstract Number: 70
+[INFO]15:4:51 Abstract ID: S004269899800100X
+[INFO]15:4:51 Page status: 200
+[INFO]15:4:51 Souping page
+[INFO]15:4:52 Souped page
+[INFO]15:4:52 Writing 'Rapid communication\xce\xb3-Aminobutyric acid transporter-mediated current from bipolar cells in tiger salamander retinal slices' by 'Chen-Yu' to disc
+[INFO]15:4:52 Written 'Rapid communication\xce\xb3-Aminobutyric acid transporter-mediated current from bipolar cells in tiger salamander retinal slices' to disc
+[INFO]15:4:52 Abstract Number: 71
+[INFO]15:4:52 Abstract ID: S1098301511022182
+[INFO]15:4:53 Page status: 200
+[INFO]15:4:53 Souping page
+[INFO]15:4:54 Souped page
+[INFO]15:4:54 Writing 'ISPOR 14th annual European congress research abstractPoster session II: Health care use & policy studies \xe2\x80\x93 Health care costs & managementPHP105 Cost-Effectiveness in Drug Reimbursement Decision Making: A Toothless Tiger?' by 'M.' to disc
+[INFO]15:4:54 Written 'ISPOR 14th annual European congress research abstractPoster session II: Health care use & policy studies \xe2\x80\x93 Health care costs & managementPHP105 Cost-Effectiveness in Drug Reimbursement Decision Making: A Toothless Tiger?' to disc
+[INFO]15:4:54 Abstract Number: 72
+[INFO]15:4:54 Abstract ID: 0014579381807600
+[INFO]15:4:54 Page status: 200
+[INFO]15:4:54 Souping page
+[INFO]15:4:55 Souped page
+[INFO]15:4:55 Writing 'Research letterOn the primary and tertiary structure of relaxin from the sand tiger shark (Odontaspis taurus)' by 'L.K.' to disc
+[INFO]15:4:55 Written 'Research letterOn the primary and tertiary structure of relaxin from the sand tiger shark (Odontaspis taurus)' to disc
+[INFO]15:4:55 Abstract Number: 73
+[INFO]15:4:55 Abstract ID: 0014579381809222
+[INFO]15:4:55 Page status: 200
+[INFO]15:4:55 Souping page
+[INFO]15:4:56 Souped page
+[INFO]15:4:56 Writing 'ErrataOn the primary and tertiary structure of relaxin from the sand tiger shark(Odontaspis taurus)' by Author not available to disc
+[INFO]15:4:56 Written 'ErrataOn the primary and tertiary structure of relaxin from the sand tiger shark(Odontaspis taurus)' to disc
+[INFO]15:4:56 Abstract Number: 74
+[INFO]15:4:56 Abstract ID: S0730725X16302697
+[INFO]15:4:57 Page status: 200
+[INFO]15:4:57 Souping page
+[INFO]15:4:58 Souped page
+[INFO]15:4:58 Writing 'Technical noteFree breathing whole-heart 3D CINE MRI with self-gated Cartesian trajectory' by 'M.' to disc
+[INFO]15:4:58 Written 'Technical noteFree breathing whole-heart 3D CINE MRI with self-gated Cartesian trajectory' to disc
+[INFO]15:4:58 Abstract Number: 75
+[INFO]15:4:58 Abstract ID: S2468550X17300898
+[INFO]15:4:58 Page status: 200
+[INFO]15:4:58 Souping page
+[INFO]15:4:59 Souped page
+[INFO]15:4:59 Writing 'Social-ecological dynamics of the small scale fisheries in Sundarban Mangrove Forest, Bangladesh' by 'Mohammad Mojibul' to disc
+[INFO]15:4:59 Written 'Social-ecological dynamics of the small scale fisheries in Sundarban Mangrove Forest, Bangladesh' to disc
+[INFO]15:4:59 Abstract Number: 76
+[INFO]15:4:59 Abstract ID: S2215017X15000259
+[INFO]15:5:0 Page status: 200
+[INFO]15:5:0 Souping page
+[INFO]15:5:0 Souped page
+[INFO]15:5:0 Writing 'White spot syndrome virus infection: Threat to crustacean biodiversity in Vembanad Lake, India' by 'Toms C.' to disc
+[INFO]15:5:1 Written 'White spot syndrome virus infection: Threat to crustacean biodiversity in Vembanad Lake, India' to disc
+[INFO]15:5:1 Abstract Number: 77
+[INFO]15:5:1 Abstract ID: S1535610817302052
+[INFO]15:5:1 Page status: 200
+[INFO]15:5:1 Souping page
+[INFO]15:5:2 Souped page
+[INFO]15:5:2 Writing 'ArticleCommon Molecular Subtypes Among Asian Hepatocellular Carcinoma and Cholangiocarcinoma' by 'Jittiporn' to disc
+[INFO]15:5:2 Written 'ArticleCommon Molecular Subtypes Among Asian Hepatocellular Carcinoma and Cholangiocarcinoma' to disc
+[INFO]15:5:2 Abstract Number: 78
+[INFO]15:5:2 Abstract ID: 001457938980780X
+[INFO]15:5:3 Page status: 200
+[INFO]15:5:3 Souping page
+[INFO]15:5:4 Souped page
+[INFO]15:5:4 Writing 'Immunological properties of notexin, a potent presynaptic and myotoxic component from venom of the Australian tiger snake Notechis scutatus scutatus' by 'Pascale' to disc
+[INFO]15:5:4 Written 'Immunological properties of notexin, a potent presynaptic and myotoxic component from venom of the Australian tiger snake Notechis scutatus scutatus' to disc
+[INFO]15:5:4 Abstract Number: 79
+[INFO]15:5:4 Abstract ID: S0377840116302577
+[INFO]15:5:4 Page status: 200
+[INFO]15:5:4 Souping page
+[INFO]15:5:5 Souped page
+[INFO]15:5:5 Writing 'Sodium metabisulphite enhances energy utilisation in broiler chickens offered sorghum-based diets with five different grain varieties' by 'Ha H.' to disc
+[INFO]15:5:5 Written 'Sodium metabisulphite enhances energy utilisation in broiler chickens offered sorghum-based diets with five different grain varieties' to disc
+[INFO]15:5:5 Abstract Number: 80
+[INFO]15:5:5 Abstract ID: S0925492715301426
+[INFO]15:5:6 Page status: 200
+[INFO]15:5:6 Souping page
+[INFO]15:5:7 Souped page
+[INFO]15:5:7 Writing 'Low serotonin1B receptor binding potential in the anterior cingulate cortex in drug-free patients with recurrent major depressive disorder' by 'Mikael' to disc
+[INFO]15:5:7 Written 'Low serotonin1B receptor binding potential in the anterior cingulate cortex in drug-free patients with recurrent major depressive disorder' to disc
+[INFO]15:5:7 Abstract Number: 81
+[INFO]15:5:7 Abstract ID: S1110982315000733
+[INFO]15:5:7 Page status: 200
+[INFO]15:5:7 Souping page
+[INFO]15:5:8 Souped page
+[INFO]15:5:8 Writing 'Research PaperEstimation of accumulated soil organic carbon stock in tropical forest using geospatial strategy' by 'Pavan' to disc
+[INFO]15:5:8 Written 'Research PaperEstimation of accumulated soil organic carbon stock in tropical forest using geospatial strategy' to disc
+[INFO]15:5:8 Abstract Number: 82
+[INFO]15:5:8 Abstract ID: S2351989415300421
+[INFO]15:5:9 Page status: 200
+[INFO]15:5:9 Souping page
+[INFO]15:5:9 Souped page
+[INFO]15:5:10 Writing 'Review paperUnder what circumstances can wildlife farming benefit species conservation?' by 'Laura' to disc
+[INFO]15:5:10 Written 'Review paperUnder what circumstances can wildlife farming benefit species conservation?' to disc
+[INFO]15:5:10 Abstract Number: 83
+[INFO]15:5:10 Abstract ID: S2351989414000055
+[INFO]15:5:10 Page status: 200
+[INFO]15:5:10 Souping page
+[INFO]15:5:11 Souped page
+[INFO]15:5:11 Writing 'Original research articleVulnerability of oceanic sharks as pelagic longline bycatch' by 'A.J.' to disc
+[INFO]15:5:11 Written 'Original research articleVulnerability of oceanic sharks as pelagic longline bycatch' to disc
+[INFO]15:5:11 Abstract Number: 84
+[INFO]15:5:11 Abstract ID: S187704281202719X
+[INFO]15:5:11 Page status: 200
+[INFO]15:5:11 Souping page
+[INFO]15:5:12 Souped page
+[INFO]15:5:12 Writing 'Facing up the Congestion and Environmental Challenges of Europe' by 'Franco' to disc
+[INFO]15:5:12 Written 'Facing up the Congestion and Environmental Challenges of Europe' to disc
+[INFO]15:5:12 Abstract Number: 85
+[INFO]15:5:12 Abstract ID: S1556086416305871
+[INFO]15:5:13 Page status: 200
+[INFO]15:5:13 Souping page
+[INFO]15:5:14 Souped page
+[INFO]15:5:14 Writing 'Original ArticleTranslational OncologyA Highly Sensitive and Quantitative Test Platform for Detection of NSCLC EGFR Mutations in Urine and Plasma' by 'Karen L.' to disc
+[INFO]15:5:14 Written 'Original ArticleTranslational OncologyA Highly Sensitive and Quantitative Test Platform for Detection of NSCLC EGFR Mutations in Urine and Plasma' to disc
+[INFO]15:5:14 Abstract Number: 86
+[INFO]15:5:14 Abstract ID: S0022202X15371293
+[INFO]15:5:14 Page status: 200
+[INFO]15:5:14 Souping page
+[INFO]15:5:15 Souped page
+[INFO]15:5:15 Writing 'Original ArticleMutations in the TTDN1 Gene Are Associated with a Distinct Trichothiodystrophy Phenotype' by 'Elizabeth R.' to disc
+[INFO]15:5:15 Written 'Original ArticleMutations in the TTDN1 Gene Are Associated with a Distinct Trichothiodystrophy Phenotype' to disc
+[INFO]15:5:15 Abstract Number: 87
+[INFO]15:5:15 Abstract ID: S1000936115000333
+[INFO]15:5:16 Page status: 200
+[INFO]15:5:16 Souping page
+[INFO]15:5:17 Souped page
+[INFO]15:5:17 Writing 'RESEARCH ARTICLE (INVITED)A new landing impact attenuation seat in manned spacecraft biologically-inspired by felids' by 'Hui' to disc
+[INFO]15:5:17 Written 'RESEARCH ARTICLE (INVITED)A new landing impact attenuation seat in manned spacecraft biologically-inspired by felids' to disc
+[INFO]15:5:17 Abstract Number: 88
+[INFO]15:5:17 Abstract ID: S2352771415000087
+[INFO]15:5:17 Page status: 200
+[INFO]15:5:17 Souping page
+[INFO]15:5:18 Souped page
+[INFO]15:5:18 Writing 'Cross-species transmission of canine distemper virus\xe2\x80\x94an update' by 'Andreas' to disc
+[INFO]15:5:18 Written 'Cross-species transmission of canine distemper virus\xe2\x80\x94an update' to disc
+[INFO]15:5:18 Abstract Number: 89
+[INFO]15:5:18 Abstract ID: S2352340918303780
+[INFO]15:5:19 Page status: 200
+[INFO]15:5:19 Souping page
+[INFO]15:5:19 Souped page
+[INFO]15:5:19 Writing 'Data ArticleData obtained with a novel approach to estimate installment loan acquisition costs' by 'Onyumbe Enumbe B.' to disc
+[INFO]15:5:19 Written 'Data ArticleData obtained with a novel approach to estimate installment loan acquisition costs' to disc
+[INFO]15:5:19 Abstract Number: 90
+[INFO]15:5:19 Abstract ID: 0014579376809052
+[INFO]15:5:20 Page status: 200
+[INFO]15:5:20 Souping page
+[INFO]15:5:21 Souped page
+[INFO]15:5:21 Writing 'Isolation of A non-neurotoxic, non-enzymatic phospholipase a homologue from the venom of the australian tiger snake Notechis scutatus scutatus' by 'James' to disc
+[INFO]15:5:21 Written 'Isolation of A non-neurotoxic, non-enzymatic phospholipase a homologue from the venom of the australian tiger snake Notechis scutatus scutatus' to disc
+[INFO]15:5:21 Abstract Number: 91
+[INFO]15:5:21 Abstract ID: S0887617799800158
+[INFO]15:5:21 Page status: 200
+[INFO]15:5:21 Souping page
+[INFO]15:5:22 Souped page
+[INFO]15:5:22 Writing "Neurologic conditions and geriatric neuropsychologyLions, tigers, and bears, oh no! Differential effects of demographic variables on category fluency in Alzheimer's disease" by 'D.B.' to disc
+[INFO]15:5:22 Written "Neurologic conditions and geriatric neuropsychologyLions, tigers, and bears, oh no! Differential effects of demographic variables on category fluency in Alzheimer's disease" to disc
+[INFO]15:5:22 Abstract Number: 92
+[INFO]15:5:22 Abstract ID: S0960982215015171
+[INFO]15:5:23 Page status: 200
+[INFO]15:5:23 Souping page
+[INFO]15:5:24 Souped page
+[INFO]15:5:24 Writing 'CorrespondenceMorbid attraction to leopard urine in Toxoplasma-infected chimpanzees' by 'Cl\xc3\xa9mence' to disc
+[INFO]15:5:24 Written 'CorrespondenceMorbid attraction to leopard urine in Toxoplasma-infected chimpanzees' to disc
+[INFO]15:5:24 Abstract Number: 93
+[INFO]15:5:24 Abstract ID: S1021949813000434
+[INFO]15:5:24 Page status: 200
+[INFO]15:5:24 Souping page
+[INFO]15:5:25 Souped page
+[INFO]15:5:25 Writing 'Original ArticleAuthenticating the use of dried seahorses in the traditional Chinese medicine market in Taiwan using molecular forensics' by 'Chia-Hao' to disc
+[INFO]15:5:25 Written 'Original ArticleAuthenticating the use of dried seahorses in the traditional Chinese medicine market in Taiwan using molecular forensics' to disc
+[INFO]15:5:25 Abstract Number: 94
+[INFO]15:5:25 Abstract ID: S0006349506719750
+[INFO]15:5:26 Page status: 200
+[INFO]15:5:26 Souping page
+[INFO]15:5:26 Souped page
+[INFO]15:5:26 Writing 'Investigating Mechanisms of Collagen Thermal Denaturation by High Resolution Second-Harmonic Generation Imaging' by 'Yen' to disc
+[INFO]15:5:26 Written 'Investigating Mechanisms of Collagen Thermal Denaturation by High Resolution Second-Harmonic Generation Imaging' to disc
+[INFO]15:5:26 Abstract Number: 95
+[INFO]15:5:26 Abstract ID: S2049080115001144
+[INFO]15:5:27 Page status: 200
+[INFO]15:5:27 Souping page
+[INFO]15:5:28 Souped page
+[INFO]15:5:28 Writing 'Case reportFirst report of co-morbidity of pantothenate kinase-associated neurodegeneration and three types of chronic hemolytic anemias' by 'Iman M.' to disc
+[INFO]15:5:28 Written 'Case reportFirst report of co-morbidity of pantothenate kinase-associated neurodegeneration and three types of chronic hemolytic anemias' to disc
+[INFO]15:5:28 Abstract Number: 96
+[INFO]15:5:28 Abstract ID: S2352513416300485
+[INFO]15:5:28 Page status: 200
+[INFO]15:5:28 Souping page
+[INFO]15:5:29 Souped page
+[INFO]15:5:29 Writing 'Effect of temperature and diet on growth and gastric emptying time of the hybrid, Epinephelus fuscoguttatus \xe2\x99\x80\xc2\xa0\xc3\x97\xc2\xa0E. lanceolatus \xe2\x99\x82' by 'Moumita' to disc
+[INFO]15:5:29 Written 'Effect of temperature and diet on growth and gastric emptying time of the hybrid, Epinephelus fuscoguttatus \xe2\x99\x80\xc2\xa0\xc3\x97\xc2\xa0E. lanceolatus \xe2\x99\x82' to disc
+[INFO]15:5:29 Abstract Number: 97
+[INFO]15:5:29 Abstract ID: S2351989415000426
+[INFO]15:5:30 Page status: 200
+[INFO]15:5:30 Souping page
+[INFO]15:5:31 Souped page
+[INFO]15:5:31 Writing 'Original research articleConservation inequality and the charismatic cat: Felis felicis' by 'E.A.' to disc
+[INFO]15:5:31 Written 'Original research articleConservation inequality and the charismatic cat: Felis felicis' to disc
+[INFO]15:5:31 Abstract Number: 98
+[INFO]15:5:31 Abstract ID: S0094576514000320
+[INFO]15:5:31 Page status: 200
+[INFO]15:5:31 Souping page
+[INFO]15:5:32 Souped page
+[INFO]15:5:32 Writing 'Testing Mars Exploration Rover-inspired operational strategies for semi-autonomous rovers on the moon II: The GeoHeuristic operational Strategies Test in Alaska' by 'R.A.' to disc
+[INFO]15:5:32 Written 'Testing Mars Exploration Rover-inspired operational strategies for semi-autonomous rovers on the moon II: The GeoHeuristic operational Strategies Test in Alaska' to disc
+[INFO]15:5:32 Abstract Number: 99
+[INFO]15:5:32 Abstract ID: 0014579376801743
+[INFO]15:5:33 Page status: 200
+[INFO]15:5:33 Souping page
+[INFO]15:5:33 Souped page
+[INFO]15:5:33 Writing 'The role of phospholipase activity in the action of a presynaptic neurotoxin from the venom of Notechis scutatus scutatus (australian tiger snake)' by 'Jaines' to disc
+[INFO]15:5:33 Written 'The role of phospholipase activity in the action of a presynaptic neurotoxin from the venom of Notechis scutatus scutatus (australian tiger snake)' to disc
+[INFO]15:5:33 Abstract Number: 100
+[INFO]15:5:33 Abstract ID: S0094576517312651
+[INFO]15:5:34 Page status: 200
+[INFO]15:5:34 Souping page
+[INFO]15:5:35 Souped page
+[INFO]15:5:35 Writing 'Testing the efficiency of rover science protocols for robotic sample selection: A GeoHeuristic Operational Strategies Test' by 'R.A.' to disc
+[INFO]15:5:35 Written 'Testing the efficiency of rover science protocols for robotic sample selection: A GeoHeuristic Operational Strategies Test' to disc

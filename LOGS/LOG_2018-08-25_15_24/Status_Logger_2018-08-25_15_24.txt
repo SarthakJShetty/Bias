@@ -1,0 +1,710 @@
+Session: 25/8/2018
+Time: 15:24:39
+[INFO]15:24:39 Built LOG folder for session
+[INFO]15:24:40 Page status: 200
+[INFO]15:24:40 Souping page
+[INFO]15:24:42 Souped page
+[INFO]15:24:42 Scraping IDs
+[INFO]15:24:44 Scraped IDs
+[INFO]15:24:44 Extracting Abstract IDs from disc
+[INFO]15:24:44 Extracted Abstract IDs from disc
+[INFO]15:24:44 Abstract Number: 1
+[INFO]15:24:44 Abstract ID: S1877050918310056
+[INFO]15:24:45 Page status: 200
+[INFO]15:24:45 Souping page
+[INFO]15:24:46 Souped page
+[INFO]15:24:46 Writing 'A Survey on Swarm Robotic Modeling, Analysis and Hardware Architecture' by 'Seeja' to disc
+[INFO]15:24:46 Written 'A Survey on Swarm Robotic Modeling, Analysis and Hardware Architecture' to disc
+[INFO]15:24:46 Abstract Number: 2
+[INFO]15:24:46 Abstract ID: S1877050916308468
+[INFO]15:24:48 Page status: 200
+[INFO]15:24:48 Souping page
+[INFO]15:24:49 Souped page
+[INFO]15:24:49 Writing 'Efficient Strategy for Collective Navigation Control in Swarm Robotics\xe2\x98\x86' by 'Luneque Silva' to disc
+[INFO]15:24:49 Written 'Efficient Strategy for Collective Navigation Control in Swarm Robotics\xe2\x98\x86' to disc
+[INFO]15:24:49 Abstract Number: 3
+[INFO]15:24:49 Abstract ID: S221491471300024X
+[INFO]15:24:50 Page status: 200
+[INFO]15:24:50 Souping page
+[INFO]15:24:51 Souped page
+[INFO]15:24:51 Writing 'Research Advance in Swarm Robotics' by 'Ying' to disc
+[INFO]15:24:51 Written 'Research Advance in Swarm Robotics' to disc
+[INFO]15:24:51 Abstract Number: 4
+[INFO]15:24:51 Abstract ID: S1877050918309815
+[INFO]15:24:52 Page status: 200
+[INFO]15:24:52 Souping page
+[INFO]15:24:53 Souped page
+[INFO]15:24:53 Writing 'A Robust Path Planning For Mobile Robot Using Smart Particle Swarm Optimization' by 'Harshal S.' to disc
+[INFO]15:24:53 Written 'A Robust Path Planning For Mobile Robot Using Smart Particle Swarm Optimization' to disc
+[INFO]15:24:53 Abstract Number: 5
+[INFO]15:24:53 Abstract ID: S1877050915010583
+[INFO]15:24:54 Page status: 200
+[INFO]15:24:54 Souping page
+[INFO]15:24:57 Souped page
+[INFO]15:24:57 Writing 'PSO-based Distributed Algorithm for Dynamic Task Allocation in a Robotic Swarm\xe2\x98\x86' by 'Nadia' to disc
+[INFO]15:24:57 Written 'PSO-based Distributed Algorithm for Dynamic Task Allocation in a Robotic Swarm\xe2\x98\x86' to disc
+[INFO]15:24:57 Abstract Number: 6
+[INFO]15:24:57 Abstract ID: S1877050917321051
+[INFO]15:24:59 Page status: 200
+[INFO]15:24:59 Souping page
+[INFO]15:25:1 Souped page
+[INFO]15:25:1 Writing 'Development of Affordable and Powerful Swarm Mobile Robot Based on Smartphone Android and IOIO board' by 'Alexander A S' to disc
+[INFO]15:25:1 Written 'Development of Affordable and Powerful Swarm Mobile Robot Based on Smartphone Android and IOIO board' to disc
+[INFO]15:25:1 Abstract Number: 7
+[INFO]15:25:1 Abstract ID: S1877705812026689
+[INFO]15:25:2 Page status: 200
+[INFO]15:25:2 Souping page
+[INFO]15:25:3 Souped page
+[INFO]15:25:3 Writing 'Asynchronous Particle Swarm Optimization for Swarm Robotics' by 'Nor Azlina Ab' to disc
+[INFO]15:25:3 Written 'Asynchronous Particle Swarm Optimization for Swarm Robotics' to disc
+[INFO]15:25:3 Abstract Number: 8
+[INFO]15:25:3 Abstract ID: S1877050917324237
+[INFO]15:25:5 Page status: 200
+[INFO]15:25:5 Souping page
+[INFO]15:25:6 Souped page
+[INFO]15:25:6 Writing 'Using simplified swarm optimization on path planning for intelligent mobile robot' by 'Yoney Kirsal' to disc
+[INFO]15:25:6 Written 'Using simplified swarm optimization on path planning for intelligent mobile robot' to disc
+[INFO]15:25:6 Abstract Number: 9
+[INFO]15:25:6 Abstract ID: S1877050918310287
+[INFO]15:25:7 Page status: 200
+[INFO]15:25:7 Souping page
+[INFO]15:25:9 Souped page
+[INFO]15:25:9 Writing 'Bflybots: A Novel Robotic-Swarm in Pursuit of Dynamic Signal Sources' by 'Madhusudhana Rao' to disc
+[INFO]15:25:9 Written 'Bflybots: A Novel Robotic-Swarm in Pursuit of Dynamic Signal Sources' to disc
+[INFO]15:25:9 Abstract Number: 10
+[INFO]15:25:9 Abstract ID: S1000936113000563
+[INFO]15:25:10 Page status: 200
+[INFO]15:25:10 Souping page
+[INFO]15:25:12 Souped page
+[INFO]15:25:12 Writing 'A novel autonomous self-assembly distributed swarm flying robot' by 'Hongxing' to disc
+[INFO]15:25:12 Written 'A novel autonomous self-assembly distributed swarm flying robot' to disc
+[INFO]15:25:12 Abstract Number: 11
+[INFO]15:25:12 Abstract ID: S1877050917300200
+[INFO]15:25:13 Page status: 200
+[INFO]15:25:13 Souping page
+[INFO]15:25:14 Souped page
+[INFO]15:25:14 Writing 'Generalized Model of Cyclic Dispatching Discipline in Mobile Robots Based on Swarm Systems\xe2\x98\x86' by 'Eugene' to disc
+[INFO]15:25:15 Written 'Generalized Model of Cyclic Dispatching Discipline in Mobile Robots Based on Swarm Systems\xe2\x98\x86' to disc
+[INFO]15:25:15 Abstract Number: 12
+[INFO]15:25:15 Abstract ID: S1877050918300784
+[INFO]15:25:15 Page status: 200
+[INFO]15:25:15 Souping page
+[INFO]15:25:16 Souped page
+[INFO]15:25:16 Writing 'Inference algorithm for teams of robots using local interaction' by 'Vitaly' to disc
+[INFO]15:25:16 Written 'Inference algorithm for teams of robots using local interaction' to disc
+[INFO]15:25:16 Abstract Number: 13
+[INFO]15:25:16 Abstract ID: S2212827118301859
+[INFO]15:25:17 Page status: 200
+[INFO]15:25:17 Souping page
+[INFO]15:25:18 Souped page
+[INFO]15:25:18 Writing 'Optimal task positioning in multi-robot cells, using nested meta-heuristic swarm algorithms' by 'G.' to disc
+[INFO]15:25:18 Written 'Optimal task positioning in multi-robot cells, using nested meta-heuristic swarm algorithms' to disc
+[INFO]15:25:18 Abstract Number: 14
+[INFO]15:25:18 Abstract ID: S1877050913010429
+[INFO]15:25:19 Page status: 200
+[INFO]15:25:19 Souping page
+[INFO]15:25:20 Souped page
+[INFO]15:25:20 Writing 'Predicting the Behavior of Robotic Swarms in Search and Tag Tasks\xe2\x98\x86' by 'Joseph P.' to disc
+[INFO]15:25:20 Written 'Predicting the Behavior of Robotic Swarms in Search and Tag Tasks\xe2\x98\x86' to disc
+[INFO]15:25:20 Abstract Number: 15
+[INFO]15:25:20 Abstract ID: S1877050917317994
+[INFO]15:25:20 Page status: 200
+[INFO]15:25:20 Souping page
+[INFO]15:25:21 Souped page
+[INFO]15:25:21 Writing 'Mission-based Architecture for Swarm Composability (MASC)' by 'Kathleen' to disc
+[INFO]15:25:21 Written 'Mission-based Architecture for Swarm Composability (MASC)' to disc
+[INFO]15:25:21 Abstract Number: 16
+[INFO]15:25:21 Abstract ID: S2215098618307110
+[INFO]15:25:22 Page status: 200
+[INFO]15:25:22 Souping page
+[INFO]15:25:23 Souped page
+[INFO]15:25:23 Writing 'Full Length ArticleInverse kinematics application on medical robot using adapted PSO method' by 'Idris' to disc
+[INFO]15:25:23 Written 'Full Length ArticleInverse kinematics application on medical robot using adapted PSO method' to disc
+[INFO]15:25:23 Abstract Number: 17
+[INFO]15:25:23 Abstract ID: S2095809917303922
+[INFO]15:25:23 Page status: 200
+[INFO]15:25:23 Souping page
+[INFO]15:25:24 Souped page
+[INFO]15:25:24 Writing 'Research Robotics\xe2\x80\x94ArticleControl of Velocity-Constrained Stepper Motor-Driven Hilare Robot for Waypoint Navigation' by 'Robins' to disc
+[INFO]15:25:24 Written 'Research Robotics\xe2\x80\x94ArticleControl of Velocity-Constrained Stepper Motor-Driven Hilare Robot for Waypoint Navigation' to disc
+[INFO]15:25:24 Abstract Number: 18
+[INFO]15:25:24 Abstract ID: S0304397510001222
+[INFO]15:25:25 Page status: 200
+[INFO]15:25:25 Souping page
+[INFO]15:25:26 Souped page
+[INFO]15:25:26 Writing 'The pros and cons of flocking in the long-range \xe2\x80\x9cmigration\xe2\x80\x9d of mobile robot swarms' by 'Fatih' to disc
+[INFO]15:25:26 Written 'The pros and cons of flocking in the long-range \xe2\x80\x9cmigration\xe2\x80\x9d of mobile robot swarms' to disc
+[INFO]15:25:26 Abstract Number: 19
+[INFO]15:25:26 Abstract ID: S1877705815005445
+[INFO]15:25:27 Page status: 200
+[INFO]15:25:27 Souping page
+[INFO]15:25:28 Souped page
+[INFO]15:25:28 Writing 'Formation of Control Structures in Static Swarms\xe2\x98\x86' by 'Valery' to disc
+[INFO]15:25:28 Written 'Formation of Control Structures in Static Swarms\xe2\x98\x86' to disc
+[INFO]15:25:28 Abstract Number: 20
+[INFO]15:25:28 Abstract ID: S1877050918309979
+[INFO]15:25:28 Page status: 200
+[INFO]15:25:28 Souping page
+[INFO]15:25:29 Souped page
+[INFO]15:25:29 Writing 'UAV-Robot Relationship for Coordination of Robots on a Collision Free Path' by 'Ashish' to disc
+[INFO]15:25:29 Written 'UAV-Robot Relationship for Coordination of Robots on a Collision Free Path' to disc
+[INFO]15:25:29 Abstract Number: 21
+[INFO]15:25:29 Abstract ID: S0304397508003617
+[INFO]15:25:30 Page status: 200
+[INFO]15:25:30 Souping page
+[INFO]15:25:30 Souped page
+[INFO]15:25:30 Writing 'Distributed algorithms for partitioning a swarm of autonomous mobile robots' by 'Asaf' to disc
+[INFO]15:25:31 Written 'Distributed algorithms for partitioning a swarm of autonomous mobile robots' to disc
+[INFO]15:25:31 Abstract Number: 22
+[INFO]15:25:31 Abstract ID: S2210832718300851
+[INFO]15:25:31 Page status: 200
+[INFO]15:25:31 Souping page
+[INFO]15:25:32 Souped page
+[INFO]15:25:32 Writing 'Original ArticleIntensive summer course in robotics \xe2\x80\x93 Robotcraft' by 'N.M.' to disc
+[INFO]15:25:32 Written 'Original ArticleIntensive summer course in robotics \xe2\x80\x93 Robotcraft' to disc
+[INFO]15:25:32 Abstract Number: 23
+[INFO]15:25:32 Abstract ID: S1877050917323815
+[INFO]15:25:33 Page status: 200
+[INFO]15:25:33 Souping page
+[INFO]15:25:33 Souped page
+[INFO]15:25:33 Writing 'Simulating robot groups with elements of a social structure using KVORUM' by 'M.A.' to disc
+[INFO]15:25:34 Written 'Simulating robot groups with elements of a social structure using KVORUM' to disc
+[INFO]15:25:34 Abstract Number: 24
+[INFO]15:25:34 Abstract ID: S1877050917314850
+[INFO]15:25:35 Page status: 200
+[INFO]15:25:35 Souping page
+[INFO]15:25:36 Souped page
+[INFO]15:25:36 Writing 'Dynamic Distributed PSO joints elites in Multiple Robot Path Planning Systems: theoretical and practical review of new ideas' by 'Ayari' to disc
+[INFO]15:25:36 Written 'Dynamic Distributed PSO joints elites in Multiple Robot Path Planning Systems: theoretical and practical review of new ideas' to disc
+[INFO]15:25:36 Abstract Number: 25
+[INFO]15:25:36 Abstract ID: S2215098615001548
+[INFO]15:25:37 Page status: 200
+[INFO]15:25:37 Souping page
+[INFO]15:25:38 Souped page
+[INFO]15:25:38 Writing 'Full Length ArticleIntelligent-based multi-robot path planning inspired by improved classical Q-learning and improved particle swarm optimization with perturbed velocity' by 'P.K.' to disc
+[INFO]15:25:38 Written 'Full Length ArticleIntelligent-based multi-robot path planning inspired by improved classical Q-learning and improved particle swarm optimization with perturbed velocity' to disc
+[INFO]15:25:38 Abstract Number: 26
+[INFO]15:25:38 Abstract ID: S1877050918309724
+[INFO]15:25:39 Page status: 200
+[INFO]15:25:39 Souping page
+[INFO]15:25:40 Souped page
+[INFO]15:25:40 Writing 'Three Dimensional Path Planning for UAVs in Dynamic Environment using Glow-worm Swarm Optimization' by 'Utkarsh' to disc
+[INFO]15:25:40 Written 'Three Dimensional Path Planning for UAVs in Dynamic Environment using Glow-worm Swarm Optimization' to disc
+[INFO]15:25:41 Abstract Number: 27
+[INFO]15:25:41 Abstract ID: S1319157817302562
+[INFO]15:25:42 Page status: 200
+[INFO]15:25:42 Souping page
+[INFO]15:25:43 Souped page
+[INFO]15:25:43 Writing 'Hybridization of IWO and IPSO for mobile robots navigation in a dynamic environment' by 'Mohit Ranjan' to disc
+[INFO]15:25:43 Written 'Hybridization of IWO and IPSO for mobile robots navigation in a dynamic environment' to disc
+[INFO]15:25:43 Abstract Number: 28
+[INFO]15:25:43 Abstract ID: S1877050914014872
+[INFO]15:25:44 Page status: 200
+[INFO]15:25:44 Souping page
+[INFO]15:25:45 Souped page
+[INFO]15:25:45 Writing 'Joint Torque Estimation Model of Surface Electromyography(sEMG) Based on Swarm Intelligence Algorithm for Robotic Assistive Device\xe2\x98\x86' by 'Ku' to disc
+[INFO]15:25:45 Written 'Joint Torque Estimation Model of Surface Electromyography(sEMG) Based on Swarm Intelligence Algorithm for Robotic Assistive Device\xe2\x98\x86' to disc
+[INFO]15:25:46 Abstract Number: 29
+[INFO]15:25:46 Abstract ID: S1877050915037953
+[INFO]15:25:47 Page status: 200
+[INFO]15:25:47 Souping page
+[INFO]15:25:48 Souped page
+[INFO]15:25:48 Writing 'Modelling and Investigation on Bouncing Mechanism of a Sphere Robot\xe2\x98\x86' by 'N.M.H.' to disc
+[INFO]15:25:48 Written 'Modelling and Investigation on Bouncing Mechanism of a Sphere Robot\xe2\x98\x86' to disc
+[INFO]15:25:48 Abstract Number: 30
+[INFO]15:25:48 Abstract ID: S1877050918309621
+[INFO]15:25:49 Page status: 200
+[INFO]15:25:49 Souping page
+[INFO]15:25:50 Souped page
+[INFO]15:25:50 Writing 'Methodology for Path Planning and Optimization of Mobile Robots: A Review' by 'Mohd. Nayab' to disc
+[INFO]15:25:50 Written 'Methodology for Path Planning and Optimization of Mobile Robots: A Review' to disc
+[INFO]15:25:50 Abstract Number: 31
+[INFO]15:25:50 Abstract ID: S1877050914002828
+[INFO]15:25:51 Page status: 200
+[INFO]15:25:51 Souping page
+[INFO]15:25:53 Souped page
+[INFO]15:25:53 Writing 'Control of Artificial Swarms with DDDAS\xe2\x98\x86' by 'R. Ryan' to disc
+[INFO]15:25:53 Written 'Control of Artificial Swarms with DDDAS\xe2\x98\x86' to disc
+[INFO]15:25:53 Abstract Number: 32
+[INFO]15:25:53 Abstract ID: S231471721630068X
+[INFO]15:25:54 Page status: 200
+[INFO]15:25:54 Souping page
+[INFO]15:25:55 Souped page
+[INFO]15:25:55 Writing 'PSO based neuro fuzzy sliding mode control for a robot manipulator' by 'M.' to disc
+[INFO]15:25:55 Written 'PSO based neuro fuzzy sliding mode control for a robot manipulator' to disc
+[INFO]15:25:55 Abstract Number: 33
+[INFO]15:25:55 Abstract ID: S2214914718300229
+[INFO]15:25:56 Page status: 200
+[INFO]15:25:56 Souping page
+[INFO]15:25:56 Souped page
+[INFO]15:25:56 Writing 'Analysis and use of fuzzy intelligent technique for navigation of humanoid robot in obstacle prone zone' by 'Asita Kumar' to disc
+[INFO]15:25:56 Written 'Analysis and use of fuzzy intelligent technique for navigation of humanoid robot in obstacle prone zone' to disc
+[INFO]15:25:56 Abstract Number: 34
+[INFO]15:25:56 Abstract ID: S246823221630066X
+[INFO]15:25:57 Page status: 200
+[INFO]15:25:57 Souping page
+[INFO]15:25:58 Souped page
+[INFO]15:25:58 Writing 'Original ArticleTrajectory planning for biped robot walking on uneven terrain \xe2\x80\x93 Taking stepping as an example' by 'Qiu-bo' to disc
+[INFO]15:25:58 Written 'Original ArticleTrajectory planning for biped robot walking on uneven terrain \xe2\x80\x93 Taking stepping as an example' to disc
+[INFO]15:25:58 Abstract Number: 35
+[INFO]15:25:58 Abstract ID: S1571066116300202
+[INFO]15:25:58 Page status: 200
+[INFO]15:25:58 Souping page
+[INFO]15:25:59 Souped page
+[INFO]15:25:59 Writing 'Synchronous Robots vs Asynchronous Lights-Enhanced Robots on Graphs\xe2\x98\x86' by 'Mattia' to disc
+[INFO]15:25:59 Written 'Synchronous Robots vs Asynchronous Lights-Enhanced Robots on Graphs\xe2\x98\x86' to disc
+[INFO]15:25:59 Abstract Number: 36
+[INFO]15:25:59 Abstract ID: S1877050918309591
+[INFO]15:26:0 Page status: 200
+[INFO]15:26:0 Souping page
+[INFO]15:26:1 Souped page
+[INFO]15:26:1 Writing 'An Efficient Path Planning Algorithm for Biped Robot using Fast Marching Method' by 'Katla' to disc
+[INFO]15:26:1 Written 'An Efficient Path Planning Algorithm for Biped Robot using Fast Marching Method' to disc
+[INFO]15:26:1 Abstract Number: 37
+[INFO]15:26:1 Abstract ID: S1877050915038016
+[INFO]15:26:1 Page status: 200
+[INFO]15:26:1 Souping page
+[INFO]15:26:2 Souped page
+[INFO]15:26:2 Writing 'Implementation of Behaviour Based Robot with Sense of Smell and Sight\xe2\x98\x86' by 'A.S.A.' to disc
+[INFO]15:26:2 Written 'Implementation of Behaviour Based Robot with Sense of Smell and Sight\xe2\x98\x86' to disc
+[INFO]15:26:2 Abstract Number: 38
+[INFO]15:26:2 Abstract ID: S1018363913000184
+[INFO]15:26:3 Page status: 200
+[INFO]15:26:3 Souping page
+[INFO]15:26:4 Souped page
+[INFO]15:26:4 Writing 'Original ArticleDesign of optimal Mamdani-type fuzzy controller for nonholonomic wheeled mobile robots' by 'Davood' to disc
+[INFO]15:26:4 Written 'Original ArticleDesign of optimal Mamdani-type fuzzy controller for nonholonomic wheeled mobile robots' to disc
+[INFO]15:26:4 Abstract Number: 39
+[INFO]15:26:4 Abstract ID: S0921889016304742
+[INFO]15:26:4 Page status: 200
+[INFO]15:26:4 Souping page
+[INFO]15:26:5 Souped page
+[INFO]15:26:5 Writing 'Localization of sound sources in robotics: A review' by 'Caleb' to disc
+[INFO]15:26:5 Written 'Localization of sound sources in robotics: A review' to disc
+[INFO]15:26:5 Abstract Number: 40
+[INFO]15:26:5 Abstract ID: S0960077913000210
+[INFO]15:26:6 Page status: 200
+[INFO]15:26:6 Souping page
+[INFO]15:26:6 Souped page
+[INFO]15:26:6 Writing 'Algorithmic requirements for swarm intelligence in differently coupled collective systems' by 'J\xc3\xbcrgen' to disc
+[INFO]15:26:6 Written 'Algorithmic requirements for swarm intelligence in differently coupled collective systems' to disc
+[INFO]15:26:6 Abstract Number: 41
+[INFO]15:26:6 Abstract ID: S1877050918310123
+[INFO]15:26:7 Page status: 200
+[INFO]15:26:7 Souping page
+[INFO]15:26:8 Souped page
+[INFO]15:26:8 Writing 'Optimal time-jerk trajectory planning of 6 axis welding robot using TLBO method' by 'Amruta' to disc
+[INFO]15:26:8 Written 'Optimal time-jerk trajectory planning of 6 axis welding robot using TLBO method' to disc
+[INFO]15:26:8 Abstract Number: 42
+[INFO]15:26:8 Abstract ID: S2212827118300295
+[INFO]15:26:8 Page status: 200
+[INFO]15:26:8 Souping page
+[INFO]15:26:9 Souped page
+[INFO]15:26:9 Writing 'A Machine Learning-Enhanced Digital Twin Approach for Human-Robot-Collaboration' by 'Klaus' to disc
+[INFO]15:26:9 Written 'A Machine Learning-Enhanced Digital Twin Approach for Human-Robot-Collaboration' to disc
+[INFO]15:26:9 Abstract Number: 43
+[INFO]15:26:9 Abstract ID: S1877050915036583
+[INFO]15:26:10 Page status: 200
+[INFO]15:26:10 Souping page
+[INFO]15:26:11 Souped page
+[INFO]15:26:11 Writing 'Human Robot Interaction in the Absence of Visual and Aural Feedback: Exploring the Haptic Sense\xe2\x98\x86' by 'Jacques' to disc
+[INFO]15:26:11 Written 'Human Robot Interaction in the Absence of Visual and Aural Feedback: Exploring the Haptic Sense\xe2\x98\x86' to disc
+[INFO]15:26:11 Abstract Number: 44
+[INFO]15:26:11 Abstract ID: S2288430016300161
+[INFO]15:26:11 Page status: 200
+[INFO]15:26:11 Souping page
+[INFO]15:26:12 Souped page
+[INFO]15:26:12 Writing 'Combinatorial particle swarm optimization for solving blocking flowshop scheduling problem' by 'Mansour' to disc
+[INFO]15:26:12 Written 'Combinatorial particle swarm optimization for solving blocking flowshop scheduling problem' to disc
+[INFO]15:26:12 Abstract Number: 45
+[INFO]15:26:12 Abstract ID: S2352864815000437
+[INFO]15:26:13 Page status: 200
+[INFO]15:26:13 Souping page
+[INFO]15:26:13 Souped page
+[INFO]15:26:13 Writing 'Building a grid-semantic map for the navigation of service robots through human\xe2\x80\x93robot interaction' by 'Cheng' to disc
+[INFO]15:26:13 Written 'Building a grid-semantic map for the navigation of service robots through human\xe2\x80\x93robot interaction' to disc
+[INFO]15:26:13 Abstract Number: 46
+[INFO]15:26:14 Abstract ID: S1877050913005796
+[INFO]15:26:14 Page status: 200
+[INFO]15:26:14 Souping page
+[INFO]15:26:15 Souped page
+[INFO]15:26:15 Writing 'Swarm Control of UAVs for Cooperative Hunting with DDDAS\xe2\x98\x86' by 'R. Ryan' to disc
+[INFO]15:26:15 Written 'Swarm Control of UAVs for Cooperative Hunting with DDDAS\xe2\x98\x86' to disc
+[INFO]15:26:15 Abstract Number: 47
+[INFO]15:26:15 Abstract ID: S1877050918310214
+[INFO]15:26:15 Page status: 200
+[INFO]15:26:15 Souping page
+[INFO]15:26:16 Souped page
+[INFO]15:26:16 Writing 'Obstacle Avoidance and Navigation Planning of a Wheeled Mobile Robot using Amended Artificial Potential Field Method' by 'Priyanka' to disc
+[INFO]15:26:16 Written 'Obstacle Avoidance and Navigation Planning of a Wheeled Mobile Robot using Amended Artificial Potential Field Method' to disc
+[INFO]15:26:16 Abstract Number: 48
+[INFO]15:26:16 Abstract ID: S0376635716302881
+[INFO]15:26:17 Page status: 200
+[INFO]15:26:17 Souping page
+[INFO]15:26:19 Souped page
+[INFO]15:26:19 Writing 'Swarm intelligence in fish? The difficulty in demonstrating distributed and self-organised collective intelligence in (some) animal groups' by 'Christos C.' to disc
+[INFO]15:26:19 Written 'Swarm intelligence in fish? The difficulty in demonstrating distributed and self-organised collective intelligence in (some) animal groups' to disc
+[INFO]15:26:19 Abstract Number: 49
+[INFO]15:26:19 Abstract ID: S1877050915038399
+[INFO]15:26:20 Page status: 200
+[INFO]15:26:20 Souping page
+[INFO]15:26:21 Souped page
+[INFO]15:26:21 Writing 'Hydrodynamic Effect on V-Shape Pattern Formation of Swarm Autonomous Surface Vehicles (ASVs)\xe2\x98\x86' by 'M.H.A.' to disc
+[INFO]15:26:21 Written 'Hydrodynamic Effect on V-Shape Pattern Formation of Swarm Autonomous Surface Vehicles (ASVs)\xe2\x98\x86' to disc
+[INFO]15:26:21 Abstract Number: 50
+[INFO]15:26:21 Abstract ID: S1877050918310093
+[INFO]15:26:22 Page status: 200
+[INFO]15:26:22 Souping page
+[INFO]15:26:23 Souped page
+[INFO]15:26:23 Writing 'Optimal Path Planning of Mobile Robot Using Hybrid Cuckoo Search-Bat Algorithm' by 'Mbl' to disc
+[INFO]15:26:23 Written 'Optimal Path Planning of Mobile Robot Using Hybrid Cuckoo Search-Bat Algorithm' to disc
+[INFO]15:26:23 Abstract Number: 51
+[INFO]15:26:23 Abstract ID: S1877050917302120
+[INFO]15:26:24 Page status: 200
+[INFO]15:26:24 Souping page
+[INFO]15:26:25 Souped page
+[INFO]15:26:25 Writing 'Exploration of Modulation Index in Multi-level Inverter using Particle Swarm Optimization Algorithm\xe2\x98\x86' by 'Syed Saad Azhar' to disc
+[INFO]15:26:25 Written 'Exploration of Modulation Index in Multi-level Inverter using Particle Swarm Optimization Algorithm\xe2\x98\x86' to disc
+[INFO]15:26:25 Abstract Number: 52
+[INFO]15:26:25 Abstract ID: S094735801730184X
+[INFO]15:26:26 Page status: 200
+[INFO]15:26:26 Souping page
+[INFO]15:26:28 Souped page
+[INFO]15:26:28 Writing 'Autonomous collision avoidance for wheeled mobile robots using a differential game approach' by 'Thulasi' to disc
+[INFO]15:26:28 Written 'Autonomous collision avoidance for wheeled mobile robots using a differential game approach' to disc
+[INFO]15:26:28 Abstract Number: 53
+[INFO]15:26:28 Abstract ID: S2314717216300277
+[INFO]15:26:29 Page status: 200
+[INFO]15:26:29 Souping page
+[INFO]15:26:30 Souped page
+[INFO]15:26:30 Writing 'Multi-robot path planning in a dynamic environment using improved gravitational search algorithm' by 'P.K.' to disc
+[INFO]15:26:30 Written 'Multi-robot path planning in a dynamic environment using improved gravitational search algorithm' to disc
+[INFO]15:26:30 Abstract Number: 54
+[INFO]15:26:30 Abstract ID: S2451929417300360
+[INFO]15:26:31 Page status: 200
+[INFO]15:26:31 Souping page
+[INFO]15:26:32 Souped page
+[INFO]15:26:32 Writing 'PreviewSticky Solution Provides Grip for the First Robotic Pollinator' by 'Guillermo J.' to disc
+[INFO]15:26:32 Written 'PreviewSticky Solution Provides Grip for the First Robotic Pollinator' to disc
+[INFO]15:26:32 Abstract Number: 55
+[INFO]15:26:32 Abstract ID: S1571066118300434
+[INFO]15:26:33 Page status: 200
+[INFO]15:26:33 Souping page
+[INFO]15:26:34 Souped page
+[INFO]15:26:34 Writing 'Goals and Resource Constraints in CARMA' by 'Paul' to disc
+[INFO]15:26:34 Written 'Goals and Resource Constraints in CARMA' to disc
+[INFO]15:26:34 Abstract Number: 56
+[INFO]15:26:34 Abstract ID: S1877050915038417
+[INFO]15:26:36 Page status: 200
+[INFO]15:26:36 Souping page
+[INFO]15:26:37 Souped page
+[INFO]15:26:37 Writing 'Predictive Planning Method for Rescue Robots in Buildings\xe2\x98\x86' by 'Szymon' to disc
+[INFO]15:26:37 Written 'Predictive Planning Method for Rescue Robots in Buildings\xe2\x98\x86' to disc
+[INFO]15:26:37 Abstract Number: 57
+[INFO]15:26:37 Abstract ID: S1877705815039259
+[INFO]15:26:38 Page status: 200
+[INFO]15:26:38 Souping page
+[INFO]15:26:39 Souped page
+[INFO]15:26:39 Writing 'Robotic Laser Inspection of Airplane Wings Using Quadrotor\xe2\x98\x86' by 'Tatyana' to disc
+[INFO]15:26:39 Written 'Robotic Laser Inspection of Airplane Wings Using Quadrotor\xe2\x98\x86' to disc
+[INFO]15:26:39 Abstract Number: 58
+[INFO]15:26:39 Abstract ID: S1877050917302399
+[INFO]15:26:39 Page status: 200
+[INFO]15:26:39 Souping page
+[INFO]15:26:40 Souped page
+[INFO]15:26:40 Writing 'Sliding Mode Controller Design with Optimized PID Sliding Surface Using Particle Swarm Algorithm\xe2\x98\x86' by 'Chong Chee' to disc
+[INFO]15:26:40 Written 'Sliding Mode Controller Design with Optimized PID Sliding Surface Using Particle Swarm Algorithm\xe2\x98\x86' to disc
+[INFO]15:26:40 Abstract Number: 59
+[INFO]15:26:40 Abstract ID: S1877705812025945
+[INFO]15:26:41 Page status: 200
+[INFO]15:26:41 Souping page
+[INFO]15:26:41 Souped page
+[INFO]15:26:41 Writing 'An Adaptive Particle Swarm Optimization Method for Solving the Grasp Planning Problem' by 'Chiraz' to disc
+[INFO]15:26:41 Written 'An Adaptive Particle Swarm Optimization Method for Solving the Grasp Planning Problem' to disc
+[INFO]15:26:41 Abstract Number: 60
+[INFO]15:26:41 Abstract ID: S1877050917302193
+[INFO]15:26:42 Page status: 200
+[INFO]15:26:42 Souping page
+[INFO]15:26:43 Souped page
+[INFO]15:26:43 Writing 'Intelligent Prediction System for Gas Metering System using Particle Swarm Optimization in Training Neural Network\xe2\x98\x86' by 'N.S.' to disc
+[INFO]15:26:43 Written 'Intelligent Prediction System for Gas Metering System using Particle Swarm Optimization in Training Neural Network\xe2\x98\x86' to disc
+[INFO]15:26:43 Abstract Number: 61
+[INFO]15:26:43 Abstract ID: S1877050917328223
+[INFO]15:26:43 Page status: 200
+[INFO]15:26:43 Souping page
+[INFO]15:26:44 Souped page
+[INFO]15:26:44 Writing 'Optimal Design of Fuzzy Fractional Order PI\xce\xbbD\xc2\xb5 Controller for Redundant Robot' by 'Anupam' to disc
+[INFO]15:26:44 Written 'Optimal Design of Fuzzy Fractional Order PI\xce\xbbD\xc2\xb5 Controller for Redundant Robot' to disc
+[INFO]15:26:44 Abstract Number: 62
+[INFO]15:26:44 Abstract ID: S187852201500096X
+[INFO]15:26:45 Page status: 200
+[INFO]15:26:45 Souping page
+[INFO]15:26:46 Souped page
+[INFO]15:26:46 Writing 'Mine Rescue Robot System \xe2\x80\x93 A Review\xe2\x98\x86' by 'A. Hemanth' to disc
+[INFO]15:26:46 Written 'Mine Rescue Robot System \xe2\x80\x93 A Review\xe2\x98\x86' to disc
+[INFO]15:26:46 Abstract Number: 63
+[INFO]15:26:46 Abstract ID: S1877050917300194
+[INFO]15:26:46 Page status: 200
+[INFO]15:26:46 Souping page
+[INFO]15:26:47 Souped page
+[INFO]15:26:47 Writing 'Acceleration of the Multilayer Network Operator Method Using MPI for Mobile Robot Team Control Synthesis\xe2\x98\x86' by 'A.I.' to disc
+[INFO]15:26:47 Written 'Acceleration of the Multilayer Network Operator Method Using MPI for Mobile Robot Team Control Synthesis\xe2\x98\x86' to disc
+[INFO]15:26:47 Abstract Number: 64
+[INFO]15:26:47 Abstract ID: S1877050915037710
+[INFO]15:26:48 Page status: 200
+[INFO]15:26:48 Souping page
+[INFO]15:26:49 Souped page
+[INFO]15:26:49 Writing 'Development of an Autonomous Tennis Ball Retriever Robot As an Educational Tool\xe2\x98\x86' by 'I.' to disc
+[INFO]15:26:49 Written 'Development of an Autonomous Tennis Ball Retriever Robot As an Educational Tool\xe2\x98\x86' to disc
+[INFO]15:26:49 Abstract Number: 65
+[INFO]15:26:49 Abstract ID: S1319157817302793
+[INFO]15:26:49 Page status: 200
+[INFO]15:26:49 Souping page
+[INFO]15:26:50 Souped page
+[INFO]15:26:50 Writing 'Review on VLSI design using optimization and self-adaptive particle swarm optimization' by 'S.B. Vinay' to disc
+[INFO]15:26:50 Written 'Review on VLSI design using optimization and self-adaptive particle swarm optimization' to disc
+[INFO]15:26:50 Abstract Number: 66
+[INFO]15:26:50 Abstract ID: S1877705814002872
+[INFO]15:26:51 Page status: 200
+[INFO]15:26:51 Souping page
+[INFO]15:26:52 Souped page
+[INFO]15:26:52 Writing 'Turning Parameters Optimization Using Particle Swarm Optimization\xe2\x98\x86' by 'Hrelja' to disc
+[INFO]15:26:52 Written 'Turning Parameters Optimization Using Particle Swarm Optimization\xe2\x98\x86' to disc
+[INFO]15:26:52 Abstract Number: 67
+[INFO]15:26:52 Abstract ID: S2351978917304298
+[INFO]15:26:53 Page status: 200
+[INFO]15:26:53 Souping page
+[INFO]15:26:54 Souped page
+[INFO]15:26:54 Writing 'Teaching Assembly by Demonstration Using Advanced Human Robot Interaction and a Knowledge Integration Framework\xe2\x98\x86' by 'Mathias' to disc
+[INFO]15:26:54 Written 'Teaching Assembly by Demonstration Using Advanced Human Robot Interaction and a Knowledge Integration Framework\xe2\x98\x86' to disc
+[INFO]15:26:54 Abstract Number: 68
+[INFO]15:26:54 Abstract ID: S2213020916301185
+[INFO]15:26:54 Page status: 200
+[INFO]15:26:54 Souping page
+[INFO]15:26:55 Souped page
+[INFO]15:26:55 Writing 'Mobile robot navigation in unknown static environments using ANFIS controller\xe2\x98\x86' by 'Anish' to disc
+[INFO]15:26:55 Written 'Mobile robot navigation in unknown static environments using ANFIS controller\xe2\x98\x86' to disc
+[INFO]15:26:55 Abstract Number: 69
+[INFO]15:26:55 Abstract ID: S2214914718300333
+[INFO]15:26:56 Page status: 200
+[INFO]15:26:56 Souping page
+[INFO]15:26:57 Souped page
+[INFO]15:26:57 Writing 'Path planning in uncertain environment by using firefly algorithm' by 'B.K.' to disc
+[INFO]15:26:57 Written 'Path planning in uncertain environment by using firefly algorithm' to disc
+[INFO]15:26:57 Abstract Number: 70
+[INFO]15:26:57 Abstract ID: S1877050915037825
+[INFO]15:26:58 Page status: 200
+[INFO]15:26:58 Souping page
+[INFO]15:26:59 Souped page
+[INFO]15:26:59 Writing 'Path Planning for Visually Impaired People in an Unfamiliar Environment Using Particle Swarm Optimization\xe2\x98\x86' by 'T.S.T.' to disc
+[INFO]15:26:59 Written 'Path Planning for Visually Impaired People in an Unfamiliar Environment Using Particle Swarm Optimization\xe2\x98\x86' to disc
+[INFO]15:26:59 Abstract Number: 71
+[INFO]15:26:59 Abstract ID: S2351978917301889
+[INFO]15:27:0 Page status: 200
+[INFO]15:27:0 Souping page
+[INFO]15:27:1 Souped page
+[INFO]15:27:1 Writing 'Manufacturing Capability Assessment for Human-Robot Collaborative Disassembly Based on Multi-Data Fusion\xe2\x98\x86' by 'Huiping' to disc
+[INFO]15:27:1 Written 'Manufacturing Capability Assessment for Human-Robot Collaborative Disassembly Based on Multi-Data Fusion\xe2\x98\x86' to disc
+[INFO]15:27:1 Abstract Number: 72
+[INFO]15:27:1 Abstract ID: S1877705812025738
+[INFO]15:27:2 Page status: 200
+[INFO]15:27:2 Souping page
+[INFO]15:27:3 Souped page
+[INFO]15:27:3 Writing 'Area Exploration by Flocking of Multi Robot' by 'Ashish' to disc
+[INFO]15:27:3 Written 'Area Exploration by Flocking of Multi Robot' to disc
+[INFO]15:27:3 Abstract Number: 73
+[INFO]15:27:3 Abstract ID: S0304397508001126
+[INFO]15:27:3 Page status: 200
+[INFO]15:27:3 Souping page
+[INFO]15:27:4 Souped page
+[INFO]15:27:4 Writing 'Local spreading algorithms for autonomous robot systems\xe2\x98\x86' by 'Reuven' to disc
+[INFO]15:27:4 Written 'Local spreading algorithms for autonomous robot systems\xe2\x98\x86' to disc
+[INFO]15:27:4 Abstract Number: 74
+[INFO]15:27:5 Abstract ID: S1697791214000338
+[INFO]15:27:5 Page status: 200
+[INFO]15:27:5 Souping page
+[INFO]15:27:6 Souped page
+[INFO]15:27:6 Writing 'Desarrollo de un robot m\xc3\xb3vil compacto integrado en el middleware ROSDevelopment of a compact mobile robot integrated in ROS middleware' by 'Andr\xc3\xa9' to disc
+[INFO]15:27:6 Written 'Desarrollo de un robot m\xc3\xb3vil compacto integrado en el middleware ROSDevelopment of a compact mobile robot integrated in ROS middleware' to disc
+[INFO]15:27:6 Abstract Number: 75
+[INFO]15:27:6 Abstract ID: S1877050918309852
+[INFO]15:27:7 Page status: 200
+[INFO]15:27:7 Souping page
+[INFO]15:27:8 Souped page
+[INFO]15:27:8 Writing 'Robotic Optimal Assembly Sequence Using Improved Cuckoo Search Algorithm' by 'Gunji Bala' to disc
+[INFO]15:27:8 Written 'Robotic Optimal Assembly Sequence Using Improved Cuckoo Search Algorithm' to disc
+[INFO]15:27:8 Abstract Number: 76
+[INFO]15:27:8 Abstract ID: S1877705813017566
+[INFO]15:27:9 Page status: 200
+[INFO]15:27:9 Souping page
+[INFO]15:27:10 Souped page
+[INFO]15:27:10 Writing 'Inverse Kinematics Using Particle Swarm Optimization, A Statistical Analysis\xe2\x98\x86' by 'Nizar' to disc
+[INFO]15:27:10 Written 'Inverse Kinematics Using Particle Swarm Optimization, A Statistical Analysis\xe2\x98\x86' to disc
+[INFO]15:27:10 Abstract Number: 77
+[INFO]15:27:10 Abstract ID: S1875389212014770
+[INFO]15:27:10 Page status: 200
+[INFO]15:27:10 Souping page
+[INFO]15:27:11 Souped page
+[INFO]15:27:11 Writing 'PMSM Driver Based on Hybrid Particle Swarm Optimization and CMAC' by 'Ji' to disc
+[INFO]15:27:11 Written 'PMSM Driver Based on Hybrid Particle Swarm Optimization and CMAC' to disc
+[INFO]15:27:11 Abstract Number: 78
+[INFO]15:27:11 Abstract ID: S1877050913005140
+[INFO]15:27:12 Page status: 200
+[INFO]15:27:12 Souping page
+[INFO]15:27:13 Souped page
+[INFO]15:27:13 Writing 'A Testbed for Investigating the UAV Swarm Command and Control Problem Using DDDAS\xe2\x98\x86' by 'R.' to disc
+[INFO]15:27:13 Written 'A Testbed for Investigating the UAV Swarm Command and Control Problem Using DDDAS\xe2\x98\x86' to disc
+[INFO]15:27:13 Abstract Number: 79
+[INFO]15:27:13 Abstract ID: S1000936111600411
+[INFO]15:27:13 Page status: 200
+[INFO]15:27:13 Souping page
+[INFO]15:27:14 Souped page
+[INFO]15:27:14 Writing 'Structural Dimension Optimization of Robotic Belt Grinding System for Grinding Workpieces with Complex Shaped Surfaces Based on Dexterity Grinding Space' by 'Zhihui' to disc
+[INFO]15:27:14 Written 'Structural Dimension Optimization of Robotic Belt Grinding System for Grinding Workpieces with Complex Shaped Surfaces Based on Dexterity Grinding Space' to disc
+[INFO]15:27:14 Abstract Number: 80
+[INFO]15:27:14 Abstract ID: S1877050914009983
+[INFO]15:27:15 Page status: 200
+[INFO]15:27:15 Souping page
+[INFO]15:27:16 Souped page
+[INFO]15:27:16 Writing 'Five Traits of Performance Enhancement Using Cloud Robotics: A Survey\xe2\x98\x86' by 'Basit' to disc
+[INFO]15:27:16 Written 'Five Traits of Performance Enhancement Using Cloud Robotics: A Survey\xe2\x98\x86' to disc
+[INFO]15:27:16 Abstract Number: 81
+[INFO]15:27:16 Abstract ID: S2351978915001729
+[INFO]15:27:16 Page status: 200
+[INFO]15:27:16 Souping page
+[INFO]15:27:17 Souped page
+[INFO]15:27:17 Writing 'A Context-based Approach to Robot-human Interaction\xe2\x98\x86' by 'Wayne' to disc
+[INFO]15:27:17 Written 'A Context-based Approach to Robot-human Interaction\xe2\x98\x86' to disc
+[INFO]15:27:17 Abstract Number: 82
+[INFO]15:27:17 Abstract ID: S1876610217302916
+[INFO]15:27:18 Page status: 200
+[INFO]15:27:18 Souping page
+[INFO]15:27:19 Souped page
+[INFO]15:27:19 Writing 'Optimization of Scaling Factors of Fuzzy\xe2\x80\x93MPPT Controller for Stand-alone Photovoltaic System by Particle Swarm Optimization\xe2\x98\x86' by 'Arfaoui' to disc
+[INFO]15:27:19 Written 'Optimization of Scaling Factors of Fuzzy\xe2\x80\x93MPPT Controller for Stand-alone Photovoltaic System by Particle Swarm Optimization\xe2\x98\x86' to disc
+[INFO]15:27:19 Abstract Number: 83
+[INFO]15:27:19 Abstract ID: S1877705812027130
+[INFO]15:27:20 Page status: 200
+[INFO]15:27:20 Souping page
+[INFO]15:27:21 Souped page
+[INFO]15:27:21 Writing 'Robust Tracking Control for Constrained Robots' by 'Haifa' to disc
+[INFO]15:27:21 Written 'Robust Tracking Control for Constrained Robots' to disc
+[INFO]15:27:21 Abstract Number: 84
+[INFO]15:27:21 Abstract ID: S1877050912006965
+[INFO]15:27:23 Page status: 200
+[INFO]15:27:23 Souping page
+[INFO]15:27:24 Souped page
+[INFO]15:27:24 Writing 'Swarm Theory Applied To Air Traffic Flow Management' by 'Sergio' to disc
+[INFO]15:27:24 Written 'Swarm Theory Applied To Air Traffic Flow Management' to disc
+[INFO]15:27:24 Abstract Number: 85
+[INFO]15:27:24 Abstract ID: S187705091503522X
+[INFO]15:27:25 Page status: 200
+[INFO]15:27:25 Souping page
+[INFO]15:27:26 Souped page
+[INFO]15:27:26 Writing 'Synchronized Communication in a Set of Autonomous Mobile Robots Using Bluetooth Technology\xe2\x98\x86' by 'Keltoum' to disc
+[INFO]15:27:26 Written 'Synchronized Communication in a Set of Autonomous Mobile Robots Using Bluetooth Technology\xe2\x98\x86' to disc
+[INFO]15:27:26 Abstract Number: 86
+[INFO]15:27:26 Abstract ID: S2214914716300824
+[INFO]15:27:27 Page status: 200
+[INFO]15:27:27 Souping page
+[INFO]15:27:29 Souped page
+[INFO]15:27:29 Writing 'Optimum path planning of mobile robot in unknown static and dynamic environments using Fuzzy-Wind Driven Optimization algorithm' by 'Anish' to disc
+[INFO]15:27:29 Written 'Optimum path planning of mobile robot in unknown static and dynamic environments using Fuzzy-Wind Driven Optimization algorithm' to disc
+[INFO]15:27:29 Abstract Number: 87
+[INFO]15:27:29 Abstract ID: S187704281303721X
+[INFO]15:27:30 Page status: 200
+[INFO]15:27:30 Souping page
+[INFO]15:27:31 Souped page
+[INFO]15:27:31 Writing 'Finding Objects with Segmentation Strategy based Multi Robot Exploration in Unknown Environment\xe2\x98\x86' by 'Reza' to disc
+[INFO]15:27:31 Written 'Finding Objects with Segmentation Strategy based Multi Robot Exploration in Unknown Environment\xe2\x98\x86' to disc
+[INFO]15:27:31 Abstract Number: 88
+[INFO]15:27:31 Abstract ID: S1877050913006170
+[INFO]15:27:32 Page status: 200
+[INFO]15:27:32 Souping page
+[INFO]15:27:33 Souped page
+[INFO]15:27:33 Writing 'Dynamic Heterogeneous Team Formation for Robotic Urban Search and Rescue\xe2\x98\x86' by 'Tyler' to disc
+[INFO]15:27:33 Written 'Dynamic Heterogeneous Team Formation for Robotic Urban Search and Rescue\xe2\x98\x86' to disc
+[INFO]15:27:33 Abstract Number: 89
+[INFO]15:27:33 Abstract ID: S1877705812026550
+[INFO]15:27:34 Page status: 200
+[INFO]15:27:34 Souping page
+[INFO]15:27:36 Souped page
+[INFO]15:27:36 Writing 'Cooperative Transportation of Aload Using Nonholonomic Mobile Robots' by 'Chia Choon' to disc
+[INFO]15:27:36 Written 'Cooperative Transportation of Aload Using Nonholonomic Mobile Robots' to disc
+[INFO]15:27:36 Abstract Number: 90
+[INFO]15:27:36 Abstract ID: S2212017316000451
+[INFO]15:27:37 Page status: 200
+[INFO]15:27:37 Souping page
+[INFO]15:27:38 Souped page
+[INFO]15:27:38 Writing 'Application of Particle Swarm Optimization for Optimizing the Process Parameters in Turning of PEEK CF30 Composites\xe2\x98\x86' by 'I.' to disc
+[INFO]15:27:38 Written 'Application of Particle Swarm Optimization for Optimizing the Process Parameters in Turning of PEEK CF30 Composites\xe2\x98\x86' to disc
+[INFO]15:27:38 Abstract Number: 91
+[INFO]15:27:38 Abstract ID: S1877050915010820
+[INFO]15:27:39 Page status: 200
+[INFO]15:27:39 Souping page
+[INFO]15:27:41 Souped page
+[INFO]15:27:41 Writing 'Model of Collaborative UAV Swarm Toward Coordination and Control Mechanisms Study\xe2\x98\x86' by 'Xueping' to disc
+[INFO]15:27:41 Written 'Model of Collaborative UAV Swarm Toward Coordination and Control Mechanisms Study\xe2\x98\x86' to disc
+[INFO]15:27:41 Abstract Number: 92
+[INFO]15:27:41 Abstract ID: S1877705812027178
+[INFO]15:27:41 Page status: 200
+[INFO]15:27:41 Souping page
+[INFO]15:27:42 Souped page
+[INFO]15:27:42 Writing 'Performance Comparison of Differential Evolution and Particle Swarm Optimization in Constrained Optimization' by 'Mahmud' to disc
+[INFO]15:27:42 Written 'Performance Comparison of Differential Evolution and Particle Swarm Optimization in Constrained Optimization' to disc
+[INFO]15:27:42 Abstract Number: 93
+[INFO]15:27:42 Abstract ID: S030439751200655X
+[INFO]15:27:43 Page status: 200
+[INFO]15:27:43 Souping page
+[INFO]15:27:43 Souped page
+[INFO]15:27:43 Writing 'A \xe2\x80\x9cthermodynamic\xe2\x80\x9d approach to multi-robot cooperative localization\xe2\x98\x86' by 'Yotam' to disc
+[INFO]15:27:43 Written 'A \xe2\x80\x9cthermodynamic\xe2\x80\x9d approach to multi-robot cooperative localization\xe2\x98\x86' to disc
+[INFO]15:27:43 Abstract Number: 94
+[INFO]15:27:43 Abstract ID: S1877705815005251
+[INFO]15:27:44 Page status: 200
+[INFO]15:27:44 Souping page
+[INFO]15:27:45 Souped page
+[INFO]15:27:45 Writing 'Optimization of an Automated Storage and Retrieval Systems by Swarm Intelligence\xe2\x98\x86' by 'Simon' to disc
+[INFO]15:27:45 Written 'Optimization of an Automated Storage and Retrieval Systems by Swarm Intelligence\xe2\x98\x86' to disc
+[INFO]15:27:45 Abstract Number: 95
+[INFO]15:27:45 Abstract ID: S2351978917303323
+[INFO]15:27:46 Page status: 200
+[INFO]15:27:46 Souping page
+[INFO]15:27:46 Souped page
+[INFO]15:27:46 Writing 'The SwarmItFix Pilot\xe2\x98\x86' by 'Keerthi' to disc
+[INFO]15:27:46 Written 'The SwarmItFix Pilot\xe2\x98\x86' to disc
+[INFO]15:27:46 Abstract Number: 96
+[INFO]15:27:46 Abstract ID: S030439751300443X
+[INFO]15:27:47 Page status: 200
+[INFO]15:27:47 Souping page
+[INFO]15:27:48 Souped page
+[INFO]15:27:48 Writing 'Optimal probabilistic ring exploration by semi-synchronous oblivious robots' by 'St\xc3\xa9phane' to disc
+[INFO]15:27:48 Written 'Optimal probabilistic ring exploration by semi-synchronous oblivious robots' to disc
+[INFO]15:27:48 Abstract Number: 97
+[INFO]15:27:48 Abstract ID: S2212827116311957
+[INFO]15:27:49 Page status: 200
+[INFO]15:27:49 Souping page
+[INFO]15:27:49 Souped page
+[INFO]15:27:49 Writing 'A Comparison of the Manufacturing Resilience between Fixed Automation Systems and Mobile Robots in Large Structure Assembly\xe2\x98\x86' by 'Spartak' to disc
+[INFO]15:27:49 Written 'A Comparison of the Manufacturing Resilience between Fixed Automation Systems and Mobile Robots in Large Structure Assembly\xe2\x98\x86' to disc
+[INFO]15:27:49 Abstract Number: 98
+[INFO]15:27:49 Abstract ID: S1875389212007080
+[INFO]15:27:50 Page status: 200
+[INFO]15:27:50 Souping page
+[INFO]15:27:51 Souped page
+[INFO]15:27:51 Writing 'A Winner Determination Algorithm for Combinatorial Auctions Based on Hybrid Artificial Fish Swarm Algorithm' by 'Genrang' to disc
+[INFO]15:27:51 Written 'A Winner Determination Algorithm for Combinatorial Auctions Based on Hybrid Artificial Fish Swarm Algorithm' to disc
+[INFO]15:27:51 Abstract Number: 99
+[INFO]15:27:51 Abstract ID: S2212017314000449
+[INFO]15:27:51 Page status: 200
+[INFO]15:27:51 Souping page
+[INFO]15:27:52 Souped page
+[INFO]15:27:52 Writing 'Design and Development of Remote Controlled Autonomous Synchronic Hexaroter Aerial (ASHA) Robot\xe2\x98\x86' by 'Atul Kumar' to disc
+[INFO]15:27:52 Written 'Design and Development of Remote Controlled Autonomous Synchronic Hexaroter Aerial (ASHA) Robot\xe2\x98\x86' to disc
+[INFO]15:27:52 Abstract Number: 100
+[INFO]15:27:52 Abstract ID: S1877050912000907
+[INFO]15:27:53 Page status: 200
+[INFO]15:27:53 Souping page
+[INFO]15:27:54 Souped page
+[INFO]15:27:54 Writing 'System design of a litter collecting robot' by 'G. Maarten' to disc
+[INFO]15:27:54 Written 'System design of a litter collecting robot' to disc
