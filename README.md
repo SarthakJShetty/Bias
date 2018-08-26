@@ -1,5 +1,3 @@
-
-
 # Analyzing biases in publications pertaining to the Western Ghats
 
 :warning: <strong>Warning: Code is buggy</strong>:warning:
