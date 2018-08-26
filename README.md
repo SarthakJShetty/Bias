@@ -16,11 +16,12 @@ This tool is being developed to prove (quantitatively) the existence of these bi
 
 ## Model Overview:
 - The model is made up of three parts:
-	1.  webpage-scraper (Currently the webscraper scrapes only <a href="www.ScienceDirect.com" title="ScienceDirect">ScienceDirect</a>)
+	1.  <a title="Scraper" href="https://github.com/SarthakJShetty/Bias/blob/master/Scraper.py">webpage-scraper</a> (Currently the webscraper scrapes only <a href="www.ScienceDirect.com" title="ScienceDirect">ScienceDirect</a>)
 	2.  text-analyzer 
 	3.  data-visualizer
 	
 - Only the webscraper is ready as of now (somewhat). The text-analyzer is still under development and work on the data-visualizer is yet to begin. Stay tuned for more developments.
+- Check out the <a title="LOGS" href="https://github.com/SarthakJShetty/Bias/tree/master/LOGS">LOGS</a> for the results of ```Scraper.py```
 
 ### Note:
-This repository is still under active development. The <a href="https://github.com/SarthakJShetty/Biases" title="README">README.md</a> is yet to be updated in detail.
+This repository is still under active development. The <a title="README" href="https://github.com/SarthakJShetty/Bias">README.md</a> is yet to be updated in detail.
