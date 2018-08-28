@@ -57,7 +57,16 @@ def pre_processing(keywords):
 	run_start_second = str(datetime.now().time().second)
 	
 	'''Declaring the LOG folder and the abstract, abstract_id & status_logger files.'''
-	logs_folder_name = "LOGS"+"/"+"LOG"+"_"+run_start_date+'_'+run_start_hour+'_'+run_start_minute
+	folder_attachment=""
+	if (len(keywords)==1):
+		folder_attachment = keywords[0]
+	else:
+		for keyword_index in range(0, len(keywords)):
+			if((keyword_index+1)==len(keywords)):
+				folder_attachment = folder_attachment + keywords[keyword_index]
+			else:
+				folder_attachment = folder_attachment + keywords[keyword_index]+'_'
+	logs_folder_name = "LOGS"+"/"+"LOG"+"_"+run_start_date+'_'+run_start_hour+'_'+run_start_minute+'_'+folder_attachment
 	abstract_id_log_name =logs_folder_name+"/"+'Abstract_ID_Database'+'_'+run_start_date+'_'+run_start_hour+'_'+run_start_minute+"Page"+"_"+"Number:""_"
 	abstracts_log_name = logs_folder_name+"/"+'Abstract_Database'+'_'+run_start_date+'_'+run_start_hour+'_'+run_start_minute
 	status_logger_name = logs_folder_name+"/"+'Status_Logger'+'_'+run_start_date+'_'+run_start_hour+'_'+run_start_minute
@@ -249,7 +258,6 @@ def title_scraper(abstract_soup):
 def abstract_id_scraper(abstract_id_log_name, page_soup, site_url_index):
 	'''This function helps in obtaining the PII number of the abstract.
 	This number is then coupled with the dynamic url and provides'''
-
 	abstract_id_scraper_start_status_key="Scraping IDs"
 	status_logger(status_logger_name, abstract_id_scraper_start_status_key)
 	''''This statement collects all the input tags that have the abstract ids in them'''
@@ -261,6 +269,11 @@ def abstract_id_scraper(abstract_id_log_name, page_soup, site_url_index):
 	abstract_id_scraper_stop_status_key="Scraped IDs"
 	status_logger(status_logger_name, abstract_id_scraper_stop_status_key)
 
+def end_process(status_logger_name):
+	'''This function marks the end of a successful '''
+	end_process_status_key = "Program has successfully completed"
+	status_logger(status_logger_name, end_process_status_key)
+
 def processor(abstract_url, urls_to_scrape, abstract_id_log_name, abstracts_log_name, status_logger_name, keywords_to_search):
 	for site_url_index in range(0, len(urls_to_scrape)):
 		'''Collects the web-page from the url for souping'''
@@ -271,6 +284,8 @@ def processor(abstract_url, urls_to_scrape, abstract_id_log_name, abstracts_log_
 		abstract_id_scraper(abstract_id_log_name, page_soup, site_url_index)
 		'''Actually obtaining the abstracts after combining ID with the abstract_url'''
 		abstract_crawler(abstract_url, abstract_id_log_name, abstracts_log_name, site_url_index)
+	''''End process function being called here'''
+	end_process(status_logger_name)
 
 '''This function collects keywords'''
 keywords_to_search = arguments_parser()
