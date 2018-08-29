@@ -14,7 +14,7 @@
 
 - This tool is being developed to prove (quantitatively) the existence of these biases.
 
-<strong>Note:</strong> This <a title="Latest run" href="https://github.com/SarthakJShetty/Bias/tree/master/LOGS/LOG_2018-08-27_22_42_Western_Ghats">log</a> contains the most recent run of the program.
+<strong>Note:</strong> This <a title="Latest run" href="https://github.com/SarthakJShetty/Bias/tree/master/LOGS/LOG_2018-08-29_15_4_Western_Ghats">log</a> contains the most recent run of the program.
 
 ## Model Overview:
 - The model is made up of three parts:
@@ -30,11 +30,11 @@
 
 - A default URL is provided in the code. Once the keywords are provided, the are queried and the resultant webpage is souped and ```abstract_id``` is scraped.
 
-- A new <a title="Abstract ID" target="_blank" href="https://github.com/SarthakJShetty/Bias/blob/master/LOGS/LOG_2018-08-25_19_8/Abstract_ID_Database_2018-08-25_19_8_3.txt">```abstract_id_database```</a> is prepared for each result page, and is referenced when a new paper is scraped.
+- A new <a title="Abstract ID" target="_blank" href="https://github.com/SarthakJShetty/Bias/blob/master/LOGS/LOG_2018-08-29_15_4_Western_Ghats/Abstract_ID_Database_2018-08-29_15_4_1.txt">```abstract_id_database```</a> is prepared for each result page, and is referenced when a new paper is scraped.
 
-- The <a title="Abstract Database" target="_blank" href="https://github.com/SarthakJShetty/Bias/blob/master/LOGS/LOG_2018-08-25_19_8/Abstract_Database_2018-08-25_19_8.txt">```abstract_database```</a> contains the abstract along with the title, author and a complete URL from where the full text can be downloaded. They are saved in a ```.txt``` file
+- The <a title="Abstract Database" target="_blank" href="https://github.com/SarthakJShetty/Bias/blob/master/LOGS/LOG_2018-08-29_15_4_Western_Ghats/Abstract_Database_2018-08-29_15_4.txt">```abstract_database```</a> contains the abstract along with the title, author and a complete URL from where the full text can be downloaded. They are saved in a ```.txt``` file
 
-- A <a title="Status Logger" href="https://github.com/SarthakJShetty/Bias/blob/master/LOGS/LOG_2018-08-25_19_8/Status_Logger_2018-08-25_19_8.txt" target="_blank">```status_logger```</a> is used to log the sequence of commands in the program.
+- A <a title="Status Logger" href="https://github.com/SarthakJShetty/Bias/blob/master/LOGS/LOG_2018-08-29_15_4_Western_Ghats/Status_Logger_2018-08-29_15_4.txt" target="_blank">```status_logger```</a> is used to log the sequence of commands in the program.
 
 ## Known Issues:
 - The Scraper can only scrape abstracts from ScienceDirect at the moment, since ScienceDirect does not allow users to view publications in native ```.pdf``` format, but instead loads a ```.html``` document with the contents embedded in it.
