@@ -1,0 +1,2242 @@
+Session: 29/8/2018
+Time: 15:4:52
+[INFO]15:4:52 Built LOG folder for session
+[INFO]15:4:52 https://www.sciencedirect.com/search?qs=Western%20Ghats&show=100&sortBy=relevance&accessTypes=openaccess%2Copenarchive&offset= start_url has been received
+[INFO]15:4:52 https://www.sciencedirect.com/search?qs=Western%20Ghats&show=100&sortBy=relevance&accessTypes=openaccess%2Copenarchive&offset=0 has been obtained
+[INFO]15:4:58 https://www.sciencedirect.com/search?qs=Western%20Ghats&show=100&sortBy=relevance&accessTypes=openaccess%2Copenarchive&offset=100 has been obtained
+[INFO]15:5:4 https://www.sciencedirect.com/search?qs=Western%20Ghats&show=100&sortBy=relevance&accessTypes=openaccess%2Copenarchive&offset=200 has been obtained
+[INFO]15:5:8 https://www.sciencedirect.com/search?qs=Western%20Ghats&show=100&sortBy=relevance&accessTypes=openaccess%2Copenarchive&offset=300 has been obtained
+[INFO]15:5:12 https://www.sciencedirect.com/search?qs=Western%20Ghats&show=100&sortBy=relevance&accessTypes=openaccess%2Copenarchive&offset=400 has been obtained
+[INFO]15:5:16 Page status: 200
+[INFO]15:5:16 Souping page
+[INFO]15:5:19 Souped page
+[INFO]15:5:19 Scraping IDs
+[INFO]15:5:19 Scraped IDs
+[INFO]15:5:19 Extracting Abstract IDs from disc
+[INFO]15:5:19 Extracted Abstract IDs from disc
+[INFO]15:5:19 Abstract Number: 1
+[INFO]15:5:19 Abstract ID: S1674987117301093
+[INFO]15:5:21 Page status: 200
+[INFO]15:5:21 Souping page
+[INFO]15:5:23 Souped page
+[INFO]15:5:23 Writing 'Research PaperAssessment of soil erosion in a tropical mountain river basin of the southern Western Ghats, India using RUSLE and GIS' by 'Jobin' to disc
+[INFO]15:5:23 Written 'Research PaperAssessment of soil erosion in a tropical mountain river basin of the southern Western Ghats, India using RUSLE and GIS' to disc
+[INFO]15:5:23 Abstract Number: 2
+[INFO]15:5:23 Abstract ID: S1319562X16301358
+[INFO]15:5:24 Page status: 200
+[INFO]15:5:24 Souping page
+[INFO]15:5:26 Souped page
+[INFO]15:5:26 Writing 'Original articleEthnomedicinal assessment of Irula tribes of Walayar valley of Southern Western Ghats, India' by 'Arjunan' to disc
+[INFO]15:5:26 Written 'Original articleEthnomedicinal assessment of Irula tribes of Walayar valley of Southern Western Ghats, India' to disc
+[INFO]15:5:26 Abstract Number: 3
+[INFO]15:5:26 Abstract ID: S1687850714000375
+[INFO]15:5:28 Page status: 200
+[INFO]15:5:28 Souping page
+[INFO]15:5:29 Souped page
+[INFO]15:5:29 Writing 'Evaluation of radionuclides in the terrestrial environment of Western Ghats' by 'P.K.' to disc
+[INFO]15:5:29 Written 'Evaluation of radionuclides in the terrestrial environment of Western Ghats' to disc
+[INFO]15:5:29 Abstract Number: 4
+[INFO]15:5:29 Abstract ID: S2212096317300931
+[INFO]15:5:31 Page status: 200
+[INFO]15:5:31 Souping page
+[INFO]15:5:33 Souped page
+[INFO]15:5:33 Writing 'Predicting climate change impacts on the distribution of the threatened Garcinia indica in the Western Ghats, India' by 'Malay' to disc
+[INFO]15:5:33 Written 'Predicting climate change impacts on the distribution of the threatened Garcinia indica in the Western Ghats, India' to disc
+[INFO]15:5:33 Abstract Number: 5
+[INFO]15:5:33 Abstract ID: S2468265916301688
+[INFO]15:5:34 Page status: 200
+[INFO]15:5:34 Souping page
+[INFO]15:5:36 Souped page
+[INFO]15:5:36 Writing 'Assigning conservation value and identifying hotspots of endemic rattan diversity in the Western Ghats, India' by 'Mukta' to disc
+[INFO]15:5:36 Written 'Assigning conservation value and identifying hotspots of endemic rattan diversity in the Western Ghats, India' to disc
+[INFO]15:5:36 Abstract Number: 6
+[INFO]15:5:36 Abstract ID: S2287884X16300310
+[INFO]15:5:37 Page status: 200
+[INFO]15:5:37 Souping page
+[INFO]15:5:39 Souped page
+[INFO]15:5:39 Writing 'Original articleConservation implications of wildlife utilization by indigenous communities in the southern Western Ghats of India' by 'Arun' to disc
+[INFO]15:5:39 Written 'Original articleConservation implications of wildlife utilization by indigenous communities in the southern Western Ghats of India' to disc
+[INFO]15:5:39 Abstract Number: 7
+[INFO]15:5:39 Abstract ID: S2095633917301338
+[INFO]15:5:40 Page status: 200
+[INFO]15:5:40 Souping page
+[INFO]15:5:42 Souped page
+[INFO]15:5:42 Writing 'Original Research ArticleEstimation of soil erosion in a rain shadow river basin in the southern Western Ghats, India using RUSLE and transport limited sediment delivery function' by 'Jobin' to disc
+[INFO]15:5:42 Written 'Original Research ArticleEstimation of soil erosion in a rain shadow river basin in the southern Western Ghats, India using RUSLE and transport limited sediment delivery function' to disc
+[INFO]15:5:42 Abstract Number: 8
+[INFO]15:5:42 Abstract ID: S2352340917303694
+[INFO]15:5:43 Page status: 200
+[INFO]15:5:43 Souping page
+[INFO]15:5:45 Souped page
+[INFO]15:5:45 Writing 'Data ArticleEdible wild mushrooms of the Western Ghats: Data on the ethnic knowledge' by 'Namera C.' to disc
+[INFO]15:5:45 Written 'Data ArticleEdible wild mushrooms of the Western Ghats: Data on the ethnic knowledge' to disc
+[INFO]15:5:45 Abstract Number: 9
+[INFO]15:5:45 Abstract ID: S167498711630202X
+[INFO]15:5:47 Page status: 200
+[INFO]15:5:47 Souping page
+[INFO]15:5:48 Souped page
+[INFO]15:5:48 Writing 'Research paperGeophysical lineaments of Western Ghats and adjoining coastal areas of central Kerala, southern India and their temporal development' by 'P.' to disc
+[INFO]15:5:48 Written 'Research paperGeophysical lineaments of Western Ghats and adjoining coastal areas of central Kerala, southern India and their temporal development' to disc
+[INFO]15:5:48 Abstract Number: 10
+[INFO]15:5:48 Abstract ID: S2287884X15000059
+[INFO]15:5:50 Page status: 200
+[INFO]15:5:50 Souping page
+[INFO]15:5:51 Souped page
+[INFO]15:5:51 Writing 'Original articleNatural history of the trapdoor spider Idiops joidaGupta et\xc2\xa0al 2013 (Araneae: Idiopidae) from the Western Ghats in India' by 'Neha' to disc
+[INFO]15:5:51 Written 'Original articleNatural history of the trapdoor spider Idiops joidaGupta et\xc2\xa0al 2013 (Araneae: Idiopidae) from the Western Ghats in India' to disc
+[INFO]15:5:51 Abstract Number: 11
+[INFO]15:5:51 Abstract ID: S2214241X15000814
+[INFO]15:5:53 Page status: 200
+[INFO]15:5:53 Souping page
+[INFO]15:5:54 Souped page
+[INFO]15:5:54 Writing 'Subsurface Drainage and Storage Properties in the Western Ghats \xe2\x80\x93 A Study in the Basin of Netravati\xe2\x98\x86' by 'Mysooru R.' to disc
+[INFO]15:5:54 Written 'Subsurface Drainage and Storage Properties in the Western Ghats \xe2\x80\x93 A Study in the Basin of Netravati\xe2\x98\x86' to disc
+[INFO]15:5:54 Abstract Number: 12
+[INFO]15:5:54 Abstract ID: S1687157X18300647
+[INFO]15:5:56 Page status: 200
+[INFO]15:5:56 Souping page
+[INFO]15:5:57 Souped page
+[INFO]15:5:57 Writing 'Original ArticlePhytochemical analysis, antioxidant and antimicrobial activity of wild and in vitro derived plants of Ceropegia thwaitesii Hook \xe2\x80\x93 An endemic species from Western Ghats, India' by 'S.' to disc
+[INFO]15:5:57 Written 'Original ArticlePhytochemical analysis, antioxidant and antimicrobial activity of wild and in vitro derived plants of Ceropegia thwaitesii Hook \xe2\x80\x93 An endemic species from Western Ghats, India' to disc
+[INFO]15:5:57 Abstract Number: 13
+[INFO]15:5:57 Abstract ID: S2090506816300094
+[INFO]15:5:59 Page status: 200
+[INFO]15:5:59 Souping page
+[INFO]15:6:0 Souped page
+[INFO]15:6:0 Writing 'Antimicrobial activity of some actinomycetes from Western Ghats of Tamil Nadu, India' by 'Pathalam' to disc
+[INFO]15:6:0 Written 'Antimicrobial activity of some actinomycetes from Western Ghats of Tamil Nadu, India' to disc
+[INFO]15:6:0 Abstract Number: 14
+[INFO]15:6:0 Abstract ID: S2214540014000619
+[INFO]15:6:2 Page status: 200
+[INFO]15:6:2 Souping page
+[INFO]15:6:4 Souped page
+[INFO]15:6:4 Writing 'DNA barcoding of Pentatomomorpha bugs (Hemiptera: Heteroptera) from Western Ghats of India' by 'Sanket' to disc
+[INFO]15:6:4 Written 'DNA barcoding of Pentatomomorpha bugs (Hemiptera: Heteroptera) from Western Ghats of India' to disc
+[INFO]15:6:4 Abstract Number: 15
+[INFO]15:6:4 Abstract ID: S2214241X15000796
+[INFO]15:6:5 Page status: 200
+[INFO]15:6:5 Souping page
+[INFO]15:6:7 Souped page
+[INFO]15:6:7 Writing 'Analysis of Temporal Stability of Observed Soil Moisture under Plantation Forest in Western Ghats of India\xe2\x98\x86' by 'B.' to disc
+[INFO]15:6:7 Written 'Analysis of Temporal Stability of Observed Soil Moisture under Plantation Forest in Western Ghats of India\xe2\x98\x86' to disc
+[INFO]15:6:7 Abstract Number: 16
+[INFO]15:6:7 Abstract ID: S0006320715300562
+[INFO]15:6:8 Page status: 200
+[INFO]15:6:8 Souping page
+[INFO]15:6:10 Souped page
+[INFO]15:6:10 Writing 'Landscape scale habitat suitability modelling of bats in the Western Ghats of India: Bats like something in their tea' by 'Claire F.R.' to disc
+[INFO]15:6:10 Written 'Landscape scale habitat suitability modelling of bats in the Western Ghats of India: Bats like something in their tea' to disc
+[INFO]15:6:10 Abstract Number: 17
+[INFO]15:6:10 Abstract ID: S2287884X15000540
+[INFO]15:6:11 Page status: 200
+[INFO]15:6:11 Souping page
+[INFO]15:6:12 Souped page
+[INFO]15:6:12 Writing 'Short communicationA new large trapdoor spider species of the genus Heligmomerus Simon 1892 (Araneae, Mygalomorphae, Idiopidae) from Western Ghats, India' by 'Rajesh V.' to disc
+[INFO]15:6:12 Written 'Short communicationA new large trapdoor spider species of the genus Heligmomerus Simon 1892 (Araneae, Mygalomorphae, Idiopidae) from Western Ghats, India' to disc
+[INFO]15:6:12 Abstract Number: 18
+[INFO]15:6:12 Abstract ID: S0254629915003117
+[INFO]15:6:14 Page status: 200
+[INFO]15:6:14 Souping page
+[INFO]15:6:16 Souped page
+[INFO]15:6:16 Writing 'Seed germination and cryostorage of Musa acuminata subsp. burmannica from Western Ghats' by 'P.S.' to disc
+[INFO]15:6:16 Written 'Seed germination and cryostorage of Musa acuminata subsp. burmannica from Western Ghats' to disc
+[INFO]15:6:16 Abstract Number: 19
+[INFO]15:6:16 Abstract ID: S2214241X15001182
+[INFO]15:6:17 Page status: 200
+[INFO]15:6:17 Souping page
+[INFO]15:6:19 Souped page
+[INFO]15:6:19 Writing 'Flow Regionalization Under Limited Data Availability \xe2\x80\x93 Application of IHACRES in the Western Ghats\xe2\x98\x86' by 'Yusuf' to disc
+[INFO]15:6:19 Written 'Flow Regionalization Under Limited Data Availability \xe2\x80\x93 Application of IHACRES in the Western Ghats\xe2\x98\x86' to disc
+[INFO]15:6:19 Abstract Number: 20
+[INFO]15:6:19 Abstract ID: S1878522015003860
+[INFO]15:6:20 Page status: 200
+[INFO]15:6:20 Souping page
+[INFO]15:6:22 Souped page
+[INFO]15:6:22 Writing 'A Community Initiative in Conserving Natural Resources through Sacred Groves in Western Ghats of Karnataka, Peninsular India\xe2\x98\x86' by 'N.' to disc
+[INFO]15:6:22 Written 'A Community Initiative in Conserving Natural Resources through Sacred Groves in Western Ghats of Karnataka, Peninsular India\xe2\x98\x86' to disc
+[INFO]15:6:22 Abstract Number: 21
+[INFO]15:6:22 Abstract ID: S1110982316300400
+[INFO]15:6:23 Page status: 200
+[INFO]15:6:23 Souping page
+[INFO]15:6:25 Souped page
+[INFO]15:6:25 Writing 'Research PaperStimulus of developmental projects to landscape dynamics in Uttara Kannada, Central Western Ghats' by 'T.V.' to disc
+[INFO]15:6:25 Written 'Research PaperStimulus of developmental projects to landscape dynamics in Uttara Kannada, Central Western Ghats' to disc
+[INFO]15:6:25 Abstract Number: 22
+[INFO]15:6:25 Abstract ID: S1674987114000036
+[INFO]15:6:29 Page status: 200
+[INFO]15:6:29 Souping page
+[INFO]15:6:30 Souped page
+[INFO]15:6:30 Writing 'Research paperSensitivity of digital elevation models: The scenario from two tropical mountain river basins of the Western Ghats, India' by 'Jobin' to disc
+[INFO]15:6:30 Written 'Research paperSensitivity of digital elevation models: The scenario from two tropical mountain river basins of the Western Ghats, India' to disc
+[INFO]15:6:30 Abstract Number: 23
+[INFO]15:6:30 Abstract ID: S1687850717300146
+[INFO]15:6:32 Page status: 200
+[INFO]15:6:32 Souping page
+[INFO]15:6:33 Souped page
+[INFO]15:6:33 Writing 'Radioprotective and immunomodulatory effects of Mesua ferrea (Linn.) from Western Ghats of India., in irradiated Swiss albino mice and splenic lymphocytes' by 'Syed' to disc
+[INFO]15:6:33 Written 'Radioprotective and immunomodulatory effects of Mesua ferrea (Linn.) from Western Ghats of India., in irradiated Swiss albino mice and splenic lymphocytes' to disc
+[INFO]15:6:33 Abstract Number: 24
+[INFO]15:6:33 Abstract ID: S0254629913003384
+[INFO]15:6:35 Page status: 200
+[INFO]15:6:35 Souping page
+[INFO]15:6:36 Souped page
+[INFO]15:6:36 Writing 'Total phenolics, flavonoids and antioxidant properties of three Ceropegia species from Western Ghats of India' by 'Jaykumar J.' to disc
+[INFO]15:6:36 Written 'Total phenolics, flavonoids and antioxidant properties of three Ceropegia species from Western Ghats of India' to disc
+[INFO]15:6:36 Abstract Number: 25
+[INFO]15:6:36 Abstract ID: S2225411014000273
+[INFO]15:6:37 Page status: 200
+[INFO]15:6:37 Souping page
+[INFO]15:6:39 Souped page
+[INFO]15:6:39 Writing 'Short communicationEthnoveterinary medicine of the Shervaroy Hills of Eastern Ghats, India as alternative medicine for animals' by 'Swaminathan' to disc
+[INFO]15:6:39 Written 'Short communicationEthnoveterinary medicine of the Shervaroy Hills of Eastern Ghats, India as alternative medicine for animals' to disc
+[INFO]15:6:39 Abstract Number: 26
+[INFO]15:6:39 Abstract ID: S0944501304700178
+[INFO]15:6:40 Page status: 200
+[INFO]15:6:40 Souping page
+[INFO]15:6:42 Souped page
+[INFO]15:6:42 Writing 'New species of Phaeoramularia, Pseudocercospora and Stenella from Western Ghats of India' by 'K.' to disc
+[INFO]15:6:42 Written 'New species of Phaeoramularia, Pseudocercospora and Stenella from Western Ghats of India' to disc
+[INFO]15:6:42 Abstract Number: 27
+[INFO]15:6:42 Abstract ID: S2287884X17300043
+[INFO]15:6:43 Page status: 200
+[INFO]15:6:43 Souping page
+[INFO]15:6:45 Souped page
+[INFO]15:6:45 Writing 'Original articleA new species of Emilia Cass. (Asteraceae) from the Eastern Ghats of India with notes on ecosystem evaluation and conservation status' by 'Koppineedi Veera' to disc
+[INFO]15:6:45 Written 'Original articleA new species of Emilia Cass. (Asteraceae) from the Eastern Ghats of India with notes on ecosystem evaluation and conservation status' to disc
+[INFO]15:6:45 Abstract Number: 28
+[INFO]15:6:45 Abstract ID: S2214241X15000887
+[INFO]15:6:45 Page status: 200
+[INFO]15:6:45 Souping page
+[INFO]15:6:46 Souped page
+[INFO]15:6:46 Writing 'Modified SCS-CN and Green-Ampt Methods in Surface Runoff Modelling for the Kundahpallam Watershed, Nilgiris, Western Ghats, India\xe2\x98\x86' by 'R.' to disc
+[INFO]15:6:46 Written 'Modified SCS-CN and Green-Ampt Methods in Surface Runoff Modelling for the Kundahpallam Watershed, Nilgiris, Western Ghats, India\xe2\x98\x86' to disc
+[INFO]15:6:46 Abstract Number: 29
+[INFO]15:6:46 Abstract ID: S1110982317304258
+[INFO]15:6:48 Page status: 200
+[INFO]15:6:48 Souping page
+[INFO]15:6:51 Souped page
+[INFO]15:6:51 Writing 'Research PaperAssessing the impact of land use and land cover changes on the remnant patches of Kondapalli reserve forest of the Eastern Ghats, Andhra Pradesh, India' by 'N.N.' to disc
+[INFO]15:6:51 Written 'Research PaperAssessing the impact of land use and land cover changes on the remnant patches of Kondapalli reserve forest of the Eastern Ghats, Andhra Pradesh, India' to disc
+[INFO]15:6:51 Abstract Number: 30
+[INFO]15:6:51 Abstract ID: S094450130400031X
+[INFO]15:6:53 Page status: 200
+[INFO]15:6:53 Souping page
+[INFO]15:6:54 Souped page
+[INFO]15:6:54 Writing 'Occurrence of Gluconacetobacter diazotrophicus in tropical and subtropical plants of Western Ghats, India' by 'M.' to disc
+[INFO]15:6:54 Written 'Occurrence of Gluconacetobacter diazotrophicus in tropical and subtropical plants of Western Ghats, India' to disc
+[INFO]15:6:54 Abstract Number: 31
+[INFO]15:6:54 Abstract ID: S0006320717305566
+[INFO]15:6:56 Page status: 200
+[INFO]15:6:56 Souping page
+[INFO]15:6:57 Souped page
+[INFO]15:6:57 Writing 'Bats in the Ghats: Agricultural intensification reduces functional diversity and increases trait filtering in a biodiversity hotspot in India' by 'Claire F.R.' to disc
+[INFO]15:6:57 Written 'Bats in the Ghats: Agricultural intensification reduces functional diversity and increases trait filtering in a biodiversity hotspot in India' to disc
+[INFO]15:6:57 Abstract Number: 32
+[INFO]15:6:57 Abstract ID: S2212609015000102
+[INFO]15:6:59 Page status: 200
+[INFO]15:6:59 Souping page
+[INFO]15:7:0 Souped page
+[INFO]15:7:0 Writing 'Original Article/ResearchEcological integrity and environmental protection for Vijayawada region \xe2\x80\x93 Scattered Eastern Ghats' by 'Srikonda' to disc
+[INFO]15:7:0 Written 'Original Article/ResearchEcological integrity and environmental protection for Vijayawada region \xe2\x80\x93 Scattered Eastern Ghats' to disc
+[INFO]15:7:0 Abstract Number: 33
+[INFO]15:7:0 Abstract ID: S2287884X16300280
+[INFO]15:7:2 Page status: 200
+[INFO]15:7:2 Souping page
+[INFO]15:7:3 Souped page
+[INFO]15:7:3 Writing 'Original articleTree diversity, stand structure, and community composition of tropical forests in Eastern Ghats of Andhra Pradesh, India' by 'Maradana Tarakeswara' to disc
+[INFO]15:7:3 Written 'Original articleTree diversity, stand structure, and community composition of tropical forests in Eastern Ghats of Andhra Pradesh, India' to disc
+[INFO]15:7:3 Abstract Number: 34
+[INFO]15:7:3 Abstract ID: S2287884X15001089
+[INFO]15:7:5 Page status: 200
+[INFO]15:7:5 Souping page
+[INFO]15:7:6 Souped page
+[INFO]15:7:6 Writing 'Short communicationDrymaria villosa (Caryophyllaceae) new record for the flora of the Western Himalaya' by 'Satish' to disc
+[INFO]15:7:6 Written 'Short communicationDrymaria villosa (Caryophyllaceae) new record for the flora of the Western Himalaya' to disc
+[INFO]15:7:6 Abstract Number: 35
+[INFO]15:7:6 Abstract ID: S2212017316303036
+[INFO]15:7:8 Page status: 200
+[INFO]15:7:8 Souping page
+[INFO]15:7:9 Souped page
+[INFO]15:7:9 Writing 'Investigating the Role of PES in Reviving the Social and Ecological Fabric of Kodagu\xe2\x98\x86' by 'A. Seema' to disc
+[INFO]15:7:9 Written 'Investigating the Role of PES in Reviving the Social and Ecological Fabric of Kodagu\xe2\x98\x86' to disc
+[INFO]15:7:9 Abstract Number: 36
+[INFO]15:7:9 Abstract ID: S1674987113000546
+[INFO]15:7:11 Page status: 200
+[INFO]15:7:11 Souping page
+[INFO]15:7:12 Souped page
+[INFO]15:7:12 Writing 'Research paperAncient terrane boundaries as probable seismic hazards: A case study from the northern boundary of the Eastern Ghats Belt, India' by 'Saibal' to disc
+[INFO]15:7:12 Written 'Research paperAncient terrane boundaries as probable seismic hazards: A case study from the northern boundary of the Eastern Ghats Belt, India' to disc
+[INFO]15:7:12 Abstract Number: 37
+[INFO]15:7:12 Abstract ID: S1319562X18301839
+[INFO]15:7:14 Page status: 200
+[INFO]15:7:14 Souping page
+[INFO]15:7:15 Souped page
+[INFO]15:7:15 Writing 'Original articleEvaluation of a labdane diterpene forskolin isolated from Solena amplexicaulis (Lam.) Gandhi (Cucurbitaceae) revealed promising antidiabetic and antihyperlipidemic pharmacological properties' by 'Arjunan' to disc
+[INFO]15:7:15 Written 'Original articleEvaluation of a labdane diterpene forskolin isolated from Solena amplexicaulis (Lam.) Gandhi (Cucurbitaceae) revealed promising antidiabetic and antihyperlipidemic pharmacological properties' to disc
+[INFO]15:7:15 Abstract Number: 38
+[INFO]15:7:15 Abstract ID: S1674987116300263
+[INFO]15:7:17 Page status: 200
+[INFO]15:7:17 Souping page
+[INFO]15:7:18 Souped page
+[INFO]15:7:18 Writing 'Research paperFeeder and post Deccan Trap dyke activities in the northern slope of the Satpura Mountain: Evidence from new 40Ar-39Ar ages' by 'J.P.' to disc
+[INFO]15:7:18 Written 'Research paperFeeder and post Deccan Trap dyke activities in the northern slope of the Satpura Mountain: Evidence from new 40Ar-39Ar ages' to disc
+[INFO]15:7:18 Abstract Number: 39
+[INFO]15:7:18 Abstract ID: S1674987111000843
+[INFO]15:7:20 Page status: 200
+[INFO]15:7:20 Souping page
+[INFO]15:7:21 Souped page
+[INFO]15:7:21 Writing 'Original articleSapphirine granulites from Panasapattu, Eastern Ghats belt, India: Ultrahigh-temperature metamorphism in a Proterozoic convergent plate margin' by 'C.V.' to disc
+[INFO]15:7:21 Written 'Original articleSapphirine granulites from Panasapattu, Eastern Ghats belt, India: Ultrahigh-temperature metamorphism in a Proterozoic convergent plate margin' to disc
+[INFO]15:7:21 Abstract Number: 40
+[INFO]15:7:21 Abstract ID: S2314853516301494
+[INFO]15:7:23 Page status: 200
+[INFO]15:7:23 Souping page
+[INFO]15:7:24 Souped page
+[INFO]15:7:24 Writing 'Isolation and molecular characterization of actinomycetes with antimicrobial and mosquito larvicidal properties' by 'Ganesan' to disc
+[INFO]15:7:24 Written 'Isolation and molecular characterization of actinomycetes with antimicrobial and mosquito larvicidal properties' to disc
+[INFO]15:7:24 Abstract Number: 41
+[INFO]15:7:24 Abstract ID: S1110982316301223
+[INFO]15:7:26 Page status: 200
+[INFO]15:7:26 Souping page
+[INFO]15:7:27 Souped page
+[INFO]15:7:27 Writing 'Research PaperHydrogeological delineation of groundwater vulnerability to droughts in semi-arid areas of western Ahmednagar district' by 'Renie' to disc
+[INFO]15:7:27 Written 'Research PaperHydrogeological delineation of groundwater vulnerability to droughts in semi-arid areas of western Ahmednagar district' to disc
+[INFO]15:7:27 Abstract Number: 42
+[INFO]15:7:27 Abstract ID: S0300908413003544
+[INFO]15:7:29 Page status: 200
+[INFO]15:7:29 Souping page
+[INFO]15:7:30 Souped page
+[INFO]15:7:30 Writing 'Research paperNovel antibacterial peptides from the skin secretion of the Indian bicoloured frog Clinotarsus curtipes' by 'Parvin' to disc
+[INFO]15:7:30 Written 'Research paperNovel antibacterial peptides from the skin secretion of the Indian bicoloured frog Clinotarsus curtipes' to disc
+[INFO]15:7:30 Abstract Number: 43
+[INFO]15:7:30 Abstract ID: S0717345816300914
+[INFO]15:7:32 Page status: 200
+[INFO]15:7:32 Souping page
+[INFO]15:7:33 Souped page
+[INFO]15:7:33 Writing 'Research articleIdentification and genetic diversity analysis of Memecylon species using ISSR, RAPD and Gene-based DNA barcoding tools' by 'Bharathi Tumkur' to disc
+[INFO]15:7:33 Written 'Research articleIdentification and genetic diversity analysis of Memecylon species using ISSR, RAPD and Gene-based DNA barcoding tools' to disc
+[INFO]15:7:33 Abstract Number: 44
+[INFO]15:7:33 Abstract ID: S0975947616301358
+[INFO]15:7:35 Page status: 200
+[INFO]15:7:35 Souping page
+[INFO]15:7:36 Souped page
+[INFO]15:7:36 Writing 'Original Research Article (Experimental)Antiurolithiatic activity of natural constituents isolated from Aerva lanata' by 'Basavaraj M.' to disc
+[INFO]15:7:36 Written 'Original Research Article (Experimental)Antiurolithiatic activity of natural constituents isolated from Aerva lanata' to disc
+[INFO]15:7:36 Abstract Number: 45
+[INFO]15:7:36 Abstract ID: S2214241X15000826
+[INFO]15:7:38 Page status: 200
+[INFO]15:7:38 Souping page
+[INFO]15:7:39 Souped page
+[INFO]15:7:39 Writing 'Nethravathi River \xe2\x80\x93 Water Supply Scheme in Dakshina Kannada District \xe2\x80\x93 A Case Study\xe2\x98\x86' by 'H.C. Chinnagiri' to disc
+[INFO]15:7:39 Written 'Nethravathi River \xe2\x80\x93 Water Supply Scheme in Dakshina Kannada District \xe2\x80\x93 A Case Study\xe2\x98\x86' to disc
+[INFO]15:7:39 Abstract Number: 46
+[INFO]15:7:39 Abstract ID: S143960920600002X
+[INFO]15:7:41 Page status: 200
+[INFO]15:7:41 Souping page
+[INFO]15:7:42 Souped page
+[INFO]15:7:42 Writing 'Geoemyda silvatica, an enigmatic turtle of the Geoemydidae (Reptilia: Testudines), represents a distinct genus' by 'Peter' to disc
+[INFO]15:7:42 Written 'Geoemyda silvatica, an enigmatic turtle of the Geoemydidae (Reptilia: Testudines), represents a distinct genus' to disc
+[INFO]15:7:42 Abstract Number: 47
+[INFO]15:7:42 Abstract ID: S0102695X16000028
+[INFO]15:7:44 Page status: 200
+[INFO]15:7:44 Souping page
+[INFO]15:7:45 Souped page
+[INFO]15:7:46 Writing 'Original articleIsolation and characterization of 2-hydroxy-9,10-anthraquinone from Streptomyces olivochromogenes (ERINLG-261) with antimicrobial and antiproliferative properties' by 'Chandrasekar' to disc
+[INFO]15:7:46 Written 'Original articleIsolation and characterization of 2-hydroxy-9,10-anthraquinone from Streptomyces olivochromogenes (ERINLG-261) with antimicrobial and antiproliferative properties' to disc
+[INFO]15:7:46 Abstract Number: 48
+[INFO]15:7:46 Abstract ID: S2351989416300907
+[INFO]15:7:47 Page status: 200
+[INFO]15:7:47 Souping page
+[INFO]15:7:48 Souped page
+[INFO]15:7:48 Writing 'Original research articlePatterns of tree community differences in the core and buffer zones of a nature reserve in north-western Vietnam' by 'Thi Hoa Hong' to disc
+[INFO]15:7:48 Written 'Original research articlePatterns of tree community differences in the core and buffer zones of a nature reserve in north-western Vietnam' to disc
+[INFO]15:7:49 Abstract Number: 49
+[INFO]15:7:49 Abstract ID: S1439609208000275
+[INFO]15:7:51 Page status: 200
+[INFO]15:7:51 Souping page
+[INFO]15:7:53 Souped page
+[INFO]15:7:53 Writing 'Phylogenetic position of the montane treefrog Polypedates variabilis Jerdon, 1853 (Anura: Rhacophoridae), and description of a related species' by 'S.D.' to disc
+[INFO]15:7:53 Written 'Phylogenetic position of the montane treefrog Polypedates variabilis Jerdon, 1853 (Anura: Rhacophoridae), and description of a related species' to disc
+[INFO]15:7:53 Abstract Number: 50
+[INFO]15:7:53 Abstract ID: S1674987113000388
+[INFO]15:7:55 Page status: 200
+[INFO]15:7:55 Souping page
+[INFO]15:7:56 Souped page
+[INFO]15:7:56 Writing 'Research paperProterozoic orogenic belts and rifting of Indian cratons: Geophysical constraints' by 'D.C.' to disc
+[INFO]15:7:56 Written 'Research paperProterozoic orogenic belts and rifting of Indian cratons: Geophysical constraints' to disc
+[INFO]15:7:56 Abstract Number: 51
+[INFO]15:7:56 Abstract ID: S1877705816345234
+[INFO]15:7:58 Page status: 200
+[INFO]15:7:58 Souping page
+[INFO]15:7:59 Souped page
+[INFO]15:7:59 Writing 'Dynamic Response of Deccan Trap Basalt under Hopkinson Bar Test\xe2\x98\x86' by 'Akx' to disc
+[INFO]15:7:59 Written 'Dynamic Response of Deccan Trap Basalt under Hopkinson Bar Test\xe2\x98\x86' to disc
+[INFO]15:7:59 Abstract Number: 52
+[INFO]15:7:59 Abstract ID: S167498711100106X
+[INFO]15:8:1 Page status: 200
+[INFO]15:8:1 Souping page
+[INFO]15:8:2 Souped page
+[INFO]15:8:2 Writing 'GSF focusSpatio-temporal evolution of the Satpura Mountain Belt of India: A comparison with the Capricorn Orogen of Western Australia and implication for evolution of the supercontinent Columbia' by 'S.' to disc
+[INFO]15:8:2 Written 'GSF focusSpatio-temporal evolution of the Satpura Mountain Belt of India: A comparison with the Capricorn Orogen of Western Australia and implication for evolution of the supercontinent Columbia' to disc
+[INFO]15:8:2 Abstract Number: 53
+[INFO]15:8:2 Abstract ID: S1674987117301068
+[INFO]15:8:4 Page status: 200
+[INFO]15:8:4 Souping page
+[INFO]15:8:6 Souped page
+[INFO]15:8:6 Writing 'Research PaperCrustal structure and sedimentation history over the Alleppey platform, southwest continental margin of India: Constraints from multichannel seismic and gravity data' by 'P.' to disc
+[INFO]15:8:6 Written 'Research PaperCrustal structure and sedimentation history over the Alleppey platform, southwest continental margin of India: Constraints from multichannel seismic and gravity data' to disc
+[INFO]15:8:6 Abstract Number: 54
+[INFO]15:8:6 Abstract ID: S2212096315000297
+[INFO]15:8:7 Page status: 200
+[INFO]15:8:7 Souping page
+[INFO]15:8:9 Souped page
+[INFO]15:8:9 Writing 'Climate change impact and vulnerability assessment of forests in the Indian Western Himalayan region: A case study of Himachal Pradesh, India' by 'Sujata' to disc
+[INFO]15:8:9 Written 'Climate change impact and vulnerability assessment of forests in the Indian Western Himalayan region: A case study of Himachal Pradesh, India' to disc
+[INFO]15:8:9 Abstract Number: 55
+[INFO]15:8:9 Abstract ID: S1674987111001034
+[INFO]15:8:10 Page status: 200
+[INFO]15:8:10 Souping page
+[INFO]15:8:12 Souped page
+[INFO]15:8:12 Writing 'Research PaperEstimation of soil erosion risk within a small mountainous sub-watershed in Kerala, India, using Revised Universal Soil Loss Equation (RUSLE) and geo-information technology' by 'V.' to disc
+[INFO]15:8:12 Written 'Research PaperEstimation of soil erosion risk within a small mountainous sub-watershed in Kerala, India, using Revised Universal Soil Loss Equation (RUSLE) and geo-information technology' to disc
+[INFO]15:8:12 Abstract Number: 56
+[INFO]15:8:12 Abstract ID: S0075951112000072
+[INFO]15:8:13 Page status: 200
+[INFO]15:8:13 Souping page
+[INFO]15:8:14 Souped page
+[INFO]15:8:14 Writing 'Aquatic hyphomycetes in hyporheic freshwater habitats of southwest India' by 'Naga Mangala' to disc
+[INFO]15:8:14 Written 'Aquatic hyphomycetes in hyporheic freshwater habitats of southwest India' to disc
+[INFO]15:8:14 Abstract Number: 57
+[INFO]15:8:14 Abstract ID: S1674987112000588
+[INFO]15:8:16 Page status: 200
+[INFO]15:8:16 Souping page
+[INFO]15:8:18 Souped page
+[INFO]15:8:18 Writing 'Research paperA geochemical perspective on charnockite magmatism in Peninsular India' by 'H.M.' to disc
+[INFO]15:8:18 Written 'Research paperA geochemical perspective on charnockite magmatism in Peninsular India' to disc
+[INFO]15:8:18 Abstract Number: 58
+[INFO]15:8:18 Abstract ID: S1674987117301391
+[INFO]15:8:19 Page status: 200
+[INFO]15:8:19 Souping page
+[INFO]15:8:21 Souped page
+[INFO]15:8:21 Writing 'Research PaperDetrital zircon geochronology of the L\xc3\xbctzow-Holm Complex, East Antarctica: Implications for Antarctica\xe2\x80\x93Sri Lanka correlation' by 'Yusuke' to disc
+[INFO]15:8:21 Written 'Research PaperDetrital zircon geochronology of the L\xc3\xbctzow-Holm Complex, East Antarctica: Implications for Antarctica\xe2\x80\x93Sri Lanka correlation' to disc
+[INFO]15:8:21 Abstract Number: 59
+[INFO]15:8:21 Abstract ID: S1674984716301355
+[INFO]15:8:22 Page status: 200
+[INFO]15:8:22 Souping page
+[INFO]15:8:24 Souped page
+[INFO]15:8:24 Writing 'River mouth dynamics of Swarnamukhi estuary, Nellore coast, southeast coast of India' by 'G.' to disc
+[INFO]15:8:24 Written 'River mouth dynamics of Swarnamukhi estuary, Nellore coast, southeast coast of India' to disc
+[INFO]15:8:24 Abstract Number: 60
+[INFO]15:8:24 Abstract ID: S1110982317302132
+[INFO]15:8:25 Page status: 200
+[INFO]15:8:25 Souping page
+[INFO]15:8:27 Souped page
+[INFO]15:8:27 Writing 'Research PaperEvaluating MODIS-vegetation continuous field products to assess tree cover change and forest fragmentation in India \xe2\x80\x93 A multi-scale satellite remote sensing approach' by 'Giriraj' to disc
+[INFO]15:8:27 Written 'Research PaperEvaluating MODIS-vegetation continuous field products to assess tree cover change and forest fragmentation in India \xe2\x80\x93 A multi-scale satellite remote sensing approach' to disc
+[INFO]15:8:27 Abstract Number: 61
+[INFO]15:8:27 Abstract ID: S1319562X16000553
+[INFO]15:8:29 Page status: 200
+[INFO]15:8:29 Souping page
+[INFO]15:8:30 Souped page
+[INFO]15:8:30 Writing 'Original articleNew antimicrobial anthraquinone 6,61-bis (1,5,7-trihydroxy-3-hydroxymethylanthraquinone) isolated from Streptomyces sp. isolate ERI-26' by 'V.' to disc
+[INFO]15:8:30 Written 'Original articleNew antimicrobial anthraquinone 6,61-bis (1,5,7-trihydroxy-3-hydroxymethylanthraquinone) isolated from Streptomyces sp. isolate ERI-26' to disc
+[INFO]15:8:30 Abstract Number: 62
+[INFO]15:8:30 Abstract ID: S1674987114000437
+[INFO]15:8:32 Page status: 200
+[INFO]15:8:32 Souping page
+[INFO]15:8:33 Souped page
+[INFO]15:8:33 Writing 'Research paperEvolving provenance in the Proterozoic Pranhita-Godavari Basin, India' by 'Udeni' to disc
+[INFO]15:8:33 Written 'Research paperEvolving provenance in the Proterozoic Pranhita-Godavari Basin, India' to disc
+[INFO]15:8:33 Abstract Number: 63
+[INFO]15:8:33 Abstract ID: S1319562X18301827
+[INFO]15:8:35 Page status: 200
+[INFO]15:8:35 Souping page
+[INFO]15:8:36 Souped page
+[INFO]15:8:36 Writing 'Original articleThe potential of antioxidant activity of methanolic extract of Coscinium fenestratum (Goetgh.) Colebr (Menispermaceae)' by 'Krishnamoorthy' to disc
+[INFO]15:8:36 Written 'Original articleThe potential of antioxidant activity of methanolic extract of Coscinium fenestratum (Goetgh.) Colebr (Menispermaceae)' to disc
+[INFO]15:8:36 Abstract Number: 64
+[INFO]15:8:36 Abstract ID: S0001706X16302947
+[INFO]15:8:37 Page status: 200
+[INFO]15:8:37 Souping page
+[INFO]15:8:39 Souped page
+[INFO]15:8:39 Writing 'Factors influencing passive surveillance for T. b. rhodesiense human african trypanosomiasis in Uganda' by 'Christine' to disc
+[INFO]15:8:39 Written 'Factors influencing passive surveillance for T. b. rhodesiense human african trypanosomiasis in Uganda' to disc
+[INFO]15:8:39 Abstract Number: 65
+[INFO]15:8:39 Abstract ID: S2287884X18300542
+[INFO]15:8:41 Page status: 200
+[INFO]15:8:41 Souping page
+[INFO]15:8:42 Souped page
+[INFO]15:8:42 Writing 'Review ArticleConservation status of some endangered mammals in Barak Valley, Northeast India' by 'Nazimur Rahman' to disc
+[INFO]15:8:42 Written 'Review ArticleConservation status of some endangered mammals in Barak Valley, Northeast India' to disc
+[INFO]15:8:42 Abstract Number: 66
+[INFO]15:8:42 Abstract ID: S1201971217301583
+[INFO]15:8:44 Page status: 200
+[INFO]15:8:44 Souping page
+[INFO]15:8:45 Souped page
+[INFO]15:8:45 Writing 'Short CommunicationOccupational exposure of cashew nut workers to Kyasanur Forest disease in Goa, India' by 'D.Y.' to disc
+[INFO]15:8:45 Written 'Short CommunicationOccupational exposure of cashew nut workers to Kyasanur Forest disease in Goa, India' to disc
+[INFO]15:8:45 Abstract Number: 67
+[INFO]15:8:45 Abstract ID: S1674987117300038
+[INFO]15:8:47 Page status: 200
+[INFO]15:8:47 Souping page
+[INFO]15:8:48 Souped page
+[INFO]15:8:48 Writing 'Research PaperBreccia-cored columnar rosettes in a rubbly pahoehoe lava flow, Elephanta Island, Deccan Traps, and a model for their origin' by 'Hetu' to disc
+[INFO]15:8:48 Written 'Research PaperBreccia-cored columnar rosettes in a rubbly pahoehoe lava flow, Elephanta Island, Deccan Traps, and a model for their origin' to disc
+[INFO]15:8:48 Abstract Number: 68
+[INFO]15:8:48 Abstract ID: S221201731630305X
+[INFO]15:8:49 Page status: 200
+[INFO]15:8:49 Souping page
+[INFO]15:8:51 Souped page
+[INFO]15:8:51 Writing 'Politics of Urbanscape: Transfiguring the Image of Kolkata\xe2\x98\x86' by 'Shreyasi' to disc
+[INFO]15:8:51 Written 'Politics of Urbanscape: Transfiguring the Image of Kolkata\xe2\x98\x86' to disc
+[INFO]15:8:51 Abstract Number: 69
+[INFO]15:8:51 Abstract ID: S1110492916300273
+[INFO]15:8:53 Page status: 200
+[INFO]15:8:53 Souping page
+[INFO]15:8:54 Souped page
+[INFO]15:8:54 Writing 'Research ArticleStudies on high iron content in water resources of Moradabad district (UP), India' by 'Vipin' to disc
+[INFO]15:8:54 Written 'Research ArticleStudies on high iron content in water resources of Moradabad district (UP), India' to disc
+[INFO]15:8:54 Abstract Number: 70
+[INFO]15:8:54 Abstract ID: S2212017316302912
+[INFO]15:8:55 Page status: 200
+[INFO]15:8:56 Souping page
+[INFO]15:8:57 Souped page
+[INFO]15:8:57 Writing 'Changing Cities in the Perspective of Religious Tourism \xe2\x80\x93 A Case of Allahabad\xe2\x98\x86' by 'Harsimran' to disc
+[INFO]15:8:57 Written 'Changing Cities in the Perspective of Religious Tourism \xe2\x80\x93 A Case of Allahabad\xe2\x98\x86' to disc
+[INFO]15:8:57 Abstract Number: 71
+[INFO]15:8:57 Abstract ID: S2287884X16300735
+[INFO]15:8:58 Page status: 200
+[INFO]15:8:58 Souping page
+[INFO]15:9:0 Souped page
+[INFO]15:9:0 Writing 'Contents' by Author not available to disc
+[INFO]15:9:0 Written 'Contents' to disc
+[INFO]15:9:0 Abstract Number: 72
+[INFO]15:9:0 Abstract ID: S221267081200053X
+[INFO]15:9:2 Page status: 200
+[INFO]15:9:2 Souping page
+[INFO]15:9:3 Souped page
+[INFO]15:9:3 Writing 'Managing Flood Flows for Crop Production Risk Management with Hydraulic and GIS Modeling: Case study of Agricultural Areas in Shariatpur' by 'A.A.' to disc
+[INFO]15:9:3 Written 'Managing Flood Flows for Crop Production Risk Management with Hydraulic and GIS Modeling: Case study of Agricultural Areas in Shariatpur' to disc
+[INFO]15:9:3 Abstract Number: 73
+[INFO]15:9:3 Abstract ID: S2405673117300612
+[INFO]15:9:5 Page status: 200
+[INFO]15:9:5 Souping page
+[INFO]15:9:6 Souped page
+[INFO]15:9:6 Writing 'Circulation of dengue serotypes in the Union Territory of Dadra & Nagar Haveli (India)' by 'D.B.' to disc
+[INFO]15:9:6 Written 'Circulation of dengue serotypes in the Union Territory of Dadra & Nagar Haveli (India)' to disc
+[INFO]15:9:6 Abstract Number: 74
+[INFO]15:9:6 Abstract ID: S167498711730124X
+[INFO]15:9:8 Page status: 200
+[INFO]15:9:8 Souping page
+[INFO]15:9:9 Souped page
+[INFO]15:9:9 Writing 'Research PaperThermal history of a Late Mesoproterozoic paired metamorphic belt (?) during Rodinia assembly: New insight from medium-pressure granulites from the Aravalli-Delhi Mobile Belt, Northwestern India' by 'Santanu Kumar' to disc
+[INFO]15:9:9 Written 'Research PaperThermal history of a Late Mesoproterozoic paired metamorphic belt (?) during Rodinia assembly: New insight from medium-pressure granulites from the Aravalli-Delhi Mobile Belt, Northwestern India' to disc
+[INFO]15:9:9 Abstract Number: 75
+[INFO]15:9:9 Abstract ID: S1674987117301743
+[INFO]15:9:11 Page status: 200
+[INFO]15:9:11 Souping page
+[INFO]15:9:12 Souped page
+[INFO]15:9:12 Writing 'Research paperEarly warning system for shallow landslides using rainfall threshold and slope stability analysis' by 'Shruti' to disc
+[INFO]15:9:12 Written 'Research paperEarly warning system for shallow landslides using rainfall threshold and slope stability analysis' to disc
+[INFO]15:9:12 Abstract Number: 76
+[INFO]15:9:12 Abstract ID: S2214241X15001753
+[INFO]15:9:14 Page status: 200
+[INFO]15:9:14 Souping page
+[INFO]15:9:15 Souped page
+[INFO]15:9:15 Writing 'Identification of Hydrologically Active Areas in a Watershed Using Satellite Data\xe2\x98\x86' by 'B.C. Kumar' to disc
+[INFO]15:9:15 Written 'Identification of Hydrologically Active Areas in a Watershed Using Satellite Data\xe2\x98\x86' to disc
+[INFO]15:9:15 Abstract Number: 77
+[INFO]15:9:15 Abstract ID: S2225411017300159
+[INFO]15:9:17 Page status: 200
+[INFO]15:9:17 Souping page
+[INFO]15:9:18 Souped page
+[INFO]15:9:18 Writing 'Review articleAnti-paralytic medicinal plants \xe2\x80\x93 Review' by 'Khaling' to disc
+[INFO]15:9:18 Written 'Review articleAnti-paralytic medicinal plants \xe2\x80\x93 Review' to disc
+[INFO]15:9:18 Abstract Number: 78
+[INFO]15:9:18 Abstract ID: S1674987115001255
+[INFO]15:9:20 Page status: 200
+[INFO]15:9:20 Souping page
+[INFO]15:9:21 Souped page
+[INFO]15:9:21 Writing 'Research paperAssessment of soil erosion by RUSLE model using remote sensing and GIS - A case study of Nethravathi Basin' by 'B.P.' to disc
+[INFO]15:9:21 Written 'Research paperAssessment of soil erosion by RUSLE model using remote sensing and GIS - A case study of Nethravathi Basin' to disc
+[INFO]15:9:21 Abstract Number: 79
+[INFO]15:9:21 Abstract ID: S168785071630019X
+[INFO]15:9:23 Page status: 200
+[INFO]15:9:23 Souping page
+[INFO]15:9:24 Souped page
+[INFO]15:9:24 Writing 'Activity of 210Po and 210Pb in the riverine environs of coastal Kerala on the southwest coast of India' by 'N.' to disc
+[INFO]15:9:24 Written 'Activity of 210Po and 210Pb in the riverine environs of coastal Kerala on the southwest coast of India' to disc
+[INFO]15:9:24 Abstract Number: 80
+[INFO]15:9:24 Abstract ID: S0975947616304478
+[INFO]15:9:26 Page status: 200
+[INFO]15:9:26 Souping page
+[INFO]15:9:27 Souped page
+[INFO]15:9:28 Writing 'Original Research Article (Experimental)Documentation of \xe2\x80\x98Plant Drugs\xe2\x80\x99 dispensed via local weekly shanties of\xc2\xa0Madurai City, India' by 'Tagadur Sureshchandra' to disc
+[INFO]15:9:28 Written 'Original Research Article (Experimental)Documentation of \xe2\x80\x98Plant Drugs\xe2\x80\x99 dispensed via local weekly shanties of\xc2\xa0Madurai City, India' to disc
+[INFO]15:9:28 Abstract Number: 81
+[INFO]15:9:28 Abstract ID: S1674987116301207
+[INFO]15:9:29 Page status: 200
+[INFO]15:9:29 Souping page
+[INFO]15:9:31 Souped page
+[INFO]15:9:31 Writing 'Research paperA composite fall-slippage model for cliff recession in the sedimentary coastal cliffs' by 'K.S.' to disc
+[INFO]15:9:31 Written 'Research paperA composite fall-slippage model for cliff recession in the sedimentary coastal cliffs' to disc
+[INFO]15:9:31 Abstract Number: 82
+[INFO]15:9:31 Abstract ID: S2214241X15001704
+[INFO]15:9:32 Page status: 200
+[INFO]15:9:32 Souping page
+[INFO]15:9:33 Souped page
+[INFO]15:9:33 Writing 'An Assessment of Resource Potentials for Sustainable Development of Micro-watershed in Tirunelveli District Using Geoinformatics\xe2\x80\x93 A Case of Nambiyar Micro-watershed in Tirunelveli District, Tamil Nadu, India\xe2\x98\x86' by 'K.' to disc
+[INFO]15:9:33 Written 'An Assessment of Resource Potentials for Sustainable Development of Micro-watershed in Tirunelveli District Using Geoinformatics\xe2\x80\x93 A Case of Nambiyar Micro-watershed in Tirunelveli District, Tamil Nadu, India\xe2\x98\x86' to disc
+[INFO]15:9:33 Abstract Number: 83
+[INFO]15:9:33 Abstract ID: S2211379717325603
+[INFO]15:9:35 Page status: 200
+[INFO]15:9:35 Souping page
+[INFO]15:9:36 Souped page
+[INFO]15:9:36 Writing 'Characterization, antibacterial, antioxidant, antidiabetic, anti-inflammatory and antityrosinase activity of green synthesized silver nanoparticles using Calophyllum tomentosum leaves extract' by 'M.' to disc
+[INFO]15:9:36 Written 'Characterization, antibacterial, antioxidant, antidiabetic, anti-inflammatory and antityrosinase activity of green synthesized silver nanoparticles using Calophyllum tomentosum leaves extract' to disc
+[INFO]15:9:36 Abstract Number: 84
+[INFO]15:9:36 Abstract ID: S2314724517300353
+[INFO]15:9:38 Page status: 200
+[INFO]15:9:54 Souping page
+[INFO]15:9:55 Souped page
+[INFO]15:9:55 Writing 'Exploration of antioxidant, antidiabetic and hepatoprotective activity of Diplazium esculentum - A wild edible plant from North Eastern India' by 'Julfikar Ali' to disc
+[INFO]15:9:55 Written 'Exploration of antioxidant, antidiabetic and hepatoprotective activity of Diplazium esculentum - A wild edible plant from North Eastern India' to disc
+[INFO]15:9:55 Abstract Number: 85
+[INFO]15:9:55 Abstract ID: S0975947617301365
+[INFO]15:9:57 Page status: 200
+[INFO]15:9:57 Souping page
+[INFO]15:9:58 Souped page
+[INFO]15:9:58 Writing 'Short CommunicationNuclear ribosomal DNA \xe2\x80\x93 ITS region based molecular marker to distinguish the medicinal plant Gmelina arborea Roxb. Ex Sm. from its substitutes and adulterants' by 'Jaganathan' to disc
+[INFO]15:9:58 Written 'Short CommunicationNuclear ribosomal DNA \xe2\x80\x93 ITS region based molecular marker to distinguish the medicinal plant Gmelina arborea Roxb. Ex Sm. from its substitutes and adulterants' to disc
+[INFO]15:9:58 Abstract Number: 86
+[INFO]15:9:58 Abstract ID: S2287884X15000655
+[INFO]15:10:0 Page status: 200
+[INFO]15:10:0 Souping page
+[INFO]15:10:2 Souped page
+[INFO]15:10:2 Writing 'Contents' by Author not available to disc
+[INFO]15:10:2 Written 'Contents' to disc
+[INFO]15:10:2 Abstract Number: 87
+[INFO]15:10:2 Abstract ID: S167498711300114X
+[INFO]15:10:3 Page status: 200
+[INFO]15:10:3 Souping page
+[INFO]15:10:4 Souped page
+[INFO]15:10:4 Writing 'EditorialGeophysical signatures of Precambrian shields and suture zones: Preface for thematic section' by 'K.' to disc
+[INFO]15:10:4 Written 'EditorialGeophysical signatures of Precambrian shields and suture zones: Preface for thematic section' to disc
+[INFO]15:10:4 Abstract Number: 88
+[INFO]15:10:4 Abstract ID: S2287884X18300414
+[INFO]15:10:4 Page status: 200
+[INFO]15:10:4 Souping page
+[INFO]15:10:5 Souped page
+[INFO]15:10:5 Writing 'Original ArticleEarthworms Diversity of Koppal District with the Updated Information on Genus Thatonia of Hyderabad-Karnataka Region, Karnataka, India' by 'Heena' to disc
+[INFO]15:10:5 Written 'Original ArticleEarthworms Diversity of Koppal District with the Updated Information on Genus Thatonia of Hyderabad-Karnataka Region, Karnataka, India' to disc
+[INFO]15:10:5 Abstract Number: 89
+[INFO]15:10:5 Abstract ID: S2095263517300596
+[INFO]15:10:6 Page status: 200
+[INFO]15:10:6 Souping page
+[INFO]15:10:7 Souped page
+[INFO]15:10:7 Writing 'RESEARCH ARTICLETraditional Indian religious streets: A spatial study of the streets of Mathura' by 'Meeta' to disc
+[INFO]15:10:7 Written 'RESEARCH ARTICLETraditional Indian religious streets: A spatial study of the streets of Mathura' to disc
+[INFO]15:10:7 Abstract Number: 90
+[INFO]15:10:7 Abstract ID: S1040618211002989
+[INFO]15:10:8 Page status: 200
+[INFO]15:10:8 Souping page
+[INFO]15:10:8 Souped page
+[INFO]15:10:8 Writing 'Shifting cultivators in South Asia: Expansion, marginalisation and specialisation over the long term' by 'Eleanor' to disc
+[INFO]15:10:8 Written 'Shifting cultivators in South Asia: Expansion, marginalisation and specialisation over the long term' to disc
+[INFO]15:10:8 Abstract Number: 91
+[INFO]15:10:8 Abstract ID: S1674987114000899
+[INFO]15:10:9 Page status: 200
+[INFO]15:10:9 Souping page
+[INFO]15:10:10 Souped page
+[INFO]15:10:10 Writing 'Research paperGeochemistry and petrogenesis of Rajahmundry trap basalts of\xc2\xa0Krishna-Godavari Basin, India' by 'C.' to disc
+[INFO]15:10:10 Written 'Research paperGeochemistry and petrogenesis of Rajahmundry trap basalts of\xc2\xa0Krishna-Godavari Basin, India' to disc
+[INFO]15:10:10 Abstract Number: 92
+[INFO]15:10:10 Abstract ID: S2452316X17302107
+[INFO]15:10:10 Page status: 200
+[INFO]15:10:10 Souping page
+[INFO]15:10:11 Souped page
+[INFO]15:10:11 Writing 'Review ArticleDiverse application of Phoenix sylvestris: A potential herb' by 'Pankaj' to disc
+[INFO]15:10:11 Written 'Review ArticleDiverse application of Phoenix sylvestris: A potential herb' to disc
+[INFO]15:10:11 Abstract Number: 93
+[INFO]15:10:11 Abstract ID: S0959437X16301095
+[INFO]15:10:12 Page status: 200
+[INFO]15:10:12 Souping page
+[INFO]15:10:13 Souped page
+[INFO]15:10:13 Writing 'The African diaspora: history, adaptation and health' by 'Charles N' to disc
+[INFO]15:10:13 Written 'The African diaspora: history, adaptation and health' to disc
+[INFO]15:10:13 Abstract Number: 94
+[INFO]15:10:13 Abstract ID: S1110982317301394
+[INFO]15:10:13 Page status: 200
+[INFO]15:10:13 Souping page
+[INFO]15:10:14 Souped page
+[INFO]15:10:14 Writing 'Coastal landuse and land cover change and transformations of Kanyakumari coast, India using remote sensing and GIS' by 'S.' to disc
+[INFO]15:10:14 Written 'Coastal landuse and land cover change and transformations of Kanyakumari coast, India using remote sensing and GIS' to disc
+[INFO]15:10:14 Abstract Number: 95
+[INFO]15:10:14 Abstract ID: S2005290116300401
+[INFO]15:10:15 Page status: 200
+[INFO]15:10:15 Souping page
+[INFO]15:10:16 Souped page
+[INFO]15:10:16 Writing 'Research articleEthanol Extracts of Selected Cyathea Species Decreased Cell Viability and Inhibited Growth in MCF 7 Cell Line Cultures' by 'Narayanan' to disc
+[INFO]15:10:16 Written 'Research articleEthanol Extracts of Selected Cyathea Species Decreased Cell Viability and Inhibited Growth in MCF 7 Cell Line Cultures' to disc
+[INFO]15:10:16 Abstract Number: 96
+[INFO]15:10:16 Abstract ID: S2213422016301548
+[INFO]15:10:16 Page status: 200
+[INFO]15:10:16 Souping page
+[INFO]15:10:17 Souped page
+[INFO]15:10:17 Writing 'Original ArticleIn vitro antioxidant and anticancer activity of Leea indica leaf extracts on human prostate cancer cell lines' by 'Shridhar C.' to disc
+[INFO]15:10:17 Written 'Original ArticleIn vitro antioxidant and anticancer activity of Leea indica leaf extracts on human prostate cancer cell lines' to disc
+[INFO]15:10:17 Abstract Number: 97
+[INFO]15:10:17 Abstract ID: S1674987115000420
+[INFO]15:10:19 Page status: 200
+[INFO]15:10:19 Souping page
+[INFO]15:10:20 Souped page
+[INFO]15:10:20 Writing 'Research paperCorrelations between the North China Craton and the Indian Shield: Constraints from regional metallogeny' by 'Caifeng' to disc
+[INFO]15:10:20 Written 'Research paperCorrelations between the North China Craton and the Indian Shield: Constraints from regional metallogeny' to disc
+[INFO]15:10:20 Abstract Number: 98
+[INFO]15:10:20 Abstract ID: S2214581817304573
+[INFO]15:10:22 Page status: 200
+[INFO]15:10:22 Souping page
+[INFO]15:10:23 Souped page
+[INFO]15:10:23 Writing 'Future climate and runoff projections across South Asia from CMIP5 global climate models and hydrological modelling' by 'Hongxing' to disc
+[INFO]15:10:23 Written 'Future climate and runoff projections across South Asia from CMIP5 global climate models and hydrological modelling' to disc
+[INFO]15:10:23 Abstract Number: 99
+[INFO]15:10:23 Abstract ID: S2213020916301781
+[INFO]15:10:26 Page status: 200
+[INFO]15:10:26 Souping page
+[INFO]15:10:27 Souped page
+[INFO]15:10:27 Writing 'Comparison of two hydrological drought indices\xe2\x98\x86' by 'Abhishek A.' to disc
+[INFO]15:10:27 Written 'Comparison of two hydrological drought indices\xe2\x98\x86' to disc
+[INFO]15:10:27 Abstract Number: 100
+[INFO]15:10:27 Abstract ID: S2287884X15000175
+[INFO]15:10:29 Page status: 200
+[INFO]15:10:29 Souping page
+[INFO]15:10:31 Souped page
+[INFO]15:10:31 Writing 'Contents' by Author not available to disc
+[INFO]15:10:31 Written 'Contents' to disc
+[INFO]15:10:32 Page status: 200
+[INFO]15:10:32 Souping page
+[INFO]15:10:35 Souped page
+[INFO]15:10:35 Scraping IDs
+[INFO]15:10:36 Scraped IDs
+[INFO]15:10:36 Extracting Abstract IDs from disc
+[INFO]15:10:36 Extracted Abstract IDs from disc
+[INFO]15:10:36 Abstract Number: 101
+[INFO]15:10:36 Abstract ID: S2287884X15000175
+[INFO]15:10:37 Page status: 200
+[INFO]15:10:37 Souping page
+[INFO]15:10:39 Souped page
+[INFO]15:10:39 Writing 'Contents' by Author not available to disc
+[INFO]15:10:39 Written 'Contents' to disc
+[INFO]15:10:39 Abstract Number: 102
+[INFO]15:10:39 Abstract ID: S167498711300087X
+[INFO]15:10:41 Page status: 200
+[INFO]15:10:41 Souping page
+[INFO]15:10:42 Souped page
+[INFO]15:10:42 Writing 'Research paperAeromagnetic signatures of Precambrian shield and suture zones of\xc2\xa0Peninsular India' by 'Mita' to disc
+[INFO]15:10:42 Written 'Research paperAeromagnetic signatures of Precambrian shield and suture zones of\xc2\xa0Peninsular India' to disc
+[INFO]15:10:42 Abstract Number: 103
+[INFO]15:10:42 Abstract ID: S1995764514602546
+[INFO]15:10:44 Page status: 200
+[INFO]15:10:44 Souping page
+[INFO]15:10:45 Souped page
+[INFO]15:10:45 Writing 'Document headingAnti-inflammatory activity of methyl ferulate isolated from Stemona tuberosa Lour' by 'Nguyen Thi Mai' to disc
+[INFO]15:10:45 Written 'Document headingAnti-inflammatory activity of methyl ferulate isolated from Stemona tuberosa Lour' to disc
+[INFO]15:10:45 Abstract Number: 104
+[INFO]15:10:45 Abstract ID: S1517838217300886
+[INFO]15:10:47 Page status: 200
+[INFO]15:10:47 Souping page
+[INFO]15:10:48 Souped page
+[INFO]15:10:48 Writing 'Clinical MicrobiologyAntibacterial activity of 3,3\xe2\x80\xb2,4\xe2\x80\xb2-Trihydroxyflavone from Justicia wynaadensis against diabetic wound and urinary tract infection' by 'Dorin' to disc
+[INFO]15:10:48 Written 'Clinical MicrobiologyAntibacterial activity of 3,3\xe2\x80\xb2,4\xe2\x80\xb2-Trihydroxyflavone from Justicia wynaadensis against diabetic wound and urinary tract infection' to disc
+[INFO]15:10:48 Abstract Number: 105
+[INFO]15:10:48 Abstract ID: S1674987116300470
+[INFO]15:10:50 Page status: 200
+[INFO]15:10:50 Souping page
+[INFO]15:10:52 Souped page
+[INFO]15:10:52 Writing 'Research paperEarly Cenozoic rapid flight enigma of the Indian subcontinent resolved: Roles of topographic top loading and subcrustal erosion' by 'Muthuvairavasamy' to disc
+[INFO]15:10:52 Written 'Research paperEarly Cenozoic rapid flight enigma of the Indian subcontinent resolved: Roles of topographic top loading and subcrustal erosion' to disc
+[INFO]15:10:52 Abstract Number: 106
+[INFO]15:10:52 Abstract ID: S1319562X15001126
+[INFO]15:10:53 Page status: 200
+[INFO]15:10:53 Souping page
+[INFO]15:10:55 Souped page
+[INFO]15:10:55 Writing 'Original articleSamsum ant, Brachyponera sennaarensis (Formicidae: Ponerinae): Distribution and abundance in Saudi Arabia' by 'Mohammed Saleh' to disc
+[INFO]15:10:55 Written 'Original articleSamsum ant, Brachyponera sennaarensis (Formicidae: Ponerinae): Distribution and abundance in Saudi Arabia' to disc
+[INFO]15:10:55 Abstract Number: 107
+[INFO]15:10:55 Abstract ID: S2090506816300124
+[INFO]15:10:57 Page status: 200
+[INFO]15:10:57 Souping page
+[INFO]15:10:58 Souped page
+[INFO]15:10:58 Writing 'Original ArticleAntihyperglycemic activity of the bark methanolic extract of Syzygium mundagam in diabetic rats' by 'Rahul' to disc
+[INFO]15:10:58 Written 'Original ArticleAntihyperglycemic activity of the bark methanolic extract of Syzygium mundagam in diabetic rats' to disc
+[INFO]15:10:58 Abstract Number: 108
+[INFO]15:10:58 Abstract ID: S235198941400095X
+[INFO]15:11:0 Page status: 200
+[INFO]15:11:0 Souping page
+[INFO]15:11:1 Souped page
+[INFO]15:11:1 Writing 'Review paperBiodiversity hotspots: A shortcut for a more complicated concept' by 'Christian' to disc
+[INFO]15:11:1 Written 'Review paperBiodiversity hotspots: A shortcut for a more complicated concept' to disc
+[INFO]15:11:1 Abstract Number: 109
+[INFO]15:11:1 Abstract ID: S1687157X17300616
+[INFO]15:11:3 Page status: 200
+[INFO]15:11:3 Souping page
+[INFO]15:11:4 Souped page
+[INFO]15:11:4 Writing 'Original ArticleRAPD markers for screening shoot gall maker (Betousa stylophora Swinhoe) tolerant genotypes of amla (Phyllanthus emblica L.)' by 'Sethuraman' to disc
+[INFO]15:11:4 Written 'Original ArticleRAPD markers for screening shoot gall maker (Betousa stylophora Swinhoe) tolerant genotypes of amla (Phyllanthus emblica L.)' to disc
+[INFO]15:11:4 Abstract Number: 110
+[INFO]15:11:4 Abstract ID: S2351989414000067
+[INFO]15:11:6 Page status: 200
+[INFO]15:11:6 Souping page
+[INFO]15:11:7 Souped page
+[INFO]15:11:7 Writing 'Original research articleSeparation of the bioclimatic spaces of Himalayan tree rhododendron species predicted by ensemble suitability models' by 'Sailesh' to disc
+[INFO]15:11:7 Written 'Original research articleSeparation of the bioclimatic spaces of Himalayan tree rhododendron species predicted by ensemble suitability models' to disc
+[INFO]15:11:7 Abstract Number: 111
+[INFO]15:11:7 Abstract ID: S2287884X17300626
+[INFO]15:11:9 Page status: 200
+[INFO]15:11:9 Souping page
+[INFO]15:11:10 Souped page
+[INFO]15:11:10 Writing "Short communicationDistribution, population status, and threats of nationally threatened Cantor's leaf-nosed bat Hipposideros galeritus Cantor, 1846 in eastern India" by 'Subrat' to disc
+[INFO]15:11:10 Written "Short communicationDistribution, population status, and threats of nationally threatened Cantor's leaf-nosed bat Hipposideros galeritus Cantor, 1846 in eastern India" to disc
+[INFO]15:11:10 Abstract Number: 112
+[INFO]15:11:10 Abstract ID: S1674987115000584
+[INFO]15:11:11 Page status: 200
+[INFO]15:11:11 Souping page
+[INFO]15:11:12 Souped page
+[INFO]15:11:12 Writing 'Research paperSedimentary sources and processes in the eastern Arabian Sea: Insights from environmental magnetism, geochemistry and clay mineralogy' by 'Kumar' to disc
+[INFO]15:11:12 Written 'Research paperSedimentary sources and processes in the eastern Arabian Sea: Insights from environmental magnetism, geochemistry and clay mineralogy' to disc
+[INFO]15:11:12 Abstract Number: 113
+[INFO]15:11:12 Abstract ID: S2212017316302869
+[INFO]15:11:13 Page status: 200
+[INFO]15:11:13 Souping page
+[INFO]15:11:14 Souped page
+[INFO]15:11:14 Writing 'Development with an Ecological Perspective Focusing on Wetlands of Kadamakudy Panchayat, Kochi\xe2\x98\x86' by 'V.' to disc
+[INFO]15:11:14 Written 'Development with an Ecological Perspective Focusing on Wetlands of Kadamakudy Panchayat, Kochi\xe2\x98\x86' to disc
+[INFO]15:11:14 Abstract Number: 114
+[INFO]15:11:14 Abstract ID: S2213422017302196
+[INFO]15:11:14 Page status: 200
+[INFO]15:11:14 Souping page
+[INFO]15:11:15 Souped page
+[INFO]15:11:15 Writing 'Review ArticleNew candidates for treatment and management of carpal tunnel syndrome based on the Persian Canon of Medicine' by 'Mohammad' to disc
+[INFO]15:11:15 Written 'Review ArticleNew candidates for treatment and management of carpal tunnel syndrome based on the Persian Canon of Medicine' to disc
+[INFO]15:11:15 Abstract Number: 115
+[INFO]15:11:15 Abstract ID: S2090997716300207
+[INFO]15:11:16 Page status: 200
+[INFO]15:11:16 Souping page
+[INFO]15:11:17 Souped page
+[INFO]15:11:17 Writing 'Full Length ArticleIntegration of seismic interpretation and petrophysical studies on Hawaz Formation in J-field NC-186 concession, Northwest Murzuq basin, Libya' by 'A.K.' to disc
+[INFO]15:11:17 Written 'Full Length ArticleIntegration of seismic interpretation and petrophysical studies on Hawaz Formation in J-field NC-186 concession, Northwest Murzuq basin, Libya' to disc
+[INFO]15:11:17 Abstract Number: 116
+[INFO]15:11:17 Abstract ID: S1674987118300045
+[INFO]15:11:17 Page status: 200
+[INFO]15:11:17 Souping page
+[INFO]15:11:18 Souped page
+[INFO]15:11:18 Writing 'Research PaperMantle heterogeneity, plume-lithosphere interaction at rift controlled ocean-continent transition zone: Evidence from trace-PGE geochemistry of Vempalle flows, Cuddapah Basin, India' by 'Th. Dhanakumar' to disc
+[INFO]15:11:18 Written 'Research PaperMantle heterogeneity, plume-lithosphere interaction at rift controlled ocean-continent transition zone: Evidence from trace-PGE geochemistry of Vempalle flows, Cuddapah Basin, India' to disc
+[INFO]15:11:18 Abstract Number: 117
+[INFO]15:11:18 Abstract ID: S1877050916316532
+[INFO]15:11:19 Page status: 200
+[INFO]15:11:19 Souping page
+[INFO]15:11:20 Souped page
+[INFO]15:11:20 Writing 'An Automated System to Mitigate Loss of Life at Unmanned Level Crossings\xe2\x98\x86' by 'S.' to disc
+[INFO]15:11:20 Written 'An Automated System to Mitigate Loss of Life at Unmanned Level Crossings\xe2\x98\x86' to disc
+[INFO]15:11:20 Abstract Number: 118
+[INFO]15:11:20 Abstract ID: S2215017X1500017X
+[INFO]15:11:20 Page status: 200
+[INFO]15:11:20 Souping page
+[INFO]15:11:21 Souped page
+[INFO]15:11:21 Writing 'Highly efficient in vitro regeneration, establishment of callus and cell suspension cultures and RAPD analysis of regenerants of Swertia lawii Burkill' by 'Parthraj R.' to disc
+[INFO]15:11:21 Written 'Highly efficient in vitro regeneration, establishment of callus and cell suspension cultures and RAPD analysis of regenerants of Swertia lawii Burkill' to disc
+[INFO]15:11:21 Abstract Number: 119
+[INFO]15:11:21 Abstract ID: S2221169116310905
+[INFO]15:11:22 Page status: 200
+[INFO]15:11:22 Souping page
+[INFO]15:11:23 Souped page
+[INFO]15:11:23 Writing 'Original articleAntioxidant, anti-alpha-glucosidase and pancreatic beta-cell protective effects of methanolic extract of Ensete superbum Cheesm seeds' by 'Solomon' to disc
+[INFO]15:11:23 Written 'Original articleAntioxidant, anti-alpha-glucosidase and pancreatic beta-cell protective effects of methanolic extract of Ensete superbum Cheesm seeds' to disc
+[INFO]15:11:23 Abstract Number: 120
+[INFO]15:11:23 Abstract ID: S1342937X12002572
+[INFO]15:11:23 Page status: 200
+[INFO]15:11:23 Souping page
+[INFO]15:11:24 Souped page
+[INFO]15:11:24 Writing 'Global warming and South Indian monsoon rainfall\xe2\x80\x94lessons from the Mid-Miocene' by 'Markus' to disc
+[INFO]15:11:24 Written 'Global warming and South Indian monsoon rainfall\xe2\x80\x94lessons from the Mid-Miocene' to disc
+[INFO]15:11:24 Abstract Number: 121
+[INFO]15:11:24 Abstract ID: S0006320717321018
+[INFO]15:11:25 Page status: 200
+[INFO]15:11:25 Souping page
+[INFO]15:11:26 Souped page
+[INFO]15:11:26 Writing 'Conservation priorities to protect vertebrate endemics from global urban expansion' by 'Robert I.' to disc
+[INFO]15:11:26 Written 'Conservation priorities to protect vertebrate endemics from global urban expansion' to disc
+[INFO]15:11:26 Abstract Number: 122
+[INFO]15:11:26 Abstract ID: S0377026515000135
+[INFO]15:11:26 Page status: 200
+[INFO]15:11:26 Souping page
+[INFO]15:11:27 Souped page
+[INFO]15:11:27 Writing 'Bimodality and regime behavior in atmosphere\xe2\x80\x93ocean interactions during the recent climate change' by 'Bijan' to disc
+[INFO]15:11:27 Written 'Bimodality and regime behavior in atmosphere\xe2\x80\x93ocean interactions during the recent climate change' to disc
+[INFO]15:11:27 Abstract Number: 123
+[INFO]15:11:27 Abstract ID: S1995764511601077
+[INFO]15:11:29 Page status: 200
+[INFO]15:11:29 Souping page
+[INFO]15:11:30 Souped page
+[INFO]15:11:30 Writing 'Document headingAntibacterial activity of selected ethnomedicinal plants from South India' by 'Rajendran Darling Anpin' to disc
+[INFO]15:11:30 Written 'Document headingAntibacterial activity of selected ethnomedicinal plants from South India' to disc
+[INFO]15:11:30 Abstract Number: 124
+[INFO]15:11:30 Abstract ID: S2212017316303206
+[INFO]15:11:32 Page status: 200
+[INFO]15:11:32 Souping page
+[INFO]15:11:33 Souped page
+[INFO]15:11:33 Writing 'Disaster Resilience in Vulnerable cities through Neighbourhood Development: A case of Chennai\xe2\x98\x86' by 'P.' to disc
+[INFO]15:11:33 Written 'Disaster Resilience in Vulnerable cities through Neighbourhood Development: A case of Chennai\xe2\x98\x86' to disc
+[INFO]15:11:33 Abstract Number: 125
+[INFO]15:11:33 Abstract ID: S1517838218300029
+[INFO]15:11:35 Page status: 200
+[INFO]15:11:35 Souping page
+[INFO]15:11:37 Souped page
+[INFO]15:11:37 Writing 'Environmental MicrobiologyOutstanding impact of soil tillage on the abundance of soil hydrolases revealed by a metagenomic approach' by 'Renata Carolini' to disc
+[INFO]15:11:37 Written 'Environmental MicrobiologyOutstanding impact of soil tillage on the abundance of soil hydrolases revealed by a metagenomic approach' to disc
+[INFO]15:11:37 Abstract Number: 126
+[INFO]15:11:37 Abstract ID: S2214241X15001832
+[INFO]15:11:38 Page status: 200
+[INFO]15:11:38 Souping page
+[INFO]15:11:39 Souped page
+[INFO]15:11:39 Writing 'Land Use Land Cover Pattern in the Vicinity of Mannapalla Lake, Manipal\xe2\x98\x86' by 'B. Jagadeesha' to disc
+[INFO]15:11:40 Written 'Land Use Land Cover Pattern in the Vicinity of Mannapalla Lake, Manipal\xe2\x98\x86' to disc
+[INFO]15:11:40 Abstract Number: 127
+[INFO]15:11:40 Abstract ID: S1658365514000685
+[INFO]15:11:41 Page status: 200
+[INFO]15:11:41 Souping page
+[INFO]15:11:42 Souped page
+[INFO]15:11:42 Writing 'Molecular docking and dynamic studies of bioactive compounds from Naravelia zeylanica (L.) DC against glycogen synthase kinase-3\xce\xb2 protein' by 'H.' to disc
+[INFO]15:11:42 Written 'Molecular docking and dynamic studies of bioactive compounds from Naravelia zeylanica (L.) DC against glycogen synthase kinase-3\xce\xb2 protein' to disc
+[INFO]15:11:42 Abstract Number: 128
+[INFO]15:11:42 Abstract ID: S2405580816303028
+[INFO]15:11:44 Page status: 200
+[INFO]15:11:44 Souping page
+[INFO]15:11:46 Souped page
+[INFO]15:11:46 Writing 'Extraction efficiency, phytochemical profiles and antioxidative properties of different parts of Saptarangi (Salacia chinensis L.) \xe2\x80\x93 An important underutilized plant' by 'Dhanaji M.' to disc
+[INFO]15:11:46 Written 'Extraction efficiency, phytochemical profiles and antioxidative properties of different parts of Saptarangi (Salacia chinensis L.) \xe2\x80\x93 An important underutilized plant' to disc
+[INFO]15:11:46 Abstract Number: 129
+[INFO]15:11:46 Abstract ID: S2214241X15000905
+[INFO]15:11:47 Page status: 200
+[INFO]15:11:47 Souping page
+[INFO]15:11:49 Souped page
+[INFO]15:11:49 Writing 'Assessing Suitability of GP Modeling for Groundwater Level\xe2\x98\x86' by 'C.' to disc
+[INFO]15:11:49 Written 'Assessing Suitability of GP Modeling for Groundwater Level\xe2\x98\x86' to disc
+[INFO]15:11:49 Abstract Number: 130
+[INFO]15:11:49 Abstract ID: S1878522015001629
+[INFO]15:11:50 Page status: 200
+[INFO]15:11:50 Souping page
+[INFO]15:11:51 Souped page
+[INFO]15:11:51 Writing 'Stable Carbon and Oxygen Isotopes in Red Boles: A Clue to Understand their Formation Mechanism\xe2\x98\x86' by 'Sudipta' to disc
+[INFO]15:11:51 Written 'Stable Carbon and Oxygen Isotopes in Red Boles: A Clue to Understand their Formation Mechanism\xe2\x98\x86' to disc
+[INFO]15:11:51 Abstract Number: 131
+[INFO]15:11:51 Abstract ID: S1021949816300874
+[INFO]15:11:53 Page status: 200
+[INFO]15:11:53 Souping page
+[INFO]15:11:54 Souped page
+[INFO]15:11:54 Writing 'Original ArticleDevelopment of validated high-performance thin layer chromatography for quantification of aristolochic acid in different species of the Aristolochiaceae family' by 'Poonam' to disc
+[INFO]15:11:54 Written 'Original ArticleDevelopment of validated high-performance thin layer chromatography for quantification of aristolochic acid in different species of the Aristolochiaceae family' to disc
+[INFO]15:11:54 Abstract Number: 132
+[INFO]15:11:54 Abstract ID: S1201971216305136
+[INFO]15:11:56 Page status: 200
+[INFO]15:11:56 Souping page
+[INFO]15:11:57 Souped page
+[INFO]15:11:57 Writing 'Type: Poster PresentationGenetic variability of the G-L intergenic region sequences of Indian rabies virus strains circulating in animals' by 'K.' to disc
+[INFO]15:11:57 Written 'Type: Poster PresentationGenetic variability of the G-L intergenic region sequences of Indian rabies virus strains circulating in animals' to disc
+[INFO]15:11:57 Abstract Number: 133
+[INFO]15:11:57 Abstract ID: S2212017316300895
+[INFO]15:11:59 Page status: 200
+[INFO]15:11:59 Souping page
+[INFO]15:12:0 Souped page
+[INFO]15:12:0 Writing 'Daily Rainfall Prediction Using Generalized Linear Bivariate Model \xe2\x80\x93 A Case Study\xe2\x98\x86' by 'Jany' to disc
+[INFO]15:12:0 Written 'Daily Rainfall Prediction Using Generalized Linear Bivariate Model \xe2\x80\x93 A Case Study\xe2\x98\x86' to disc
+[INFO]15:12:0 Abstract Number: 134
+[INFO]15:12:0 Abstract ID: S2095263513000472
+[INFO]15:12:2 Page status: 200
+[INFO]15:12:2 Souping page
+[INFO]15:12:3 Souped page
+[INFO]15:12:3 Writing 'Case studyStrategies to integrate the Mughal settlements in Old Dhaka' by 'Mohammad Sazzad' to disc
+[INFO]15:12:3 Written 'Case studyStrategies to integrate the Mughal settlements in Old Dhaka' to disc
+[INFO]15:12:3 Abstract Number: 135
+[INFO]15:12:3 Abstract ID: S2214241X15001807
+[INFO]15:12:4 Page status: 200
+[INFO]15:12:4 Souping page
+[INFO]15:12:6 Souped page
+[INFO]15:12:6 Writing 'Prediction of Land Surface Temperature Under Cloudy Conditions Using Microwave Remote Sensing and ANN\xe2\x98\x86' by 'H.R.' to disc
+[INFO]15:12:6 Written 'Prediction of Land Surface Temperature Under Cloudy Conditions Using Microwave Remote Sensing and ANN\xe2\x98\x86' to disc
+[INFO]15:12:6 Abstract Number: 136
+[INFO]15:12:6 Abstract ID: S1672022911600132
+[INFO]15:12:7 Page status: 200
+[INFO]15:12:7 Souping page
+[INFO]15:12:9 Souped page
+[INFO]15:12:9 Writing 'Article16S rDNA-Based Phylogeny of Non-Symbiotic Bacteria of Entomopathogenic Nematodes from Infected Insect Cadavers' by 'M.' to disc
+[INFO]15:12:9 Written 'Article16S rDNA-Based Phylogeny of Non-Symbiotic Bacteria of Entomopathogenic Nematodes from Infected Insect Cadavers' to disc
+[INFO]15:12:9 Abstract Number: 137
+[INFO]15:12:9 Abstract ID: S1674987118301774
+[INFO]15:12:10 Page status: 200
+[INFO]15:12:10 Souping page
+[INFO]15:12:11 Souped page
+[INFO]15:12:11 Writing 'Research PaperMagmatism and metamorphism at ca. 1.45 Ga in the northern Gawler Craton: the Australian record of rifting within Nuna (Columbia)' by 'Laura J.' to disc
+[INFO]15:12:11 Written 'Research PaperMagmatism and metamorphism at ca. 1.45 Ga in the northern Gawler Craton: the Australian record of rifting within Nuna (Columbia)' to disc
+[INFO]15:12:11 Abstract Number: 138
+[INFO]15:12:11 Abstract ID: S1319562X17301031
+[INFO]15:12:13 Page status: 200
+[INFO]15:12:13 Souping page
+[INFO]15:12:14 Souped page
+[INFO]15:12:14 Writing 'Original articleEvaluation of traditional medicinal plant, Cissus setosa Roxb. (Vitaceae) for antiulcer property' by 'Chinnamaruthu' to disc
+[INFO]15:12:14 Written 'Original articleEvaluation of traditional medicinal plant, Cissus setosa Roxb. (Vitaceae) for antiulcer property' to disc
+[INFO]15:12:14 Abstract Number: 139
+[INFO]15:12:14 Abstract ID: S1995764511600084
+[INFO]15:12:16 Page status: 200
+[INFO]15:12:16 Souping page
+[INFO]15:12:17 Souped page
+[INFO]15:12:17 Writing 'Document headingPreliminary phytochemical and antimicrobial studies on a spike-moss Selaginella inaequalifolia (hook. & grev.) Spring' by 'Varaprasadham' to disc
+[INFO]15:12:17 Written 'Document headingPreliminary phytochemical and antimicrobial studies on a spike-moss Selaginella inaequalifolia (hook. & grev.) Spring' to disc
+[INFO]15:12:17 Abstract Number: 140
+[INFO]15:12:17 Abstract ID: S0019483217303061
+[INFO]15:12:19 Page status: 200
+[INFO]15:12:19 Souping page
+[INFO]15:12:20 Souped page
+[INFO]15:12:20 Writing 'Original ArticlePrevalence of noncommunicable disease risk factors among the Kani tribe in Thiruvananthapuram district, Kerala' by 'Priyanka' to disc
+[INFO]15:12:20 Written 'Original ArticlePrevalence of noncommunicable disease risk factors among the Kani tribe in Thiruvananthapuram district, Kerala' to disc
+[INFO]15:12:20 Abstract Number: 141
+[INFO]15:12:20 Abstract ID: S168785071500093X
+[INFO]15:12:22 Page status: 200
+[INFO]15:12:22 Souping page
+[INFO]15:12:23 Souped page
+[INFO]15:12:23 Writing '226Ra and 210Po concentration in drinking water of Cauvery river basin south interior Karnataka State, India' by 'E.' to disc
+[INFO]15:12:23 Written '226Ra and 210Po concentration in drinking water of Cauvery river basin south interior Karnataka State, India' to disc
+[INFO]15:12:23 Abstract Number: 142
+[INFO]15:12:23 Abstract ID: S2225411017300676
+[INFO]15:12:25 Page status: 200
+[INFO]15:12:25 Souping page
+[INFO]15:12:26 Souped page
+[INFO]15:12:26 Writing 'Kingiodendron pinnatum, a pharmacologically effective alternative for Saraca asoca in an Ayurvedic preparation, Asokarishta' by 'Adangam Purath' to disc
+[INFO]15:12:26 Written 'Kingiodendron pinnatum, a pharmacologically effective alternative for Saraca asoca in an Ayurvedic preparation, Asokarishta' to disc
+[INFO]15:12:26 Abstract Number: 143
+[INFO]15:12:26 Abstract ID: S1687850716300693
+[INFO]15:12:28 Page status: 200
+[INFO]15:12:28 Souping page
+[INFO]15:12:29 Souped page
+[INFO]15:12:29 Writing 'Distribution of 210Po in soils of Virajpet taluk, Coorg District, Karnataka' by 'M.M.' to disc
+[INFO]15:12:29 Written 'Distribution of 210Po in soils of Virajpet taluk, Coorg District, Karnataka' to disc
+[INFO]15:12:29 Abstract Number: 144
+[INFO]15:12:29 Abstract ID: S1319562X11000040
+[INFO]15:12:30 Page status: 200
+[INFO]15:12:31 Souping page
+[INFO]15:12:32 Souped page
+[INFO]15:12:32 Writing 'Original articleInsecticidal compound isolated from Syzygium lineare Wall. (Myrtaceae) against Spodoptera litura (Lepidoptera: Noctuidae)' by 'Alagarmalai' to disc
+[INFO]15:12:32 Written 'Original articleInsecticidal compound isolated from Syzygium lineare Wall. (Myrtaceae) against Spodoptera litura (Lepidoptera: Noctuidae)' to disc
+[INFO]15:12:32 Abstract Number: 145
+[INFO]15:12:32 Abstract ID: S097594761730431X
+[INFO]15:12:33 Page status: 200
+[INFO]15:12:33 Souping page
+[INFO]15:12:35 Souped page
+[INFO]15:12:35 Writing 'Acute oral toxicity and anti-inflammatory evaluation of methanolic extract of Rotula aquatica roots in Wistar rats' by 'A.' to disc
+[INFO]15:12:35 Written 'Acute oral toxicity and anti-inflammatory evaluation of methanolic extract of Rotula aquatica roots in Wistar rats' to disc
+[INFO]15:12:35 Abstract Number: 146
+[INFO]15:12:35 Abstract ID: S2212017316300871
+[INFO]15:12:36 Page status: 200
+[INFO]15:12:36 Souping page
+[INFO]15:12:37 Souped page
+[INFO]15:12:37 Writing 'Regionalization of Rainfall in Kerala State\xe2\x98\x86' by 'A.H.' to disc
+[INFO]15:12:37 Written 'Regionalization of Rainfall in Kerala State\xe2\x98\x86' to disc
+[INFO]15:12:37 Abstract Number: 147
+[INFO]15:12:37 Abstract ID: S1687850717300389
+[INFO]15:12:39 Page status: 200
+[INFO]15:12:39 Souping page
+[INFO]15:12:40 Souped page
+[INFO]15:12:40 Writing 'Studies on natural radioactivity in rocks of Coorg district, Karnataka state, India' by 'M.M.' to disc
+[INFO]15:12:40 Written 'Studies on natural radioactivity in rocks of Coorg district, Karnataka state, India' to disc
+[INFO]15:12:40 Abstract Number: 148
+[INFO]15:12:40 Abstract ID: S2214241X15000747
+[INFO]15:12:42 Page status: 200
+[INFO]15:12:42 Souping page
+[INFO]15:12:44 Souped page
+[INFO]15:12:44 Writing 'Automatic Shoreline Detection and Change Detection Analysis of Netravati-GurpurRivermouth Using Histogram Equalization and Adaptive Thresholding Techniques\xe2\x98\x86' by 'Raju' to disc
+[INFO]15:12:44 Written 'Automatic Shoreline Detection and Change Detection Analysis of Netravati-GurpurRivermouth Using Histogram Equalization and Adaptive Thresholding Techniques\xe2\x98\x86' to disc
+[INFO]15:12:44 Abstract Number: 149
+[INFO]15:12:44 Abstract ID: S1674987116300500
+[INFO]15:12:45 Page status: 200
+[INFO]15:12:45 Souping page
+[INFO]15:12:47 Souped page
+[INFO]15:12:47 Writing 'Research paperPetrology, genesis and geodynamic implication of the Mesoproterozoic\xe2\x80\x93Late Cretaceous Timmasamudram kimberlite cluster, Wajrakarur field, Eastern Dharwar Craton, southern India' by 'Ashish' to disc
+[INFO]15:12:47 Written 'Research paperPetrology, genesis and geodynamic implication of the Mesoproterozoic\xe2\x80\x93Late Cretaceous Timmasamudram kimberlite cluster, Wajrakarur field, Eastern Dharwar Craton, southern India' to disc
+[INFO]15:12:47 Abstract Number: 150
+[INFO]15:12:47 Abstract ID: S1878522009001854
+[INFO]15:12:48 Page status: 200
+[INFO]15:12:49 Souping page
+[INFO]15:12:50 Souped page
+[INFO]15:12:50 Writing 'The 6th International Conference on Mining Science & TechnologyGIS-based landslide hazard zonation model and its application' by 'Jian' to disc
+[INFO]15:12:50 Written 'The 6th International Conference on Mining Science & TechnologyGIS-based landslide hazard zonation model and its application' to disc
+[INFO]15:12:50 Abstract Number: 151
+[INFO]15:12:50 Abstract ID: S1674987111001137
+[INFO]15:12:51 Page status: 200
+[INFO]15:12:51 Souping page
+[INFO]15:12:53 Souped page
+[INFO]15:12:53 Writing 'Research PaperDelineation of groundwater potential zones in Theni district, Tamil Nadu, using remote sensing, GIS and MIF techniques' by 'N.S.' to disc
+[INFO]15:12:53 Written 'Research PaperDelineation of groundwater potential zones in Theni district, Tamil Nadu, using remote sensing, GIS and MIF techniques' to disc
+[INFO]15:12:53 Abstract Number: 152
+[INFO]15:12:53 Abstract ID: S1995764512600728
+[INFO]15:12:54 Page status: 200
+[INFO]15:12:54 Souping page
+[INFO]15:12:57 Souped page
+[INFO]15:12:57 Writing 'Document headingLygodium flexuosum extract down regulates the expression of proinflammatory cytokines in CCl4\xe2\x80\x93induced hepatotoxicity' by 'Pallara Janardhanan' to disc
+[INFO]15:12:57 Written 'Document headingLygodium flexuosum extract down regulates the expression of proinflammatory cytokines in CCl4\xe2\x80\x93induced hepatotoxicity' to disc
+[INFO]15:12:57 Abstract Number: 153
+[INFO]15:12:57 Abstract ID: S2214581814000469
+[INFO]15:12:59 Page status: 200
+[INFO]15:12:59 Souping page
+[INFO]15:13:0 Souped page
+[INFO]15:13:0 Writing 'Shaping the contours of groundwater governance in India' by 'Himanshu' to disc
+[INFO]15:13:0 Written 'Shaping the contours of groundwater governance in India' to disc
+[INFO]15:13:0 Abstract Number: 154
+[INFO]15:13:0 Abstract ID: S1110982312000099
+[INFO]15:13:2 Page status: 200
+[INFO]15:13:2 Souping page
+[INFO]15:13:4 Souped page
+[INFO]15:13:4 Writing 'Regionally tuned algorithm to study the seasonal variation of suspended sediment concentration using IRS-P4 Ocean Colour Monitor data' by 'Kumar' to disc
+[INFO]15:13:4 Written 'Regionally tuned algorithm to study the seasonal variation of suspended sediment concentration using IRS-P4 Ocean Colour Monitor data' to disc
+[INFO]15:13:4 Abstract Number: 155
+[INFO]15:13:4 Abstract ID: S1674987116300639
+[INFO]15:13:5 Page status: 200
+[INFO]15:13:5 Souping page
+[INFO]15:13:7 Souped page
+[INFO]15:13:7 Writing 'Research paperSubaqueous early eruptive phase of the late Aptian Rajmahal volcanism, India: Evidence from volcaniclastic rocks, bentonite, black shales, and oolite' by 'Naresh C.' to disc
+[INFO]15:13:7 Written 'Research paperSubaqueous early eruptive phase of the late Aptian Rajmahal volcanism, India: Evidence from volcaniclastic rocks, bentonite, black shales, and oolite' to disc
+[INFO]15:13:7 Abstract Number: 156
+[INFO]15:13:7 Abstract ID: S1319610312000075
+[INFO]15:13:8 Page status: 200
+[INFO]15:13:8 Souping page
+[INFO]15:13:9 Souped page
+[INFO]15:13:9 Writing 'Original ArticleSediment quality of Tamiraparani River in Kanyakumari district' by 'Y. Ramani' to disc
+[INFO]15:13:10 Written 'Original ArticleSediment quality of Tamiraparani River in Kanyakumari district' to disc
+[INFO]15:13:10 Abstract Number: 157
+[INFO]15:13:10 Abstract ID: S2225411017300901
+[INFO]15:13:11 Page status: 200
+[INFO]15:13:11 Souping page
+[INFO]15:13:13 Souped page
+[INFO]15:13:13 Writing 'In\xc2\xa0vitro studies of the anticancer action of Tectaria cicutaria in human cancer cell lines: G0/G1 p53-associated cell cycle arrest-Part I' by 'Preeti Gajendra' to disc
+[INFO]15:13:13 Written 'In\xc2\xa0vitro studies of the anticancer action of Tectaria cicutaria in human cancer cell lines: G0/G1 p53-associated cell cycle arrest-Part I' to disc
+[INFO]15:13:13 Abstract Number: 158
+[INFO]15:13:13 Abstract ID: S0975947616300092
+[INFO]15:13:14 Page status: 200
+[INFO]15:13:14 Souping page
+[INFO]15:13:15 Souped page
+[INFO]15:13:15 Writing 'Short communicationDoes short-term lemon honey juice fasting have effect on lipid profile and body composition in healthy individuals?' by 'Prashanth' to disc
+[INFO]15:13:15 Written 'Short communicationDoes short-term lemon honey juice fasting have effect on lipid profile and body composition in healthy individuals?' to disc
+[INFO]15:13:15 Abstract Number: 159
+[INFO]15:13:15 Abstract ID: S0272771416303791
+[INFO]15:13:17 Page status: 200
+[INFO]15:13:17 Souping page
+[INFO]15:13:19 Souped page
+[INFO]15:13:19 Writing 'Tidal intrusion within a mega delta: An unstructured grid modelling approach' by 'Lucy M.' to disc
+[INFO]15:13:19 Written 'Tidal intrusion within a mega delta: An unstructured grid modelling approach' to disc
+[INFO]15:13:19 Abstract Number: 160
+[INFO]15:13:19 Abstract ID: S2095177915000131
+[INFO]15:13:21 Page status: 200
+[INFO]15:13:21 Souping page
+[INFO]15:13:22 Souped page
+[INFO]15:13:34 Writing 'Original ArticleExtraction, characterization and biological studies of phytochemicals from Mammea suriga' by 'Mahesha M.' to disc
+[INFO]15:13:34 Written 'Original ArticleExtraction, characterization and biological studies of phytochemicals from Mammea suriga' to disc
+[INFO]15:13:34 Abstract Number: 161
+[INFO]15:13:34 Abstract ID: S0305750X17300402
+[INFO]15:13:36 Page status: 200
+[INFO]15:13:36 Souping page
+[INFO]15:13:37 Souped page
+[INFO]15:13:37 Writing 'Characterizing social networks and their effects on income diversification in rural Kerala, India' by 'Judit' to disc
+[INFO]15:13:37 Written 'Characterizing social networks and their effects on income diversification in rural Kerala, India' to disc
+[INFO]15:13:37 Abstract Number: 162
+[INFO]15:13:37 Abstract ID: S2351989417300860
+[INFO]15:13:38 Page status: 200
+[INFO]15:13:38 Souping page
+[INFO]15:13:39 Souped page
+[INFO]15:13:39 Writing 'Frugivory and seed dispersal by vertebrates in tropical and subtropical Asia: An update' by 'Richard T.' to disc
+[INFO]15:13:39 Written 'Frugivory and seed dispersal by vertebrates in tropical and subtropical Asia: An update' to disc
+[INFO]15:13:39 Abstract Number: 163
+[INFO]15:13:39 Abstract ID: S1995764514602741
+[INFO]15:13:41 Page status: 200
+[INFO]15:13:41 Souping page
+[INFO]15:13:42 Souped page
+[INFO]15:13:42 Writing 'Document headingStructural diversity, its components and regenerating capacity of lesser Himalayan forests vegetation of Nikyal valley District Kotli (A.K), Pakistan' by 'Muhammad Shoaib' to disc
+[INFO]15:13:42 Written 'Document headingStructural diversity, its components and regenerating capacity of lesser Himalayan forests vegetation of Nikyal valley District Kotli (A.K), Pakistan' to disc
+[INFO]15:13:42 Abstract Number: 164
+[INFO]15:13:42 Abstract ID: S0254629915000459
+[INFO]15:13:44 Page status: 200
+[INFO]15:13:44 Souping page
+[INFO]15:13:45 Souped page
+[INFO]15:13:45 Writing 'In vitro propagation of Senecio candicans DC and comparative antioxidant properties of aqueous extracts of the in vivo plant and in vitro-derived callus' by 'L.' to disc
+[INFO]15:13:45 Written 'In vitro propagation of Senecio candicans DC and comparative antioxidant properties of aqueous extracts of the in vivo plant and in vitro-derived callus' to disc
+[INFO]15:13:45 Abstract Number: 165
+[INFO]15:13:45 Abstract ID: S1110093116300357
+[INFO]15:13:47 Page status: 200
+[INFO]15:13:47 Souping page
+[INFO]15:13:49 Souped page
+[INFO]15:13:49 Writing 'Original ArticleAntihyperlipidemic effect of Ficus dalhousiae miq. stem bark on Triton WR-1339 and high fat diet-induced hyperlipidemic rats' by 'Surendran' to disc
+[INFO]15:13:49 Written 'Original ArticleAntihyperlipidemic effect of Ficus dalhousiae miq. stem bark on Triton WR-1339 and high fat diet-induced hyperlipidemic rats' to disc
+[INFO]15:13:49 Abstract Number: 166
+[INFO]15:13:49 Abstract ID: S1876034117302812
+[INFO]15:13:51 Page status: 200
+[INFO]15:13:51 Souping page
+[INFO]15:13:52 Souped page
+[INFO]15:13:52 Writing 'Enhanced antibacterial effects of green synthesized ZnO NPs using Aristolochia indica against Multi-drug resistant bacterial pathogens from Diabetic Foot Ulcer' by 'Katherin' to disc
+[INFO]15:13:52 Written 'Enhanced antibacterial effects of green synthesized ZnO NPs using Aristolochia indica against Multi-drug resistant bacterial pathogens from Diabetic Foot Ulcer' to disc
+[INFO]15:13:52 Abstract Number: 167
+[INFO]15:13:52 Abstract ID: S1672022912000915
+[INFO]15:13:54 Page status: 200
+[INFO]15:13:54 Souping page
+[INFO]15:13:55 Souped page
+[INFO]15:13:55 Writing 'Application NoteDNA Barcode ITS Effectively Distinguishes the Medicinal Plant Boerhavia diffusa from Its Adulterants' by 'Dhivya' to disc
+[INFO]15:13:55 Written 'Application NoteDNA Barcode ITS Effectively Distinguishes the Medicinal Plant Boerhavia diffusa from Its Adulterants' to disc
+[INFO]15:13:55 Abstract Number: 168
+[INFO]15:13:55 Abstract ID: S2221169115303154
+[INFO]15:13:57 Page status: 200
+[INFO]15:13:57 Souping page
+[INFO]15:13:58 Souped page
+[INFO]15:13:58 Writing 'Document headingEthnomedicinal plants used for the treatment of cuts and wounds by Kuruma tribes, Wayanadu districts of Kerala, India' by 'Binu' to disc
+[INFO]15:13:58 Written 'Document headingEthnomedicinal plants used for the treatment of cuts and wounds by Kuruma tribes, Wayanadu districts of Kerala, India' to disc
+[INFO]15:13:58 Abstract Number: 169
+[INFO]15:13:58 Abstract ID: S1876610217305623
+[INFO]15:14:0 Page status: 200
+[INFO]15:14:0 Souping page
+[INFO]15:14:2 Souped page
+[INFO]15:14:2 Writing 'Optimal Hybrid Power System Using Renewables and Hydrogen for an Isolated Island in the UK\xe2\x98\x86' by 'Niamh' to disc
+[INFO]15:14:2 Written 'Optimal Hybrid Power System Using Renewables and Hydrogen for an Isolated Island in the UK\xe2\x98\x86' to disc
+[INFO]15:14:2 Abstract Number: 170
+[INFO]15:14:2 Abstract ID: S2214241X15001467
+[INFO]15:14:3 Page status: 200
+[INFO]15:14:3 Souping page
+[INFO]15:14:4 Souped page
+[INFO]15:14:4 Writing 'Soil Water Retention Curve from Saturated Hydraulic Conductivity for Sandy Loam and Loamy Sand Textured Soils\xe2\x98\x86' by 'P.' to disc
+[INFO]15:14:5 Written 'Soil Water Retention Curve from Saturated Hydraulic Conductivity for Sandy Loam and Loamy Sand Textured Soils\xe2\x98\x86' to disc
+[INFO]15:14:5 Abstract Number: 171
+[INFO]15:14:5 Abstract ID: S2214241X15001856
+[INFO]15:14:6 Page status: 200
+[INFO]15:14:6 Souping page
+[INFO]15:14:7 Souped page
+[INFO]15:14:7 Writing 'Quantitative Analysis of Catchment Using Remote Sensing and Geographic Information System\xe2\x98\x86' by 'D.' to disc
+[INFO]15:14:7 Written 'Quantitative Analysis of Catchment Using Remote Sensing and Geographic Information System\xe2\x98\x86' to disc
+[INFO]15:14:7 Abstract Number: 172
+[INFO]15:14:7 Abstract ID: S2212094715300578
+[INFO]15:14:10 Page status: 200
+[INFO]15:14:10 Souping page
+[INFO]15:14:11 Souped page
+[INFO]15:14:11 Writing 'Trends and variability of droughts over the Indian monsoon region' by 'Ganeshchandra' to disc
+[INFO]15:14:11 Written 'Trends and variability of droughts over the Indian monsoon region' to disc
+[INFO]15:14:11 Abstract Number: 173
+[INFO]15:14:11 Abstract ID: S2214241X15001571
+[INFO]15:14:12 Page status: 200
+[INFO]15:14:12 Souping page
+[INFO]15:14:15 Souped page
+[INFO]15:14:15 Writing 'Evaluation of Three Soil Erosion Models for Small Watersheds\xe2\x98\x86' by 'T.' to disc
+[INFO]15:14:15 Written 'Evaluation of Three Soil Erosion Models for Small Watersheds\xe2\x98\x86' to disc
+[INFO]15:14:15 Abstract Number: 174
+[INFO]15:14:15 Abstract ID: S1018364715000397
+[INFO]15:14:16 Page status: 200
+[INFO]15:14:16 Souping page
+[INFO]15:14:20 Souped page
+[INFO]15:14:20 Writing 'Original articleEffect of method and time of extraction on total phenolic content in comparison with antioxidant activities in different parts of Achyranthes aspera' by 'Vinayak' to disc
+[INFO]15:14:21 Written 'Original articleEffect of method and time of extraction on total phenolic content in comparison with antioxidant activities in different parts of Achyranthes aspera' to disc
+[INFO]15:14:21 Abstract Number: 175
+[INFO]15:14:21 Abstract ID: S094450131300178X
+[INFO]15:14:23 Page status: 200
+[INFO]15:14:23 Souping page
+[INFO]15:14:25 Souped page
+[INFO]15:14:25 Writing 'Quorum quenching activity in cell-free lysate of endophytic bacteria isolated from Pterocarpus santalinus Linn., and its effect on quorum sensing regulated biofilm in Pseudomonas aeruginosa PAO1' by 'P.S.' to disc
+[INFO]15:14:25 Written 'Quorum quenching activity in cell-free lysate of endophytic bacteria isolated from Pterocarpus santalinus Linn., and its effect on quorum sensing regulated biofilm in Pseudomonas aeruginosa PAO1' to disc
+[INFO]15:14:25 Abstract Number: 176
+[INFO]15:14:25 Abstract ID: S2212017316303255
+[INFO]15:14:27 Page status: 200
+[INFO]15:14:27 Souping page
+[INFO]15:14:31 Souped page
+[INFO]15:14:31 Writing 'Access Controlled High Speed Corridor and Urban Development of Kerala\xe2\x98\x86' by 'K.M.' to disc
+[INFO]15:14:31 Written 'Access Controlled High Speed Corridor and Urban Development of Kerala\xe2\x98\x86' to disc
+[INFO]15:14:31 Abstract Number: 177
+[INFO]15:14:31 Abstract ID: S2351989416301019
+[INFO]15:14:33 Page status: 200
+[INFO]15:14:33 Souping page
+[INFO]15:14:36 Souped page
+[INFO]15:14:36 Writing 'Original research articleFrom intent to action: A case study for the expansion of tiger conservation from southern India' by 'Sanjay' to disc
+[INFO]15:14:36 Written 'Original research articleFrom intent to action: A case study for the expansion of tiger conservation from southern India' to disc
+[INFO]15:14:36 Abstract Number: 178
+[INFO]15:14:36 Abstract ID: S0102695X16303404
+[INFO]15:14:38 Page status: 200
+[INFO]15:14:38 Souping page
+[INFO]15:14:40 Souped page
+[INFO]15:14:40 Writing 'Original ArticleMetabolic profile and \xce\xb2-glucuronidase inhibitory property of three species of Swertia' by 'Swagata' to disc
+[INFO]15:14:40 Written 'Original ArticleMetabolic profile and \xce\xb2-glucuronidase inhibitory property of three species of Swertia' to disc
+[INFO]15:14:40 Abstract Number: 179
+[INFO]15:14:40 Abstract ID: S1674987113000054
+[INFO]15:14:41 Page status: 200
+[INFO]15:14:41 Souping page
+[INFO]15:14:43 Souped page
+[INFO]15:14:43 Writing 'Research paperLesser Himalayan sequences in Eastern Himalaya and their deformation: Implications for Paleoproterozoic tectonic activity along the northern margin of India' by 'Dilip' to disc
+[INFO]15:14:43 Written 'Research paperLesser Himalayan sequences in Eastern Himalaya and their deformation: Implications for Paleoproterozoic tectonic activity along the northern margin of India' to disc
+[INFO]15:14:43 Abstract Number: 180
+[INFO]15:14:43 Abstract ID: S0960982209006733
+[INFO]15:14:45 Page status: 200
+[INFO]15:14:45 Souping page
+[INFO]15:14:46 Souped page
+[INFO]15:14:46 Writing 'FeatureMountain concerns' by 'Nigel' to disc
+[INFO]15:14:46 Written 'FeatureMountain concerns' to disc
+[INFO]15:14:46 Abstract Number: 181
+[INFO]15:14:46 Abstract ID: S2287884X1830013X
+[INFO]15:14:48 Page status: 200
+[INFO]15:14:48 Souping page
+[INFO]15:14:50 Souped page
+[INFO]15:14:50 Writing 'Original ArticleDiversity, stand structure and zonation pattern of Mangroves in Southwest coast of India' by 'S.' to disc
+[INFO]15:14:50 Written 'Original ArticleDiversity, stand structure and zonation pattern of Mangroves in Southwest coast of India' to disc
+[INFO]15:14:50 Abstract Number: 182
+[INFO]15:14:50 Abstract ID: S2214241X15000735
+[INFO]15:14:52 Page status: 200
+[INFO]15:14:52 Souping page
+[INFO]15:14:54 Souped page
+[INFO]15:14:54 Writing 'Salient Long-term Observations of SST along Kerala Coast and its Comparative Variation with Lakshadweep Coast\xe2\x98\x86' by 'A.M.' to disc
+[INFO]15:14:55 Written 'Salient Long-term Observations of SST along Kerala Coast and its Comparative Variation with Lakshadweep Coast\xe2\x98\x86' to disc
+[INFO]15:14:55 Abstract Number: 183
+[INFO]15:14:55 Abstract ID: S0960982208011007
+[INFO]15:14:56 Page status: 200
+[INFO]15:14:56 Souping page
+[INFO]15:14:58 Souped page
+[INFO]15:14:58 Writing 'CorrespondenceNocturnal bees learn landmark colours in starlight' by 'Hema' to disc
+[INFO]15:14:58 Written 'CorrespondenceNocturnal bees learn landmark colours in starlight' to disc
+[INFO]15:14:58 Abstract Number: 184
+[INFO]15:14:58 Abstract ID: S2468265917301142
+[INFO]15:15:0 Page status: 200
+[INFO]15:15:0 Souping page
+[INFO]15:15:2 Souped page
+[INFO]15:15:2 Writing 'Tibet, the Himalaya, Asian monsoons and biodiversity \xe2\x80\x93 In what ways are they related?' by 'Robert A.' to disc
+[INFO]15:15:2 Written 'Tibet, the Himalaya, Asian monsoons and biodiversity \xe2\x80\x93 In what ways are they related?' to disc
+[INFO]15:15:2 Abstract Number: 185
+[INFO]15:15:2 Abstract ID: S2214241X1500190X
+[INFO]15:15:4 Page status: 200
+[INFO]15:15:4 Souping page
+[INFO]15:15:5 Souped page
+[INFO]15:15:5 Writing 'Free data and Open Source Concept for Near Real Time Monitoring of Vegetation Health of Northern Kerala, India\xe2\x98\x86' by 'Girish' to disc
+[INFO]15:15:5 Written 'Free data and Open Source Concept for Near Real Time Monitoring of Vegetation Health of Northern Kerala, India\xe2\x98\x86' to disc
+[INFO]15:15:5 Abstract Number: 186
+[INFO]15:15:5 Abstract ID: S1687850716000121
+[INFO]15:15:8 Page status: 200
+[INFO]15:15:8 Souping page
+[INFO]15:15:9 Souped page
+[INFO]15:15:9 Writing 'Lifetime cancer risk due to gamma radioactivity in soils from Tudor Shaft mine environs, South Africa' by 'Raymond L.' to disc
+[INFO]15:15:9 Written 'Lifetime cancer risk due to gamma radioactivity in soils from Tudor Shaft mine environs, South Africa' to disc
+[INFO]15:15:9 Abstract Number: 187
+[INFO]15:15:9 Abstract ID: S1876610217323263
+[INFO]15:15:11 Page status: 200
+[INFO]15:15:11 Souping page
+[INFO]15:15:12 Souped page
+[INFO]15:15:12 Writing 'Design of 15 kW Micro Hydro Power Plant for Rural Electrification at Valara' by 'Prawin Angel' to disc
+[INFO]15:15:12 Written 'Design of 15 kW Micro Hydro Power Plant for Rural Electrification at Valara' to disc
+[INFO]15:15:12 Abstract Number: 188
+[INFO]15:15:12 Abstract ID: S2215017X17301492
+[INFO]15:15:15 Page status: 200
+[INFO]15:15:15 Souping page
+[INFO]15:15:16 Souped page
+[INFO]15:15:16 Writing 'ReviewVermicomposting and anaerobic digestion \xe2\x80\x93 viable alternative options for terrestrial weed management \xe2\x80\x93 A review' by 'Biswanath' to disc
+[INFO]15:15:16 Written 'ReviewVermicomposting and anaerobic digestion \xe2\x80\x93 viable alternative options for terrestrial weed management \xe2\x80\x93 A review' to disc
+[INFO]15:15:16 Abstract Number: 189
+[INFO]15:15:16 Abstract ID: S2305050016300550
+[INFO]15:15:19 Page status: 200
+[INFO]15:15:19 Souping page
+[INFO]15:15:20 Souped page
+[INFO]15:15:20 Writing 'Original researchSomatic embryogenesis and in\xc2\xa0vitro flowering in Hybanthus enneaspermus (L.) F. Muell. \xe2\x80\x93 A rare multipotent herb' by 'Mahipal S.' to disc
+[INFO]15:15:20 Written 'Original researchSomatic embryogenesis and in\xc2\xa0vitro flowering in Hybanthus enneaspermus (L.) F. Muell. \xe2\x80\x93 A rare multipotent herb' to disc
+[INFO]15:15:20 Abstract Number: 190
+[INFO]15:15:20 Abstract ID: S1877050915021778
+[INFO]15:15:22 Page status: 200
+[INFO]15:15:22 Souping page
+[INFO]15:15:23 Souped page
+[INFO]15:15:23 Writing 'A Contextual Investigation for Variation in Weather Parameter for Coimbatore District\xe2\x98\x86' by 'M.' to disc
+[INFO]15:15:23 Written 'A Contextual Investigation for Variation in Weather Parameter for Coimbatore District\xe2\x98\x86' to disc
+[INFO]15:15:23 Abstract Number: 191
+[INFO]15:15:23 Abstract ID: S2212017316300937
+[INFO]15:15:25 Page status: 200
+[INFO]15:15:25 Souping page
+[INFO]15:15:27 Souped page
+[INFO]15:15:27 Writing 'A Comparative Study on the Derivation of Unit Hydrograph for Bharathapuzha River Basin\xe2\x98\x86' by 'Abhinanda' to disc
+[INFO]15:15:27 Written 'A Comparative Study on the Derivation of Unit Hydrograph for Bharathapuzha River Basin\xe2\x98\x86' to disc
+[INFO]15:15:27 Abstract Number: 192
+[INFO]15:15:27 Abstract ID: S2314808X16300215
+[INFO]15:15:29 Page status: 200
+[INFO]15:15:29 Souping page
+[INFO]15:15:31 Souped page
+[INFO]15:15:31 Writing 'Full Length ArticleComparative study between well logging and core analysis of Hawaz reservoir in Murzuq Basin, Libya' by 'Adel K.' to disc
+[INFO]15:15:31 Written 'Full Length ArticleComparative study between well logging and core analysis of Hawaz reservoir in Murzuq Basin, Libya' to disc
+[INFO]15:15:31 Abstract Number: 193
+[INFO]15:15:31 Abstract ID: S2090123217301169
+[INFO]15:15:32 Page status: 200
+[INFO]15:15:32 Souping page
+[INFO]15:15:34 Souped page
+[INFO]15:15:34 Writing 'Original ArticleSynthesis and characterization of ZnO phytonanocomposite using Strychnos nux-vomica L. (Loganiaceae) and antimicrobial activity against multidrug-resistant bacterial strains from diabetic foot ulcer' by 'Katherin' to disc
+[INFO]15:15:34 Written 'Original ArticleSynthesis and characterization of ZnO phytonanocomposite using Strychnos nux-vomica L. (Loganiaceae) and antimicrobial activity against multidrug-resistant bacterial strains from diabetic foot ulcer' to disc
+[INFO]15:15:34 Abstract Number: 194
+[INFO]15:15:34 Abstract ID: S1995764512601230
+[INFO]15:15:36 Page status: 200
+[INFO]15:15:36 Souping page
+[INFO]15:15:38 Souped page
+[INFO]15:15:38 Writing 'Document headingLethal effect of Streptomyces citreofluorescens against larvae of malaria, filaria and dengue vectors' by 'Gavendra' to disc
+[INFO]15:15:38 Written 'Document headingLethal effect of Streptomyces citreofluorescens against larvae of malaria, filaria and dengue vectors' to disc
+[INFO]15:15:38 Abstract Number: 195
+[INFO]15:15:38 Abstract ID: S221201731630295X
+[INFO]15:15:40 Page status: 200
+[INFO]15:15:40 Souping page
+[INFO]15:15:41 Souped page
+[INFO]15:15:41 Writing 'Contextual Form Based Coding as a Tool in Urban Design Process-chalai, Thiruvananthapuram as a Case\xe2\x98\x86' by 'Lakshmi S.' to disc
+[INFO]15:15:41 Written 'Contextual Form Based Coding as a Tool in Urban Design Process-chalai, Thiruvananthapuram as a Case\xe2\x98\x86' to disc
+[INFO]15:15:41 Abstract Number: 196
+[INFO]15:15:41 Abstract ID: S2212017316302407
+[INFO]15:15:43 Page status: 200
+[INFO]15:15:43 Souping page
+[INFO]15:15:44 Souped page
+[INFO]15:15:45 Writing 'Effects of Some Water Quality Parameters Especially Total Coliform and Fecal Coliform in Surface Water of Chalakudy River\xe2\x98\x86' by 'A.H.' to disc
+[INFO]15:15:45 Written 'Effects of Some Water Quality Parameters Especially Total Coliform and Fecal Coliform in Surface Water of Chalakudy River\xe2\x98\x86' to disc
+[INFO]15:15:45 Abstract Number: 197
+[INFO]15:15:45 Abstract ID: S0042698914002119
+[INFO]15:15:46 Page status: 200
+[INFO]15:15:46 Souping page
+[INFO]15:15:48 Souped page
+[INFO]15:15:48 Writing 'Probing the functions of contextual modulation by adapting images rather than observers' by 'Michael A.' to disc
+[INFO]15:15:48 Written 'Probing the functions of contextual modulation by adapting images rather than observers' to disc
+[INFO]15:15:48 Abstract Number: 198
+[INFO]15:15:48 Abstract ID: S1055790317308485
+[INFO]15:15:50 Page status: 200
+[INFO]15:15:50 Souping page
+[INFO]15:15:51 Souped page
+[INFO]15:15:51 Writing 'Using an integrated approach to identify cryptic species, divergence patterns and hybrid species in Asian ladies\xe2\x80\x99 tresses orchids (Spiranthes, Orchidaceae)' by 'Siddharthan' to disc
+[INFO]15:15:51 Written 'Using an integrated approach to identify cryptic species, divergence patterns and hybrid species in Asian ladies\xe2\x80\x99 tresses orchids (Spiranthes, Orchidaceae)' to disc
+[INFO]15:15:51 Abstract Number: 199
+[INFO]15:15:51 Abstract ID: S1110982313000069
+[INFO]15:15:53 Page status: 200
+[INFO]15:15:53 Souping page
+[INFO]15:15:54 Souped page
+[INFO]15:15:54 Writing 'Research PaperChanges in land use/cover using geospatial techniques: A case study of Ramnagar town area, district Nainital, Uttarakhand, India' by 'J.S.' to disc
+[INFO]15:15:54 Written 'Research PaperChanges in land use/cover using geospatial techniques: A case study of Ramnagar town area, district Nainital, Uttarakhand, India' to disc
+[INFO]15:15:54 Abstract Number: 200
+[INFO]15:15:54 Abstract ID: S0102695X13700280
+[INFO]15:15:56 Page status: 200
+[INFO]15:15:56 Souping page
+[INFO]15:15:57 Souped page
+[INFO]15:15:57 Writing 'A report on pharmacognostical evaluation of four Adiantum species, Pteridophyta, for their authentication and quality control' by 'Shweta' to disc
+[INFO]15:15:57 Written 'A report on pharmacognostical evaluation of four Adiantum species, Pteridophyta, for their authentication and quality control' to disc
+[INFO]15:15:59 Page status: 200
+[INFO]15:15:59 Souping page
+[INFO]15:16:1 Souped page
+[INFO]15:16:1 Scraping IDs
+[INFO]15:16:3 Scraped IDs
+[INFO]15:16:3 Extracting Abstract IDs from disc
+[INFO]15:16:3 Extracted Abstract IDs from disc
+[INFO]15:16:3 Abstract Number: 201
+[INFO]15:16:3 Abstract ID: S2212017316302808
+[INFO]15:16:5 Page status: 200
+[INFO]15:16:5 Souping page
+[INFO]15:16:6 Souped page
+[INFO]15:16:6 Writing 'Emerging Paradigms for Development Planning: A Case of Thrissur, the Cultural Capital of Kerala\xe2\x98\x86' by 'K.C.' to disc
+[INFO]15:16:6 Written 'Emerging Paradigms for Development Planning: A Case of Thrissur, the Cultural Capital of Kerala\xe2\x98\x86' to disc
+[INFO]15:16:6 Abstract Number: 202
+[INFO]15:16:6 Abstract ID: S1687850714000284
+[INFO]15:16:8 Page status: 200
+[INFO]15:16:8 Souping page
+[INFO]15:16:9 Souped page
+[INFO]15:16:9 Writing 'Estimation of Polonium-210 activity in marine and terrestrial samples and computation of ingestion dose to the public in and around Kanyakumari coast, India' by 'L.' to disc
+[INFO]15:16:9 Written 'Estimation of Polonium-210 activity in marine and terrestrial samples and computation of ingestion dose to the public in and around Kanyakumari coast, India' to disc
+[INFO]15:16:9 Abstract Number: 203
+[INFO]15:16:9 Abstract ID: S1110982315000721
+[INFO]15:16:11 Page status: 200
+[INFO]15:16:11 Souping page
+[INFO]15:16:12 Souped page
+[INFO]15:16:12 Writing 'Research PaperEstimating soil fertility status in physically degraded land using GIS and remote sensing techniques in Chamarajanagar district, Karnataka, India' by 'Mohamed A.E.' to disc
+[INFO]15:16:12 Written 'Research PaperEstimating soil fertility status in physically degraded land using GIS and remote sensing techniques in Chamarajanagar district, Karnataka, India' to disc
+[INFO]15:16:12 Abstract Number: 204
+[INFO]15:16:12 Abstract ID: S1878029612004847
+[INFO]15:16:14 Page status: 200
+[INFO]15:16:14 Souping page
+[INFO]15:16:15 Souped page
+[INFO]15:16:15 Writing 'Morpho-Hydrographic Analyze of Black Sea Catchment Area in Bulgaria' by 'Ekaterina Ivanova' to disc
+[INFO]15:16:15 Written 'Morpho-Hydrographic Analyze of Black Sea Catchment Area in Bulgaria' to disc
+[INFO]15:16:15 Abstract Number: 205
+[INFO]15:16:15 Abstract ID: S2221169117310675
+[INFO]15:16:17 Page status: 200
+[INFO]15:16:17 Souping page
+[INFO]15:16:18 Souped page
+[INFO]15:16:18 Writing 'Original articlePhysicochemical and elemental studies of Hydrocotyle javanica Thunb. for standardization as herbal drug' by 'Manab' to disc
+[INFO]15:16:18 Written 'Original articlePhysicochemical and elemental studies of Hydrocotyle javanica Thunb. for standardization as herbal drug' to disc
+[INFO]15:16:18 Abstract Number: 206
+[INFO]15:16:18 Abstract ID: S2214241X15001327
+[INFO]15:16:20 Page status: 200
+[INFO]15:16:20 Souping page
+[INFO]15:16:21 Souped page
+[INFO]15:16:21 Writing 'Delineation of Groundwater Potential Zones in Deep Midland Aquifers Along Bharathapuzha River Basin, Kerala Using Geophysical Methods\xe2\x98\x86' by 'H. Yousef' to disc
+[INFO]15:16:21 Written 'Delineation of Groundwater Potential Zones in Deep Midland Aquifers Along Bharathapuzha River Basin, Kerala Using Geophysical Methods\xe2\x98\x86' to disc
+[INFO]15:16:21 Abstract Number: 207
+[INFO]15:16:21 Abstract ID: S1878522013001501
+[INFO]15:16:22 Page status: 200
+[INFO]15:16:22 Souping page
+[INFO]15:16:24 Souped page
+[INFO]15:16:24 Writing 'CO2 Mineral Trapping: An Experimental Study on the Carbonation of Basalts from the Eastern Deccan Volcanic Province, India\xe2\x98\x86' by 'Nishi' to disc
+[INFO]15:16:24 Written 'CO2 Mineral Trapping: An Experimental Study on the Carbonation of Basalts from the Eastern Deccan Volcanic Province, India\xe2\x98\x86' to disc
+[INFO]15:16:24 Abstract Number: 208
+[INFO]15:16:24 Abstract ID: S2221169115302963
+[INFO]15:16:25 Page status: 200
+[INFO]15:16:25 Souping page
+[INFO]15:16:27 Souped page
+[INFO]15:16:27 Writing 'Document headingPhytochemical analysis and evaluation of leaf and root parts of the medicinal herb, Hypochaeris radicata L. for in vitro antioxidant activities' by 'Jamuna' to disc
+[INFO]15:16:27 Written 'Document headingPhytochemical analysis and evaluation of leaf and root parts of the medicinal herb, Hypochaeris radicata L. for in vitro antioxidant activities' to disc
+[INFO]15:16:27 Abstract Number: 209
+[INFO]15:16:27 Abstract ID: S1995764511601831
+[INFO]15:16:28 Page status: 200
+[INFO]15:16:28 Souping page
+[INFO]15:16:30 Souped page
+[INFO]15:16:30 Writing 'Document headingPhytochemical constituents and antibacterial efficacy of the flowers of Peltophorum pterocarpum (DC.) Baker ex Heyne' by 'S' to disc
+[INFO]15:16:30 Written 'Document headingPhytochemical constituents and antibacterial efficacy of the flowers of Peltophorum pterocarpum (DC.) Baker ex Heyne' to disc
+[INFO]15:16:30 Abstract Number: 210
+[INFO]15:16:30 Abstract ID: S1573521412000127
+[INFO]15:16:32 Page status: 200
+[INFO]15:16:32 Souping page
+[INFO]15:16:33 Souped page
+[INFO]15:16:33 Writing 'Nutritional qualities and antioxidant activity of three edible oyster mushrooms (Pleurotus spp.)' by 'Selima' to disc
+[INFO]15:16:33 Written 'Nutritional qualities and antioxidant activity of three edible oyster mushrooms (Pleurotus spp.)' to disc
+[INFO]15:16:33 Abstract Number: 211
+[INFO]15:16:33 Abstract ID: S1995764511601661
+[INFO]15:16:35 Page status: 200
+[INFO]15:16:35 Souping page
+[INFO]15:16:36 Souped page
+[INFO]15:16:36 Writing 'Document headingAntifungal activity of Ocimum sanctum Linn. (Lamiaceae) on clinically isolated dermatophytic fungi' by 'S' to disc
+[INFO]15:16:36 Written 'Document headingAntifungal activity of Ocimum sanctum Linn. (Lamiaceae) on clinically isolated dermatophytic fungi' to disc
+[INFO]15:16:36 Abstract Number: 212
+[INFO]15:16:36 Abstract ID: S1110982316300722
+[INFO]15:16:38 Page status: 200
+[INFO]15:16:38 Souping page
+[INFO]15:16:39 Souped page
+[INFO]15:16:39 Writing 'Research PaperModelling urban dynamics in rapidly urbanising Indian cities' by 'H.A.' to disc
+[INFO]15:16:39 Written 'Research PaperModelling urban dynamics in rapidly urbanising Indian cities' to disc
+[INFO]15:16:39 Abstract Number: 213
+[INFO]15:16:39 Abstract ID: S1319562X14001065
+[INFO]15:16:41 Page status: 200
+[INFO]15:16:41 Souping page
+[INFO]15:16:42 Souped page
+[INFO]15:16:43 Writing 'Original articleScreening of ethnic medicinal plants of South India against influenza (H1N1) and their antioxidant activity' by 'K.M.' to disc
+[INFO]15:16:43 Written 'Original articleScreening of ethnic medicinal plants of South India against influenza (H1N1) and their antioxidant activity' to disc
+[INFO]15:16:43 Abstract Number: 214
+[INFO]15:16:43 Abstract ID: S1674987118301063
+[INFO]15:16:44 Page status: 200
+[INFO]15:16:44 Souping page
+[INFO]15:16:45 Souped page
+[INFO]15:16:45 Writing 'Research PaperEvaluation of potential landslide damming: Case study of Urni landslide, Kinnaur, Satluj valley, India' by 'Vipin' to disc
+[INFO]15:16:45 Written 'Research PaperEvaluation of potential landslide damming: Case study of Urni landslide, Kinnaur, Satluj valley, India' to disc
+[INFO]15:16:45 Abstract Number: 215
+[INFO]15:16:45 Abstract ID: S2214241X15000784
+[INFO]15:16:47 Page status: 200
+[INFO]15:16:47 Souping page
+[INFO]15:16:48 Souped page
+[INFO]15:16:48 Writing 'Systems Approach for Optimal Operation of Water Resources Schemes in Kuttiadi River Basin, Kerala\xe2\x98\x86' by 'Amritha' to disc
+[INFO]15:16:48 Written 'Systems Approach for Optimal Operation of Water Resources Schemes in Kuttiadi River Basin, Kerala\xe2\x98\x86' to disc
+[INFO]15:16:48 Abstract Number: 216
+[INFO]15:16:48 Abstract ID: S0169809515000046
+[INFO]15:16:50 Page status: 200
+[INFO]15:16:50 Souping page
+[INFO]15:16:51 Souped page
+[INFO]15:16:51 Writing 'Comparison of versions 6 and 7 3-hourly TRMM multi-satellite precipitation analysis (TMPA) research products' by 'Zhong' to disc
+[INFO]15:16:51 Written 'Comparison of versions 6 and 7 3-hourly TRMM multi-satellite precipitation analysis (TMPA) research products' to disc
+[INFO]15:16:51 Abstract Number: 217
+[INFO]15:16:51 Abstract ID: S2214241X1500022X
+[INFO]15:16:53 Page status: 200
+[INFO]15:16:53 Souping page
+[INFO]15:16:55 Souped page
+[INFO]15:16:55 Writing 'Shoreline Transformation Study of Karnataka Coast: Geospatial Approach\xe2\x98\x86' by 'A. Vittal' to disc
+[INFO]15:16:55 Written 'Shoreline Transformation Study of Karnataka Coast: Geospatial Approach\xe2\x98\x86' to disc
+[INFO]15:16:55 Abstract Number: 218
+[INFO]15:16:55 Abstract ID: S1878029613001679
+[INFO]15:16:57 Page status: 200
+[INFO]15:16:57 Souping page
+[INFO]15:16:58 Souped page
+[INFO]15:16:58 Writing 'Application of GIS Based Ecological Vulnerability Evaluation in Environmental Impact Assessment of Master Plan of Coal Mining Area\xe2\x98\x86\xe2\x98\x86\xe2\x98\x86' by 'Xueqin' to disc
+[INFO]15:16:58 Written 'Application of GIS Based Ecological Vulnerability Evaluation in Environmental Impact Assessment of Master Plan of Coal Mining Area\xe2\x98\x86\xe2\x98\x86\xe2\x98\x86' to disc
+[INFO]15:16:58 Abstract Number: 219
+[INFO]15:16:58 Abstract ID: S221155871400051X
+[INFO]15:17:0 Page status: 200
+[INFO]15:17:0 Souping page
+[INFO]15:17:2 Souped page
+[INFO]15:17:2 Writing 'Original ResearchStudies on the antioxidant activity of ethanol extract and its fractions from Pterygota alata leaves' by 'Nusrat' to disc
+[INFO]15:17:2 Written 'Original ResearchStudies on the antioxidant activity of ethanol extract and its fractions from Pterygota alata leaves' to disc
+[INFO]15:17:2 Abstract Number: 220
+[INFO]15:17:2 Abstract ID: S0254629915301174
+[INFO]15:17:4 Page status: 200
+[INFO]15:17:4 Souping page
+[INFO]15:17:5 Souped page
+[INFO]15:17:5 Writing 'Short CommunicationIsolation of two antibacterial compounds from the bark of Salix capensis' by 'P.J.' to disc
+[INFO]15:17:5 Written 'Short CommunicationIsolation of two antibacterial compounds from the bark of Salix capensis' to disc
+[INFO]15:17:5 Abstract Number: 221
+[INFO]15:17:5 Abstract ID: S2221618913601420
+[INFO]15:17:7 Page status: 200
+[INFO]15:17:7 Souping page
+[INFO]15:17:9 Souped page
+[INFO]15:17:9 Writing 'Document headingAntibacterial activity of the terrestrial fern Lygodium flexuosum (L.) Sw. against multidrug resistant enteric- and uro-pathogenic bacteria' by 'Nabakishore' to disc
+[INFO]15:17:9 Written 'Document headingAntibacterial activity of the terrestrial fern Lygodium flexuosum (L.) Sw. against multidrug resistant enteric- and uro-pathogenic bacteria' to disc
+[INFO]15:17:9 Abstract Number: 222
+[INFO]15:17:9 Abstract ID: S2214581816301422
+[INFO]15:17:11 Page status: 200
+[INFO]15:17:11 Souping page
+[INFO]15:17:12 Souped page
+[INFO]15:17:12 Writing 'Development of a method to identify change in the pattern of extreme streamflow events in future climate: Application on the Bhadra reservoir inflow in India' by 'Subbarao' to disc
+[INFO]15:17:12 Written 'Development of a method to identify change in the pattern of extreme streamflow events in future climate: Application on the Bhadra reservoir inflow in India' to disc
+[INFO]15:17:12 Abstract Number: 223
+[INFO]15:17:12 Abstract ID: S2214241X15000498
+[INFO]15:17:14 Page status: 200
+[INFO]15:17:14 Souping page
+[INFO]15:17:15 Souped page
+[INFO]15:17:15 Writing 'Changes to a Drive-in Beach in Southwest India Due to Severe Erosion and Subsequent Reformation\xe2\x98\x86' by 'P.K.' to disc
+[INFO]15:17:15 Written 'Changes to a Drive-in Beach in Southwest India Due to Severe Erosion and Subsequent Reformation\xe2\x98\x86' to disc
+[INFO]15:17:15 Abstract Number: 224
+[INFO]15:17:15 Abstract ID: S1674987114001352
+[INFO]15:17:17 Page status: 200
+[INFO]15:17:17 Souping page
+[INFO]15:17:18 Souped page
+[INFO]15:17:18 Writing 'Focus paperOn ultrahigh temperature crustal metamorphism: Phase equilibria, trace element thermometry, bulk composition, heat sources, timescales and tectonic settings' by 'David E.' to disc
+[INFO]15:17:18 Written 'Focus paperOn ultrahigh temperature crustal metamorphism: Phase equilibria, trace element thermometry, bulk composition, heat sources, timescales and tectonic settings' to disc
+[INFO]15:17:18 Abstract Number: 225
+[INFO]15:17:18 Abstract ID: S025462991400177X
+[INFO]15:17:20 Page status: 200
+[INFO]15:17:20 Souping page
+[INFO]15:17:22 Souped page
+[INFO]15:17:22 Writing 'Grass competition and the savanna-grassland \xe2\x80\x98treeline\xe2\x80\x99: A question of root gaps?' by 'J.L.' to disc
+[INFO]15:17:22 Written 'Grass competition and the savanna-grassland \xe2\x80\x98treeline\xe2\x80\x99: A question of root gaps?' to disc
+[INFO]15:17:22 Abstract Number: 226
+[INFO]15:17:22 Abstract ID: S2214750017300203
+[INFO]15:17:24 Page status: 200
+[INFO]15:17:24 Souping page
+[INFO]15:17:26 Souped page
+[INFO]15:17:26 Writing 'In vitro biological assessment of Homalium zeylanicum and isolation of lucidenic acid A triterpenoid' by 'Atish Kumar' to disc
+[INFO]15:17:26 Written 'In vitro biological assessment of Homalium zeylanicum and isolation of lucidenic acid A triterpenoid' to disc
+[INFO]15:17:26 Abstract Number: 227
+[INFO]15:17:26 Abstract ID: S1110093116300229
+[INFO]15:17:29 Page status: 200
+[INFO]15:17:29 Souping page
+[INFO]15:17:30 Souped page
+[INFO]15:17:30 Writing 'Original ArticleHepatoprotective, anti-inflammatory and antioxidant activities of Flacourtia montana J. Grah leaf extract in male Wistar rats' by 'Chinchu' to disc
+[INFO]15:17:30 Written 'Original ArticleHepatoprotective, anti-inflammatory and antioxidant activities of Flacourtia montana J. Grah leaf extract in male Wistar rats' to disc
+[INFO]15:17:30 Abstract Number: 228
+[INFO]15:17:30 Abstract ID: S2352618116301159
+[INFO]15:17:32 Page status: 200
+[INFO]15:17:32 Souping page
+[INFO]15:17:33 Souped page
+[INFO]15:17:33 Writing 'Original articleQuantification of ethnodietetic knowledge among noninstitutionally trained Siddha practitioners of Virudhunagar District, Tamil Nadu, India' by 'Subramanian' to disc
+[INFO]15:17:33 Written 'Original articleQuantification of ethnodietetic knowledge among noninstitutionally trained Siddha practitioners of Virudhunagar District, Tamil Nadu, India' to disc
+[INFO]15:17:33 Abstract Number: 229
+[INFO]15:17:33 Abstract ID: S2213453016301409
+[INFO]15:17:35 Page status: 200
+[INFO]15:17:35 Souping page
+[INFO]15:17:36 Souped page
+[INFO]15:17:36 Writing 'Biological activities of silver nanoparticles from Nothapodytes nimmoniana (Graham) Mabb. fruit extracts' by 'G.' to disc
+[INFO]15:17:36 Written 'Biological activities of silver nanoparticles from Nothapodytes nimmoniana (Graham) Mabb. fruit extracts' to disc
+[INFO]15:17:36 Abstract Number: 230
+[INFO]15:17:36 Abstract ID: S0944501315000233
+[INFO]15:17:38 Page status: 200
+[INFO]15:17:38 Souping page
+[INFO]15:17:39 Souped page
+[INFO]15:17:39 Writing 'Genetic analysis of plant endophytic Pseudomonas putida BP25 and chemo-profiling of its antimicrobial volatile organic compounds\xe2\x98\x86' by 'Neelam' to disc
+[INFO]15:17:39 Written 'Genetic analysis of plant endophytic Pseudomonas putida BP25 and chemo-profiling of its antimicrobial volatile organic compounds\xe2\x98\x86' to disc
+[INFO]15:17:40 Abstract Number: 231
+[INFO]15:17:40 Abstract ID: S1319562X16300353
+[INFO]15:17:41 Page status: 200
+[INFO]15:17:41 Souping page
+[INFO]15:17:43 Souped page
+[INFO]15:17:43 Writing 'Original articleSex determination using discriminant function analysis in Indigenous (Kurubas) children and adolescents of Coorg, Karnataka, India: A lateral cephalometric study' by 'Darshan' to disc
+[INFO]15:17:43 Written 'Original articleSex determination using discriminant function analysis in Indigenous (Kurubas) children and adolescents of Coorg, Karnataka, India: A lateral cephalometric study' to disc
+[INFO]15:17:43 Abstract Number: 232
+[INFO]15:17:43 Abstract ID: S1674987112000370
+[INFO]15:17:45 Page status: 200
+[INFO]15:17:45 Souping page
+[INFO]15:17:46 Souped page
+[INFO]15:17:46 Writing 'Gsf FocusDid natural fission of 235U in the earth lead to formation of the supercontinent Columbia?' by 'John J.W.' to disc
+[INFO]15:17:46 Written 'Gsf FocusDid natural fission of 235U in the earth lead to formation of the supercontinent Columbia?' to disc
+[INFO]15:17:46 Abstract Number: 233
+[INFO]15:17:46 Abstract ID: S221475001830163X
+[INFO]15:17:48 Page status: 200
+[INFO]15:17:48 Souping page
+[INFO]15:17:50 Souped page
+[INFO]15:17:50 Writing 'Safety profile of 40% Garcinol from Garcinia indica in experimental rodents' by 'Muhammed' to disc
+[INFO]15:17:50 Written 'Safety profile of 40% Garcinol from Garcinia indica in experimental rodents' to disc
+[INFO]15:17:50 Abstract Number: 234
+[INFO]15:17:50 Abstract ID: S1110982316301624
+[INFO]15:17:51 Page status: 200
+[INFO]15:17:51 Souping page
+[INFO]15:17:53 Souped page
+[INFO]15:17:53 Writing 'Research PaperMapping of coastal landforms and volumetric change analysis in the south west coast of Kanyakumari, South India using remote sensing and GIS techniques' by 'S.' to disc
+[INFO]15:17:53 Written 'Research PaperMapping of coastal landforms and volumetric change analysis in the south west coast of Kanyakumari, South India using remote sensing and GIS techniques' to disc
+[INFO]15:17:53 Abstract Number: 235
+[INFO]15:17:53 Abstract ID: S0168165615302157
+[INFO]15:17:55 Page status: 200
+[INFO]15:17:55 Souping page
+[INFO]15:17:56 Souped page
+[INFO]15:17:56 Writing 'ReviewSynergism of proteomics and mRNA sequencing for enzyme discovery' by 'Lukas' to disc
+[INFO]15:17:56 Written 'ReviewSynergism of proteomics and mRNA sequencing for enzyme discovery' to disc
+[INFO]15:17:56 Abstract Number: 236
+[INFO]15:17:56 Abstract ID: S1995764510601642
+[INFO]15:17:58 Page status: 200
+[INFO]15:17:58 Souping page
+[INFO]15:17:59 Souped page
+[INFO]15:17:59 Writing 'Document headingThe effect of extracts of Selaginella involvens and Selaginella inaequalifolia leaves on poultry pathogens' by 'Haripriya' to disc
+[INFO]15:17:59 Written 'Document headingThe effect of extracts of Selaginella involvens and Selaginella inaequalifolia leaves on poultry pathogens' to disc
+[INFO]15:17:59 Abstract Number: 237
+[INFO]15:17:59 Abstract ID: S2213596017300806
+[INFO]15:18:1 Page status: 200
+[INFO]15:18:1 Souping page
+[INFO]15:18:2 Souped page
+[INFO]15:18:3 Writing 'Complete mitochondrial genome sequence of fruit-piercing moth Eudocima phalonia (Linnaeus, 1763) (Lepidoptera: Noctuoidea)' by 'Kuppusamy' to disc
+[INFO]15:18:3 Written 'Complete mitochondrial genome sequence of fruit-piercing moth Eudocima phalonia (Linnaeus, 1763) (Lepidoptera: Noctuoidea)' to disc
+[INFO]15:18:3 Abstract Number: 238
+[INFO]15:18:3 Abstract ID: S1877705817322889
+[INFO]15:18:4 Page status: 200
+[INFO]15:18:4 Souping page
+[INFO]15:18:6 Souped page
+[INFO]15:18:6 Writing 'Evaluation of Stoping Parameters through Instrumentation and Numerical Modelling in Manganese Mine in India: A Case Study\xe2\x98\x86' by 'M.N.' to disc
+[INFO]15:18:6 Written 'Evaluation of Stoping Parameters through Instrumentation and Numerical Modelling in Manganese Mine in India: A Case Study\xe2\x98\x86' to disc
+[INFO]15:18:6 Abstract Number: 239
+[INFO]15:18:6 Abstract ID: S1352231016305106
+[INFO]15:18:8 Page status: 200
+[INFO]15:18:8 Souping page
+[INFO]15:18:9 Souped page
+[INFO]15:18:9 Writing 'Sources of chemical species in rainwater during monsoon and non-monsoonal periods over two mega cities in India and dominant source region of secondary aerosols' by 'P.S.P.' to disc
+[INFO]15:18:9 Written 'Sources of chemical species in rainwater during monsoon and non-monsoonal periods over two mega cities in India and dominant source region of secondary aerosols' to disc
+[INFO]15:18:9 Abstract Number: 240
+[INFO]15:18:9 Abstract ID: S1878522015004221
+[INFO]15:18:11 Page status: 200
+[INFO]15:18:11 Souping page
+[INFO]15:18:12 Souped page
+[INFO]15:18:12 Writing 'Contents' by Author not available to disc
+[INFO]15:18:12 Written 'Contents' to disc
+[INFO]15:18:13 Abstract Number: 241
+[INFO]15:18:13 Abstract ID: S2214241X15001819
+[INFO]15:18:14 Page status: 200
+[INFO]15:18:14 Souping page
+[INFO]15:18:15 Souped page
+[INFO]15:18:15 Writing 'Application of Geoinformatics for the Delineation of Groundwater Prospects Zones- A Case Study for Melattur Grama Panchayat in Kerala, India\xe2\x98\x86' by 'V.P.' to disc
+[INFO]15:18:15 Written 'Application of Geoinformatics for the Delineation of Groundwater Prospects Zones- A Case Study for Melattur Grama Panchayat in Kerala, India\xe2\x98\x86' to disc
+[INFO]15:18:16 Abstract Number: 242
+[INFO]15:18:16 Abstract ID: S1876610209009631
+[INFO]15:18:17 Page status: 200
+[INFO]15:18:17 Souping page
+[INFO]15:18:19 Souped page
+[INFO]15:18:19 Writing 'Basalt- CO2\xe2\x80\x93H2O interactions and variability in carbonate mineralization rates' by 'H.T.' to disc
+[INFO]15:18:19 Written 'Basalt- CO2\xe2\x80\x93H2O interactions and variability in carbonate mineralization rates' to disc
+[INFO]15:18:19 Abstract Number: 243
+[INFO]15:18:19 Abstract ID: S2090447916000307
+[INFO]15:18:20 Page status: 200
+[INFO]15:18:20 Souping page
+[INFO]15:18:22 Souped page
+[INFO]15:18:22 Writing 'A review on application of data mining techniques to combat natural disasters' by 'Saptarsi' to disc
+[INFO]15:18:22 Written 'A review on application of data mining techniques to combat natural disasters' to disc
+[INFO]15:18:22 Abstract Number: 244
+[INFO]15:18:22 Abstract ID: S1309104215300167
+[INFO]15:18:23 Page status: 200
+[INFO]15:18:23 Souping page
+[INFO]15:18:25 Souped page
+[INFO]15:18:25 Writing 'Original articleEffects of convection and long-range transport on the distribution of carbon monoxide in the troposphere over India' by 'N.' to disc
+[INFO]15:18:25 Written 'Original articleEffects of convection and long-range transport on the distribution of carbon monoxide in the troposphere over India' to disc
+[INFO]15:18:25 Abstract Number: 245
+[INFO]15:18:25 Abstract ID: S2221169117308407
+[INFO]15:18:28 Page status: 200
+[INFO]15:18:28 Souping page
+[INFO]15:18:29 Souped page
+[INFO]15:18:29 Writing 'Original articleIn\xc2\xa0vitro assessment on medicinal properties and chemical composition of Michelia nilagirica bark' by 'Babu' to disc
+[INFO]15:18:29 Written 'Original articleIn\xc2\xa0vitro assessment on medicinal properties and chemical composition of Michelia nilagirica bark' to disc
+[INFO]15:18:29 Abstract Number: 246
+[INFO]15:18:29 Abstract ID: S2213422015005855
+[INFO]15:18:32 Page status: 200
+[INFO]15:18:32 Souping page
+[INFO]15:18:33 Souped page
+[INFO]15:18:33 Writing 'Original ArticleModulatory effect of Tinospora cordifolia extract on Cd-induced oxidative stress in Wistar rats' by 'Viswanadha Vijaya' to disc
+[INFO]15:18:33 Written 'Original ArticleModulatory effect of Tinospora cordifolia extract on Cd-induced oxidative stress in Wistar rats' to disc
+[INFO]15:18:33 Abstract Number: 247
+[INFO]15:18:33 Abstract ID: S2214241X15001649
+[INFO]15:18:35 Page status: 200
+[INFO]15:18:35 Souping page
+[INFO]15:18:37 Souped page
+[INFO]15:18:37 Writing 'Trend Analysis of Drought Events Over Upper Krishna Basin in Maharashtra\xe2\x98\x86' by 'D.R.' to disc
+[INFO]15:18:37 Written 'Trend Analysis of Drought Events Over Upper Krishna Basin in Maharashtra\xe2\x98\x86' to disc
+[INFO]15:18:37 Abstract Number: 248
+[INFO]15:18:37 Abstract ID: S1687850715001090
+[INFO]15:18:39 Page status: 200
+[INFO]15:18:39 Souping page
+[INFO]15:18:40 Souped page
+[INFO]15:18:40 Writing 'Estimation of radionuclides concentration and average annual committed effective dose due to ingestion for some selected medicinal plants of South India' by 'K.' to disc
+[INFO]15:18:40 Written 'Estimation of radionuclides concentration and average annual committed effective dose due to ingestion for some selected medicinal plants of South India' to disc
+[INFO]15:18:40 Abstract Number: 249
+[INFO]15:18:40 Abstract ID: S1687157X15000359
+[INFO]15:18:42 Page status: 200
+[INFO]15:18:42 Souping page
+[INFO]15:18:43 Souped page
+[INFO]15:18:43 Writing 'ArticleIdentification of Taxol-producing endophytic fungi isolated from Salacia oblonga through genomic mining approach' by 'G.' to disc
+[INFO]15:18:43 Written 'ArticleIdentification of Taxol-producing endophytic fungi isolated from Salacia oblonga through genomic mining approach' to disc
+[INFO]15:18:43 Abstract Number: 250
+[INFO]15:18:43 Abstract ID: S0254629915309200
+[INFO]15:18:45 Page status: 200
+[INFO]15:18:45 Souping page
+[INFO]15:18:46 Souped page
+[INFO]15:18:46 Writing 'Fungi on submerged wood in the Riviere St Marie-Louis, The Seychelles' by 'Kevin D.' to disc
+[INFO]15:18:46 Written 'Fungi on submerged wood in the Riviere St Marie-Louis, The Seychelles' to disc
+[INFO]15:18:46 Abstract Number: 251
+[INFO]15:18:46 Abstract ID: S111098231600003X
+[INFO]15:18:48 Page status: 200
+[INFO]15:18:48 Souping page
+[INFO]15:18:49 Souped page
+[INFO]15:18:49 Writing 'Research PaperAssessment of land suitability and capability by integrating remote sensing and GIS for agriculture in Chamarajanagar district, Karnataka, India' by 'Mohamed A.E.' to disc
+[INFO]15:18:49 Written 'Research PaperAssessment of land suitability and capability by integrating remote sensing and GIS for agriculture in Chamarajanagar district, Karnataka, India' to disc
+[INFO]15:18:49 Abstract Number: 252
+[INFO]15:18:49 Abstract ID: S1110016815000381
+[INFO]15:18:51 Page status: 200
+[INFO]15:18:51 Souping page
+[INFO]15:18:53 Souped page
+[INFO]15:18:53 Writing 'Original ArticleCombustion characteristics of lemongrass (Cymbopogon flexuosus) oil in a partial premixed charge compression ignition engine' by 'Avinash' to disc
+[INFO]15:18:53 Written 'Original ArticleCombustion characteristics of lemongrass (Cymbopogon flexuosus) oil in a partial premixed charge compression ignition engine' to disc
+[INFO]15:18:53 Abstract Number: 253
+[INFO]15:18:53 Abstract ID: S2452316X17302557
+[INFO]15:18:54 Page status: 200
+[INFO]15:18:54 Souping page
+[INFO]15:18:56 Souped page
+[INFO]15:18:56 Writing 'Original ArticleAntioxidant and anticancer activities of Plectranthus stocksii Hook. f. leaf and stem extracts' by 'Kasipandi' to disc
+[INFO]15:18:56 Written 'Original ArticleAntioxidant and anticancer activities of Plectranthus stocksii Hook. f. leaf and stem extracts' to disc
+[INFO]15:18:56 Abstract Number: 254
+[INFO]15:18:56 Abstract ID: S0009254111003731
+[INFO]15:18:57 Page status: 200
+[INFO]15:18:57 Souping page
+[INFO]15:18:59 Souped page
+[INFO]15:18:59 Writing 'Research paperResponse of the U\xe2\x80\x93Pb chronometer and trace elements in zircon to ultrahigh-temperature metamorphism: The Kadavur anorthosite complex, southern India' by 'Ellen' to disc
+[INFO]15:18:59 Written 'Research paperResponse of the U\xe2\x80\x93Pb chronometer and trace elements in zircon to ultrahigh-temperature metamorphism: The Kadavur anorthosite complex, southern India' to disc
+[INFO]15:18:59 Abstract Number: 255
+[INFO]15:18:59 Abstract ID: S2225411018300087
+[INFO]15:19:1 Page status: 200
+[INFO]15:19:1 Souping page
+[INFO]15:19:2 Souped page
+[INFO]15:19:2 Writing 'In silico validation of the indigenous knowledge of the herbal medicines among tribal communities in Sathyamangalam wildlife sanctuary, India' by 'Pavithra' to disc
+[INFO]15:19:2 Written 'In silico validation of the indigenous knowledge of the herbal medicines among tribal communities in Sathyamangalam wildlife sanctuary, India' to disc
+[INFO]15:19:2 Abstract Number: 256
+[INFO]15:19:2 Abstract ID: S1364815216308738
+[INFO]15:19:4 Page status: 200
+[INFO]15:19:4 Souping page
+[INFO]15:19:5 Souped page
+[INFO]15:19:5 Writing 'Role of rainstorm intensity underestimated by data-derived flood models: Emerging global evidence from subsurface-dominated watersheds' by 'Nick A.' to disc
+[INFO]15:19:5 Written 'Role of rainstorm intensity underestimated by data-derived flood models: Emerging global evidence from subsurface-dominated watersheds' to disc
+[INFO]15:19:5 Abstract Number: 257
+[INFO]15:19:5 Abstract ID: S2214241X15000267
+[INFO]15:19:7 Page status: 200
+[INFO]15:19:7 Souping page
+[INFO]15:19:8 Souped page
+[INFO]15:19:8 Writing 'Shoreline Change Analysis of Mangalore Coast and Morphometric Analysis of Netravathi-Gurupur and Mulky-pavanje Spits\xe2\x98\x86' by 'Ateeth' to disc
+[INFO]15:19:8 Written 'Shoreline Change Analysis of Mangalore Coast and Morphometric Analysis of Netravathi-Gurupur and Mulky-pavanje Spits\xe2\x98\x86' to disc
+[INFO]15:19:8 Abstract Number: 258
+[INFO]15:19:8 Abstract ID: S2214581814000081
+[INFO]15:19:10 Page status: 200
+[INFO]15:19:10 Souping page
+[INFO]15:19:12 Souped page
+[INFO]15:19:12 Writing 'Impact of climate change on rainfall over Mumbai using Distribution-based Scaling of Global Climate Model projections' by 'Arun' to disc
+[INFO]15:19:12 Written 'Impact of climate change on rainfall over Mumbai using Distribution-based Scaling of Global Climate Model projections' to disc
+[INFO]15:19:12 Abstract Number: 259
+[INFO]15:19:12 Abstract ID: S2214241X15001145
+[INFO]15:19:13 Page status: 200
+[INFO]15:19:13 Souping page
+[INFO]15:19:15 Souped page
+[INFO]15:19:15 Writing 'Forecasting One Day Ahead Stream Flow Using Support Vector Regression\xe2\x98\x86' by 'Shreenivas' to disc
+[INFO]15:19:15 Written 'Forecasting One Day Ahead Stream Flow Using Support Vector Regression\xe2\x98\x86' to disc
+[INFO]15:19:15 Abstract Number: 260
+[INFO]15:19:15 Abstract ID: S1877042814058455
+[INFO]15:19:16 Page status: 200
+[INFO]15:19:16 Souping page
+[INFO]15:19:18 Souped page
+[INFO]15:19:18 Writing 'Groundwater, Climate Change and Sustainable Well Being of the Poor: Policy Options for South Asia, China and Africa\xe2\x98\x86' by 'Achiransu' to disc
+[INFO]15:19:18 Written 'Groundwater, Climate Change and Sustainable Well Being of the Poor: Policy Options for South Asia, China and Africa\xe2\x98\x86' to disc
+[INFO]15:19:18 Abstract Number: 261
+[INFO]15:19:18 Abstract ID: S1110982314000209
+[INFO]15:19:19 Page status: 200
+[INFO]15:19:19 Souping page
+[INFO]15:19:21 Souped page
+[INFO]15:19:21 Writing 'Research PaperThe preparation of landslide map by Landslide Numerical Risk Factor (LNRF) model and Geographic Information System (GIS)' by 'Ali Mohammadi' to disc
+[INFO]15:19:21 Written 'Research PaperThe preparation of landslide map by Landslide Numerical Risk Factor (LNRF) model and Geographic Information System (GIS)' to disc
+[INFO]15:19:21 Abstract Number: 262
+[INFO]15:19:21 Abstract ID: S1110016816302320
+[INFO]15:19:22 Page status: 200
+[INFO]15:19:22 Souping page
+[INFO]15:19:24 Souped page
+[INFO]15:19:24 Writing 'Original ArticleApplication of zero-dimensional thermodynamic model for predicting combustion parameters of CI engine fuelled with biodiesel-diesel blends' by 'V.' to disc
+[INFO]15:19:24 Written 'Original ArticleApplication of zero-dimensional thermodynamic model for predicting combustion parameters of CI engine fuelled with biodiesel-diesel blends' to disc
+[INFO]15:19:24 Abstract Number: 263
+[INFO]15:19:24 Abstract ID: S1687850714000879
+[INFO]15:19:25 Page status: 200
+[INFO]15:19:25 Souping page
+[INFO]15:19:27 Souped page
+[INFO]15:19:27 Writing 'A study on the impact of phosphate fertilizers on the radioactivity profile of cultivated soils in Srirangam (Tamil Nadu, India)' by 'P. Shahul' to disc
+[INFO]15:19:27 Written 'A study on the impact of phosphate fertilizers on the radioactivity profile of cultivated soils in Srirangam (Tamil Nadu, India)' to disc
+[INFO]15:19:27 Abstract Number: 264
+[INFO]15:19:27 Abstract ID: S2287884X15000096
+[INFO]15:19:28 Page status: 200
+[INFO]15:19:28 Souping page
+[INFO]15:19:30 Souped page
+[INFO]15:19:30 Writing 'Original articleVariation of avifaunal diversity in relation to land-use modifications around a tropical estuary, the Negombo estuary in Sri Lanka' by 'Manjari Bhagya' to disc
+[INFO]15:19:30 Written 'Original articleVariation of avifaunal diversity in relation to land-use modifications around a tropical estuary, the Negombo estuary in Sri Lanka' to disc
+[INFO]15:19:30 Abstract Number: 265
+[INFO]15:19:30 Abstract ID: S0305440313001544
+[INFO]15:19:32 Page status: 200
+[INFO]15:19:32 Souping page
+[INFO]15:19:33 Souped page
+[INFO]15:19:33 Writing 'Archaeobotanical implications of phytolith assemblages from cultivated rice systems, wild rice stands and macro-regional patterns\xe2\x98\x86' by 'Alison' to disc
+[INFO]15:19:33 Written 'Archaeobotanical implications of phytolith assemblages from cultivated rice systems, wild rice stands and macro-regional patterns\xe2\x98\x86' to disc
+[INFO]15:19:33 Abstract Number: 266
+[INFO]15:19:33 Abstract ID: S199576451460239X
+[INFO]15:19:35 Page status: 200
+[INFO]15:19:35 Souping page
+[INFO]15:19:36 Souped page
+[INFO]15:19:36 Writing 'Document headingScreening and study of antifungal activity of leaf litter actinomycetes isolated from Ternate Island, Indonesia' by 'Arif' to disc
+[INFO]15:19:36 Written 'Document headingScreening and study of antifungal activity of leaf litter actinomycetes isolated from Ternate Island, Indonesia' to disc
+[INFO]15:19:36 Abstract Number: 267
+[INFO]15:19:36 Abstract ID: S2213453014000214
+[INFO]15:19:38 Page status: 200
+[INFO]15:19:38 Souping page
+[INFO]15:19:39 Souped page
+[INFO]15:19:39 Writing 'Food prospects and nutraceutical attributes of Momordica species: A potential tropical bioresources \xe2\x80\x93 A review' by 'Gunasekaran' to disc
+[INFO]15:19:39 Written 'Food prospects and nutraceutical attributes of Momordica species: A potential tropical bioresources \xe2\x80\x93 A review' to disc
+[INFO]15:19:39 Abstract Number: 268
+[INFO]15:19:39 Abstract ID: S1995764514602285
+[INFO]15:19:40 Page status: 200
+[INFO]15:19:40 Souping page
+[INFO]15:19:42 Souped page
+[INFO]15:19:42 Writing 'Document headingIn vitro studies on phytochemical evaluation and antimicrobial activity of Borassus flabellifer Linn against some human pathogens' by 'Muthukumar' to disc
+[INFO]15:19:42 Written 'Document headingIn vitro studies on phytochemical evaluation and antimicrobial activity of Borassus flabellifer Linn against some human pathogens' to disc
+[INFO]15:19:42 Abstract Number: 269
+[INFO]15:19:42 Abstract ID: S2213453014000160
+[INFO]15:19:43 Page status: 200
+[INFO]15:19:43 Souping page
+[INFO]15:19:45 Souped page
+[INFO]15:19:45 Writing 'In vitro antioxidant, antimicrobial and anti-diabetic properties of polyphenols of Passiflora ligularis Juss. fruit pulp' by 'Shanmugam' to disc
+[INFO]15:19:45 Written 'In vitro antioxidant, antimicrobial and anti-diabetic properties of polyphenols of Passiflora ligularis Juss. fruit pulp' to disc
+[INFO]15:19:45 Abstract Number: 270
+[INFO]15:19:45 Abstract ID: S1995764510601058
+[INFO]15:19:47 Page status: 200
+[INFO]15:19:47 Souping page
+[INFO]15:19:48 Souped page
+[INFO]15:19:48 Writing 'Document headingAntibacterial effect and physicochemical properties of essential oil of Zataria multiflora Boiss' by 'Amin' to disc
+[INFO]15:19:48 Written 'Document headingAntibacterial effect and physicochemical properties of essential oil of Zataria multiflora Boiss' to disc
+[INFO]15:19:48 Abstract Number: 271
+[INFO]15:19:48 Abstract ID: S1110062114000348
+[INFO]15:19:50 Page status: 200
+[INFO]15:19:50 Souping page
+[INFO]15:19:51 Souped page
+[INFO]15:19:51 Writing 'Full Length ArticlePhytochemical screening and corrosion inhibitive behavior of Pterolobium hexapetalum and Celosia argentea plant extracts on mild steel in industrial water medium' by 'C.B.' to disc
+[INFO]15:19:51 Written 'Full Length ArticlePhytochemical screening and corrosion inhibitive behavior of Pterolobium hexapetalum and Celosia argentea plant extracts on mild steel in industrial water medium' to disc
+[INFO]15:19:51 Abstract Number: 272
+[INFO]15:19:51 Abstract ID: S2095383615300195
+[INFO]15:19:53 Page status: 200
+[INFO]15:19:53 Souping page
+[INFO]15:19:55 Souped page
+[INFO]15:19:55 Writing 'Lithofacies palaeogeography and sedimentologyCharacterization and evolution of primary and secondary laterites in northwestern Bengal Basin, West Bengal, India' by 'Sandipan' to disc
+[INFO]15:19:55 Written 'Lithofacies palaeogeography and sedimentologyCharacterization and evolution of primary and secondary laterites in northwestern Bengal Basin, West Bengal, India' to disc
+[INFO]15:19:55 Abstract Number: 273
+[INFO]15:19:55 Abstract ID: S1877042815034886
+[INFO]15:19:56 Page status: 200
+[INFO]15:19:56 Souping page
+[INFO]15:19:58 Souped page
+[INFO]15:19:58 Writing 'A Sociolinguistic Study of Linguistic Variation and Code Matrix In Kanpur\xe2\x98\x86' by 'Sujata' to disc
+[INFO]15:19:58 Written 'A Sociolinguistic Study of Linguistic Variation and Code Matrix In Kanpur\xe2\x98\x86' to disc
+[INFO]15:19:58 Abstract Number: 274
+[INFO]15:19:58 Abstract ID: S2214241X15001212
+[INFO]15:20:0 Page status: 200
+[INFO]15:20:0 Souping page
+[INFO]15:20:1 Souped page
+[INFO]15:20:1 Writing 'Regression Analysis of Annual Maximum Daily Rainfall and Stream Flow for Flood Forecasting in Vellar River Basin\xe2\x98\x86' by 'P.' to disc
+[INFO]15:20:1 Written 'Regression Analysis of Annual Maximum Daily Rainfall and Stream Flow for Flood Forecasting in Vellar River Basin\xe2\x98\x86' to disc
+[INFO]15:20:1 Abstract Number: 275
+[INFO]15:20:1 Abstract ID: S2214241X15001844
+[INFO]15:20:3 Page status: 200
+[INFO]15:20:3 Souping page
+[INFO]15:20:5 Souped page
+[INFO]15:20:5 Writing 'Study of Land use/land Cover Dynamics through Classification Algorithms for Harangi Catchment Area, Karnataka State, INDIA\xe2\x98\x86' by 'B.P.' to disc
+[INFO]15:20:5 Written 'Study of Land use/land Cover Dynamics through Classification Algorithms for Harangi Catchment Area, Karnataka State, INDIA\xe2\x98\x86' to disc
+[INFO]15:20:5 Abstract Number: 276
+[INFO]15:20:5 Abstract ID: S2212567114002081
+[INFO]15:20:6 Page status: 200
+[INFO]15:20:6 Souping page
+[INFO]15:20:8 Souped page
+[INFO]15:20:8 Writing 'Empowerment of Self Help Groups (SHGs) towards Microenterprise Development\xe2\x98\x86' by 'K.R.' to disc
+[INFO]15:20:8 Written 'Empowerment of Self Help Groups (SHGs) towards Microenterprise Development\xe2\x98\x86' to disc
+[INFO]15:20:8 Abstract Number: 277
+[INFO]15:20:8 Abstract ID: S2212094714000292
+[INFO]15:20:10 Page status: 200
+[INFO]15:20:10 Souping page
+[INFO]15:20:12 Souped page
+[INFO]15:20:12 Writing 'Long term spatial and temporal rainfall trends and homogeneity analysis in Wainganga basin, Central India' by 'Arun Kumar' to disc
+[INFO]15:20:12 Written 'Long term spatial and temporal rainfall trends and homogeneity analysis in Wainganga basin, Central India' to disc
+[INFO]15:20:12 Abstract Number: 278
+[INFO]15:20:12 Abstract ID: S2351989415300263
+[INFO]15:20:14 Page status: 200
+[INFO]15:20:14 Souping page
+[INFO]15:20:15 Souped page
+[INFO]15:20:15 Writing 'Original research articleAssessment of carbon stocks of semi-evergreen forests in Cambodia' by 'Kimsun' to disc
+[INFO]15:20:15 Written 'Original research articleAssessment of carbon stocks of semi-evergreen forests in Cambodia' to disc
+[INFO]15:20:15 Abstract Number: 279
+[INFO]15:20:15 Abstract ID: S1687157X15000402
+[INFO]15:20:17 Page status: 200
+[INFO]15:20:17 Souping page
+[INFO]15:20:19 Souped page
+[INFO]15:20:20 Writing 'ArticleInfluence of plant growth regulators (PGRs) and various additives on in vitro plant propagation of Bambusa arundinacea (Retz.) Wild: A recalcitrant bamboo species' by 'P.' to disc
+[INFO]15:20:20 Written 'ArticleInfluence of plant growth regulators (PGRs) and various additives on in vitro plant propagation of Bambusa arundinacea (Retz.) Wild: A recalcitrant bamboo species' to disc
+[INFO]15:20:20 Abstract Number: 280
+[INFO]15:20:20 Abstract ID: S1674987114000930
+[INFO]15:20:22 Page status: 200
+[INFO]15:20:22 Souping page
+[INFO]15:20:23 Souped page
+[INFO]15:20:23 Writing 'Research paperProbabilistic assessment of surface level seismic hazard in India using\xc2\xa0topographic gradient as a proxy for site condition' by 'T.G.' to disc
+[INFO]15:20:23 Written 'Research paperProbabilistic assessment of surface level seismic hazard in India using\xc2\xa0topographic gradient as a proxy for site condition' to disc
+[INFO]15:20:23 Abstract Number: 281
+[INFO]15:20:23 Abstract ID: S2213453015000312
+[INFO]15:20:25 Page status: 200
+[INFO]15:20:25 Souping page
+[INFO]15:20:27 Souped page
+[INFO]15:20:27 Writing 'Purification, characterization and kinetics of protease inhibitor from fruits of Solanum aculeatissimum Jacq' by 'V.G.' to disc
+[INFO]15:20:27 Written 'Purification, characterization and kinetics of protease inhibitor from fruits of Solanum aculeatissimum Jacq' to disc
+[INFO]15:20:27 Abstract Number: 282
+[INFO]15:20:27 Abstract ID: S0168192315000830
+[INFO]15:20:29 Page status: 200
+[INFO]15:20:29 Souping page
+[INFO]15:20:30 Souped page
+[INFO]15:20:30 Writing 'Coffea arabica yields decline in Tanzania due to climate change: Global implications' by 'A.C.W.' to disc
+[INFO]15:20:30 Written 'Coffea arabica yields decline in Tanzania due to climate change: Global implications' to disc
+[INFO]15:20:30 Abstract Number: 283
+[INFO]15:20:30 Abstract ID: S1995764512600960
+[INFO]15:20:32 Page status: 200
+[INFO]15:20:32 Souping page
+[INFO]15:20:34 Souped page
+[INFO]15:20:34 Writing 'Document headingAntifertility effect of chronically administered Tabernaemontana divaricata leaf extract on male rats' by 'Sachin' to disc
+[INFO]15:20:34 Written 'Document headingAntifertility effect of chronically administered Tabernaemontana divaricata leaf extract on male rats' to disc
+[INFO]15:20:34 Abstract Number: 284
+[INFO]15:20:34 Abstract ID: S1672630815000220
+[INFO]15:20:36 Page status: 200
+[INFO]15:20:36 Souping page
+[INFO]15:20:37 Souped page
+[INFO]15:20:37 Writing 'Genetic Diversity and Population Structure in Landraces and Improved Rice Varieties from India' by 'Shailesh D.' to disc
+[INFO]15:20:37 Written 'Genetic Diversity and Population Structure in Landraces and Improved Rice Varieties from India' to disc
+[INFO]15:20:37 Abstract Number: 285
+[INFO]15:20:37 Abstract ID: S1567134812003425
+[INFO]15:20:39 Page status: 200
+[INFO]15:20:39 Souping page
+[INFO]15:20:40 Souped page
+[INFO]15:20:40 Writing 'ReviewInter and intra-specific diversity of parasites that cause lymphatic filariasis' by 'Samantha N.' to disc
+[INFO]15:20:40 Written 'ReviewInter and intra-specific diversity of parasites that cause lymphatic filariasis' to disc
+[INFO]15:20:40 Abstract Number: 286
+[INFO]15:20:40 Abstract ID: S0944501315000087
+[INFO]15:20:42 Page status: 200
+[INFO]15:20:42 Souping page
+[INFO]15:20:44 Souped page
+[INFO]15:20:44 Writing 'Paenibacillus yonginensis DCY84T induces changes in Arabidopsis thaliana gene expression against aluminum, drought, and salt stress' by 'Johan' to disc
+[INFO]15:20:44 Written 'Paenibacillus yonginensis DCY84T induces changes in Arabidopsis thaliana gene expression against aluminum, drought, and salt stress' to disc
+[INFO]15:20:44 Abstract Number: 287
+[INFO]15:20:44 Abstract ID: S221458181400010X
+[INFO]15:20:46 Page status: 200
+[INFO]15:20:46 Souping page
+[INFO]15:20:47 Souped page
+[INFO]15:20:47 Writing 'ReviewStatus of wetlands in India: A review of extent, ecosystem benefits, threats and management strategies' by 'Nitin' to disc
+[INFO]15:20:47 Written 'ReviewStatus of wetlands in India: A review of extent, ecosystem benefits, threats and management strategies' to disc
+[INFO]15:20:47 Abstract Number: 288
+[INFO]15:20:47 Abstract ID: S2351989415000116
+[INFO]15:20:49 Page status: 200
+[INFO]15:20:49 Souping page
+[INFO]15:20:50 Souped page
+[INFO]15:20:50 Writing 'Original research articleEstimating density of secretive terrestrial birds (Siamese Fireback) in pristine and degraded forest using camera traps and distance sampling' by 'Saranphat' to disc
+[INFO]15:20:50 Written 'Original research articleEstimating density of secretive terrestrial birds (Siamese Fireback) in pristine and degraded forest using camera traps and distance sampling' to disc
+[INFO]15:20:50 Abstract Number: 289
+[INFO]15:20:50 Abstract ID: S2214241X1500173X
+[INFO]15:20:51 Page status: 200
+[INFO]15:20:51 Souping page
+[INFO]15:20:53 Souped page
+[INFO]15:20:53 Writing 'Prioritization of Sub Watershed Based on Morphometric Characteristics Using Fuzzy Analytical Hierarchy Process and Geographical Information System \xe2\x80\x93 A Study of Kallar Watershed, Tamil Nadu\xe2\x98\x86' by 'S. Abdul' to disc
+[INFO]15:20:53 Written 'Prioritization of Sub Watershed Based on Morphometric Characteristics Using Fuzzy Analytical Hierarchy Process and Geographical Information System \xe2\x80\x93 A Study of Kallar Watershed, Tamil Nadu\xe2\x98\x86' to disc
+[INFO]15:20:53 Abstract Number: 290
+[INFO]15:20:53 Abstract ID: S1674987113001138
+[INFO]15:20:54 Page status: 200
+[INFO]15:20:54 Souping page
+[INFO]15:20:55 Souped page
+[INFO]15:20:55 Writing 'Research paperFlood basalt hosted palaeosols: Potential palaeoclimatic indicators of global climate change' by 'M.R.G.' to disc
+[INFO]15:20:55 Written 'Research paperFlood basalt hosted palaeosols: Potential palaeoclimatic indicators of global climate change' to disc
+[INFO]15:20:55 Abstract Number: 291
+[INFO]15:20:55 Abstract ID: S1995764511601272
+[INFO]15:20:59 Page status: 200
+[INFO]15:20:59 Souping page
+[INFO]15:21:0 Souped page
+[INFO]15:21:0 Writing 'Document headingHepatoprotective activity of Terminalia paniculata against paracetamol induced hepatocellular damage in Wistar albino rats' by 'BR' to disc
+[INFO]15:21:0 Written 'Document headingHepatoprotective activity of Terminalia paniculata against paracetamol induced hepatocellular damage in Wistar albino rats' to disc
+[INFO]15:21:0 Abstract Number: 292
+[INFO]15:21:0 Abstract ID: S1995764511600680
+[INFO]15:21:2 Page status: 200
+[INFO]15:21:2 Souping page
+[INFO]15:21:3 Souped page
+[INFO]15:21:3 Writing 'Antibacterial activity of leaves and inter-nodal callus extracts of Mentha arvensis L' by 'M' to disc
+[INFO]15:21:3 Written 'Antibacterial activity of leaves and inter-nodal callus extracts of Mentha arvensis L' to disc
+[INFO]15:21:3 Abstract Number: 293
+[INFO]15:21:3 Abstract ID: S1995764511600151
+[INFO]15:21:5 Page status: 200
+[INFO]15:21:5 Souping page
+[INFO]15:21:6 Souped page
+[INFO]15:21:6 Writing 'Document headingFormulation and evaluation of herbal gel of Pothos scandens Linn' by 'Mohammed Haneefa' to disc
+[INFO]15:21:6 Written 'Document headingFormulation and evaluation of herbal gel of Pothos scandens Linn' to disc
+[INFO]15:21:6 Abstract Number: 294
+[INFO]15:21:6 Abstract ID: S1995764511602459
+[INFO]15:21:8 Page status: 200
+[INFO]15:21:8 Souping page
+[INFO]15:21:9 Souped page
+[INFO]15:21:9 Writing 'Anti\xe2\x80\x93bacterial studies on Hemigraphis colorata (Blume) H.G. Hallier and Elephantopus scaber L.' by 'Vimala Thankappan' to disc
+[INFO]15:21:9 Written 'Anti\xe2\x80\x93bacterial studies on Hemigraphis colorata (Blume) H.G. Hallier and Elephantopus scaber L.' to disc
+[INFO]15:21:9 Abstract Number: 295
+[INFO]15:21:9 Abstract ID: S1877042811013437
+[INFO]15:21:11 Page status: 200
+[INFO]15:21:11 Souping page
+[INFO]15:21:12 Souped page
+[INFO]15:21:12 Writing 'Spatio-Temporal Clustering of Road Accidents: GIS Based Analysis and Assessment' by 'V.' to disc
+[INFO]15:21:12 Written 'Spatio-Temporal Clustering of Road Accidents: GIS Based Analysis and Assessment' to disc
+[INFO]15:21:12 Abstract Number: 296
+[INFO]15:21:12 Abstract ID: S199576451060185X
+[INFO]15:21:14 Page status: 200
+[INFO]15:21:14 Souping page
+[INFO]15:21:15 Souped page
+[INFO]15:21:15 Writing 'Pharmacological activity, phytochemical analysis and toxicity of methanol extract of Etlingera elatior (torch ginger) flowers' by 'Subramanion Jo Thy' to disc
+[INFO]15:21:15 Written 'Pharmacological activity, phytochemical analysis and toxicity of methanol extract of Etlingera elatior (torch ginger) flowers' to disc
+[INFO]15:21:15 Abstract Number: 297
+[INFO]15:21:15 Abstract ID: S1995764511601867
+[INFO]15:21:17 Page status: 200
+[INFO]15:21:17 Souping page
+[INFO]15:21:18 Souped page
+[INFO]15:21:18 Writing 'Document headingPedalium murex Linn.: An overview of its phytopharmacological aspects' by 'Dinesh Kumar' to disc
+[INFO]15:21:18 Written 'Document headingPedalium murex Linn.: An overview of its phytopharmacological aspects' to disc
+[INFO]15:21:18 Abstract Number: 298
+[INFO]15:21:18 Abstract ID: S1995764514603436
+[INFO]15:21:19 Page status: 200
+[INFO]15:21:19 Souping page
+[INFO]15:21:21 Souped page
+[INFO]15:21:21 Writing 'Document headingAnti\xe2\x80\x94chikungunya activity of luteolin and apigenin rich fraction from Cynodon dactylon' by 'Krishnan Saravana' to disc
+[INFO]15:21:21 Written 'Document headingAnti\xe2\x80\x94chikungunya activity of luteolin and apigenin rich fraction from Cynodon dactylon' to disc
+[INFO]15:21:21 Abstract Number: 299
+[INFO]15:21:21 Abstract ID: S187770581401042X
+[INFO]15:21:22 Page status: 200
+[INFO]15:21:22 Souping page
+[INFO]15:21:23 Souped page
+[INFO]15:21:24 Writing 'Remote Sensing Tools for Evaluating Poverty Alleviation Projects: A Case Study in Tanzania\xe2\x98\x86' by 'Robert' to disc
+[INFO]15:21:24 Written 'Remote Sensing Tools for Evaluating Poverty Alleviation Projects: A Case Study in Tanzania\xe2\x98\x86' to disc
+[INFO]15:21:24 Abstract Number: 300
+[INFO]15:21:24 Abstract ID: S0944501316305389
+[INFO]15:21:25 Page status: 200
+[INFO]15:21:25 Souping page
+[INFO]15:21:27 Souped page
+[INFO]15:21:27 Writing 'Bio-protective microbial agents from rhizosphere eco-systems trigger plant defense responses provide protection against sheath blight disease in rice (Oryza sativa L.)' by 'Udai B.' to disc
+[INFO]15:21:27 Written 'Bio-protective microbial agents from rhizosphere eco-systems trigger plant defense responses provide protection against sheath blight disease in rice (Oryza sativa L.)' to disc
+[INFO]15:21:29 Page status: 200
+[INFO]15:21:29 Souping page
+[INFO]15:21:29 Souped page
+[INFO]15:21:29 Scraping IDs
+[INFO]15:21:30 Scraped IDs
+[INFO]15:21:30 Extracting Abstract IDs from disc
+[INFO]15:21:30 Extracted Abstract IDs from disc
+[INFO]15:21:30 Abstract Number: 301
+[INFO]15:21:30 Abstract ID: S1674987112001326
+[INFO]15:21:31 Page status: 200
+[INFO]15:21:31 Souping page
+[INFO]15:21:33 Souped page
+[INFO]15:21:33 Writing 'Research paperA review of the \xe2\x88\xbc1600\xc2\xa0Ma sedimentation, volcanism, and tectono-thermal events in the Singhbhum craton, Eastern India' by 'Priyanka' to disc
+[INFO]15:21:33 Written 'Research paperA review of the \xe2\x88\xbc1600\xc2\xa0Ma sedimentation, volcanism, and tectono-thermal events in the Singhbhum craton, Eastern India' to disc
+[INFO]15:21:33 Abstract Number: 302
+[INFO]15:21:33 Abstract ID: S1687428512000477
+[INFO]15:21:35 Page status: 200
+[INFO]15:21:35 Souping page
+[INFO]15:21:36 Souped page
+[INFO]15:21:36 Writing 'Full Length ArticleStudy on the influence of hydro-chemical parameters on phytoplankton distribution along Tapi estuarine area of Gulf of Khambhat, India' by 'Basil' to disc
+[INFO]15:21:36 Written 'Full Length ArticleStudy on the influence of hydro-chemical parameters on phytoplankton distribution along Tapi estuarine area of Gulf of Khambhat, India' to disc
+[INFO]15:21:36 Abstract Number: 303
+[INFO]15:21:36 Abstract ID: S2352618115000438
+[INFO]15:21:37 Page status: 200
+[INFO]15:21:37 Souping page
+[INFO]15:21:38 Souped page
+[INFO]15:21:38 Writing 'Original articleTraditional and ayurvedic foods of Indian origin' by 'Preetam' to disc
+[INFO]15:21:38 Written 'Original articleTraditional and ayurvedic foods of Indian origin' to disc
+[INFO]15:21:39 Abstract Number: 304
+[INFO]15:21:39 Abstract ID: S1995764511600898
+[INFO]15:21:40 Page status: 200
+[INFO]15:21:40 Souping page
+[INFO]15:21:41 Souped page
+[INFO]15:21:41 Writing 'Document headingAnti\xe2\x80\x94enteric bacterial activity and phytochemical analysis of the seed kernel extract of Mangifera indica Linnaeus against Shigella dysenteriae (Shiga, corrig.) Castellani and Chalmers' by 'S' to disc
+[INFO]15:21:41 Written 'Document headingAnti\xe2\x80\x94enteric bacterial activity and phytochemical analysis of the seed kernel extract of Mangifera indica Linnaeus against Shigella dysenteriae (Shiga, corrig.) Castellani and Chalmers' to disc
+[INFO]15:21:41 Abstract Number: 305
+[INFO]15:21:41 Abstract ID: S1439609204000480
+[INFO]15:21:43 Page status: 200
+[INFO]15:21:43 Souping page
+[INFO]15:21:44 Souped page
+[INFO]15:21:44 Writing 'Phylogenetic relationships of African microhylid frogs inferred from DNA sequences of mitochondrial 12S and 16S rRNA genes' by 'Simon P.' to disc
+[INFO]15:21:44 Written 'Phylogenetic relationships of African microhylid frogs inferred from DNA sequences of mitochondrial 12S and 16S rRNA genes' to disc
+[INFO]15:21:44 Abstract Number: 306
+[INFO]15:21:44 Abstract ID: S1439609206000250
+[INFO]15:21:46 Page status: 200
+[INFO]15:21:46 Souping page
+[INFO]15:21:47 Souped page
+[INFO]15:21:47 Writing 'Phylogeny, biogeography and a new taxonomy for the Gecarcinucoidea Rathbun, 1904 (Decapoda: Brachyura)' by 'Sebastian' to disc
+[INFO]15:21:47 Written 'Phylogeny, biogeography and a new taxonomy for the Gecarcinucoidea Rathbun, 1904 (Decapoda: Brachyura)' to disc
+[INFO]15:21:47 Abstract Number: 307
+[INFO]15:21:47 Abstract ID: S1674205214606328
+[INFO]15:21:49 Page status: 200
+[INFO]15:21:49 Souping page
+[INFO]15:21:50 Souped page
+[INFO]15:21:50 Writing 'Research ArticleDivergent DNA Methylation Patterns Associated with Abiotic Stress in Hevea brasiliensis' by 'Thomas K.' to disc
+[INFO]15:21:50 Written 'Research ArticleDivergent DNA Methylation Patterns Associated with Abiotic Stress in Hevea brasiliensis' to disc
+[INFO]15:21:50 Abstract Number: 308
+[INFO]15:21:50 Abstract ID: S094450130470107X
+[INFO]15:21:52 Page status: 200
+[INFO]15:21:52 Souping page
+[INFO]15:21:53 Souped page
+[INFO]15:21:53 Writing 'Screening of antagonistic bacteria for biological control of nursery wilt of black pepper (Piper nigrum)' by 'K.N.' to disc
+[INFO]15:21:53 Written 'Screening of antagonistic bacteria for biological control of nursery wilt of black pepper (Piper nigrum)' to disc
+[INFO]15:21:54 Abstract Number: 309
+[INFO]15:21:54 Abstract ID: S0970389613000499
+[INFO]15:21:55 Page status: 200
+[INFO]15:21:55 Souping page
+[INFO]15:21:56 Souped page
+[INFO]15:21:56 Writing 'InterviewBusiness model for Indian retail sector: The Caf\xc3\xa9 Coffee Day case: In conversation with V.G. Siddhartha, Chairman, Coffee Day' by 'Ashis' to disc
+[INFO]15:21:56 Written 'InterviewBusiness model for Indian retail sector: The Caf\xc3\xa9 Coffee Day case: In conversation with V.G. Siddhartha, Chairman, Coffee Day' to disc
+[INFO]15:21:56 Abstract Number: 310
+[INFO]15:21:56 Abstract ID: S0944501313000177
+[INFO]15:21:58 Page status: 200
+[INFO]15:21:58 Souping page
+[INFO]15:21:59 Souped page
+[INFO]15:21:59 Writing 'RETRACTED: Marine actinobacterial metabolites: Current status and future perspectives' by 'Panchanathan' to disc
+[INFO]15:21:59 Written 'RETRACTED: Marine actinobacterial metabolites: Current status and future perspectives' to disc
+[INFO]15:21:59 Abstract Number: 311
+[INFO]15:21:59 Abstract ID: S168742851200043X
+[INFO]15:22:1 Page status: 200
+[INFO]15:22:1 Souping page
+[INFO]15:22:2 Souped page
+[INFO]15:22:2 Writing 'FULL LENGTH ARTICLEFish diversity and habitat relationship with environmental variables at Meghna river estuary, Bangladesh\xe2\x98\x86' by 'M. Shahadat' to disc
+[INFO]15:22:2 Written 'FULL LENGTH ARTICLEFish diversity and habitat relationship with environmental variables at Meghna river estuary, Bangladesh\xe2\x98\x86' to disc
+[INFO]15:22:2 Abstract Number: 312
+[INFO]15:22:2 Abstract ID: S1674987117301329
+[INFO]15:22:4 Page status: 200
+[INFO]15:22:4 Souping page
+[INFO]15:22:6 Souped page
+[INFO]15:22:6 Writing 'Research PaperDominant Lid Tectonics behaviour of continental lithosphere in\xc2\xa0Precambrian times: Palaeomagnetism confirms prolonged quasi-integrity and absence of supercontinent cycles' by 'J.D.A.' to disc
+[INFO]15:22:6 Written 'Research PaperDominant Lid Tectonics behaviour of continental lithosphere in\xc2\xa0Precambrian times: Palaeomagnetism confirms prolonged quasi-integrity and absence of supercontinent cycles' to disc
+[INFO]15:22:6 Abstract Number: 313
+[INFO]15:22:6 Abstract ID: S2287884X17300973
+[INFO]15:22:7 Page status: 200
+[INFO]15:22:7 Souping page
+[INFO]15:22:9 Souped page
+[INFO]15:22:9 Writing 'Original ArticleTaxonomic review of subfamily Pteromalinae (Hymenoptera, Chalcidoidea) with 25 newly recorded species in South Korea' by 'Guk-Hyang' to disc
+[INFO]15:22:9 Written 'Original ArticleTaxonomic review of subfamily Pteromalinae (Hymenoptera, Chalcidoidea) with 25 newly recorded species in South Korea' to disc
+[INFO]15:22:9 Abstract Number: 314
+[INFO]15:22:9 Abstract ID: S0254629913002433
+[INFO]15:22:10 Page status: 200
+[INFO]15:22:10 Souping page
+[INFO]15:22:12 Souped page
+[INFO]15:22:12 Writing 'ReviewSouthern African medicinal plants used to treat skin diseases' by 'U.' to disc
+[INFO]15:22:12 Written 'ReviewSouthern African medicinal plants used to treat skin diseases' to disc
+[INFO]15:22:12 Abstract Number: 315
+[INFO]15:22:12 Abstract ID: S0042698997001259
+[INFO]15:22:14 Page status: 200
+[INFO]15:22:14 Souping page
+[INFO]15:22:15 Souped page
+[INFO]15:22:15 Writing 'Adaptation and the color statistics of natural images' by 'Michael A.' to disc
+[INFO]15:22:15 Written 'Adaptation and the color statistics of natural images' to disc
