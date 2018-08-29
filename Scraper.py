@@ -8,11 +8,7 @@ pertaining to the natural history and ecology of specific geographical regions.
 More info will be added here. Soon.
 
 Sarthak J. Shetty
-04/08/2018
-
-UPDATE 2.0: IT WORKS! MUHAHAHAHAHHAHAHAHAHA...
-UPDATE 3.0: NOPE IT DOESN'T :'(
-UPDATE 4.0: We have achieved liftoff B)'''
+04/08/2018'''
 
 '''Adding the libraries to be used here.'''
 
@@ -55,19 +51,19 @@ def pre_processing(keywords):
 	run_start_hour = str(datetime.now().time().hour)
 	run_start_minute = str(datetime.now().time().minute)
 	run_start_second = str(datetime.now().time().second)
-	
-	'''Declaring the LOG folder and the abstract, abstract_id & status_logger files.'''
-	folder_attachment=""
-	if (len(keywords)==1):
-		folder_attachment = keywords[0]
+	'''Keywords have to be written into the filename of the LOG that we are running'''
+	folder_attachement=""
+	if(len(keywords)==1):
+		folder_attachement = keywords[0]
 	else:
 		for keyword_index in range(0, len(keywords)):
 			if((keyword_index+1)==len(keywords)):
-				folder_attachment = folder_attachment + keywords[keyword_index]
+				folder_attachement = folder_attachement+keywords[keyword_index]
 			else:
-				folder_attachment = folder_attachment + keywords[keyword_index]+'_'
-	logs_folder_name = "LOGS"+"/"+"LOG"+"_"+run_start_date+'_'+run_start_hour+'_'+run_start_minute+'_'+folder_attachment
-	abstract_id_log_name =logs_folder_name+"/"+'Abstract_ID_Database'+'_'+run_start_date+'_'+run_start_hour+'_'+run_start_minute+"Page"+"_"+"Number:""_"
+				folder_attachement = folder_attachement+keywords[keyword_index]+"_"
+	'''Declaring the LOG folder and the abstract, abstract_id & status_logger files.'''
+	logs_folder_name = "LOGS"+"/"+"LOG"+"_"+run_start_date+'_'+run_start_hour+'_'+run_start_minute+"_"+folder_attachement
+	abstract_id_log_name =logs_folder_name+"/"+'Abstract_ID_Database'+'_'+run_start_date+'_'+run_start_hour+'_'+run_start_minute+"_"
 	abstracts_log_name = logs_folder_name+"/"+'Abstract_Database'+'_'+run_start_date+'_'+run_start_hour+'_'+run_start_minute
 	status_logger_name = logs_folder_name+"/"+'Status_Logger'+'_'+run_start_date+'_'+run_start_hour+'_'+run_start_minute
 
@@ -154,7 +150,7 @@ def url_generator(start_url, status_logger_name):
 
 def abstract_id_database_writer(abstract_id_log_name, abstract_input_tag_id, site_url_index):
 	'''This function writes the abtract ids to a .txt file for easy access and documentation.'''
-	abstract_id_log = open(abstract_id_log_name+str(site_url_index+1)+'.txt', 'a')
+	abstract_id_log = open((abstract_id_log_name+str(site_url_index+1)+'.txt'), 'a')
 	abstract_id_log.write(abstract_input_tag_id)
 	abstract_id_log.write('\n')
 	abstract_id_log.close()
@@ -258,6 +254,7 @@ def title_scraper(abstract_soup):
 def abstract_id_scraper(abstract_id_log_name, page_soup, site_url_index):
 	'''This function helps in obtaining the PII number of the abstract.
 	This number is then coupled with the dynamic url and provides'''
+
 	abstract_id_scraper_start_status_key="Scraping IDs"
 	status_logger(status_logger_name, abstract_id_scraper_start_status_key)
 	''''This statement collects all the input tags that have the abstract ids in them'''
@@ -270,9 +267,8 @@ def abstract_id_scraper(abstract_id_log_name, page_soup, site_url_index):
 	status_logger(status_logger_name, abstract_id_scraper_stop_status_key)
 
 def end_process(status_logger_name):
-	'''This function marks the end of a successful '''
-	end_process_status_key = "Program has successfully completed"
-	status_logger(status_logger_name, end_process_status_key)
+	end_process_status_key="Process has successfully ended"
+	status_logger(end_process_status_key, status_logger_name)
 
 def processor(abstract_url, urls_to_scrape, abstract_id_log_name, abstracts_log_name, status_logger_name, keywords_to_search):
 	for site_url_index in range(0, len(urls_to_scrape)):
@@ -284,8 +280,6 @@ def processor(abstract_url, urls_to_scrape, abstract_id_log_name, abstracts_log_
 		abstract_id_scraper(abstract_id_log_name, page_soup, site_url_index)
 		'''Actually obtaining the abstracts after combining ID with the abstract_url'''
 		abstract_crawler(abstract_url, abstract_id_log_name, abstracts_log_name, site_url_index)
-	''''End process function being called here'''
-	end_process(status_logger_name)
 
 '''This function collects keywords'''
 keywords_to_search = arguments_parser()
@@ -293,3 +287,5 @@ keywords_to_search = arguments_parser()
 abstract_url, urls_to_scrape, abstract_id_log_name, abstracts_log_name, status_logger_name = pre_processing(keywords_to_search)
 '''Calling the processor() function here'''
 processor(abstract_url, urls_to_scrape, abstract_id_log_name, abstracts_log_name, status_logger_name, keywords_to_search)
+'''End process function'''
+end_process(status_logger_name)
