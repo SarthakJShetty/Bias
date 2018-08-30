@@ -52,7 +52,7 @@ def pre_processing(keywords):
 	run_start_minute = str(datetime.now().time().minute)
 	run_start_second = str(datetime.now().time().second)
 	'''Keywords have to be written into the filename of the LOG that we are running'''
-	folder_attachement=""
+	folder_attachement = ""
 	if(len(keywords)==1):
 		folder_attachement = keywords[0]
 	else:
@@ -258,9 +258,9 @@ def abstract_id_scraper(abstract_id_log_name, page_soup, site_url_index):
 	abstract_id_scraper_start_status_key="Scraping IDs"
 	status_logger(status_logger_name, abstract_id_scraper_start_status_key)
 	''''This statement collects all the input tags that have the abstract ids in them'''
-	abstract_input_tags = page_soup.findAll('input', {'class':'checkbox-input select-result show-from-md checkbox-small'})
+	abstract_input_tags = page_soup.findAll('a', {'class':'download-link'})
 	for abstract_input_tag in abstract_input_tags:
-		abstract_input_tag_id=abstract_input_tag.get('id')
+		abstract_input_tag_id=abstract_input_tag.get('aria-describedby')
 		abstract_id_database_writer(abstract_id_log_name, abstract_input_tag_id, site_url_index)
 
 	abstract_id_scraper_stop_status_key="Scraped IDs"
