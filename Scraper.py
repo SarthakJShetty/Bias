@@ -268,7 +268,7 @@ def abstract_id_scraper(abstract_id_log_name, page_soup, site_url_index):
 
 def end_process(status_logger_name):
 	end_process_status_key="Process has successfully ended"
-	status_logger(end_process_status_key, status_logger_name)
+	status_logger(status_logger_name, end_process_status_key)
 
 def processor(abstract_url, urls_to_scrape, abstract_id_log_name, abstracts_log_name, status_logger_name, keywords_to_search):
 	for site_url_index in range(0, len(urls_to_scrape)):
