@@ -1,4 +1,4 @@
-# Analyzing biases in publications pertaining to the Western Ghats
+# Analyzing biases in academinc publications
 
 :warning: <strong>Code is buggy</strong>:warning:
 
@@ -25,6 +25,7 @@
 - Check out the <a title="LOGS" href="https://github.com/SarthakJShetty/Bias/tree/master/LOGS">LOGS</a> for the results of ```Scraper.py```
 
 ### Instructions:
+
 - Clone this repository:
 	```git clone https://github.com/SarthakJShetty/Bias.git```
 
@@ -32,9 +33,9 @@
 	```python Scraper.py --keywords="Western Ghats"```
 
 - A LOG folder is created in the folder that contains the code. Within this folder, another directory, specific to the current run of the Scraper will be written, containing:
-	1. ```status_logger.txt``` file will be generated, which logs all the process executed by the Scraper.
-	2. ```Abstract_ID_Database.txt``` containing all the Abstract_IDs of the page being souped.
-	3. ```Abstract_Database.txt``` containing all the abstracts, relevant to the ```--keywords``` entered by the user.
+	- ```status_logger.txt``` file will be generated, which logs all the process executed by the Scraper.
+	- ```Abstract_ID_Database.txt``` containing all the Abstract_IDs of the page being souped.
+	- ```Abstract_Database.txt``` containing all the abstracts, relevant to the ```--keywords``` entered by the user.
 
 
 ### Scraper:
