@@ -1,7 +1,6 @@
-# Analyzing biases in academinc publications
+# Analyzing biases in academic publications
 
 :warning: <strong>Code is buggy</strong>:warning:
-
 
 ## Introduction:
 
@@ -54,3 +53,4 @@
 
 ### Note:
 - This repository is still under active development. The <a title="README" href="https://github.com/SarthakJShetty/Bias">README.md</a> is yet to be updated in detail.
+- A detailed build-log can be found <a href="https://github.com/SarthakJShetty/Bias/blob/master/build-log.md" title="README" target="_blank">here</a>.
