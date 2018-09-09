@@ -1,4 +1,5 @@
 
+
 # Analyzing biases in academic publications
 
 :warning: <strong>Code is buggy</strong>:warning:
@@ -26,35 +27,40 @@
 
 ## Virtual environment setup:
 <strong>Note:</strong> The script runs on a ```virtualenv``` environment
+1.  Clone this repository:
 
-1. Install ```virtualenv``` using ```pip```:
+		E:\>git clone https://github.com/SarthakJShetty/Bias.git
 
-		pip install virtualenv
+2. Change directory to the 'Bias' directory:
 
-2. Create a ```virtualenv``` environment called "Bias" in the directory of your project:
+		E:\>cd Bias		
+		
+3. Install ```virtualenv``` using ```pip```:
 
-		virtualenv Bias
+		E:\Bias>pip install virtualenv
+
+4. Create a ```virtualenv``` environment called "Bias" in the directory of your project:
+
+		E:\Bias>virtualenv Bias
 	
 	<strong>Note:</strong> This step usually takes about 30 seconds to a minute.
 	
-3. Activate the "Bias" environment using ```virtualenv```:
+5. Activate the "Bias" environment using ```virtualenv```:
 
-		.\Bias\Scripts\activate
+		E:\Bias>.\Bias\Scripts\activate
 
 	You are now inside the ```Bias``` environment.
+
 ## Instructions:
 
-- Clone this repository:
-
-		git clone https://github.com/SarthakJShetty/Bias.git
 
 - Install the required packages using the <a title="Package Requirements" target="_blank" href="https://github.com/SarthakJShetty/Bias/blob/master/requirements.txt">```requirements.txt```</a> file available in the cloned repository.
 		
-		(Bias) E:\user\Bias> pip install -r requirements.txt
+		(Bias) E:\Bias>pip install -r requirements.txt
 
 - Run the code from the repository directory:
 
-		(Bias) E:\user\Bias> python Scraper.py --keywords="Western Ghats"
+		(Bias) E:\Bias>python Scraper.py --keywords="Western Ghats"
 
 - A LOG folder is created in the folder that contains the code. Within this folder, another directory, specific to the current run of the Scraper will be written, containing:
 	- ```status_logger.txt``` file will be generated, which logs all the process executed by the Scraper.
