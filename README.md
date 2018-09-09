@@ -1,3 +1,4 @@
+
 # Analyzing biases in academic publications
 
 :warning: <strong>Code is buggy</strong>:warning:
@@ -23,17 +24,43 @@
 - Scraper is ready as of now (somewhat). The text-analyzer is still under development and work on the data-visualizer is yet to begin. Stay tuned for more developments.
 - Check out the <a title="LOGS" href="https://github.com/SarthakJShetty/Bias/tree/master/LOGS">LOGS</a> for the results of ```Scraper.py```
 
-### Instructions:
+## Virtual environment setup:
+<strong>Note:</strong> The script runs on a ```virtualenv``` environment
+
+1. Install ```virtualenv``` using ```pip```:
+
+		pip install virtualenv
+
+2. Create a ```virtualenv``` environment called "Bias" in the directory of your project:
+
+		virtualenv Bias
+	
+	<strong>Note:</strong> This step usually takes about 30 seconds to a minute.
+	
+3. Activate the "Bias" environment using ```virtualenv```:
+
+		.\Bias\Scripts\activate
+
+	You are now inside the ```Bias``` environment.
+## Instructions:
 
 - Clone this repository:
-	```git clone https://github.com/SarthakJShetty/Bias.git```
 
-- Run the code:
-	```python Scraper.py --keywords="Western Ghats"```
+		git clone https://github.com/SarthakJShetty/Bias.git
+
+- Install the required packages using the <a title="Package Requirements" target="_blank" href="https://github.com/SarthakJShetty/Bias/blob/master/requirements.txt">```requirements.txt```</a> file available in the cloned repository.
+		
+		(Bias) E:\user\Bias> pip install -r requirements.txt
+
+- Run the code from the repository directory:
+
+		(Bias) E:\user\Bias> python Scraper.py --keywords="Western Ghats"
 
 - A LOG folder is created in the folder that contains the code. Within this folder, another directory, specific to the current run of the Scraper will be written, containing:
 	- ```status_logger.txt``` file will be generated, which logs all the process executed by the Scraper.
+
 	- ```Abstract_ID_Database.txt``` containing all the Abstract_IDs of the page being souped.
+
 	- ```Abstract_Database.txt``` containing all the abstracts, relevant to the ```--keywords``` entered by the user.
 
 
@@ -51,6 +78,6 @@
 ## Known Issues:
 - The Scraper can only scrape abstracts from ScienceDirect at the moment, since ScienceDirect does not allow users to view publications in native ```.pdf``` format, but instead loads a ```.html``` document with the contents embedded in it.
 
-### Note:
+#### Note:
 - This repository is still under active development. The <a title="README" href="https://github.com/SarthakJShetty/Bias">README.md</a> is yet to be updated in detail.
 - A detailed build-log can be found <a href="https://github.com/SarthakJShetty/Bias/blob/master/build-log.md" title="README" target="_blank">here</a>.
