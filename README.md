@@ -1,5 +1,3 @@
-
-
 # Analyzing biases in academic publications
 
 :warning: <strong>Code is buggy</strong>:warning:
@@ -71,7 +69,7 @@
 
 
 ### Scraper:
-- The <a title="Scraper.py" href="https://github.com/SarthakJShetty/Bias/blob/master/Scraper.py">```Scraper.py```</a> currently scrapes only the abstracts from <a title="ScienceDirect" href="www.ScienceDirect.com">ScienceDirect</a>.
+- The <a title="Scraper.py" href="https://github.com/SarthakJShetty/Bias/blob/master/Scraper.py">```Scraper.py```</a> currently scrapes only the abstracts from <a title="ScienceDirect" href="https://www.ScienceDirect.com">ScienceDirect</a>.
 
 - A default URL is provided in the code. Once the keywords are provided, the URLs are queried and the resultant webpage is souped and ```abstract_id``` is scraped.
 
