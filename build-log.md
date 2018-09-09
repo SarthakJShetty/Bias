@@ -13,3 +13,9 @@ script was run.
 - Improved the documentation, added a Abstract counter.
 - Code had to be modified after ScienceDirect redesign.
 - Multiple abstract ID files are now generated.
+
+### Date: 09/09/2018
+- Will be part of a ```virtualenv``` environment from now on.
+- Should be easier to download ```pip``` packages.
+- Wrote a <a title="Packages required" href="https://github.com/SarthakJShetty/Bias/master/requirements.txt">```requirements.txt```</a> file.
+- Testing on Ubuntu and Windows machines now.
