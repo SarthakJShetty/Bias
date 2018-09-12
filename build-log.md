@@ -26,6 +26,6 @@ script was run.
 - New <a title="LOGs" href="https://github.com/SarthakJShetty/Bias/master/LOGS">LOGS</a> have been added.
 
 ### Date: 12/09/2018
-- Fragmenting the code into bits. Wrote a new <a title="pre_processing.py" href="https://github/SarthakJShetty/Bias/master/pre_processing.py" target="_blank">```pre_processing.py```</a>.
-- <a title="pre_processing.py" href="https://github/SarthakJShetty/Bias/master/pre_processing.py" target="_blank">```pre_processing.py```</a> contains functions that will be borrowed by the Scraper, Analyzer & Visualizer.
-- Code works by sharing functions, cross scripts.
+- Fragmenting the code into bits. Wrote a new <a title="Bias.py" href="https://github/SarthakJShetty/Bias/master/Bias.py" target="_blank">```Bias.py```</a>, script which will consilidate the different pieces of code that are a part of this project.
+- <a title="pre_processing.py" href="https://github/SarthakJShetty/Bias/master/common_functions.py" target="_blank">```common_functions.py```</a> contains functions that will be borrowed by the Scraper, Analyzer & Visualizer.
+- Code works by sharing functions, across different scripts. <a title="Scraper.py" href="https://github/SarthakJShetty/Bias/master/Scraper.py">```Scraper.py```</a> has specialized functions post fragmentation.
