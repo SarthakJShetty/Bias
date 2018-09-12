@@ -19,3 +19,13 @@ script was run.
 - Should be easier to download ```pip``` packages.
 - Wrote a <a title="Packages required" href="https://github.com/SarthakJShetty/Bias/master/requirements.txt">```requirements.txt```</a> file.
 - Testing on Ubuntu and Windows machines now.
+
+### Date: 10/09/2018
+- Writing a shell script to get necessary packages (although this seems unnecessary).
+- Will try to get the ```Analyzer.py``` up and running by tomorrow.
+- New <a title="LOGs" href="https://github.com/SarthakJShetty/Bias/master/LOGS">LOGS</a> have been added.
+
+### Date: 12/09/2018
+- Fragmenting the code into bits. Wrote a new <a title="pre_processing.py" href="https://github/SarthakJShetty/Bias/master/pre_processing.py" target="_blank">```pre_processing.py```</a>.
+- <a title="pre_processing.py" href="https://github/SarthakJShetty/Bias/master/pre_processing.py" target="_blank">```pre_processing.py```</a> contains functions that will be borrowed by the Scraper, Analyzer & Visualizer.
+- Code works by sharing functions, cross scripts.
