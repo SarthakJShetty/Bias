@@ -58,7 +58,7 @@
 
 - Run the code from the repository directory:
 
-		(Bias) E:\Bias>python Scraper.py --keywords="Western Ghats"
+		(Bias) E:\Bias>python Bias.py --keywords="Western Ghats"
 
 - A LOG folder is created in the folder that contains the code. Within this folder, another directory, specific to the current run of the Scraper will be written, containing:
 	- ```status_logger.txt``` file will be generated, which logs all the process executed by the Scraper.
