@@ -5,6 +5,8 @@ Here's to never stop learning.
 The aim of the project is to measure (quantitatively) the disparity in the the publications
 pertaining to the natural history and ecology of specific geographical regions.
 
+This project is a collaboration between Vijay Ramesh, Department of Ecology, Evolution & Environmental Biology, Columbia University.
+
 More info will be added here. Soon.
 
 Sarthak J. Shetty
@@ -109,14 +111,14 @@ def status_logger(status_logger_name, status_key):
 	status_log.write(complete_status_key+"\n")
 	status_log.close()
 
-def url_reader(url):
+def url_reader(url, status_logger_name):
 	'''This keyword is supplied to the URL and is hence used for souping.''' 
 	'''Encountered an error where some links would not open due to HTTP.error
 	This is added here to try and ping the page. If it returns false the loop ignores it and
 	moves on to the next PII number'''
 	try:
 		page=urlopen(url)
-		page_status(page)
+		page_status(page, status_logger_name)
 		return page
 	except (UnboundLocalError, urllib.error.HTTPError):
 		pass
@@ -155,7 +157,7 @@ def abstract_id_database_writer(abstract_id_log_name, abstract_input_tag_id, sit
 	abstract_id_log.write('\n')
 	abstract_id_log.close()
 
-def abstract_database_writer(abstract_page_url, title, author, abstract, abstracts_log_name):
+def abstract_database_writer(abstract_page_url, title, author, abstract, abstracts_log_name, status_logger_name):
 	'''This function makes text files'''
 	abstract_database_writer_start_status_key = "Writing"+" "+title+" "+"by"+" "+author+" "+"to disc"
 	status_logger(status_logger_name, abstract_database_writer_start_status_key)
@@ -172,7 +174,7 @@ def abstract_database_writer(abstract_page_url, title, author, abstract, abstrac
 	abstract_database_writer_stop_status_key = "Written"+" "+title+" "+"to disc"
 	status_logger(status_logger_name, abstract_database_writer_stop_status_key)
 
-def abstract_id_database_reader(abstract_id_log_name, site_url_index):
+def abstract_id_database_reader(abstract_id_log_name, site_url_index, status_logger_name):
 	'''This function has been explicitly written to access
 	the abstracts database that the given prgram generates.'''
 	abstract_id_database_reader_start_status_key = "Extracting Abstract IDs from disc"
@@ -185,12 +187,12 @@ def abstract_id_database_reader(abstract_id_log_name, site_url_index):
 
 	return lines_in_abstract_id_database
 
-def page_status(page):
+def page_status(page, status_logger_name):
 	'''Prints the page status. Will be used whenever a new webpage is picked for scraping.'''
 	page_status_key = "Page status:"+" "+str(page.status)
 	status_logger(status_logger_name, page_status_key)
 
-def page_souper(page):
+def page_souper(page, status_logger_name):
 	'''Function soups the webpage elements and provided the tags for search.
 	Note: Appropriate encoding has to be picked up before souping'''
 	page_souper_start_status_key = "Souping page"
@@ -200,14 +202,14 @@ def page_souper(page):
 	status_logger(status_logger_name, page_souper_stop_status_key)
 	return page_soup
 
-def abstract_page_scraper(abstract_url, abstract_input_tag_id, abstracts_log_name):
+def abstract_page_scraper(abstract_url, abstract_input_tag_id, abstracts_log_name, status_logger_name):
 	'''This function is written to scrape the actual abstract of the specific paper,
 	 that is being referenced within the list of abstracts'''
 	abstract_page_scraper_status_key="Abstract ID:"+" "+abstract_input_tag_id
 	status_logger(status_logger_name, abstract_page_scraper_status_key)
 	abstract_page_url = abstract_url+abstract_input_tag_id
-	abstract_page = url_reader(abstract_page_url)
-	abstract_soup = page_souper(abstract_page)
+	abstract_page = url_reader(abstract_page_url, status_logger_name)
+	abstract_soup = page_souper(abstract_page, status_logger_name)
 	title = title_scraper(abstract_soup)
 	
 	'''Due to repeated attribute errors, these failsafes had to be put in place'''
@@ -220,17 +222,17 @@ def abstract_page_scraper(abstract_url, abstract_input_tag_id, abstracts_log_nam
 	except AttributeError:
 		abstract = "Abstract not available"
 	
-	abstract_database_writer(abstract_page_url, title, author, abstract, abstracts_log_name)
+	abstract_database_writer(abstract_page_url, title, author, abstract, abstracts_log_name, status_logger_name)
 	#print(abstract_soup_text)
 
-def abstract_crawler(abstract_url, abstract_id_log_name, abstracts_log_name, site_url_index):
+def abstract_crawler(abstract_url, abstract_id_log_name, abstracts_log_name, site_url_index, status_logger_name):
 	'''This function crawls the page and access each and every abstract'''
-	abstract_input_tag_ids = abstract_id_database_reader(abstract_id_log_name, site_url_index)
+	abstract_input_tag_ids = abstract_id_database_reader(abstract_id_log_name, site_url_index, status_logger_name)
 	for abstract_input_tag_id in abstract_input_tag_ids:
 		try:
 			abstract_crawler_accept_status_key="Abstract Number:"+" "+str((abstract_input_tag_ids.index(abstract_input_tag_id)+1)+site_url_index*100)
 			status_logger(status_logger_name, abstract_crawler_accept_status_key)
-			abstract_page_scraper(abstract_url, abstract_input_tag_id, abstracts_log_name)
+			abstract_page_scraper(abstract_url, abstract_input_tag_id, abstracts_log_name, status_logger_name)
 		except TypeError:
 			abstract_crawler_reject_status_key="Abstract Number:"+" "+str(abstract_input_tag_ids.index(abstract_input_tag_id)+1)+" "+"could not be processed"
 			status_logger(status_logger_name, abstract_crawler_reject_status_key)
@@ -251,7 +253,11 @@ def title_scraper(abstract_soup):
 	title = str(abstract_soup.find('h1',{'class':'Head'}).text.encode('utf-8'))[1:]
 	return title
 
-def abstract_id_scraper(abstract_id_log_name, page_soup, site_url_index):
+def end_process(status_logger_name):
+	end_process_status_key="Process has successfully ended"
+	status_logger(status_logger_name, end_process_status_key)
+
+def abstract_id_scraper(abstract_id_log_name, page_soup, site_url_index, status_logger_name):
 	'''This function helps in obtaining the PII number of the abstract.
 	This number is then coupled with the dynamic url and provides'''
 
@@ -266,26 +272,28 @@ def abstract_id_scraper(abstract_id_log_name, page_soup, site_url_index):
 	abstract_id_scraper_stop_status_key="Scraped IDs"
 	status_logger(status_logger_name, abstract_id_scraper_stop_status_key)
 
-def end_process(status_logger_name):
-	end_process_status_key="Process has successfully ended"
-	status_logger(status_logger_name, end_process_status_key)
-
 def processor(abstract_url, urls_to_scrape, abstract_id_log_name, abstracts_log_name, status_logger_name, keywords_to_search):
+	''''Multiple page-cycling function to scrape multiple result pages'''
 	for site_url_index in range(0, len(urls_to_scrape)):
 		'''Collects the web-page from the url for souping'''
-		page_to_soup = url_reader(urls_to_scrape[site_url_index])
+		page_to_soup = url_reader(urls_to_scrape[site_url_index], status_logger_name)
 		'''Souping the page for collection of data and tags'''
-		page_soup = page_souper(page_to_soup)
+		page_soup = page_souper(page_to_soup, status_logger_name)
 		'''Scrapping the page to extract all the abstract IDs'''
-		abstract_id_scraper(abstract_id_log_name, page_soup, site_url_index)
+		abstract_id_scraper(abstract_id_log_name, page_soup, site_url_index, status_logger_name)
 		'''Actually obtaining the abstracts after combining ID with the abstract_url'''
-		abstract_crawler(abstract_url, abstract_id_log_name, abstracts_log_name, site_url_index)
+		abstract_crawler(abstract_url, abstract_id_log_name, abstracts_log_name, site_url_index, status_logger_name)
 
-'''This function collects keywords'''
-keywords_to_search = arguments_parser()
-'''Keyword is passed on to pre_processing() declares the url of the site and the abstract collection url'''
-abstract_url, urls_to_scrape, abstract_id_log_name, abstracts_log_name, status_logger_name = pre_processing(keywords_to_search)
-'''Calling the processor() function here'''
-processor(abstract_url, urls_to_scrape, abstract_id_log_name, abstracts_log_name, status_logger_name, keywords_to_search)
-'''End process function'''
-end_process(status_logger_name)
+def scraper_main():
+	''''This function contains all the functions and contains this entire script here, so that it can be imported later to the main function'''
+
+	'''This function collects keywords'''
+	keywords_to_search = arguments_parser()
+	'''Keyword is passed on to pre_processing() declares the url of the site and the abstract collection url'''
+	abstract_url, urls_to_scrape, abstract_id_log_name, abstracts_log_name, status_logger_name = pre_processing(keywords_to_search)
+	'''Calling the processor() function here'''
+	processor(abstract_url, urls_to_scrape, abstract_id_log_name, abstracts_log_name, status_logger_name, keywords_to_search)
+	'''End process function'''
+	end_process(status_logger_name)
+
+scraper_main()
