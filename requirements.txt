@@ -2,5 +2,10 @@ beautifulsoup4==4.5.3
 certifi==2018.8.24
 chardet==3.0.4
 idna==2.6
+numpy==1.15.1
+pandas==0.18.0
+python-dateutil==2.7.3
+pytz==2018.5
 requests==2.18.4
+six==1.11.0
 urllib3==1.22
