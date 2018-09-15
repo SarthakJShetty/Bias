@@ -23,8 +23,8 @@ abstract_id_log_name, abstracts_log_name, start_url, abstract_url, status_logger
 '''Runs the scraper here to scrape the details from the scientific repository'''
 scraper_main(abstract_id_log_name, abstracts_log_name, start_url, abstract_url, status_logger_name, keywords_to_search)
 
-'''Calling the Analyzer Function here
-analyzer_main(abstracts_log_name, status_logger_name)'''
+'''Calling the Analyzer Function here'''
+analyzer_main(abstracts_log_name, status_logger_name)
 
 '''Declaring the end of a successful run of the code'''
 end_process(status_logger_name)
