@@ -29,3 +29,9 @@ script was run.
 - Fragmenting the code into bits. Wrote a new <a title="Bias.py" href="https://github/SarthakJShetty/Bias/master/Bias.py" target="_blank">```Bias.py```</a>, script which will consilidate the different pieces of code that are a part of this project.
 - <a title="pre_processing.py" href="https://github/SarthakJShetty/Bias/master/common_functions.py" target="_blank">```common_functions.py```</a> contains functions that will be borrowed by the Scraper, Analyzer & Visualizer.
 - Code works by sharing functions, across different scripts. <a title="Scraper.py" href="https://github/SarthakJShetty/Bias/master/Scraper.py">```Scraper.py```</a> has specialized functions post fragmentation.
+
+### Date 15/09/2018
+- The ```Analyzer.py``` code is almost ready.
+- Data from the ```Abstracts.txt``` file is being converted into a ```pandas``` dataframe for ease of analysis.
+- ```pandas``` works better than the native ```csv``` library. Tried to work it out with ```csv```, but could not.
+- Will add a few newer LOGS here.
