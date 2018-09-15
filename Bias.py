@@ -1,5 +1,4 @@
-'''Hello!
-We have decided to fragment the entire code, and run it off of one common script.
+'''Hello! We have decided to fragment the entire code, and run it off of one common script.
 In the future, the Analyzer.py and the Visualizer.py scripts will be called here as well.
 
 Check out the build-log.md for a detailed changes implemented.
@@ -10,10 +9,22 @@ Sarthak J. Shetty
 
 '''Imports scraper_main() from Scraper.py'''
 from Scraper import scraper_main
+'''Importing the analyzer code here as well'''
+from Analyzer import analyzer_main
 '''Imports some of the functions required by different scripts here.'''
-from pre_processing_functions import pre_processing, arguments_parser
-
+from common_functions import pre_processing, arguments_parser, end_process
 '''Keywords from the user are extracted here'''
+
 keywords_to_search=arguments_parser()
+
+'''Calling the pre_processing functions here so that data is available across the code.'''
+abstract_id_log_name, abstracts_log_name, start_url, abstract_url, status_logger_name = pre_processing(keywords_to_search)
+
 '''Runs the scraper here to scrape the details from the scientific repository'''
-scraper_main(keywords_to_search)
+scraper_main(abstract_id_log_name, abstracts_log_name, start_url, abstract_url, status_logger_name, keywords_to_search)
+
+'''Calling the Analyzer Function here
+analyzer_main(abstracts_log_name, status_logger_name)'''
+
+'''Declaring the end of a successful run of the code'''
+end_process(status_logger_name)
