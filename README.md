@@ -51,7 +51,7 @@
 
 	<strong>Note:</strong> If you are running this code on Ubuntu, the code will be as follows:
 
-		user@Ubuntu: ~$ source Bias/bin/activate
+		user@Ubuntu: ~/Bias$ source Bias/bin/activate
 
 	You are now inside the ```Bias``` environment.
 
