@@ -1,5 +1,4 @@
-'''Hello!
-This script contains functions that are resued by other pieces of code belonging to this
+'''Hello! This script contains functions that are resued by other pieces of code belonging to this
 project as well.
 
 Checkout the README.md for more details regarding the project itself.
@@ -82,7 +81,7 @@ def pre_processing(keywords):
 				query_string = query_string+keywords[keyword_index]
 			else:
 				query_string = query_string+keywords[keyword_index]+"%20"
-	start_url = "https://www.sciencedirect.com/search?qs="+query_string+"&show=100&sortBy=relevance&accessTypes=openaccess%2Copenarchive&offset="
+	start_url = "https://www.sciencedirect.com/search?qs="+query_string+"&show=100&sortBy=relevance&offset="
 	abstract_url = 'https://www.sciencedirect.com/science/article/pii/'
 
 	return abstract_id_log_name, abstracts_log_name, start_url, abstract_url, status_logger_name
@@ -97,3 +96,8 @@ def arguments_parser():
 		keywords = arguments.keywords
 	keywords = keywords.split()
 	return keywords
+
+def end_process(status_logger_name):
+	'''Self-explanatory, this function declares successful completion of the code.'''
+	end_process_status_key="Process has successfully ended"
+	status_logger(status_logger_name, end_process_status_key)
