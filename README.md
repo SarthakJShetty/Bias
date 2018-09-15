@@ -1,3 +1,4 @@
+
 # Analyzing biases in academic publications
 
 :warning: <strong>Code is buggy</strong>:warning:
@@ -24,7 +25,8 @@
 - Check out the <a title="LOGS" href="https://github.com/SarthakJShetty/Bias/tree/master/LOGS">LOGS</a> for the results of ```Scraper.py```
 
 ## Virtual environment setup:
-<strong>Note:</strong> The script runs on a ```virtualenv``` environment
+<strong>Note:</strong> These instructions are the same for Windows and Ubuntu users. However, while installing the packages, Ubuntu users have to use ```pip3``` instead of ```pip```, and ```python3``` instead of ```python```.
+
 1.  Clone this repository:
 
 		E:\>git clone https://github.com/SarthakJShetty/Bias.git
@@ -47,10 +49,14 @@
 
 		E:\Bias>.\Bias\Scripts\activate
 
+	<strong>Note:</strong> If you are running this code on Ubuntu, the code will be as follows:
+
+		user@Ubuntu: ~$ source Bias/bin/activate
+
 	You are now inside the ```Bias``` environment.
 
 ## Instructions:
-
+<strong>Note:</strong> These instructions are the same for Windows and Ubuntu users. However, while installing the packages, Ubuntu users have to use ```pip3``` instead of ```pip```, and ```python3``` instead of ```python```.
 
 - Install the required packages using the <a title="Package Requirements" target="_blank" href="https://github.com/SarthakJShetty/Bias/blob/master/requirements.txt">```requirements.txt```</a> file available in the cloned repository.
 		
