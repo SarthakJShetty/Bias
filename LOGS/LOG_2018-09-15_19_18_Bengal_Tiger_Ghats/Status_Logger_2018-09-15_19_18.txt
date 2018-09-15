@@ -1,0 +1,183 @@
+Session: 15/9/2018
+Time: 19:18:11
+[INFO]19:18:11 Built LOG folder for session
+[INFO]19:18:11 https://www.sciencedirect.com/search?qs=Bengal%20Tiger%20Ghats&show=100&sortBy=relevance&offset= start_url has been received
+[INFO]19:18:11 https://www.sciencedirect.com/search?qs=Bengal%20Tiger%20Ghats&show=100&sortBy=relevance&offset=0 has been obtained
+[INFO]19:18:15 https://www.sciencedirect.com/search?qs=Bengal%20Tiger%20Ghats&show=100&sortBy=relevance&offset=100 has been obtained
+[INFO]19:18:20 Page status: 200
+[INFO]19:18:20 Souping page
+[INFO]19:18:21 Souped page
+[INFO]19:18:21 Scraping IDs
+[INFO]19:18:21 Scraped IDs
+[INFO]19:18:21 Extracting Abstract IDs from disc
+[INFO]19:18:21 Extracted Abstract IDs from disc
+[INFO]19:18:21 Abstract Number: 1
+[INFO]19:18:21 Abstract ID: S1872203215300196
+[INFO]19:18:27 Page status: 200
+[INFO]19:18:27 Souping page
+[INFO]19:18:29 Souped page
+[INFO]19:18:29 Writing 'Factors affecting habitat selection by three sympatric otter species in the southern Western Ghats, India' by 'Angshuman' to disc
+[INFO]19:18:29 Written 'Factors affecting habitat selection by three sympatric otter species in the southern Western Ghats, India' to disc
+[INFO]19:18:29 Abstract Number: 2
+[INFO]19:18:29 Abstract ID: S2212609015000102
+[INFO]19:18:29 Page status: 200
+[INFO]19:18:29 Souping page
+[INFO]19:18:30 Souped page
+[INFO]19:18:30 Writing 'Original Article/ResearchEcological integrity and environmental protection for Vijayawada region \xe2\x80\x93 Scattered Eastern Ghats' by 'Srikonda' to disc
+[INFO]19:18:30 Written 'Original Article/ResearchEcological integrity and environmental protection for Vijayawada region \xe2\x80\x93 Scattered Eastern Ghats' to disc
+[INFO]19:18:30 Abstract Number: 3
+[INFO]19:18:30 Abstract ID: S0304380009004402
+[INFO]19:18:30 Page status: 200
+[INFO]19:18:30 Souping page
+[INFO]19:18:31 Souped page
+[INFO]19:18:31 Writing 'Evaluation of suitable tiger habitat in Chandoli National Park, India, using spatial modelling of environmental variables' by 'Ekwal' to disc
+[INFO]19:18:31 Written 'Evaluation of suitable tiger habitat in Chandoli National Park, India, using spatial modelling of environmental variables' to disc
+[INFO]19:18:31 Abstract Number: 4
+[INFO]19:18:31 Abstract ID: S0921800904004045
+[INFO]19:18:31 Page status: 200
+[INFO]19:18:31 Souping page
+[INFO]19:18:32 Souped page
+[INFO]19:18:32 Writing 'AnalysisThe economics of biodiversity conservation: a study of a coffee growing region in the Western Ghats of India' by 'K.N.' to disc
+[INFO]19:18:32 Written 'AnalysisThe economics of biodiversity conservation: a study of a coffee growing region in the Western Ghats of India' to disc
+[INFO]19:18:32 Abstract Number: 5
+[INFO]19:18:32 Abstract ID: S0272771416303791
+[INFO]19:18:32 Page status: 200
+[INFO]19:18:32 Souping page
+[INFO]19:18:33 Souped page
+[INFO]19:18:33 Writing 'Tidal intrusion within a mega delta: An unstructured grid modelling approach' by 'Lucy M.' to disc
+[INFO]19:18:33 Written 'Tidal intrusion within a mega delta: An unstructured grid modelling approach' to disc
+[INFO]19:18:33 Abstract Number: 6
+[INFO]19:18:33 Abstract ID: S2213305418300018
+[INFO]19:18:33 Page status: 200
+[INFO]19:18:33 Souping page
+[INFO]19:18:34 Souped page
+[INFO]19:18:34 Writing 'Anthropogenic impacts on forest land use and land cover change: Modelling future possibilities in the Himalayan Terai' by 'Shovik' to disc
+[INFO]19:18:34 Written 'Anthropogenic impacts on forest land use and land cover change: Modelling future possibilities in the Himalayan Terai' to disc
+[INFO]19:18:34 Abstract Number: 7
+[INFO]19:18:34 Abstract ID: S2287884X18300542
+[INFO]19:18:35 Page status: 200
+[INFO]19:18:35 Souping page
+[INFO]19:18:35 Souped page
+[INFO]19:18:35 Writing 'Review ArticleConservation status of some endangered mammals in Barak Valley, Northeast India' by 'Nazimur Rahman' to disc
+[INFO]19:18:35 Written 'Review ArticleConservation status of some endangered mammals in Barak Valley, Northeast India' to disc
+[INFO]19:18:35 Abstract Number: 8
+[INFO]19:18:35 Abstract ID: S2212041616300869
+[INFO]19:18:36 Page status: 200
+[INFO]19:18:36 Souping page
+[INFO]19:18:36 Souped page
+[INFO]19:18:36 Writing 'Valuing forest ecosystem services and disservices \xe2\x80\x93 Case study of a protected area in India' by 'K.N.' to disc
+[INFO]19:18:36 Written 'Valuing forest ecosystem services and disservices \xe2\x80\x93 Case study of a protected area in India' to disc
+[INFO]19:18:36 Abstract Number: 9
+[INFO]19:18:36 Abstract ID: S0925857416301562
+[INFO]19:18:37 Page status: 200
+[INFO]19:18:37 Souping page
+[INFO]19:18:37 Souped page
+[INFO]19:18:37 Writing 'Conservation priorities of forest ecosystems: Evaluation of deforestation and degradation hotspots using geospatial techniques' by 'C. Sudhakar' to disc
+[INFO]19:18:37 Written 'Conservation priorities of forest ecosystems: Evaluation of deforestation and degradation hotspots using geospatial techniques' to disc
+[INFO]19:18:37 Abstract Number: 10
+[INFO]19:18:37 Abstract ID: S026151771730239X
+[INFO]19:18:38 Page status: 200
+[INFO]19:18:38 Souping page
+[INFO]19:18:39 Souped page
+[INFO]19:18:39 Writing 'Institutional arrangements for managing tourism in the Indian Himalayan protected areas' by 'Ruchi' to disc
+[INFO]19:18:39 Written 'Institutional arrangements for managing tourism in the Indian Himalayan protected areas' to disc
+[INFO]19:18:39 Abstract Number: 11
+[INFO]19:18:39 Abstract ID: S0264275115000785
+[INFO]19:18:39 Page status: 200
+[INFO]19:18:39 Souping page
+[INFO]19:18:40 Souped page
+[INFO]19:18:40 Writing 'City profileChittagong, Bangladesh' by 'Md Aslam' to disc
+[INFO]19:18:40 Written 'City profileChittagong, Bangladesh' to disc
+[INFO]19:18:40 Abstract Number: 12
+[INFO]19:18:40 Abstract ID: S0925857416304694
+[INFO]19:18:40 Page status: 200
+[INFO]19:18:40 Souping page
+[INFO]19:18:41 Souped page
+[INFO]19:18:41 Writing 'Predicting the probable distribution and threat of invasive Mimosa diplotricha Suavalle and Mikania micrantha Kunth in a protected tropical grassland' by 'Manabendra Ray' to disc
+[INFO]19:18:41 Written 'Predicting the probable distribution and threat of invasive Mimosa diplotricha Suavalle and Mikania micrantha Kunth in a protected tropical grassland' to disc
+[INFO]19:18:41 Abstract Number: 13
+[INFO]19:18:41 Abstract ID: S1055790312000759
+[INFO]19:18:41 Page status: 200
+[INFO]19:18:41 Souping page
+[INFO]19:18:42 Souped page
+[INFO]19:18:42 Writing 'Phylogeny of the Asian Eutropis (Squamata: Scincidae) reveals an \xe2\x80\x98into India\xe2\x80\x99 endemic Indian radiation' by 'Aniruddha' to disc
+[INFO]19:18:42 Written 'Phylogeny of the Asian Eutropis (Squamata: Scincidae) reveals an \xe2\x80\x98into India\xe2\x80\x99 endemic Indian radiation' to disc
+[INFO]19:18:42 Abstract Number: 14
+[INFO]19:18:42 Abstract ID: S0964569113001166
+[INFO]19:18:42 Page status: 200
+[INFO]19:18:42 Souping page
+[INFO]19:18:43 Souped page
+[INFO]19:18:43 Writing 'ReviewChanging perspectives of mangrove management in India \xe2\x80\x93 An analytical overview' by 'Rajarshi' to disc
+[INFO]19:18:43 Written 'ReviewChanging perspectives of mangrove management in India \xe2\x80\x93 An analytical overview' to disc
+[INFO]19:18:43 Abstract Number: 15
+[INFO]19:18:43 Abstract ID: S0378112713004180
+[INFO]19:18:43 Page status: 200
+[INFO]19:18:43 Souping page
+[INFO]19:18:44 Souped page
+[INFO]19:18:44 Writing 'Forest observational studies in India: Past developments and considerations for the future' by 'V.P.' to disc
+[INFO]19:18:44 Written 'Forest observational studies in India: Past developments and considerations for the future' to disc
+[INFO]19:18:44 Abstract Number: 16
+[INFO]19:18:44 Abstract ID: S0034425706001209
+[INFO]19:18:45 Page status: 200
+[INFO]19:18:45 Souping page
+[INFO]19:18:45 Souped page
+[INFO]19:18:45 Writing 'Monitoring forest fires over the Indian region using Defense Meteorological Satellite Program-Operational Linescan System nighttime satellite data' by 'T.R.' to disc
+[INFO]19:18:45 Written 'Monitoring forest fires over the Indian region using Defense Meteorological Satellite Program-Operational Linescan System nighttime satellite data' to disc
+[INFO]19:18:45 Abstract Number: 17
+[INFO]19:18:45 Abstract ID: S0168169914000428
+[INFO]19:18:46 Page status: 200
+[INFO]19:18:46 Souping page
+[INFO]19:18:46 Souped page
+[INFO]19:18:46 Writing 'Using district-level occurrences in MaxEnt for predicting the invasion potential of an exotic insect pest in India' by 'Sunil' to disc
+[INFO]19:18:46 Written 'Using district-level occurrences in MaxEnt for predicting the invasion potential of an exotic insect pest in India' to disc
+[INFO]19:18:46 Abstract Number: 18
+[INFO]19:18:46 Abstract ID: S2214790X16302374
+[INFO]19:18:47 Page status: 200
+[INFO]19:18:47 Souping page
+[INFO]19:18:47 Souped page
+[INFO]19:18:47 Writing 'Original articleEcological distribution conflicts (EDCs) over mineral extraction in India: An overview' by 'Arpita' to disc
+[INFO]19:18:47 Written 'Original articleEcological distribution conflicts (EDCs) over mineral extraction in India: An overview' to disc
+[INFO]19:18:47 Abstract Number: 19
+[INFO]19:18:47 Abstract ID: S0160738305000861
+[INFO]19:18:48 Page status: 200
+[INFO]19:18:48 Souping page
+[INFO]19:18:48 Souped page
+[INFO]19:18:48 Writing 'Representative dissonance: India\xe2\x80\x99s Self and Western Image' by 'Ranjan' to disc
+[INFO]19:18:48 Written 'Representative dissonance: India\xe2\x80\x99s Self and Western Image' to disc
+[INFO]19:18:48 Abstract Number: 20
+[INFO]19:18:48 Abstract ID: S0944501313000177
+[INFO]19:18:49 Page status: 200
+[INFO]19:18:49 Souping page
+[INFO]19:18:49 Souped page
+[INFO]19:18:49 Writing 'RETRACTED: Marine actinobacterial metabolites: Current status and future perspectives' by 'Panchanathan' to disc
+[INFO]19:18:49 Written 'RETRACTED: Marine actinobacterial metabolites: Current status and future perspectives' to disc
+[INFO]19:18:49 Abstract Number: 21
+[INFO]19:18:49 Abstract ID: S0016718501000057
+[INFO]19:18:50 Page status: 200
+[INFO]19:18:50 Souping page
+[INFO]19:18:50 Souped page
+[INFO]19:18:50 Writing 'Green aid in India and Zimbabwe \xe2\x80\x93 conserving whose community?' by 'Zoe' to disc
+[INFO]19:18:50 Written 'Green aid in India and Zimbabwe \xe2\x80\x93 conserving whose community?' to disc
+[INFO]19:18:50 Abstract Number: 22
+[INFO]19:18:50 Abstract ID: S0305748811001058
+[INFO]19:18:51 Page status: 200
+[INFO]19:18:51 Souping page
+[INFO]19:18:51 Souped page
+[INFO]19:18:51 Writing '\xe2\x80\x98British India on trial\xe2\x80\x99: Brighton Military Hospitals and the politics of empire in World War I' by 'Samuel' to disc
+[INFO]19:18:51 Written '\xe2\x80\x98British India on trial\xe2\x80\x99: Brighton Military Hospitals and the politics of empire in World War I' to disc
+[INFO]19:18:51 Abstract Number: 23
+[INFO]19:18:52 Abstract ID: S0899536298000281
+[INFO]19:18:53 Page status: 200
+[INFO]19:18:53 Souping page
+[INFO]19:18:53 Souped page
+[INFO]19:18:53 Writing 'An approach to the phylogeny of gomphodont cynodonts based on dental characters' by 'Fernando' to disc
+[INFO]19:18:53 Written 'An approach to the phylogeny of gomphodont cynodonts based on dental characters' to disc
+[INFO]19:18:53 Entered the Analyzer.py code.
+[INFO]19:18:53 Carrying out pre-processing functions for analyzer
+[INFO]19:18:53 Carried out pre-processing functions for analyzer
+[INFO]19:18:53 Copying data from LOGS/LOG_2018-09-15_19_18_Bengal_Tiger_Ghats/Abstract_Database_2018-09-15_19_18.txt to pandas dataframe
+[INFO]19:18:54 Copied data from LOGS/LOG_2018-09-15_19_18_Bengal_Tiger_Ghats/Abstract_Database_2018-09-15_19_18.txt to pandas dataframe
+[INFO]19:18:54 Copying data from pandas dataframe to LOGS/LOG_2018-09-15_19_18_Bengal_Tiger_Ghats/Abstract_Database_2018-09-15_19_18_CSV_DATA.csv
+[INFO]19:18:54 Copied data from pandas dataframe to LOGS/LOG_2018-09-15_19_18_Bengal_Tiger_Ghats/Abstract_Database_2018-09-15_19_18_CSV_DATA.csv
+[INFO]19:18:54 Exiting the Analyzer.py code.
+[INFO]19:18:54 Process has successfully ended
