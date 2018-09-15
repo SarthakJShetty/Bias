@@ -22,7 +22,7 @@ import urllib.error
 from bs4 import BeautifulSoup
 '''Fragmenting code into different scripts. Some functions are to be used across the different sub-parts as well.
 Hence, shifted some of the functions to the new script.'''
-from pre_processing_functions import pre_processing, arguments_parser,  status_logger
+from common_functions import pre_processing, arguments_parser,  status_logger
 
 def url_reader(url, status_logger_name):
 	'''This keyword is supplied to the URL and is hence used for souping.''' 
@@ -166,11 +166,6 @@ def title_scraper(abstract_soup):
 	title = str(abstract_soup.find('h1',{'class':'Head'}).text.encode('utf-8'))[1:]
 	return title
 
-def end_process(status_logger_name):
-	'''Self-explanatory, this function declares successful completion of the code.'''
-	end_process_status_key="Process has successfully ended"
-	status_logger(status_logger_name, end_process_status_key)
-
 def abstract_id_scraper(abstract_id_log_name, page_soup, site_url_index, status_logger_name):
 	'''This function helps in obtaining the PII number of the abstract.
 	This number is then coupled with the dynamic URL and provides'''
@@ -198,14 +193,10 @@ def processor(abstract_url, urls_to_scrape, abstract_id_log_name, abstracts_log_
 		'''Actually obtaining the abstracts after combining ID with the abstract_url'''
 		abstract_crawler(abstract_url, abstract_id_log_name, abstracts_log_name, site_url_index, status_logger_name)
 
-def scraper_main(keywords_to_search):
+def scraper_main(abstract_id_log_name, abstracts_log_name, start_url, abstract_url, status_logger_name, keywords_to_search):
 	''''This function contains all the functions and contains this entire script here, so that it can be imported later to the main function'''
 
-	'''Keyword is passed on to pre_processing() declares the url of the site and the abstract collection url'''
-	abstract_id_log_name, abstracts_log_name, start_url, abstract_url, status_logger_name = pre_processing(keywords_to_search)
 	'''Provides the links for the URLs to be scraped by the scraper'''
 	urls_to_scrape = url_generator(start_url, status_logger_name)
 	'''Calling the processor() function here'''
 	processor(abstract_url, urls_to_scrape, abstract_id_log_name, abstracts_log_name, status_logger_name, keywords_to_search)
-	'''End process function'''
-	end_process(status_logger_name)
