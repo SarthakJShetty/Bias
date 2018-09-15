@@ -17,14 +17,14 @@
 
 ## Model Overview:
 - The model is made up of three parts:
-	1. <strong><a title="Scraper.py" href="https://github.com/SarthakJShetty/Bias/tree/master/Scraper.py/">Scraper</a>:</strong> This component scrapes scientific repository for publications containing the specific combination of keywords.
-	2. <strong>Analyzer:</strong> This component scrapes the ```.txt``` file containing the abstract (and eventually ```.pdf```) for specific keywords.
+	1. <strong><a title="Scraper" href="https://github.com/SarthakJShetty/Bias/tree/master/Scraper.py/">Scraper</a>:</strong> This component scrapes scientific repository for publications containing the specific combination of keywords.
+	2. <strong><a title="Analyzer" href="https://github.com/SarthakJShetty/Bias/tree/master/Analyzer.py/">Analyzer</a>:</strong> This component collects and measures the frequency of select keywords in the abstracts database.
 	3. <strong>Visualizer:</strong> This component presents the results and data from the Analyzer to the end user.
 		
-- Scraper is ready as of now (somewhat). The text-analyzer is still under development and work on the data-visualizer is yet to begin. Stay tuned for more developments.
-- Check out the <a title="LOGS" href="https://github.com/SarthakJShetty/Bias/tree/master/LOGS">LOGS</a> for the results of ```Scraper.py```
+- Check out the <a title="LOGS" href="https://github.com/SarthakJShetty/Bias/tree/master/LOGS">LOGS</a> for the results of ```Scraper.py``` and ```Analyzer.py```.
 
 ## Virtual environment setup:
+
 <strong>Note:</strong> These instructions are the same for Windows and Ubuntu users. However, while installing the packages, Ubuntu users have to use ```pip3``` instead of ```pip```, and ```python3``` instead of ```python```.
 
 1.  Clone this repository:
@@ -75,7 +75,7 @@
 
 
 ### Scraper:
-- The <a title="Scraper.py" href="https://github.com/SarthakJShetty/Bias/blob/master/Scraper.py">```Scraper.py```</a> currently scrapes only the abstracts from <a title="ScienceDirect" href="https://www.ScienceDirect.com">ScienceDirect</a>.
+- The <a title="Scraper" href="https://github.com/SarthakJShetty/Bias/blob/master/Scraper.py">```Scraper.py```</a> currently scrapes only the abstracts from <a title="ScienceDirect" href="https://www.ScienceDirect.com">ScienceDirect</a>.
 
 - A default URL is provided in the code. Once the keywords are provided, the URLs are queried and the resultant webpage is souped and ```abstract_id``` is scraped.
 
@@ -84,6 +84,11 @@
 - The <a title="Abstract Database" target="_blank" href="https://github.com/SarthakJShetty/Bias/blob/master/LOGS/LOG_2018-08-29_15_4_Western_Ghats/Abstract_Database_2018-08-29_15_4.txt">```abstract_database```</a> contains the abstract along with the title, author and a complete URL from where the full text can be downloaded. They are saved in a ```.txt``` file
 
 - A <a title="Status Logger" href="https://github.com/SarthakJShetty/Bias/blob/master/LOGS/LOG_2018-08-29_15_4_Western_Ghats/Status_Logger_2018-08-29_15_4.txt" target="_blank">```status_logger```</a> is used to log the sequence of commands in the program.
+
+### Analyzer:
+- The <a title="Analyzer" href="https://github.com/SarthakJShetty/Bias/tree/master/Analyzer.py/">```Analyzer.py```</a> analyzes the frequency of different words used in the abstract.
+- It serves as an intermediary between the Scraper and the Visualizer, preparing the scraped data into a neat ```.csv``` <a title="https://github.com/SarthakJShetty/Bias/blob/master/LOGS/LOG_2018-09-15_19_18_Bengal_Tiger_Ghats/Abstract_Database_2018-09-15_19_18_CSV_DATA.csv">file</a>.
+- This ```.csv``` is then passed on to the Visualizer.
 
 ## Known Issues:
 - The Scraper can only scrape abstracts from ScienceDirect at the moment, since ScienceDirect does not allow users to view publications in native ```.pdf``` format, but instead loads a ```.html``` document with the contents embedded in it.
