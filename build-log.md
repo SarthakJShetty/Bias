@@ -35,4 +35,4 @@ script was run.
 - Data from the ```Abstracts.txt``` file is being converted into a ```pandas``` dataframe for ease of analysis.
 - ```pandas``` works better than the native ```csv``` library. Tried to work it out with ```csv```, but could not.
 - Will add a few newer LOGS here.
-- <strong>Update:<strong> <a title="Analyzer", href="https://github.com/SarthakJShetty/Bias/master/Analyzer.py">```Analyzer.py```</a> code is ready. Next stop, ```Visualizer.py```
+- <strong>Update:</strong> <a title="Analyzer" href="https://github.com/SarthakJShetty/Bias/master/Analyzer.py">```Analyzer.py```</a> code is ready. Next stop, ```Visualizer.py```.
