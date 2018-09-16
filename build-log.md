@@ -5,22 +5,22 @@
 - Data from the ```Abstracts.txt``` file is being converted into a ```pandas``` dataframe for ease of analysis.
 - ```pandas``` works better than the native ```csv``` library. Tried to work it out with ```csv```, but could not.
 - Will add a few newer LOGS here.
-- <strong>Update:</strong> <a title="Analyzer" href="https://github.com/SarthakJShetty/Bias/master/Analyzer.py">```Analyzer.py```</a> code is ready. Next stop, ```Visualizer.py```.
+- <strong>Update:</strong> <a title="Analyzer" href="https://github.com/SarthakJShetty/Bias/blob/master//Analyzer.py">```Analyzer.py```</a> code is ready. Next stop, ```Visualizer.py```.
 
 ### Date: 12/09/2018
-- Fragmenting the code into bits. Wrote a new <a title="Bias.py" href="https://github/SarthakJShetty/Bias/master/Bias.py" target="_blank">```Bias.py```</a>, script which will consilidate the different pieces of code that are a part of this project.
-- <a title="pre_processing.py" href="https://github/SarthakJShetty/Bias/master/common_functions.py" target="_blank">```common_functions.py```</a> contains functions that will be borrowed by the Scraper, Analyzer & Visualizer.
-- Code works by sharing functions, across different scripts. <a title="Scraper.py" href="https://github/SarthakJShetty/Bias/master/Scraper.py">```Scraper.py```</a> has specialized functions post fragmentation.
+- Fragmenting the code into bits. Wrote a new <a title="Bias.py" href="https://github/SarthakJShetty/Bias/blob/master/Bias.py" target="_blank">```Bias.py```</a>, script which will consilidate the different pieces of code that are a part of this project.
+- <a title="pre_processing.py" href="https://github/SarthakJShetty/Bias/blob/master/common_functions.py" target="_blank">```common_functions.py```</a> contains functions that will be borrowed by the Scraper, Analyzer & Visualizer.
+- Code works by sharing functions, across different scripts. <a title="Scraper.py" href="https://github/SarthakJShetty/Bias/blob/master/Scraper.py">```Scraper.py```</a> has specialized functions post fragmentation.
 
 ### Date: 10/09/2018
 - Writing a shell script to get necessary packages (although this seems unnecessary).
 - Will try to get the ```Analyzer.py``` up and running by tomorrow.
-- New <a title="LOGs" href="https://github.com/SarthakJShetty/Bias/master/LOGS">LOGS</a> have been added.
+- New <a title="LOGs" href="https://github.com/SarthakJShetty/Bias/blob/master/LOGS">LOGS</a> have been added.
 
 ### Date: 09/09/2018
 - Will be part of a ```virtualenv``` environment from now on.
 - Should be easier to download ```pip``` packages.
-- Wrote a <a title="Packages required" href="https://github.com/SarthakJShetty/Bias/master/requirements.txt">```requirements.txt```</a> file.
+- Wrote a <a title="Packages required" href="https://github.com/SarthakJShetty/Bias/blob/master/requirements.txt">```requirements.txt```</a> file.
 - Testing on Ubuntu and Windows machines now.
 
 ### Date: 30/08/2018
