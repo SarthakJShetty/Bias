@@ -1,4 +1,3 @@
-
 # Analyzing biases in academic publications
 
 :warning: <strong>Code is buggy</strong>:warning:
@@ -13,7 +12,7 @@
 
 - This tool is being developed to prove (quantitatively) the existence of these biases.
 
-<strong>Note:</strong> This <a title="Latest run" href="https://github.com/SarthakJShetty/Bias/tree/master/LOGS/LOG_2018-08-29_15_4_Western_Ghats">log</a> contains the most recent run of the program.
+<strong>Note:</strong> This <a title="Latest run" href="https://github.com/SarthakJShetty/Bias/tree/master/LOGS/LOG_2018-09-23_11_21_Bengal_Tigers_Endangered">log</a> contains the most recent run of the program.
 
 ## Model Overview:
 - The model is made up of three parts:
