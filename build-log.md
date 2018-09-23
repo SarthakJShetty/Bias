@@ -1,5 +1,11 @@
 # Build-Log
 
+
+### Date: 24/09/2018
+- Changed the manner in which the abstract_id's are scraped.
+- Change from ```download-link``` to ```preview-link```.
+- Script can scrap once again.
+
 ### Date: 15/09/2018
 - The ```Analyzer.py``` code is almost ready.
 - Data from the ```Abstracts.txt``` file is being converted into a ```pandas``` dataframe for ease of analysis.
