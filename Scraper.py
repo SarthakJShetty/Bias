@@ -1,14 +1,10 @@
 '''Hello! This is the third (UPDATE 1.0: Correction, IT IS THE FOURTH PROJECT!) project that I've started in two months.
 Feels great to learn so many new concepts.
 Here's to never stop learning.
-
 The aim of the project is to measure (quantitatively) the disparity in the the publications
 pertaining to the natural history and ecology of specific geographical regions.
-
 This project is a collaboration between Vijay Ramesh, Department of Ecology, Evolution & Environmental Biology, Columbia University.
-
 More info will be added here. Soon.
-
 Sarthak J. Shetty
 04/08/2018'''
 
@@ -64,8 +60,9 @@ def url_generator(start_url, status_logger_name):
 	return urls_to_scrape
 
 def abstract_id_database_writer(abstract_id_log_name, abstract_input_tag_id, site_url_index):
+	abstract_id_writer_temp_index  = site_url_index
 	'''This function writes the abtract ids to a .txt file for easy access and documentation.'''
-	abstract_id_log = open((abstract_id_log_name+str(site_url_index+1)+'.txt'), 'a')
+	abstract_id_log = open((abstract_id_log_name+str(abstract_id_writer_temp_index+1)+'.txt'), 'a')
 	abstract_id_log.write(abstract_input_tag_id)
 	abstract_id_log.write('\n')
 	abstract_id_log.close()
@@ -88,12 +85,13 @@ def abstract_database_writer(abstract_page_url, title, author, abstract, abstrac
 	status_logger(status_logger_name, abstract_database_writer_stop_status_key)
 
 def abstract_id_database_reader(abstract_id_log_name, site_url_index, status_logger_name):
+	abstract_id_reader_temp_index = site_url_index
 	'''This function has been explicitly written to access
 	the abstracts database that the given prgram generates.'''
 	abstract_id_database_reader_start_status_key = "Extracting Abstract IDs from disc"
 	status_logger(status_logger_name, abstract_id_database_reader_start_status_key)
 
-	lines_in_abstract_id_database=[line.rstrip('\n') for line in open(abstract_id_log_name+str(site_url_index+1)+'.txt')]
+	lines_in_abstract_id_database=[line.rstrip('\n') for line in open(abstract_id_log_name+str(abstract_id_reader_temp_index+1)+'.txt')]
 
 	abstract_id_database_reader_stop_status_key = "Extracted Abstract IDs from disc"
 	status_logger(status_logger_name,abstract_id_database_reader_stop_status_key)
@@ -139,11 +137,12 @@ def abstract_page_scraper(abstract_url, abstract_input_tag_id, abstracts_log_nam
 	#print(abstract_soup_text)
 
 def abstract_crawler(abstract_url, abstract_id_log_name, abstracts_log_name, site_url_index, status_logger_name):
+	abstract_crawler_temp_index  = site_url_index
 	'''This function crawls the page and access each and every abstract'''
-	abstract_input_tag_ids = abstract_id_database_reader(abstract_id_log_name, site_url_index, status_logger_name)
+	abstract_input_tag_ids = abstract_id_database_reader(abstract_id_log_name, abstract_crawler_temp_index, status_logger_name)
 	for abstract_input_tag_id in abstract_input_tag_ids:
 		try:
-			abstract_crawler_accept_status_key="Abstract Number:"+" "+str((abstract_input_tag_ids.index(abstract_input_tag_id)+1)+site_url_index*100)
+			abstract_crawler_accept_status_key="Abstract Number:"+" "+str((abstract_input_tag_ids.index(abstract_input_tag_id)+1)+abstract_crawler_temp_index*100)
 			status_logger(status_logger_name, abstract_crawler_accept_status_key)
 			abstract_page_scraper(abstract_url, abstract_input_tag_id, abstracts_log_name, status_logger_name)
 		except TypeError:
@@ -173,7 +172,7 @@ def abstract_id_scraper(abstract_id_log_name, page_soup, site_url_index, status_
 	abstract_id_scraper_start_status_key="Scraping IDs"
 	status_logger(status_logger_name, abstract_id_scraper_start_status_key)
 	''''This statement collects all the input tags that have the abstract ids in them'''
-	abstract_input_tags = page_soup.findAll('a', {'class':'download-link'})
+	abstract_input_tags = page_soup.findAll('a', {'class':'purchase-link'})
 	for abstract_input_tag in abstract_input_tags:
 		abstract_input_tag_id=abstract_input_tag.get('aria-describedby')
 		abstract_id_database_writer(abstract_id_log_name, abstract_input_tag_id, site_url_index)
