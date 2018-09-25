@@ -32,6 +32,24 @@ def analyzer_pre_processing(abstracts_log_name, status_logger_name):
 	status_logger(status_logger_name, analyzer_pre_processing_status_key)
 	return abstracts_txt_file_name, abstracts_csv_file_name
 
+def list_cleaner(list_to_be_cleaned):
+	'''This function cleans the list containing the words found in the abstract. It eliminates words found in
+	another pre-defined list of words.'''
+	words_to_be_eliminated = ["the", "of", "and", "in", "to", "a", "The", "is", "for", "from", "with", "that", 
+	"by", "are", "on", "was", "as", "were", "URL:", "Abstract:", "abstract", "Abstract",  "Author:", "Title:", "at", "be", "an", "during", "have", "this", 
+	"which", "study", "been", "species", "not", "has", "between",  "using", "We", "its", "also", "these", "This", "used", "over", "can", "within", "into",
+	 "all", "due", "use", "about", "In", "A", "a", 'it', 'their', "It", "Their", "where", "Where", "we", "We", "most", "may", "Most", "May", "Through", "through",
+	"Though", "though", "like", "Like", "Or", "or", "further", "Further", "e.g.", "along", "Along", "any", "Any", "Those", "those", "To", "Had", "had",
+	"Toward", "toward", "due", "Due", "both", "Both", "Some", "some", "Use", "use", "even", "Even", "more", "More", "But", "but", "while", "While",  "pass", 
+	"Well", "well", "will", "Will", "When", "when", "only", "Only", "after", "After", "Author", "author", "Title", "title", "An", "There", "there", "our", "Our", 
+	"did", "Did", "much", "Much", "As", "as", "if", "If", "become", "Become", "Still", "still", "various", "Various", "Very", "very", "out", "Out", "They", "they", 
+	"From", "via", "Via", "available", "Available", "such", "Such", "than", "Than", "Different", "different", "many", "Many", "areas", "Areas", "No", "no", "One", 
+	 "one", "two", "Two", "small", "Small", "first", "First", "other", "Other", "Such", "such", "-", "could", "Could", "studies", "Studies", "high", "High", 
+	 "provide", "Provide", "among", "Among", "highly", "Highly", "no", "No", "case", "Case", "across", "Across", "given", "Given", "need", "Need", "would", "Would", 
+	  "under", "Under", "found", "Found", "Low", "low", "values", "Values", "These", "suggest", "Suggest", "up", "Up", "For"] 
+	cleaned_list_of_words_in_abstract = [item for item in list_to_be_cleaned if item not in words_to_be_eliminated]
+	return cleaned_list_of_words_in_abstract
+
 def transfer_function(abstracts_txt_file_name, abstracts_csv_file_name, status_logger_name):
 	'''This function is involved in the actual transfer of data from the .txt file to the .csv file'''
 	#transfer_function_status_key="Copying data from"+" "+ str(abstracts_txt_file_name)+" "+"to"+" "+str(abstracts_csv_file_name)
@@ -48,8 +66,11 @@ def transfer_function(abstracts_txt_file_name, abstracts_csv_file_name, status_l
 			for word in line.split():
 				list_of_words_in_abstract.append(word)
 
+	'''This function cleans up the data of uneccessary words'''
+	cleaned_list_of_words_in_abstract = list_cleaner(list_of_words_in_abstract)
+
 	'''A Counte is a dictionary, where the value is the frequency of term, which is the key'''
-	dictionary_of_abstract_list = Counter(list_of_words_in_abstract)
+	dictionary_of_abstract_list = Counter(cleaned_list_of_words_in_abstract)
 
 	length_of_abstract_list = len(dictionary_of_abstract_list)
 
