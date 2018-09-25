@@ -172,7 +172,7 @@ def abstract_id_scraper(abstract_id_log_name, page_soup, site_url_index, status_
 	abstract_id_scraper_start_status_key="Scraping IDs"
 	status_logger(status_logger_name, abstract_id_scraper_start_status_key)
 	''''This statement collects all the input tags that have the abstract ids in them'''
-	abstract_input_tags = page_soup.findAll('a', {'class':'purchase-link'})
+	abstract_input_tags = page_soup.findAll('a', {'class':'download-link'})
 	for abstract_input_tag in abstract_input_tags:
 		abstract_input_tag_id=abstract_input_tag.get('aria-describedby')
 		abstract_id_database_writer(abstract_id_log_name, abstract_input_tag_id, site_url_index)
