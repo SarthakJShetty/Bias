@@ -1,0 +1,392 @@
+Session: 13/9/2018
+Time: 11:26:35
+[INFO]11:26:35 Built LOG folder for session
+[INFO]11:26:35 https://www.sciencedirect.com/search?qs=Bengal%20Tiger&show=100&sortBy=relevance&accessTypes=openaccess%2Copenarchive&offset= start_url has been received
+[INFO]11:26:35 https://www.sciencedirect.com/search?qs=Bengal%20Tiger&show=100&sortBy=relevance&accessTypes=openaccess%2Copenarchive&offset=0 has been obtained
+[INFO]11:26:38 https://www.sciencedirect.com/search?qs=Bengal%20Tiger&show=100&sortBy=relevance&accessTypes=openaccess%2Copenarchive&offset=100 has been obtained
+[INFO]11:26:41 Page status: 200
+[INFO]11:26:41 Souping page
+[INFO]11:26:42 Souped page
+[INFO]11:26:42 Scraping IDs
+[INFO]11:26:43 Scraped IDs
+[INFO]11:26:43 Extracting Abstract IDs from disc
+[INFO]11:26:43 Extracted Abstract IDs from disc
+[INFO]11:26:43 Abstract Number: 1
+[INFO]11:26:43 Abstract ID: S2351989417301130
+[INFO]11:26:44 Page status: 200
+[INFO]11:26:44 Souping page
+[INFO]11:26:45 Souped page
+[INFO]11:26:45 Writing 'Original Research ArticleUsing non-invasively collected genetic data to estimate density and population size of tigers in the Bangladesh Sundarbans' by 'M. Abdul' to disc
+[INFO]11:26:45 Written 'Original Research ArticleUsing non-invasively collected genetic data to estimate density and population size of tigers in the Bangladesh Sundarbans' to disc
+[INFO]11:26:45 Abstract Number: 2
+[INFO]11:26:45 Abstract ID: S2351989418300350
+[INFO]11:26:46 Page status: 200
+[INFO]11:26:46 Souping page
+[INFO]11:26:47 Souped page
+[INFO]11:26:47 Writing 'Original Research ArticleIdentifying landscape factors affecting tiger decline in the Bangladesh Sundarbans' by 'Abu Naser Mohsin' to disc
+[INFO]11:26:47 Written 'Original Research ArticleIdentifying landscape factors affecting tiger decline in the Bangladesh Sundarbans' to disc
+[INFO]11:26:47 Abstract Number: 3
+[INFO]11:26:47 Abstract ID: S0044848613006911
+[INFO]11:26:48 Page status: 200
+[INFO]11:26:48 Souping page
+[INFO]11:26:48 Souped page
+[INFO]11:26:48 Writing 'Comparative study of the reproductive performance and White Spot Syndrome Virus (WSSV) status of black tiger shrimp (Penaeus monodon) collected from the Bay of Bengal' by 'Partho' to disc
+[INFO]11:26:48 Written 'Comparative study of the reproductive performance and White Spot Syndrome Virus (WSSV) status of black tiger shrimp (Penaeus monodon) collected from the Bay of Bengal' to disc
+[INFO]11:26:48 Abstract Number: 4
+[INFO]11:26:48 Abstract ID: S2351989416301287
+[INFO]11:26:49 Page status: 200
+[INFO]11:26:49 Souping page
+[INFO]11:26:50 Souped page
+[INFO]11:26:50 Writing 'Original Research ArticleInvestigating patterns of tiger and prey poaching in the Bangladesh Sundarbans: Implications for improved management' by 'M. Abdul' to disc
+[INFO]11:26:50 Written 'Original Research ArticleInvestigating patterns of tiger and prey poaching in the Bangladesh Sundarbans: Implications for improved management' to disc
+[INFO]11:26:50 Abstract Number: 5
+[INFO]11:26:50 Abstract ID: S0960982213004958
+[INFO]11:26:50 Page status: 200
+[INFO]11:26:50 Souping page
+[INFO]11:26:51 Souped page
+[INFO]11:26:51 Writing 'ReportThe Genetic Basis of White Tigers' by 'Xiao' to disc
+[INFO]11:26:51 Written 'ReportThe Genetic Basis of White Tigers' to disc
+[INFO]11:26:51 Abstract Number: 6
+[INFO]11:26:51 Abstract ID: S0019483215002564
+[INFO]11:26:52 Page status: 200
+[INFO]11:26:52 Souping page
+[INFO]11:26:52 Souped page
+[INFO]11:26:52 Writing 'Research LetterAbnormal origin of right coronary artery and use of Tiger catheter through femoral route' by 'Goutam' to disc
+[INFO]11:26:52 Written 'Research LetterAbnormal origin of right coronary artery and use of Tiger catheter through femoral route' to disc
+[INFO]11:26:52 Abstract Number: 7
+[INFO]11:26:52 Abstract ID: S0304380015002574
+[INFO]11:26:53 Page status: 200
+[INFO]11:26:53 Souping page
+[INFO]11:26:53 Souped page
+[INFO]11:26:53 Writing 'Modeling tiger population and territory dynamics using an agent-based approach' by 'Neil' to disc
+[INFO]11:26:53 Written 'Modeling tiger population and territory dynamics using an agent-based approach' to disc
+[INFO]11:26:53 Abstract Number: 8
+[INFO]11:26:53 Abstract ID: S096098220800434X
+[INFO]11:26:54 Page status: 200
+[INFO]11:26:54 Souping page
+[INFO]11:26:55 Souped page
+[INFO]11:26:55 Writing 'ReportSubspecies Genetic Assignments of Worldwide Captive Tigers Increase Conservation Value of Captive Populations' by 'Shu-Jin' to disc
+[INFO]11:26:55 Written 'ReportSubspecies Genetic Assignments of Worldwide Captive Tigers Increase Conservation Value of Captive Populations' to disc
+[INFO]11:26:55 Abstract Number: 9
+[INFO]11:26:55 Abstract ID: S2214241X15000553
+[INFO]11:26:55 Page status: 200
+[INFO]11:26:55 Souping page
+[INFO]11:26:56 Souped page
+[INFO]11:26:56 Writing 'Numerical Study on Storm Surge and Associated Coastal Inundation for 2009 AILA Cyclone in the Head Bay of Bengal\xe2\x98\x86' by 'R.' to disc
+[INFO]11:26:56 Written 'Numerical Study on Storm Surge and Associated Coastal Inundation for 2009 AILA Cyclone in the Head Bay of Bengal\xe2\x98\x86' to disc
+[INFO]11:26:56 Abstract Number: 10
+[INFO]11:26:56 Abstract ID: S2212567114001877
+[INFO]11:26:57 Page status: 200
+[INFO]11:26:57 Souping page
+[INFO]11:26:57 Souped page
+[INFO]11:26:57 Writing 'Employee Motivation from Performance Appraisal Implications: Test of a Theory in the Software Industry in West Bengal (India)\xe2\x98\x86' by 'M.K.' to disc
+[INFO]11:26:57 Written 'Employee Motivation from Performance Appraisal Implications: Test of a Theory in the Software Industry in West Bengal (India)\xe2\x98\x86' to disc
+[INFO]11:26:57 Abstract Number: 11
+[INFO]11:26:57 Abstract ID: S0019483215007762
+[INFO]11:26:58 Page status: 200
+[INFO]11:26:58 Souping page
+[INFO]11:26:59 Souped page
+[INFO]11:26:59 Writing 'Telecardiology for chest pain management in Rural Bengal \xe2\x80\x93 A private venture model: A pilot project' by 'Tapan' to disc
+[INFO]11:26:59 Written 'Telecardiology for chest pain management in Rural Bengal \xe2\x80\x93 A private venture model: A pilot project' to disc
+[INFO]11:26:59 Abstract Number: 12
+[INFO]11:26:59 Abstract ID: S2351989418300052
+[INFO]11:27:0 Page status: 200
+[INFO]11:27:0 Souping page
+[INFO]11:27:0 Souped page
+[INFO]11:27:0 Writing 'Original Research ArticleObservations of illegal wildlife trade in Boten, a Chinese border town within a Specific Economic Zone in northern Lao PDR' by 'Kanitha' to disc
+[INFO]11:27:0 Written 'Original Research ArticleObservations of illegal wildlife trade in Boten, a Chinese border town within a Specific Economic Zone in northern Lao PDR' to disc
+[INFO]11:27:0 Abstract Number: 13
+[INFO]11:27:0 Abstract ID: S0272771416303791
+[INFO]11:27:1 Page status: 200
+[INFO]11:27:1 Souping page
+[INFO]11:27:2 Souped page
+[INFO]11:27:2 Writing 'Tidal intrusion within a mega delta: An unstructured grid modelling approach' by 'Lucy M.' to disc
+[INFO]11:27:2 Written 'Tidal intrusion within a mega delta: An unstructured grid modelling approach' to disc
+[INFO]11:27:2 Abstract Number: 14
+[INFO]11:27:2 Abstract ID: S2468550X17300898
+[INFO]11:27:3 Page status: 200
+[INFO]11:27:3 Souping page
+[INFO]11:27:3 Souped page
+[INFO]11:27:4 Writing 'Social-ecological dynamics of the small scale fisheries in Sundarban Mangrove Forest, Bangladesh' by 'Mohammad Mojibul' to disc
+[INFO]11:27:4 Written 'Social-ecological dynamics of the small scale fisheries in Sundarban Mangrove Forest, Bangladesh' to disc
+[INFO]11:27:4 Abstract Number: 15
+[INFO]11:27:4 Abstract ID: S2287884X15001028
+[INFO]11:27:4 Page status: 200
+[INFO]11:27:4 Souping page
+[INFO]11:27:5 Souped page
+[INFO]11:27:5 Writing 'Review articleBiodiversity research trends and gap analysis from a transboundary landscape, Eastern Himalayas' by 'Pratikshya' to disc
+[INFO]11:27:5 Written 'Review articleBiodiversity research trends and gap analysis from a transboundary landscape, Eastern Himalayas' to disc
+[INFO]11:27:5 Abstract Number: 16
+[INFO]11:27:5 Abstract ID: S221475001830177X
+[INFO]11:27:6 Page status: 200
+[INFO]11:27:6 Souping page
+[INFO]11:27:6 Souped page
+[INFO]11:27:6 Writing 'Snake bite in India: A few matters to note' by 'Siju V.' to disc
+[INFO]11:27:6 Written 'Snake bite in India: A few matters to note' to disc
+[INFO]11:27:6 Abstract Number: 17
+[INFO]11:27:6 Abstract ID: S2405844017318820
+[INFO]11:27:7 Page status: 200
+[INFO]11:27:7 Souping page
+[INFO]11:27:8 Souped page
+[INFO]11:27:8 Writing 'Study of diatom assemblages in Sundarbans mangrove water based on light microscopy and rbcL gene sequencing' by 'Brajogopal' to disc
+[INFO]11:27:8 Written 'Study of diatom assemblages in Sundarbans mangrove water based on light microscopy and rbcL gene sequencing' to disc
+[INFO]11:27:8 Abstract Number: 18
+[INFO]11:27:8 Abstract ID: S2351989416301664
+[INFO]11:27:9 Page status: 200
+[INFO]11:27:9 Souping page
+[INFO]11:27:10 Souped page
+[INFO]11:27:10 Writing 'Original research articleConserving wildlife wealth of Patharia Hills Reserve Forest, Assam, India: A critical analysis' by 'Nazimur Rahman' to disc
+[INFO]11:27:10 Written 'Original research articleConserving wildlife wealth of Patharia Hills Reserve Forest, Assam, India: A critical analysis' to disc
+[INFO]11:27:10 Abstract Number: 19
+[INFO]11:27:10 Abstract ID: S0092867413008362
+[INFO]11:27:11 Page status: 200
+[INFO]11:27:11 Souping page
+[INFO]11:27:12 Souped page
+[INFO]11:27:12 Writing 'SelectLearning from Exotic Species' by Author not available to disc
+[INFO]11:27:12 Written 'SelectLearning from Exotic Species' to disc
+[INFO]11:27:12 Abstract Number: 20
+[INFO]11:27:12 Abstract ID: S2287884X1730002X
+[INFO]11:27:13 Page status: 200
+[INFO]11:27:13 Souping page
+[INFO]11:27:14 Souped page
+[INFO]11:27:14 Writing 'Original articleTaxonomic revision of the tribe Danaini (Lepidoptera: Nymphalidae: Danainae) from Myanmar' by 'Nan Zarchi' to disc
+[INFO]11:27:14 Written 'Original articleTaxonomic revision of the tribe Danaini (Lepidoptera: Nymphalidae: Danainae) from Myanmar' to disc
+[INFO]11:27:14 Abstract Number: 21
+[INFO]11:27:14 Abstract ID: S0169534718301812
+[INFO]11:27:15 Page status: 200
+[INFO]11:27:15 Souping page
+[INFO]11:27:17 Souped page
+[INFO]11:27:17 Writing 'ReviewOutstanding Challenges in the Transferability of Ecological Models' by 'Katherine L.' to disc
+[INFO]11:27:17 Written 'ReviewOutstanding Challenges in the Transferability of Ecological Models' to disc
+[INFO]11:27:17 Abstract Number: 22
+[INFO]11:27:17 Abstract ID: S0960982212012547
+[INFO]11:27:18 Page status: 200
+[INFO]11:27:18 Souping page
+[INFO]11:27:19 Souped page
+[INFO]11:27:19 Writing 'FeatureFelids fighting for survival' by 'Michael' to disc
+[INFO]11:27:19 Written 'FeatureFelids fighting for survival' to disc
+[INFO]11:27:19 Abstract Number: 23
+[INFO]11:27:19 Abstract ID: S2451830118300323
+[INFO]11:27:20 Page status: 200
+[INFO]11:27:20 Souping page
+[INFO]11:27:21 Souped page
+[INFO]11:27:21 Writing 'Effects of primatological training on anthropomorphic valuations of emotions' by 'Roberto E.' to disc
+[INFO]11:27:21 Written 'Effects of primatological training on anthropomorphic valuations of emotions' to disc
+[INFO]11:27:21 Abstract Number: 24
+[INFO]11:27:21 Abstract ID: S2468550X16300260
+[INFO]11:27:22 Page status: 200
+[INFO]11:27:22 Souping page
+[INFO]11:27:23 Souped page
+[INFO]11:27:23 Writing 'Fisheries resources of Bangladesh: Present status and future direction' by 'Md. Mostafa' to disc
+[INFO]11:27:23 Written 'Fisheries resources of Bangladesh: Present status and future direction' to disc
+[INFO]11:27:23 Abstract Number: 25
+[INFO]11:27:23 Abstract ID: S0960982215005382
+[INFO]11:27:24 Page status: 200
+[INFO]11:27:24 Souping page
+[INFO]11:27:25 Souped page
+[INFO]11:27:25 Writing 'FeatureCan zoos offer more than entertainment?' by 'Michael' to disc
+[INFO]11:27:25 Written 'FeatureCan zoos offer more than entertainment?' to disc
+[INFO]11:27:25 Abstract Number: 26
+[INFO]11:27:25 Abstract ID: S2287884X18300542
+[INFO]11:27:26 Page status: 200
+[INFO]11:27:26 Souping page
+[INFO]11:27:27 Souped page
+[INFO]11:27:27 Writing 'Review ArticleConservation status of some endangered mammals in Barak Valley, Northeast India' by 'Nazimur Rahman' to disc
+[INFO]11:27:27 Written 'Review ArticleConservation status of some endangered mammals in Barak Valley, Northeast India' to disc
+[INFO]11:27:27 Abstract Number: 27
+[INFO]11:27:27 Abstract ID: S0960982209016157
+[INFO]11:27:28 Page status: 200
+[INFO]11:27:28 Souping page
+[INFO]11:27:28 Souped page
+[INFO]11:27:28 Writing 'FeatureSpecies highs' by 'Nigel' to disc
+[INFO]11:27:28 Written 'FeatureSpecies highs' to disc
+[INFO]11:27:28 Abstract Number: 28
+[INFO]11:27:28 Abstract ID: S1687157X17300148
+[INFO]11:27:29 Page status: 200
+[INFO]11:27:29 Souping page
+[INFO]11:27:30 Souped page
+[INFO]11:27:30 Writing 'Original ArticleGenetic variation in wild and hatchery populations of giant freshwater prawn (Macrobrachium rosenbergii) revealed by randomly amplified polymorphic DNA markers' by 'Babul' to disc
+[INFO]11:27:30 Written 'Original ArticleGenetic variation in wild and hatchery populations of giant freshwater prawn (Macrobrachium rosenbergii) revealed by randomly amplified polymorphic DNA markers' to disc
+[INFO]11:27:30 Abstract Number: 29
+[INFO]11:27:30 Abstract ID: S2351989416300786
+[INFO]11:27:30 Page status: 200
+[INFO]11:27:30 Souping page
+[INFO]11:27:31 Souped page
+[INFO]11:27:31 Writing 'Original research articleAssessing patterns of human\xe2\x80\x93Asiatic black bear interaction in and around Wangchuck Centennial National Park, Bhutan' by 'Yonten' to disc
+[INFO]11:27:31 Written 'Original research articleAssessing patterns of human\xe2\x80\x93Asiatic black bear interaction in and around Wangchuck Centennial National Park, Bhutan' to disc
+[INFO]11:27:31 Abstract Number: 30
+[INFO]11:27:31 Abstract ID: S221209471500002X
+[INFO]11:27:31 Page status: 200
+[INFO]11:27:31 Souping page
+[INFO]11:27:32 Souped page
+[INFO]11:27:32 Writing 'Natural and traditional defense mechanisms to reduce climate risks in coastal zones of Bangladesh' by 'Mohammed' to disc
+[INFO]11:27:32 Written 'Natural and traditional defense mechanisms to reduce climate risks in coastal zones of Bangladesh' to disc
+[INFO]11:27:32 Abstract Number: 31
+[INFO]11:27:32 Abstract ID: S2213224417300081
+[INFO]11:27:33 Page status: 200
+[INFO]11:27:33 Souping page
+[INFO]11:27:33 Souped page
+[INFO]11:27:33 Writing 'The diversity and impact of hookworm infections in wildlife' by 'Mauricio' to disc
+[INFO]11:27:33 Written 'The diversity and impact of hookworm infections in wildlife' to disc
+[INFO]11:27:33 Abstract Number: 32
+[INFO]11:27:33 Abstract ID: S2092521218300221
+[INFO]11:27:34 Page status: 200
+[INFO]11:27:34 Souping page
+[INFO]11:27:34 Souped page
+[INFO]11:27:34 Writing 'Transshipment Hub Port Competitiveness of the Port of Colombo against the Major Southeast Asian Hub Ports*' by 'Chathumi Ayanthi' to disc
+[INFO]11:27:34 Written 'Transshipment Hub Port Competitiveness of the Port of Colombo against the Major Southeast Asian Hub Ports*' to disc
+[INFO]11:27:34 Abstract Number: 33
+[INFO]11:27:34 Abstract ID: S0960982201003633
+[INFO]11:27:36 Page status: 200
+[INFO]11:27:36 Souping page
+[INFO]11:27:36 Souped page
+[INFO]11:27:36 Writing 'DispatchDecision making: The two stages of neuronal judgement' by 'B.A.J' to disc
+[INFO]11:27:36 Written 'DispatchDecision making: The two stages of neuronal judgement' to disc
+[INFO]11:27:36 Abstract Number: 34
+[INFO]11:27:36 Abstract ID: S2287884X15000308
+[INFO]11:27:37 Page status: 200
+[INFO]11:27:37 Souping page
+[INFO]11:27:37 Souped page
+[INFO]11:27:37 Writing 'Original articleTaxonomic review of ant genus Nylanderia Emery, 1906 (Hymenoptera: Formicidae) in India' by 'Aijaz Ahmad' to disc
+[INFO]11:27:37 Written 'Original articleTaxonomic review of ant genus Nylanderia Emery, 1906 (Hymenoptera: Formicidae) in India' to disc
+[INFO]11:27:37 Abstract Number: 35
+[INFO]11:27:37 Abstract ID: S2092521217300573
+[INFO]11:27:38 Page status: 200
+[INFO]11:27:38 Souping page
+[INFO]11:27:38 Souped page
+[INFO]11:27:38 Writing 'An Empirical Study on the Current Feeder Shipping Network Patterns among Malaysian Feeder Service Providers\xe2\x98\x86' by 'Muhamad Nasir' to disc
+[INFO]11:27:38 Written 'An Empirical Study on the Current Feeder Shipping Network Patterns among Malaysian Feeder Service Providers\xe2\x98\x86' to disc
+[INFO]11:27:38 Abstract Number: 36
+[INFO]11:27:38 Abstract ID: S1617138117300638
+[INFO]11:27:39 Page status: 200
+[INFO]11:27:39 Souping page
+[INFO]11:27:39 Souped page
+[INFO]11:27:39 Writing 'Research paperWillingness to pay for mitigating human-elephant conflict by residents of Nepal' by 'Dinesh' to disc
+[INFO]11:27:39 Written 'Research paperWillingness to pay for mitigating human-elephant conflict by residents of Nepal' to disc
+[INFO]11:27:39 Abstract Number: 37
+[INFO]11:27:39 Abstract ID: S2351989415300342
+[INFO]11:27:40 Page status: 200
+[INFO]11:27:40 Souping page
+[INFO]11:27:40 Souped page
+[INFO]11:27:40 Writing 'Original research articlePangolin trade in the Mong La wildlife market and the role of Myanmar in the smuggling of pangolins into China' by 'Vincent' to disc
+[INFO]11:27:41 Written 'Original research articlePangolin trade in the Mong La wildlife market and the role of Myanmar in the smuggling of pangolins into China' to disc
+[INFO]11:27:41 Abstract Number: 38
+[INFO]11:27:41 Abstract ID: S1877042815055172
+[INFO]11:27:41 Page status: 200
+[INFO]11:27:41 Souping page
+[INFO]11:27:42 Souped page
+[INFO]11:27:42 Writing 'The Semang Kensiu Orang Asli of Lubuk Legong, Baling: Their Language and Cultural Endangerment\xe2\x98\x86' by 'Alias Abd' to disc
+[INFO]11:27:42 Written 'The Semang Kensiu Orang Asli of Lubuk Legong, Baling: Their Language and Cultural Endangerment\xe2\x98\x86' to disc
+[INFO]11:27:42 Abstract Number: 39
+[INFO]11:27:42 Abstract ID: S2212609015000102
+[INFO]11:27:42 Page status: 200
+[INFO]11:27:42 Souping page
+[INFO]11:27:43 Souped page
+[INFO]11:27:43 Writing 'Original Article/ResearchEcological integrity and environmental protection for Vijayawada region \xe2\x80\x93 Scattered Eastern Ghats' by 'Srikonda' to disc
+[INFO]11:27:43 Written 'Original Article/ResearchEcological integrity and environmental protection for Vijayawada region \xe2\x80\x93 Scattered Eastern Ghats' to disc
+[INFO]11:27:43 Abstract Number: 40
+[INFO]11:27:43 Abstract ID: S2351989415000128
+[INFO]11:27:43 Page status: 200
+[INFO]11:27:43 Souping page
+[INFO]11:27:44 Souped page
+[INFO]11:27:44 Writing 'Original research articleHigh carbon stocks in roadside plantations under participatory management in Bangladesh' by 'Md. Mizanur' to disc
+[INFO]11:27:44 Written 'Original research articleHigh carbon stocks in roadside plantations under participatory management in Bangladesh' to disc
+[INFO]11:27:44 Abstract Number: 41
+[INFO]11:27:44 Abstract ID: S0254629913004535
+[INFO]11:27:45 Page status: 200
+[INFO]11:27:45 Souping page
+[INFO]11:27:45 Souped page
+[INFO]11:27:45 Writing 'Influence of seasonal variation in water quality on the microalgal diversity of sewage wastewater' by 'Nirmal' to disc
+[INFO]11:27:45 Written 'Influence of seasonal variation in water quality on the microalgal diversity of sewage wastewater' to disc
+[INFO]11:27:45 Abstract Number: 42
+[INFO]11:27:45 Abstract ID: S2214011514000149
+[INFO]11:27:46 Page status: 200
+[INFO]11:27:46 Souping page
+[INFO]11:27:47 Souped page
+[INFO]11:27:47 Writing 'Tackling Food Price Volatility: The Challenge of the Days to Come\xe2\x98\x86' by 'Siddique' to disc
+[INFO]11:27:47 Written 'Tackling Food Price Volatility: The Challenge of the Days to Come\xe2\x98\x86' to disc
+[INFO]11:27:47 Abstract Number: 43
+[INFO]11:27:47 Abstract ID: S1018364713000268
+[INFO]11:27:47 Page status: 200
+[INFO]11:27:47 Souping page
+[INFO]11:27:48 Souped page
+[INFO]11:27:48 Writing 'ORIGINAL ARTICLEScreening and characterization of antimicrobial secondary metabolites from Halomonas salifodinae MPM-TC and its in vivo antiviral influence on Indian white shrimp Fenneropenaeus indicus against WSSV challenge' by 'S.' to disc
+[INFO]11:27:48 Written 'ORIGINAL ARTICLEScreening and characterization of antimicrobial secondary metabolites from Halomonas salifodinae MPM-TC and its in vivo antiviral influence on Indian white shrimp Fenneropenaeus indicus against WSSV challenge' to disc
+[INFO]11:27:48 Abstract Number: 44
+[INFO]11:27:48 Abstract ID: S0944501311000589
+[INFO]11:27:49 Page status: 200
+[INFO]11:27:49 Souping page
+[INFO]11:27:49 Souped page
+[INFO]11:27:49 Writing 'cDNA cloning, characterization and expression analysis of a novel antimicrobial peptide gene penaeidin-3 (Fi-Pen3) from the haemocytes of Indian white shrimp Fenneropenaeus indicus' by 'S.' to disc
+[INFO]11:27:49 Written 'cDNA cloning, characterization and expression analysis of a novel antimicrobial peptide gene penaeidin-3 (Fi-Pen3) from the haemocytes of Indian white shrimp Fenneropenaeus indicus' to disc
+[INFO]11:27:49 Abstract Number: 45
+[INFO]11:27:49 Abstract ID: S2221169115302549
+[INFO]11:27:50 Page status: 200
+[INFO]11:27:50 Souping page
+[INFO]11:27:50 Souped page
+[INFO]11:27:50 Writing 'Document headingScreening, isolation and optimization of anti\xe2\x80\x93white spot syndrome virus drug derived from terrestrial plants' by 'Upasana' to disc
+[INFO]11:27:50 Written 'Document headingScreening, isolation and optimization of anti\xe2\x80\x93white spot syndrome virus drug derived from terrestrial plants' to disc
+[INFO]11:27:50 Abstract Number: 46
+[INFO]11:27:50 Abstract ID: S221201731300515X
+[INFO]11:27:51 Page status: 200
+[INFO]11:27:51 Souping page
+[INFO]11:27:51 Souped page
+[INFO]11:27:51 Writing 'Random Walks based Image Segmentation Using Color Space Graphs\xe2\x98\x86' by 'Sonu Kumar' to disc
+[INFO]11:27:51 Written 'Random Walks based Image Segmentation Using Color Space Graphs\xe2\x98\x86' to disc
+[INFO]11:27:51 Abstract Number: 47
+[INFO]11:27:51 Abstract ID: S1877042812007574
+[INFO]11:27:52 Page status: 200
+[INFO]11:27:52 Souping page
+[INFO]11:27:53 Souped page
+[INFO]11:27:53 Writing 'Inclusive growth in India through Islamic banking' by 'Faisal' to disc
+[INFO]11:27:53 Written 'Inclusive growth in India through Islamic banking' to disc
+[INFO]11:27:53 Abstract Number: 48
+[INFO]11:27:53 Abstract ID: S2352249616300118
+[INFO]11:27:53 Page status: 200
+[INFO]11:27:53 Souping page
+[INFO]11:27:54 Souped page
+[INFO]11:27:54 Writing 'Roles for the Canidae in food webs reviewed: Where do they fit?' by 'Peter J.S.' to disc
+[INFO]11:27:54 Written 'Roles for the Canidae in food webs reviewed: Where do they fit?' to disc
+[INFO]11:27:54 Abstract Number: 49
+[INFO]11:27:54 Abstract ID: S0944501313000177
+[INFO]11:27:55 Page status: 200
+[INFO]11:27:55 Souping page
+[INFO]11:27:55 Souped page
+[INFO]11:27:55 Writing 'RETRACTED: Marine actinobacterial metabolites: Current status and future perspectives' by 'Panchanathan' to disc
+[INFO]11:27:55 Written 'RETRACTED: Marine actinobacterial metabolites: Current status and future perspectives' to disc
+[INFO]11:27:55 Abstract Number: 50
+[INFO]11:27:55 Abstract ID: S0019483214000984
+[INFO]11:27:56 Page status: 200
+[INFO]11:27:56 Souping page
+[INFO]11:27:56 Souped page
+[INFO]11:27:56 Writing 'Pending abstracts from CSI 2013' by Author not available to disc
+[INFO]11:27:56 Written 'Pending abstracts from CSI 2013' to disc
+[INFO]11:27:56 Abstract Number: 51
+[INFO]11:27:56 Abstract ID: S1319610312000397
+[INFO]11:27:57 Page status: 200
+[INFO]11:27:57 Souping page
+[INFO]11:27:57 Souped page
+[INFO]11:27:57 Writing 'ORIGINAL ARTICLENatural products in treatment of ulcerative colitis and peptic ulcer' by 'Amani S.' to disc
+[INFO]11:27:57 Written 'ORIGINAL ARTICLENatural products in treatment of ulcerative colitis and peptic ulcer' to disc
+[INFO]11:27:57 Abstract Number: 52
+[INFO]11:27:57 Abstract ID: 0014579376810083
+[INFO]11:27:58 Page status: 200
+[INFO]11:27:58 Souping page
+[INFO]11:27:59 Souped page
+[INFO]11:27:59 Writing 'Master author index' by Author not available to disc
+[INFO]11:27:59 Written 'Master author index' to disc
+[INFO]11:27:59 Abstract Number: 53
+[INFO]11:27:59 Abstract ID: S0735109717369097
+[INFO]11:27:59 Page status: 200
+[INFO]11:27:59 Souping page
+[INFO]11:28:1 Souped page
+[INFO]11:28:1 Writing 'Full Issue PDF' by Author not available to disc
+[INFO]11:28:1 Written 'Full Issue PDF' to disc
+[INFO]11:28:1 Abstract Number: 54
+[INFO]11:28:1 Abstract ID: 001457938981703X
+[INFO]11:28:2 Page status: 200
+[INFO]11:28:2 Souping page
+[INFO]11:28:2 Souped page
+[INFO]11:28:2 Writing 'FEBS letters volumes 242\xe2\x80\x93258 master author index' by Author not available to disc
+[INFO]11:28:2 Written 'FEBS letters volumes 242\xe2\x80\x93258 master author index' to disc
+[INFO]11:28:2 Process has successfully ended

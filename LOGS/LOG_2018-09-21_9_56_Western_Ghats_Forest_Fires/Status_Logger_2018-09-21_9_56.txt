@@ -1,0 +1,2091 @@
+Session: 21/9/2018
+Time: 9:56:23
+[INFO]9:56:23 Built LOG folder for session
+[INFO]9:56:23 https://www.sciencedirect.com/search?qs=Western%20Ghats%20Forest%20Fires&show=100&sortBy=relevance&offset= start_url has been received
+[INFO]9:56:23 https://www.sciencedirect.com/search?qs=Western%20Ghats%20Forest%20Fires&show=100&sortBy=relevance&offset=0 has been obtained
+[INFO]9:56:27 https://www.sciencedirect.com/search?qs=Western%20Ghats%20Forest%20Fires&show=100&sortBy=relevance&offset=100 has been obtained
+[INFO]9:56:32 https://www.sciencedirect.com/search?qs=Western%20Ghats%20Forest%20Fires&show=100&sortBy=relevance&offset=200 has been obtained
+[INFO]9:56:35 https://www.sciencedirect.com/search?qs=Western%20Ghats%20Forest%20Fires&show=100&sortBy=relevance&offset=300 has been obtained
+[INFO]9:56:38 https://www.sciencedirect.com/search?qs=Western%20Ghats%20Forest%20Fires&show=100&sortBy=relevance&offset=400 has been obtained
+[INFO]9:56:39 https://www.sciencedirect.com/search?qs=Western%20Ghats%20Forest%20Fires&show=100&sortBy=relevance&offset=500 has been obtained
+[INFO]9:56:42 Page status: 200
+[INFO]9:56:42 Souping page
+[INFO]9:56:43 Souped page
+[INFO]9:56:43 Scraping IDs
+[INFO]9:56:47 Scraped IDs
+[INFO]9:56:47 Extracting Abstract IDs from disc
+[INFO]9:56:47 Extracted Abstract IDs from disc
+[INFO]9:56:47 Abstract Number: 1
+[INFO]9:56:48 Abstract ID: S0378112715000079
+[INFO]9:56:49 Page status: 200
+[INFO]9:56:49 Souping page
+[INFO]9:56:49 Souped page
+[INFO]9:56:49 Writing 'Post-fire regeneration dynamics of tree species in a tropical dry deciduous forest, Western Ghats, India' by 'Satyam' to disc
+[INFO]9:56:49 Written 'Post-fire regeneration dynamics of tree species in a tropical dry deciduous forest, Western Ghats, India' to disc
+[INFO]9:56:49 Abstract Number: 2
+[INFO]9:56:49 Abstract ID: S1040618215013610
+[INFO]9:56:50 Page status: 200
+[INFO]9:56:50 Souping page
+[INFO]9:56:51 Souped page
+[INFO]9:56:51 Writing 'Phytolith analysis reveals the intensity of past land use change in the Western Ghats biodiversity hotspot' by 'Sandra' to disc
+[INFO]9:56:51 Written 'Phytolith analysis reveals the intensity of past land use change in the Western Ghats biodiversity hotspot' to disc
+[INFO]9:56:51 Abstract Number: 3
+[INFO]9:56:51 Abstract ID: S2352938517302380
+[INFO]9:56:52 Page status: 200
+[INFO]9:56:52 Souping page
+[INFO]9:56:53 Souped page
+[INFO]9:56:53 Writing 'Significant decline of forest fires in Nilgiri Biosphere Reserve, India' by 'C.' to disc
+[INFO]9:56:53 Written 'Significant decline of forest fires in Nilgiri Biosphere Reserve, India' to disc
+[INFO]9:56:53 Abstract Number: 4
+[INFO]9:56:53 Abstract ID: S0301479717307727
+[INFO]9:56:54 Page status: 200
+[INFO]9:56:54 Souping page
+[INFO]9:56:54 Souped page
+[INFO]9:56:55 Writing 'Research articleModelling landscape dynamics with LST in protected areas of Western Ghats, Karnataka' by 'T.V.' to disc
+[INFO]9:56:55 Written 'Research articleModelling landscape dynamics with LST in protected areas of Western Ghats, Karnataka' to disc
+[INFO]9:56:55 Abstract Number: 5
+[INFO]9:56:55 Abstract ID: S1754504816301052
+[INFO]9:56:56 Page status: 200
+[INFO]9:56:56 Souping page
+[INFO]9:56:56 Souped page
+[INFO]9:56:56 Writing 'Pestalotiopsis species occur as generalist endophytes in trees of Western Ghats forests of southern India' by 'M. Sudhakara' to disc
+[INFO]9:56:56 Written 'Pestalotiopsis species occur as generalist endophytes in trees of Western Ghats forests of southern India' to disc
+[INFO]9:56:56 Abstract Number: 6
+[INFO]9:56:56 Abstract ID: S0925857418302301
+[INFO]9:56:57 Page status: 200
+[INFO]9:56:57 Souping page
+[INFO]9:56:57 Souped page
+[INFO]9:56:57 Writing 'Niche models inform the effects of climate change on the endangered Nilgiri Tahr (Nilgiritragus hylocrius) populations in the southern Western Ghats, India' by 'R.K.' to disc
+[INFO]9:56:57 Written 'Niche models inform the effects of climate change on the endangered Nilgiri Tahr (Nilgiritragus hylocrius) populations in the southern Western Ghats, India' to disc
+[INFO]9:56:57 Abstract Number: 7
+[INFO]9:56:57 Abstract ID: S037811271300772X
+[INFO]9:56:58 Page status: 200
+[INFO]9:56:58 Souping page
+[INFO]9:56:59 Souped page
+[INFO]9:56:59 Writing 'Cultural drivers of reforestation in tropical forest groves of the Western Ghats of India' by 'Shonil A.' to disc
+[INFO]9:56:59 Written 'Cultural drivers of reforestation in tropical forest groves of the Western Ghats of India' to disc
+[INFO]9:56:59 Abstract Number: 8
+[INFO]9:56:59 Abstract ID: S000632071731830X
+[INFO]9:57:0 Page status: 200
+[INFO]9:57:0 Souping page
+[INFO]9:57:0 Souped page
+[INFO]9:57:1 Writing 'Parks protect forest cover in a tropical biodiversity hotspot, but high human population densities can limit success' by 'Meghna' to disc
+[INFO]9:57:1 Written 'Parks protect forest cover in a tropical biodiversity hotspot, but high human population densities can limit success' to disc
+[INFO]9:57:1 Abstract Number: 9
+[INFO]9:57:1 Abstract ID: S1110982317304258
+[INFO]9:57:2 Page status: 200
+[INFO]9:57:2 Souping page
+[INFO]9:57:2 Souped page
+[INFO]9:57:2 Writing 'Research PaperAssessing the impact of land use and land cover changes on the remnant patches of Kondapalli reserve forest of the Eastern Ghats, Andhra Pradesh, India' by 'N.N.' to disc
+[INFO]9:57:2 Written 'Research PaperAssessing the impact of land use and land cover changes on the remnant patches of Kondapalli reserve forest of the Eastern Ghats, Andhra Pradesh, India' to disc
+[INFO]9:57:2 Abstract Number: 10
+[INFO]9:57:2 Abstract ID: S0006320717321638
+[INFO]9:57:3 Page status: 200
+[INFO]9:57:3 Souping page
+[INFO]9:57:4 Souped page
+[INFO]9:57:4 Writing '\xe2\x80\x98Foresting\xe2\x80\x99 the grassland: Historical management legacies in forest-grassland mosaics in southern India, and lessons for the conservation of tropical grassy biomes' by 'Atul Arvind' to disc
+[INFO]9:57:4 Written '\xe2\x80\x98Foresting\xe2\x80\x99 the grassland: Historical management legacies in forest-grassland mosaics in southern India, and lessons for the conservation of tropical grassy biomes' to disc
+[INFO]9:57:4 Abstract Number: 11
+[INFO]9:57:4 Abstract ID: S2212096317300931
+[INFO]9:57:5 Page status: 200
+[INFO]9:57:5 Souping page
+[INFO]9:57:6 Souped page
+[INFO]9:57:6 Writing 'Predicting climate change impacts on the distribution of the threatened Garcinia indica in the Western Ghats, India' by 'Malay' to disc
+[INFO]9:57:6 Written 'Predicting climate change impacts on the distribution of the threatened Garcinia indica in the Western Ghats, India' to disc
+[INFO]9:57:6 Abstract Number: 12
+[INFO]9:57:6 Abstract ID: S037811270800399X
+[INFO]9:57:7 Page status: 200
+[INFO]9:57:7 Souping page
+[INFO]9:57:8 Souped page
+[INFO]9:57:8 Writing 'A comparative analysis of spatial, temporal, and ecological characteristics of forest fires in seasonally dry tropical ecosystems in the Western Ghats, India' by 'Narendran' to disc
+[INFO]9:57:8 Written 'A comparative analysis of spatial, temporal, and ecological characteristics of forest fires in seasonally dry tropical ecosystems in the Western Ghats, India' to disc
+[INFO]9:57:8 Abstract Number: 13
+[INFO]9:57:8 Abstract ID: S0925857416300064
+[INFO]9:57:10 Page status: 200
+[INFO]9:57:10 Souping page
+[INFO]9:57:11 Souped page
+[INFO]9:57:11 Writing 'Modeling impacts of future climate on the distribution of Myristicaceae species in the Western Ghats, India' by 'Hebbar' to disc
+[INFO]9:57:11 Written 'Modeling impacts of future climate on the distribution of Myristicaceae species in the Western Ghats, India' to disc
+[INFO]9:57:11 Abstract Number: 14
+[INFO]9:57:11 Abstract ID: S0264837711001335
+[INFO]9:57:12 Page status: 200
+[INFO]9:57:12 Souping page
+[INFO]9:57:13 Souped page
+[INFO]9:57:13 Writing 'Forest resource use and perception of farmers on conservation of a usufruct forest (Soppinabetta) of Western Ghats, India' by 'Palatty Allesh' to disc
+[INFO]9:57:13 Written 'Forest resource use and perception of farmers on conservation of a usufruct forest (Soppinabetta) of Western Ghats, India' to disc
+[INFO]9:57:13 Abstract Number: 15
+[INFO]9:57:13 Abstract ID: S0006320710000145
+[INFO]9:57:15 Page status: 200
+[INFO]9:57:15 Souping page
+[INFO]9:57:16 Souped page
+[INFO]9:57:16 Writing 'Sustaining biodiversity conservation in human-modified landscapes in the Western Ghats: Remnant forests matter' by 'M.O.' to disc
+[INFO]9:57:16 Written 'Sustaining biodiversity conservation in human-modified landscapes in the Western Ghats: Remnant forests matter' to disc
+[INFO]9:57:16 Abstract Number: 16
+[INFO]9:57:16 Abstract ID: S0378112714000632
+[INFO]9:57:18 Page status: 200
+[INFO]9:57:18 Souping page
+[INFO]9:57:18 Souped page
+[INFO]9:57:18 Writing 'Altered stand structure and tree allometry reduce carbon storage in evergreen forest fragments in India\xe2\x80\x99s Western Ghats' by 'Anand M.' to disc
+[INFO]9:57:18 Written 'Altered stand structure and tree allometry reduce carbon storage in evergreen forest fragments in India\xe2\x80\x99s Western Ghats' to disc
+[INFO]9:57:18 Abstract Number: 17
+[INFO]9:57:18 Abstract ID: S0022169412008190
+[INFO]9:57:20 Page status: 200
+[INFO]9:57:20 Souping page
+[INFO]9:57:21 Souped page
+[INFO]9:57:21 Writing 'The rain\xe2\x80\x93runoff response of tropical humid forest ecosystems to use and reforestation in the Western Ghats of India' by 'Jagdish' to disc
+[INFO]9:57:21 Written 'The rain\xe2\x80\x93runoff response of tropical humid forest ecosystems to use and reforestation in the Western Ghats of India' to disc
+[INFO]9:57:21 Abstract Number: 18
+[INFO]9:57:21 Abstract ID: S0006320714002961
+[INFO]9:57:23 Page status: 200
+[INFO]9:57:23 Souping page
+[INFO]9:57:24 Souped page
+[INFO]9:57:24 Writing 'Short communicationSpatio-temporal variation in forest cover and biomass across sacred groves in a human-modified landscape of India\xe2\x80\x99s Western Ghats' by 'Anand M.' to disc
+[INFO]9:57:24 Written 'Short communicationSpatio-temporal variation in forest cover and biomass across sacred groves in a human-modified landscape of India\xe2\x80\x99s Western Ghats' to disc
+[INFO]9:57:24 Abstract Number: 19
+[INFO]9:57:24 Abstract ID: S0022169414005265
+[INFO]9:57:25 Page status: 200
+[INFO]9:57:25 Souping page
+[INFO]9:57:26 Souped page
+[INFO]9:57:26 Writing 'Spatiotemporal analysis of the effects of forest covers on stream water quality in Western Ghats of peninsular India' by 'Sunita' to disc
+[INFO]9:57:26 Written 'Spatiotemporal analysis of the effects of forest covers on stream water quality in Western Ghats of peninsular India' to disc
+[INFO]9:57:26 Abstract Number: 20
+[INFO]9:57:26 Abstract ID: S0169809515000885
+[INFO]9:57:28 Page status: 200
+[INFO]9:57:28 Souping page
+[INFO]9:57:29 Souped page
+[INFO]9:57:29 Writing 'The impact of the Western Ghats on lightning activity on the western coast of India' by 'A.K.' to disc
+[INFO]9:57:29 Written 'The impact of the Western Ghats on lightning activity on the western coast of India' to disc
+[INFO]9:57:29 Abstract Number: 21
+[INFO]9:57:29 Abstract ID: S2287884X15000059
+[INFO]9:57:30 Page status: 200
+[INFO]9:57:30 Souping page
+[INFO]9:57:30 Souped page
+[INFO]9:57:30 Writing 'Original articleNatural history of the trapdoor spider Idiops joidaGupta et\xc2\xa0al 2013 (Araneae: Idiopidae) from the Western Ghats in India' by 'Neha' to disc
+[INFO]9:57:30 Written 'Original articleNatural history of the trapdoor spider Idiops joidaGupta et\xc2\xa0al 2013 (Araneae: Idiopidae) from the Western Ghats in India' to disc
+[INFO]9:57:31 Abstract Number: 22
+[INFO]9:57:31 Abstract ID: S1872203215300366
+[INFO]9:57:32 Page status: 200
+[INFO]9:57:32 Souping page
+[INFO]9:57:32 Souped page
+[INFO]9:57:32 Writing 'Native vegetation pattern and the spread of three invasive species in Palani Hill National Park, Western Ghats of India' by 'B.' to disc
+[INFO]9:57:32 Written 'Native vegetation pattern and the spread of three invasive species in Palani Hill National Park, Western Ghats of India' to disc
+[INFO]9:57:32 Abstract Number: 23
+[INFO]9:57:32 Abstract ID: S1110982316300400
+[INFO]9:57:33 Page status: 200
+[INFO]9:57:33 Souping page
+[INFO]9:57:34 Souped page
+[INFO]9:57:34 Writing 'Research PaperStimulus of developmental projects to landscape dynamics in Uttara Kannada, Central Western Ghats' by 'T.V.' to disc
+[INFO]9:57:34 Written 'Research PaperStimulus of developmental projects to landscape dynamics in Uttara Kannada, Central Western Ghats' to disc
+[INFO]9:57:34 Abstract Number: 24
+[INFO]9:57:34 Abstract ID: S0378112713005525
+[INFO]9:57:35 Page status: 200
+[INFO]9:57:35 Souping page
+[INFO]9:57:36 Souped page
+[INFO]9:57:36 Writing 'Distribution characteristics and the influence factors of forest fires in China' by 'Xiaorui' to disc
+[INFO]9:57:36 Written 'Distribution characteristics and the influence factors of forest fires in China' to disc
+[INFO]9:57:36 Abstract Number: 25
+[INFO]9:57:36 Abstract ID: S1352231018301341
+[INFO]9:57:37 Page status: 200
+[INFO]9:57:37 Souping page
+[INFO]9:57:37 Souped page
+[INFO]9:57:37 Writing 'Seasonal variability in chemical composition and source apportionment of sub-micron aerosol over a high altitude site in Western Ghats, India' by 'Subrata' to disc
+[INFO]9:57:37 Written 'Seasonal variability in chemical composition and source apportionment of sub-micron aerosol over a high altitude site in Western Ghats, India' to disc
+[INFO]9:57:37 Abstract Number: 26
+[INFO]9:57:37 Abstract ID: S0022169410004178
+[INFO]9:57:39 Page status: 200
+[INFO]9:57:39 Souping page
+[INFO]9:57:39 Souped page
+[INFO]9:57:39 Writing 'The impact of forest use and reforestation on soil hydraulic conductivity in the Western Ghats of India: Implications for surface and sub-surface hydrology' by 'M.' to disc
+[INFO]9:57:39 Written 'The impact of forest use and reforestation on soil hydraulic conductivity in the Western Ghats of India: Implications for surface and sub-surface hydrology' to disc
+[INFO]9:57:39 Abstract Number: 27
+[INFO]9:57:39 Abstract ID: S002216941200296X
+[INFO]9:57:40 Page status: 200
+[INFO]9:57:40 Souping page
+[INFO]9:57:41 Souped page
+[INFO]9:57:41 Writing 'Spatiotemporal analysis of the effects of forest covers on water yield in the Western Ghats of peninsular India' by 'Sunita' to disc
+[INFO]9:57:41 Written 'Spatiotemporal analysis of the effects of forest covers on water yield in the Western Ghats of peninsular India' to disc
+[INFO]9:57:41 Abstract Number: 28
+[INFO]9:57:41 Abstract ID: S0022169410007481
+[INFO]9:57:42 Page status: 200
+[INFO]9:57:42 Souping page
+[INFO]9:57:43 Souped page
+[INFO]9:57:43 Writing 'Analysis of observed soil moisture patterns under different land covers in Western Ghats, India' by 'B.' to disc
+[INFO]9:57:43 Written 'Analysis of observed soil moisture patterns under different land covers in Western Ghats, India' to disc
+[INFO]9:57:43 Abstract Number: 29
+[INFO]9:57:43 Abstract ID: S0921818116303344
+[INFO]9:57:44 Page status: 200
+[INFO]9:57:44 Souping page
+[INFO]9:57:44 Souped page
+[INFO]9:57:44 Writing 'Development of spatial database on intact forest landscapes of India' by 'C.' to disc
+[INFO]9:57:44 Written 'Development of spatial database on intact forest landscapes of India' to disc
+[INFO]9:57:44 Abstract Number: 30
+[INFO]9:57:44 Abstract ID: S1470160X17307367
+[INFO]9:57:45 Page status: 200
+[INFO]9:57:45 Souping page
+[INFO]9:57:46 Souped page
+[INFO]9:57:46 Writing 'Spatial distribution of forest biomass carbon (Above and below ground) in Indian forests' by 'Gopalakrishnan' to disc
+[INFO]9:57:46 Written 'Spatial distribution of forest biomass carbon (Above and below ground) in Indian forests' to disc
+[INFO]9:57:46 Abstract Number: 31
+[INFO]9:57:46 Abstract ID: S136468261630205X
+[INFO]9:57:47 Page status: 200
+[INFO]9:57:47 Souping page
+[INFO]9:57:48 Souped page
+[INFO]9:57:48 Writing 'Analysing temporal variability of particulate matter and possible contributing factors over Mahabaleshwar, a high-altitude station in Western Ghats, India' by 'P.P.' to disc
+[INFO]9:57:48 Written 'Analysing temporal variability of particulate matter and possible contributing factors over Mahabaleshwar, a high-altitude station in Western Ghats, India' to disc
+[INFO]9:57:48 Abstract Number: 32
+[INFO]9:57:48 Abstract ID: S221330541830033X
+[INFO]9:57:49 Page status: 200
+[INFO]9:57:49 Souping page
+[INFO]9:57:49 Souped page
+[INFO]9:57:49 Writing 'ReviewFinding the anthropocene in tropical forests' by 'Patrick' to disc
+[INFO]9:57:49 Written 'ReviewFinding the anthropocene in tropical forests' to disc
+[INFO]9:57:49 Abstract Number: 33
+[INFO]9:57:49 Abstract ID: S2287884X17300043
+[INFO]9:57:51 Page status: 200
+[INFO]9:57:51 Souping page
+[INFO]9:57:51 Souped page
+[INFO]9:57:51 Writing 'Original articleA new species of Emilia Cass. (Asteraceae) from the Eastern Ghats of India with notes on ecosystem evaluation and conservation status' by 'Koppineedi Veera' to disc
+[INFO]9:57:51 Written 'Original articleA new species of Emilia Cass. (Asteraceae) from the Eastern Ghats of India with notes on ecosystem evaluation and conservation status' to disc
+[INFO]9:57:51 Abstract Number: 34
+[INFO]9:57:51 Abstract ID: S1877959X16301480
+[INFO]9:57:52 Page status: 200
+[INFO]9:57:52 Souping page
+[INFO]9:57:53 Souped page
+[INFO]9:57:53 Writing 'An outbreak of Kyasanur forest disease in the Wayanad and Malappuram districts of Kerala, India' by 'C.' to disc
+[INFO]9:57:53 Written 'An outbreak of Kyasanur forest disease in the Wayanad and Malappuram districts of Kerala, India' to disc
+[INFO]9:57:53 Abstract Number: 35
+[INFO]9:57:53 Abstract ID: S0006320712002303
+[INFO]9:57:54 Page status: 200
+[INFO]9:57:54 Souping page
+[INFO]9:57:55 Souped page
+[INFO]9:57:55 Writing 'Resilience of an ancient tropical forest landscape to 7500\xc2\xa0years of environmental change' by 'Shonil A.' to disc
+[INFO]9:57:55 Written 'Resilience of an ancient tropical forest landscape to 7500\xc2\xa0years of environmental change' to disc
+[INFO]9:57:55 Abstract Number: 36
+[INFO]9:57:55 Abstract ID: S0167880906004518
+[INFO]9:57:56 Page status: 200
+[INFO]9:57:56 Souping page
+[INFO]9:57:56 Souped page
+[INFO]9:57:56 Writing 'Poverty, biodiversity and institutions in forest-agriculture ecotones in the Western Ghats and Eastern Himalaya ranges of India' by 'Kamaljit S.' to disc
+[INFO]9:57:56 Written 'Poverty, biodiversity and institutions in forest-agriculture ecotones in the Western Ghats and Eastern Himalaya ranges of India' to disc
+[INFO]9:57:56 Abstract Number: 37
+[INFO]9:57:56 Abstract ID: S0301479716300627
+[INFO]9:57:57 Page status: 200
+[INFO]9:57:57 Souping page
+[INFO]9:57:58 Souped page
+[INFO]9:57:58 Writing 'Research articleApplying GIS to develop a model for forest fire risk: A case study in Esp\xc3\xadrito Santo, Brazil' by 'Fernando Coelho' to disc
+[INFO]9:57:58 Written 'Research articleApplying GIS to develop a model for forest fire risk: A case study in Esp\xc3\xadrito Santo, Brazil' to disc
+[INFO]9:57:58 Abstract Number: 38
+[INFO]9:57:58 Abstract ID: S0378112799000626
+[INFO]9:57:59 Page status: 200
+[INFO]9:57:59 Souping page
+[INFO]9:58:0 Souped page
+[INFO]9:58:0 Writing 'Litter production and leaf-litter decomposition of selected tree species in tropical forests at Kodayar in the Western Ghats, India' by 'S.M.' to disc
+[INFO]9:58:0 Written 'Litter production and leaf-litter decomposition of selected tree species in tropical forests at Kodayar in the Western Ghats, India' to disc
+[INFO]9:58:0 Abstract Number: 39
+[INFO]9:58:0 Abstract ID: S000632070500385X
+[INFO]9:58:1 Page status: 200
+[INFO]9:58:1 Souping page
+[INFO]9:58:1 Souped page
+[INFO]9:58:1 Writing 'Village size and forest disturbance in Bhadra Wildlife Sanctuary, Western Ghats, India' by 'Krithi K.' to disc
+[INFO]9:58:1 Written 'Village size and forest disturbance in Bhadra Wildlife Sanctuary, Western Ghats, India' to disc
+[INFO]9:58:1 Abstract Number: 40
+[INFO]9:58:1 Abstract ID: S0022169413004770
+[INFO]9:58:3 Page status: 200
+[INFO]9:58:3 Souping page
+[INFO]9:58:3 Souped page
+[INFO]9:58:3 Writing 'The groundwater recharge response and hydrologic services of tropical humid forest ecosystems to use and reforestation: Support for the \xe2\x80\x9cinfiltration-evapotranspiration trade-off hypothesis\xe2\x80\x9d' by 'Jagdish' to disc
+[INFO]9:58:3 Written 'The groundwater recharge response and hydrologic services of tropical humid forest ecosystems to use and reforestation: Support for the \xe2\x80\x9cinfiltration-evapotranspiration trade-off hypothesis\xe2\x80\x9d' to disc
+[INFO]9:58:3 Abstract Number: 41
+[INFO]9:58:3 Abstract ID: S037811271400125X
+[INFO]9:58:4 Page status: 200
+[INFO]9:58:4 Souping page
+[INFO]9:58:5 Souped page
+[INFO]9:58:5 Writing 'Use and cultivation of plants that yield products other than timber from South Asian tropical forests, and their potential in forest restoration' by 'M.S.' to disc
+[INFO]9:58:5 Written 'Use and cultivation of plants that yield products other than timber from South Asian tropical forests, and their potential in forest restoration' to disc
+[INFO]9:58:5 Abstract Number: 42
+[INFO]9:58:5 Abstract ID: S1146609X16301217
+[INFO]9:58:6 Page status: 200
+[INFO]9:58:6 Souping page
+[INFO]9:58:7 Souped page
+[INFO]9:58:7 Writing 'The effect of altitude, patch size and disturbance on species richness and density of lianas in montane forest patches' by 'Dharmalingam' to disc
+[INFO]9:58:7 Written 'The effect of altitude, patch size and disturbance on species richness and density of lianas in montane forest patches' to disc
+[INFO]9:58:7 Abstract Number: 43
+[INFO]9:58:7 Abstract ID: S0367326X13002621
+[INFO]9:58:8 Page status: 200
+[INFO]9:58:8 Souping page
+[INFO]9:58:9 Souped page
+[INFO]9:58:9 Writing 'Assessment of diversity among populations of Rauvolfia serpentina Benth. Ex. Kurtz. from Southern Western Ghats of India, based on chemical profiling, horticultural traits and RAPD analysis' by 'Vadakkemuriyil Divya' to disc
+[INFO]9:58:9 Written 'Assessment of diversity among populations of Rauvolfia serpentina Benth. Ex. Kurtz. from Southern Western Ghats of India, based on chemical profiling, horticultural traits and RAPD analysis' to disc
+[INFO]9:58:9 Abstract Number: 44
+[INFO]9:58:9 Abstract ID: S1146609X10000408
+[INFO]9:58:10 Page status: 200
+[INFO]9:58:10 Souping page
+[INFO]9:58:11 Souped page
+[INFO]9:58:11 Writing 'Original articleGrowth patterns of Chromolaena odorata in varied ecosystems at Kodayar in the Western Ghats, India' by 'Sivagnanam' to disc
+[INFO]9:58:11 Written 'Original articleGrowth patterns of Chromolaena odorata in varied ecosystems at Kodayar in the Western Ghats, India' to disc
+[INFO]9:58:11 Abstract Number: 45
+[INFO]9:58:11 Abstract ID: S0006320711000486
+[INFO]9:58:13 Page status: 200
+[INFO]9:58:13 Souping page
+[INFO]9:58:13 Souped page
+[INFO]9:58:13 Writing 'Patterns of spatiotemporal change in large mammal distribution and abundance in the southern Western Ghats, India' by 'Rajeev' to disc
+[INFO]9:58:14 Written 'Patterns of spatiotemporal change in large mammal distribution and abundance in the southern Western Ghats, India' to disc
+[INFO]9:58:14 Abstract Number: 46
+[INFO]9:58:14 Abstract ID: S0277379117304626
+[INFO]9:58:15 Page status: 200
+[INFO]9:58:15 Souping page
+[INFO]9:58:16 Souped page
+[INFO]9:58:16 Writing 'The formation of fire residues associated with hunter-gatherers in humid tropical environments: A geo-ethnoarchaeological perspective' by 'David E.' to disc
+[INFO]9:58:16 Written 'The formation of fire residues associated with hunter-gatherers in humid tropical environments: A geo-ethnoarchaeological perspective' to disc
+[INFO]9:58:16 Abstract Number: 47
+[INFO]9:58:16 Abstract ID: S0034425706001209
+[INFO]9:58:18 Page status: 200
+[INFO]9:58:18 Souping page
+[INFO]9:58:19 Souped page
+[INFO]9:58:19 Writing 'Monitoring forest fires over the Indian region using Defense Meteorological Satellite Program-Operational Linescan System nighttime satellite data' by 'T.R.' to disc
+[INFO]9:58:19 Written 'Monitoring forest fires over the Indian region using Defense Meteorological Satellite Program-Operational Linescan System nighttime satellite data' to disc
+[INFO]9:58:19 Abstract Number: 48
+[INFO]9:58:19 Abstract ID: S2212609015000102
+[INFO]9:58:21 Page status: 200
+[INFO]9:58:21 Souping page
+[INFO]9:58:21 Souped page
+[INFO]9:58:22 Writing 'Original Article/ResearchEcological integrity and environmental protection for Vijayawada region \xe2\x80\x93 Scattered Eastern Ghats' by 'Srikonda' to disc
+[INFO]9:58:22 Written 'Original Article/ResearchEcological integrity and environmental protection for Vijayawada region \xe2\x80\x93 Scattered Eastern Ghats' to disc
+[INFO]9:58:22 Abstract Number: 49
+[INFO]9:58:22 Abstract ID: S0264837706000032
+[INFO]9:58:23 Page status: 200
+[INFO]9:58:23 Souping page
+[INFO]9:58:24 Souped page
+[INFO]9:58:24 Writing 'Fire supported forest utilisation of a degraded dry forest as a means of sustainable local forest management in Tamil Nadu/South India' by 'Joachim' to disc
+[INFO]9:58:24 Written 'Fire supported forest utilisation of a degraded dry forest as a means of sustainable local forest management in Tamil Nadu/South India' to disc
+[INFO]9:58:24 Abstract Number: 50
+[INFO]9:58:24 Abstract ID: S0378112797002752
+[INFO]9:58:26 Page status: 200
+[INFO]9:58:26 Souping page
+[INFO]9:58:27 Souped page
+[INFO]9:58:27 Writing 'Impact of selective logging on the dynamics of a low elevation dense moist evergreen forest in the Western Ghats (South India)' by 'Rapha\xc3\xabl' to disc
+[INFO]9:58:27 Written 'Impact of selective logging on the dynamics of a low elevation dense moist evergreen forest in the Western Ghats (South India)' to disc
+[INFO]9:58:27 Abstract Number: 51
+[INFO]9:58:27 Abstract ID: S0378112796037851
+[INFO]9:58:28 Page status: 200
+[INFO]9:58:28 Souping page
+[INFO]9:58:29 Souped page
+[INFO]9:58:29 Writing 'Fine root biomass distribution and productivity patterns under open and closed canopies of tropical forest ecosystems at Kodayar in Western Ghats, South India' by 'SM.' to disc
+[INFO]9:58:29 Written 'Fine root biomass distribution and productivity patterns under open and closed canopies of tropical forest ecosystems at Kodayar in Western Ghats, South India' to disc
+[INFO]9:58:29 Abstract Number: 52
+[INFO]9:58:29 Abstract ID: S0301479706003756
+[INFO]9:58:31 Page status: 200
+[INFO]9:58:31 Souping page
+[INFO]9:58:32 Souped page
+[INFO]9:58:32 Writing 'Biophysical and anthropogenic controls of forest fires in the Deccan Plateau, India' by 'V. Krishna' to disc
+[INFO]9:58:32 Written 'Biophysical and anthropogenic controls of forest fires in the Deccan Plateau, India' to disc
+[INFO]9:58:32 Abstract Number: 53
+[INFO]9:58:32 Abstract ID: S1470160X17307446
+[INFO]9:58:33 Page status: 200
+[INFO]9:58:33 Souping page
+[INFO]9:58:33 Souped page
+[INFO]9:58:33 Writing 'Persistent negative changes in seasonal greenness over different forest types of India using MODIS time series NDVI data (2001\xe2\x80\x932014)' by 'Abhishek' to disc
+[INFO]9:58:33 Written 'Persistent negative changes in seasonal greenness over different forest types of India using MODIS time series NDVI data (2001\xe2\x80\x932014)' to disc
+[INFO]9:58:33 Abstract Number: 54
+[INFO]9:58:33 Abstract ID: S0378112714001455
+[INFO]9:58:33 Page status: 200
+[INFO]9:58:33 Souping page
+[INFO]9:58:34 Souped page
+[INFO]9:58:34 Writing 'Restoration of rain forest beneath pine plantations: A relay floristic model with special application to tropical South Asia' by 'Mark S.' to disc
+[INFO]9:58:34 Written 'Restoration of rain forest beneath pine plantations: A relay floristic model with special application to tropical South Asia' to disc
+[INFO]9:58:34 Abstract Number: 55
+[INFO]9:58:34 Abstract ID: S0921800913001286
+[INFO]9:58:35 Page status: 200
+[INFO]9:58:35 Souping page
+[INFO]9:58:35 Souped page
+[INFO]9:58:35 Writing 'Methodological and Ideological OptionsDisaggregated economic impact analysis incorporating ecological and social trade-offs and techno-institutional context: A case from the Western Ghats of India' by 'Sharachchandra' to disc
+[INFO]9:58:35 Written 'Methodological and Ideological OptionsDisaggregated economic impact analysis incorporating ecological and social trade-offs and techno-institutional context: A case from the Western Ghats of India' to disc
+[INFO]9:58:35 Abstract Number: 56
+[INFO]9:58:35 Abstract ID: S0378112714002680
+[INFO]9:58:36 Page status: 200
+[INFO]9:58:36 Souping page
+[INFO]9:58:36 Souped page
+[INFO]9:58:36 Writing 'Restoring working forests in human dominated landscapes of tropical South Asia: An introduction' by 'Mark S.' to disc
+[INFO]9:58:36 Written 'Restoring working forests in human dominated landscapes of tropical South Asia: An introduction' to disc
+[INFO]9:58:36 Abstract Number: 57
+[INFO]9:58:36 Abstract ID: S2212096315000297
+[INFO]9:58:36 Page status: 200
+[INFO]9:58:36 Souping page
+[INFO]9:58:37 Souped page
+[INFO]9:58:37 Writing 'Climate change impact and vulnerability assessment of forests in the Indian Western Himalayan region: A case study of Himachal Pradesh, India' by 'Sujata' to disc
+[INFO]9:58:37 Written 'Climate change impact and vulnerability assessment of forests in the Indian Western Himalayan region: A case study of Himachal Pradesh, India' to disc
+[INFO]9:58:37 Abstract Number: 58
+[INFO]9:58:37 Abstract ID: S2212041616300869
+[INFO]9:58:37 Page status: 200
+[INFO]9:58:37 Souping page
+[INFO]9:58:38 Souped page
+[INFO]9:58:38 Writing 'Valuing forest ecosystem services and disservices \xe2\x80\x93 Case study of a protected area in India' by 'K.N.' to disc
+[INFO]9:58:38 Written 'Valuing forest ecosystem services and disservices \xe2\x80\x93 Case study of a protected area in India' to disc
+[INFO]9:58:38 Abstract Number: 59
+[INFO]9:58:38 Abstract ID: S1040618216301823
+[INFO]9:58:39 Page status: 200
+[INFO]9:58:39 Souping page
+[INFO]9:58:39 Souped page
+[INFO]9:58:39 Writing 'Foragers, tropical forests and the formation of archaeological evidences: An ethnoarchaeological view from South India' by 'David E.' to disc
+[INFO]9:58:39 Written 'Foragers, tropical forests and the formation of archaeological evidences: An ethnoarchaeological view from South India' to disc
+[INFO]9:58:39 Abstract Number: 60
+[INFO]9:58:39 Abstract ID: S0925857416301562
+[INFO]9:58:40 Page status: 200
+[INFO]9:58:40 Souping page
+[INFO]9:58:40 Souped page
+[INFO]9:58:40 Writing 'Conservation priorities of forest ecosystems: Evaluation of deforestation and degradation hotspots using geospatial techniques' by 'C. Sudhakar' to disc
+[INFO]9:58:40 Written 'Conservation priorities of forest ecosystems: Evaluation of deforestation and degradation hotspots using geospatial techniques' to disc
+[INFO]9:58:40 Abstract Number: 61
+[INFO]9:58:40 Abstract ID: S1616504711001108
+[INFO]9:58:41 Page status: 200
+[INFO]9:58:41 Souping page
+[INFO]9:58:41 Souped page
+[INFO]9:58:41 Writing 'Original InvestigationGroup size, sex and age composition of chital (Axis axis) and sambar (Rusa unicolor) in a deciduous habitat of Western Ghats' by 'Tharmalingam' to disc
+[INFO]9:58:41 Written 'Original InvestigationGroup size, sex and age composition of chital (Axis axis) and sambar (Rusa unicolor) in a deciduous habitat of Western Ghats' to disc
+[INFO]9:58:41 Abstract Number: 62
+[INFO]9:58:41 Abstract ID: S1110982317302132
+[INFO]9:58:42 Page status: 200
+[INFO]9:58:42 Souping page
+[INFO]9:58:42 Souped page
+[INFO]9:58:42 Writing 'Research PaperEvaluating MODIS-vegetation continuous field products to assess tree cover change and forest fragmentation in India \xe2\x80\x93 A multi-scale satellite remote sensing approach' by 'Giriraj' to disc
+[INFO]9:58:42 Written 'Research PaperEvaluating MODIS-vegetation continuous field products to assess tree cover change and forest fragmentation in India \xe2\x80\x93 A multi-scale satellite remote sensing approach' to disc
+[INFO]9:58:42 Abstract Number: 63
+[INFO]9:58:42 Abstract ID: S0925857413004102
+[INFO]9:58:43 Page status: 200
+[INFO]9:58:43 Souping page
+[INFO]9:58:43 Souped page
+[INFO]9:58:43 Writing 'National assessment of forest fragmentation in India: Landscape indices as measures of the effects of fragmentation and forest cover change' by 'C. Sudhakar' to disc
+[INFO]9:58:43 Written 'National assessment of forest fragmentation in India: Landscape indices as measures of the effects of fragmentation and forest cover change' to disc
+[INFO]9:58:43 Abstract Number: 64
+[INFO]9:58:43 Abstract ID: S0378112709006628
+[INFO]9:58:44 Page status: 200
+[INFO]9:58:44 Souping page
+[INFO]9:58:44 Souped page
+[INFO]9:58:44 Writing 'Relationship between annual rainfall and tree mortality in a tropical dry forest: Results of a 19-year study at Mudumalai, southern India' by 'H.S.' to disc
+[INFO]9:58:44 Written 'Relationship between annual rainfall and tree mortality in a tropical dry forest: Results of a 19-year study at Mudumalai, southern India' to disc
+[INFO]9:58:44 Abstract Number: 65
+[INFO]9:58:44 Abstract ID: S0921818117303867
+[INFO]9:58:45 Page status: 200
+[INFO]9:58:45 Souping page
+[INFO]9:58:45 Souped page
+[INFO]9:58:45 Writing 'Assessment and monitoring of deforestation and forest fragmentation in South Asia since the 1930s' by 'C.' to disc
+[INFO]9:58:45 Written 'Assessment and monitoring of deforestation and forest fragmentation in South Asia since the 1930s' to disc
+[INFO]9:58:45 Abstract Number: 66
+[INFO]9:58:45 Abstract ID: S0167880901001621
+[INFO]9:58:46 Page status: 200
+[INFO]9:58:46 Souping page
+[INFO]9:58:46 Souped page
+[INFO]9:58:46 Writing 'Biomass, litterfall and aboveground net primary productivity of herbaceous communities in varied ecosystems at Kodayar in the western ghats of Tamil Nadu' by 'S' to disc
+[INFO]9:58:46 Written 'Biomass, litterfall and aboveground net primary productivity of herbaceous communities in varied ecosystems at Kodayar in the western ghats of Tamil Nadu' to disc
+[INFO]9:58:46 Abstract Number: 67
+[INFO]9:58:46 Abstract ID: S0925857414002158
+[INFO]9:58:47 Page status: 200
+[INFO]9:58:47 Souping page
+[INFO]9:58:47 Souped page
+[INFO]9:58:47 Writing 'Threat evaluation for biodiversity conservation of forest ecosystems using geospatial techniques: A case study of Odisha, India' by 'C. Sudhakar' to disc
+[INFO]9:58:47 Written 'Threat evaluation for biodiversity conservation of forest ecosystems using geospatial techniques: A case study of Odisha, India' to disc
+[INFO]9:58:47 Abstract Number: 68
+[INFO]9:58:47 Abstract ID: S0006320712003606
+[INFO]9:58:48 Page status: 200
+[INFO]9:58:48 Souping page
+[INFO]9:58:48 Souped page
+[INFO]9:58:48 Writing 'Moderate land use shifts plant diversity from overstory to understory and contributes to biotic homogenization in a seasonally dry tropical ecosystem' by 'Lisa' to disc
+[INFO]9:58:48 Written 'Moderate land use shifts plant diversity from overstory to understory and contributes to biotic homogenization in a seasonally dry tropical ecosystem' to disc
+[INFO]9:58:48 Abstract Number: 69
+[INFO]9:58:48 Abstract ID: S0921800904004045
+[INFO]9:58:49 Page status: 200
+[INFO]9:58:49 Souping page
+[INFO]9:58:49 Souped page
+[INFO]9:58:49 Writing 'AnalysisThe economics of biodiversity conservation: a study of a coffee growing region in the Western Ghats of India' by 'K.N.' to disc
+[INFO]9:58:49 Written 'AnalysisThe economics of biodiversity conservation: a study of a coffee growing region in the Western Ghats of India' to disc
+[INFO]9:58:49 Abstract Number: 70
+[INFO]9:58:49 Abstract ID: S0006320709005205
+[INFO]9:58:50 Page status: 200
+[INFO]9:58:50 Souping page
+[INFO]9:58:50 Souped page
+[INFO]9:58:50 Writing 'Beyond the forest edge: Ecology, diversity and conservation of the grassy biomes' by 'William J.' to disc
+[INFO]9:58:50 Written 'Beyond the forest edge: Ecology, diversity and conservation of the grassy biomes' to disc
+[INFO]9:58:50 Abstract Number: 71
+[INFO]9:58:50 Abstract ID: S0378112714001893
+[INFO]9:58:51 Page status: 200
+[INFO]9:58:51 Souping page
+[INFO]9:58:51 Souped page
+[INFO]9:58:51 Writing 'Overcoming ecological barriers to tropical lower montane forest succession on anthropogenic grasslands: Synthesis and future prospects' by 'A.M.T.A.' to disc
+[INFO]9:58:51 Written 'Overcoming ecological barriers to tropical lower montane forest succession on anthropogenic grasslands: Synthesis and future prospects' to disc
+[INFO]9:58:51 Abstract Number: 72
+[INFO]9:58:51 Abstract ID: S0378112713004180
+[INFO]9:58:52 Page status: 200
+[INFO]9:58:52 Souping page
+[INFO]9:58:52 Souped page
+[INFO]9:58:52 Writing 'Forest observational studies in India: Past developments and considerations for the future' by 'V.P.' to disc
+[INFO]9:58:52 Written 'Forest observational studies in India: Past developments and considerations for the future' to disc
+[INFO]9:58:52 Abstract Number: 73
+[INFO]9:58:52 Abstract ID: S0034666799000391
+[INFO]9:58:53 Page status: 200
+[INFO]9:58:53 Souping page
+[INFO]9:58:54 Souped page
+[INFO]9:58:54 Writing 'Modern pollen rain from the Biligirirangan\xe2\x80\x93Melagiri hills of southern Eastern Ghats, India' by 'K' to disc
+[INFO]9:58:54 Written 'Modern pollen rain from the Biligirirangan\xe2\x80\x93Melagiri hills of southern Eastern Ghats, India' to disc
+[INFO]9:58:54 Abstract Number: 74
+[INFO]9:58:54 Abstract ID: S0006320710002533
+[INFO]9:58:55 Page status: 200
+[INFO]9:58:55 Souping page
+[INFO]9:58:56 Souped page
+[INFO]9:58:56 Writing 'A multi-region assessment of tropical forest biodiversity in a human-modified world' by 'Toby A.' to disc
+[INFO]9:58:56 Written 'A multi-region assessment of tropical forest biodiversity in a human-modified world' to disc
+[INFO]9:58:56 Abstract Number: 75
+[INFO]9:58:56 Abstract ID: S1146609X16301011
+[INFO]9:58:57 Page status: 200
+[INFO]9:58:57 Souping page
+[INFO]9:58:57 Souped page
+[INFO]9:58:57 Writing 'Original articleOverstory structure and soil nutrients effect on plant diversity in unmanaged moist tropical forest' by 'Mukesh Kumar' to disc
+[INFO]9:58:58 Written 'Original articleOverstory structure and soil nutrients effect on plant diversity in unmanaged moist tropical forest' to disc
+[INFO]9:58:58 Abstract Number: 76
+[INFO]9:58:58 Abstract ID: S0169809507001706
+[INFO]9:58:59 Page status: 200
+[INFO]9:58:59 Souping page
+[INFO]9:58:59 Souped page
+[INFO]9:58:59 Writing 'Impact of a mountain grassland fire on the concentration of aerosol black carbon and carbon monoxide near the surface at a remote coastal location' by 'S.' to disc
+[INFO]9:58:59 Written 'Impact of a mountain grassland fire on the concentration of aerosol black carbon and carbon monoxide near the surface at a remote coastal location' to disc
+[INFO]9:58:59 Abstract Number: 77
+[INFO]9:58:59 Abstract ID: S0378112712004033
+[INFO]9:59:0 Page status: 200
+[INFO]9:59:0 Souping page
+[INFO]9:59:1 Souped page
+[INFO]9:59:1 Writing 'Is the life-supporting capacity of forests in the lower Mid-Hills of Nepal threatened?' by 'Arun' to disc
+[INFO]9:59:1 Written 'Is the life-supporting capacity of forests in the lower Mid-Hills of Nepal threatened?' to disc
+[INFO]9:59:1 Abstract Number: 78
+[INFO]9:59:1 Abstract ID: S0140196317300563
+[INFO]9:59:2 Page status: 200
+[INFO]9:59:2 Souping page
+[INFO]9:59:3 Souped page
+[INFO]9:59:3 Writing 'Domestic firing activities and fuel consumption in a Saharan oasis: Micromorphological and archaeobotanical evidence from the Garamantian site of Fewet (Central Sahara, SW Libya)' by 'Andrea' to disc
+[INFO]9:59:3 Written 'Domestic firing activities and fuel consumption in a Saharan oasis: Micromorphological and archaeobotanical evidence from the Garamantian site of Fewet (Central Sahara, SW Libya)' to disc
+[INFO]9:59:3 Abstract Number: 79
+[INFO]9:59:3 Abstract ID: S0378874115001245
+[INFO]9:59:4 Page status: 200
+[INFO]9:59:4 Souping page
+[INFO]9:59:5 Souped page
+[INFO]9:59:5 Writing 'Observation on the traditional phytotherapy among the Malayali tribes in Eastern Ghats of Tamil Nadu, South India' by 'Thangaraj' to disc
+[INFO]9:59:5 Written 'Observation on the traditional phytotherapy among the Malayali tribes in Eastern Ghats of Tamil Nadu, South India' to disc
+[INFO]9:59:5 Abstract Number: 80
+[INFO]9:59:5 Abstract ID: S0009254114000989
+[INFO]9:59:6 Page status: 200
+[INFO]9:59:6 Souping page
+[INFO]9:59:7 Souped page
+[INFO]9:59:7 Writing 'Contribution of forest fire ash and plant litter decay on stream dissolved composition in a sub-humid tropical watershed (Mule Hole, Southern India)' by 'St\xc3\xa9phane' to disc
+[INFO]9:59:7 Written 'Contribution of forest fire ash and plant litter decay on stream dissolved composition in a sub-humid tropical watershed (Mule Hole, Southern India)' to disc
+[INFO]9:59:7 Abstract Number: 81
+[INFO]9:59:7 Abstract ID: S0378112711003598
+[INFO]9:59:8 Page status: 200
+[INFO]9:59:8 Souping page
+[INFO]9:59:9 Souped page
+[INFO]9:59:9 Writing 'ReviewForest dynamics after selective timber harvesting in Papua New Guinea' by 'Cossey K.' to disc
+[INFO]9:59:9 Written 'ReviewForest dynamics after selective timber harvesting in Papua New Guinea' to disc
+[INFO]9:59:9 Abstract Number: 82
+[INFO]9:59:9 Abstract ID: S0264837709000738
+[INFO]9:59:10 Page status: 200
+[INFO]9:59:10 Souping page
+[INFO]9:59:10 Souped page
+[INFO]9:59:10 Writing "Urbanization, the energy ladder and forest transitions in India's emerging economy" by 'R.' to disc
+[INFO]9:59:11 Written "Urbanization, the energy ladder and forest transitions in India's emerging economy" to disc
+[INFO]9:59:11 Abstract Number: 83
+[INFO]9:59:11 Abstract ID: S2351989415300263
+[INFO]9:59:12 Page status: 200
+[INFO]9:59:12 Souping page
+[INFO]9:59:12 Souped page
+[INFO]9:59:13 Writing 'Original research articleAssessment of carbon stocks of semi-evergreen forests in Cambodia' by 'Kimsun' to disc
+[INFO]9:59:13 Written 'Original research articleAssessment of carbon stocks of semi-evergreen forests in Cambodia' to disc
+[INFO]9:59:13 Abstract Number: 84
+[INFO]9:59:13 Abstract ID: S1146609X11001329
+[INFO]9:59:13 Page status: 200
+[INFO]9:59:13 Souping page
+[INFO]9:59:14 Souped page
+[INFO]9:59:14 Writing 'Original articleSeedling germination success and survival of the invasive shrub Scotch broom (Cytisus scoparius) in response to fire and experimental clipping in the montane grasslands of the Nilgiris, south India' by 'Madhusudan P.' to disc
+[INFO]9:59:14 Written 'Original articleSeedling germination success and survival of the invasive shrub Scotch broom (Cytisus scoparius) in response to fire and experimental clipping in the montane grasslands of the Nilgiris, south India' to disc
+[INFO]9:59:14 Abstract Number: 85
+[INFO]9:59:14 Abstract ID: S0921344909002274
+[INFO]9:59:15 Page status: 200
+[INFO]9:59:15 Souping page
+[INFO]9:59:15 Souped page
+[INFO]9:59:15 Writing 'Joint forest management in India: Experiences of two decades' by 'Prodyut' to disc
+[INFO]9:59:15 Written 'Joint forest management in India: Experiences of two decades' to disc
+[INFO]9:59:15 Abstract Number: 86
+[INFO]9:59:15 Abstract ID: S0378112716303139
+[INFO]9:59:16 Page status: 200
+[INFO]9:59:16 Souping page
+[INFO]9:59:16 Souped page
+[INFO]9:59:16 Writing 'Can local use assist in controlling invasive alien species in tropical forests? The case of Lantana camara in southern India' by 'Ramesh' to disc
+[INFO]9:59:16 Written 'Can local use assist in controlling invasive alien species in tropical forests? The case of Lantana camara in southern India' to disc
+[INFO]9:59:16 Abstract Number: 87
+[INFO]9:59:16 Abstract ID: S0921800913001638
+[INFO]9:59:17 Page status: 200
+[INFO]9:59:17 Souping page
+[INFO]9:59:17 Souped page
+[INFO]9:59:17 Writing "SurveysValuing forest ecosystem services: What we know and what we don't" by 'K.N.' to disc
+[INFO]9:59:17 Written "SurveysValuing forest ecosystem services: What we know and what we don't" to disc
+[INFO]9:59:17 Abstract Number: 88
+[INFO]9:59:17 Abstract ID: S0301479717312331
+[INFO]9:59:18 Page status: 200
+[INFO]9:59:18 Souping page
+[INFO]9:59:18 Souped page
+[INFO]9:59:18 Writing 'Research articleAssessing distributions of two invasive species of contrasting habits in future climate' by 'Rajendra Mohan' to disc
+[INFO]9:59:18 Written 'Research articleAssessing distributions of two invasive species of contrasting habits in future climate' to disc
+[INFO]9:59:18 Abstract Number: 89
+[INFO]9:59:18 Abstract ID: S0921818116301163
+[INFO]9:59:19 Page status: 200
+[INFO]9:59:19 Souping page
+[INFO]9:59:19 Souped page
+[INFO]9:59:19 Writing 'Geospatial assessment of long-term changes in carbon stocks and fluxes in forests of India (1930\xe2\x80\x932013)' by 'C. Sudhakar' to disc
+[INFO]9:59:19 Written 'Geospatial assessment of long-term changes in carbon stocks and fluxes in forests of India (1930\xe2\x80\x932013)' to disc
+[INFO]9:59:19 Abstract Number: 90
+[INFO]9:59:19 Abstract ID: S0959378008000228
+[INFO]9:59:20 Page status: 200
+[INFO]9:59:20 Souping page
+[INFO]9:59:20 Souped page
+[INFO]9:59:20 Writing 'Exploring biodiversity and climate change benefits of community-based forest management' by 'Preet Pal' to disc
+[INFO]9:59:20 Written 'Exploring biodiversity and climate change benefits of community-based forest management' to disc
+[INFO]9:59:20 Abstract Number: 91
+[INFO]9:59:20 Abstract ID: S0378112704004335
+[INFO]9:59:21 Page status: 200
+[INFO]9:59:21 Souping page
+[INFO]9:59:21 Souped page
+[INFO]9:59:21 Writing 'The restoration of forest biodiversity and ecological values' by 'Jeffrey' to disc
+[INFO]9:59:21 Written 'The restoration of forest biodiversity and ecological values' to disc
+[INFO]9:59:21 Abstract Number: 92
+[INFO]9:59:21 Abstract ID: S0016703718301364
+[INFO]9:59:22 Page status: 200
+[INFO]9:59:22 Souping page
+[INFO]9:59:22 Souped page
+[INFO]9:59:22 Writing 'Processes controlling silicon isotopic fractionation in a forested tropical watershed: Mule Hole Critical Zone Observatory (Southern India)' by 'Jean' to disc
+[INFO]9:59:22 Written 'Processes controlling silicon isotopic fractionation in a forested tropical watershed: Mule Hole Critical Zone Observatory (Southern India)' to disc
+[INFO]9:59:23 Page status: 200
+[INFO]9:59:23 Souping page
+[INFO]9:59:24 Souped page
+[INFO]9:59:24 Scraping IDs
+[INFO]9:59:27 Scraped IDs
+[INFO]9:59:27 Extracting Abstract IDs from disc
+[INFO]9:59:27 Extracted Abstract IDs from disc
+[INFO]9:59:27 Abstract Number: 101
+[INFO]9:59:27 Abstract ID: S0378112714005891
+[INFO]9:59:27 Page status: 200
+[INFO]9:59:27 Souping page
+[INFO]9:59:28 Souped page
+[INFO]9:59:28 Writing 'And yet it shrinks: A novel method for correcting bias in forest tree growth estimates caused by water-induced fluctuations' by 'Rutuja' to disc
+[INFO]9:59:28 Written 'And yet it shrinks: A novel method for correcting bias in forest tree growth estimates caused by water-induced fluctuations' to disc
+[INFO]9:59:28 Abstract Number: 102
+[INFO]9:59:28 Abstract ID: S0959378014000867
+[INFO]9:59:29 Page status: 200
+[INFO]9:59:29 Souping page
+[INFO]9:59:29 Souped page
+[INFO]9:59:29 Writing 'Deforestation-induced costs on the drinking water supplies of the Mumbai metropolitan, India' by 'Sunita' to disc
+[INFO]9:59:29 Written 'Deforestation-induced costs on the drinking water supplies of the Mumbai metropolitan, India' to disc
+[INFO]9:59:29 Abstract Number: 103
+[INFO]9:59:29 Abstract ID: S1995764514602741
+[INFO]9:59:30 Page status: 200
+[INFO]9:59:30 Souping page
+[INFO]9:59:30 Souped page
+[INFO]9:59:30 Writing 'Document headingStructural diversity, its components and regenerating capacity of lesser Himalayan forests vegetation of Nikyal valley District Kotli (A.K), Pakistan' by 'Muhammad Shoaib' to disc
+[INFO]9:59:30 Written 'Document headingStructural diversity, its components and regenerating capacity of lesser Himalayan forests vegetation of Nikyal valley District Kotli (A.K), Pakistan' to disc
+[INFO]9:59:30 Abstract Number: 104
+[INFO]9:59:30 Abstract ID: S1309104217306530
+[INFO]9:59:31 Page status: 200
+[INFO]9:59:31 Souping page
+[INFO]9:59:31 Souped page
+[INFO]9:59:31 Writing 'Investigation of aerosol black carbon over semi-urban and urban locations in south-western India' by 'A.R.' to disc
+[INFO]9:59:31 Written 'Investigation of aerosol black carbon over semi-urban and urban locations in south-western India' to disc
+[INFO]9:59:31 Abstract Number: 105
+[INFO]9:59:31 Abstract ID: S1433831904700670
+[INFO]9:59:32 Page status: 200
+[INFO]9:59:32 Souping page
+[INFO]9:59:32 Souped page
+[INFO]9:59:32 Writing 'Tropical forest recovery: legacies of human impact and natural disturbances' by 'Robin L.' to disc
+[INFO]9:59:32 Written 'Tropical forest recovery: legacies of human impact and natural disturbances' to disc
+[INFO]9:59:32 Abstract Number: 106
+[INFO]9:59:32 Abstract ID: S0168169902001096
+[INFO]9:59:33 Page status: 200
+[INFO]9:59:33 Souping page
+[INFO]9:59:33 Souped page
+[INFO]9:59:33 Writing 'Development of an integrated range management decision support system' by 'Ramanathan' to disc
+[INFO]9:59:33 Written 'Development of an integrated range management decision support system' to disc
+[INFO]9:59:33 Abstract Number: 107
+[INFO]9:59:33 Abstract ID: S0378112707008973
+[INFO]9:59:34 Page status: 200
+[INFO]9:59:34 Souping page
+[INFO]9:59:34 Souped page
+[INFO]9:59:34 Writing 'Managing mistletoes: The value of local practices for a non-timber forest resource' by 'Lucy' to disc
+[INFO]9:59:34 Written 'Managing mistletoes: The value of local practices for a non-timber forest resource' to disc
+[INFO]9:59:34 Abstract Number: 108
+[INFO]9:59:34 Abstract ID: S037811270800875X
+[INFO]9:59:35 Page status: 200
+[INFO]9:59:35 Souping page
+[INFO]9:59:35 Souped page
+[INFO]9:59:35 Writing 'Response of water and nutrient fluxes to improvement fellings in a tropical montane forest in Ecuador' by 'Wolfgang' to disc
+[INFO]9:59:35 Written 'Response of water and nutrient fluxes to improvement fellings in a tropical montane forest in Ecuador' to disc
+[INFO]9:59:35 Abstract Number: 109
+[INFO]9:59:35 Abstract ID: S0006320710000923
+[INFO]9:59:36 Page status: 200
+[INFO]9:59:36 Souping page
+[INFO]9:59:36 Souped page
+[INFO]9:59:36 Writing 'Biodiversity conservation and livelihoods in human-dominated landscapes: Forest commons in South Asia' by 'Lauren' to disc
+[INFO]9:59:37 Written 'Biodiversity conservation and livelihoods in human-dominated landscapes: Forest commons in South Asia' to disc
+[INFO]9:59:37 Abstract Number: 110
+[INFO]9:59:37 Abstract ID: S0378112716308441
+[INFO]9:59:37 Page status: 200
+[INFO]9:59:37 Souping page
+[INFO]9:59:37 Souped page
+[INFO]9:59:37 Writing 'Effects on soil chemistry of tropical deforestation for agriculture and subsequent reforestation with special reference to changes in carbon and nitrogen' by 'Jaeeun' to disc
+[INFO]9:59:38 Written 'Effects on soil chemistry of tropical deforestation for agriculture and subsequent reforestation with special reference to changes in carbon and nitrogen' to disc
+[INFO]9:59:38 Abstract Number: 111
+[INFO]9:59:38 Abstract ID: S0006320796000717
+[INFO]9:59:38 Page status: 200
+[INFO]9:59:39 Souping page
+[INFO]9:59:39 Souped page
+[INFO]9:59:39 Writing 'Status and distribution of the endangered lion-tailed macaque Macaca silenus in Kerala, India' by 'P.S.' to disc
+[INFO]9:59:39 Written 'Status and distribution of the endangered lion-tailed macaque Macaca silenus in Kerala, India' to disc
+[INFO]9:59:39 Abstract Number: 112
+[INFO]9:59:39 Abstract ID: S0034425711001337
+[INFO]9:59:40 Page status: 200
+[INFO]9:59:40 Souping page
+[INFO]9:59:40 Souped page
+[INFO]9:59:40 Writing 'Measuring biomass changes due to woody encroachment and deforestation/degradation in a forest\xe2\x80\x93savanna boundary region of central Africa using multi-temporal L-band radar backscatter' by 'E.T.A.' to disc
+[INFO]9:59:40 Written 'Measuring biomass changes due to woody encroachment and deforestation/degradation in a forest\xe2\x80\x93savanna boundary region of central Africa using multi-temporal L-band radar backscatter' to disc
+[INFO]9:59:40 Abstract Number: 113
+[INFO]9:59:40 Abstract ID: S1352231014008164
+[INFO]9:59:41 Page status: 200
+[INFO]9:59:41 Souping page
+[INFO]9:59:41 Souped page
+[INFO]9:59:41 Writing 'Influence of springtime biomass burning in South Asia on regional ozone (O3): A model based case study' by 'Chinmay' to disc
+[INFO]9:59:41 Written 'Influence of springtime biomass burning in South Asia on regional ozone (O3): A model based case study' to disc
+[INFO]9:59:41 Abstract Number: 114
+[INFO]9:59:41 Abstract ID: S1040618213009245
+[INFO]9:59:42 Page status: 200
+[INFO]9:59:42 Souping page
+[INFO]9:59:42 Souped page
+[INFO]9:59:42 Writing 'Palaeovegetation and climate oscillation of western Odisha, India: A pollen data-based synthesis for the Mid-Late Holocene' by 'Swati' to disc
+[INFO]9:59:42 Written 'Palaeovegetation and climate oscillation of western Odisha, India: A pollen data-based synthesis for the Mid-Late Holocene' to disc
+[INFO]9:59:42 Abstract Number: 115
+[INFO]9:59:42 Abstract ID: S0006320798000044
+[INFO]9:59:43 Page status: 200
+[INFO]9:59:43 Souping page
+[INFO]9:59:43 Souped page
+[INFO]9:59:43 Writing 'Population and conservation status of the Nilgiri tahr Hemitragus hylocrius in Anamalai Hills, south India' by 'Charudutt' to disc
+[INFO]9:59:43 Written 'Population and conservation status of the Nilgiri tahr Hemitragus hylocrius in Anamalai Hills, south India' to disc
+[INFO]9:59:43 Abstract Number: 116
+[INFO]9:59:43 Abstract ID: S0167880996011243
+[INFO]9:59:44 Page status: 200
+[INFO]9:59:44 Souping page
+[INFO]9:59:44 Souped page
+[INFO]9:59:44 Writing 'ReviewIndigenous exploitation and management of tropical forest resources: an evolutionary continuum in forest-people interactions' by 'K.F.' to disc
+[INFO]9:59:44 Written 'ReviewIndigenous exploitation and management of tropical forest resources: an evolutionary continuum in forest-people interactions' to disc
+[INFO]9:59:44 Abstract Number: 117
+[INFO]9:59:44 Abstract ID: S0303243415000574
+[INFO]9:59:45 Page status: 200
+[INFO]9:59:45 Souping page
+[INFO]9:59:45 Souped page
+[INFO]9:59:45 Writing 'New vegetation type map of India prepared using satellite remote sensing: Comparison with global vegetation maps and utilities' by 'P.S.' to disc
+[INFO]9:59:46 Written 'New vegetation type map of India prepared using satellite remote sensing: Comparison with global vegetation maps and utilities' to disc
+[INFO]9:59:46 Abstract Number: 118
+[INFO]9:59:46 Abstract ID: S1040618213004394
+[INFO]9:59:47 Page status: 200
+[INFO]9:59:47 Souping page
+[INFO]9:59:47 Souped page
+[INFO]9:59:47 Writing 'Pollen production and depositional behaviour of teak (Tectona grandis Linn. F.) and sal (Shorea robusta Gaertn. F.) in tropical deciduous forests of Madhya Pradesh, India: An overview' by 'M.F.' to disc
+[INFO]9:59:47 Written 'Pollen production and depositional behaviour of teak (Tectona grandis Linn. F.) and sal (Shorea robusta Gaertn. F.) in tropical deciduous forests of Madhya Pradesh, India: An overview' to disc
+[INFO]9:59:47 Abstract Number: 119
+[INFO]9:59:47 Abstract ID: S1040618209003310
+[INFO]9:59:48 Page status: 200
+[INFO]9:59:48 Souping page
+[INFO]9:59:48 Souped page
+[INFO]9:59:48 Writing 'Tropical rainforest vegetation, climate and sea level during the Pleistocene in Kerala, India' by 'Anjum' to disc
+[INFO]9:59:48 Written 'Tropical rainforest vegetation, climate and sea level during the Pleistocene in Kerala, India' to disc
+[INFO]9:59:48 Abstract Number: 120
+[INFO]9:59:49 Abstract ID: 037811279403490N
+[INFO]9:59:49 Page status: 200
+[INFO]9:59:49 Souping page
+[INFO]9:59:49 Souped page
+[INFO]9:59:49 Writing 'Research paperIndividual-based simulation models for forest succession and management' by 'Jianguo' to disc
+[INFO]9:59:50 Written 'Research paperIndividual-based simulation models for forest succession and management' to disc
+[INFO]9:59:50 Abstract Number: 121
+[INFO]9:59:50 Abstract ID: S0378112704004918
+[INFO]9:59:51 Page status: 200
+[INFO]9:59:51 Souping page
+[INFO]9:59:51 Souped page
+[INFO]9:59:51 Writing 'Species composition, similarity and diversity in three successional stages of a seasonally dry tropical forest' by 'M.' to disc
+[INFO]9:59:51 Written 'Species composition, similarity and diversity in three successional stages of a seasonally dry tropical forest' to disc
+[INFO]9:59:51 Abstract Number: 122
+[INFO]9:59:51 Abstract ID: S0378112703004687
+[INFO]9:59:52 Page status: 200
+[INFO]9:59:52 Souping page
+[INFO]9:59:52 Souped page
+[INFO]9:59:52 Writing 'Liana loads and post-logging liana densities after liana cutting in a lowland forest in Bolivia' by 'Diana' to disc
+[INFO]9:59:52 Written 'Liana loads and post-logging liana densities after liana cutting in a lowland forest in Bolivia' to disc
+[INFO]9:59:52 Abstract Number: 123
+[INFO]9:59:52 Abstract ID: S0264837715301915
+[INFO]9:59:53 Page status: 200
+[INFO]9:59:53 Souping page
+[INFO]9:59:53 Souped page
+[INFO]9:59:53 Writing 'Assessment of relation of land use characteristics with vector-borne diseases in tropical areas' by 'A.M.' to disc
+[INFO]9:59:53 Written 'Assessment of relation of land use characteristics with vector-borne diseases in tropical areas' to disc
+[INFO]9:59:53 Abstract Number: 124
+[INFO]9:59:53 Abstract ID: S1617138111000501
+[INFO]9:59:54 Page status: 200
+[INFO]9:59:54 Souping page
+[INFO]9:59:55 Souped page
+[INFO]9:59:55 Writing "India's biodiversity hotspot under anthropogenic pressure: A case study of Nilgiri Biosphere Reserve" by 'Nagarajan' to disc
+[INFO]9:59:55 Written "India's biodiversity hotspot under anthropogenic pressure: A case study of Nilgiri Biosphere Reserve" to disc
+[INFO]9:59:55 Abstract Number: 125
+[INFO]9:59:55 Abstract ID: S0378112701007472
+[INFO]9:59:56 Page status: 200
+[INFO]9:59:56 Souping page
+[INFO]9:59:56 Souped page
+[INFO]9:59:56 Writing 'Harvesting techniques, hemiparasites and fruit production in two non-timber forest tree species in south India' by 'Aditi' to disc
+[INFO]9:59:56 Written 'Harvesting techniques, hemiparasites and fruit production in two non-timber forest tree species in south India' to disc
+[INFO]9:59:56 Abstract Number: 126
+[INFO]9:59:56 Abstract ID: S0169809517313388
+[INFO]9:59:57 Page status: 200
+[INFO]9:59:57 Souping page
+[INFO]9:59:57 Souped page
+[INFO]9:59:57 Writing 'Characterization of atmospheric Black Carbon over a semi-urban site of Southeast India: Local sources and long-range transport' by 'P.' to disc
+[INFO]9:59:57 Written 'Characterization of atmospheric Black Carbon over a semi-urban site of Southeast India: Local sources and long-range transport' to disc
+[INFO]9:59:57 Abstract Number: 127
+[INFO]9:59:57 Abstract ID: S0378112798002825
+[INFO]9:59:58 Page status: 200
+[INFO]9:59:58 Souping page
+[INFO]9:59:58 Souped page
+[INFO]9:59:58 Writing 'Fine litterfall and nutrient dynamics during forest regrowth in the humid subtropics of north-eastern India' by 'A' to disc
+[INFO]9:59:58 Written 'Fine litterfall and nutrient dynamics during forest regrowth in the humid subtropics of north-eastern India' to disc
+[INFO]9:59:58 Abstract Number: 128
+[INFO]9:59:58 Abstract ID: S2352409X16308458
+[INFO]9:59:59 Page status: 200
+[INFO]9:59:59 Souping page
+[INFO]9:59:59 Souped page
+[INFO]9:59:59 Writing 'Implications of phytolith records from an Early Historic megalithic burial site at Porunthal in Southern India' by 'R' to disc
+[INFO]9:59:59 Written 'Implications of phytolith records from an Early Historic megalithic burial site at Porunthal in Southern India' to disc
+[INFO]9:59:59 Abstract Number: 129
+[INFO]9:59:59 Abstract ID: S2287884X18300542
+[INFO]10:0:0 Page status: 200
+[INFO]10:0:0 Souping page
+[INFO]10:0:0 Souped page
+[INFO]10:0:0 Writing 'Review ArticleConservation status of some endangered mammals in Barak Valley, Northeast India' by 'Nazimur Rahman' to disc
+[INFO]10:0:0 Written 'Review ArticleConservation status of some endangered mammals in Barak Valley, Northeast India' to disc
+[INFO]10:0:0 Abstract Number: 130
+[INFO]10:0:0 Abstract ID: S2090447916000307
+[INFO]10:0:1 Page status: 200
+[INFO]10:0:1 Souping page
+[INFO]10:0:1 Souped page
+[INFO]10:0:1 Writing 'A review on application of data mining techniques to combat natural disasters' by 'Saptarsi' to disc
+[INFO]10:0:2 Written 'A review on application of data mining techniques to combat natural disasters' to disc
+[INFO]10:0:2 Abstract Number: 131
+[INFO]10:0:2 Abstract ID: S0921800913002978
+[INFO]10:0:3 Page status: 200
+[INFO]10:0:3 Souping page
+[INFO]10:0:3 Souped page
+[INFO]10:0:3 Writing 'AnalysisThe god of the mountain and Godavarman: Net Present Value, indigenous territorial rights and sacredness in a bauxite mining conflict in India' by 'Leah' to disc
+[INFO]10:0:3 Written 'AnalysisThe god of the mountain and Godavarman: Net Present Value, indigenous territorial rights and sacredness in a bauxite mining conflict in India' to disc
+[INFO]10:0:4 Abstract Number: 132
+[INFO]10:0:4 Abstract ID: S0378112701007873
+[INFO]10:0:4 Page status: 200
+[INFO]10:0:4 Souping page
+[INFO]10:0:4 Souped page
+[INFO]10:0:4 Writing 'Phenological differences in tree water use and the timing of tropical forest inventories: conclusions from patterns of dry season diameter change' by 'T.R' to disc
+[INFO]10:0:5 Written 'Phenological differences in tree water use and the timing of tropical forest inventories: conclusions from patterns of dry season diameter change' to disc
+[INFO]10:0:5 Abstract Number: 133
+[INFO]10:0:5 Abstract ID: 026483779400003I
+[INFO]10:0:5 Page status: 200
+[INFO]10:0:5 Souping page
+[INFO]10:0:6 Souped page
+[INFO]10:0:6 Writing 'PaperConserved to death: Are tropical forests being overprotected from people?' by 'David' to disc
+[INFO]10:0:6 Written 'PaperConserved to death: Are tropical forests being overprotected from people?' to disc
+[INFO]10:0:6 Abstract Number: 134
+[INFO]10:0:6 Abstract ID: S0006320710001862
+[INFO]10:0:7 Page status: 200
+[INFO]10:0:7 Souping page
+[INFO]10:0:7 Souped page
+[INFO]10:0:7 Writing 'Do community-conserved areas effectively conserve biological diversity? Global insights and the Indian context' by 'Ghazala' to disc
+[INFO]10:0:7 Written 'Do community-conserved areas effectively conserve biological diversity? Global insights and the Indian context' to disc
+[INFO]10:0:7 Abstract Number: 135
+[INFO]10:0:7 Abstract ID: S2215017X17301492
+[INFO]10:0:8 Page status: 200
+[INFO]10:0:8 Souping page
+[INFO]10:0:8 Souped page
+[INFO]10:0:8 Writing 'ReviewVermicomposting and anaerobic digestion \xe2\x80\x93 viable alternative options for terrestrial weed management \xe2\x80\x93 A review' by 'Biswanath' to disc
+[INFO]10:0:9 Written 'ReviewVermicomposting and anaerobic digestion \xe2\x80\x93 viable alternative options for terrestrial weed management \xe2\x80\x93 A review' to disc
+[INFO]10:0:9 Abstract Number: 136
+[INFO]10:0:9 Abstract ID: S0143622816300157
+[INFO]10:0:10 Page status: 200
+[INFO]10:0:10 Souping page
+[INFO]10:0:10 Souped page
+[INFO]10:0:10 Writing 'Conservation-induced resettlement as a driver of land cover change in India: An object-based trend analysis' by 'Rutherford V.' to disc
+[INFO]10:0:11 Written 'Conservation-induced resettlement as a driver of land cover change in India: An object-based trend analysis' to disc
+[INFO]10:0:11 Abstract Number: 137
+[INFO]10:0:11 Abstract ID: S1040618212000559
+[INFO]10:0:12 Page status: 200
+[INFO]10:0:12 Souping page
+[INFO]10:0:12 Souped page
+[INFO]10:0:12 Writing 'Mangrove vegetation responses to Holocene climate change along Konkan coast of south-western India' by 'Ruta B.' to disc
+[INFO]10:0:12 Written 'Mangrove vegetation responses to Holocene climate change along Konkan coast of south-western India' to disc
+[INFO]10:0:12 Abstract Number: 138
+[INFO]10:0:12 Abstract ID: S0264837712001809
+[INFO]10:0:13 Page status: 200
+[INFO]10:0:13 Souping page
+[INFO]10:0:14 Souped page
+[INFO]10:0:14 Writing 'The politics of rights-based approaches in conservation' by 'Prakash' to disc
+[INFO]10:0:14 Written 'The politics of rights-based approaches in conservation' to disc
+[INFO]10:0:14 Abstract Number: 139
+[INFO]10:0:14 Abstract ID: S1040618211002989
+[INFO]10:0:16 Page status: 200
+[INFO]10:0:16 Souping page
+[INFO]10:0:16 Souped page
+[INFO]10:0:16 Writing 'Shifting cultivators in South Asia: Expansion, marginalisation and specialisation over the long term' by 'Eleanor' to disc
+[INFO]10:0:17 Written 'Shifting cultivators in South Asia: Expansion, marginalisation and specialisation over the long term' to disc
+[INFO]10:0:17 Abstract Number: 140
+[INFO]10:0:17 Abstract ID: S0021850214000299
+[INFO]10:0:18 Page status: 200
+[INFO]10:0:18 Souping page
+[INFO]10:0:19 Souped page
+[INFO]10:0:19 Writing 'Optical exploration of biomass burning aerosols over a high-altitude station by combining ground-based and satellite data' by 'K.' to disc
+[INFO]10:0:19 Written 'Optical exploration of biomass burning aerosols over a high-altitude station by combining ground-based and satellite data' to disc
+[INFO]10:0:19 Abstract Number: 141
+[INFO]10:0:19 Abstract ID: S0169809517302557
+[INFO]10:0:20 Page status: 200
+[INFO]10:0:20 Souping page
+[INFO]10:0:21 Souped page
+[INFO]10:0:21 Writing 'Carbonaceous and inorganic aerosols over a sub-urban site in peninsular India: Temporal variability and source characteristics' by 'A.R.' to disc
+[INFO]10:0:21 Written 'Carbonaceous and inorganic aerosols over a sub-urban site in peninsular India: Temporal variability and source characteristics' to disc
+[INFO]10:0:22 Abstract Number: 142
+[INFO]10:0:22 Abstract ID: S092585749710026X
+[INFO]10:0:23 Page status: 200
+[INFO]10:0:23 Souping page
+[INFO]10:0:23 Souped page
+[INFO]10:0:23 Writing 'Afforestation of degraded land\xe2\x80\x94pyrrhic victory over economic, social and ecological reality?1' by 'I.R' to disc
+[INFO]10:0:24 Written 'Afforestation of degraded land\xe2\x80\x94pyrrhic victory over economic, social and ecological reality?1' to disc
+[INFO]10:0:24 Abstract Number: 143
+[INFO]10:0:24 Abstract ID: S1352231006002469
+[INFO]10:0:25 Page status: 200
+[INFO]10:0:25 Souping page
+[INFO]10:0:25 Souped page
+[INFO]10:0:25 Writing 'Chemical composition of aerosols over peninsular India during winter' by 'Prabha R.' to disc
+[INFO]10:0:25 Written 'Chemical composition of aerosols over peninsular India during winter' to disc
+[INFO]10:0:25 Abstract Number: 144
+[INFO]10:0:25 Abstract ID: S1474706512000472
+[INFO]10:0:26 Page status: 200
+[INFO]10:0:26 Souping page
+[INFO]10:0:26 Souped page
+[INFO]10:0:26 Writing 'Watershed development practices for ecorestoration in a tribal area \xe2\x80\x93 A case study in Attappady hills, South India' by 'Subha' to disc
+[INFO]10:0:27 Written 'Watershed development practices for ecorestoration in a tribal area \xe2\x80\x93 A case study in Attappady hills, South India' to disc
+[INFO]10:0:27 Abstract Number: 145
+[INFO]10:0:27 Abstract ID: S0341816296000707
+[INFO]10:0:28 Page status: 200
+[INFO]10:0:28 Souping page
+[INFO]10:0:28 Souped page
+[INFO]10:0:28 Writing 'Soils and climatic geomorphology on the Karnataka plateau, peninsular India' by 'Yanni' to disc
+[INFO]10:0:28 Written 'Soils and climatic geomorphology on the Karnataka plateau, peninsular India' to disc
+[INFO]10:0:28 Abstract Number: 146
+[INFO]10:0:29 Abstract ID: S0264817214001317
+[INFO]10:0:29 Page status: 200
+[INFO]10:0:29 Souping page
+[INFO]10:0:30 Souped page
+[INFO]10:0:30 Writing 'Research paperHigher plant biomarker signatures of Early Eocene sediments of North Eastern India' by 'Arijit' to disc
+[INFO]10:0:30 Written 'Research paperHigher plant biomarker signatures of Early Eocene sediments of North Eastern India' to disc
+[INFO]10:0:30 Abstract Number: 147
+[INFO]10:0:30 Abstract ID: S1462901106000864
+[INFO]10:0:31 Page status: 200
+[INFO]10:0:31 Souping page
+[INFO]10:0:31 Souped page
+[INFO]10:0:31 Writing 'Methodological issues in developing a community forestry greenhouse gas emissions mitigation project in Mancherial forest division of Andhra Pradesh, India' by 'I.K.' to disc
+[INFO]10:0:31 Written 'Methodological issues in developing a community forestry greenhouse gas emissions mitigation project in Mancherial forest division of Andhra Pradesh, India' to disc
+[INFO]10:0:31 Abstract Number: 148
+[INFO]10:0:31 Abstract ID: S1877343516300082
+[INFO]10:0:32 Page status: 200
+[INFO]10:0:32 Souping page
+[INFO]10:0:32 Souped page
+[INFO]10:0:32 Writing 'Sustainability science at ATREE: exhilaration, bumps, and speed-breakers when rubber meets the road' by 'Kamal' to disc
+[INFO]10:0:33 Written 'Sustainability science at ATREE: exhilaration, bumps, and speed-breakers when rubber meets the road' to disc
+[INFO]10:0:33 Abstract Number: 149
+[INFO]10:0:33 Abstract ID: S0921818106001159
+[INFO]10:0:34 Page status: 200
+[INFO]10:0:34 Souping page
+[INFO]10:0:34 Souped page
+[INFO]10:0:34 Writing 'Dry season clouds and rainfall in northern Central America: Implications for the Mesoamerican Biological Corridor' by 'Deepak K.' to disc
+[INFO]10:0:34 Written 'Dry season clouds and rainfall in northern Central America: Implications for the Mesoamerican Biological Corridor' to disc
+[INFO]10:0:34 Abstract Number: 150
+[INFO]10:0:34 Abstract ID: S0378112796038017
+[INFO]10:0:35 Page status: 200
+[INFO]10:0:35 Souping page
+[INFO]10:0:35 Souped page
+[INFO]10:0:35 Writing 'The impact of disturbance on detrital dynamics and soil microbial biomass of a Pinus kesiya forest in north-east India' by 'A.' to disc
+[INFO]10:0:35 Written 'The impact of disturbance on detrital dynamics and soil microbial biomass of a Pinus kesiya forest in north-east India' to disc
+[INFO]10:0:35 Abstract Number: 151
+[INFO]10:0:35 Abstract ID: 037887419501274H
+[INFO]10:0:36 Page status: 200
+[INFO]10:0:36 Souping page
+[INFO]10:0:36 Souped page
+[INFO]10:0:36 Writing 'Research paperMedical ethnobotany of the Siddis of Uttara Kannada district, Karnataka, India' by 'M.J.' to disc
+[INFO]10:0:37 Written 'Research paperMedical ethnobotany of the Siddis of Uttara Kannada district, Karnataka, India' to disc
+[INFO]10:0:37 Abstract Number: 152
+[INFO]10:0:37 Abstract ID: S0143622802000024
+[INFO]10:0:37 Page status: 200
+[INFO]10:0:37 Souping page
+[INFO]10:0:37 Souped page
+[INFO]10:0:38 Writing 'Opposite trends in response for the Shannon and Simpson indices of landscape diversity' by 'Harini' to disc
+[INFO]10:0:38 Written 'Opposite trends in response for the Shannon and Simpson indices of landscape diversity' to disc
+[INFO]10:0:38 Abstract Number: 153
+[INFO]10:0:38 Abstract ID: S0169809516303040
+[INFO]10:0:39 Page status: 200
+[INFO]10:0:39 Souping page
+[INFO]10:0:39 Souped page
+[INFO]10:0:39 Writing 'On the association of lightning activity and projected change in climate over the Indian sub-continent' by 'Upal' to disc
+[INFO]10:0:39 Written 'On the association of lightning activity and projected change in climate over the Indian sub-continent' to disc
+[INFO]10:0:39 Abstract Number: 154
+[INFO]10:0:39 Abstract ID: S1439179111001046
+[INFO]10:0:40 Page status: 200
+[INFO]10:0:40 Souping page
+[INFO]10:0:40 Souped page
+[INFO]10:0:40 Writing "Moisture and nutrients determine the distribution and richness of India's large herbivore species assemblage" by 'Farshid S.' to disc
+[INFO]10:0:41 Written "Moisture and nutrients determine the distribution and richness of India's large herbivore species assemblage" to disc
+[INFO]10:0:41 Abstract Number: 155
+[INFO]10:0:41 Abstract ID: S0006320710000492
+[INFO]10:0:41 Page status: 200
+[INFO]10:0:41 Souping page
+[INFO]10:0:41 Souped page
+[INFO]10:0:41 Writing 'Interactions between protected areas and their surroundings in human-dominated tropical landscapes' by 'Ruth' to disc
+[INFO]10:0:42 Written 'Interactions between protected areas and their surroundings in human-dominated tropical landscapes' to disc
+[INFO]10:0:42 Abstract Number: 156
+[INFO]10:0:42 Abstract ID: S025462991400177X
+[INFO]10:0:42 Page status: 200
+[INFO]10:0:42 Souping page
+[INFO]10:0:42 Souped page
+[INFO]10:0:43 Writing 'Grass competition and the savanna-grassland \xe2\x80\x98treeline\xe2\x80\x99: A question of root gaps?' by 'J.L.' to disc
+[INFO]10:0:43 Written 'Grass competition and the savanna-grassland \xe2\x80\x98treeline\xe2\x80\x99: A question of root gaps?' to disc
+[INFO]10:0:43 Abstract Number: 157
+[INFO]10:0:43 Abstract ID: S1226861517300353
+[INFO]10:0:43 Page status: 200
+[INFO]10:0:43 Souping page
+[INFO]10:0:44 Souped page
+[INFO]10:0:44 Writing 'Grain storage losses in the traditional tribal settlements of Biligirirangana Hills, Karnataka, India' by 'Nadur L.' to disc
+[INFO]10:0:44 Written 'Grain storage losses in the traditional tribal settlements of Biligirirangana Hills, Karnataka, India' to disc
+[INFO]10:0:44 Abstract Number: 158
+[INFO]10:0:44 Abstract ID: S0959378012000568
+[INFO]10:0:45 Page status: 200
+[INFO]10:0:45 Souping page
+[INFO]10:0:45 Souped page
+[INFO]10:0:45 Writing 'Social-ecological and regional adaptation of agrobiodiversity management across a global set of research regions' by 'L.E.' to disc
+[INFO]10:0:45 Written 'Social-ecological and regional adaptation of agrobiodiversity management across a global set of research regions' to disc
+[INFO]10:0:45 Abstract Number: 159
+[INFO]10:0:45 Abstract ID: S0303243411001954
+[INFO]10:0:46 Page status: 200
+[INFO]10:0:46 Souping page
+[INFO]10:0:46 Souped page
+[INFO]10:0:46 Writing 'Assessing landscape changes and dynamics using patch analysis and GIS modeling' by 'Sushant' to disc
+[INFO]10:0:46 Written 'Assessing landscape changes and dynamics using patch analysis and GIS modeling' to disc
+[INFO]10:0:46 Abstract Number: 160
+[INFO]10:0:46 Abstract ID: S000632070700273X
+[INFO]10:0:47 Page status: 200
+[INFO]10:0:47 Souping page
+[INFO]10:0:47 Souped page
+[INFO]10:0:47 Writing 'Making resettlement work: The case of India\xe2\x80\x99s Bhadra Wildlife Sanctuary' by 'Krithi K.' to disc
+[INFO]10:0:47 Written 'Making resettlement work: The case of India\xe2\x80\x99s Bhadra Wildlife Sanctuary' to disc
+[INFO]10:0:47 Abstract Number: 161
+[INFO]10:0:47 Abstract ID: S2225411017300676
+[INFO]10:0:48 Page status: 200
+[INFO]10:0:48 Souping page
+[INFO]10:0:48 Souped page
+[INFO]10:0:48 Writing 'Kingiodendron pinnatum, a pharmacologically effective alternative for Saraca asoca in an Ayurvedic preparation, Asokarishta' by 'Adangam Purath' to disc
+[INFO]10:0:48 Written 'Kingiodendron pinnatum, a pharmacologically effective alternative for Saraca asoca in an Ayurvedic preparation, Asokarishta' to disc
+[INFO]10:0:48 Abstract Number: 162
+[INFO]10:0:48 Abstract ID: S1550830710001783
+[INFO]10:0:49 Page status: 200
+[INFO]10:0:49 Souping page
+[INFO]10:0:49 Souped page
+[INFO]10:0:49 Writing 'Clinical articleOriginal researchSecrets of Long Life: Cross-Cultural Explorations in Sustainably Enhancing Vitality and Promoting Longevity via Elders\xe2\x80\x99 Practice Wisdom' by 'Todd' to disc
+[INFO]10:0:49 Written 'Clinical articleOriginal researchSecrets of Long Life: Cross-Cultural Explorations in Sustainably Enhancing Vitality and Promoting Longevity via Elders\xe2\x80\x99 Practice Wisdom' to disc
+[INFO]10:0:49 Abstract Number: 163
+[INFO]10:0:49 Abstract ID: S0031405604702085
+[INFO]10:0:50 Page status: 200
+[INFO]10:0:50 Souping page
+[INFO]10:0:50 Souped page
+[INFO]10:0:50 Writing 'Impact of landscape modification on earthworm diversity and abundance in the Hariyali sacred landscape, Garhwal Himalaya' by 'Bhaskar' to disc
+[INFO]10:0:51 Written 'Impact of landscape modification on earthworm diversity and abundance in the Hariyali sacred landscape, Garhwal Himalaya' to disc
+[INFO]10:0:51 Abstract Number: 164
+[INFO]10:0:51 Abstract ID: S2351989416301019
+[INFO]10:0:51 Page status: 200
+[INFO]10:0:51 Souping page
+[INFO]10:0:51 Souped page
+[INFO]10:0:52 Writing 'Original research articleFrom intent to action: A case study for the expansion of tiger conservation from southern India' by 'Sanjay' to disc
+[INFO]10:0:52 Written 'Original research articleFrom intent to action: A case study for the expansion of tiger conservation from southern India' to disc
+[INFO]10:0:52 Abstract Number: 165
+[INFO]10:0:52 Abstract ID: 0140670196801548
+[INFO]10:0:52 Page status: 200
+[INFO]10:0:52 Souping page
+[INFO]10:0:53 Souped page
+[INFO]10:0:53 Writing '96/05472 Bioindicators in the tropical forest of Kaiga environment' by Author not available to disc
+[INFO]10:0:53 Written '96/05472 Bioindicators in the tropical forest of Kaiga environment' to disc
+[INFO]10:0:53 Abstract Number: 166
+[INFO]10:0:53 Abstract ID: S097469431300087X
+[INFO]10:0:53 Page status: 200
+[INFO]10:0:53 Souping page
+[INFO]10:0:54 Souped page
+[INFO]10:0:54 Writing 'Original ArticleEthnopharmacological survey of traditional medicinal plants in tribal areas of Kodagu district, Karnataka, India' by 'D.P.' to disc
+[INFO]10:0:54 Written 'Original ArticleEthnopharmacological survey of traditional medicinal plants in tribal areas of Kodagu district, Karnataka, India' to disc
+[INFO]10:0:54 Abstract Number: 167
+[INFO]10:0:54 Abstract ID: S1352231015301825
+[INFO]10:0:55 Page status: 200
+[INFO]10:0:55 Souping page
+[INFO]10:0:55 Souped page
+[INFO]10:0:55 Writing 'Airborne and ground based CCN spectral characteristics: Inferences from CAIPEEX \xe2\x80\x93 2011' by 'Mercy' to disc
+[INFO]10:0:55 Written 'Airborne and ground based CCN spectral characteristics: Inferences from CAIPEEX \xe2\x80\x93 2011' to disc
+[INFO]10:0:55 Abstract Number: 168
+[INFO]10:0:55 Abstract ID: S0006320711003764
+[INFO]10:0:55 Page status: 200
+[INFO]10:0:55 Souping page
+[INFO]10:0:56 Souped page
+[INFO]10:0:56 Writing 'Special Issue Article: Advancing Environmental Conservation: Essays In Honor Of Navjot SodhiStrange bedfellows? Techno-fixes to solve the big conservation issues in southern Asia' by 'Barry W.' to disc
+[INFO]10:0:56 Written 'Special Issue Article: Advancing Environmental Conservation: Essays In Honor Of Navjot SodhiStrange bedfellows? Techno-fixes to solve the big conservation issues in southern Asia' to disc
+[INFO]10:0:56 Abstract Number: 169
+[INFO]10:0:56 Abstract ID: S0269749116314762
+[INFO]10:0:56 Page status: 200
+[INFO]10:0:56 Souping page
+[INFO]10:0:57 Souped page
+[INFO]10:0:57 Writing 'Investigation of PM2.5 mass concentration over India using a regional climate model\xe2\x98\x86' by 'Sherin Hassan' to disc
+[INFO]10:0:57 Written 'Investigation of PM2.5 mass concentration over India using a regional climate model\xe2\x98\x86' to disc
+[INFO]10:0:57 Abstract Number: 170
+[INFO]10:0:57 Abstract ID: S037887411830206X
+[INFO]10:0:57 Page status: 200
+[INFO]10:0:57 Souping page
+[INFO]10:0:58 Souped page
+[INFO]10:0:58 Writing 'Ethnobotany of dioecious species: Traditional knowledge on dioecious plants in India' by 'Gopalakrishnan Saroja' to disc
+[INFO]10:0:58 Written 'Ethnobotany of dioecious species: Traditional knowledge on dioecious plants in India' to disc
+[INFO]10:0:58 Abstract Number: 171
+[INFO]10:0:58 Abstract ID: S0009254110002597
+[INFO]10:0:58 Page status: 200
+[INFO]10:0:58 Souping page
+[INFO]10:0:59 Souped page
+[INFO]10:0:59 Writing 'Research paperModelling the chemical weathering fluxes at the watershed scale in the Tropics (Mule Hole, South India): Relative contribution of the smectite/kaolinite assemblage versus primary minerals' by 'Aur\xc3\xa9lie' to disc
+[INFO]10:0:59 Written 'Research paperModelling the chemical weathering fluxes at the watershed scale in the Tropics (Mule Hole, South India): Relative contribution of the smectite/kaolinite assemblage versus primary minerals' to disc
+[INFO]10:0:59 Abstract Number: 172
+[INFO]10:0:59 Abstract ID: S0006320715001615
+[INFO]10:0:59 Page status: 200
+[INFO]10:0:59 Souping page
+[INFO]10:1:0 Souped page
+[INFO]10:1:0 Writing 'Climate change modifies risk of global biodiversity loss due to land-cover change' by 'Chrystal S.' to disc
+[INFO]10:1:0 Written 'Climate change modifies risk of global biodiversity loss due to land-cover change' to disc
+[INFO]10:1:0 Abstract Number: 173
+[INFO]10:1:0 Abstract ID: 0140670196801470
+[INFO]10:1:1 Page status: 200
+[INFO]10:1:1 Souping page
+[INFO]10:1:1 Souped page
+[INFO]10:1:1 Writing '96/05479 Chernobyl clean-up targetted by Western group' by Author not available to disc
+[INFO]10:1:1 Written '96/05479 Chernobyl clean-up targetted by Western group' to disc
+[INFO]10:1:1 Abstract Number: 174
+[INFO]10:1:1 Abstract ID: S0006320710000509
+[INFO]10:1:2 Page status: 200
+[INFO]10:1:2 Souping page
+[INFO]10:1:2 Souped page
+[INFO]10:1:2 Writing 'Occurrence and distribution of Indian primates' by 'Krithi K.' to disc
+[INFO]10:1:2 Written 'Occurrence and distribution of Indian primates' to disc
+[INFO]10:1:2 Abstract Number: 175
+[INFO]10:1:2 Abstract ID: S0304380005000062
+[INFO]10:1:3 Page status: 200
+[INFO]10:1:3 Souping page
+[INFO]10:1:3 Souped page
+[INFO]10:1:3 Writing 'Validation of Geospatial model for Biodiversity Characterization at Landscape Level\xe2\x80\x94a study in Andaman & Nicobar Islands, India' by 'P.S.' to disc
+[INFO]10:1:3 Written 'Validation of Geospatial model for Biodiversity Characterization at Landscape Level\xe2\x80\x94a study in Andaman & Nicobar Islands, India' to disc
+[INFO]10:1:3 Abstract Number: 176
+[INFO]10:1:3 Abstract ID: S1474706507000745
+[INFO]10:1:5 Page status: 200
+[INFO]10:1:5 Souping page
+[INFO]10:1:5 Souped page
+[INFO]10:1:5 Writing 'Sustainability analysis of two participatory watershed projects in Kerala' by 'Subha' to disc
+[INFO]10:1:5 Written 'Sustainability analysis of two participatory watershed projects in Kerala' to disc
+[INFO]10:1:5 Abstract Number: 177
+[INFO]10:1:5 Abstract ID: S0006320701001586
+[INFO]10:1:7 Page status: 200
+[INFO]10:1:7 Souping page
+[INFO]10:1:8 Souped page
+[INFO]10:1:8 Writing 'Cross-taxon surrogacy of biodiversity in the Indian Garhwal Himalaya' by 'Hans Raj' to disc
+[INFO]10:1:8 Written 'Cross-taxon surrogacy of biodiversity in the Indian Garhwal Himalaya' to disc
+[INFO]10:1:8 Abstract Number: 178
+[INFO]10:1:8 Abstract ID: S0016706114004005
+[INFO]10:1:9 Page status: 200
+[INFO]10:1:9 Souping page
+[INFO]10:1:9 Souped page
+[INFO]10:1:9 Writing 'Mineral magnetic and diffuse reflectance spectroscopy characteristics of the Deccan volcanic bole beds: Implications to genesis and transformations of iron oxides' by 'Priyeshu' to disc
+[INFO]10:1:10 Written 'Mineral magnetic and diffuse reflectance spectroscopy characteristics of the Deccan volcanic bole beds: Implications to genesis and transformations of iron oxides' to disc
+[INFO]10:1:12 Page status: 200
+[INFO]10:1:12 Souping page
+[INFO]10:1:14 Souped page
+[INFO]10:1:14 Scraping IDs
+[INFO]10:1:14 Scraped IDs
+[INFO]10:1:14 Extracting Abstract IDs from disc
+[INFO]10:1:14 Extracted Abstract IDs from disc
+[INFO]10:1:14 Abstract Number: 201
+[INFO]10:1:14 Abstract ID: S1364032117310171
+[INFO]10:1:16 Page status: 200
+[INFO]10:1:16 Souping page
+[INFO]10:1:16 Souped page
+[INFO]10:1:16 Writing 'Solar power utility sector in india: Challenges and opportunities' by 'Pushpendra Kumar Singh' to disc
+[INFO]10:1:16 Written 'Solar power utility sector in india: Challenges and opportunities' to disc
+[INFO]10:1:16 Abstract Number: 202
+[INFO]10:1:16 Abstract ID: S0169809516305014
+[INFO]10:1:17 Page status: 200
+[INFO]10:1:17 Souping page
+[INFO]10:1:18 Souped page
+[INFO]10:1:18 Writing 'Rain-shadow: An area harboring \xe2\x80\x9cGray Ocean\xe2\x80\x9d clouds' by 'B.' to disc
+[INFO]10:1:18 Written 'Rain-shadow: An area harboring \xe2\x80\x9cGray Ocean\xe2\x80\x9d clouds' to disc
+[INFO]10:1:18 Abstract Number: 203
+[INFO]10:1:18 Abstract ID: S1352231013005955
+[INFO]10:1:19 Page status: 200
+[INFO]10:1:19 Souping page
+[INFO]10:1:20 Souped page
+[INFO]10:1:20 Writing 'In situ measurements of aerosol vertical and spatial distributions over continental India during the major drought year 2009' by 'B.' to disc
+[INFO]10:1:20 Written 'In situ measurements of aerosol vertical and spatial distributions over continental India during the major drought year 2009' to disc
+[INFO]10:1:20 Abstract Number: 204
+[INFO]10:1:20 Abstract ID: S0926985115001160
+[INFO]10:1:21 Page status: 200
+[INFO]10:1:21 Souping page
+[INFO]10:1:22 Souped page
+[INFO]10:1:22 Writing 'The environmental magnetic record of palaeoenvironmental variations during the past 3100\xc2\xa0years: A possible solar influence?' by 'K.' to disc
+[INFO]10:1:22 Written 'The environmental magnetic record of palaeoenvironmental variations during the past 3100\xc2\xa0years: A possible solar influence?' to disc
+[INFO]10:1:22 Abstract Number: 205
+[INFO]10:1:22 Abstract ID: S1040618203001332
+[INFO]10:1:23 Page status: 200
+[INFO]10:1:23 Souping page
+[INFO]10:1:23 Souped page
+[INFO]10:1:23 Writing 'History of vegetation and habitat change in the Austral-Asian region' by 'Geoffrey' to disc
+[INFO]10:1:24 Written 'History of vegetation and habitat change in the Austral-Asian region' to disc
+[INFO]10:1:24 Abstract Number: 206
+[INFO]10:1:24 Abstract ID: S0196890499001521
+[INFO]10:1:25 Page status: 200
+[INFO]10:1:25 Souping page
+[INFO]10:1:25 Souped page
+[INFO]10:1:25 Writing 'End use efficiencies in the domestic sector of Uttara Kannada District' by 'T.V' to disc
+[INFO]10:1:25 Written 'End use efficiencies in the domestic sector of Uttara Kannada District' to disc
+[INFO]10:1:25 Abstract Number: 207
+[INFO]10:1:25 Abstract ID: S0929139317302494
+[INFO]10:1:26 Page status: 200
+[INFO]10:1:26 Souping page
+[INFO]10:1:26 Souped page
+[INFO]10:1:26 Writing 'Macrofauna contributes to organic matter decomposition and soil quality in Himalayan agroecosystems, India' by 'Madhuri' to disc
+[INFO]10:1:26 Written 'Macrofauna contributes to organic matter decomposition and soil quality in Himalayan agroecosystems, India' to disc
+[INFO]10:1:26 Abstract Number: 208
+[INFO]10:1:26 Abstract ID: S0025326X16310578
+[INFO]10:1:27 Page status: 200
+[INFO]10:1:27 Souping page
+[INFO]10:1:27 Souped page
+[INFO]10:1:27 Writing 'ReviewMore surprises in the global greenhouse: Human health impacts from recent toxic marine aerosol formations, due to centennial alterations of world-wide coastal food webs' by 'J.J.' to disc
+[INFO]10:1:28 Written 'ReviewMore surprises in the global greenhouse: Human health impacts from recent toxic marine aerosol formations, due to centennial alterations of world-wide coastal food webs' to disc
+[INFO]10:1:28 Abstract Number: 209
+[INFO]10:1:28 Abstract ID: S0960982209006733
+[INFO]10:1:28 Page status: 200
+[INFO]10:1:28 Souping page
+[INFO]10:1:28 Souped page
+[INFO]10:1:28 Writing 'FeatureMountain concerns' by 'Nigel' to disc
+[INFO]10:1:29 Written 'FeatureMountain concerns' to disc
+[INFO]10:1:29 Abstract Number: 210
+[INFO]10:1:29 Abstract ID: S1433831904700694
+[INFO]10:1:29 Page status: 200
+[INFO]10:1:29 Souping page
+[INFO]10:1:29 Souped page
+[INFO]10:1:29 Writing 'Floristic zonation of tree communities on wet tropical mountains revisited' by 'Peter S.' to disc
+[INFO]10:1:30 Written 'Floristic zonation of tree communities on wet tropical mountains revisited' to disc
+[INFO]10:1:30 Abstract Number: 211
+[INFO]10:1:30 Abstract ID: S1352231007005602
+[INFO]10:1:30 Page status: 200
+[INFO]10:1:30 Souping page
+[INFO]10:1:31 Souped page
+[INFO]10:1:31 Writing 'Chemical characteristics of atmospheric aerosols over southwest coast of India' by 'P.' to disc
+[INFO]10:1:31 Written 'Chemical characteristics of atmospheric aerosols over southwest coast of India' to disc
+[INFO]10:1:31 Abstract Number: 212
+[INFO]10:1:31 Abstract ID: S0273117716303507
+[INFO]10:1:32 Page status: 200
+[INFO]10:1:32 Souping page
+[INFO]10:1:32 Souped page
+[INFO]10:1:32 Writing 'Anthropogenic emissions and space-borne observations of carbon monoxide over South Asia' by 'Zia' to disc
+[INFO]10:1:32 Written 'Anthropogenic emissions and space-borne observations of carbon monoxide over South Asia' to disc
+[INFO]10:1:32 Abstract Number: 213
+[INFO]10:1:32 Abstract ID: S0925857416304694
+[INFO]10:1:33 Page status: 200
+[INFO]10:1:33 Souping page
+[INFO]10:1:33 Souped page
+[INFO]10:1:33 Writing 'Predicting the probable distribution and threat of invasive Mimosa diplotricha Suavalle and Mikania micrantha Kunth in a protected tropical grassland' by 'Manabendra Ray' to disc
+[INFO]10:1:33 Written 'Predicting the probable distribution and threat of invasive Mimosa diplotricha Suavalle and Mikania micrantha Kunth in a protected tropical grassland' to disc
+[INFO]10:1:33 Abstract Number: 214
+[INFO]10:1:33 Abstract ID: S2211464515000391
+[INFO]10:1:34 Page status: 200
+[INFO]10:1:34 Souping page
+[INFO]10:1:34 Souped page
+[INFO]10:1:34 Writing 'Biofuels and biodiversity: Challenges and opportunities' by 'Luciano M.' to disc
+[INFO]10:1:34 Written 'Biofuels and biodiversity: Challenges and opportunities' to disc
+[INFO]10:1:34 Abstract Number: 215
+[INFO]10:1:34 Abstract ID: S1364682613000035
+[INFO]10:1:35 Page status: 200
+[INFO]10:1:35 Souping page
+[INFO]10:1:35 Souped page
+[INFO]10:1:35 Writing 'Temporal and spatial variability of aerosol optical depth over South India as inferred from MODIS' by 'T.' to disc
+[INFO]10:1:35 Written 'Temporal and spatial variability of aerosol optical depth over South India as inferred from MODIS' to disc
+[INFO]10:1:35 Abstract Number: 216
+[INFO]10:1:35 Abstract ID: S0016718512002734
+[INFO]10:1:36 Page status: 200
+[INFO]10:1:36 Souping page
+[INFO]10:1:36 Souped page
+[INFO]10:1:36 Writing 'Nature and urban citizenship redefined: The case of the National Park in Mumbai\xe2\x98\x86' by 'Marie-H\xc3\xa9l\xc3\xa8ne' to disc
+[INFO]10:1:37 Written 'Nature and urban citizenship redefined: The case of the National Park in Mumbai\xe2\x98\x86' to disc
+[INFO]10:1:37 Abstract Number: 217
+[INFO]10:1:37 Abstract ID: S0169555X18300709
+[INFO]10:1:37 Page status: 200
+[INFO]10:1:37 Souping page
+[INFO]10:1:38 Souped page
+[INFO]10:1:38 Writing 'Invited reviewAdvances in global mountain geomorphology' by 'Olav' to disc
+[INFO]10:1:38 Written 'Invited reviewAdvances in global mountain geomorphology' to disc
+[INFO]10:1:38 Abstract Number: 218
+[INFO]10:1:38 Abstract ID: S0305750X05000951
+[INFO]10:1:38 Page status: 200
+[INFO]10:1:38 Souping page
+[INFO]10:1:39 Souped page
+[INFO]10:1:39 Writing 'Global patterns and trends in the use and management of commercial NTFPs: Implications for livelihoods and conservation' by 'Brian' to disc
+[INFO]10:1:39 Written 'Global patterns and trends in the use and management of commercial NTFPs: Implications for livelihoods and conservation' to disc
+[INFO]10:1:39 Abstract Number: 219
+[INFO]10:1:39 Abstract ID: S0961953409002116
+[INFO]10:1:40 Page status: 200
+[INFO]10:1:40 Souping page
+[INFO]10:1:40 Souped page
+[INFO]10:1:40 Writing 'Carbon sequestration versus bioenergy: A case study from South India exploring the relative land-use efficiency of two options for climate change mitigation' by 'J.M.' to disc
+[INFO]10:1:40 Written 'Carbon sequestration versus bioenergy: A case study from South India exploring the relative land-use efficiency of two options for climate change mitigation' to disc
+[INFO]10:1:40 Abstract Number: 220
+[INFO]10:1:40 Abstract ID: S0006320716302269
+[INFO]10:1:41 Page status: 200
+[INFO]10:1:41 Souping page
+[INFO]10:1:41 Souped page
+[INFO]10:1:41 Writing 'Hot and bothered: Using trait-based approaches to assess climate change vulnerability in reptiles' by 'Monika' to disc
+[INFO]10:1:41 Written 'Hot and bothered: Using trait-based approaches to assess climate change vulnerability in reptiles' to disc
+[INFO]10:1:41 Abstract Number: 221
+[INFO]10:1:41 Abstract ID: S0168169902001229
+[INFO]10:1:42 Page status: 200
+[INFO]10:1:42 Souping page
+[INFO]10:1:42 Souped page
+[INFO]10:1:42 Writing 'Emerging New Technologies and Applications in Forestry, Agriculture, and Other Natural Resources in the 21st Century' by 'Loukas G' to disc
+[INFO]10:1:43 Written 'Emerging New Technologies and Applications in Forestry, Agriculture, and Other Natural Resources in the 21st Century' to disc
+[INFO]10:1:43 Abstract Number: 222
+[INFO]10:1:43 Abstract ID: S221242091730239X
+[INFO]10:1:43 Page status: 200
+[INFO]10:1:43 Souping page
+[INFO]10:1:43 Souped page
+[INFO]10:1:44 Writing 'Socio-ecological vulnerability: Assessment and coping strategy to environmental disaster in Kedarnath valley, Uttarakhand, Indian Himalayan Region' by 'R.K.' to disc
+[INFO]10:1:44 Written 'Socio-ecological vulnerability: Assessment and coping strategy to environmental disaster in Kedarnath valley, Uttarakhand, Indian Himalayan Region' to disc
+[INFO]10:1:44 Abstract Number: 223
+[INFO]10:1:44 Abstract ID: S0303243414002335
+[INFO]10:1:44 Page status: 200
+[INFO]10:1:44 Souping page
+[INFO]10:1:45 Souped page
+[INFO]10:1:45 Writing 'Satellite Earth observation data to identify anthropogenic pressures in selected protected areas' by 'Harini' to disc
+[INFO]10:1:45 Written 'Satellite Earth observation data to identify anthropogenic pressures in selected protected areas' to disc
+[INFO]10:1:45 Abstract Number: 224
+[INFO]10:1:45 Abstract ID: S0378112704008187
+[INFO]10:1:46 Page status: 200
+[INFO]10:1:46 Souping page
+[INFO]10:1:46 Souped page
+[INFO]10:1:46 Writing 'Rapid assessment of biological richness in a part of Eastern Himalaya: an integrated three-tier approach' by 'M.D.' to disc
+[INFO]10:1:46 Written 'Rapid assessment of biological richness in a part of Eastern Himalaya: an integrated three-tier approach' to disc
+[INFO]10:1:46 Abstract Number: 225
+[INFO]10:1:46 Abstract ID: S0957582017302963
+[INFO]10:1:47 Page status: 200
+[INFO]10:1:47 Souping page
+[INFO]10:1:47 Souped page
+[INFO]10:1:47 Writing 'ReviewSustainability of a non-edible vegetable oil based bio-lubricant for automotive applications: A review' by 'Yashvir' to disc
+[INFO]10:1:47 Written 'ReviewSustainability of a non-edible vegetable oil based bio-lubricant for automotive applications: A review' to disc
+[INFO]10:1:47 Abstract Number: 226
+[INFO]10:1:47 Abstract ID: S0378874114002785
+[INFO]10:1:48 Page status: 200
+[INFO]10:1:48 Souping page
+[INFO]10:1:48 Souped page
+[INFO]10:1:48 Writing 'ReviewClerodendrum serratum (L.) Moon. \xe2\x80\x93 A review on traditional uses, phytochemistry and pharmacological activities' by 'Jagruti J.' to disc
+[INFO]10:1:49 Written 'ReviewClerodendrum serratum (L.) Moon. \xe2\x80\x93 A review on traditional uses, phytochemistry and pharmacological activities' to disc
+[INFO]10:1:49 Abstract Number: 227
+[INFO]10:1:49 Abstract ID: S0006320709001621
+[INFO]10:1:49 Page status: 200
+[INFO]10:1:49 Souping page
+[INFO]10:1:50 Souped page
+[INFO]10:1:50 Writing 'Odonata enter the biodiversity crisis debate: The first global assessment of an insect group' by 'Viola' to disc
+[INFO]10:1:50 Written 'Odonata enter the biodiversity crisis debate: The first global assessment of an insect group' to disc
+[INFO]10:1:50 Abstract Number: 228
+[INFO]10:1:50 Abstract ID: S0278691511004790
+[INFO]10:1:51 Page status: 200
+[INFO]10:1:51 Souping page
+[INFO]10:1:51 Souped page
+[INFO]10:1:51 Writing 'Antidiabetic activity of alcoholic stem extract of Gymnema montanum in streptozotocin-induced diabetic rats' by 'Kunga Mohan' to disc
+[INFO]10:1:51 Written 'Antidiabetic activity of alcoholic stem extract of Gymnema montanum in streptozotocin-induced diabetic rats' to disc
+[INFO]10:1:51 Abstract Number: 229
+[INFO]10:1:51 Abstract ID: S221201731630295X
+[INFO]10:1:52 Page status: 200
+[INFO]10:1:52 Souping page
+[INFO]10:1:52 Souped page
+[INFO]10:1:52 Writing 'Contextual Form Based Coding as a Tool in Urban Design Process-chalai, Thiruvananthapuram as a Case\xe2\x98\x86' by 'Lakshmi S.' to disc
+[INFO]10:1:52 Written 'Contextual Form Based Coding as a Tool in Urban Design Process-chalai, Thiruvananthapuram as a Case\xe2\x98\x86' to disc
+[INFO]10:1:53 Abstract Number: 230
+[INFO]10:1:53 Abstract ID: S096014811731203X
+[INFO]10:1:53 Page status: 200
+[INFO]10:1:53 Souping page
+[INFO]10:1:53 Souped page
+[INFO]10:1:53 Writing 'Experimental investigation on the effects of diesel and mahua biodiesel blended fuel in direct injection diesel engine modified by nozzle orifice diameters' by 'M.' to disc
+[INFO]10:1:54 Written 'Experimental investigation on the effects of diesel and mahua biodiesel blended fuel in direct injection diesel engine modified by nozzle orifice diameters' to disc
+[INFO]10:1:54 Abstract Number: 231
+[INFO]10:1:54 Abstract ID: S1342937X05702331
+[INFO]10:1:55 Page status: 200
+[INFO]10:1:55 Souping page
+[INFO]10:1:55 Souped page
+[INFO]10:1:55 Writing 'Correspondence\xce\xb413Corg Chemo-Stratigraphy of Indian Gondwana' by 'J.G.' to disc
+[INFO]10:1:56 Written 'Correspondence\xce\xb413Corg Chemo-Stratigraphy of Indian Gondwana' to disc
+[INFO]10:1:56 Abstract Number: 232
+[INFO]10:1:56 Abstract ID: S0169534715002128
+[INFO]10:1:56 Page status: 200
+[INFO]10:1:56 Souping page
+[INFO]10:1:57 Souped page
+[INFO]10:1:57 Writing 'ReviewEmerging Technologies to Conserve Biodiversity' by 'Stuart L.' to disc
+[INFO]10:1:57 Written 'ReviewEmerging Technologies to Conserve Biodiversity' to disc
+[INFO]10:1:57 Abstract Number: 233
+[INFO]10:1:57 Abstract ID: S2214790X16302374
+[INFO]10:1:58 Page status: 200
+[INFO]10:1:58 Souping page
+[INFO]10:1:58 Souped page
+[INFO]10:1:58 Writing 'Original articleEcological distribution conflicts (EDCs) over mineral extraction in India: An overview' by 'Arpita' to disc
+[INFO]10:1:58 Written 'Original articleEcological distribution conflicts (EDCs) over mineral extraction in India: An overview' to disc
+[INFO]10:1:58 Abstract Number: 234
+[INFO]10:1:58 Abstract ID: S1389934109002032
+[INFO]10:1:59 Page status: 200
+[INFO]10:1:59 Souping page
+[INFO]10:1:59 Souped page
+[INFO]10:1:59 Writing 'Assessing the mitigation potential of forestry activities in a changing climate: A case study for Karnataka' by 'Kaysara' to disc
+[INFO]10:2:0 Written 'Assessing the mitigation potential of forestry activities in a changing climate: A case study for Karnataka' to disc
+[INFO]10:2:0 Abstract Number: 235
+[INFO]10:2:0 Abstract ID: S1055790309001377
+[INFO]10:2:0 Page status: 200
+[INFO]10:2:0 Souping page
+[INFO]10:2:1 Souped page
+[INFO]10:2:1 Writing 'A multi-locus plastid phylogenetic analysis of the pantropical genus Diospyros (Ebenaceae), with an emphasis on the radiation and biogeographic origins of the New Caledonian endemic species' by 'Sutee' to disc
+[INFO]10:2:1 Written 'A multi-locus plastid phylogenetic analysis of the pantropical genus Diospyros (Ebenaceae), with an emphasis on the radiation and biogeographic origins of the New Caledonian endemic species' to disc
+[INFO]10:2:1 Abstract Number: 236
+[INFO]10:2:1 Abstract ID: S0195925506001259
+[INFO]10:2:2 Page status: 200
+[INFO]10:2:2 Souping page
+[INFO]10:2:2 Souped page
+[INFO]10:2:2 Writing 'Adverse impacts of pasture abandonment in Himalayan protected areas: Testing the efficiency of a Natural Resource Management Plan (NRMP)' by 'Sunil' to disc
+[INFO]10:2:3 Written 'Adverse impacts of pasture abandonment in Himalayan protected areas: Testing the efficiency of a Natural Resource Management Plan (NRMP)' to disc
+[INFO]10:2:3 Abstract Number: 237
+[INFO]10:2:3 Abstract ID: S0169809516303908
+[INFO]10:2:3 Page status: 200
+[INFO]10:2:4 Souping page
+[INFO]10:2:4 Souped page
+[INFO]10:2:4 Writing 'Possible role of aerosols in the charge structure of isolated thunderstorms' by 'S.D.' to disc
+[INFO]10:2:4 Written 'Possible role of aerosols in the charge structure of isolated thunderstorms' to disc
+[INFO]10:2:4 Abstract Number: 238
+[INFO]10:2:4 Abstract ID: S0272494405801781
+[INFO]10:2:5 Page status: 200
+[INFO]10:2:5 Souping page
+[INFO]10:2:5 Souped page
+[INFO]10:2:5 Writing 'Review essayIndigenous visions of natureIndigenous Vision: Peoples of India\xe2\x80\x94Attitudes to the Environment, Geeti Sen (Ed.), Sage Publications/India International Centre, Geneva (1992), ISBN: 0 8039 9450 8' by 'Shahed' to disc
+[INFO]10:2:5 Written 'Review essayIndigenous visions of natureIndigenous Vision: Peoples of India\xe2\x80\x94Attitudes to the Environment, Geeti Sen (Ed.), Sage Publications/India International Centre, Geneva (1992), ISBN: 0 8039 9450 8' to disc
+[INFO]10:2:5 Abstract Number: 239
+[INFO]10:2:5 Abstract ID: S0140196309002353
+[INFO]10:2:7 Page status: 200
+[INFO]10:2:7 Souping page
+[INFO]10:2:7 Souped page
+[INFO]10:2:7 Writing 'Holocene mammals of Libya: A biogeographical, historical and archaeozoological approach' by 'M.' to disc
+[INFO]10:2:8 Written 'Holocene mammals of Libya: A biogeographical, historical and archaeozoological approach' to disc
+[INFO]10:2:8 Abstract Number: 240
+[INFO]10:2:8 Abstract ID: S0929139315300159
+[INFO]10:2:9 Page status: 200
+[INFO]10:2:9 Souping page
+[INFO]10:2:9 Souped page
+[INFO]10:2:10 Writing 'ReviewNovel plant growth promoting rhizobacteria\xe2\x80\x94Prospects and potential' by 'Hemlata' to disc
+[INFO]10:2:10 Written 'ReviewNovel plant growth promoting rhizobacteria\xe2\x80\x94Prospects and potential' to disc
+[INFO]10:2:10 Abstract Number: 241
+[INFO]10:2:10 Abstract ID: S1364032100000022
+[INFO]10:2:12 Page status: 200
+[INFO]10:2:12 Souping page
+[INFO]10:2:13 Souped page
+[INFO]10:2:13 Writing 'Present and prospective role of bioenergy in regional energy system' by 'T.V' to disc
+[INFO]10:2:13 Written 'Present and prospective role of bioenergy in regional energy system' to disc
+[INFO]10:2:13 Abstract Number: 242
+[INFO]10:2:13 Abstract ID: S0045653518309329
+[INFO]10:2:15 Page status: 200
+[INFO]10:2:15 Souping page
+[INFO]10:2:15 Souped page
+[INFO]10:2:16 Writing 'Chemometric tool to study the mechanism of arsenic contamination in groundwater of Puducherry region, South East coast of India' by 'M.' to disc
+[INFO]10:2:16 Written 'Chemometric tool to study the mechanism of arsenic contamination in groundwater of Puducherry region, South East coast of India' to disc
+[INFO]10:2:16 Abstract Number: 243
+[INFO]10:2:16 Abstract ID: S0962456298800453
+[INFO]10:2:17 Page status: 200
+[INFO]10:2:18 Souping page
+[INFO]10:2:18 Souped page
+[INFO]10:2:18 Writing 'Case studies' by 'Kate' to disc
+[INFO]10:2:18 Written 'Case studies' to disc
+[INFO]10:2:18 Abstract Number: 244
+[INFO]10:2:18 Abstract ID: S1002016014600813
+[INFO]10:2:19 Page status: 200
+[INFO]10:2:19 Souping page
+[INFO]10:2:20 Souped page
+[INFO]10:2:20 Writing 'PEDOSPHERELeaf and Ecosystem Gas Exchange Responses of Buffel Grass-Dominated Grassland to Summer Precipitation' by 'Mir Zaman' to disc
+[INFO]10:2:21 Written 'PEDOSPHERELeaf and Ecosystem Gas Exchange Responses of Buffel Grass-Dominated Grassland to Summer Precipitation' to disc
+[INFO]10:2:21 Abstract Number: 245
+[INFO]10:2:21 Abstract ID: S0016706112001851
+[INFO]10:2:22 Page status: 200
+[INFO]10:2:22 Souping page
+[INFO]10:2:23 Souped page
+[INFO]10:2:23 Writing 'ReviewVertisols of tropical Indian environments: Pedology and edaphology' by 'D.K.' to disc
+[INFO]10:2:23 Written 'ReviewVertisols of tropical Indian environments: Pedology and edaphology' to disc
+[INFO]10:2:23 Abstract Number: 246
+[INFO]10:2:23 Abstract ID: S1041608013000137
+[INFO]10:2:24 Page status: 200
+[INFO]10:2:24 Souping page
+[INFO]10:2:25 Souped page
+[INFO]10:2:25 Writing "Secular trends on traditional ecological knowledge: An analysis of changes in different domains of knowledge among Tsimane' men" by 'Victoria' to disc
+[INFO]10:2:25 Written "Secular trends on traditional ecological knowledge: An analysis of changes in different domains of knowledge among Tsimane' men" to disc
+[INFO]10:2:25 Abstract Number: 247
+[INFO]10:2:25 Abstract ID: S0378112797805683
+[INFO]10:2:27 Page status: 200
+[INFO]10:2:27 Souping page
+[INFO]10:2:28 Souped page
+[INFO]10:2:28 Writing 'Cumulative subject index, vols. 76\xe2\x80\x93100' by Author not available to disc
+[INFO]10:2:28 Written 'Cumulative subject index, vols. 76\xe2\x80\x93100' to disc
+[INFO]10:2:28 Abstract Number: 248
+[INFO]10:2:28 Abstract ID: S0006320711002448
+[INFO]10:2:30 Page status: 200
+[INFO]10:2:30 Souping page
+[INFO]10:2:31 Souped page
+[INFO]10:2:31 Writing 'ReviewThe sacred commons: Conflicts and solutions of resource management in sacred natural sites' by 'Claudia' to disc
+[INFO]10:2:31 Written 'ReviewThe sacred commons: Conflicts and solutions of resource management in sacred natural sites' to disc
+[INFO]10:2:31 Abstract Number: 249
+[INFO]10:2:31 Abstract ID: S1040618210004957
+[INFO]10:2:33 Page status: 200
+[INFO]10:2:33 Souping page
+[INFO]10:2:34 Souped page
+[INFO]10:2:34 Writing 'Evolution of the coastal wetland systems of SW India during the Holocene: Evidence from marine and terrestrial archives of Kollam coast, Kerala' by 'D.' to disc
+[INFO]10:2:34 Written 'Evolution of the coastal wetland systems of SW India during the Holocene: Evidence from marine and terrestrial archives of Kollam coast, Kerala' to disc
+[INFO]10:2:34 Abstract Number: 250
+[INFO]10:2:34 Abstract ID: S0378112797867990
+[INFO]10:2:36 Page status: 200
+[INFO]10:2:36 Souping page
+[INFO]10:2:37 Souped page
+[INFO]10:2:37 Writing 'Cumulative subject index, vols. 80\xe2\x80\x9389' by Author not available to disc
+[INFO]10:2:37 Written 'Cumulative subject index, vols. 80\xe2\x80\x9389' to disc
+[INFO]10:2:37 Abstract Number: 251
+[INFO]10:2:37 Abstract ID: S0378112796037991
+[INFO]10:2:39 Page status: 200
+[INFO]10:2:39 Souping page
+[INFO]10:2:40 Souped page
+[INFO]10:2:40 Writing 'Ecology of Bambusa arudinacea (Retz.) Willd. growing in teak plantations of Kerala, India' by 'U.M.' to disc
+[INFO]10:2:40 Written 'Ecology of Bambusa arudinacea (Retz.) Willd. growing in teak plantations of Kerala, India' to disc
+[INFO]10:2:40 Abstract Number: 252
+[INFO]10:2:40 Abstract ID: S0169809510003467
+[INFO]10:2:42 Page status: 200
+[INFO]10:2:42 Souping page
+[INFO]10:2:43 Souped page
+[INFO]10:2:43 Writing 'Characterization of aerosol black carbon over a tropical semi-arid region of Anantapur, India' by 'K. Raghavendra' to disc
+[INFO]10:2:43 Written 'Characterization of aerosol black carbon over a tropical semi-arid region of Anantapur, India' to disc
+[INFO]10:2:43 Abstract Number: 253
+[INFO]10:2:43 Abstract ID: S0169809515001428
+[INFO]10:2:45 Page status: 200
+[INFO]10:2:45 Souping page
+[INFO]10:2:46 Souped page
+[INFO]10:2:46 Writing 'Identification of aerosol types over an urban site based on air-mass trajectory classification' by 'G.V.' to disc
+[INFO]10:2:46 Written 'Identification of aerosol types over an urban site based on air-mass trajectory classification' to disc
+[INFO]10:2:46 Abstract Number: 254
+[INFO]10:2:46 Abstract ID: S092698511300270X
+[INFO]10:2:47 Page status: 200
+[INFO]10:2:47 Souping page
+[INFO]10:2:48 Souped page
+[INFO]10:2:48 Writing 'Mineral magnetism of atmospheric dust over southwest coast of India: Impact of anthropogenic activities and implications to public health' by 'Anish Kumar' to disc
+[INFO]10:2:48 Written 'Mineral magnetism of atmospheric dust over southwest coast of India: Impact of anthropogenic activities and implications to public health' to disc
+[INFO]10:2:48 Abstract Number: 255
+[INFO]10:2:48 Abstract ID: S0960148109004315
+[INFO]10:2:50 Page status: 200
+[INFO]10:2:50 Souping page
+[INFO]10:2:50 Souped page
+[INFO]10:2:50 Writing 'Technical NoteIntegrated renewable energy systems for off grid rural electrification of remote area' by 'A.B.' to disc
+[INFO]10:2:50 Written 'Technical NoteIntegrated renewable energy systems for off grid rural electrification of remote area' to disc
+[INFO]10:2:50 Abstract Number: 256
+[INFO]10:2:50 Abstract ID: S0964569105000694
+[INFO]10:2:52 Page status: 200
+[INFO]10:2:52 Souping page
+[INFO]10:2:52 Souped page
+[INFO]10:2:52 Writing 'Coastal regulation zone rules in coastal panchayats (villages) of Kerala, India vis-\xc3\xa0-vis socio-economic impacts from the recently introduced peoples\xe2\x80\x99 participatory program for local self-governance and sustainable development' by 'A.' to disc
+[INFO]10:2:52 Written 'Coastal regulation zone rules in coastal panchayats (villages) of Kerala, India vis-\xc3\xa0-vis socio-economic impacts from the recently introduced peoples\xe2\x80\x99 participatory program for local self-governance and sustainable development' to disc
+[INFO]10:2:52 Abstract Number: 257
+[INFO]10:2:52 Abstract ID: S1364032117302538
+[INFO]10:2:54 Page status: 200
+[INFO]10:2:54 Souping page
+[INFO]10:2:54 Souped page
+[INFO]10:2:54 Writing 'Prospects and potential of fatty acid methyl esters of some non-edible seed oils for use as biodiesel in Pakistan' by 'Saira' to disc
+[INFO]10:2:55 Written 'Prospects and potential of fatty acid methyl esters of some non-edible seed oils for use as biodiesel in Pakistan' to disc
+[INFO]10:2:55 Abstract Number: 258
+[INFO]10:2:55 Abstract ID: S0378874114001536
+[INFO]10:2:56 Page status: 200
+[INFO]10:2:56 Souping page
+[INFO]10:2:56 Souped page
+[INFO]10:2:56 Writing 'An ethnobotanical study of indigenous knowledge on medicinal plants used by the village peoples of Thoppampatti, Dindigul district, Tamilnadu, India' by 'Balayogan' to disc
+[INFO]10:2:57 Written 'An ethnobotanical study of indigenous knowledge on medicinal plants used by the village peoples of Thoppampatti, Dindigul district, Tamilnadu, India' to disc
+[INFO]10:2:57 Abstract Number: 259
+[INFO]10:2:57 Abstract ID: S0034425710000544
+[INFO]10:2:57 Page status: 200
+[INFO]10:2:57 Souping page
+[INFO]10:2:58 Souped page
+[INFO]10:2:58 Writing 'The use of MERIS Terrestrial Chlorophyll Index to study spatio-temporal variation in vegetation phenology over India' by 'J.' to disc
+[INFO]10:2:58 Written 'The use of MERIS Terrestrial Chlorophyll Index to study spatio-temporal variation in vegetation phenology over India' to disc
+[INFO]10:2:58 Abstract Number: 260
+[INFO]10:2:58 Abstract ID: S1352231014008115
+[INFO]10:2:58 Page status: 200
+[INFO]10:2:58 Souping page
+[INFO]10:2:59 Souped page
+[INFO]10:2:59 Writing 'Type-segregated aerosol effects on regional monsoon activity: A study using ground-based experiments and model simulations' by 'K.' to disc
+[INFO]10:2:59 Written 'Type-segregated aerosol effects on regional monsoon activity: A study using ground-based experiments and model simulations' to disc
+[INFO]10:2:59 Abstract Number: 261
+[INFO]10:2:59 Abstract ID: S0006320706004071
+[INFO]10:3:0 Page status: 200
+[INFO]10:3:0 Souping page
+[INFO]10:3:0 Souped page
+[INFO]10:3:0 Writing 'Volume contents & Author Index 2006' by Author not available to disc
+[INFO]10:3:0 Written 'Volume contents & Author Index 2006' to disc
+[INFO]10:3:0 Abstract Number: 262
+[INFO]10:3:0 Abstract ID: S2211464514000530
+[INFO]10:3:1 Page status: 200
+[INFO]10:3:1 Souping page
+[INFO]10:3:1 Souped page
+[INFO]10:3:1 Writing 'Assessment of inherent vulnerability of rural communities to environmental hazards in Kimsar region of Uttarakhand, India' by 'Shipra' to disc
+[INFO]10:3:1 Written 'Assessment of inherent vulnerability of rural communities to environmental hazards in Kimsar region of Uttarakhand, India' to disc
+[INFO]10:3:2 Page status: 200
+[INFO]10:3:2 Souping page
+[INFO]10:3:4 Souped page
+[INFO]10:3:4 Scraping IDs
+[INFO]10:3:4 Scraped IDs
+[INFO]10:3:4 Extracting Abstract IDs from disc
+[INFO]10:3:4 Extracted Abstract IDs from disc
+[INFO]10:3:4 Abstract Number: 301
+[INFO]10:3:4 Abstract ID: S0169555X06002522
+[INFO]10:3:5 Page status: 200
+[INFO]10:3:5 Souping page
+[INFO]10:3:5 Souped page
+[INFO]10:3:5 Writing 'Human impacts to mountain streams' by 'Ellen' to disc
+[INFO]10:3:5 Written 'Human impacts to mountain streams' to disc
+[INFO]10:3:5 Abstract Number: 302
+[INFO]10:3:5 Abstract ID: S1352231006011976
+[INFO]10:3:6 Page status: 200
+[INFO]10:3:6 Souping page
+[INFO]10:3:6 Souped page
+[INFO]10:3:6 Writing 'Seasonal variation of black carbon aerosols over a tropical urban city of Pune, India' by 'P.D.' to disc
+[INFO]10:3:6 Written 'Seasonal variation of black carbon aerosols over a tropical urban city of Pune, India' to disc
+[INFO]10:3:6 Abstract Number: 303
+[INFO]10:3:6 Abstract ID: S0272771414001292
+[INFO]10:3:7 Page status: 200
+[INFO]10:3:7 Souping page
+[INFO]10:3:7 Souped page
+[INFO]10:3:7 Writing 'Bioavailable trace metals in micro-tidal Thambraparani estuary, Gulf of Mannar, SE coast of India' by 'M.' to disc
+[INFO]10:3:7 Written 'Bioavailable trace metals in micro-tidal Thambraparani estuary, Gulf of Mannar, SE coast of India' to disc
+[INFO]10:3:7 Abstract Number: 304
+[INFO]10:3:7 Abstract ID: S1364032116310024
+[INFO]10:3:8 Page status: 200
+[INFO]10:3:8 Souping page
+[INFO]10:3:8 Souped page
+[INFO]10:3:8 Writing 'Progressing towards the development of sustainable energy: A critical review on the current status, applications, developmental barriers and prospects of solar photovoltaic systems in India' by 'S.' to disc
+[INFO]10:3:8 Written 'Progressing towards the development of sustainable energy: A critical review on the current status, applications, developmental barriers and prospects of solar photovoltaic systems in India' to disc
+[INFO]10:3:8 Abstract Number: 305
+[INFO]10:3:8 Abstract ID: S1364032106000256
+[INFO]10:3:9 Page status: 200
+[INFO]10:3:9 Souping page
+[INFO]10:3:9 Souped page
+[INFO]10:3:9 Writing 'Prospects of renewable energy utilisation for electricity generation in Bangladesh' by 'A' to disc
+[INFO]10:3:9 Written 'Prospects of renewable energy utilisation for electricity generation in Bangladesh' to disc
+[INFO]10:3:9 Abstract Number: 306
+[INFO]10:3:10 Abstract ID: S0378874109004917
+[INFO]10:3:10 Page status: 200
+[INFO]10:3:10 Souping page
+[INFO]10:3:10 Souped page
+[INFO]10:3:10 Writing 'Ethno-medicinal application of plants in the eastern region of Shimoga district, Karnataka, India' by 'N.' to disc
+[INFO]10:3:11 Written 'Ethno-medicinal application of plants in the eastern region of Shimoga district, Karnataka, India' to disc
+[INFO]10:3:11 Abstract Number: 307
+[INFO]10:3:11 Abstract ID: S037887411000838X
+[INFO]10:3:11 Page status: 200
+[INFO]10:3:11 Souping page
+[INFO]10:3:11 Souped page
+[INFO]10:3:11 Writing 'An ethnobotanical survey of medicinal plants in the Eastern Himalayan zone of Arunachal Pradesh, India' by 'Sumpam' to disc
+[INFO]10:3:12 Written 'An ethnobotanical survey of medicinal plants in the Eastern Himalayan zone of Arunachal Pradesh, India' to disc
+[INFO]10:3:12 Abstract Number: 308
+[INFO]10:3:12 Abstract ID: S0169809511003346
+[INFO]10:3:12 Page status: 200
+[INFO]10:3:12 Souping page
+[INFO]10:3:12 Souped page
+[INFO]10:3:12 Writing 'Study on deep inland penetration of sea breeze over complex terrain in the tropics' by 'Shravan Kumar' to disc
+[INFO]10:3:13 Written 'Study on deep inland penetration of sea breeze over complex terrain in the tropics' to disc
+[INFO]10:3:13 Abstract Number: 309
+[INFO]10:3:13 Abstract ID: S0016706103001277
+[INFO]10:3:13 Page status: 200
+[INFO]10:3:13 Souping page
+[INFO]10:3:13 Souped page
+[INFO]10:3:13 Writing 'Occurrence of sombric-like subsurface A horizons in some andic soils of the Nilgiri Hills (Southern India) and their palaeoecological significance' by 'Laurent' to disc
+[INFO]10:3:14 Written 'Occurrence of sombric-like subsurface A horizons in some andic soils of the Nilgiri Hills (Southern India) and their palaeoecological significance' to disc
+[INFO]10:3:14 Abstract Number: 310
+[INFO]10:3:14 Abstract ID: S1462901198000033
+[INFO]10:3:14 Page status: 200
+[INFO]10:3:14 Souping page
+[INFO]10:3:15 Souped page
+[INFO]10:3:15 Writing 'Economics of conservation biology: a critical review' by 'G.Cornelis' to disc
+[INFO]10:3:15 Written 'Economics of conservation biology: a critical review' to disc
+[INFO]10:3:15 Abstract Number: 311
+[INFO]10:3:15 Abstract ID: S0962456298800763
+[INFO]10:3:16 Page status: 200
+[INFO]10:3:16 Souping page
+[INFO]10:3:16 Souped page
+[INFO]10:3:16 Writing 'Travels in an ancient land III' by 'Christopher' to disc
+[INFO]10:3:16 Written 'Travels in an ancient land III' to disc
+[INFO]10:3:16 Abstract Number: 312
+[INFO]10:3:16 Abstract ID: 0140670196801512
+[INFO]10:3:17 Page status: 200
+[INFO]10:3:17 Souping page
+[INFO]10:3:17 Souped page
+[INFO]10:3:17 Writing '96/05478 Chemical filtration of indoor air \xe2\x80\x94 An appliction primer' by Author not available to disc
+[INFO]10:3:17 Written '96/05478 Chemical filtration of indoor air \xe2\x80\x94 An appliction primer' to disc
+[INFO]10:3:17 Abstract Number: 313
+[INFO]10:3:17 Abstract ID: 0140670196801524
+[INFO]10:3:18 Page status: 200
+[INFO]10:3:18 Souping page
+[INFO]10:3:18 Souped page
+[INFO]10:3:18 Writing '96/05480 Climate change costs. Recent advancements in the economic assessment' by Author not available to disc
+[INFO]10:3:18 Written '96/05480 Climate change costs. Recent advancements in the economic assessment' to disc
+[INFO]10:3:18 Abstract Number: 314
+[INFO]10:3:18 Abstract ID: 0140670196801500
+[INFO]10:3:19 Page status: 200
+[INFO]10:3:19 Souping page
+[INFO]10:3:19 Souped page
+[INFO]10:3:19 Writing '96/05473 Biological monitoring of polycyclic aromatic hydrocarbon exposure in a highly polluted area of Poland' by Author not available to disc
+[INFO]10:3:19 Written '96/05473 Biological monitoring of polycyclic aromatic hydrocarbon exposure in a highly polluted area of Poland' to disc
+[INFO]10:3:19 Abstract Number: 315
+[INFO]10:3:19 Abstract ID: S0140670196902222
+[INFO]10:3:20 Page status: 200
+[INFO]10:3:20 Souping page
+[INFO]10:3:20 Souped page
+[INFO]10:3:20 Writing '96/05486 Cold store code of practice. Part 1 \xe2\x80\x94 Enclosure construction' by Author not available to disc
+[INFO]10:3:20 Written '96/05486 Cold store code of practice. Part 1 \xe2\x80\x94 Enclosure construction' to disc
+[INFO]10:3:20 Abstract Number: 316
+[INFO]10:3:20 Abstract ID: S0140670196902234
+[INFO]10:3:21 Page status: 200
+[INFO]10:3:21 Souping page
+[INFO]10:3:21 Souped page
+[INFO]10:3:21 Writing '96/05487 Commissioning and early operating experience of the Ratcliffe FGD plant' by Author not available to disc
+[INFO]10:3:21 Written '96/05487 Commissioning and early operating experience of the Ratcliffe FGD plant' to disc
+[INFO]10:3:21 Abstract Number: 317
+[INFO]10:3:22 Abstract ID: 0140670196801421
+[INFO]10:3:22 Page status: 200
+[INFO]10:3:22 Souping page
+[INFO]10:3:22 Souped page
+[INFO]10:3:22 Writing '96/05484 Coal tar residues produce both DNA adducts and oxidative DNA damage in human mammary epithelial cells' by Author not available to disc
+[INFO]10:3:23 Written '96/05484 Coal tar residues produce both DNA adducts and oxidative DNA damage in human mammary epithelial cells' to disc
+[INFO]10:3:23 Abstract Number: 318
+[INFO]10:3:23 Abstract ID: 0140670196801457
+[INFO]10:3:23 Page status: 200
+[INFO]10:3:23 Souping page
+[INFO]10:3:23 Souped page
+[INFO]10:3:23 Writing '96/05475 But is it true?' by Author not available to disc
+[INFO]10:3:24 Written '96/05475 But is it true?' to disc
+[INFO]10:3:24 Abstract Number: 319
+[INFO]10:3:24 Abstract ID: S0140670196902210
+[INFO]10:3:24 Page status: 200
+[INFO]10:3:24 Souping page
+[INFO]10:3:24 Souped page
+[INFO]10:3:24 Writing '96/05485 Coke oven gas treatment and byproduct plant of Magnitogorsk integrated iron and Steel Works' by Author not available to disc
+[INFO]10:3:25 Written '96/05485 Coke oven gas treatment and byproduct plant of Magnitogorsk integrated iron and Steel Works' to disc
+[INFO]10:3:25 Abstract Number: 320
+[INFO]10:3:25 Abstract ID: 0140670196801482
+[INFO]10:3:25 Page status: 200
+[INFO]10:3:25 Souping page
+[INFO]10:3:25 Souped page
+[INFO]10:3:25 Writing '96/05476 Calculation of total absorbed doses in research reactors' by Author not available to disc
+[INFO]10:3:26 Written '96/05476 Calculation of total absorbed doses in research reactors' to disc
+[INFO]10:3:26 Abstract Number: 321
+[INFO]10:3:26 Abstract ID: 0140670196801494
+[INFO]10:3:26 Page status: 200
+[INFO]10:3:26 Souping page
+[INFO]10:3:26 Souped page
+[INFO]10:3:26 Writing '96/05471 The benefits of reduced damage to buildings from abatement of sulphur dioxide emissions' by Author not available to disc
+[INFO]10:3:27 Written '96/05471 The benefits of reduced damage to buildings from abatement of sulphur dioxide emissions' to disc
+[INFO]10:3:27 Abstract Number: 322
+[INFO]10:3:27 Abstract ID: 0140670196801536
+[INFO]10:3:27 Page status: 200
+[INFO]10:3:27 Souping page
+[INFO]10:3:27 Souped page
+[INFO]10:3:27 Writing '96/05481 Climatic risks and rational actors' by Author not available to disc
+[INFO]10:3:28 Written '96/05481 Climatic risks and rational actors' to disc
+[INFO]10:3:28 Abstract Number: 323
+[INFO]10:3:28 Abstract ID: 0140670196801433
+[INFO]10:3:28 Page status: 200
+[INFO]10:3:28 Souping page
+[INFO]10:3:28 Souped page
+[INFO]10:3:28 Writing '96/05483 Coal switching and NOx compliance' by Author not available to disc
+[INFO]10:3:29 Written '96/05483 Coal switching and NOx compliance' to disc
+[INFO]10:3:29 Abstract Number: 324
+[INFO]10:3:29 Abstract ID: 0140670196801469
+[INFO]10:3:29 Page status: 200
+[INFO]10:3:29 Souping page
+[INFO]10:3:29 Souped page
+[INFO]10:3:29 Writing '96/05482 CO2 mitigation strategies: Perspectives on the capture and sequestration option' by Author not available to disc
+[INFO]10:3:30 Written '96/05482 CO2 mitigation strategies: Perspectives on the capture and sequestration option' to disc
+[INFO]10:3:30 Abstract Number: 325
+[INFO]10:3:30 Abstract ID: 014067019680141X
+[INFO]10:3:30 Page status: 200
+[INFO]10:3:30 Souping page
+[INFO]10:3:30 Souped page
+[INFO]10:3:30 Writing '96/05474 Bioturbation as a mechanism for radionuclide transport in soil: Relevance of earthworms' by Author not available to disc
+[INFO]10:3:31 Written '96/05474 Bioturbation as a mechanism for radionuclide transport in soil: Relevance of earthworms' to disc
+[INFO]10:3:31 Abstract Number: 326
+[INFO]10:3:31 Abstract ID: S0378112797805671
+[INFO]10:3:31 Page status: 200
+[INFO]10:3:31 Souping page
+[INFO]10:3:31 Souped page
+[INFO]10:3:31 Writing 'Cumulative author index, vols. 76\xe2\x80\x93100' by Author not available to disc
+[INFO]10:3:32 Written 'Cumulative author index, vols. 76\xe2\x80\x93100' to disc
+[INFO]10:3:32 Abstract Number: 327
+[INFO]10:3:32 Abstract ID: S1364032114005620
+[INFO]10:3:32 Page status: 200
+[INFO]10:3:32 Souping page
+[INFO]10:3:32 Souped page
+[INFO]10:3:32 Writing 'Potential production of bioenergy from biomass in an Indian perspective' by 'N.B.' to disc
+[INFO]10:3:33 Written 'Potential production of bioenergy from biomass in an Indian perspective' to disc
+[INFO]10:3:33 Abstract Number: 328
+[INFO]10:3:33 Abstract ID: S0016787807800411
+[INFO]10:3:33 Page status: 200
+[INFO]10:3:33 Souping page
+[INFO]10:3:33 Souped page
+[INFO]10:3:33 Writing 'Donald Ralph Bowes' by 'Bernard Elgey' to disc
+[INFO]10:3:34 Written 'Donald Ralph Bowes' to disc
+[INFO]10:3:34 Abstract Number: 329
+[INFO]10:3:34 Abstract ID: S0973082608602318
+[INFO]10:3:34 Page status: 200
+[INFO]10:3:34 Souping page
+[INFO]10:3:34 Souped page
+[INFO]10:3:35 Writing 'ArticlesWomen, energy and sustainable development' by 'R.' to disc
+[INFO]10:3:35 Written 'ArticlesWomen, energy and sustainable development' to disc
+[INFO]10:3:35 Abstract Number: 330
+[INFO]10:3:35 Abstract ID: S0378112797867989
+[INFO]10:3:35 Page status: 200
+[INFO]10:3:35 Souping page
+[INFO]10:3:36 Souped page
+[INFO]10:3:36 Writing 'Cumulative author index, vols. 80\xe2\x80\x9389' by Author not available to disc
+[INFO]10:3:36 Written 'Cumulative author index, vols. 80\xe2\x80\x9389' to disc
+[INFO]10:3:36 Abstract Number: 331
+[INFO]10:3:36 Abstract ID: S0016718501000057
+[INFO]10:3:36 Page status: 200
+[INFO]10:3:36 Souping page
+[INFO]10:3:37 Souped page
+[INFO]10:3:37 Writing 'Green aid in India and Zimbabwe \xe2\x80\x93 conserving whose community?' by 'Zoe' to disc
+[INFO]10:3:37 Written 'Green aid in India and Zimbabwe \xe2\x80\x93 conserving whose community?' to disc
+[INFO]10:3:37 Abstract Number: 332
+[INFO]10:3:37 Abstract ID: S0160738396000515
+[INFO]10:3:38 Page status: 200
+[INFO]10:3:38 Souping page
+[INFO]10:3:38 Souped page
+[INFO]10:3:38 Writing 'ArticleParadoxes of tourism in Goa' by 'David' to disc
+[INFO]10:3:38 Written 'ArticleParadoxes of tourism in Goa' to disc
+[INFO]10:3:38 Abstract Number: 333
+[INFO]10:3:38 Abstract ID: 0961953495001247
+[INFO]10:3:39 Page status: 200
+[INFO]10:3:39 Souping page
+[INFO]10:3:39 Souped page
+[INFO]10:3:39 Writing 'Above ground biomass production and nutrient distribution in growing bamboo (Bambusa bambos (L.) Voss)' by 'P.' to disc
+[INFO]10:3:39 Written 'Above ground biomass production and nutrient distribution in growing bamboo (Bambusa bambos (L.) Voss)' to disc
+[INFO]10:3:39 Abstract Number: 334
+[INFO]10:3:39 Abstract ID: S0169809511003929
+[INFO]10:3:40 Page status: 200
+[INFO]10:3:40 Souping page
+[INFO]10:3:40 Souped page
+[INFO]10:3:40 Writing 'Multi-site characterization of tropical aerosols: Implications for regional radiative forcing' by 'Kumar' to disc
+[INFO]10:3:40 Written 'Multi-site characterization of tropical aerosols: Implications for regional radiative forcing' to disc
+[INFO]10:3:40 Abstract Number: 335
+[INFO]10:3:40 Abstract ID: S1364032106000992
+[INFO]10:3:41 Page status: 200
+[INFO]10:3:41 Souping page
+[INFO]10:3:41 Souped page
+[INFO]10:3:41 Writing 'Renewable energy resources and technologies practice in Bangladesh' by 'M.' to disc
+[INFO]10:3:41 Written 'Renewable energy resources and technologies practice in Bangladesh' to disc
+[INFO]10:3:41 Abstract Number: 336
+[INFO]10:3:41 Abstract ID: S1364682609002016
+[INFO]10:3:42 Page status: 200
+[INFO]10:3:42 Souping page
+[INFO]10:3:42 Souped page
+[INFO]10:3:42 Writing 'Aerosol microphysics over a tropical coastal station inferred from the spectral dependence of Angstrom wavelength exponent and inversion of spectral aerosol optical depths' by 'S. Naseema' to disc
+[INFO]10:3:42 Written 'Aerosol microphysics over a tropical coastal station inferred from the spectral dependence of Angstrom wavelength exponent and inversion of spectral aerosol optical depths' to disc
+[INFO]10:3:42 Abstract Number: 337
+[INFO]10:3:42 Abstract ID: S1049964403000549
+[INFO]10:3:43 Page status: 200
+[INFO]10:3:43 Souping page
+[INFO]10:3:43 Souped page
+[INFO]10:3:43 Writing 'Exploratory surveys in Australia and Asia for natural enemies of Old World climbing fern, Lygodium microphyllum: Lygodiaceae' by 'John A' to disc
+[INFO]10:3:44 Written 'Exploratory surveys in Australia and Asia for natural enemies of Old World climbing fern, Lygodium microphyllum: Lygodiaceae' to disc
+[INFO]10:3:44 Abstract Number: 338
+[INFO]10:3:44 Abstract ID: S0929139396001539
+[INFO]10:3:44 Page status: 200
+[INFO]10:3:44 Souping page
+[INFO]10:3:44 Souped page
+[INFO]10:3:44 Writing 'Agricultural intensification, soil biodiversity and agroecosystem function in the tropics: the role of termites' by 'H.I.J.' to disc
+[INFO]10:3:45 Written 'Agricultural intensification, soil biodiversity and agroecosystem function in the tropics: the role of termites' to disc
+[INFO]10:3:45 Abstract Number: 339
+[INFO]10:3:45 Abstract ID: S1040618207001085
+[INFO]10:3:45 Page status: 200
+[INFO]10:3:45 Souping page
+[INFO]10:3:45 Souped page
+[INFO]10:3:45 Writing 'INQUA 2007 Abstracts' by Author not available to disc
+[INFO]10:3:46 Written 'INQUA 2007 Abstracts' to disc
+[INFO]10:3:46 Abstract Number: 340
+[INFO]10:3:46 Abstract ID: S0038071705003822
+[INFO]10:3:46 Page status: 200
+[INFO]10:3:46 Souping page
+[INFO]10:3:46 Souped page
+[INFO]10:3:46 Writing 'Volume Contents, Author and Keyword Index (2005)' by Author not available to disc
+[INFO]10:3:47 Written 'Volume Contents, Author and Keyword Index (2005)' to disc
+[INFO]10:3:47 Abstract Number: 341
+[INFO]10:3:47 Abstract ID: 0378874187900067
+[INFO]10:3:47 Page status: 200
+[INFO]10:3:47 Souping page
+[INFO]10:3:47 Souped page
+[INFO]10:3:47 Writing 'The medicinal plants of Gunung Leuser National Park, Indonesia' by 'Stephen' to disc
+[INFO]10:3:48 Written 'The medicinal plants of Gunung Leuser National Park, Indonesia' to disc
+[INFO]10:3:48 Abstract Number: 342
+[INFO]10:3:48 Abstract ID: S1352231001900007
+[INFO]10:3:48 Page status: 200
+[INFO]10:3:48 Souping page
+[INFO]10:3:49 Souped page
+[INFO]10:3:49 Writing 'Volume contents, author index and keyword index' by Author not available to disc
+[INFO]10:3:49 Written 'Volume contents, author index and keyword index' to disc
+[INFO]10:3:49 Abstract Number: 343
+[INFO]10:3:49 Abstract ID: S0006320797000967
+[INFO]10:3:50 Page status: 200
+[INFO]10:3:50 Souping page
+[INFO]10:3:50 Souped page
+[INFO]10:3:50 Writing 'The taxonomic distribution of invasive angiosperm plants: Ecological insights and comparison to agricultural weeds' by 'Curtis C.' to disc
+[INFO]10:3:50 Written 'The taxonomic distribution of invasive angiosperm plants: Ecological insights and comparison to agricultural weeds' to disc
+[INFO]10:3:50 Abstract Number: 344
+[INFO]10:3:50 Abstract ID: S0012825204000212
+[INFO]10:3:51 Page status: 200
+[INFO]10:3:51 Souping page
+[INFO]10:3:51 Souped page
+[INFO]10:3:51 Writing 'River patterns and their meaning' by 'C.R.' to disc
+[INFO]10:3:51 Written 'River patterns and their meaning' to disc
+[INFO]10:3:51 Abstract Number: 345
+[INFO]10:3:51 Abstract ID: S0301479709001546
+[INFO]10:3:52 Page status: 200
+[INFO]10:3:52 Souping page
+[INFO]10:3:52 Souped page
+[INFO]10:3:52 Writing 'ReviewThe Indian perspective of utilizing fly ash in phytoremediation, phytomanagement and biomass production' by 'Vimal Chandra' to disc
+[INFO]10:3:52 Written 'ReviewThe Indian perspective of utilizing fly ash in phytoremediation, phytomanagement and biomass production' to disc
+[INFO]10:3:52 Abstract Number: 346
+[INFO]10:3:52 Abstract ID: S0953756208610795
+[INFO]10:3:53 Page status: 200
+[INFO]10:3:53 Souping page
+[INFO]10:3:53 Souped page
+[INFO]10:3:53 Writing 'One stop mycology' by 'Lilyann Novak' to disc
+[INFO]10:3:53 Written 'One stop mycology' to disc
+[INFO]10:3:54 Abstract Number: 347
+[INFO]10:3:54 Abstract ID: S0378112702006096
+[INFO]10:3:54 Page status: 200
+[INFO]10:3:54 Souping page
+[INFO]10:3:54 Souped page
+[INFO]10:3:55 Writing 'Ailanthus triphysa at different densities and fertiliser regimes in Kerala, India: growth, yield, nutrient use efficiency and nutrient export through harvest' by 'Naveed' to disc
+[INFO]10:3:55 Written 'Ailanthus triphysa at different densities and fertiliser regimes in Kerala, India: growth, yield, nutrient use efficiency and nutrient export through harvest' to disc
+[INFO]10:3:55 Abstract Number: 348
+[INFO]10:3:55 Abstract ID: B9780323040501500274
+[INFO]10:3:55 Page status: 200
+[INFO]10:3:56 Souping page
+[INFO]10:3:56 Souped page
+[INFO]10:3:56 Writing 'WORLD MEDICAL GUIDE' by Author not available to disc
+[INFO]10:3:56 Written 'WORLD MEDICAL GUIDE' to disc
+[INFO]10:3:57 Page status: 200
+[INFO]10:3:57 Souping page
+[INFO]10:3:58 Souped page
+[INFO]10:3:58 Scraping IDs
+[INFO]10:3:58 Scraped IDs
+[INFO]10:3:58 Extracting Abstract IDs from disc
+[INFO]10:3:58 Extracted Abstract IDs from disc
+[INFO]10:3:58 Abstract Number: 401
+[INFO]10:3:58 Abstract ID: S0016703708002597
+[INFO]10:3:59 Page status: 200
+[INFO]10:3:59 Souping page
+[INFO]10:4:0 Souped page
+[INFO]10:4:0 Writing 'Goldschmidt Abstracts 2008- A' by Author not available to disc
+[INFO]10:4:0 Written 'Goldschmidt Abstracts 2008- A' to disc
+[INFO]10:4:0 Abstract Number: 402
+[INFO]10:4:0 Abstract ID: S0016703710002140
+[INFO]10:4:1 Page status: 200
+[INFO]10:4:1 Souping page
+[INFO]10:4:2 Souped page
+[INFO]10:4:2 Writing 'Goldschmidt Abstracts 2010 \xe2\x80\x93 D' by Author not available to disc
+[INFO]10:4:2 Written 'Goldschmidt Abstracts 2010 \xe2\x80\x93 D' to disc
+[INFO]10:4:2 Abstract Number: 403
+[INFO]10:4:2 Abstract ID: S0140670107000033
+[INFO]10:4:4 Page status: 200
+[INFO]10:4:4 Souping page
+[INFO]10:4:4 Souped page
+[INFO]10:4:4 Writing 'Abstracts for issue 48/2' by Author not available to disc
+[INFO]10:4:4 Written 'Abstracts for issue 48/2' to disc
+[INFO]10:4:4 Abstract Number: 404
+[INFO]10:4:4 Abstract ID: S0016703709002701
+[INFO]10:4:6 Page status: 200
+[INFO]10:4:6 Souping page
+[INFO]10:4:6 Souped page
+[INFO]10:4:6 Writing 'Goldschmidt Abstracts 2009 \xe2\x80\x93 S' by Author not available to disc
+[INFO]10:4:6 Written 'Goldschmidt Abstracts 2009 \xe2\x80\x93 S' to disc
+[INFO]10:4:6 Abstract Number: 405
+[INFO]10:4:7 Abstract ID: S0016703710002176
+[INFO]10:4:8 Page status: 200
+[INFO]10:4:8 Souping page
+[INFO]10:4:8 Souped page
+[INFO]10:4:8 Writing 'Goldschmidt Abstracts 2010 \xe2\x80\x93 G' by Author not available to disc
+[INFO]10:4:9 Written 'Goldschmidt Abstracts 2010 \xe2\x80\x93 G' to disc
+[INFO]10:4:9 Abstract Number: 406
+[INFO]10:4:9 Abstract ID: S0016703709002713
+[INFO]10:4:10 Page status: 200
+[INFO]10:4:10 Souping page
+[INFO]10:4:10 Souped page
+[INFO]10:4:10 Writing 'Goldschmidt Abstracts 2009 \xe2\x80\x93 T' by Author not available to disc
+[INFO]10:4:11 Written 'Goldschmidt Abstracts 2009 \xe2\x80\x93 T' to disc
+[INFO]10:4:11 Abstract Number: 407
+[INFO]10:4:11 Abstract ID: S0016703707003134
+[INFO]10:4:12 Page status: 200
+[INFO]10:4:12 Souping page
+[INFO]10:4:13 Souped page
+[INFO]10:4:13 Writing 'Goldschmidt Abstracts 2007- B' by Author not available to disc
+[INFO]10:4:13 Written 'Goldschmidt Abstracts 2007- B' to disc
+[INFO]10:4:13 Abstract Number: 408
+[INFO]10:4:13 Abstract ID: S0016703709002531
+[INFO]10:4:14 Page status: 200
+[INFO]10:4:14 Souping page
+[INFO]10:4:15 Souped page
+[INFO]10:4:15 Writing 'Goldschmidt Abstracts 2009 \xe2\x80\x93 B' by Author not available to disc
+[INFO]10:4:15 Written 'Goldschmidt Abstracts 2009 \xe2\x80\x93 B' to disc
+[INFO]10:4:15 Abstract Number: 409
+[INFO]10:4:15 Abstract ID: S001670371000222X
+[INFO]10:4:16 Page status: 200
+[INFO]10:4:16 Souping page
+[INFO]10:4:17 Souped page
+[INFO]10:4:17 Writing 'Goldschmidt Abstracts 2010 \xe2\x80\x93 L' by Author not available to disc
+[INFO]10:4:17 Written 'Goldschmidt Abstracts 2010 \xe2\x80\x93 L' to disc
+[INFO]10:4:17 Abstract Number: 410
+[INFO]10:4:17 Abstract ID: S0016703707003274
+[INFO]10:4:19 Page status: 200
+[INFO]10:4:19 Souping page
+[INFO]10:4:19 Souped page
+[INFO]10:4:19 Writing 'Goldschmidt Abstracts 2007- S' by Author not available to disc
+[INFO]10:4:19 Written 'Goldschmidt Abstracts 2007- S' to disc
+[INFO]10:4:19 Abstract Number: 411
+[INFO]10:4:19 Abstract ID: B9780127447704500664
+[INFO]10:4:20 Page status: 200
+[INFO]10:4:20 Souping page
+[INFO]10:4:20 Souped page
+[INFO]10:4:20 Writing 'CHAPTER 25 - Countries' by Author not available to disc
+[INFO]10:4:20 Written 'CHAPTER 25 - Countries' to disc
+[INFO]10:4:20 Entered the Analyzer.py code.
+[INFO]10:4:20 Carrying out pre-processing functions for analyzer
+[INFO]10:4:20 Carried out pre-processing functions for analyzer
+[INFO]10:4:20 Copying data from LOGS/LOG_2018-09-21_9_56_Western_Ghats_Forest_Fires/Abstract_Database_2018-09-21_9_56.txt to pandas dataframe
+[INFO]10:4:34 Copied data from LOGS/LOG_2018-09-21_9_56_Western_Ghats_Forest_Fires/Abstract_Database_2018-09-21_9_56.txt to pandas dataframe
+[INFO]10:4:34 Copying data from pandas dataframe to LOGS/LOG_2018-09-21_9_56_Western_Ghats_Forest_Fires/Abstract_Database_2018-09-21_9_56_CSV_DATA.csv
+[INFO]10:4:34 Copied data from pandas dataframe to LOGS/LOG_2018-09-21_9_56_Western_Ghats_Forest_Fires/Abstract_Database_2018-09-21_9_56_CSV_DATA.csv
+[INFO]10:4:34 Exiting the Analyzer.py code.
+[INFO]10:4:34 Process has successfully ended

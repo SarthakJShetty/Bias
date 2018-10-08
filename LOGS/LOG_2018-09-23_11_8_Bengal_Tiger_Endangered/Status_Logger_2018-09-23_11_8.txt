@@ -1,0 +1,147 @@
+Session: 23/9/2018
+Time: 11:8:47
+[INFO]11:8:47 Built LOG folder for session
+[INFO]11:8:48 https://www.sciencedirect.com/search?qs=Bengal%20Tiger%20Endangered&show=100&sortBy=relevance&offset= start_url has been received
+[INFO]11:8:48 https://www.sciencedirect.com/search?qs=Bengal%20Tiger%20Endangered&show=100&sortBy=relevance&offset=0 has been obtained
+[INFO]11:8:51 https://www.sciencedirect.com/search?qs=Bengal%20Tiger%20Endangered&show=100&sortBy=relevance&offset=100 has been obtained
+[INFO]11:8:53 https://www.sciencedirect.com/search?qs=Bengal%20Tiger%20Endangered&show=100&sortBy=relevance&offset=200 has been obtained
+[INFO]11:8:54 https://www.sciencedirect.com/search?qs=Bengal%20Tiger%20Endangered&show=100&sortBy=relevance&offset=300 has been obtained
+[INFO]11:8:56 Page status: 200
+[INFO]11:8:56 Souping page
+[INFO]11:8:57 Souped page
+[INFO]11:8:57 Scraping IDs
+[INFO]11:8:57 Scraped IDs
+[INFO]11:8:57 Extracting Abstract IDs from disc
+[INFO]11:8:57 Extracted Abstract IDs from disc
+[INFO]11:8:57 Abstract Number: 1
+[INFO]11:8:57 Abstract ID: S2351989417301130
+[INFO]11:8:58 Page status: 200
+[INFO]11:8:58 Souping page
+[INFO]11:8:58 Souped page
+[INFO]11:8:58 Writing 'Original Research ArticleUsing non-invasively collected genetic data to estimate density and population size of tigers in the Bangladesh Sundarbans' by 'M. Abdul' to disc
+[INFO]11:8:58 Written 'Original Research ArticleUsing non-invasively collected genetic data to estimate density and population size of tigers in the Bangladesh Sundarbans' to disc
+[INFO]11:8:59 Abstract Number: 2
+[INFO]11:8:59 Abstract ID: S2287884X18300542
+[INFO]11:9:0 Page status: 200
+[INFO]11:9:0 Souping page
+[INFO]11:9:0 Souped page
+[INFO]11:9:0 Writing 'Review ArticleConservation status of some endangered mammals in Barak Valley, Northeast India' by 'Nazimur Rahman' to disc
+[INFO]11:9:0 Written 'Review ArticleConservation status of some endangered mammals in Barak Valley, Northeast India' to disc
+[INFO]11:9:0 Abstract Number: 3
+[INFO]11:9:0 Abstract ID: S0304380015002574
+[INFO]11:9:1 Page status: 200
+[INFO]11:9:1 Souping page
+[INFO]11:9:1 Souped page
+[INFO]11:9:1 Writing 'Modeling tiger population and territory dynamics using an agent-based approach' by 'Neil' to disc
+[INFO]11:9:1 Written 'Modeling tiger population and territory dynamics using an agent-based approach' to disc
+[INFO]11:9:1 Abstract Number: 4
+[INFO]11:9:1 Abstract ID: S1877042815055172
+[INFO]11:9:2 Page status: 200
+[INFO]11:9:2 Souping page
+[INFO]11:9:2 Souped page
+[INFO]11:9:2 Writing 'The Semang Kensiu Orang Asli of Lubuk Legong, Baling: Their Language and Cultural Endangerment\xe2\x98\x86' by 'Alias Abd' to disc
+[INFO]11:9:2 Written 'The Semang Kensiu Orang Asli of Lubuk Legong, Baling: Their Language and Cultural Endangerment\xe2\x98\x86' to disc
+[INFO]11:9:2 Abstract Number: 5
+[INFO]11:9:2 Abstract ID: S2351989418300052
+[INFO]11:9:3 Page status: 200
+[INFO]11:9:3 Souping page
+[INFO]11:9:3 Souped page
+[INFO]11:9:3 Writing 'Original Research ArticleObservations of illegal wildlife trade in Boten, a Chinese border town within a Specific Economic Zone in northern Lao PDR' by 'Kanitha' to disc
+[INFO]11:9:3 Written 'Original Research ArticleObservations of illegal wildlife trade in Boten, a Chinese border town within a Specific Economic Zone in northern Lao PDR' to disc
+[INFO]11:9:3 Abstract Number: 6
+[INFO]11:9:4 Abstract ID: S2352249616300118
+[INFO]11:9:4 Page status: 200
+[INFO]11:9:4 Souping page
+[INFO]11:9:5 Souped page
+[INFO]11:9:5 Writing 'Roles for the Canidae in food webs reviewed: Where do they fit?' by 'Peter J.S.' to disc
+[INFO]11:9:5 Written 'Roles for the Canidae in food webs reviewed: Where do they fit?' to disc
+[INFO]11:9:5 Abstract Number: 7
+[INFO]11:9:5 Abstract ID: S2287884X15001028
+[INFO]11:9:5 Page status: 200
+[INFO]11:9:5 Souping page
+[INFO]11:9:6 Souped page
+[INFO]11:9:6 Writing 'Review articleBiodiversity research trends and gap analysis from a transboundary landscape, Eastern Himalayas' by 'Pratikshya' to disc
+[INFO]11:9:6 Written 'Review articleBiodiversity research trends and gap analysis from a transboundary landscape, Eastern Himalayas' to disc
+[INFO]11:9:6 Abstract Number: 8
+[INFO]11:9:6 Abstract ID: S2351989416301664
+[INFO]11:9:7 Page status: 200
+[INFO]11:9:7 Souping page
+[INFO]11:9:7 Souped page
+[INFO]11:9:7 Writing 'Original research articleConserving wildlife wealth of Patharia Hills Reserve Forest, Assam, India: A critical analysis' by 'Nazimur Rahman' to disc
+[INFO]11:9:7 Written 'Original research articleConserving wildlife wealth of Patharia Hills Reserve Forest, Assam, India: A critical analysis' to disc
+[INFO]11:9:7 Abstract Number: 9
+[INFO]11:9:7 Abstract ID: S0960982212012547
+[INFO]11:9:8 Page status: 200
+[INFO]11:9:8 Souping page
+[INFO]11:9:8 Souped page
+[INFO]11:9:8 Writing 'FeatureFelids fighting for survival' by 'Michael' to disc
+[INFO]11:9:8 Written 'FeatureFelids fighting for survival' to disc
+[INFO]11:9:8 Abstract Number: 10
+[INFO]11:9:8 Abstract ID: S0960982215005382
+[INFO]11:9:9 Page status: 200
+[INFO]11:9:9 Souping page
+[INFO]11:9:9 Souped page
+[INFO]11:9:9 Writing 'FeatureCan zoos offer more than entertainment?' by 'Michael' to disc
+[INFO]11:9:9 Written 'FeatureCan zoos offer more than entertainment?' to disc
+[INFO]11:9:9 Abstract Number: 11
+[INFO]11:9:9 Abstract ID: S2468550X16300260
+[INFO]11:9:10 Page status: 200
+[INFO]11:9:10 Souping page
+[INFO]11:9:10 Souped page
+[INFO]11:9:10 Writing 'Fisheries resources of Bangladesh: Present status and future direction' by 'Md. Mostafa' to disc
+[INFO]11:9:10 Written 'Fisheries resources of Bangladesh: Present status and future direction' to disc
+[INFO]11:9:11 Page status: 200
+[INFO]11:9:11 Souping page
+[INFO]11:9:12 Souped page
+[INFO]11:9:12 Scraping IDs
+[INFO]11:9:13 Scraped IDs
+[INFO]11:9:13 Extracting Abstract IDs from disc
+[INFO]11:9:13 Extracted Abstract IDs from disc
+[INFO]11:9:13 Abstract Number: 101
+[INFO]11:9:13 Abstract ID: S2213224417300081
+[INFO]11:9:13 Page status: 200
+[INFO]11:9:13 Souping page
+[INFO]11:9:14 Souped page
+[INFO]11:9:14 Writing 'The diversity and impact of hookworm infections in wildlife' by 'Mauricio' to disc
+[INFO]11:9:14 Written 'The diversity and impact of hookworm infections in wildlife' to disc
+[INFO]11:9:14 Abstract Number: 102
+[INFO]11:9:14 Abstract ID: S2351989416300786
+[INFO]11:9:14 Page status: 200
+[INFO]11:9:14 Souping page
+[INFO]11:9:14 Souped page
+[INFO]11:9:14 Writing 'Original research articleAssessing patterns of human\xe2\x80\x93Asiatic black bear interaction in and around Wangchuck Centennial National Park, Bhutan' by 'Yonten' to disc
+[INFO]11:9:14 Written 'Original research articleAssessing patterns of human\xe2\x80\x93Asiatic black bear interaction in and around Wangchuck Centennial National Park, Bhutan' to disc
+[INFO]11:9:14 Abstract Number: 103
+[INFO]11:9:14 Abstract ID: S221209471500002X
+[INFO]11:9:15 Page status: 200
+[INFO]11:9:15 Souping page
+[INFO]11:9:15 Souped page
+[INFO]11:9:15 Writing 'Natural and traditional defense mechanisms to reduce climate risks in coastal zones of Bangladesh' by 'Mohammed' to disc
+[INFO]11:9:15 Written 'Natural and traditional defense mechanisms to reduce climate risks in coastal zones of Bangladesh' to disc
+[INFO]11:9:15 Abstract Number: 104
+[INFO]11:9:15 Abstract ID: S2351989415300342
+[INFO]11:9:16 Page status: 200
+[INFO]11:9:16 Souping page
+[INFO]11:9:16 Souped page
+[INFO]11:9:16 Writing 'Original research articlePangolin trade in the Mong La wildlife market and the role of Myanmar in the smuggling of pangolins into China' by 'Vincent' to disc
+[INFO]11:9:16 Written 'Original research articlePangolin trade in the Mong La wildlife market and the role of Myanmar in the smuggling of pangolins into China' to disc
+[INFO]11:9:16 Abstract Number: 105
+[INFO]11:9:16 Abstract ID: S1617138117300638
+[INFO]11:9:17 Page status: 200
+[INFO]11:9:17 Souping page
+[INFO]11:9:17 Souped page
+[INFO]11:9:17 Writing 'Research paperWillingness to pay for mitigating human-elephant conflict by residents of Nepal' by 'Dinesh' to disc
+[INFO]11:9:17 Written 'Research paperWillingness to pay for mitigating human-elephant conflict by residents of Nepal' to disc
+[INFO]11:9:17 Abstract Number: 106
+[INFO]11:9:17 Abstract ID: S2212609015000102
+[INFO]11:9:18 Page status: 200
+[INFO]11:9:18 Souping page
+[INFO]11:9:18 Souped page
+[INFO]11:9:18 Writing 'Original Article/ResearchEcological integrity and environmental protection for Vijayawada region \xe2\x80\x93 Scattered Eastern Ghats' by 'Srikonda' to disc
+[INFO]11:9:18 Written 'Original Article/ResearchEcological integrity and environmental protection for Vijayawada region \xe2\x80\x93 Scattered Eastern Ghats' to disc
+[INFO]11:9:19 Page status: 200
+[INFO]11:9:19 Souping page
+[INFO]11:9:19 Souped page
+[INFO]11:9:19 Scraping IDs
+[INFO]11:9:19 Scraped IDs
+[INFO]11:9:19 Extracting Abstract IDs from disc

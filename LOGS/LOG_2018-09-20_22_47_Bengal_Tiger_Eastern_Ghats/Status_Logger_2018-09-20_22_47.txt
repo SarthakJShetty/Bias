@@ -1,0 +1,43 @@
+Session: 20/9/2018
+Time: 22:47:27
+[INFO]22:47:27 Built LOG folder for session
+[INFO]22:47:27 https://www.sciencedirect.com/search?qs=Bengal%20Tiger%20Eastern%20Ghats&show=100&sortBy=relevance&offset= start_url has been received
+[INFO]22:47:27 https://www.sciencedirect.com/search?qs=Bengal%20Tiger%20Eastern%20Ghats&show=100&sortBy=relevance&offset=0 has been obtained
+[INFO]22:47:38 https://www.sciencedirect.com/search?qs=Bengal%20Tiger%20Eastern%20Ghats&show=100&sortBy=relevance&offset=100 has been obtained
+[INFO]22:47:57 Page status: 200
+[INFO]22:47:57 Souping page
+[INFO]22:47:59 Souped page
+[INFO]22:47:59 Scraping IDs
+[INFO]22:47:59 Scraped IDs
+[INFO]22:47:59 Extracting Abstract IDs from disc
+[INFO]22:47:59 Extracted Abstract IDs from disc
+[INFO]22:47:59 Abstract Number: 1
+[INFO]22:47:59 Abstract ID: S2212609015000102
+[INFO]22:48:8 Page status: 200
+[INFO]22:48:8 Souping page
+[INFO]22:48:8 Souped page
+[INFO]22:48:8 Writing 'Original Article/ResearchEcological integrity and environmental protection for Vijayawada region \xe2\x80\x93 Scattered Eastern Ghats' by 'Srikonda' to disc
+[INFO]22:48:8 Written 'Original Article/ResearchEcological integrity and environmental protection for Vijayawada region \xe2\x80\x93 Scattered Eastern Ghats' to disc
+[INFO]22:48:8 Abstract Number: 2
+[INFO]22:48:8 Abstract ID: S0272771416303791
+[INFO]22:48:13 Page status: 200
+[INFO]22:48:13 Souping page
+[INFO]22:48:13 Souped page
+[INFO]22:48:13 Writing 'Tidal intrusion within a mega delta: An unstructured grid modelling approach' by 'Lucy M.' to disc
+[INFO]22:48:13 Written 'Tidal intrusion within a mega delta: An unstructured grid modelling approach' to disc
+[INFO]22:48:13 Abstract Number: 3
+[INFO]22:48:13 Abstract ID: S2287884X18300542
+[INFO]22:48:17 Page status: 200
+[INFO]22:48:17 Souping page
+[INFO]22:48:18 Souped page
+[INFO]22:48:18 Writing 'Review ArticleConservation status of some endangered mammals in Barak Valley, Northeast India' by 'Nazimur Rahman' to disc
+[INFO]22:48:18 Written 'Review ArticleConservation status of some endangered mammals in Barak Valley, Northeast India' to disc
+[INFO]22:48:18 Entered the Analyzer.py code.
+[INFO]22:48:18 Carrying out pre-processing functions for analyzer
+[INFO]22:48:18 Carried out pre-processing functions for analyzer
+[INFO]22:48:18 Copying data from LOGS/LOG_2018-09-20_22_47_Bengal_Tiger_Eastern_Ghats/Abstract_Database_2018-09-20_22_47.txt to pandas dataframe
+[INFO]22:48:19 Copied data from LOGS/LOG_2018-09-20_22_47_Bengal_Tiger_Eastern_Ghats/Abstract_Database_2018-09-20_22_47.txt to pandas dataframe
+[INFO]22:48:19 Copying data from pandas dataframe to LOGS/LOG_2018-09-20_22_47_Bengal_Tiger_Eastern_Ghats/Abstract_Database_2018-09-20_22_47_CSV_DATA.csv
+[INFO]22:48:19 Copied data from pandas dataframe to LOGS/LOG_2018-09-20_22_47_Bengal_Tiger_Eastern_Ghats/Abstract_Database_2018-09-20_22_47_CSV_DATA.csv
+[INFO]22:48:19 Exiting the Analyzer.py code.
+[INFO]22:48:19 Process has successfully ended
