@@ -1,8 +1,9 @@
+
 # Analyzing biases in academic publications
 
 :warning: <strong>Code is buggy</strong>:warning:
 
-## Introduction:
+## 1.0 Introduction:
 
 - A significant proportion of publications pertaining to the Western Ghats in the <em>pre-independence era</em> of India was motivated by economic benefits of the region.
 
@@ -14,7 +15,7 @@
 
 <strong>Note:</strong> This <a title="Latest run" href="https://github.com/SarthakJShetty/Bias/tree/master/LOGS/LOG_2018-09-23_11_21_Bengal_Tigers_Endangered">log</a> contains the most recent run of the program.
 
-## Model Overview:
+## 2.0 Model Overview:
 - The model is made up of three parts:
 	1. <strong><a title="Scraper" href="https://github.com/SarthakJShetty/Bias/tree/master/Scraper.py/">Scraper</a>:</strong> This component scrapes scientific repository for publications containing the specific combination of keywords.
 	2. <strong><a title="Analyzer" href="https://github.com/SarthakJShetty/Bias/tree/master/Analyzer.py/">Analyzer</a>:</strong> This component collects and measures the frequency of select keywords in the abstracts database.
@@ -22,11 +23,11 @@
 		
 - Check out the <a title="LOGS" href="https://github.com/SarthakJShetty/Bias/tree/master/LOGS">LOGS</a> for the results of ```Scraper.py``` and ```Analyzer.py```.
 
-## Instruction:
+## 3.0 Instructions:
 
-### Ubuntu instructions:
+### Common instructions:
 
-<strong>Note:</strong> These instructions are the same for Windows and Ubuntu users. However, while installing the packages, Ubuntu users have to use ```pip3``` instead of ```pip```, and ```python3``` instead of ```python```.
+<strong>Note:</strong> These instructions are common to both Ubuntu and Windows systems. 
 
 1.  Clone this repository:
 
@@ -35,47 +36,36 @@
 2. Change directory to the 'Bias' directory:
 
 		E:\>cd Bias		
-		
-3. Install ```virtualenv``` using ```pip```:
 
-		E:\Bias>pip install virtualenv
+### 3.1 Virtualenv instructions:		
 
-4. Create a ```virtualenv``` environment called "Bias" in the directory of your project:
+1. Install ```virtualenv``` using ```pip```:
 
-		E:\Bias>virtualenv Bias
+		user@Ubuntu: pip install virtualenv
+
+2. Create a ```virtualenv``` environment called "Bias" in the directory of your project:
+
+		user@Ubuntu: virtualenv --no-site-packages Bias
 	
 	<strong>Note:</strong> This step usually takes about 30 seconds to a minute.
-	
-5. Activate the "Bias" environment using ```virtualenv```:
 
-		E:\Bias>.\Bias\Scripts\activate
-
-	<strong>Note:</strong> If you are running this code on Ubuntu, the code will be as follows:
+3. Activate the virtualenv enviroment:
 
 		user@Ubuntu: ~/Bias$ source Bias/bin/activate
 
 	You are now inside the ```Bias``` environment.
 
-## Instructions:
-<strong>Note:</strong> These instructions are the same for Windows and Ubuntu users. However, while installing the packages, Ubuntu users have to use ```pip3``` instead of ```pip```, and ```python3``` instead of ```python```.
-
-- Install the required packages using the <a title="Package Requirements" target="_blank" href="https://github.com/SarthakJShetty/Bias/blob/master/requirements.txt">```requirements.txt```</a> file available in the cloned repository.
+4. Install the requirements from 	<a title="Ubuntu Requirements" href="https://github.com/SarthakJShetty/Bias/blob/master/ubuntu_requirements.txt">```ubuntu_requirements.txt```</a>:
+	
+		(Bias) user@Ubuntu: pip3 install -r ubuntu_requirements.txt
 		
-		(Bias) E:\Bias>pip install -r requirements.txt
+	<strong>Note:</strong> This step usually takes a few minutes, depending on your network speed.
 
-- Run the code from the repository directory:
+### 3.2 Conda instructions:
 
-		(Bias) E:\Bias>python Bias.py --keywords="Western Ghats"
+## 4.0 How it works:
 
-- A LOG folder is created in the folder that contains the code. Within this folder, another directory, specific to the current run of the Scraper will be written, containing:
-	- ```status_logger.txt``` file will be generated, which logs all the process executed by the Scraper.
-
-	- ```Abstract_ID_Database.txt``` containing all the Abstract_IDs of the page being souped.
-
-	- ```Abstract_Database.txt``` containing all the abstracts, relevant to the ```--keywords``` entered by the user.
-
-
-### Scraper:
+### 4.1 Scraper:
 - The <a title="Scraper" href="https://github.com/SarthakJShetty/Bias/blob/master/Scraper.py">```Scraper.py```</a> currently scrapes only the abstracts from <a title="ScienceDirect" href="https://www.ScienceDirect.com">ScienceDirect</a>.
 
 - A default URL is provided in the code. Once the keywords are provided, the URLs are queried and the resultant webpage is souped and ```abstract_id``` is scraped.
@@ -86,12 +76,12 @@
 
 - A <a title="Status Logger" href="https://github.com/SarthakJShetty/Bias/blob/master/LOGS/LOG_2018-08-29_15_4_Western_Ghats/Status_Logger_2018-08-29_15_4.txt" target="_blank">```status_logger```</a> is used to log the sequence of commands in the program.
 
-### Analyzer:
+### 4.2 Analyzer:
 - The <a title="Analyzer" href="https://github.com/SarthakJShetty/Bias/tree/master/Analyzer.py/">```Analyzer.py```</a> analyzes the frequency of different words used in the abstract.
 - It serves as an intermediary between the Scraper and the Visualizer, preparing the scraped data into a neat ```.csv``` <a title="Analyzer CSV file" href="https://github.com/SarthakJShetty/Bias/blob/master/LOGS/LOG_2018-09-15_19_18_Bengal_Tiger_Ghats/Abstract_Database_2018-09-15_19_18_CSV_DATA.csv">file</a>.
 - This ```.csv``` file is then passed on to the Visualizer.
 
-## Known Issues:
+## 5.0 Known Issues:
 - The Scraper can only scrape abstracts from ScienceDirect at the moment, since ScienceDirect does not allow users to view publications in native ```.pdf``` format, but instead loads a ```.html``` document with the contents embedded in it.
 
 #### Note:
