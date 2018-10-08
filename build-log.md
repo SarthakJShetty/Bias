@@ -44,5 +44,5 @@
 script was run.
 
 ### Date: 08/10/2018
-- The code employs a ```conda``` environment on Windows, and ```virtualenv``` on Ubunut. Code has been tested on both environments successfully.
+- The code employs a ```conda``` environment on Windows, and ```virtualenv``` on Ubuntu. Code has been tested on both environments successfully.
 - Instructions on the <a title="README.md" href="https://github.com/SarthakJShetty/Bias#analyzing-biases-in-academic-publications">```README.md```</a> has been updateed accordingly.
