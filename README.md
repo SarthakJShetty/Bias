@@ -1,4 +1,3 @@
-
 # Analyzing biases in academic publications
 
 :warning: <strong>Code is buggy</strong>:warning:
@@ -62,6 +61,20 @@
 	<strong>Note:</strong> This step usually takes a few minutes, depending on your network speed.
 
 ### 3.2 Conda instructions:
+
+1. Create a new ```conda``` environment:
+	
+		E:\Bias conda create --name Bias python=3.5	
+
+2. Enter the new ```Bias``` environment created:
+	
+		E:\Bias activate Bias
+
+3. Install the required packages from <a href="https://github.com/SarthakJShetty/Bias/blob/master/conda_requirements.txt">```conda_requirements.txt```</a>:
+		
+		(Bias) E:\Bias conda install --yes --file requirements.txt
+
+	<strong>Note:</strong> This step usually takes a few minutes, depending on your network speed.
 
 ## 4.0 How it works:
 
