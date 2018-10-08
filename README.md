@@ -22,7 +22,9 @@
 		
 - Check out the <a title="LOGS" href="https://github.com/SarthakJShetty/Bias/tree/master/LOGS">LOGS</a> for the results of ```Scraper.py``` and ```Analyzer.py```.
 
-## Virtual environment setup:
+## Instruction:
+
+### Ubuntu instructions:
 
 <strong>Note:</strong> These instructions are the same for Windows and Ubuntu users. However, while installing the packages, Ubuntu users have to use ```pip3``` instead of ```pip```, and ```python3``` instead of ```python```.
 
