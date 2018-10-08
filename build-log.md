@@ -42,3 +42,7 @@
 - The Scraper.py code is ready.
 - It can scrape abstracts off of ScienceDirect and store them in the LOGS folder, corresponding to the date when the
 script was run.
+
+### Date: 08/10/2018
+- The code employs a ```conda``` environment on Windows, and ```virtualenv``` on Ubunut. Code has been tested on both environments successfully.
+- Instructions on the <a title="README.md" href="https://github.com/SarthakJShetty/Bias#analyzing-biases-in-academic-publications">```README.md```</a> has been updateed accordingly.
