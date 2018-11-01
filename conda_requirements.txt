@@ -26,8 +26,8 @@ boto3=1.9.7=py35_0
 botocore=1.12.7=py35_0
 bottleneck=1.2.1=py35h8a3671c_0
 bzip2=1.0.6=hfa6e2cd_5
-ca-certificates=2018.03.07=0
-certifi=2018.8.24=py35_1
+ca-certificates=2018.10.15=ha4d7672_0
+certifi=2018.8.24=py35_1001
 cffi=1.11.5=py35h945400d_0
 chardet=3.0.4=py35h177e1b7_1
 click=6.7=py35h10df73f_0
@@ -143,7 +143,7 @@ numpydoc=0.8.0=py35_0
 odo=0.5.1=py35hc850252_0
 olefile=0.45.1=py35_0
 openpyxl=2.5.3=py35_0
-openssl=1.0.2p=hfa6e2cd_0
+openssl=1.0.2p=hfa6e2cd_1001
 packaging=17.1=py35_0
 pandas=0.23.0=py35h830ac7b_0
 pandoc=1.19.2.1=hb2460c7_1
@@ -199,7 +199,7 @@ qtawesome=0.4.4=py35h639d0ff_0
 qtconsole=4.3.1=py35hc47b0dd_0
 qtpy=1.4.1=py35_0
 regex=2017.11.09=py35_0
-requests=2.19.1=py35_0
+requests=2.19.1=py35_1
 rope=0.11.0=py35_0
 ruamel_yaml=0.15.35=py35hfa6e2cd_1
 s3transfer=0.1.13=py35_0
