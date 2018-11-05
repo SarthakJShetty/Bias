@@ -72,7 +72,7 @@
 
 3. Install the required packages from <a href="https://github.com/SarthakJShetty/Bias/blob/master/conda_requirements.txt">```conda_requirements.txt```</a>:
 		
-		(Bias) E:\Bias conda install --yes --file requirements.txt
+		(Bias) E:\Bias conda install --yes --file conda_requirements.txt
 
 	<strong>Note:</strong> This step usually takes a few minutes, depending on your network speed.
 
