@@ -3,7 +3,7 @@ angles==1.9.11
 atomicwrites==1.2.1
 attrs==18.2.0
 beautifulsoup4==4.5.3
-bondpy==1.8.1
+bondpy==1.8.3
 boto==2.49.0
 boto3==1.9.18
 botocore==1.12.18
@@ -22,7 +22,8 @@ diagnostic-common-diagnostics==1.9.3
 diagnostic-updater==1.9.3
 dill==0.2.8.2
 docutils==0.14
-dynamic-reconfigure==1.5.49
+dynamic-reconfigure==1.5.50
+en-core-web-sm==2.0.0
 funcy==1.11
 future==0.16.0
 gazebo-plugins==2.5.17
@@ -49,6 +50,7 @@ more-itertools==4.3.0
 msgpack==0.5.6
 msgpack-numpy==0.4.4.1
 murmurhash==0.28.0
+nltk==3.3
 numexpr==2.6.8
 numpy==1.15.1
 pandas==0.18.0
@@ -131,7 +133,7 @@ six==1.11.0
 smach==2.0.1
 smach-ros==2.0.1
 smart-open==1.7.1
-smclib==1.8.1
+smclib==1.8.3
 spacy==2.0.12
 tf==1.11.9
 tf-conversions==1.11.9
