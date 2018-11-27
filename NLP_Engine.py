@@ -45,17 +45,14 @@ stop_words.extend(['from', 'subject', 're', 'edu', 'use'])
 
 #This is where the data is obtained by the nlp engine
 def data_reader(abstracts_log_name):
-	textual_dataframe = pd.read_json(abstracts_log_name+'.txt')
+	textual_dataframe = pd.read_csv(abstracts_log_name+'.txt', delimiter="\t")
 	return textual_dataframe
 #Code to check if the data being obtained is legit or not
 #print(df.target_names.unique())
 
 def textual_data_trimmer(textual_dataframe):
 	'''This function converts the textual data into a list and removes special characters, virtue of email correspondence'''
-	textual_data = df.content.values.tolist()
-	textual_data = [re.sub('\S*@\S*\s?','', sent) for sent in data]
-	textual_data = [re.sub('\s+', ' ', sent) for sent in data]
-	textual_data = [re.sub("\'", "", sent) for sent in data]
+	textual_data = str(textual_dataframe)
 	#pprint(data[:1])
 	return textual_data
 
@@ -94,6 +91,7 @@ def make_trigram(textual_data):
 def lemmatization(textual_data, allowed_postags=['NOUN', 'ADJ', 'VERB', 'ADV']):
 	"""https://spacy.io/api/annotation"""
 	texts_out = []
+	nlp = spacy.load('en', disable=['parser', 'ner'])
 	for sent in textual_data:
 		doc = nlp(" ".join(sent))
 		texts_out.append([token.lemma_ for token in doc if token.pos_ in allowed_postags])
