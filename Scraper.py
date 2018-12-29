@@ -71,16 +71,20 @@ def abstract_database_writer(abstract_page_url, title, author, abstract, abstrac
 	'''This function makes text files'''
 	abstract_database_writer_start_status_key = "Writing"+" "+title+" "+"by"+" "+author+" "+"to disc"
 	status_logger(status_logger_name, abstract_database_writer_start_status_key)
-	abstracts_log = open(abstracts_log_name+'.txt', 'a')
-	abstracts_log.write("Title:"+" "+title)
-	abstracts_log.write('\n')
-	abstracts_log.write("Author:"+" "+author)
-	abstracts_log.write('\n')
-	abstracts_log.write("URL:"+" "+abstract_page_url)
-	abstracts_log.write('\n')
-	abstracts_log.write("Abstract:"+" "+abstract)
-	abstracts_log.write('\n'+'\n')
-	abstracts_log.close()
+	abstracts_csv_log = open(abstracts_log_name+'.csv', 'a')
+	abstracts_txt_log = open(abstracts_log_name+'.txt', 'a')
+	abstracts_txt_log.write("Title:"+" "+title)
+	abstracts_txt_log.write('\n')
+	abstracts_txt_log.write("Author:"+" "+author)
+	abstracts_txt_log.write('\n')
+	abstracts_txt_log.write("URL:"+" "+abstract_page_url)
+	abstracts_txt_log.write('\n')
+	abstracts_txt_log.write("Abstract:"+" "+abstract)
+	abstracts_csv_log.write(abstract)
+	abstracts_csv_log.write('\n')
+	abstracts_txt_log.write('\n'+'\n')
+	abstracts_txt_log.close()
+	abstracts_csv_log.close()
 	abstract_database_writer_stop_status_key = "Written"+" "+title+" "+"to disc"
 	status_logger(status_logger_name, abstract_database_writer_stop_status_key)
 
@@ -152,7 +156,7 @@ def abstract_crawler(abstract_url, abstract_id_log_name, abstracts_log_name, sit
 
 def abstract_scraper(abstract_soup):
 	'''This function scrapes the abstract from the soup and returns to the page scraper'''
-	abstract = str(abstract_soup.find('p', {'class':'Para'}).text.encode('utf-8'))[1:]
+	abstract = str(abstract_soup.find('p', {'id':'Par1'}).text.encode('utf-8'))[1:]
 	return abstract
 
 def author_scraper(abstract_soup):
@@ -185,7 +189,7 @@ def abstract_id_scraper(abstract_id_log_name, page_soup, site_url_index, status_
 
 def processor(abstract_url, urls_to_scrape, abstract_id_log_name, abstracts_log_name, status_logger_name, keywords_to_search):
 	''''Multiple page-cycling function to scrape multiple result pages'''
-	print(len(urls_to_scrape))
+	#print(len(urls_to_scrape))
 	for site_url_index in range(0, len(urls_to_scrape)):
 		'''Collects the web-page from the url for souping'''
 		page_to_soup = url_reader(urls_to_scrape[site_url_index], status_logger_name)
