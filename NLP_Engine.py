@@ -41,7 +41,7 @@ warnings.filterwarnings("ignore", category=DeprecationWarning)
 
 from nltk.corpus import stopwords
 stop_words = stopwords.words('english')
-stop_words.extend(['from', 'subject', 're', 'edu', 'use'])
+stop_words.extend(['from', 'subject', 're', 'edu', 'use', 'com', 'https', 'url', 'link', 'xe'])
 
 #This is where the data is obtained by the nlp engine
 def data_reader(abstracts_log_name):
@@ -52,7 +52,10 @@ def data_reader(abstracts_log_name):
 
 def textual_data_trimmer(textual_dataframe):
 	'''This function converts the textual data into a list and removes special characters, virtue of email correspondence'''
-	textual_data = str(textual_dataframe)
+	textual_data = textual_dataframe.values.tolist()
+	print("Printing textual_data here\n")
+	print(textual_data)
+	print("Printing of textual_data is done\n")
 	#pprint(data[:1])
 	return textual_data
 
@@ -74,7 +77,9 @@ def trigram_generator(textual_data):
 	'''Takes the textual data and prepares the trigram, three collectively high frequency words'''
 	trigram = gensim.models.Phrases(bigram[textual_data], threshold=100)
 	trigram_mod = gensim.models.phrases.Phraser(trigram)
+	print("Printing the trigram_mod\n")
 	pprint(trigram_mod[bigram_mod[textual_data[0]]])
+	print("Print of the trigram_mod has concluded\n")
 	return trigram_mod
 
 def remove_stopwords(textual_data):
@@ -127,9 +132,9 @@ def nlp_engine_main(abstracts_log_name, status_logger_name):
 	doc_lda = lda_model[corpus]
 
 	print("\nPerplexity: ", lda_model.log_perplexity(corpus))
-	coherence_model_lda=CoherenceModel(model = lda_model, texts = data_lemmatized, dictionary = id2word, coherence='c_v')
+	"""coherence_model_lda=CoherenceModel(model = lda_model, texts = textual_data_lemmatized, dictionary = id2word, coherence='c_v')
 
 	coherence_lda = coherence_model_lda.get_coherence()
-	print('\nCoherence Score: ', coherence_lda)
+	print('\nCoherence Score: ', coherence_lda)"""
 
 	return lda_model, corpus, id2word
