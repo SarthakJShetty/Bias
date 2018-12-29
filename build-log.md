@@ -2,6 +2,12 @@
 
 <strong>Note:</strong> This build-log is updated chronologically, from recent to first, top to bottom.
 
+### Date: 29/12/2018
+- Long time since updates were posted. The code has been moved to ```conda```.
+- An <a title="NLP_Engine.py" href="https://github.com/SarthakJShetty/Bias/blob/master/NLP_Engine.py">NLP Engine</a> has been put in place to analyze the relation between different words and build the LDA model.
+- Analyzer functionality has largely been ported to the NLP Engine.
+- The latest run complete with the visualization of the LDA Model can be found <a title="Latest run log files" href="https://github.com/SarthakJShetty/Bias/blob/master/LOGS/LOG_2018-12-29_16_50_Western_Ghats_Endemic_Crocodiles_Marshes/">here</a>.
+
 ### Date: 08/10/2018
 - The code employs a ```conda``` environment on Windows, and ```virtualenv``` on Ubuntu. Code has been tested on both environments successfully.
 - Instructions on the <a title="README.md" href="https://github.com/SarthakJShetty/Bias#analyzing-biases-in-academic-publications">```README.md```</a> has been updateed accordingly.
