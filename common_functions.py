@@ -80,11 +80,14 @@ def pre_processing(keywords):
 			if((keyword_index+1)==len(keywords)):
 				query_string = query_string+keywords[keyword_index]
 			else:
-				query_string = query_string+keywords[keyword_index]+"%20"
-	start_url = "https://www.sciencedirect.com/search?qs="+query_string+"&show=100&sortBy=relevance&offset="
-	abstract_url = 'https://www.sciencedirect.com/science/article/pii/'
+				query_string = query_string+keywords[keyword_index]+"+"
 
-	return abstract_id_log_name, abstracts_log_name, start_url, abstract_url, status_logger_name
+	start_url = "https://link.springer.com/search/page/"
+	abstract_url = 'https://link.springer.com'
+	print(start_url)
+	print(abstract_url)
+
+	return abstract_id_log_name, abstracts_log_name, start_url, abstract_url, query_string, logs_folder_name, status_logger_name
 
 def arguments_parser():
 	'''This function is used to read the initial keyword that will be queried in ScienceDirect (for now).
