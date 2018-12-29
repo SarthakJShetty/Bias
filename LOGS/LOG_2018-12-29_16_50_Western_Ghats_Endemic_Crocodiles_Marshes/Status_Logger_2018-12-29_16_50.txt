@@ -1,0 +1,310 @@
+Session: 29/12/2018
+Time: 16:50:1
+[INFO]16:50:1 Built LOG folder for session
+[INFO]16:50:1 https://link.springer.com/search/page/ start_url has been received
+[INFO]16:50:1 https://link.springer.com/search/page/0?query=Western+Ghats+Endemic+Crocodiles+Marshes has been obtained
+[INFO]16:50:3 https://link.springer.com/search/page/1?query=Western+Ghats+Endemic+Crocodiles+Marshes has been obtained
+[INFO]16:50:4 https://link.springer.com/search/page/2?query=Western+Ghats+Endemic+Crocodiles+Marshes has been obtained
+[INFO]16:50:11 Page status: 200
+[INFO]16:50:11 Souping page
+[INFO]16:50:11 Souped page
+[INFO]16:50:11 Scraping IDs
+[INFO]16:50:11 Scraped IDs
+[INFO]16:50:11 Extracting Abstract IDs from disc
+[INFO]16:50:11 Extracted Abstract IDs from disc
+[INFO]16:50:11 Abstract Number: 1
+[INFO]16:50:11 Abstract ID: /article/10.1007/s41748-018-0040-3
+[INFO]16:50:12 Page status: 200
+[INFO]16:50:12 Souping page
+[INFO]16:50:13 Souped page
+[INFO]16:50:13 Writing 'Salient Ecological Sensitive Regions of Central Western Ghats, India' by 'T.\xc2\xa0V.\xc2\xa0Ramachandra' to disc
+[INFO]16:50:13 Written 'Salient Ecological Sensitive Regions of Central Western Ghats, India' to disc
+[INFO]16:50:13 Abstract Number: 2
+[INFO]16:50:13 Abstract ID: /chapter/10.1007/978-3-319-13425-3_29
+[INFO]16:50:14 Page status: 200
+[INFO]16:50:14 Souping page
+[INFO]16:50:15 Souped page
+[INFO]16:50:15 Writing 'Ecohydrology of Lotic Systems in Uttara Kannada, Central Western Ghats, India' by 'T.\xc2\xa0V.\xc2\xa0Ramachandra' to disc
+[INFO]16:50:15 Written 'Ecohydrology of Lotic Systems in Uttara Kannada, Central Western Ghats, India' to disc
+[INFO]16:50:15 Abstract Number: 3
+[INFO]16:50:15 Abstract ID: /chapter/10.1007/978-981-10-6605-4_2
+[INFO]16:50:16 Page status: 200
+[INFO]16:50:16 Souping page
+[INFO]16:50:16 Souped page
+[INFO]16:50:16 Writing 'Endemic, Endangered and Threatened Vertebrates in the Indian Hotspots' by 'Chandrakasan\xc2\xa0Sivaperuman' to disc
+[INFO]16:50:16 Written 'Endemic, Endangered and Threatened Vertebrates in the Indian Hotspots' to disc
+[INFO]16:50:16 Abstract Number: 4
+[INFO]16:50:16 Abstract ID: /article/10.1007/s12045-015-0152-0
+[INFO]16:50:17 Page status: 200
+[INFO]16:50:17 Souping page
+[INFO]16:50:24 Souped page
+[INFO]16:50:24 Writing 'Nature watch' by 'V.\xc2\xa0Deepak' to disc
+[INFO]16:50:24 Written 'Nature watch' to disc
+[INFO]16:50:24 Abstract Number: 5
+[INFO]16:50:24 Abstract ID: /chapter/10.1007/978-1-349-07014-5_1
+[INFO]16:50:25 Page status: 200
+[INFO]16:50:25 Souping page
+[INFO]16:50:28 Souped page
+[INFO]16:50:28 Writing 'Museums and Living Displays arranged alphabetically by country' by 'Kenneth\xc2\xa0Hudson' to disc
+[INFO]16:50:28 Written 'Museums and Living Displays arranged alphabetically by country' to disc
+[INFO]16:50:28 Abstract Number: 6
+[INFO]16:50:28 Abstract ID: /chapter/10.1007/978-981-10-6983-3_1
+[INFO]16:50:29 Page status: 200
+[INFO]16:50:29 Souping page
+[INFO]16:50:29 Souped page
+[INFO]16:50:29 Writing 'Hotspots: An Introduction and Role in Conservation' by 'I.\xc2\xa0Jaisankar' to disc
+[INFO]16:50:30 Written 'Hotspots: An Introduction and Role in Conservation' to disc
+[INFO]16:50:30 Abstract Number: 7
+[INFO]16:50:30 Abstract ID: /chapter/10.1007/978-981-10-3573-9_5
+[INFO]16:50:30 Page status: 200
+[INFO]16:50:30 Souping page
+[INFO]16:50:43 Souped page
+[INFO]16:50:43 Writing 'Climate Change and Biodiversity' by 'A.\xc2\xa0Biju Kumar' to disc
+[INFO]16:50:43 Written 'Climate Change and Biodiversity' to disc
+[INFO]16:50:43 Abstract Number: 8
+[INFO]16:50:43 Abstract ID: /chapter/10.1007/978-94-010-2331-3_24
+[INFO]16:50:43 Page status: 200
+[INFO]16:50:43 Souping page
+[INFO]16:50:54 Souped page
+[INFO]16:50:54 Writing 'Biogeographical Evolution in India' by 'M.\xc2\xa0S.\xc2\xa0Mani' to disc
+[INFO]16:50:55 Written 'Biogeographical Evolution in India' to disc
+[INFO]16:50:55 Abstract Number: 9
+[INFO]16:50:55 Abstract ID: /chapter/10.1007/978-94-007-7202-1_2
+[INFO]16:50:55 Page status: 200
+[INFO]16:50:55 Souping page
+[INFO]16:50:56 Souped page
+[INFO]16:50:56 Writing 'An Introduction to Goa and Khazan Ecosystems' by 'Sangeeta\xc2\xa0M.\xc2\xa0Sonak' to disc
+[INFO]16:50:56 Written 'An Introduction to Goa and Khazan Ecosystems' to disc
+[INFO]16:50:56 Abstract Number: 10
+[INFO]16:50:56 Abstract ID: /referenceworkentry/10.1007/978-1-4020-4410-6_94
+[INFO]16:50:57 Page status: 200
+[INFO]16:50:57 Souping page
+[INFO]16:50:57 Souped page
+[INFO]16:50:57 Writing 'Indian Lakes' by 'V.\xc2\xa0K.\xc2\xa0Dwivedi' to disc
+[INFO]16:50:57 Written 'Indian Lakes' to disc
+[INFO]16:50:57 Abstract Number: 11
+[INFO]16:50:57 Abstract ID: /chapter/10.1007/978-1-349-05002-4_13
+[INFO]16:50:58 Page status: 200
+[INFO]16:50:58 Souping page
+[INFO]16:50:58 Souped page
+[INFO]16:50:58 Writing 'M' by 'Fernando\xc2\xa0de\xc2\xa0Mello Vianna' to disc
+[INFO]16:50:58 Written 'M' to disc
+[INFO]16:50:58 Abstract Number: 12
+[INFO]16:50:58 Abstract ID: /chapter/10.1007/978-1-4615-0223-4_6
+[INFO]16:50:59 Page status: 200
+[INFO]16:50:59 Souping page
+[INFO]16:51:13 Souped page
+[INFO]16:51:13 Writing 'Applied Ecology of Biodiversity' by 'Navin\xc2\xa0K.\xc2\xa0Ambasht' to disc
+[INFO]16:51:13 Written 'Applied Ecology of Biodiversity' to disc
+[INFO]16:51:13 Abstract Number: 13
+[INFO]16:51:13 Abstract ID: /referenceworkentry/10.1007/1-4020-3880-1_9
+[INFO]16:51:14 Page status: 200
+[INFO]16:51:14 Souping page
+[INFO]16:51:24 Souped page
+[INFO]16:51:24 Writing 'I' by 'H.\xc2\xa0Jesse\xc2\xa0Walker' to disc
+[INFO]16:51:24 Written 'I' to disc
+[INFO]16:51:24 Abstract Number: 14
+[INFO]16:51:24 Abstract ID: /chapter/10.1007/978-1-4757-6918-0_1
+[INFO]16:51:25 Page status: 200
+[INFO]16:51:25 Souping page
+[INFO]16:52:11 Souped page
+[INFO]16:52:11 Writing 'A' by 'Douglas\xc2\xa0M.\xc2\xa0Considine' to disc
+[INFO]16:52:11 Written 'A' to disc
+[INFO]16:52:11 Abstract Number: 15
+[INFO]16:52:11 Abstract ID: /chapter/10.1007/978-3-319-01345-9_1
+[INFO]16:52:12 Page status: 200
+[INFO]16:52:12 Souping page
+[INFO]16:52:19 Souped page
+[INFO]16:52:19 Writing 'In Situ and Ex Situ Conservation: Protected Area Network and Zoos of Rajasthan' by 'B.\xc2\xa0K.\xc2\xa0Sharma' to disc
+[INFO]16:52:19 Written 'In Situ and Ex Situ Conservation: Protected Area Network and Zoos of Rajasthan' to disc
+[INFO]16:52:19 Abstract Number: 16
+[INFO]16:52:19 Abstract ID: /chapter/10.1007/978-94-011-6084-1_4
+[INFO]16:52:19 Page status: 200
+[INFO]16:52:19 Souping page
+[INFO]16:52:20 Souped page
+[INFO]16:52:20 Writing 'The Biota' by 'D.\xc2\xa0Dudley\xc2\xa0Williams' to disc
+[INFO]16:52:20 Written 'The Biota' to disc
+[INFO]16:52:20 Abstract Number: 17
+[INFO]16:52:20 Abstract ID: /referenceworkentry/10.1007/978-3-642-41554-8_173-1
+[INFO]16:52:21 Page status: 200
+[INFO]16:52:21 Souping page
+[INFO]16:52:21 Souped page
+[INFO]16:52:21 Writing 'How Environmental and Societal Changes Affect Wildlife in the Tropics' by 'Johannes\xc2\xa0Bauer' to disc
+[INFO]16:52:21 Written 'How Environmental and Societal Changes Affect Wildlife in the Tropics' to disc
+[INFO]16:52:21 Abstract Number: 18
+[INFO]16:52:21 Abstract ID: /referenceworkentry/10.1007/978-3-642-54601-3_173
+[INFO]16:52:22 Page status: 200
+[INFO]16:52:22 Souping page
+[INFO]16:52:23 Souped page
+[INFO]16:52:23 Writing 'How Environmental and Societal Changes Affect Wildlife in the Tropics' by 'Johannes\xc2\xa0Bauer' to disc
+[INFO]16:52:23 Written 'How Environmental and Societal Changes Affect Wildlife in the Tropics' to disc
+[INFO]16:52:23 Abstract Number: 19
+[INFO]16:52:23 Abstract ID: /chapter/10.1007/978-3-319-00530-0_5
+[INFO]16:52:23 Page status: 200
+[INFO]16:52:23 Souping page
+[INFO]16:52:25 Souped page
+[INFO]16:52:25 Writing 'Sundarban Mangroves: Impact of Water Management in the Ganga River Basin' by 'Malavika\xc2\xa0Chauhan' to disc
+[INFO]16:52:25 Written 'Sundarban Mangroves: Impact of Water Management in the Ganga River Basin' to disc
+[INFO]16:52:25 Abstract Number: 20
+[INFO]16:52:25 Abstract ID: /article/10.1007/s13237-012-0047-3
+[INFO]16:52:25 Page status: 200
+[INFO]16:52:25 Souping page
+[INFO]16:52:26 Souped page
+[INFO]16:52:26 Writing 'Chromosome Information Service (CIS), XVII' by 'Bani\xc2\xa0Gajra' to disc
+[INFO]16:52:26 Written 'Chromosome Information Service (CIS), XVII' to disc
+[INFO]16:52:27 Page status: 200
+[INFO]16:52:27 Souping page
+[INFO]16:52:27 Souped page
+[INFO]16:52:27 Scraping IDs
+[INFO]16:52:27 Scraped IDs
+[INFO]16:52:27 Extracting Abstract IDs from disc
+[INFO]16:52:27 Extracted Abstract IDs from disc
+[INFO]16:52:28 Abstract Number: 21
+[INFO]16:52:28 Abstract ID: /article/10.1007/s41748-018-0040-3
+[INFO]16:52:28 Page status: 200
+[INFO]16:52:28 Souping page
+[INFO]16:52:30 Souped page
+[INFO]16:52:30 Writing 'Salient Ecological Sensitive Regions of Central Western Ghats, India' by 'T.\xc2\xa0V.\xc2\xa0Ramachandra' to disc
+[INFO]16:52:30 Written 'Salient Ecological Sensitive Regions of Central Western Ghats, India' to disc
+[INFO]16:52:30 Abstract Number: 22
+[INFO]16:52:30 Abstract ID: /chapter/10.1007/978-3-319-13425-3_29
+[INFO]16:52:31 Page status: 200
+[INFO]16:52:31 Souping page
+[INFO]16:52:32 Souped page
+[INFO]16:52:32 Writing 'Ecohydrology of Lotic Systems in Uttara Kannada, Central Western Ghats, India' by 'T.\xc2\xa0V.\xc2\xa0Ramachandra' to disc
+[INFO]16:52:32 Written 'Ecohydrology of Lotic Systems in Uttara Kannada, Central Western Ghats, India' to disc
+[INFO]16:52:32 Abstract Number: 23
+[INFO]16:52:32 Abstract ID: /chapter/10.1007/978-981-10-6605-4_2
+[INFO]16:52:33 Page status: 200
+[INFO]16:52:33 Souping page
+[INFO]16:52:33 Souped page
+[INFO]16:52:33 Writing 'Endemic, Endangered and Threatened Vertebrates in the Indian Hotspots' by 'Chandrakasan\xc2\xa0Sivaperuman' to disc
+[INFO]16:52:33 Written 'Endemic, Endangered and Threatened Vertebrates in the Indian Hotspots' to disc
+[INFO]16:52:33 Abstract Number: 24
+[INFO]16:52:33 Abstract ID: /article/10.1007/s12045-015-0152-0
+[INFO]16:52:34 Page status: 200
+[INFO]16:52:34 Souping page
+[INFO]16:52:35 Souped page
+[INFO]16:52:35 Writing 'Nature watch' by 'V.\xc2\xa0Deepak' to disc
+[INFO]16:52:35 Written 'Nature watch' to disc
+[INFO]16:52:35 Abstract Number: 25
+[INFO]16:52:35 Abstract ID: /chapter/10.1007/978-1-349-07014-5_1
+[INFO]16:52:36 Page status: 200
+[INFO]16:52:36 Souping page
+[INFO]16:52:38 Souped page
+[INFO]16:52:38 Writing 'Museums and Living Displays arranged alphabetically by country' by 'Kenneth\xc2\xa0Hudson' to disc
+[INFO]16:52:38 Written 'Museums and Living Displays arranged alphabetically by country' to disc
+[INFO]16:52:38 Abstract Number: 26
+[INFO]16:52:38 Abstract ID: /chapter/10.1007/978-981-10-6983-3_1
+[INFO]16:52:39 Page status: 200
+[INFO]16:52:39 Souping page
+[INFO]16:52:39 Souped page
+[INFO]16:52:39 Writing 'Hotspots: An Introduction and Role in Conservation' by 'I.\xc2\xa0Jaisankar' to disc
+[INFO]16:52:39 Written 'Hotspots: An Introduction and Role in Conservation' to disc
+[INFO]16:52:39 Abstract Number: 27
+[INFO]16:52:39 Abstract ID: /chapter/10.1007/978-981-10-3573-9_5
+[INFO]16:52:41 Page status: 200
+[INFO]16:52:41 Souping page
+[INFO]16:52:47 Souped page
+[INFO]16:52:47 Writing 'Climate Change and Biodiversity' by 'A.\xc2\xa0Biju Kumar' to disc
+[INFO]16:52:47 Written 'Climate Change and Biodiversity' to disc
+[INFO]16:52:47 Abstract Number: 28
+[INFO]16:52:47 Abstract ID: /chapter/10.1007/978-94-010-2331-3_24
+[INFO]16:52:48 Page status: 200
+[INFO]16:52:48 Souping page
+[INFO]16:52:49 Souped page
+[INFO]16:52:49 Writing 'Biogeographical Evolution in India' by 'M.\xc2\xa0S.\xc2\xa0Mani' to disc
+[INFO]16:52:49 Written 'Biogeographical Evolution in India' to disc
+[INFO]16:52:49 Abstract Number: 29
+[INFO]16:52:49 Abstract ID: /chapter/10.1007/978-94-007-7202-1_2
+[INFO]16:52:49 Page status: 200
+[INFO]16:52:49 Souping page
+[INFO]16:52:50 Souped page
+[INFO]16:52:50 Writing 'An Introduction to Goa and Khazan Ecosystems' by 'Sangeeta\xc2\xa0M.\xc2\xa0Sonak' to disc
+[INFO]16:52:50 Written 'An Introduction to Goa and Khazan Ecosystems' to disc
+[INFO]16:52:50 Abstract Number: 30
+[INFO]16:52:50 Abstract ID: /referenceworkentry/10.1007/978-1-4020-4410-6_94
+[INFO]16:52:52 Page status: 200
+[INFO]16:52:52 Souping page
+[INFO]16:52:52 Souped page
+[INFO]16:52:52 Writing 'Indian Lakes' by 'V.\xc2\xa0K.\xc2\xa0Dwivedi' to disc
+[INFO]16:52:53 Written 'Indian Lakes' to disc
+[INFO]16:52:53 Abstract Number: 31
+[INFO]16:52:53 Abstract ID: /chapter/10.1007/978-1-349-05002-4_13
+[INFO]16:52:54 Page status: 200
+[INFO]16:52:54 Souping page
+[INFO]16:52:54 Souped page
+[INFO]16:52:54 Writing 'M' by 'Fernando\xc2\xa0de\xc2\xa0Mello Vianna' to disc
+[INFO]16:52:54 Written 'M' to disc
+[INFO]16:52:54 Abstract Number: 32
+[INFO]16:52:54 Abstract ID: /chapter/10.1007/978-1-4615-0223-4_6
+[INFO]16:52:55 Page status: 200
+[INFO]16:52:55 Souping page
+[INFO]16:52:56 Souped page
+[INFO]16:52:56 Writing 'Applied Ecology of Biodiversity' by 'Navin\xc2\xa0K.\xc2\xa0Ambasht' to disc
+[INFO]16:52:56 Written 'Applied Ecology of Biodiversity' to disc
+[INFO]16:52:56 Abstract Number: 33
+[INFO]16:52:56 Abstract ID: /referenceworkentry/10.1007/1-4020-3880-1_9
+[INFO]16:52:57 Page status: 200
+[INFO]16:52:57 Souping page
+[INFO]16:53:12 Souped page
+[INFO]16:53:12 Writing 'I' by 'H.\xc2\xa0Jesse\xc2\xa0Walker' to disc
+[INFO]16:53:12 Written 'I' to disc
+[INFO]16:53:12 Abstract Number: 34
+[INFO]16:53:12 Abstract ID: /chapter/10.1007/978-1-4757-6918-0_1
+[INFO]16:53:13 Page status: 200
+[INFO]16:53:13 Souping page
+[INFO]16:53:17 Souped page
+[INFO]16:53:18 Writing 'A' by 'Douglas\xc2\xa0M.\xc2\xa0Considine' to disc
+[INFO]16:53:18 Written 'A' to disc
+[INFO]16:53:18 Abstract Number: 35
+[INFO]16:53:18 Abstract ID: /chapter/10.1007/978-3-319-01345-9_1
+[INFO]16:53:19 Page status: 200
+[INFO]16:53:19 Souping page
+[INFO]16:53:35 Souped page
+[INFO]16:53:35 Writing 'In Situ and Ex Situ Conservation: Protected Area Network and Zoos of Rajasthan' by 'B.\xc2\xa0K.\xc2\xa0Sharma' to disc
+[INFO]16:53:35 Written 'In Situ and Ex Situ Conservation: Protected Area Network and Zoos of Rajasthan' to disc
+[INFO]16:53:35 Abstract Number: 36
+[INFO]16:53:35 Abstract ID: /chapter/10.1007/978-94-011-6084-1_4
+[INFO]16:53:36 Page status: 200
+[INFO]16:53:36 Souping page
+[INFO]16:53:36 Souped page
+[INFO]16:53:36 Writing 'The Biota' by 'D.\xc2\xa0Dudley\xc2\xa0Williams' to disc
+[INFO]16:53:36 Written 'The Biota' to disc
+[INFO]16:53:36 Abstract Number: 37
+[INFO]16:53:36 Abstract ID: /referenceworkentry/10.1007/978-3-642-41554-8_173-1
+[INFO]16:53:37 Page status: 200
+[INFO]16:53:37 Souping page
+[INFO]16:53:37 Souped page
+[INFO]16:53:37 Writing 'How Environmental and Societal Changes Affect Wildlife in the Tropics' by 'Johannes\xc2\xa0Bauer' to disc
+[INFO]16:53:37 Written 'How Environmental and Societal Changes Affect Wildlife in the Tropics' to disc
+[INFO]16:53:37 Abstract Number: 38
+[INFO]16:53:37 Abstract ID: /referenceworkentry/10.1007/978-3-642-54601-3_173
+[INFO]16:53:38 Page status: 200
+[INFO]16:53:38 Souping page
+[INFO]16:53:39 Souped page
+[INFO]16:53:39 Writing 'How Environmental and Societal Changes Affect Wildlife in the Tropics' by 'Johannes\xc2\xa0Bauer' to disc
+[INFO]16:53:39 Written 'How Environmental and Societal Changes Affect Wildlife in the Tropics' to disc
+[INFO]16:53:39 Abstract Number: 39
+[INFO]16:53:39 Abstract ID: /chapter/10.1007/978-3-319-00530-0_5
+[INFO]16:53:40 Page status: 200
+[INFO]16:53:40 Souping page
+[INFO]16:53:57 Souped page
+[INFO]16:53:57 Writing 'Sundarban Mangroves: Impact of Water Management in the Ganga River Basin' by 'Malavika\xc2\xa0Chauhan' to disc
+[INFO]16:53:57 Written 'Sundarban Mangroves: Impact of Water Management in the Ganga River Basin' to disc
+[INFO]16:53:57 Abstract Number: 40
+[INFO]16:53:57 Abstract ID: /article/10.1007/s13237-012-0047-3
+[INFO]16:53:58 Page status: 200
+[INFO]16:53:58 Souping page
+[INFO]16:53:58 Souped page
+[INFO]16:53:58 Writing 'Chromosome Information Service (CIS), XVII' by 'Bani\xc2\xa0Gajra' to disc
+[INFO]16:53:58 Written 'Chromosome Information Service (CIS), XVII' to disc
+[INFO]16:53:58 Entered the Analyzer.py code.
+[INFO]16:53:58 Carrying out pre-processing functions for analyzer
+[INFO]16:53:58 Carried out pre-processing functions for analyzer
+[INFO]16:53:58 Copying data from LOGS/LOG_2018-12-29_16_50_Western_Ghats_Endemic_Crocodiles_Marshes/Abstract_Database_2018-12-29_16_50.txt to pandas dataframe
+[INFO]16:53:59 Copied data from LOGS/LOG_2018-12-29_16_50_Western_Ghats_Endemic_Crocodiles_Marshes/Abstract_Database_2018-12-29_16_50.txt to pandas dataframe
+[INFO]16:53:59 Copying data from pandas dataframe to LOGS/LOG_2018-12-29_16_50_Western_Ghats_Endemic_Crocodiles_Marshes/Abstract_Database_2018-12-29_16_50_CSV_DATA.csv
+[INFO]16:53:59 Copied data from pandas dataframe to LOGS/LOG_2018-12-29_16_50_Western_Ghats_Endemic_Crocodiles_Marshes/Abstract_Database_2018-12-29_16_50_CSV_DATA.csv
+[INFO]16:53:59 Exiting the Analyzer.py code.
+[INFO]16:54:13 Entering the Visualizer
