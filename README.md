@@ -12,13 +12,13 @@
 
 - This tool is being developed to prove (quantitatively) the existence of these biases.
 
-<strong>Note:</strong> This <a title="Latest run" href="https://github.com/SarthakJShetty/Bias/tree/master/LOGS/LOG_2018-09-23_11_21_Bengal_Tigers_Endangered">log</a> contains the most recent run of the program.
+<strong>Note:</strong> This <a title="Latest run" href="https://github.com/SarthakJShetty/Bias/blob/master/LOGS/LOG_2018-12-29_16_50_Western_Ghats_Endemic_Crocodiles_Marshes">log</a> contains the most recent run of the program.
 
 ## 2.0 Model Overview:
 - The model is made up of three parts:
 	1. <strong><a title="Scraper" href="https://github.com/SarthakJShetty/Bias/tree/master/Scraper.py/">Scraper</a>:</strong> This component scrapes scientific repository for publications containing the specific combination of keywords.
 	2. <strong><a title="Analyzer" href="https://github.com/SarthakJShetty/Bias/tree/master/Analyzer.py/">Analyzer</a>:</strong> This component collects and measures the frequency of select keywords in the abstracts database.
-	3. <strong>Visualizer:</strong> This component presents the results and data from the Analyzer to the end user.
+	3. <strong><a title="Visualizer" href="https://github.com/SarthakJShetty/Bias/tree/master/Visualizer.py/">Visualizer</a>:</strong> This component presents the results and data from the Analyzer to the end user.
 		
 - Check out the <a title="LOGS" href="https://github.com/SarthakJShetty/Bias/tree/master/LOGS">LOGS</a> for the results of ```Scraper.py``` and ```Analyzer.py```.
 
