@@ -5,10 +5,12 @@ alabaster=0.7.10=py35h3a808de_0
 anaconda=custom=py35h64770cb_0
 anaconda-client=1.6.14=py35_0
 anaconda-project=0.8.2=py35h06aeb26_0
+appdirs=1.4.3=py35h28b3542_0
 asn1crypto=0.24.0=py35_0
 astroid=1.6.3=py35_0
 astropy=3.0.2=py35h452e1ab_1
 attrs=18.1.0=py35_0
+automat=0.7.0=py35_0
 babel=2.5.3=py35_0
 backcall=0.1.0=py35_0
 backports=1.0=py35he88aa47_1
@@ -26,8 +28,8 @@ boto3=1.9.7=py35_0
 botocore=1.12.7=py35_0
 bottleneck=1.2.1=py35h8a3671c_0
 bzip2=1.0.6=vc14_3
-ca-certificates=2018.10.15=ha4d7672_0
-certifi=2018.8.24=py35_1001
+ca-certificates=2018.03.07=0
+certifi=2018.8.24=py35_1
 cffi=1.11.5=py35h945400d_0
 chardet=3.0.4=py35h177e1b7_1
 click=6.7=py35h10df73f_0
@@ -36,6 +38,7 @@ clyent=1.2.2=py35h3cd9751_1
 colorama=0.3.9=py35h32a752f_0
 comtypes=1.1.4=py35_0
 console_shortcut=0.1.1=h6bb2dd7_3
+constantly=15.1.0=py35h28b3542_0
 contextlib2=0.5.5=py35h0a97e54_0
 cryptography=2.3.1=py35h74b6da3_0
 cryptography-vectors=2.3.1=py35_0
@@ -57,7 +60,7 @@ fastcache=1.0.2=py35hfa6e2cd_2
 filelock=3.0.4=py35_0
 flask=1.0.2=py35_1
 flask-cors=3.0.4=py35_0
-freetype=2.8=vc14h17c9bdf_0
+freetype=2.8.1=vc14_0
 ftfy=4.4.3=py35h615266c_0
 funcy=1.11=py_0
 future=0.16.0=py35_2
@@ -70,11 +73,13 @@ h5py=2.7.1=py35hb2c3add_0
 hdf5=1.10.1=vc14hb361328_0
 heapdict=1.0.0=py35_2
 html5lib=1.0.1=py35h047fa9f_0
+hyperlink=18.0.0=py35_0
 icc_rt=2017.0.4=h97af966_0
 icu=58.2=vc14hc45fdbb_0
 idna=2.6=py35h8dcb9ae_1
 imageio=2.3.0=py35_0
 imagesize=1.0.0=py35_0
+incremental=17.5.0=py35_0
 intel-openmp=2018.0.0=8
 ipykernel=4.8.2=py35_0
 ipython=6.4.0=py35_0
@@ -99,7 +104,7 @@ kiwisolver=1.0.1=py35hc605aed_0
 lazy-object-proxy=1.3.1=py35he996729_0
 libcurl=7.60.0=hc4dcbb0_0
 libiconv=1.15=vc14h29686d3_5
-libpng=1.6.32=vc14h5163883_3
+libpng=1.6.34=vc14_0
 libsodium=1.0.16=vc14_0
 libssh2=1.8.0=vc14hcf584a9_2
 libtiff=4.0.8=vc14h04e2a1e_10
@@ -115,7 +120,7 @@ m2w64-gcc-libs-core=5.3.0=7
 m2w64-gmp=6.1.0=2
 m2w64-libwinpthread-git=5.0.0.4634.697f757=2
 markupsafe=1.0=py35hc253e08_1
-matplotlib=2.1.2=py35h016c42a_0
+matplotlib=2.2.2=py35_1
 mccabe=0.6.1=py35hcf31250_1
 menuinst=1.4.14=py35hfa6e2cd_0
 mistune=0.8.3=py35hfa6e2cd_1
@@ -135,7 +140,7 @@ nbformat=4.4.0=py35h908c9d9_0
 networkx=2.1=py35_0
 nltk=3.3.0=py35_0
 nose=1.3.7=py35h0e9586c_2
-notebook=5.5.0=py35_0
+notebook=5.6.0=py35_0
 numba=0.38.0=py35h830ac7b_0
 numexpr=2.6.5=py35hcd2f87e_0
 numpy=1.14.3=py35h9fa60d3_1
@@ -144,7 +149,7 @@ numpydoc=0.8.0=py35_0
 odo=0.5.1=py35hc850252_0
 olefile=0.45.1=py35_0
 openpyxl=2.5.3=py35_0
-openssl=1.0.2p=hfa6e2cd_1001
+openssl=1.0.2p=hfa6e2cd_0
 packaging=17.1=py35_0
 pandas=0.23.0=py35h830ac7b_0
 pandoc=1.19.2.1=hb2460c7_1
@@ -157,16 +162,19 @@ pathlib2=2.3.2=py35_0
 patsy=0.5.0=py35_0
 pep8=1.7.1=py35_0
 pickleshare=0.7.4=py35h2f9f535_0
-pillow=4.2.1=py35hd7da350_0
+pillow=2.9.0=py35_0
 pip=9.0.3=py35_0
 pkginfo=1.4.2=py35_1
 plac=0.9.6=py_1
 pluggy=0.6.0=py35h717ee57_0
 ply=3.11=py35_0
 preshed=1.0.0=py35_vc14_0
+prometheus_client=0.3.1=py35h28b3542_0
 prompt_toolkit=1.0.15=py35h89c7cb4_0
 psutil=5.4.5=py35hfa6e2cd_0
 py=1.5.3=py35_0
+pyasn1=0.4.4=py35h28b3542_0
+pyasn1-modules=0.2.2=py35_0
 pycodestyle=2.4.0=py35_0
 pycosat=0.6.3=py35h456c199_0
 pycparser=2.18=py35h15a15da_1
@@ -196,7 +204,7 @@ pywin32=223=py35hfa6e2cd_1
 pywinpty=0.5.1=py35_0
 pyyaml=3.12=py35h4bf9689_1
 pyzmq=17.0.0=py35hfa6e2cd_0
-qt=5.6.2=vc14h6f8c307_12
+qt=5.6.2=vc14_1
 qtawesome=0.4.4=py35h639d0ff_0
 qtconsole=4.3.1=py35hc47b0dd_0
 qtpy=1.4.1=py35_0
@@ -210,6 +218,7 @@ scikit-learn=0.19.1=py35h2037775_0
 scipy=1.1.0=py35h672f292_0
 seaborn=0.8.1=py35hc73483e_0
 send2trash=1.5.0=py35_0
+service_identity=17.0.0=py35h28b3542_0
 setuptools=39.1.0=py35_0
 simplegeneric=0.8.1=py35_2
 singledispatch=3.4.0.3=py35h33f66b4_0
@@ -226,7 +235,7 @@ sphinxcontrib=1.0=py35h45f5ca3_1
 sphinxcontrib-websupport=1.0.1=py35ha3690eb_1
 spyder=3.2.8=py35_0
 sqlalchemy=1.2.7=py35ha85dd04_0
-sqlite=3.20.1=vc14h7ce8c62_1
+sqlite=3.22.0=vc14_0
 statsmodels=0.9.0=py35h452e1ab_0
 sympy=1.1.1=py35ha5375ed_0
 tblib=1.3.2=py35hd2cf7e1_0
@@ -239,10 +248,11 @@ toolz=0.9.0=py35_0
 tornado=5.0.2=py35_0
 tqdm=4.26.0=py_0
 traitlets=4.3.2=py35h09b975b_0
+twisted=18.7.0=py35hfa6e2cd_1
 typing=3.6.4=py35_0
 ujson=1.35=py35hfa6e2cd_1001
 unicodecsv=0.14.1=py35h0d88516_0
-urllib3=1.22=py35h8cc84eb_0
+urllib3=1.23=py35_0
 vc=14=0
 vs2015_runtime=15.5.2=3
 wcwidth=0.1.7=py35h6e80d8a_0
@@ -263,3 +273,5 @@ yaml=0.1.7=vc14h4cb57cf_1
 zeromq=4.2.5=vc14_2
 zict=0.1.3=py35hf5542e0_0
 zlib=1.2.11=vc14h1cdd9ab_1
+zope=1.0=py35_1
+zope.interface=4.5.0=py35hfa6e2cd_0
