@@ -32,6 +32,15 @@ def url_reader(url, status_logger_name):
 	except (UnboundLocalError, urllib.error.HTTPError):
 		pass
 
+def results_determiner(url, status_logger_name):
+	'''This function determines the number of results that a particular keywords returns
+	once it looks up the keyword on link.springer.com'''
+	first_page_to_scrape = urlopen(url)
+	first_page_to_scrape_soup = BeautifulSoup(first_page_to_scrape, 'html.parser')
+	number_of_results = first_page_to_scrape_soup.find('h1', {'class':'number-of-search-results-and-search-terms'}).find('strong').text
+	results_determiner_status_key = "Total number of results obtained: "+number_of_results
+	status_logger(status_logger_name, results_determiner_status_key)
+
 def url_generator(start_url, query_string, status_logger_name):
 	'''This function is written to scrape all possible webpages of a given topic
 	The search for the URLs truncates when determiner doesn't return a positive value'''
@@ -191,6 +200,8 @@ def processor(abstract_url, urls_to_scrape, abstract_id_log_name, abstracts_log_
 	''''Multiple page-cycling function to scrape multiple result pages'''
 	#print(len(urls_to_scrape))
 	for site_url_index in range(0, len(urls_to_scrape)):
+		if(site_url_index==0):
+			results_determiner(urls_to_scrape[site_url_index], status_logger_name)
 		'''Collects the web-page from the url for souping'''
 		page_to_soup = url_reader(urls_to_scrape[site_url_index], status_logger_name)
 		'''Souping the page for collection of data and tags'''
