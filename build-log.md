@@ -2,6 +2,11 @@
 
 <strong>Note:</strong> This build-log is updated chronologically, from recent to first, top to bottom.
 
+### DateL 31/12/2018
+- The ```status_logger()``` function has been incorporated into the <a title="Analyzer.py" href="https://github.com/SarthakJShetty/Bias/blob/master/Analyzer.py">```Analyzer.py```</a> and <a title="NLP_Engine.py" href="https://github/com/SarthakJShetty/Bias/blob/master/NLP_Engine.py">```NLP_Engine.py```</a> code. The functions working is now being logged into the logger file.
+- A new ```results_determiner()``` function has been writter than presents the number of results returned and to be scraped.
+- New set of runs results alongwith visualizations have been put up <a title="Latest run LOG file" href="Latest run log files" href="https://github.com/SarthakJShetty/Bias/blob/master/LOGS/LOG_2018-12-31_13_45_Western_Ghats_Ecology_Conservation_Policy">here</a>.
+
 ### Date: 29/12/2018
 - Long time since updates were posted. The code has been moved to ```conda```.
 - An <a title="NLP_Engine.py" href="https://github.com/SarthakJShetty/Bias/blob/master/NLP_Engine.py">NLP Engine</a> has been put in place to analyze the relation between different words and build the LDA model.
