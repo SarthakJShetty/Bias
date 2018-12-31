@@ -11,9 +11,10 @@ from common_functions import status_logger
 import pyLDAvis
 
 def visualizer_main(lda_model, corpus, id2word, logs_folder_name, status_logger_name):
-	visualizer_main_start_status_key = "Entering the Visualizer"
+	'''This code generates the .html file with generates the visualization of the data prepared.'''
+	visualizer_main_start_status_key = "Preparing the visualization"
 	status_logger(status_logger_name, visualizer_main_start_status_key)
 	textual_data_visualization = pyLDAvis.gensim.prepare(lda_model, corpus, id2word)
 	pyLDAvis.save_html(textual_data_visualization, logs_folder_name+"/"+"Data_Visualization.html")
-	visualizer_main_end_status_key = "Exiting the Visulizer"
-	status_logger_name(status_logger_name, visualizer_main_end_status_key)
+	visualizer_main_end_status_key = "Prepared the Visulizer"
+	status_logger(status_logger_name, visualizer_main_end_status_key)
