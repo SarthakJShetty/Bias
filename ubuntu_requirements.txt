@@ -22,6 +22,7 @@ diagnostic-common-diagnostics==1.9.3
 diagnostic-updater==1.9.3
 dill==0.2.8.2
 docutils==0.14
+dryscrape==1.0
 dynamic-reconfigure==1.5.50
 en-core-web-sm==2.0.0
 funcy==1.11
@@ -43,6 +44,7 @@ jmespath==0.9.3
 joblib==0.12.5
 kiwisolver==1.0.1
 laser-geometry==1.6.4
+lxml==4.2.5
 MarkupSafe==1.0
 matplotlib==3.0.0
 message-filters==1.12.14
@@ -146,6 +148,8 @@ toolz==0.9.0
 topic-tools==1.12.14
 tqdm==4.26.0
 ujson==1.35
-urllib3==1.22
+urllib3==1.24.1
+webkit-server==1.0
 wrapt==1.10.11
 xacro==1.11.3
+xvfbwrapper==0.2.9
