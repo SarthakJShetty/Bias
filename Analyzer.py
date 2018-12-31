@@ -32,7 +32,9 @@ def analyzer_pre_processing(abstracts_log_name, status_logger_name):
 	status_logger(status_logger_name, analyzer_pre_processing_status_key)
 	return abstracts_txt_file_name, abstracts_csv_file_name
 
-def list_cleaner(list_to_be_cleaned):
+def list_cleaner(list_to_be_cleaned, status_logger_name):
+	list_cleaner_start_status_key = "Cleaning the list of words generated"
+	status_logger(status_logger_name, list_cleaner_start_status_key)
 	'''This function cleans the list containing the words found in the abstract. It eliminates words found in
 	another pre-defined list of words.'''
 	words_to_be_eliminated = ["the", "of", "and", "in", "to", "a", "The", "is", "for", "from", "with", "that", 
@@ -48,6 +50,10 @@ def list_cleaner(list_to_be_cleaned):
 	 "provide", "Provide", "among", "Among", "highly", "Highly", "no", "No", "case", "Case", "across", "Across", "given", "Given", "need", "Need", "would", "Would", 
 	  "under", "Under", "found", "Found", "Low", "low", "values", "Values", "These", "suggest", "Suggest", "up", "Up", "For"] 
 	cleaned_list_of_words_in_abstract = [item for item in list_to_be_cleaned if item not in words_to_be_eliminated]
+
+	list_cleaner_end_status_key = "Cleaned the list of words generated"
+	status_logger(status_logger_name, list_cleaner_end_status_key)	
+
 	return cleaned_list_of_words_in_abstract
 
 def transfer_function(abstracts_txt_file_name, abstracts_csv_file_name, status_logger_name):
@@ -67,7 +73,7 @@ def transfer_function(abstracts_txt_file_name, abstracts_csv_file_name, status_l
 				list_of_words_in_abstract.append(word)
 
 	'''This function cleans up the data of uneccessary words'''
-	cleaned_list_of_words_in_abstract = list_cleaner(list_of_words_in_abstract)
+	cleaned_list_of_words_in_abstract = list_cleaner(list_of_words_in_abstract, status_logger_name)
 
 	'''A Counte is a dictionary, where the value is the frequency of term, which is the key'''
 	dictionary_of_abstract_list = Counter(cleaned_list_of_words_in_abstract)
