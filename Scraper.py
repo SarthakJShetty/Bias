@@ -37,7 +37,7 @@ def results_determiner(url, status_logger_name):
 	once it looks up the keyword on link.springer.com'''
 	first_page_to_scrape = urlopen(url)
 	first_page_to_scrape_soup = BeautifulSoup(first_page_to_scrape, 'html.parser')
-	number_of_results = first_page_to_scrape_soup.find('h1', {'class':'number-of-search-results-and-search-terms'}).find('strong').text
+	number_of_results = first_page_to_scrape_soup.find('h1', {'id':'number-of-search-results-and-search-terms'}).find('strong').text
 	results_determiner_status_key = "Total number of results obtained: "+number_of_results
 	status_logger(status_logger_name, results_determiner_status_key)
 
