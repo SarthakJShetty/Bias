@@ -2,6 +2,10 @@
 
 <strong>Note:</strong> This build-log is updated chronologically, from recent to first, top to bottom.
 
+### Date 14/01/2019
+- The code was broken following a update to the UI of Springer. The attribute pertaining to the number of results found had to changed from ```class``` to ```id```.
+- Happy New Year 2019!
+
 ### DateL 31/12/2018
 - The ```status_logger()``` function has been incorporated into the <a title="Analyzer.py" href="https://github.com/SarthakJShetty/Bias/blob/master/Analyzer.py">```Analyzer.py```</a> and <a title="NLP_Engine.py" href="https://github/com/SarthakJShetty/Bias/blob/master/NLP_Engine.py">```NLP_Engine.py```</a> code. The functions working is now being logged into the logger file.
 - A new ```results_determiner()``` function has been writter than presents the number of results returned and to be scraped.
