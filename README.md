@@ -79,7 +79,7 @@
 ## 4.0 How it works:
 
 ### 4.1 Scraper:
-- The <a title="Scraper" href="https://github.com/SarthakJShetty/Bias/blob/master/Scraper.py">```Scraper.py```</a> currently scrapes only the abstracts from <a title="ScienceDirect" href="https://www.ScienceDirect.com">ScienceDirect</a>.
+- The <a title="Scraper" href="https://github.com/SarthakJShetty/Bias/blob/master/Scraper.py">```Scraper.py```</a> currently scrapes only the abstracts from <a title="Springer" href="https://www.link.Springer.com">Springer</a>.
 
 - A default URL is provided in the code. Once the keywords are provided, the URLs are queried and the resultant webpage is souped and ```abstract_id``` is scraped.
 
@@ -95,7 +95,7 @@
 - This ```.csv``` file is then passed on to the Visualizer.
 
 ## 5.0 Known Issues:
-- The Scraper can only scrape abstracts from ScienceDirect at the moment, since ScienceDirect does not allow users to view publications in native ```.pdf``` format, but instead loads a ```.html``` document with the contents embedded in it.
+- The Scraper can only scrape abstracts from Springer at the moment, since Springer does not allow users to view publications in native ```.pdf``` format, but instead loads a ```.html``` document with the contents embedded in it.
 
 #### Note:
 - This repository is still under active development. The <a title="README" href="https://github.com/SarthakJShetty/Bias">README.md</a> is yet to be updated in detail.
