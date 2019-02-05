@@ -84,8 +84,8 @@ def pre_processing(keywords):
 
 	start_url = "https://link.springer.com/search/page/"
 	abstract_url = 'https://link.springer.com'
-	print(start_url)
-	print(abstract_url)
+	#print(start_url)
+	#print(abstract_url)
 
 	return abstract_id_log_name, abstracts_log_name, start_url, abstract_url, query_string, logs_folder_name, status_logger_name
 
