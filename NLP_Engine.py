@@ -169,9 +169,9 @@ def nlp_engine_main(abstracts_log_name, status_logger_name):
 
 	perplexity_score = lda_model.log_perplexity(corpus)
 
-	print("\nPerplexity: ", str(perplexity_score))
+	#print("\nPerplexity: ", str(perplexity_score))
 
-	perplexity_status_key = "Issued perplexity"+" "+str(perplexity_score)
+	perplexity_status_key = "Issued perplexity:"+" "+str(perplexity_score)
 
 	status_logger(status_logger_name, perplexity_status_key)
 	
