@@ -19,10 +19,13 @@ def visualizer_generator(lda_model, corpus, id2word, logs_folder_name, status_lo
 	visualizer_generator_end_status_key = "Prepared the Visulizer"
 	status_logger(status_logger_name, visualizer_generator_end_status_key)		
 
+'''def trends_histogram():
+	#This function is responsible for generating the histograms to visualizations the trends in research topics.'''
+
 def visualizer_main(lda_model, corpus, id2word, logs_folder_name, status_logger_name):
 	visualizer_main_start_status_key = "Entering the visualizer_main() code"
 	status_logger(status_logger_name, visualizer_main_start_status_key)
-	
+
 	'''This the main visualizer code. Reorging this portion of the code to ensure modularity later on as well.'''
 	visualizer_generator(lda_model, corpus, id2word, logs_folder_name, status_logger_name)
 
