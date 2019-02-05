@@ -147,13 +147,16 @@ def abstract_word_sorter(abstract, abstract_title, abstract_year, permanent_word
 	abstract_word_list = abstract.split()
 	'''We are directly porting the words from the list containing the abstract words to the permanent dataframe.
 	We have resolved the issue involving the appending of the temporary dataframe onto the permanent dataframe.
-	It works. It works.'''
-	for abstract_word_list_index in range(len(permanent_word_sorter_dataframe), (len(permanent_word_sorter_dataframe)+len(abstract_word_list))):
-		permanent_word_sorter_dataframe.loc[((abstract_word_list_index)-len(permanent_word_sorter_dataframe)), 'Words'] = abstract_word_list[((abstract_word_list_index)-len(permanent_word_sorter_dataframe))]
-		permanent_word_sorter_dataframe.loc[abstract_word_list_index, 'Year'] = abstract_year
+	It works. It works.
+	Edit: It did not work. The length of the permanent dataframe kept getting updated and hence we had to store it in a seperate variable before
+	utilizing it as a counter in the for loop. An efficieny, but we cannot progress without it for now. 06/02/2019 Sarthak '''
+	length_of_permanent_word_sorter_dataframe = len(permanent_word_sorter_dataframe)
+	for abstract_word_list_index in range(length_of_permanent_word_sorter_dataframe, (length_of_permanent_word_sorter_dataframe+len(abstract_word_list))):
+		permanent_word_sorter_dataframe.loc[abstract_word_list_index, 'Words'] = abstract_word_list[abstract_word_list_index-length_of_permanent_word_sorter_dataframe]
+		permanent_word_sorter_dataframe.loc[abstract_word_list_index, 'Year'] = abstract_year[:4]
 
 	#print(len(abstract_word_list))
-	#print(len(permanent_word_sorter_dataframe))
+	print(permanent_word_sorter_dataframe)
 	abstract_word_sorter_end_status_key = "Added:"+" "+abstract_title+" "+"to the permanent dataframe"
 	status_logger(status_logger_name, abstract_word_sorter_end_status_key)
 
@@ -262,12 +265,13 @@ def word_sorter_dataframe_generator(status_logger_name):
 	status_logger(status_logger_name, word_sorter_dataframe_exit_status_key)
 	return word_sorter_dataframe
 
-def processor(abstract_url, urls_to_scrape, abstract_id_log_name, abstracts_log_name, permanent_word_sorter_dataframe, status_logger_name, keywords_to_search):
+def processor(abstract_url, urls_to_scrape, abstract_id_log_name, abstracts_log_name, status_logger_name, keywords_to_search):
 	''''Multiple page-cycling function to scrape multiple result pages returned from Springer.
 	print(len(urls_to_scrape))'''
 	
 	'''This dataframe will hold all the words mentioned in all the abstracts. It will be later passed on to the
 	visualizer code to generate the trends histogram.'''
+	permanent_word_sorter_dataframe = word_sorter_dataframe_generator(status_logger_name)
 
 	for site_url_index in range(0, len(urls_to_scrape)):
 		if(site_url_index==0):
@@ -286,7 +290,5 @@ def scraper_main(abstract_id_log_name, abstracts_log_name, start_url, abstract_u
 	
 	'''Provides the links for the URLs to be scraped by the scraper'''
 	urls_to_scrape = url_generator(start_url, query_string, status_logger_name)
-	'''Generating the word sorter dataframe that will hold the frequency of occurence of all words returned from that search'''
-	permanent_word_sorter_dataframe = word_sorter_dataframe_generator(status_logger_name)
 	'''Calling the processor() function here'''
-	processor(abstract_url, urls_to_scrape, abstract_id_log_name, abstracts_log_name, permanent_word_sorter_dataframe, status_logger_name, keywords_to_search)
+	processor(abstract_url, urls_to_scrape, abstract_id_log_name, abstracts_log_name, status_logger_name, keywords_to_search)
