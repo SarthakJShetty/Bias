@@ -48,7 +48,7 @@ def list_cleaner(list_to_be_cleaned, status_logger_name):
 	"From", "via", "Via", "available", "Available", "such", "Such", "than", "Than", "Different", "different", "many", "Many", "areas", "Areas", "No", "no", "One", 
 	 "one", "two", "Two", "small", "Small", "first", "First", "other", "Other", "Such", "such", "-", "could", "Could", "studies", "Studies", "high", "High", 
 	 "provide", "Provide", "among", "Among", "highly", "Highly", "no", "No", "case", "Case", "across", "Across", "given", "Given", "need", "Need", "would", "Would", 
-	  "under", "Under", "found", "Found", "Low", "low", "values", "Values", "These", "suggest", "Suggest", "up", "Up", "For", "'The", "area"] 
+	  "under", "Under", "found", "Found", "Low", "low", "values", "Values", "xa", "xc", "These", "suggest", "Suggest", "up", "Up", "For", "'The", "area"] 
 	cleaned_list_of_words_in_abstract = [item for item in list_to_be_cleaned if item not in words_to_be_eliminated]
 
 	list_cleaner_end_status_key = "Cleaned the list of words generated"
