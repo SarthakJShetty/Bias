@@ -16,13 +16,17 @@ from urllib.request import urlopen
 import urllib.error
 '''BeautifulSoup is used for souping.'''
 from bs4 import BeautifulSoup
+'''Importing Pandas in order to generate the dataframe that will sort the text wordwise to generate the trends histogram'''
+import pandas as pd
+'''Importing numpy here to generate the pandas dataframes used at different functions'''
+import numpy as np
 '''Fragmenting code into different scripts. Some functions are to be used across the different sub-parts as well.
 Hence, shifted some of the functions to the new script.'''
 from common_functions import pre_processing, arguments_parser,  status_logger
 
 def url_reader(url, status_logger_name):
-	'''This keyword is supplied to the URL and is hence used for souping.''' 
-	'''Encountered an error where some links would not open due to HTTP.error
+	'''This keyword is supplied to the URL and is hence used for souping.
+	Encountered an error where some links would not open due to HTTP.error
 	This is added here to try and ping the page. If it returns false the loop ignores it and
 	moves on to the next PII number'''
 	try:
@@ -34,7 +38,9 @@ def url_reader(url, status_logger_name):
 
 def results_determiner(url, status_logger_name):
 	'''This function determines the number of results that a particular keywords returns
-	once it looks up the keyword on link.springer.com'''
+	once it looks up the keyword on link.springer.com
+	The function returns all the possible links containing results and then provides the total number of results
+	returned by a particular keyword, or combination of keywords.'''
 	first_page_to_scrape = urlopen(url)
 	first_page_to_scrape_soup = BeautifulSoup(first_page_to_scrape, 'html.parser')
 	number_of_results = first_page_to_scrape_soup.find('h1', {'id':'number-of-search-results-and-search-terms'}).find('strong').text
@@ -43,9 +49,11 @@ def results_determiner(url, status_logger_name):
 
 def url_generator(start_url, query_string, status_logger_name):
 	'''This function is written to scrape all possible webpages of a given topic
-	The search for the URLs truncates when determiner doesn't return a positive value'''
+	The search for the URLs truncates when determiner variable doesn't return a positive value'''
 	url_generator_start_status_key = start_url+" "+"start_url has been received"
 	status_logger(status_logger_name, url_generator_start_status_key)
+	'''Initiallizing a list here in order to contain the URLs. Even if a URL does not return valid results,
+	it is popped later on from the list.'''
 	urls_to_scrape=[]
 	counter = 0
 	total_url = start_url+str(counter)+"?query="+query_string
@@ -76,8 +84,9 @@ def abstract_id_database_writer(abstract_id_log_name, abstract_input_tag_id, sit
 	abstract_id_log.write('\n')
 	abstract_id_log.close()
 
-def abstract_database_writer(abstract_page_url, title, author, abstract, abstracts_log_name, status_logger_name):
-	'''This function makes text files'''
+def abstract_database_writer(abstract_page_url, title, author, abstract, abstracts_log_name, abstract_date, status_logger_name):
+	'''This function makes text files to contain the abstracts for future reference.
+	It holds: 1) Title, 2) Author(s), 3) Abstract'''
 	abstract_database_writer_start_status_key = "Writing"+" "+title+" "+"by"+" "+author+" "+"to disc"
 	status_logger(status_logger_name, abstract_database_writer_start_status_key)
 	abstracts_csv_log = open(abstracts_log_name+'.csv', 'a')
@@ -85,6 +94,8 @@ def abstract_database_writer(abstract_page_url, title, author, abstract, abstrac
 	abstracts_txt_log.write("Title:"+" "+title)
 	abstracts_txt_log.write('\n')
 	abstracts_txt_log.write("Author:"+" "+author)
+	abstracts_txt_log.write('\n')
+	abstracts_txt_log.write("Date:"+" "+abstract_date)
 	abstracts_txt_log.write('\n')
 	abstracts_txt_log.write("URL:"+" "+abstract_page_url)
 	abstracts_txt_log.write('\n')
@@ -118,7 +129,7 @@ def page_status(page, status_logger_name):
 
 def page_souper(page, status_logger_name):
 	'''Function soups the webpage elements and provided the tags for search.
-	Note: Appropriate encoding has to be picked up before souping'''
+	Note: Appropriate encoding has to be picked up beenfore souping'''
 	page_souper_start_status_key = "Souping page"
 	status_logger(status_logger_name, page_souper_start_status_key)
 	page_soup = BeautifulSoup(page, 'html.parser')
@@ -126,7 +137,27 @@ def page_souper(page, status_logger_name):
 	status_logger(status_logger_name, page_souper_stop_status_key)
 	return page_soup
 
-def abstract_page_scraper(abstract_url, abstract_input_tag_id, abstracts_log_name, status_logger_name):
+def abstract_word_sorter(abstract, abstract_title, abstract_year, permanent_word_sorter_dataframe, status_logger_name):
+	abstract_word_sorter_start_status_key = "Adding:"+" "+abstract_title+" "+"to the permanent dataframe"
+	status_logger(status_logger_name, abstract_word_sorter_start_status_key)
+	'''This function creates the pandas dataframe that stores the text in the form of individual words
+	against their year of appearence.'''
+
+	'''Converting the abstract into a list of words'''
+	abstract_word_list = abstract.split()
+	'''We are directly porting the words from the list containing the abstract words to the permanent dataframe.
+	We have resolved the issue involving the appending of the temporary dataframe onto the permanent dataframe.
+	It works. It works.'''
+	for abstract_word_list_index in range(len(permanent_word_sorter_dataframe), (len(permanent_word_sorter_dataframe)+len(abstract_word_list))):
+		permanent_word_sorter_dataframe.loc[((abstract_word_list_index)-len(permanent_word_sorter_dataframe)), 'Words'] = abstract_word_list[((abstract_word_list_index)-len(permanent_word_sorter_dataframe))]
+		permanent_word_sorter_dataframe.loc[abstract_word_list_index, 'Year'] = abstract_year
+
+	#print(len(abstract_word_list))
+	#print(len(permanent_word_sorter_dataframe))
+	abstract_word_sorter_end_status_key = "Added:"+" "+abstract_title+" "+"to the permanent dataframe"
+	status_logger(status_logger_name, abstract_word_sorter_end_status_key)
+
+def abstract_page_scraper(abstract_url, abstract_input_tag_id, abstracts_log_name, permanent_word_sorter_dataframe, site_url_index, status_logger_name):
 	'''This function is written to scrape the actual abstract of the specific paper,
 	 that is being referenced within the list of abstracts'''
 	abstract_page_scraper_status_key="Abstract ID:"+" "+abstract_input_tag_id
@@ -135,21 +166,25 @@ def abstract_page_scraper(abstract_url, abstract_input_tag_id, abstracts_log_nam
 	abstract_page = url_reader(abstract_page_url, status_logger_name)
 	abstract_soup = page_souper(abstract_page, status_logger_name)
 	title = title_scraper(abstract_soup)
-	
-	'''Due to repeated attribute errors, these failsafes had to be put in place'''
+	abstract_date = abstract_date_scraper(title, abstract_soup, status_logger_name)
+
+	'''Due to repeated attribute errors with respect to scraping the authors name, these failsafes had to be put in place.'''
 	try:
 		author = author_scraper(abstract_soup)
 	except AttributeError:
 		author = "Author not available"
+
+	'''Due to repeated attribute errors with respect to scraping the abstract, these failsafes had to be put in place.'''
 	try:
 		abstract = abstract_scraper(abstract_soup)
+		abstract_word_sorter(abstract, title, abstract_date, permanent_word_sorter_dataframe, status_logger_name)
 	except AttributeError:
 		abstract = "Abstract not available"
-	
-	abstract_database_writer(abstract_page_url, title, author, abstract, abstracts_log_name, status_logger_name)
+
+	abstract_database_writer(abstract_page_url, title, author, abstract, abstracts_log_name, abstract_date, status_logger_name)
 	#print(abstract_soup_text)
 
-def abstract_crawler(abstract_url, abstract_id_log_name, abstracts_log_name, site_url_index, status_logger_name):
+def abstract_crawler(abstract_url, abstract_id_log_name, abstracts_log_name, permanent_word_sorter_dataframe, site_url_index, status_logger_name):
 	abstract_crawler_temp_index  = site_url_index
 	'''This function crawls the page and access each and every abstract'''
 	abstract_input_tag_ids = abstract_id_database_reader(abstract_id_log_name, abstract_crawler_temp_index, status_logger_name)
@@ -157,15 +192,35 @@ def abstract_crawler(abstract_url, abstract_id_log_name, abstracts_log_name, sit
 		try:
 			abstract_crawler_accept_status_key="Abstract Number:"+" "+str((abstract_input_tag_ids.index(abstract_input_tag_id)+1)+abstract_crawler_temp_index*20)
 			status_logger(status_logger_name, abstract_crawler_accept_status_key)
-			abstract_page_scraper(abstract_url, abstract_input_tag_id, abstracts_log_name, status_logger_name)
+			abstract_page_scraper(abstract_url, abstract_input_tag_id, abstracts_log_name, permanent_word_sorter_dataframe, site_url_index, status_logger_name)
 		except TypeError:
 			abstract_crawler_reject_status_key="Abstract Number:"+" "+str(abstract_input_tag_ids.index(abstract_input_tag_id)+1)+" "+"could not be processed"
 			status_logger(status_logger_name, abstract_crawler_reject_status_key)
 			pass
 
+def abstract_date_scraper(title, abstract_soup, status_logger_name):
+	'''This function scrapes the date associated with each of the abstracts.
+	This function will play a crucial role in the functionality that we are trying to build into our project.'''
+	date_scraper_entry_status_key = "Scraping date of the abstract titled:"+" "+title
+	status_logger(status_logger_name, date_scraper_entry_status_key)
+	try:
+		abstract_date = abstract_soup.find('time').get('datetime')
+		date_scraper_exit_status_key = title+" "+"was published on"+" "+abstract_date
+
+	except AttributeError:
+		abstract_date = "Date for abstract titled:"+" "+title+" "+"was not available"
+		date_scraper_exit_status_key = abstract_date
+		pass
+	
+	status_logger(status_logger_name, date_scraper_exit_status_key)
+	return abstract_date
+
 def abstract_scraper(abstract_soup):
 	'''This function scrapes the abstract from the soup and returns to the page scraper'''
-	abstract = str(abstract_soup.find('p', {'id':'Par1'}).text.encode('utf-8'))[1:]
+	try:
+		abstract = str(abstract_soup.find('p', {'id':'Par1'}).text.encode('utf-8'))[1:]
+	except AttributeError:
+		abstract = str(abstract_soup.find('p', {'class':'Para'}).text.encode('utf-8'))[1:]
 	return abstract
 
 def author_scraper(abstract_soup):
@@ -196,9 +251,24 @@ def abstract_id_scraper(abstract_id_log_name, page_soup, site_url_index, status_
 	abstract_id_scraper_stop_status_key="Scraped IDs"
 	status_logger(status_logger_name, abstract_id_scraper_stop_status_key)
 
-def processor(abstract_url, urls_to_scrape, abstract_id_log_name, abstracts_log_name, status_logger_name, keywords_to_search):
-	''''Multiple page-cycling function to scrape multiple result pages'''
-	#print(len(urls_to_scrape))
+def word_sorter_dataframe_generator(status_logger_name):
+	word_sorter_dataframe_start_status_key = "Generating the permanent word sorter dataframe"
+	status_logger(status_logger_name, word_sorter_dataframe_start_status_key)
+	'''This function generates the dataframe that hold the Words and corresponding Years of the
+	abstract data words before the actual recursion of scrapping data from the website begins.'''
+	word_sorter_dataframe = pd.DataFrame(columns=["Words", "Year"])
+
+	word_sorter_dataframe_exit_status_key = "Generated the permanent word sorter dataframe"
+	status_logger(status_logger_name, word_sorter_dataframe_exit_status_key)
+	return word_sorter_dataframe
+
+def processor(abstract_url, urls_to_scrape, abstract_id_log_name, abstracts_log_name, permanent_word_sorter_dataframe, status_logger_name, keywords_to_search):
+	''''Multiple page-cycling function to scrape multiple result pages returned from Springer.
+	print(len(urls_to_scrape))'''
+	
+	'''This dataframe will hold all the words mentioned in all the abstracts. It will be later passed on to the
+	visualizer code to generate the trends histogram.'''
+
 	for site_url_index in range(0, len(urls_to_scrape)):
 		if(site_url_index==0):
 			results_determiner(urls_to_scrape[site_url_index], status_logger_name)
@@ -209,12 +279,14 @@ def processor(abstract_url, urls_to_scrape, abstract_id_log_name, abstracts_log_
 		'''Scrapping the page to extract all the abstract IDs'''
 		abstract_id_scraper(abstract_id_log_name, page_soup, site_url_index, status_logger_name)
 		'''Actually obtaining the abstracts after combining ID with the abstract_url'''
-		abstract_crawler(abstract_url, abstract_id_log_name, abstracts_log_name, site_url_index, status_logger_name)
+		abstract_crawler(abstract_url, abstract_id_log_name, abstracts_log_name, permanent_word_sorter_dataframe, site_url_index, status_logger_name)
 
 def scraper_main(abstract_id_log_name, abstracts_log_name, start_url, abstract_url, query_string, status_logger_name, keywords_to_search):
 	''''This function contains all the functions and contains this entire script here, so that it can be imported later to the main function'''
-
+	
 	'''Provides the links for the URLs to be scraped by the scraper'''
 	urls_to_scrape = url_generator(start_url, query_string, status_logger_name)
+	'''Generating the word sorter dataframe that will hold the frequency of occurence of all words returned from that search'''
+	permanent_word_sorter_dataframe = word_sorter_dataframe_generator(status_logger_name)
 	'''Calling the processor() function here'''
-	processor(abstract_url, urls_to_scrape, abstract_id_log_name, abstracts_log_name, status_logger_name, keywords_to_search)
+	processor(abstract_url, urls_to_scrape, abstract_id_log_name, abstracts_log_name, permanent_word_sorter_dataframe, status_logger_name, keywords_to_search)
