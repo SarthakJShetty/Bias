@@ -93,7 +93,7 @@ def arguments_parser():
 	'''This function is used to read the initial keyword that will be queried in ScienceDirect (for now).
 	We will be scrapping Science, Nature etc later, as long as generic URLs are supported.'''
 	parser = argparse.ArgumentParser()
-	parser.add_argument("--keywords", help="Keyword to search on ScienceDirect", default="Tiger")
+	parser.add_argument("--keywords", help="Keyword to search on Springer", default="Tiger")
 	arguments = parser.parse_args()
 	if arguments.keywords:
 		keywords = arguments.keywords
