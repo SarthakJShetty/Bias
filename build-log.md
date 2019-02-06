@@ -2,6 +2,13 @@
 
 <strong>Note:</strong> This build-log is updated chronologically, from recent to first, top to bottom.
 
+### Date 06/02/2019
+- ```Scraper.py``` code has been rehauled to generate temporal dataframes prescribing the occurences of the keywords. This portion of the code will
+be integrated with functions in the ```Analyzer.py``` and ```Visualizer.py``` scripts.
+- Since Chapters on Springer are not indexed with date of publication, we are currently scraping abstracts of articles only. This modification
+can be reverted by changing a single line of code. Check the commit corresponding to this date for the same.
+- The temporally assorted dataframe will be used to generate the trends histogram.
+
 ### Date 14/01/2019
 - The code was broken following a update to the UI of Springer. The attribute pertaining to the number of results found had to changed from ```class``` to ```id```.
 - Happy New Year 2019!
