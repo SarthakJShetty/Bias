@@ -24,7 +24,7 @@ import numpy as np
 Hence, shifted some of the functions to the new script.'''
 from common_functions import pre_processing, arguments_parser,  status_logger
 '''The processing_functions help the Scraper code process and organize the information before moving on to the other bits of code.'''
-from processing_functions import abstract_word_sorter, abstract_database_writer, abstract_id_database_writer, abstract_id_database_reader
+from processing_functions import abstract_word_extractor, abstract_database_writer, abstract_id_database_writer, abstract_id_database_reader
 
 def url_reader(url, status_logger_name):
 	'''This keyword is supplied to the URL and is hence used for souping.
@@ -101,19 +101,19 @@ def abstract_page_scraper(abstract_url, abstract_input_tag_id, abstracts_log_nam
 	abstract_page_url = abstract_url+abstract_input_tag_id
 	abstract_page = url_reader(abstract_page_url, status_logger_name)
 	abstract_soup = page_souper(abstract_page, status_logger_name)
-	title = title_scraper(abstract_soup)
+	title = title_scraper(abstract_soup, status_logger_name)
 	abstract_date = abstract_date_scraper(title, abstract_soup, status_logger_name)
 
 	'''Due to repeated attribute errors with respect to scraping the authors name, these failsafes had to be put in place.'''
 	try:
-		author = author_scraper(abstract_soup)
+		author = author_scraper(abstract_soup, status_logger_name)
 	except AttributeError:
 		author = "Author not available"
 
 	'''Due to repeated attribute errors with respect to scraping the abstract, these failsafes had to be put in place.'''
 	try:
 		abstract = abstract_scraper(abstract_soup)
-		abstract_word_sorter(abstract, title, abstract_date, permanent_word_sorter_dataframe, status_logger_name)
+		abstract_word_extractor(abstract, title, abstract_date, permanent_word_sorter_dataframe, status_logger_name)
 	except AttributeError:
 		abstract = "Abstract not available"
 
@@ -159,17 +159,25 @@ def abstract_scraper(abstract_soup):
 		abstract = str(abstract_soup.find('p', {'class':'Para'}).text.encode('utf-8'))[1:]
 	return abstract
 
-def author_scraper(abstract_soup):
+def author_scraper(abstract_soup, status_logger_name):
 	'''This function scrapes the author of the text, for easy navigation and search'''
+	author_scraper_start_status_key = "Scraping the author name"
+	status_logger(status_logger_name, author_scraper_start_status_key)
 	author = str(abstract_soup.find('span', {'class':'authors__name'}).text.encode('utf-8'))[1:]
+	author_scraper_end_status_key = "Scraped the author name"
+	status_logger(status_logger_name, author_scraper_end_status_key)
 	return author
 
-def title_scraper(abstract_soup):
+def title_scraper(abstract_soup, status_logger_name):
 	'''This function scrapes the title of the text'''
+	title_scraper_start_status_key = "Scraping the title of the abstract"
+	status_logger(status_logger_name, title_scraper_start_status_key)
 	try:
 		title = str(abstract_soup.find('h1',{'class':'ArticleTitle'}).text.encode('utf-8'))[1:]
 	except AttributeError:
 		title = str(abstract_soup.find('h1',{'class':'ChapterTitle'}).text.encode('utf-8'))[1:]
+	title_scraper_end_status_key = "Scraped the title of the abstract"
+	status_logger(status_logger_name, title_scraper_end_status_key)
 	return title
 
 def abstract_id_scraper(abstract_id_log_name, page_soup, site_url_index, status_logger_name):
