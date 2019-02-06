@@ -23,6 +23,8 @@ import numpy as np
 '''Fragmenting code into different scripts. Some functions are to be used across the different sub-parts as well.
 Hence, shifted some of the functions to the new script.'''
 from common_functions import pre_processing, arguments_parser,  status_logger
+'''The processing_functions help the Scraper code process and organize the information before moving on to the other bits of code.'''
+from processing_functions import abstract_word_sorter, abstract_database_writer, abstract_id_database_writer, abstract_id_database_reader
 
 def url_reader(url, status_logger_name):
 	'''This keyword is supplied to the URL and is hence used for souping.
@@ -56,7 +58,7 @@ def url_generator(start_url, query_string, status_logger_name):
 	it is popped later on from the list.'''
 	urls_to_scrape=[]
 	counter = 0
-	total_url = start_url+str(counter)+"?query="+query_string
+	total_url = start_url+str(counter)+"?facet-content-type=""Article""&query="+query_string
 	initial_url_status_key = total_url+" "+"has been obtained"
 	status_logger(status_logger_name, initial_url_status_key)
 	urls_to_scrape.append(total_url)
@@ -65,7 +67,7 @@ def url_generator(start_url, query_string, status_logger_name):
 	'''This while loop continuously pings and checks for new webpages, then stores them for scraping'''
 	while(determiner):
 		counter = counter+1
-		total_url = start_url+str(counter)+"?query="+query_string
+		total_url = start_url+str(counter)+"?facet-content-type=""Article""&query="+query_string
 		url_generator_while_status_key=total_url+" "+"has been obtained"
 		status_logger(status_logger_name, url_generator_while_status_key)
 		soup = BeautifulSoup(urlopen(total_url), 'html.parser')
@@ -75,52 +77,6 @@ def url_generator(start_url, query_string, status_logger_name):
 	#print(urls_to_scrape)
 	url_generator_stop_status_key = "URLs have been obtained"
 	return urls_to_scrape
-
-def abstract_id_database_writer(abstract_id_log_name, abstract_input_tag_id, site_url_index):
-	abstract_id_writer_temp_index  = site_url_index
-	'''This function writes the abtract ids to a .txt file for easy access and documentation.'''
-	abstract_id_log = open((abstract_id_log_name+str(abstract_id_writer_temp_index+1)+'.txt'), 'a')
-	abstract_id_log.write(abstract_input_tag_id)
-	abstract_id_log.write('\n')
-	abstract_id_log.close()
-
-def abstract_database_writer(abstract_page_url, title, author, abstract, abstracts_log_name, abstract_date, status_logger_name):
-	'''This function makes text files to contain the abstracts for future reference.
-	It holds: 1) Title, 2) Author(s), 3) Abstract'''
-	abstract_database_writer_start_status_key = "Writing"+" "+title+" "+"by"+" "+author+" "+"to disc"
-	status_logger(status_logger_name, abstract_database_writer_start_status_key)
-	abstracts_csv_log = open(abstracts_log_name+'.csv', 'a')
-	abstracts_txt_log = open(abstracts_log_name+'.txt', 'a')
-	abstracts_txt_log.write("Title:"+" "+title)
-	abstracts_txt_log.write('\n')
-	abstracts_txt_log.write("Author:"+" "+author)
-	abstracts_txt_log.write('\n')
-	abstracts_txt_log.write("Date:"+" "+abstract_date)
-	abstracts_txt_log.write('\n')
-	abstracts_txt_log.write("URL:"+" "+abstract_page_url)
-	abstracts_txt_log.write('\n')
-	abstracts_txt_log.write("Abstract:"+" "+abstract)
-	abstracts_csv_log.write(abstract)
-	abstracts_csv_log.write('\n')
-	abstracts_txt_log.write('\n'+'\n')
-	abstracts_txt_log.close()
-	abstracts_csv_log.close()
-	abstract_database_writer_stop_status_key = "Written"+" "+title+" "+"to disc"
-	status_logger(status_logger_name, abstract_database_writer_stop_status_key)
-
-def abstract_id_database_reader(abstract_id_log_name, site_url_index, status_logger_name):
-	abstract_id_reader_temp_index = site_url_index
-	'''This function has been explicitly written to access
-	the abstracts database that the given prgram generates.'''
-	abstract_id_database_reader_start_status_key = "Extracting Abstract IDs from disc"
-	status_logger(status_logger_name, abstract_id_database_reader_start_status_key)
-
-	lines_in_abstract_id_database=[line.rstrip('\n') for line in open(abstract_id_log_name+str(abstract_id_reader_temp_index+1)+'.txt')]
-
-	abstract_id_database_reader_stop_status_key = "Extracted Abstract IDs from disc"
-	status_logger(status_logger_name,abstract_id_database_reader_stop_status_key)
-
-	return lines_in_abstract_id_database
 
 def page_status(page, status_logger_name):
 	'''Prints the page status. Will be used whenever a new webpage is picked for scraping.'''
@@ -136,29 +92,6 @@ def page_souper(page, status_logger_name):
 	page_souper_stop_status_key = "Souped page"
 	status_logger(status_logger_name, page_souper_stop_status_key)
 	return page_soup
-
-def abstract_word_sorter(abstract, abstract_title, abstract_year, permanent_word_sorter_dataframe, status_logger_name):
-	abstract_word_sorter_start_status_key = "Adding:"+" "+abstract_title+" "+"to the permanent dataframe"
-	status_logger(status_logger_name, abstract_word_sorter_start_status_key)
-	'''This function creates the pandas dataframe that stores the text in the form of individual words
-	against their year of appearence.'''
-
-	'''Converting the abstract into a list of words'''
-	abstract_word_list = abstract.split()
-	'''We are directly porting the words from the list containing the abstract words to the permanent dataframe.
-	We have resolved the issue involving the appending of the temporary dataframe onto the permanent dataframe.
-	It works. It works.
-	Edit: It did not work. The length of the permanent dataframe kept getting updated and hence we had to store it in a seperate variable before
-	utilizing it as a counter in the for loop. An efficieny, but we cannot progress without it for now. 06/02/2019 Sarthak '''
-	length_of_permanent_word_sorter_dataframe = len(permanent_word_sorter_dataframe)
-	for abstract_word_list_index in range(length_of_permanent_word_sorter_dataframe, (length_of_permanent_word_sorter_dataframe+len(abstract_word_list))):
-		permanent_word_sorter_dataframe.loc[abstract_word_list_index, 'Words'] = abstract_word_list[abstract_word_list_index-length_of_permanent_word_sorter_dataframe]
-		permanent_word_sorter_dataframe.loc[abstract_word_list_index, 'Year'] = abstract_year[:4]
-
-	#print(len(abstract_word_list))
-	print(permanent_word_sorter_dataframe)
-	abstract_word_sorter_end_status_key = "Added:"+" "+abstract_title+" "+"to the permanent dataframe"
-	status_logger(status_logger_name, abstract_word_sorter_end_status_key)
 
 def abstract_page_scraper(abstract_url, abstract_input_tag_id, abstracts_log_name, permanent_word_sorter_dataframe, site_url_index, status_logger_name):
 	'''This function is written to scrape the actual abstract of the specific paper,
