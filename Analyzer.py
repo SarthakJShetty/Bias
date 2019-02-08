@@ -25,7 +25,7 @@ def analyzer_pre_processing(abstracts_log_name, status_logger_name):
 	analyzer_pre_processing_status_key="Carrying out pre-processing functions for analyzer"
 	status_logger(status_logger_name, analyzer_pre_processing_status_key)
 	'''This code strips the abstracts_log_name of its extension and adds a .csv to it'''
-	abstracts_csv_file_name=(os.path.splitext(abstracts_log_name)[0])+"_"+"CSV_DATA"+".csv"
+	abstracts_csv_file_name=(os.path.splitext(abstracts_log_name)[0])+"_"+"FREQUENCY_CSV_DATA"+".csv"
 	abstracts_txt_file_name = abstracts_log_name+".txt"
 	
 	analyzer_pre_processing_status_key = "Carried out pre-processing functions for analyzer"
@@ -75,7 +75,7 @@ def transfer_function(abstracts_txt_file_name, abstracts_csv_file_name, status_l
 	'''This function cleans up the data of uneccessary words'''
 	cleaned_list_of_words_in_abstract = list_cleaner(list_of_words_in_abstract, status_logger_name)
 
-	'''A Counte is a dictionary, where the value is the frequency of term, which is the key'''
+	'''A Counter is a dictionary, where the value is the frequency of term, which is the key'''
 	dictionary_of_abstract_list = Counter(cleaned_list_of_words_in_abstract)
 
 	length_of_abstract_list = len(dictionary_of_abstract_list)
