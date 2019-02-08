@@ -2,18 +2,18 @@
 
 <strong>Note:</strong> This build-log is updated chronologically, from recent to first, top to bottom.
 
-### Date 06/02/2019
+### Date: 06/02/2019
 - ```Scraper.py``` code has been rehauled to generate temporal dataframes prescribing the occurences of the keywords. This portion of the code will
 be integrated with functions in the ```Analyzer.py``` and ```Visualizer.py``` scripts.
 - Since Chapters on Springer are not indexed with date of publication, we are currently scraping abstracts of articles only. This modification
 can be reverted by changing a single line of code. Check the commit corresponding to this date for the same.
 - The temporally assorted dataframe will be used to generate the trends histogram.
 
-### Date 14/01/2019
+### Date: 14/01/2019
 - The code was broken following a update to the UI of Springer. The attribute pertaining to the number of results found had to changed from ```class``` to ```id```.
 - Happy New Year 2019!
 
-### DateL 31/12/2018
+### Date: 31/12/2018
 - The ```status_logger()``` function has been incorporated into the <a title="Analyzer.py" href="https://github.com/SarthakJShetty/Bias/blob/master/Analyzer.py">```Analyzer.py```</a> and <a title="NLP_Engine.py" href="https://github/com/SarthakJShetty/Bias/blob/master/NLP_Engine.py">```NLP_Engine.py```</a> code. The functions working is now being logged into the logger file.
 - A new ```results_determiner()``` function has been writter than presents the number of results returned and to be scraped.
 - New set of runs results alongwith visualizations have been put up <a title="Latest run LOG file" href="Latest run log files" href="https://github.com/SarthakJShetty/Bias/blob/master/LOGS/LOG_2018-12-31_13_45_Western_Ghats_Ecology_Conservation_Policy">here</a>.
