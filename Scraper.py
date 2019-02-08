@@ -16,15 +16,11 @@ from urllib.request import urlopen
 import urllib.error
 '''BeautifulSoup is used for souping.'''
 from bs4 import BeautifulSoup
-'''Importing Pandas in order to generate the dataframe that will sort the text wordwise to generate the trends histogram'''
-import pandas as pd
-'''Importing numpy here to generate the pandas dataframes used at different functions'''
-import numpy as np
+'''Counter generates a dictionary from the abstract data, providing frequencies of occurences'''
+from collections import Counter
 '''Fragmenting code into different scripts. Some functions are to be used across the different sub-parts as well.
 Hence, shifted some of the functions to the new script.'''
 from common_functions import pre_processing, arguments_parser,  status_logger
-'''The processing_functions help the Scraper code process and organize the information before moving on to the other bits of code.
-from processing_functions import abstract_word_extractor, abstract_database_writer, abstract_id_database_writer, abstract_id_database_reader'''
 
 def url_reader(url, status_logger_name):
 	'''This keyword is supplied to the URL and is hence used for souping.
@@ -93,7 +89,37 @@ def page_souper(page, status_logger_name):
 	status_logger(status_logger_name, page_souper_stop_status_key)
 	return page_soup
 
-def abstract_page_scraper(abstract_url, abstract_input_tag_id, abstracts_log_name, permanent_word_sorter_dataframe, site_url_index, status_logger_name):
+def abstract_word_extractor(abstract, abstract_title, abstract_year, permanent_word_sorter_list, status_logger_name):
+	'''This function creates the list that stores the text in the form of individual words
+	against their year of appearence.'''
+	abstract_word_sorter_start_status_key = "Adding:"+" "+abstract_title+" "+"to the archival list"
+	status_logger(status_logger_name, abstract_word_sorter_start_status_key)
+	'''This line of code converts the entire abstract into lower case'''
+	abstract = abstract.lower()
+	'''Converting the abstract into a list of words'''
+	abstract_word_list = abstract.split()
+	'''This line of code sorts the elements in the word list alphabetically. Working with dataframes is harden, hence
+	we are curbing this issue by modifying the list rather.'''
+	abstract_word_list.sort()
+
+	for element in range(0, len(abstract_word_list)):
+		permanent_word_sorter_list.append(abstract_word_list[element]+","+ abstract_year[:4])
+
+	abstract_word_sorter_end_status_key = "Added:"+" "+abstract_title+" "+"to the archival list"
+	status_logger(status_logger_name, abstract_word_sorter_end_status_key)
+
+def abstract_word_list_post_processor(permanent_word_sorter_list, status_logger_name):
+	#print(permanent_word_sorter_list)
+	'''Because of this function we have a dictionary containing the frequency of occurrence of terms in specific years'''
+	abstract_word_list_post_processor_start_status_key = "Post processing of permanent word sorter list has commenced"
+	status_logger(status_logger_name, abstract_word_list_post_processor_start_status_key)
+
+	abstract_word_dictionary = Counter(permanent_word_sorter_list)
+
+	abstract_word_list_post_processor_end_status_key = "Post processing of permanent word sorter list has completed"
+	status_logger(status_logger_name, abstract_word_list_post_processor_end_status_key)
+
+def abstract_page_scraper(abstract_url, abstract_input_tag_id, abstracts_log_name, permanent_word_sorter_list, site_url_index, status_logger_name):
 	'''This function is written to scrape the actual abstract of the specific paper,
 	 that is being referenced within the list of abstracts'''
 	abstract_page_scraper_status_key="Abstract ID:"+" "+abstract_input_tag_id
@@ -113,14 +139,14 @@ def abstract_page_scraper(abstract_url, abstract_input_tag_id, abstracts_log_nam
 	'''Due to repeated attribute errors with respect to scraping the abstract, these failsafes had to be put in place.'''
 	try:
 		abstract = abstract_scraper(abstract_soup)
-		abstract_word_extractor(abstract, title, abstract_date, permanent_word_sorter_dataframe, status_logger_name)
+		abstract_word_extractor(abstract, title, abstract_date, permanent_word_sorter_list, status_logger_name)
 	except AttributeError:
 		abstract = "Abstract not available"
 
 	abstract_database_writer(abstract_page_url, title, author, abstract, abstracts_log_name, abstract_date, status_logger_name)
 	#print(abstract_soup_text)
 
-def abstract_crawler(abstract_url, abstract_id_log_name, abstracts_log_name, permanent_word_sorter_dataframe, site_url_index, status_logger_name):
+def abstract_crawler(abstract_url, abstract_id_log_name, abstracts_log_name, permanent_word_sorter_list, site_url_index, status_logger_name):
 	abstract_crawler_temp_index  = site_url_index
 	'''This function crawls the page and access each and every abstract'''
 	abstract_input_tag_ids = abstract_id_database_reader(abstract_id_log_name, abstract_crawler_temp_index, status_logger_name)
@@ -128,7 +154,7 @@ def abstract_crawler(abstract_url, abstract_id_log_name, abstracts_log_name, per
 		try:
 			abstract_crawler_accept_status_key="Abstract Number:"+" "+str((abstract_input_tag_ids.index(abstract_input_tag_id)+1)+abstract_crawler_temp_index*20)
 			status_logger(status_logger_name, abstract_crawler_accept_status_key)
-			abstract_page_scraper(abstract_url, abstract_input_tag_id, abstracts_log_name, permanent_word_sorter_dataframe, site_url_index, status_logger_name)
+			abstract_page_scraper(abstract_url, abstract_input_tag_id, abstracts_log_name, permanent_word_sorter_list, site_url_index, status_logger_name)
 		except TypeError:
 			abstract_crawler_reject_status_key="Abstract Number:"+" "+str(abstract_input_tag_ids.index(abstract_input_tag_id)+1)+" "+"could not be processed"
 			status_logger(status_logger_name, abstract_crawler_reject_status_key)
@@ -158,7 +184,6 @@ def abstract_database_writer(abstract_page_url, title, author, abstract, abstrac
 	abstract_database_writer_stop_status_key = "Written"+" "+title+" "+"to disc"
 	status_logger(status_logger_name, abstract_database_writer_stop_status_key)
 
-
 def abstract_id_database_reader(abstract_id_log_name, site_url_index, status_logger_name):
 	'''This function has been explicitly written to access
 	the abstracts database that the given prgram generates.'''
@@ -169,7 +194,7 @@ def abstract_id_database_reader(abstract_id_log_name, site_url_index, status_log
 	lines_in_abstract_id_database=[line.rstrip('\n') for line in open(abstract_id_log_name+str(abstract_id_reader_temp_index+1)+'.txt')]
 
 	abstract_id_database_reader_stop_status_key = "Extracted Abstract IDs from disc"
-	status_logger(status_logger_name,abstract_id_database_reader_stop_status_key)
+	status_logger(status_logger_name, abstract_id_database_reader_stop_status_key)
 
 	return lines_in_abstract_id_database
 
@@ -241,62 +266,24 @@ def abstract_id_scraper(abstract_id_log_name, page_soup, site_url_index, status_
 	abstract_id_scraper_stop_status_key="Scraped IDs"
 	status_logger(status_logger_name, abstract_id_scraper_stop_status_key)
 
-def word_sorter_dataframe_generator(status_logger_name):
-	word_sorter_dataframe_start_status_key = "Generating the permanent word sorter dataframe"
-	status_logger(status_logger_name, word_sorter_dataframe_start_status_key)
-	'''This function generates the dataframe that hold the Words and corresponding Years of the
+def word_sorter_list_generator(status_logger_name):
+	word_sorter_list_generator_start_status_key = "Generating the permanent archival list"
+	status_logger(status_logger_name, word_sorter_list_generator_start_status_key)
+	'''This function generates the list that hold the Words and corresponding Years of the
 	abstract data words before the actual recursion of scrapping data from the website begins.'''
-	word_sorter_dataframe = pd.DataFrame(columns=["Words", "Year", "Frequency"])
+	word_sorter_list = []
 
-	word_sorter_dataframe_exit_status_key = "Generated the permanent word sorter dataframe"
-	status_logger(status_logger_name, word_sorter_dataframe_exit_status_key)
-	return word_sorter_dataframe
-
-def abstract_dataframe_writer(permanent_word_sorter_dataframe, abstracts_log_name, status_logger_name):
-	'''This function is responsible for saving the dataframe to the disc, for later analysis and checkpointing.'''
-	abstract_dataframe_writer_start_status_key = "Writing:"+" "+abstracts_log_name+'_'+'DataFrame'+'_CSV'+' '+'to disc'
-	status_logger(status_logger_name, abstract_dataframe_writer_start_status_key)
-	permanent_word_sorter_dataframe.to_csv(abstracts_log_name+'_'+'TEMPORAL_CSV_DATA'+'.csv', index=False)
-	abstract_dataframe_writer_end_status_key = "Written:"+" "+abstracts_log_name+'_'+'DataFrame'+'_CSV'+' '+'to disc'
-	status_logger(status_logger_name, abstract_dataframe_writer_end_status_key)
-
-
-def abstract_word_extractor(abstract, abstract_title, abstract_year, permanent_word_sorter_dataframe, status_logger_name):
-	'''This function creates the pandas dataframe that stores the text in the form of individual words
-	against their year of appearence.'''
-	abstract_word_sorter_start_status_key = "Adding:"+" "+abstract_title+" "+"to the permanent dataframe"
-	status_logger(status_logger_name, abstract_word_sorter_start_status_key)
-
-	'''Converting the abstract into a list of words'''
-	abstract_word_list = abstract.split()
-	'''This line of code lowers the entire abstract to lower case. This list is then fed into the dataframe.'''
-	abstract_word_list = [element.lower() for element in abstract_word_list]
-	'''This line of code sorts the elements in the word list alphabetically. Working with dataframes is harden, hence
-	we are curbing this issue by modifying the list rather.'''
-	abstract_word_list.sort()
-
-	'''We are directly porting the words from the list containing the abstract words to the permanent dataframe.
-	We have resolved the issue involving the appending of the temporary dataframe onto the permanent dataframe.
-	It works. It works.
-	Edit: It did not work. The length of the permanent dataframe kept getting updated and hence we had to store its length in a seperate variable 
-	before utilizing it as a counter in the for loop. An efficieny, but we cannot progress without it for now. 06/02/2019 -Sarthak '''
-	length_of_permanent_word_sorter_dataframe = len(permanent_word_sorter_dataframe)
-	for abstract_word_list_index in range(length_of_permanent_word_sorter_dataframe, (length_of_permanent_word_sorter_dataframe+len(abstract_word_list))):
-		permanent_word_sorter_dataframe.loc[abstract_word_list_index, 'Words'] = abstract_word_list[abstract_word_list_index-length_of_permanent_word_sorter_dataframe]
-		permanent_word_sorter_dataframe.loc[abstract_word_list_index, 'Year'] = abstract_year[:4]
-
-	#print(len(abstract_word_list))
-	#print(permanent_word_sorter_dataframe)
-	abstract_word_sorter_end_status_key = "Added:"+" "+abstract_title+" "+"to the permanent dataframe"
-	status_logger(status_logger_name, abstract_word_sorter_end_status_key)
+	word_sorter_list_generator_exit_status_key = "Generated the permanent archival list"
+	status_logger(status_logger_name, word_sorter_list_generator_exit_status_key)
+	return word_sorter_list
 
 def processor(abstract_url, urls_to_scrape, abstract_id_log_name, abstracts_log_name, status_logger_name, keywords_to_search):
 	''''Multiple page-cycling function to scrape multiple result pages returned from Springer.
 	print(len(urls_to_scrape))'''
 	
-	'''This dataframe will hold all the words mentioned in all the abstracts. It will be later passed on to the
+	'''This list will hold all the words mentioned in all the abstracts. It will be later passed on to the
 	visualizer code to generate the trends histogram.'''
-	permanent_word_sorter_dataframe = word_sorter_dataframe_generator(status_logger_name)
+	permanent_word_sorter_list = word_sorter_list_generator(status_logger_name)
 
 	for site_url_index in range(0, len(urls_to_scrape)):
 		if(site_url_index==0):
@@ -308,10 +295,10 @@ def processor(abstract_url, urls_to_scrape, abstract_id_log_name, abstracts_log_
 		'''Scrapping the page to extract all the abstract IDs'''
 		abstract_id_scraper(abstract_id_log_name, page_soup, site_url_index, status_logger_name)
 		'''Actually obtaining the abstracts after combining ID with the abstract_url'''
-		abstract_crawler(abstract_url, abstract_id_log_name, abstracts_log_name, permanent_word_sorter_dataframe, site_url_index, status_logger_name)
+		abstract_crawler(abstract_url, abstract_id_log_name, abstracts_log_name, permanent_word_sorter_list, site_url_index, status_logger_name)
 
-	'''This function presents the permanent dataframe generated and then saves it to a .CSV file'''
-	abstract_dataframe_writer(permanent_word_sorter_dataframe, abstracts_log_name, status_logger_name)
+	'''This line of code processes and generates a dictionary from the abstract data'''
+	abstract_word_list_post_processor(permanent_word_sorter_list, status_logger_name)
 
 def scraper_main(abstract_id_log_name, abstracts_log_name, start_url, abstract_url, query_string, status_logger_name, keywords_to_search):
 	''''This function contains all the functions and contains this entire script here, so that it can be imported later to the main function'''
