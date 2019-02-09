@@ -119,6 +119,8 @@ def abstract_word_list_post_processor(permanent_word_sorter_list, status_logger_
 	abstract_word_list_post_processor_end_status_key = "Post processing of permanent word sorter list has completed"
 	status_logger(status_logger_name, abstract_word_list_post_processor_end_status_key)
 
+	return abstract_word_dictionary
+
 def abstract_page_scraper(abstract_url, abstract_input_tag_id, abstracts_log_name, permanent_word_sorter_list, site_url_index, status_logger_name):
 	'''This function is written to scrape the actual abstract of the specific paper,
 	 that is being referenced within the list of abstracts'''
@@ -298,7 +300,7 @@ def processor(abstract_url, urls_to_scrape, abstract_id_log_name, abstracts_log_
 		abstract_crawler(abstract_url, abstract_id_log_name, abstracts_log_name, permanent_word_sorter_list, site_url_index, status_logger_name)
 
 	'''This line of code processes and generates a dictionary from the abstract data'''
-	abstract_word_list_post_processor(permanent_word_sorter_list, status_logger_name)
+	return abstract_word_list_post_processor(permanent_word_sorter_list, status_logger_name)
 
 def scraper_main(abstract_id_log_name, abstracts_log_name, start_url, abstract_url, query_string, status_logger_name, keywords_to_search):
 	''''This function contains all the functions and contains this entire script here, so that it can be imported later to the main function'''
@@ -306,4 +308,4 @@ def scraper_main(abstract_id_log_name, abstracts_log_name, start_url, abstract_u
 	'''Provides the links for the URLs to be scraped by the scraper'''
 	urls_to_scrape = url_generator(start_url, query_string, status_logger_name)
 	'''Calling the processor() function here'''
-	processor(abstract_url, urls_to_scrape, abstract_id_log_name, abstracts_log_name, status_logger_name, keywords_to_search)
+	abstract_word_dictionary = processor(abstract_url, urls_to_scrape, abstract_id_log_name, abstracts_log_name, status_logger_name, keywords_to_search)
