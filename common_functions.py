@@ -94,11 +94,15 @@ def arguments_parser():
 	We will be scrapping Science, Nature etc later, as long as generic URLs are supported.'''
 	parser = argparse.ArgumentParser()
 	parser.add_argument("--keywords", help="Keyword to search on Springer", default="Tiger")
+	parser.add_argument("--trends", help="Keywords to generate the trends histogram for", default="Tiger")
 	arguments = parser.parse_args()
 	if arguments.keywords:
 		keywords = arguments.keywords
 	keywords = keywords.split()
-	return keywords
+	if arguments.trends:
+		trends = arguments.trends
+	trends = trends.split()
+	return keywords, trends
 
 def end_process(status_logger_name):
 	'''Self-explanatory, this function declares successful completion of the code.'''
