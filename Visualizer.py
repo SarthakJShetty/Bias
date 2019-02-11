@@ -9,6 +9,7 @@ Sarthak J. Shetty
 24/11/2018'''
 from common_functions import status_logger
 '''import matplotlib as plt'''
+import matplotlib.pyplot as plt
 import pyLDAvis
 
 def visualizer_generator(lda_model, corpus, id2word, logs_folder_name, status_logger_name):
@@ -30,26 +31,28 @@ def trends_histogram(abstract_word_dictionary, trend_keywords, status_logger_nam
 	c) The word is used as an element of the comporator function; i.e. checking if the trend keyword is the word that is being
 	checked for in the dictionary.
 	d) If the element is equal to the element in the dictionary, then the year and the frequency is transferred to the plot function.'''
-	
+	'''print(type(abstract_word_dictionary))'''
 	list_of_years = []
 	for element in abstract_word_dictionary:
 		abstract_word = element.split(',')[0]
 		year_of_occurence = element.split(',')[1]
-		if(abstract_word==trends_keywords):
+		if(abstract_word==trend_keywords):
 			list_of_years.append(year_of_occurence+','+abstract_word_dictionary[element])
 		else:
-			list_of_years.append(year_of_occurence,+','+abstract_word_dictionary[trend_keywords])
+			list_of_years.append(year_of_occurence+','+str(0))
 	list_of_years.sort()
+	print(list_of_years)
 
 	sorted_list_of_years = []
 	frequncy_in_years = []
 	for element in list_of_years:
-		occuring_year = list_of_years[element].split(',')[0]
-		frequency_of_occurence = list_of_years[element].split(',')[1]
-		sorted_list_years.append(occuring_year)
+		occuring_year = element.split(',')[0]
+		frequency_of_occurence = element.split(',')[1]
+		sorted_list_of_years.append(occuring_year)
 		frequncy_in_years.append(frequency_of_occurence)
-	
-	plt.plot(occuring_year, frequency_of_occurence, 'ro')
+	print(sorted_list_of_years)
+	print(frequncy_in_years)
+	plt.plot(sorted_list_of_years, frequncy_in_years, 'ro')
 	plt.show()
 
 	trends_histogram_end_status_key = "Generating the trends histogram"
