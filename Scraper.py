@@ -18,6 +18,8 @@ import urllib.error
 from bs4 import BeautifulSoup
 '''Counter generates a dictionary from the abstract data, providing frequencies of occurences'''
 from collections import Counter
+'''Importing the CSV library here to dump the dictionary for further analysis and error checking if required. Will edit it out later.'''
+import csv
 '''Fragmenting code into different scripts. Some functions are to be used across the different sub-parts as well. Hence, shifted some of the functions to the new script.'''
 from common_functions import pre_processing, arguments_parser,  status_logger
 
@@ -124,10 +126,9 @@ def abstract_word_dictionary_dumper(abstract_word_dictionary, abstracts_log_name
 	The file is saved as a CSV bucket and then dumped.'''
 	permanent_word_sorter_list_start_status_key = "Dumping the entire dictionary to the disc"
 	status_logger(status_logger_name, permanent_word_sorter_list_start_status_key)
-
 	with open(abstracts_log_name+"_"+"DICTIONARY.csv", 'w') as dictionary_to_csv:
 		writer = csv.writer(dictionary_to_csv)
-		for key, value in permanent_word_sorter_list.items():
+		for key, value in abstract_word_dictionary.items():
 			word = key.split(',')[0]
 			year = key.split(',')[1]
 			writer.writerow([word, year, value])
@@ -135,7 +136,6 @@ def abstract_word_dictionary_dumper(abstract_word_dictionary, abstracts_log_name
 	permanent_word_sorter_list_end_status_key = "Dumped the entire dictionary to the disc"
 	status_logger(status_logger_name, permanent_word_sorter_list_end_status_key)
 		
-
 def abstract_page_scraper(abstract_url, abstract_input_tag_id, abstracts_log_name, permanent_word_sorter_list, site_url_index, status_logger_name):
 	'''This function is written to scrape the actual abstract of the specific paper,
 	 that is being referenced within the list of abstracts'''
@@ -326,3 +326,5 @@ def scraper_main(abstract_id_log_name, abstracts_log_name, start_url, abstract_u
 	abstract_word_dictionary = processor(abstract_url, urls_to_scrape, abstract_id_log_name, abstracts_log_name, status_logger_name, keywords_to_search)
 	'''This function dumps the entire dictionary onto the disc for further analysis and inference.'''
 	abstract_word_dictionary_dumper(abstract_word_dictionary, abstracts_log_name, status_logger_name)
+	'''Returning the abstract word dictionary here'''
+	return abstract_word_dictionary
