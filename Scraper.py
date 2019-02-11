@@ -18,8 +18,7 @@ import urllib.error
 from bs4 import BeautifulSoup
 '''Counter generates a dictionary from the abstract data, providing frequencies of occurences'''
 from collections import Counter
-'''Fragmenting code into different scripts. Some functions are to be used across the different sub-parts as well.
-Hence, shifted some of the functions to the new script.'''
+'''Fragmenting code into different scripts. Some functions are to be used across the different sub-parts as well. Hence, shifted some of the functions to the new script.'''
 from common_functions import pre_processing, arguments_parser,  status_logger
 
 def url_reader(url, status_logger_name):
@@ -101,7 +100,6 @@ def abstract_word_extractor(abstract, abstract_title, abstract_year, permanent_w
 	'''This line of code sorts the elements in the word list alphabetically. Working with dataframes is harden, hence
 	we are curbing this issue by modifying the list rather.'''
 	abstract_word_list.sort()
-
 	for element in range(0, len(abstract_word_list)):
 		permanent_word_sorter_list.append(abstract_word_list[element]+","+ abstract_year[:4])
 
@@ -120,6 +118,23 @@ def abstract_word_list_post_processor(permanent_word_sorter_list, status_logger_
 	status_logger(status_logger_name, abstract_word_list_post_processor_end_status_key)
 
 	return abstract_word_dictionary
+
+def abstract_word_dictionary_dumper(abstract_word_dictionary, abstracts_log_name, status_logger_name):
+	'''This function saves the abstract word dumper to the disc for further inspection.
+	The file is saved as a CSV bucket and then dumped.'''
+	permanent_word_sorter_list_start_status_key = "Dumping the entire dictionary to the disc"
+	status_logger(status_logger_name, permanent_word_sorter_list_start_status_key)
+
+	with open(abstracts_log_name+"_"+"DICTIONARY.csv", 'w') as dictionary_to_csv:
+		writer = csv.writer(dictionary_to_csv)
+		for key, value in permanent_word_sorter_list.items():
+			word = key.split(',')[0]
+			year = key.split(',')[1]
+			writer.writerow([word, year, value])
+	
+	permanent_word_sorter_list_end_status_key = "Dumped the entire dictionary to the disc"
+	status_logger(status_logger_name, permanent_word_sorter_list_end_status_key)
+		
 
 def abstract_page_scraper(abstract_url, abstract_input_tag_id, abstracts_log_name, permanent_word_sorter_list, site_url_index, status_logger_name):
 	'''This function is written to scrape the actual abstract of the specific paper,
@@ -309,3 +324,5 @@ def scraper_main(abstract_id_log_name, abstracts_log_name, start_url, abstract_u
 	urls_to_scrape = url_generator(start_url, query_string, status_logger_name)
 	'''Calling the processor() function here'''
 	abstract_word_dictionary = processor(abstract_url, urls_to_scrape, abstract_id_log_name, abstracts_log_name, status_logger_name, keywords_to_search)
+	'''This function dumps the entire dictionary onto the disc for further analysis and inference.'''
+	abstract_word_dictionary_dumper(abstract_word_dictionary, abstracts_log_name, status_logger_name)
