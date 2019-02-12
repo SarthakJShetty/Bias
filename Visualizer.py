@@ -10,6 +10,7 @@ Sarthak J. Shetty
 from common_functions import status_logger
 '''import matplotlib as plt'''
 import matplotlib.pyplot as plt
+from matplotlib.pyplot import ylim, xlim
 import pyLDAvis
 
 def visualizer_generator(lda_model, corpus, id2word, logs_folder_name, status_logger_name):
@@ -37,22 +38,31 @@ def trends_histogram(abstract_word_dictionary, trend_keywords, status_logger_nam
 		abstract_word = element.split(',')[0]
 		year_of_occurence = element.split(',')[1]
 		if(abstract_word==trend_keywords):
-			list_of_years.append(year_of_occurence+','+abstract_word_dictionary[element])
+			list_of_years.append(year_of_occurence+','+str(abstract_word_dictionary[element]))
 		else:
 			list_of_years.append(year_of_occurence+','+str(0))
 	list_of_years.sort()
 	print(list_of_years)
 
 	sorted_list_of_years = []
-	frequncy_in_years = []
+	frequency_in_years = []
 	for element in list_of_years:
 		occuring_year = element.split(',')[0]
 		frequency_of_occurence = element.split(',')[1]
 		sorted_list_of_years.append(occuring_year)
-		frequncy_in_years.append(frequency_of_occurence)
-	print(sorted_list_of_years)
-	print(frequncy_in_years)
-	plt.plot(sorted_list_of_years, frequncy_in_years, 'ro')
+		frequency_in_years.append(frequency_of_occurence)
+	'''	print(sorted_list_of_years)
+	print(frequncy_in_years)'''
+	top_y_value = max(frequency_in_years)
+	bottom_y_value = min(frequency_in_years)
+	right_x_value = max(sorted_list_of_years)
+	left_x_value = min(sorted_list_of_years)
+
+	plt.plot(sorted_list_of_years, frequency_in_years, 'ro')
+
+	ylim(bottom=bottom_y_value, top=top_y_value)
+	xlim(left=left_x_value, right=right_x_value)
+
 	plt.show()
 
 	trends_histogram_end_status_key = "Generating the trends histogram"
