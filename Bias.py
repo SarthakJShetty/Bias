@@ -19,7 +19,7 @@ from Visualizer import visualizer_main
 from common_functions import pre_processing, arguments_parser, end_process
 '''Keywords from the user are extracted here'''
 
-keywords_to_search, trend_keywords=arguments_parser()
+keywords_to_search, trend_keywords = arguments_parser()
 
 '''Calling the pre_processing functions here so that data is available across the code.'''
 abstract_id_log_name, abstracts_log_name, start_url, abstract_url, query_string, logs_folder_name, status_logger_name = pre_processing(keywords_to_search)
