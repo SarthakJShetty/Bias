@@ -101,6 +101,7 @@ def arguments_parser():
 	keywords = keywords.split()
 	if arguments.trends:
 		trends = arguments.trends
+	trends = trends.lower()
 	trends = trends.split()
 	return keywords, trends
 
