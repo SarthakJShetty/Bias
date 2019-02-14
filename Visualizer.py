@@ -22,60 +22,44 @@ def visualizer_generator(lda_model, corpus, id2word, logs_folder_name, status_lo
 	visualizer_generator_end_status_key = "Prepared the visualization"
 	status_logger(status_logger_name, visualizer_generator_end_status_key)		
 
-def trends_histogram(abstract_word_dictionary, trend_keywords, status_logger_name):
+def trends_histogram(abstract_word_dictionary, starting_year, ending_year, trend_keywords, logs_folder_name, status_logger_name):
 	#This function is responsible for generating the histograms to visualizations the trends in research topics.'''
 	trends_histogram_start_status_key = "Generating the trends histogram"
 	status_logger(status_logger_name, trends_histogram_start_status_key)
-	'''What's happening here?
-	a) The key of the dictionary is being looped over by the for statement.
-	b) The key is split at the comma to get two values, i) word, ii) year.
-	c) The word is used as an element of the comporator function; i.e. checking if the trend keyword is the word that is being
-	checked for in the dictionary.
-	d) If the element is equal to the element in the dictionary, then the year and the frequency is transferred to the plot function.'''
-	'''print(type(abstract_word_dictionary))'''
-	list_of_years = []
+
+	'''What's happenenig here?
+	a) trends function receives the dictionary prepared by the Scraper code.
+	b) Information is organized in a conventional key and value form; key=year, value=frequency.
+	c) We extract the key from the dictionary and generate a new list comprising of the years in which the trend keywords occurs.
+	d) We calculate the max and min years in this new list and convert them to int and extract the complete set of years that lie between these extremes.
+	e) We cycle through the keys in the dictionary and extract frequency of occurence for each year in the list of years.
+	f) If the term does not appear in that year, then it's assigned zero (that's how dictionaries work).
+	g) The two lists (list of years and list of frequencies) are submitted to the plot function for plotting.'''
+
+	list_of_years=[]
 	for element in abstract_word_dictionary:
-		abstract_word = element.split(',')[0]
-		year_of_occurence = element.split(',')[1]
-		if(abstract_word==trend_keywords):
-			list_of_years.append(year_of_occurence+','+str(abstract_word_dictionary[element]))
-		else:
-			list_of_years.append(year_of_occurence+','+str(0))
-	list_of_years.sort()
-	print(list_of_years)
+		list_of_years.append(element)
+	list_of_years_to_be_plotted = [year for year in range(int(starting_year), int(ending_year))]
 
-	sorted_list_of_years = []
-	frequency_in_years = []
-	for element in list_of_years:
-		occuring_year = element.split(',')[0]
-		frequency_of_occurence = element.split(',')[1]
-		sorted_list_of_years.append(occuring_year)
-		frequency_in_years.append(frequency_of_occurence)
-	'''	print(sorted_list_of_years)
-	print(frequncy_in_years)'''
-	top_y_value = max(frequency_in_years)
-	bottom_y_value = min(frequency_in_years)
-	right_x_value = max(sorted_list_of_years)
-	left_x_value = min(sorted_list_of_years)
+	frequencies_to_be_plotted = [abstract_word_dictionary[str(year)] for year in range(int(starting_year), int(ending_year))]
 
-	plt.plot(sorted_list_of_years, frequency_in_years, 'ro')
+	plt.plot(list_of_years_to_be_plotted, frequencies_to_be_plotted)
+	plt.ylabel("Frequency of occurence:"+" "+trend_keywords[0])
+	plt.xlabel("Year of occurence:"+" "+trend_keywords[0])
+	plt.title("Trends Chart:"+" "+trend_keywords[0])
+	plt.savefig(logs_folder_name+"/"+"Trends_Histogram"+"_"+trend_keywords[0]+".png")
 
-	ylim(bottom=bottom_y_value, top=top_y_value)
-	xlim(left=left_x_value, right=right_x_value)
-
-	plt.show()
-
-	trends_histogram_end_status_key = "Generating the trends histogram"
+	trends_histogram_end_status_key = "Generated the trends histogram"
 	status_logger(status_logger_name, trends_histogram_end_status_key)
 			
-def visualizer_main(abstract_word_dictionary, trend_keywords, lda_model, corpus, id2word, logs_folder_name, status_logger_name):
+def visualizer_main(abstract_word_dictionary, starting_year, ending_year, trend_keywords, lda_model, corpus, id2word, logs_folder_name, status_logger_name):
 	visualizer_main_start_status_key = "Entering the visualizer_main() code"
 	status_logger(status_logger_name, visualizer_main_start_status_key)
 
 	'''This the main visualizer code. Reorging this portion of the code to ensure modularity later on as well.'''
 	visualizer_generator(lda_model, corpus, id2word, logs_folder_name, status_logger_name)
 	'''Trends visualizer is called to generate the '''
-	trends_histogram(abstract_word_dictionary, trend_keywords, status_logger_name)
+	trends_histogram(abstract_word_dictionary, starting_year, ending_year, trend_keywords, logs_folder_name, status_logger_name)
 
 	visualizer_main_end_status_key = "Exiting the visualizer_main() code"
 	status_logger(status_logger_name, visualizer_main_end_status_key)
