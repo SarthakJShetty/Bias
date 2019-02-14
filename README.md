@@ -22,7 +22,7 @@
 		
 - Check out the <a title="LOGS" href="https://github.com/SarthakJShetty/Bias/tree/master/LOGS">LOGS</a> for the results of ```Scraper.py``` and ```Analyzer.py```.
 
-## 3.0 Instructions:
+## 3.0 Installation Instructions:
 
 ### Common instructions:
 
@@ -99,9 +99,15 @@
 - Currently, the research theme visualization is functional. The trends histogram will soon be added.
 - The research themes data visualization is stored as a <a title="Data Visualization" href="https://github.com/SarthakJShetty/Bias/blob/master/LOGS/LOG_2018-12-31_17_11_Western_Ghats_Ecology_Conservation_Policy/Data_Visualization.html">.html file</a> in the LOGS directory and can be viewed in the browser.
 
-## 5.0 Known Issues:
-- The Scraper can only scrape abstracts from Springer at the moment, since Springer does not allow users to view publications in native ```.pdf``` format, but instead loads a ```.html``` document with the contents embedded in it.
+## 5.0 Usage:
+- To run the code and generate the topic distribution and trend of research graphs:
+		
+		(Bias) E:\Bias python Bias.py --keywords="Western Ghats" --trends="Conservation"
+
+## 6.0 Known Issues:
+- The Scraper can only scrape abstracts from Springer at the moment
+- Due to lack of storage, we are yet to integrate the portion of the code that scrapes information from papers.
 
 #### Note:
 - This repository is still under active development. The <a title="README" href="https://github.com/SarthakJShetty/Bias">README.md</a> is yet to be updated in detail.
-- A detailed build-log can be found <a href="https://github.com/SarthakJShetty/Bias/blob/master/build-log.md" title="README" target="_blank">here</a>.
+- A detailed weekly build-log can be found <a href="https://github.com/SarthakJShetty/Bias/blob/master/build-log.md" title="README" target="_blank">here</a>.
