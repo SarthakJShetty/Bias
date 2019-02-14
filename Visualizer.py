@@ -18,7 +18,7 @@ def visualizer_generator(lda_model, corpus, id2word, logs_folder_name, status_lo
 	visualizer_generator_start_status_key = "Preparing the visualization"
 	status_logger(status_logger_name, visualizer_generator_start_status_key)
 	textual_data_visualization = pyLDAvis.gensim.prepare(lda_model, corpus, id2word)
-	pyLDAvis.save_html(textual_data_visualization, logs_folder_name+"/"+"Data_Visualization.html")
+	pyLDAvis.save_html(textual_data_visualization, logs_folder_name+"/"+"Data_Visualization_Topic_Modelling.html")
 	visualizer_generator_end_status_key = "Prepared the visualization"
 	status_logger(status_logger_name, visualizer_generator_end_status_key)		
 
@@ -47,7 +47,7 @@ def trends_histogram(abstract_word_dictionary, starting_year, ending_year, trend
 	plt.ylabel("Frequency of occurence:"+" "+trend_keywords[0])
 	plt.xlabel("Year of occurence:"+" "+trend_keywords[0])
 	plt.title("Trends Chart:"+" "+trend_keywords[0])
-	plt.savefig(logs_folder_name+"/"+"Trends_Histogram"+"_"+trend_keywords[0]+".png")
+	plt.savefig(logs_folder_name+"/"+"Data_Visualization_Trends_Graph"+"_"+trend_keywords[0]+".png")
 
 	trends_histogram_end_status_key = "Generated the trends histogram"
 	status_logger(status_logger_name, trends_histogram_end_status_key)
