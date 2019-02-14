@@ -2,6 +2,11 @@
 
 <strong>Note:</strong> This build-log is updated chronologically, from recent to first, top to bottom.
 
+### Date: 14/02/2019
+- ```Visualizer.py``` code has been fixed to generate the trends visualization.
+- The user provides a ```--trend_keywords``` which will be checked in the abstracts of the papers scraped as part of the broad theme provided under ```--keywords``` argument.
+- The trends visualization is generated using ```matplotlib``` and is saved as a ```.png``` in the respective ```LOGS``` folder.
+
 ### Date: 06/02/2019
 - ```Scraper.py``` code has been rehauled to generate temporal dataframes prescribing the occurences of the keywords. This portion of the code will
 be integrated with functions in the ```Analyzer.py``` and ```Visualizer.py``` scripts.
