@@ -102,18 +102,16 @@ def abstract_word_extractor(abstract, abstract_title, abstract_year, permanent_w
 	'''This line of code sorts the elements in the word list alphabetically. Working with dataframes is harden, hence
 	we are curbing this issue by modifying the list rather.'''
 	abstract_word_list.sort()
-	'''	print(abstract_word_list)
-	print(trend_keywords)'''
-
+	'''If the word currently being looped in the abstract list matches the trend word being investigated for, the year it appears
+	is appended to the permanent word sorter list'''
 	for element in abstract_word_list:
 		if(element==trend_keywords[0]):
 			permanent_word_sorter_list.append(abstract_year[:4])
-	#print(len(permanent_word_sorter_list))
+
 	abstract_word_sorter_end_status_key = "Added:"+" "+abstract_title+" "+"to the archival list"
 	status_logger(status_logger_name, abstract_word_sorter_end_status_key)
 
 def abstract_word_list_post_processor(permanent_word_sorter_list, status_logger_name):
-	#print(permanent_word_sorter_list)
 	'''Because of this function we have a dictionary containing the frequency of occurrence of terms in specific years'''
 	abstract_word_list_post_processor_start_status_key = "Post processing of permanent word sorter list has commenced"
 	status_logger(status_logger_name, abstract_word_list_post_processor_start_status_key)
