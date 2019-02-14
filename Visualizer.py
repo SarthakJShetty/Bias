@@ -19,7 +19,7 @@ def visualizer_generator(lda_model, corpus, id2word, logs_folder_name, status_lo
 	status_logger(status_logger_name, visualizer_generator_start_status_key)
 	textual_data_visualization = pyLDAvis.gensim.prepare(lda_model, corpus, id2word)
 	pyLDAvis.save_html(textual_data_visualization, logs_folder_name+"/"+"Data_Visualization_Topic_Modelling.html")
-	visualizer_generator_end_status_key = "Prepared the visualization"
+	visualizer_generator_end_status_key = "Prepared the visualization"+" "+logs_folder_name+"/"+"Data_Visualization_Topic_Modelling.html"
 	status_logger(status_logger_name, visualizer_generator_end_status_key)		
 
 def trends_histogram(abstract_word_dictionary, starting_year, ending_year, trend_keywords, logs_folder_name, status_logger_name):
@@ -36,6 +36,7 @@ def trends_histogram(abstract_word_dictionary, starting_year, ending_year, trend
 	f) If the term does not appear in that year, then it's assigned zero (that's how dictionaries work).
 	g) The two lists (list of years and list of frequencies) are submitted to the plot function for plotting.'''
 
+	'''This list will hold the abstract years which contain occurances of the word that we are investigating for'''
 	list_of_years=[]
 	for element in abstract_word_dictionary:
 		list_of_years.append(element)
@@ -44,12 +45,16 @@ def trends_histogram(abstract_word_dictionary, starting_year, ending_year, trend
 	frequencies_to_be_plotted = [abstract_word_dictionary[str(year)] for year in range(int(starting_year), int(ending_year))]
 
 	plt.plot(list_of_years_to_be_plotted, frequencies_to_be_plotted)
+	'''Adds a label to the element being represented across the Y-axis (frequency)'''
 	plt.ylabel("Frequency of occurence:"+" "+trend_keywords[0])
+	'''Adds a plabel to the element being represeneted across the X-axis (years)'''
 	plt.xlabel("Year of occurence:"+" "+trend_keywords[0])
+	'''Adds an overall title to the trends chart'''
 	plt.title("Trends Chart:"+" "+trend_keywords[0])
+	'''Saves the graph generated to the disc for further analysis'''
 	plt.savefig(logs_folder_name+"/"+"Data_Visualization_Trends_Graph"+"_"+trend_keywords[0]+".png")
 
-	trends_histogram_end_status_key = "Generated the trends histogram"
+	trends_histogram_end_status_key = "Generated the trends graph"+" "+logs_folder_name+"/"+"Data_Visualization_Trends_Graph"+"_"+trend_keywords[0]+".png"
 	status_logger(status_logger_name, trends_histogram_end_status_key)
 			
 def visualizer_main(abstract_word_dictionary, starting_year, ending_year, trend_keywords, lda_model, corpus, id2word, logs_folder_name, status_logger_name):
