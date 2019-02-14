@@ -100,9 +100,11 @@
 - The research themes data visualization is stored as a <a title="Data Visualization" href="https://github.com/SarthakJShetty/Bias/blob/master/LOGS/LOG_2018-12-31_17_11_Western_Ghats_Ecology_Conservation_Policy/Data_Visualization.html">.html file</a> in the LOGS directory and can be viewed in the browser.
 
 ## 5.0 Usage:
-- To run the code and generate the topic distribution and trend of research graphs:
+To run the code and generate the topic distribution and trend of research graphs:
 		
 		(Bias) E:\Bias python Bias.py --keywords="Western Ghats" --trends="Conservation"
+
+- This command will scrape the abstracts from Springer that are related to "Western Ghats", and calculate the frequency with which the term "Conservation" appears in their abstract.
 
 ## 6.0 Known Issues:
 - The Scraper can only scrape abstracts from Springer at the moment
