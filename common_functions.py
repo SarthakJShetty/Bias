@@ -90,17 +90,24 @@ def pre_processing(keywords):
 	return abstract_id_log_name, abstracts_log_name, start_url, abstract_url, query_string, logs_folder_name, status_logger_name
 
 def arguments_parser():
-	'''This function is used to read the initial keyword that will be queried in ScienceDirect (for now).
-	We will be scrapping Science, Nature etc later, as long as generic URLs are supported.'''
+	'''This function is used to read the initial keyword that will be queried in Springer (for now).
+	We will be scrapping Science, Nature etc later, as long as generic URLs are supported.
+	Parses two arguments now:
+	a) --keywords: This argument is the term that will be searched for in Springer.
+	b) --trends: This argument provides the term whose research trend will be generated.'''
+
 	parser = argparse.ArgumentParser()
 	parser.add_argument("--keywords", help="Keyword to search on Springer", default="Tiger")
 	parser.add_argument("--trends", help="Keywords to generate the trends histogram for", default="Tiger")
 	arguments = parser.parse_args()
 	if arguments.keywords:
 		keywords = arguments.keywords
+	'''The keyword if a string will be split and then be passed to the scraper functions'''
 	keywords = keywords.split()
 	if arguments.trends:
 		trends = arguments.trends
+	'''The entire list of the abstract words will be lowered and hence trends term has to be
+	lowered to obtain a match with those terms.'''
 	trends = trends.lower()
 	trends = trends.split()
 	return keywords, trends
