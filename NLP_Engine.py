@@ -47,7 +47,7 @@ stop_words.extend(['from', 'subject', 're', 'edu', 'use', 'com', 'https', 'url',
 def data_reader(abstracts_log_name, status_logger_name):
 	data_reader_start_status_key = abstracts_log_name+".txt is being ported to dataframe"
 	status_logger(status_logger_name, data_reader_start_status_key)
-	textual_dataframe = pd.read_csv(abstracts_log_name+'.txt', delimiter="\t")
+	textual_dataframe = pd.read_csv(abstracts_log_name+'_'+'ANALYTICAL'+'.txt', delimiter="\t")
 	data_reader_end_status_key = abstracts_log_name+".txt has been ported to dataframe"	
 	status_logger(status_logger_name, data_reader_end_status_key)
 	return textual_dataframe
