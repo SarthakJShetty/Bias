@@ -111,20 +111,20 @@ def abstract_word_extractor(abstract, abstract_title, abstract_year, permanent_w
 	abstract_word_sorter_end_status_key = "Added:"+" "+abstract_title+" "+"to the archival list"
 	status_logger(status_logger_name, abstract_word_sorter_end_status_key)
 
-def abstract_word_list_post_processor(permanent_word_sorter_list, status_logger_name):
+def abstract_year_list_post_processor(permanent_word_sorter_list, status_logger_name):
 	'''Because of this function we have a dictionary containing the frequency of occurrence of terms in specific years'''
-	abstract_word_list_post_processor_start_status_key = "Post processing of permanent word sorter list has commenced"
-	status_logger(status_logger_name, abstract_word_list_post_processor_start_status_key)
+	abstract_year_list_post_processor_start_status_key = "Post processing of permanent word sorter list has commenced"
+	status_logger(status_logger_name, abstract_year_list_post_processor_start_status_key)
 
 	starting_year = min(permanent_word_sorter_list)
 	ending_year = max(permanent_word_sorter_list)
 
-	abstract_word_dictionary = Counter(permanent_word_sorter_list)
+	abstract_year_dictionary = Counter(permanent_word_sorter_list)
 
-	abstract_word_list_post_processor_end_status_key = "Post processing of permanent word sorter list has completed"
-	status_logger(status_logger_name, abstract_word_list_post_processor_end_status_key)
+	abstract_year_list_post_processor_end_status_key = "Post processing of permanent word sorter list has completed"
+	status_logger(status_logger_name, abstract_year_list_post_processor_end_status_key)
 
-	return abstract_word_dictionary, starting_year, ending_year
+	return abstract_year_dictionary, starting_year, ending_year
 
 def abstract_word_dictionary_dumper(abstract_word_dictionary, abstracts_log_name, status_logger_name):
 	'''This function saves the abstract word dumper to the disc for further inspection.
@@ -165,7 +165,7 @@ def abstract_page_scraper(abstract_url, abstract_input_tag_id, abstracts_log_nam
 		abstract = "Abstract not available"
 
 	abstract_database_writer(abstract_page_url, title, author, abstract, abstracts_log_name, abstract_date, status_logger_name)
-	#print(abstract_soup_text)
+	analytical_abstract_database_writer(title, author, abstract, abstracts_log_name, status_logger_name)
 
 def abstract_crawler(abstract_url, abstract_id_log_name, abstracts_log_name, permanent_word_sorter_list, trend_keywords, site_url_index, status_logger_name):
 	abstract_crawler_temp_index  = site_url_index
@@ -180,6 +180,21 @@ def abstract_crawler(abstract_url, abstract_id_log_name, abstracts_log_name, per
 			abstract_crawler_reject_status_key="Abstract Number:"+" "+str(abstract_input_tag_ids.index(abstract_input_tag_id)+1)+" "+"could not be processed"
 			status_logger(status_logger_name, abstract_crawler_reject_status_key)
 			pass
+
+def analytical_abstract_database_writer(title, author, abstract, abstracts_log_name, status_logger_name):
+	'''This function will generate a secondary abstract file that will contain only the abstract.
+	The  abstract file generated will be passed onto the Visualizer and Analyzer function, as opposed to the complete 
+	abstract log file containing lot of garbage words in addition to the abstract text.'''
+	analytical_abstract_database_writer_start_status_key = "Writing"+" "+title+" "+"by"+" "+author+" "+"to analytical abstracts file"
+	status_logger(status_logger_name, analytical_abstract_database_writer_start_status_key)
+
+	analytical_abstracts_txt_log = open(abstracts_log_name+'_'+'ANALYTICAL'+'.txt', 'a')
+	analytical_abstracts_txt_log.write("Abstract:"+" "+abstract)
+	analytical_abstracts_txt_log.write('\n'+'\n')
+	analytical_abstracts_txt_log.close()
+
+	analytical_abstract_database_writer_stop_status_key = "Written"+" "+title+" "+"to disc"
+	status_logger(status_logger_name, analytical_abstract_database_writer_stop_status_key)
 
 def abstract_database_writer(abstract_page_url, title, author, abstract, abstracts_log_name, abstract_date, status_logger_name):
 	'''This function makes text files to contain the abstracts for future reference.
@@ -320,9 +335,9 @@ def processor(abstract_url, urls_to_scrape, abstract_id_log_name, abstracts_log_
 
 	'''This line of code processes and generates a dictionary from the abstract data'''
 	
-	abstract_word_dictionary, starting_year, ending_year = abstract_word_list_post_processor(permanent_word_sorter_list, status_logger_name)
+	abstract_year_dictionary, starting_year, ending_year = abstract_word_list_post_processor(permanent_word_sorter_list, status_logger_name)
 
-	return abstract_word_dictionary, starting_year, ending_year
+	return abstract_year_dictionary, starting_year, ending_year
 
 def scraper_main(abstract_id_log_name, abstracts_log_name, start_url, abstract_url, query_string, trend_keywords, keywords_to_search, status_logger_name):
 	''''This function contains all the functions and contains this entire script here, so that it can be imported later to the main function'''
@@ -330,8 +345,8 @@ def scraper_main(abstract_id_log_name, abstracts_log_name, start_url, abstract_u
 	'''Provides the links for the URLs to be scraped by the scraper'''
 	urls_to_scrape = url_generator(start_url, query_string, status_logger_name)
 	'''Calling the processor() function here'''
-	abstract_word_dictionary, starting_year, ending_year = processor(abstract_url, urls_to_scrape, abstract_id_log_name, abstracts_log_name, status_logger_name, trend_keywords, keywords_to_search)
+	abstract_year_dictionary, starting_year, ending_year = processor(abstract_url, urls_to_scrape, abstract_id_log_name, abstracts_log_name, status_logger_name, trend_keywords, keywords_to_search)
 	'''This function dumps the entire dictionary onto the disc for further analysis and inference.'''
-	abstract_word_dictionary_dumper(abstract_word_dictionary, abstracts_log_name, status_logger_name)
+	abstract_year_dictionary_dumper(abstract_year_dictionary, abstracts_log_name, status_logger_name)
 	'''Returning the abstract word dictionary here'''
-	return abstract_word_dictionary, starting_year, ending_year
+	return abstract_year_dictionary, starting_year, ending_year
