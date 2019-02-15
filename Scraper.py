@@ -335,7 +335,7 @@ def processor(abstract_url, urls_to_scrape, abstract_id_log_name, abstracts_log_
 
 	'''This line of code processes and generates a dictionary from the abstract data'''
 	
-	abstract_year_dictionary, starting_year, ending_year = abstract_word_list_post_processor(permanent_word_sorter_list, status_logger_name)
+	abstract_year_dictionary, starting_year, ending_year = abstract_year_list_post_processor(permanent_word_sorter_list, status_logger_name)
 
 	return abstract_year_dictionary, starting_year, ending_year
 
