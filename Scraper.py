@@ -20,6 +20,8 @@ from bs4 import BeautifulSoup
 from collections import Counter
 '''Importing the CSV library here to dump the dictionary for further analysis and error checking if required. Will edit it out later.'''
 import csv
+'''This library is imported to check if we can feasibly introduce delays into the processor loop to reduce instances of the remote server, shutting the connection while scrapping extraordinarily large datasets.'''
+import time
 '''Fragmenting code into different scripts. Some functions are to be used across the different sub-parts as well. Hence, shifted some of the functions to the new script.'''
 from common_functions import pre_processing, arguments_parser,  status_logger
 
@@ -313,6 +315,17 @@ def word_sorter_list_generator(status_logger_name):
 	status_logger(status_logger_name, word_sorter_list_generator_exit_status_key)
 	return word_sorter_list
 
+def delay_function(status_logger_name):
+	'''Since the Springer servers are contstantly shutting down the remote connection, we introduce
+	this function in the processor function in order to reduce the number of pings it delivers to the remote.'''
+	delay_function_start_status_key = "Delaying remote server ping: 10 seconds"
+	status_logger(status_logger_name, delay_function_start_status_key)
+
+	time.sleep(5)
+
+	delay_function_end_status_key = "Delayed remote server ping: 10 seconds"
+	status_logger(status_logger_name, delay_function_end_status_key)
+
 def processor(abstract_url, urls_to_scrape, abstract_id_log_name, abstracts_log_name, status_logger_name, trend_keywords, keywords_to_search):
 	''''Multiple page-cycling function to scrape multiple result pages returned from Springer.
 	print(len(urls_to_scrape))'''
@@ -322,6 +335,10 @@ def processor(abstract_url, urls_to_scrape, abstract_id_log_name, abstracts_log_
 	permanent_word_sorter_list = word_sorter_list_generator(status_logger_name)
 
 	for site_url_index in range(0, len(urls_to_scrape)):
+		
+		'''Introduces a 10 second delay between successive pings.'''
+		delay_function(status_logger_name)
+		
 		if(site_url_index==0):
 			results_determiner(urls_to_scrape[site_url_index], status_logger_name)
 		'''Collects the web-page from the url for souping'''
