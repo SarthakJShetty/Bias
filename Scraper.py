@@ -126,7 +126,7 @@ def abstract_year_list_post_processor(permanent_word_sorter_list, status_logger_
 
 	return abstract_year_dictionary, starting_year, ending_year
 
-def abstract_word_dictionary_dumper(abstract_word_dictionary, abstracts_log_name, status_logger_name):
+def abstract_year_dictionary_dumper(abstract_word_dictionary, abstracts_log_name, status_logger_name):
 	'''This function saves the abstract word dumper to the disc for further inspection.
 	The file is saved as a CSV bucket and then dumped.'''
 	permanent_word_sorter_list_start_status_key = "Dumping the entire dictionary to the disc"
