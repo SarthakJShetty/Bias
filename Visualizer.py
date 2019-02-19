@@ -1,4 +1,6 @@
-'''Hello! This code code is part of the Bias project, where we are trying to prove the existence
+
+'''xticks() ensures that each and every year is plotted along the x axis'''
+plt.xticks()'''Hello! This code code is part of the Bias project, where we are trying to prove the existence
 of certain biases in academic publications.
 We will be displaying the results from the NLP_Engine.py code here, using primarily using pyLDAvis library.
 
@@ -43,7 +45,9 @@ def trends_histogram(abstract_word_dictionary, starting_year, ending_year, trend
 	list_of_years_to_be_plotted = [year for year in range(int(starting_year), int(ending_year))]
 
 	frequencies_to_be_plotted = [abstract_word_dictionary[str(year)] for year in range(int(starting_year), int(ending_year))]
-
+	'''Varying the size of the figure to accomadate the entire trends graph generated'''
+	plt.figure(figsize=(20,15))
+	'''Plotting the years along the X axis and the frequency along the Y axis'''
 	plt.plot(list_of_years_to_be_plotted, frequencies_to_be_plotted)
 	'''Adds a label to the element being represented across the Y-axis (frequency)'''
 	plt.ylabel("Frequency of occurence:"+" "+trend_keywords[0])
@@ -51,6 +55,8 @@ def trends_histogram(abstract_word_dictionary, starting_year, ending_year, trend
 	plt.xlabel("Year of occurence:"+" "+trend_keywords[0])
 	'''Adds an overall title to the trends chart'''
 	plt.title("Trends Chart:"+" "+trend_keywords[0])
+	'''xticks() ensures that each and every year is plotted along the x axis and changing the rotation to ensure better readability'''
+	plt.xticks(list_of_years_to_be_plotted, rotation=45)
 	'''Saves the graph generated to the disc for further analysis'''
 	plt.savefig(logs_folder_name+"/"+"Data_Visualization_Trends_Graph"+"_"+trend_keywords[0]+".png")
 
