@@ -10,7 +10,7 @@ Sarthak J. Shetty
 from common_functions import status_logger
 '''import matplotlib as plt'''
 import matplotlib.pyplot as plt
-from matplotlib.pyplot import ylim, xlim
+'''Library necessary to develop the html visualizations'''
 import pyLDAvis
 
 def visualizer_generator(lda_model, corpus, id2word, logs_folder_name, status_logger_name):
@@ -40,11 +40,18 @@ def trends_histogram(abstract_word_dictionary, starting_year, ending_year, trend
 	list_of_years=[]
 	for element in abstract_word_dictionary:
 		list_of_years.append(element)
-	list_of_years_to_be_plotted = [year for year in range(int(starting_year), int(ending_year))]
+	list_of_years_to_be_plotted = [year for year in range(int(starting_year), int(ending_year)+1)]
+	'''Here we genererate the corresponding frequencies'''
+	frequencies_to_be_plotted = [int(abstract_word_dictionary[str(year)]) for year in range(int(starting_year), int(ending_year)+1)]
+	'''Here, we will generate a list of frequencies to be plotted along the Y axis, using the Y ticcks function'''
+	y_ticks_frequency = []
+	'''Extracting the largest frequency value in the list to generate the Y ticks list'''
+	max_frequency_value = max(frequencies_to_be_plotted)
+	for frequency_element in range(0, max_frequency_value+1):
+		y_ticks_frequency.append(frequency_element)
 
-	frequencies_to_be_plotted = [abstract_word_dictionary[str(year)] for year in range(int(starting_year), int(ending_year))]
 	'''Varying the size of the figure to accomadate the entire trends graph generated'''
-	plt.figure(figsize=(20,15))
+	plt.figure(figsize=[20,15])
 	'''Plotting the years along the X axis and the frequency along the Y axis'''
 	plt.plot(list_of_years_to_be_plotted, frequencies_to_be_plotted)
 	'''Adds a label to the element being represented across the Y-axis (frequency)'''
@@ -55,6 +62,8 @@ def trends_histogram(abstract_word_dictionary, starting_year, ending_year, trend
 	plt.title("Trends Chart:"+" "+trend_keywords[0])
 	'''xticks() ensures that each and every year is plotted along the x axis and changing the rotation to ensure better readability'''
 	plt.xticks(list_of_years_to_be_plotted, rotation=45)
+	'''yticks() ensures that each and every frequency is plotted to ensure better readability in the resulting figure'''
+	plt.yticks(y_ticks_frequency)
 	'''Saves the graph generated to the disc for further analysis'''
 	plt.savefig(logs_folder_name+"/"+"Data_Visualization_Trends_Graph"+"_"+trend_keywords[0]+".png")
 
