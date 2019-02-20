@@ -1,6 +1,4 @@
-
-'''xticks() ensures that each and every year is plotted along the x axis'''
-plt.xticks()'''Hello! This code code is part of the Bias project, where we are trying to prove the existence
+'''Hello! This code code is part of the Bias project, where we are trying to prove the existence
 of certain biases in academic publications.
 We will be displaying the results from the NLP_Engine.py code here, using primarily using pyLDAvis library.
 
