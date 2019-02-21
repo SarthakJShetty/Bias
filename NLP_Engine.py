@@ -100,6 +100,7 @@ def trigram_generator(textual_data, status_logger_name):
 	return trigram_mod
 
 def remove_stopwords(textual_data, status_logger_name):
+	'''This function removes the standard set of stopwords from the corpus of abstract words'''
 	remove_stopwords_start_status_key = "Removing stopwords"
 	status_logger(status_logger_name, remove_stopwords_start_status_key)
 	return [[word for word in simple_preprocess(str(doc)) if word not in stop_words] for doc in textual_data]
@@ -107,18 +108,24 @@ def remove_stopwords(textual_data, status_logger_name):
 	status_logger(status_logger_name, remove_stopwords_end_status_key)
 
 def make_bigrams(textual_data, status_logger_name):
+	'''Generates multiple bigrams of word pairs in phrases that commonly occuring with each other over the corpus'''
 	make_bigrams_start_status_key = "Generating bigrams"
 	status_logger(status_logger_name, make_bigrams_start_status_key)
+
 	bigram_mod = bigram_generator(textual_data, status_logger_name)
 	return [bigram_mod[doc] for doc in textual_data]
+	
 	make_bigrams_end_status_key = "Generated bigrams"
 	status_logger(status_logger_name, make_bigrams_end_status_key)
 
 def make_trigram(textual_data, status_logger_name):
+	'''Generates multiple trigrams of triplet words in phrases that commonly occuring with each other over the abstract corpus'''
 	make_trigrams_start_status_key = "Generating trigrams"
 	status_logger(status_logger_name, make_trigrams_start_status_key)
+
 	trigram_mod = trigram_generator(textual_data)
 	return [trigram_mod[bigram_mod[doc]] for doc in textual_data]
+	
 	make_trigrams_end_status_key = "Generated trigrams"
 	status_logger(status_logger_name, make_trigrams_end_status_key)
 
