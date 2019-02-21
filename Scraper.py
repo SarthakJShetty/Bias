@@ -178,6 +178,8 @@ def abstract_crawler(abstract_url, abstract_id_log_name, abstracts_log_name, per
 			abstract_crawler_accept_status_key="Abstract Number:"+" "+str((abstract_input_tag_ids.index(abstract_input_tag_id)+1)+abstract_crawler_temp_index*20)
 			status_logger(status_logger_name, abstract_crawler_accept_status_key)
 			abstract_page_scraper(abstract_url, abstract_input_tag_id, abstracts_log_name, permanent_word_sorter_list, trend_keywords, site_url_index, status_logger_name)
+			'''Introduces a 5 second delay between successive pings.'''
+			delay_function(status_logger_name)
 		except TypeError:
 			abstract_crawler_reject_status_key="Abstract Number:"+" "+str(abstract_input_tag_ids.index(abstract_input_tag_id)+1)+" "+"could not be processed"
 			status_logger(status_logger_name, abstract_crawler_reject_status_key)
@@ -335,10 +337,7 @@ def processor(abstract_url, urls_to_scrape, abstract_id_log_name, abstracts_log_
 	permanent_word_sorter_list = word_sorter_list_generator(status_logger_name)
 
 	for site_url_index in range(0, len(urls_to_scrape)):
-		
-		'''Introduces a 10 second delay between successive pings.'''
-		delay_function(status_logger_name)
-		
+
 		if(site_url_index==0):
 			results_determiner(urls_to_scrape[site_url_index], status_logger_name)
 		'''Collects the web-page from the url for souping'''
