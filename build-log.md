@@ -1,6 +1,10 @@
 # Build-Log
 
-<strong>Note:</strong> This build-log is updated chronologically, from recent to first, top to bottom.
+<strong>Note:</strong> This build-log is updated chronologically, latest to old, top to bottom.
+
+### Date: 24/02/2019
+- A delay function has been integrated into the scraping process, in order to bypass termination by the remote host.
+- The <a title="Trends Graph" href="https://github.com/SarthakJShetty/Bias/blob/master/LOGS/LOG_2019-02-20_23_4_Western_Ghats_Biodiversity/Data_Visualization_Trends_Graph_biodiversity.png">trends graph</a> has been formatted to improve readability of the ticks across X and Y axes.
 
 ### Date: 14/02/2019
 - <a title="Visualizer.py" href="https://github.com/SarthakJShetty/Bias/blob/master/Visualizer.py">```Visualizer.py```</a> code has been fixed to generate the trends visualization.
