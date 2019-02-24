@@ -3,6 +3,11 @@
 <strong>Note:</strong> This build-log is updated chronologically, latest to old, top to bottom.
 
 ### Date: 24/02/2019
+- Improved the readability of the trends graph by incorporating the ```plt.text()``` function which enables labelling of each
+nodal point in the graph. Results will be posted shortly.
+- Also updated the <a title="Updated ubuntu requirements file" href="https://github.com/SarthakJShetty/Bias/blob/master/ubuntu_requirements.txt">ubuntu requirements</a>. Scraped a lot of unecessary requirements from the list.
+
+### Date: 22/02/2019
 - A delay function has been integrated into the scraping process, in order to bypass termination by the remote host.
 - The <a title="Trends Graph" href="https://github.com/SarthakJShetty/Bias/blob/master/LOGS/LOG_2019-02-20_23_4_Western_Ghats_Biodiversity/Data_Visualization_Trends_Graph_biodiversity.png">trends graph</a> has been formatted to improve readability of the ticks across X and Y axes.
 
