@@ -54,6 +54,11 @@ def trends_histogram(abstract_word_dictionary, starting_year, ending_year, trend
 	plt.figure(figsize=[20,15])
 	'''Plotting the years along the X axis and the frequency along the Y axis'''
 	plt.plot(list_of_years_to_be_plotted, frequencies_to_be_plotted)
+	
+	'''Here, we are labelling each of the frequencies plotted to ensure better readability, instead of second-guessing Y axis values'''
+	for element in range(0, len(list_of_years_to_be_plotted)):
+		plt.text(list_of_years_to_be_plotted[element], frequencies_to_be_plotted[element], "Freqeuncy: "+str(frequencies_to_be_plotted[element]), bbox=dict(facecolor='red', alpha=0.3), horizontalalignment='right', verticalalignment='top',size=6)
+	
 	'''Adds a label to the element being represented across the Y-axis (frequency)'''
 	plt.ylabel("Frequency of occurence:"+" "+trend_keywords[0])
 	'''Adds a plabel to the element being represeneted across the X-axis (years)'''
