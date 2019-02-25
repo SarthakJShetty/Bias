@@ -37,18 +37,14 @@ def list_cleaner(list_to_be_cleaned, status_logger_name):
 	status_logger(status_logger_name, list_cleaner_start_status_key)
 	'''This function cleans the list containing the words found in the abstract. It eliminates words found in
 	another pre-defined list of words.'''
-	words_to_be_eliminated = ["the", "of", "and", "in", "to", "a", "The", "is", "for", "from", "with", "that", 
-	"by", "are", "on", "was", "as", "were", "URL:", "Abstract:", "abstract", "Abstract",  "Author:", "Title:", "at", "be", "an", "during", "have", "this", 
-	"which", "study", "been", "species", "not", "has", "between",  "using", "We", "its", "also", "these", "This", "used", "over", "can", "within", "into",
-	 "all", "due", "use", "about", "In", "A", "a", 'it', 'their', "It", "Their", "where", "Where", "we", "We", "most", "may", "Most", "May", "Through", "through",
-	"Though", "though", "like", "Like", "Or", "or", "further", "Further", "e.g.", "along", "Along", "any", "Any", "Those", "those", "To", "Had", "had",
-	"Toward", "toward", "due", "Due", "both", "Both", "Some", "some", "Use", "use", "even", "Even", "more", "More", "But", "but", "while", "While",  "pass", 
-	"Well", "well", "will", "Will", "When", "when", "only", "Only", "after", "After", "Author", "author", "Title", "title", "An", "There", "there", "our", "Our", 
-	"did", "Did", "much", "Much", "As", "as", "if", "If", "become", "Become", "Still", "still", "various", "Various", "Very", "very", "out", "Out", "They", "they", 
-	"From", "via", "Via", "available", "Available", "such", "Such", "than", "Than", "Different", "different", "many", "Many", "areas", "Areas", "No", "no", "One", 
-	 "one", "two", "Two", "small", "Small", "first", "First", "other", "Other", "Such", "such", "-", "could", "Could", "studies", "Studies", "high", "High", 
-	 "provide", "Provide", "among", "Among", "highly", "Highly", "no", "No", "case", "Case", "across", "Across", "given", "Given", "need", "Need", "would", "Would", 
-	  "under", "Under", "found", "Found", "Low", "low", "values", "Values", "xa", "xc", "These", "suggest", "Suggest", "up", "Up", "For", "'The", "area"] 
+	words_to_be_eliminated = ["the", "of", "and", "in", "to", "a", "is", "for", "from", "with", "that",	"by", "are", "on", "was", "as", "were", "URL:", "Abstract:",
+	"abstract",  "Author:", "Title:", "at", "be", "an", "during", "have", "this", "which", "study", "been", "species", "not", "has", "between",
+	"using", "its", "also", "these", "this", "used", "over", "can", "within", "into", "all","due", "use", "about", "a", 'it', 'their', "where", "we", "most", "may", "through",
+	"though", "like", "or", "further", "e.g.", "along", "any", "Those", "those", "To", "had", "toward", "due", "both", "some", "use", "even", "more", "but", "while", "pass", 
+	"well", "will", "when", "only", "after", "author", "title", "there", "our", "Our", "did", "much", "as", "if", "become", "still", "various", "very", "out",
+	"they", "via", "available", "such", "than", "different", "many", "Many", "areas", "Areas", "No", "no", 
+	"one", "two", "small", "first", "other", "such", "-", "could", "studies", "high", "provide", "among", "highly", "no", "case", "across", "given", "need", "would", 
+	  "under", "found", "low", "values", "xe2\\x80\\x89", "xa", "xc", "suggest", "up", "'The", "area"] 
 	cleaned_list_of_words_in_abstract = [item for item in list_to_be_cleaned if item not in words_to_be_eliminated]
 
 	list_cleaner_end_status_key = "Cleaned the list of words generated"
