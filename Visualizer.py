@@ -15,11 +15,11 @@ import pyLDAvis
 
 def visualizer_generator(lda_model, corpus, id2word, logs_folder_name, status_logger_name):
 	'''This code generates the .html file with generates the visualization of the data prepared.'''
-	visualizer_generator_start_status_key = "Preparing the visualization"
+	visualizer_generator_start_status_key = "Preparing the topic modelling visualization"
 	status_logger(status_logger_name, visualizer_generator_start_status_key)
 	textual_data_visualization = pyLDAvis.gensim.prepare(lda_model, corpus, id2word)
 	pyLDAvis.save_html(textual_data_visualization, logs_folder_name+"/"+"Data_Visualization_Topic_Modelling.html")
-	visualizer_generator_end_status_key = "Prepared the visualization"+" "+logs_folder_name+"/"+"Data_Visualization_Topic_Modelling.html"
+	visualizer_generator_end_status_key = "Prepared the topic modelling visualization"+" "+logs_folder_name+"/"+"Data_Visualization_Topic_Modelling.html"
 	status_logger(status_logger_name, visualizer_generator_end_status_key)		
 
 def trends_histogram(abstract_word_dictionary, starting_year, ending_year, trend_keywords, logs_folder_name, status_logger_name):
@@ -36,7 +36,7 @@ def trends_histogram(abstract_word_dictionary, starting_year, ending_year, trend
 	f) If the term does not appear in that year, then it's assigned zero (that's how dictionaries work).
 	g) The two lists (list of years and list of frequencies) are submitted to the plot function for plotting.'''
 
-	'''This list will hold the abstract years which contain occurances of the word that we are investigating for'''
+	'''This list will hold the abstract years which contain occurances of the word that we are investigating'''
 	list_of_years=[]
 	for element in abstract_word_dictionary:
 		list_of_years.append(element)
@@ -54,10 +54,11 @@ def trends_histogram(abstract_word_dictionary, starting_year, ending_year, trend
 	plt.figure(figsize=[20,15])
 	'''Plotting the years along the X axis and the frequency along the Y axis'''
 	plt.plot(list_of_years_to_be_plotted, frequencies_to_be_plotted)
-	
+	'''Plotting the frequencies again to make the frequency pivots visible'''
+	plt.plot(list_of_years_to_be_plotted, frequencies_to_be_plotted, 'ro')
 	'''Here, we are labelling each of the frequencies plotted to ensure better readability, instead of second-guessing Y axis values'''
 	for element in range(0, len(list_of_years_to_be_plotted)):
-		plt.text(list_of_years_to_be_plotted[element], frequencies_to_be_plotted[element], "Freqeuncy: "+str(frequencies_to_be_plotted[element]), bbox=dict(facecolor='red', alpha=0.3), horizontalalignment='right', verticalalignment='top',size=6)
+		plt.text(list_of_years_to_be_plotted[element], frequencies_to_be_plotted[element], "Freqeuncy: "+str(frequencies_to_be_plotted[element]), bbox=dict(facecolor='orange', alpha=0.3), horizontalalignment='right', verticalalignment='top',size=8)
 	
 	'''Adds a label to the element being represented across the Y-axis (frequency)'''
 	plt.ylabel("Frequency of occurence:"+" "+trend_keywords[0])
