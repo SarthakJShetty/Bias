@@ -52,7 +52,6 @@ def data_reader(abstracts_log_name, status_logger_name):
 	status_logger(status_logger_name, data_reader_end_status_key)
 	return textual_dataframe
 #Code to check if the data being obtained is legit or not
-#print(df.target_names.unique())
 
 def textual_data_trimmer(textual_dataframe, status_logger_name):
 	textual_data_trimmer_start_status_key = "Trimming data and preparing list of words"
@@ -61,7 +60,6 @@ def textual_data_trimmer(textual_dataframe, status_logger_name):
 	textual_data = textual_dataframe.values.tolist()
 	textual_data_trimmer_end_status_key = "Trimmed data and prepared list of words"
 	status_logger(status_logger_name, textual_data_trimmer_end_status_key)
-	#pprint(data[:1])
 	return textual_data
 
 def sent_to_words(textual_data, status_logger_name):
@@ -71,7 +69,6 @@ def sent_to_words(textual_data, status_logger_name):
 	for sentence in textual_data:
 		yield(gensim.utils.simple_preprocess(str(textual_data), deacc=True))
 	textual_data = list(sent_to_words(textual_data))
-	#print(textual_data[:1])
 	sent_to_words_end_status_key = "Tokenized words"
 	status_logger(status_logger_name, sent_to_words_end_status_key)	
 	return textual_data
@@ -158,35 +155,25 @@ def nlp_engine_main(abstracts_log_name, status_logger_name):
 	nlp = spacy.load('en', disable=['parser', 'ner'])
 
 	textual_data_lemmatized = lemmatization(status_logger_name, textual_data_words_bigrams, allowed_postags=['NOUN', 'ADJ', 'VERB', 'ADV'])
-	#print(textual_data_lemmatized[:1])
 
 	id2word = corpora.Dictionary(textual_data_lemmatized)
 
 	texts = textual_data_lemmatized
 	corpus = [id2word.doc2bow(text) for text in texts]
-	#print(corpus[:1])
 
 	[[(id2word[id], freq) for id, freq in cp] for cp in corpus[:1]]
 
 	'''Builds the actual LDA model that will be used for the visualization and inference'''
 	lda_model = gensim.models.ldamodel.LdaModel(corpus = corpus, id2word = id2word, num_topics = 20, random_state = 100, update_every = 1, chunksize = 100, passes = 10, alpha = 'auto', per_word_topics = True)
 
-	#pprint(lda_model.print_topics())
 	doc_lda = lda_model[corpus]
 
 	perplexity_score = lda_model.log_perplexity(corpus)
 
-	#print("\nPerplexity: ", str(perplexity_score))
-
 	perplexity_status_key = "Issued perplexity:"+" "+str(perplexity_score)
 
 	status_logger(status_logger_name, perplexity_status_key)
-	
-	"""coherence_model_lda=CoherenceModel(model = lda_model, texts = textual_data_lemmatized, dictionary = id2word, coherence='c_v')
-
-	coherence_lda = coherence_model_lda.get_coherence()
-	print('\nCoherence Score: ', coherence_lda)"""
-
+		
 	nlp_engine_main_end_status_key = "Idling the NLP Engine"
 	status_logger(status_logger_name, nlp_engine_main_end_status_key)
 
