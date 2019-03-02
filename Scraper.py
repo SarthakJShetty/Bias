@@ -323,7 +323,7 @@ def delay_function(status_logger_name):
 	delay_function_start_status_key = "Delaying remote server ping: 5 seconds"
 	status_logger(status_logger_name, delay_function_start_status_key)
 
-	time.sleep(3)
+	time.sleep(8)
 
 	delay_function_end_status_key = "Delayed remote server ping: 5 seconds"
 	status_logger(status_logger_name, delay_function_end_status_key)
