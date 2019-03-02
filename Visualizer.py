@@ -51,7 +51,7 @@ def trends_histogram(abstract_word_dictionary, starting_year, ending_year, trend
 		y_ticks_frequency.append(frequency_element)
 
 	'''Varying the size of the figure to accomadate the entire trends graph generated'''
-	plt.figure(figsize=[20,15])
+	plt.figure(figsize=[15,10])
 	'''Plotting the years along the X axis and the frequency along the Y axis'''
 	plt.plot(list_of_years_to_be_plotted, frequencies_to_be_plotted)
 	'''Plotting the frequencies again to make the frequency pivots visible'''
