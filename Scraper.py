@@ -320,12 +320,12 @@ def word_sorter_list_generator(status_logger_name):
 def delay_function(status_logger_name):
 	'''Since the Springer servers are contstantly shutting down the remote connection, we introduce
 	this function in the processor function in order to reduce the number of pings it delivers to the remote.'''
-	delay_function_start_status_key = "Delaying remote server ping: 5 seconds"
+	delay_function_start_status_key = "Delaying remote server ping: 15 seconds"
 	status_logger(status_logger_name, delay_function_start_status_key)
 
-	time.sleep(8)
+	time.sleep(15)
 
-	delay_function_end_status_key = "Delayed remote server ping: 5 seconds"
+	delay_function_end_status_key = "Delayed remote server ping: 15 seconds"
 	status_logger(status_logger_name, delay_function_end_status_key)
 
 def processor(abstract_url, urls_to_scrape, abstract_id_log_name, abstracts_log_name, status_logger_name, trend_keywords, keywords_to_search):
