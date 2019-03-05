@@ -43,7 +43,7 @@ def list_cleaner(list_to_be_cleaned, status_logger_name):
 	"though", "like", "or", "further", "e.g.", "along", "any", "those", "had", "toward", "due", "both", "some", "use", "even", "more", "but", "while", "pass", 
 	"well", "will", "when", "only", "after", "author", "title", "there", "our", "did", "much", "as", "if", "become", "still", "various", "very", "out",
 	"they", "via", "available", "such", "than", "different", "many", "areas", "no", "one", "two", "small", "first", "other", "such", "-", "could", "studies", "high",
-	"provide", "among", "highly", "no", "case", "across", "given", "need", "would", "under", "found", "low", "values", "xe2\\x80\\x89", "xa", "xc", "suggest", "up", "'The", "area"] 
+	"provide", "among", "highly", "no", "case", "across", "given", "need", "would", "under", "found", "low", "values", "xe2\\x80\\x89", "xa", "xc", "xb", "\xc2\xa0C\xc2\xa0ha\xe2\x88\x921", "suggest", "up", "'The", "area"] 
 	cleaned_list_of_words_in_abstract = [item for item in list_to_be_cleaned if item not in words_to_be_eliminated]
 
 	list_cleaner_end_status_key = "Cleaned the list of words generated"
