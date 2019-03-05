@@ -193,7 +193,7 @@ def analytical_abstract_database_writer(title, author, abstract, abstracts_log_n
 	status_logger(status_logger_name, analytical_abstract_database_writer_start_status_key)
 
 	analytical_abstracts_txt_log = open(abstracts_log_name+'_'+'ANALYTICAL'+'.txt', 'a')
-	analytical_abstracts_txt_log.write("Abstract:"+" "+abstract)
+	analytical_abstracts_txt_log.write(abstract)
 	analytical_abstracts_txt_log.write('\n'+'\n')
 	analytical_abstracts_txt_log.close()
 
@@ -323,7 +323,8 @@ def delay_function(status_logger_name):
 	delay_function_start_status_key = "Delaying remote server ping: 15 seconds"
 	status_logger(status_logger_name, delay_function_start_status_key)
 
-	time.sleep(15)
+	'''Sleep parameter causes the code to be be delayed by 1 second'''
+	time.sleep(1)
 
 	delay_function_end_status_key = "Delayed remote server ping: 15 seconds"
 	status_logger(status_logger_name, delay_function_end_status_key)
