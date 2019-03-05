@@ -1,8 +1,8 @@
-'''Hello! This script contains functions that are resued by other pieces of code belonging to this
+'''Hello! This script contains functions that are resued by other pieces of code and scripts belonging to this
 project as well.
 
 Checkout the README.md for more details regarding the project itself.
-Checkout the build-log.md for a detailed day-to-day progress report.
+Checkout the build-log.md for a detailed day-to-day (hopefully) progress report.
 
 Sarthak J Shetty
 12/09/2018'''
@@ -84,8 +84,6 @@ def pre_processing(keywords):
 
 	start_url = "https://link.springer.com/search/page/"
 	abstract_url = 'https://link.springer.com'
-	#print(start_url)
-	#print(abstract_url)
 
 	return abstract_id_log_name, abstracts_log_name, start_url, abstract_url, query_string, logs_folder_name, status_logger_name
 
@@ -94,11 +92,13 @@ def arguments_parser():
 	We will be scrapping Science, Nature etc later, as long as generic URLs are supported.
 	Parses two arguments now:
 	a) --keywords: This argument is the term that will be searched for in Springer.
-	b) --trends: This argument provides the term whose research trend will be generated.'''
+	b) --trends: This argument provides the term whose research trend will be generated.
+	c) --full: This argument is triggered if the PDFs have to be downloaded as well.'''
 
 	parser = argparse.ArgumentParser()
 	parser.add_argument("--keywords", help="Keyword to search on Springer", default="Tiger")
 	parser.add_argument("--trends", help="Keywords to generate the trends histogram for", default="Tiger")
+	parser.add_argument("--paper", help="If papers have to downloaded as well", default="No")
 	arguments = parser.parse_args()
 	if arguments.keywords:
 		keywords = arguments.keywords
@@ -108,6 +108,9 @@ def arguments_parser():
 		trends = arguments.trends
 	'''The entire list of the abstract words will be lowered and hence trends term has to be
 	lowered to obtain a match with those terms.'''
+	if arguments.paper:
+		paper = arguments.paper
+	'''If this argument is turned to Yes, then the papers will be downloaded as well'''
 	trends = trends.lower()
 	trends = trends.split()
 	return keywords, trends
