@@ -20,6 +20,8 @@ from bs4 import BeautifulSoup
 from collections import Counter
 '''Importing the CSV library here to dump the dictionary for further analysis and error checking if required. Will edit it out later.'''
 import csv
+'''Importing numpy to generate a random integer for the delay_function (see below)'''
+import numpy as np
 '''This library is imported to check if we can feasibly introduce delays into the processor loop to reduce instances of the remote server, shutting the connection while scrapping extraordinarily large datasets.'''
 import time
 '''Fragmenting code into different scripts. Some functions are to be used across the different sub-parts as well. Hence, shifted some of the functions to the new script.'''
@@ -323,8 +325,9 @@ def delay_function(status_logger_name):
 	delay_function_start_status_key = "Delaying remote server ping: 15 seconds"
 	status_logger(status_logger_name, delay_function_start_status_key)
 
+	delay_variable = np.random.randint(0, 10)
 	'''Sleep parameter causes the code to be be delayed by 1 second'''
-	time.sleep(1)
+	time.sleep(delay_variable)
 
 	delay_function_end_status_key = "Delayed remote server ping: 15 seconds"
 	status_logger(status_logger_name, delay_function_end_status_key)
