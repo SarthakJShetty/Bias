@@ -59,7 +59,7 @@ def url_generator(start_url, query_string, status_logger_name):
 	it is popped later on from the list.'''
 	urls_to_scrape=[]
 	counter = 0
-	total_url = start_url+str(counter)+"?facet-content-type=""Article""&query="+query_string
+	total_url = start_url+str(counter)+"?facet-content-type=\"Article\"&query="+query_string
 	initial_url_status_key = total_url+" "+"has been obtained"
 	status_logger(status_logger_name, initial_url_status_key)
 	urls_to_scrape.append(total_url)
@@ -68,7 +68,7 @@ def url_generator(start_url, query_string, status_logger_name):
 	'''This while loop continuously pings and checks for new webpages, then stores them for scraping'''
 	while(determiner):
 		counter = counter+1
-		total_url = start_url+str(counter)+"?facet-content-type=""Article""&query="+query_string
+		total_url = start_url+str(counter)+"?facet-content-type=\"Article\"&query="+query_string
 		url_generator_while_status_key=total_url+" "+"has been obtained"
 		status_logger(status_logger_name, url_generator_while_status_key)
 		soup = BeautifulSoup(urlopen(total_url), 'html.parser')
