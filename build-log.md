@@ -2,6 +2,10 @@
 
 <strong>Note:</strong> This build-log is updated chronologically, latest to old, top to bottom.
 
+### Date: 03/04/2019
+- Splitting the main components of the code into smaller scripts. Scripts for the ```NLP_Engine.ipynb``` and ```Visualization.ipynb``` have been [uploaded](https://github.com/SarthakJShetty/Bias/blob/master/scripts/) as Jupyter Notebooks. Almost done with the ```Scraper.py``` code as well.
+- Overhauled the representation of the research trends chart. The new version can be viewed [here](https://raw.githubusercontent.com/SarthakJShetty/Bias/master/LOGS/LOG_2019-02-27_15_23_Eastern_Himalayas/Data_Visualization_Trends_Graph_conservation.png). Ideas to improve readability are being tested as well.
+
 ### Date: 24/02/2019
 - Improved the readability of the trends graph by incorporating the ```plt.text()``` function which enables labelling of each
 nodal point in the graph. Results will be posted shortly.
