@@ -1,3 +1,4 @@
+
 # Analyzing biases in academic publications
 
 :warning: <strong>Code is buggy</strong>:warning:
@@ -99,7 +100,7 @@
 - The corpus and model generated are then passed to the [Visualizer.py](https://github.com/SarthakJShetty/Bias/tree/master/Visualizer.py) script.
 - The top modelling chart can be checked out [here](https://github.com/SarthakJShetty/Bias/blob/master/LOGS/LOG_2019-02-27_15_23_Eastern_Himalayas/Data_Visualization_Topic_Modelling.html). It is interactive and a detailed guide explaining its parts will be uploaded soon.
 
-**Note:** The ```.html``` file linked above has to be downloaded and opened in a JavaScript enabled browser to be viewed.
+	**Note:** The ```.html``` file linked above has to be downloaded and opened in a JavaScript enabled browser to be viewed.
 
 ### 4.4 Visualizer:
 - The <a title="Visualizer" href="https://github.com/SarthakJShetty/Bias/blob/master/Visualizer.py">```Visualizer.py```</a> code is responsible for generating the visualization associated with a specific search.
