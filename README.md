@@ -94,7 +94,12 @@
 - It serves as an intermediary between the Scraper and the Visualizer, preparing the scraped data into a neat ```.csv``` <a title="Analyzer CSV file" href="https://github.com/SarthakJShetty/Bias/blob/master/LOGS/LOG_2018-09-15_19_18_Bengal_Tiger_Ghats/Abstract_Database_2018-09-15_19_18_CSV_DATA.csv">file</a>.
 - This ```.csv``` file is then passed on to the Visualizer.
 
-### 4.3 Visualizer:
+### 4.3 NLP Engine:
+- The NLP Engine is used to generate the topic modelling charts for the Visualization.py script. It generates the corpus and language model for analysis and use with other scripts. 
+- The corpus and model generated are then passed to the [Visualizer.py](https://github.com/SarthakJShetty/Bias/tree/master/Visualizer.py) script.
+- The top modelling chart can be checked out here. It is interactive and a detailed guide explaining its parts will be uploaded soon.
+
+### 4.4 Visualizer:
 - The <a title="Visualizer" href="https://github.com/SarthakJShetty/Bias/blob/master/Visualizer.py">```Visualizer.py```</a> code is responsible for generating the visualization associated with a specific search.
 - Currently, the research theme visualization is functional. The trends histogram will soon be added.
 - The research themes data visualization is stored as a <a title="Data Visualization" href="https://github.com/SarthakJShetty/Bias/blob/master/LOGS/LOG_2018-12-31_17_11_Western_Ghats_Ecology_Conservation_Policy/Data_Visualization.html">.html file</a> in the LOGS directory and can be viewed in the browser.
