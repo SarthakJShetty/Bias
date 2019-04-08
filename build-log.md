@@ -2,6 +2,11 @@
 
 <strong>Note:</strong> This build-log is updated chronologically, latest to old, top to bottom.
 
+### Date: 08/04/2019
+- The code has been [broken up](https://github.com/SarthakJShetty/Bias/blob/master/scripts/) into smaller modules that can be run independent of each other.
+- The modules run on Jupyter Notebooks for ease of use and improved readability.
+- Currently looking at better visualization alternatives to existing charts.
+
 ### Date: 03/04/2019
 - Splitting the main components of the code into smaller scripts. Scripts for the ```NLP_Engine.ipynb``` and ```Visualization.ipynb``` have been [uploaded](https://github.com/SarthakJShetty/Bias/blob/master/scripts/) as Jupyter Notebooks. Almost done with the ```Scraper.py``` code as well.
 - Overhauled the representation of the research trends chart. The new version can be viewed [here](https://raw.githubusercontent.com/SarthakJShetty/Bias/master/LOGS/LOG_2019-02-27_15_23_Eastern_Himalayas/Data_Visualization_Trends_Graph_conservation.png). Ideas to improve readability are being tested as well.
