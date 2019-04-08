@@ -1,7 +1,7 @@
 
 # Analyzing biases in academic publications
 
-:warning: <strong>Code is buggy</strong>:warning:
+:warning: <strong>Code is buggy</strong> :warning:
 
 ## 1.0 Introduction:
 
@@ -9,7 +9,7 @@
 
 - For example, a quick search on scientific repositories reveals that most of the scientific publications related to this geographic area are related to the Nilgiri hills, <strong>primarily due to the economic incentives of growing tea in the region.</strong>
 
-- This project is a collaboration with <a title="Vijay" href="https://evolecol.weebly.com/" target="_blank">Vijay Ramesh</a>, <a title="E3B" href="http://e3b.columbia.edu/" target="_blank">Department of Ecology, Evolution & Environmental Biology</a> (or E3B for short), <a href="https://www.columbia.edu/" title="Columbia University" target="_blank">Columbia University</a>.
+- This project is a collaboration with <a title="Vijay" href="https://evolecol.weebly.com/" target="_blank">Vijay Ramesh</a>, <a title="E3B" href="http://e3b.columbia.edu/" target="_blank">Department of Ecology, Evolution & Environmental Biology</a>, <a href="https://www.columbia.edu/" title="Columbia University" target="_blank">Columbia University</a>.
 
 - This tool is being developed to prove (quantitatively) the existence of these biases.
 
@@ -17,9 +17,11 @@
 
 ## 2.0 Model Overview:
 - The model is made up of three parts:
+
 	1. <strong><a title="Scraper" href="https://github.com/SarthakJShetty/Bias/tree/master/Scraper.py/">Scraper</a>:</strong> This component scrapes scientific repository for publications containing the specific combination of keywords.
 	2. <strong><a title="Analyzer" href="https://github.com/SarthakJShetty/Bias/tree/master/Analyzer.py/">Analyzer</a>:</strong> This component collects and measures the frequency of select keywords in the abstracts database.
-	3. <strong><a title="Visualizer" href="https://github.com/SarthakJShetty/Bias/tree/master/Visualizer.py/">Visualizer</a>:</strong> This component presents the results and data from the Analyzer to the end user.
+	3. <strong><a title="NLP Engine" href="https://github.com/SarthakJShetty/Bias/tree/master/NLP_Engine.py/">NLP Engine</a>:</strong> This component extracts insights from the abstracts collected by presenting topic modelling.
+	4. <strong><a title="Visualizer" href="https://github.com/SarthakJShetty/Bias/tree/master/Visualizer.py/">Visualizer</a>:</strong> This component presents the results and data from the Analyzer to the end user.
 		
 - Check out the <a title="LOGS" href="https://github.com/SarthakJShetty/Bias/tree/master/LOGS">LOGS</a> for the results of ```Scraper.py``` and ```Analyzer.py```.
 
@@ -92,19 +94,27 @@
 
 ### 4.2 Analyzer:
 - The <a title="Analyzer" href="https://github.com/SarthakJShetty/Bias/tree/master/Analyzer.py/">```Analyzer.py```</a> analyzes the frequency of different words used in the abstract.
+
 - It serves as an intermediary between the Scraper and the Visualizer, preparing the scraped data into a neat ```.csv``` <a title="Analyzer CSV file" href="https://github.com/SarthakJShetty/Bias/blob/master/LOGS/LOG_2018-09-15_19_18_Bengal_Tiger_Ghats/Abstract_Database_2018-09-15_19_18_CSV_DATA.csv">file</a>.
+
 - This ```.csv``` file is then passed on to the Visualizer.
 
 ### 4.3 NLP Engine:
-- The NLP Engine is used to generate the topic modelling charts for the [Visualizer.py](https://github.com/SarthakJShetty/Bias/tree/master/Visualizer.py) script. It generates the corpus and language model for analysis and use with other scripts. 
+
+- The NLP Engine is used to generate the topic modelling charts for the [Visualizer.py](https://github.com/SarthakJShetty/Bias/tree/master/Visualizer.py) script. It generates the corpus and language model for analysis and use with other scripts.
+
 - The corpus and model generated are then passed to the [Visualizer.py](https://github.com/SarthakJShetty/Bias/tree/master/Visualizer.py) script.
+
 - The top modelling chart can be checked out [here](https://github.com/SarthakJShetty/Bias/blob/master/LOGS/LOG_2019-02-27_15_23_Eastern_Himalayas/Data_Visualization_Topic_Modelling.html). It is interactive and a detailed guide explaining its parts will be uploaded soon.
 
 	**Note:** The ```.html``` file linked above has to be downloaded and opened in a JavaScript enabled browser to be viewed.
 
 ### 4.4 Visualizer:
+
 - The <a title="Visualizer" href="https://github.com/SarthakJShetty/Bias/blob/master/Visualizer.py">```Visualizer.py```</a> code is responsible for generating the visualization associated with a specific search.
+
 - Currently, the research theme visualization is functional. The trends histogram will soon be added.
+
 - The research themes data visualization is stored as a <a title="Data Visualization" href="https://github.com/SarthakJShetty/Bias/blob/master/LOGS/LOG_2018-12-31_17_11_Western_Ghats_Ecology_Conservation_Policy/Data_Visualization.html">.html file</a> in the LOGS directory and can be viewed in the browser.
 
 ## 5.0 Usage:
@@ -115,9 +125,13 @@ To run the code and generate the topic distribution and trend of research graphs
 - This command will scrape the abstracts from Springer that are related to "Western Ghats", and calculate the frequency with which the term "Conservation" appears in their abstract.
 
 ## 6.0 Known Issues:
+
 - The Scraper can only scrape abstracts from Springer at the moment
+
 - Due to lack of storage, we are yet to integrate the portion of the code that scrapes information from papers.
 
 #### Note:
+
 - This repository is still under active development. The <a title="README" href="https://github.com/SarthakJShetty/Bias">README.md</a> is yet to be updated in detail.
+
 - A detailed weekly build-log can be found <a href="https://github.com/SarthakJShetty/Bias/blob/master/build-log.md" title="README" target="_blank">here</a>.
