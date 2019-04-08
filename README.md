@@ -26,7 +26,7 @@
 
 ## 3.0 Installation Instructions:
 
-### Common instructions:
+### 3.1 Common instructions:
 
 <strong>Note:</strong> These instructions are common to both Ubuntu and Windows systems. 
 
@@ -38,7 +38,7 @@
 
 		E:\>cd Bias		
 
-### 3.1 Virtualenv instructions:		
+### 3.2 Virtualenv instructions:		
 
 1. Install ```virtualenv``` using ```pip```:
 
@@ -62,7 +62,7 @@
 		
 	<strong>Note:</strong> This step usually takes a few minutes, depending on your network speed.
 
-### 3.2 Conda instructions:
+### 3.3 Conda instructions:
 
 1. Create a new ```conda``` environment:
 	
