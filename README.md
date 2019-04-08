@@ -1,4 +1,3 @@
-
 # Analyzing biases in academic publications
 
 :warning: <strong>Code is buggy</strong> :warning:
@@ -95,7 +94,7 @@
 ### 4.2 Analyzer:
 - The <a title="Analyzer" href="https://github.com/SarthakJShetty/Bias/tree/master/Analyzer.py/">```Analyzer.py```</a> analyzes the frequency of different words used in the abstract.
 
-- It serves as an intermediary between the Scraper and the Visualizer, preparing the scraped data into a neat ```.csv``` <a title="Analyzer CSV file" href="https://github.com/SarthakJShetty/Bias/blob/master/LOGS/LOG_2018-09-15_19_18_Bengal_Tiger_Ghats/Abstract_Database_2018-09-15_19_18_CSV_DATA.csv">file</a>.
+- It serves as an intermediary between the Scraper and the Visualizer, preparing the scraped data into a neat ```.csv``` <a title="Analyzer CSV file" href="https://github.com/SarthakJShetty/Bias/blob/master/LOGS/LOG_2019-02-14_11_13_Western_Ghats_Conservation/Abstract_Database_2019-02-14_11_13_FREQUENCY_CSV_DATA.csv">file</a>.
 
 - This ```.csv``` file is then passed on to the Visualizer.
 
