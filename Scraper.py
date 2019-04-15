@@ -322,10 +322,12 @@ def word_sorter_list_generator(status_logger_name):
 def delay_function(status_logger_name):
 	'''Since the Springer servers are contstantly shutting down the remote connection, we introduce
 	this function in the processor function in order to reduce the number of pings it delivers to the remote.'''
-	delay_function_start_status_key = "Delaying remote server ping: 15 seconds"
-	status_logger(status_logger_name, delay_function_start_status_key)
 
 	delay_variable = np.random.randint(0, 20)
+
+	delay_function_start_status_key = "Delaying remote server ping:"+" "+str(delay_variable)+" "+"seconds"
+	status_logger(status_logger_name, delay_function_start_status_key)
+
 	'''Sleep parameter causes the code to be be delayed by 1 second'''
 	time.sleep(delay_variable)
 
