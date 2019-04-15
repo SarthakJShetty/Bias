@@ -24,6 +24,15 @@ keywords_to_search, trend_keywords = arguments_parser()
 '''Calling the pre_processing functions here so that data is available across the code.'''
 abstract_id_log_name, abstracts_log_name, start_url, abstract_url, query_string, logs_folder_name, status_logger_name = pre_processing(keywords_to_search)
 
+'''New change to be made to the code:
+1. Split the Bias.py code into 4 portions.
+2. Use the Bias.py script to run the individual bits, but use a variable to state which portion would be used.
+3. Use a switch case statement to trigger to each portion of the code:
+	a. Scraper (For generating datasets)
+	b. Analyzer (For cleaning the dataset generated)
+	c. NLP Engine (For making sense of the text files)
+	d. Visualizer (To infer the conservation and trends data)'''
+
 '''Runs the scraper here to scrape the details from the scientific repository'''
 abstract_word_dictionary, starting_year, ending_year = scraper_main(abstract_id_log_name, abstracts_log_name, start_url, abstract_url, query_string, trend_keywords, keywords_to_search, status_logger_name)
 
