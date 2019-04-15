@@ -2,6 +2,11 @@
 
 <strong>Note:</strong> This build-log is updated chronologically, latest to old, top to bottom.
 
+### Date: 16/04/2019
+- Added a [system_functions.py](https://github.com/SarthakJShetty/Bias/blob/master/system_functions.py) script that contains a ```tarballer()``` and ```rm_original_folder()```.
+- ```tarballer()``` packages the LOG file generated as a ```<file_name>.tar.gz```.
+- ```rm_original_folder()``` deleted the LOG folder generated during run after tarballing.
+
 ### Date: 08/04/2019
 - The code has been [broken up](https://github.com/SarthakJShetty/Bias/blob/master/scripts/) into smaller modules that can be run independent of each other.
 - The modules run on Jupyter Notebooks for ease of use and improved readability.
