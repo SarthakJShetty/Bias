@@ -325,11 +325,11 @@ def delay_function(status_logger_name):
 	delay_function_start_status_key = "Delaying remote server ping: 15 seconds"
 	status_logger(status_logger_name, delay_function_start_status_key)
 
-	delay_variable = np.random.randint(0, 10)
+	delay_variable = np.random.randint(0, 20)
 	'''Sleep parameter causes the code to be be delayed by 1 second'''
 	time.sleep(delay_variable)
 
-	delay_function_end_status_key = "Delayed remote server ping: 15 seconds"
+	delay_function_end_status_key = "Delayed remote server ping:"+" "+str(delay_variable)+" "+"seconds"
 	status_logger(status_logger_name, delay_function_end_status_key)
 
 def processor(abstract_url, urls_to_scrape, abstract_id_log_name, abstracts_log_name, status_logger_name, trend_keywords, keywords_to_search):
