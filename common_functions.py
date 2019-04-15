@@ -93,26 +93,31 @@ def arguments_parser():
 	Parses two arguments now:
 	a) --keywords: This argument is the term that will be searched for in Springer.
 	b) --trends: This argument provides the term whose research trend will be generated.
-	c) --full: This argument is triggered if the PDFs have to be downloaded as well.'''
+	c) --paper: This argument is triggered if the PDFs have to be downloaded as well.'''
 
 	parser = argparse.ArgumentParser()
 	parser.add_argument("--keywords", help="Keyword to search on Springer", default="Tiger")
-	parser.add_argument("--trends", help="Keywords to generate the trends histogram for", default="Tiger")
-	parser.add_argument("--paper", help="If papers have to downloaded as well", default="No")
+	parser.add_argument("--trend", help="Keywords to generate the trends histogram for", default="Tiger")
+	parser.add_argument("--paper", help="If papers have to be downloaded as well", default="No")
+
 	arguments = parser.parse_args()
 	if arguments.keywords:
 		keywords = arguments.keywords
 	'''The keyword if a string will be split and then be passed to the scraper functions'''
+	
 	keywords = keywords.split()
 	if arguments.trends:
 		trends = arguments.trends
 	'''The entire list of the abstract words will be lowered and hence trends term has to be
 	lowered to obtain a match with those terms.'''
+	
 	if arguments.paper:
 		paper = arguments.paper
 	'''If this argument is turned to Yes, then the papers will be downloaded as well'''
+	
 	trends = trends.lower()
 	trends = trends.split()
+	
 	return keywords, trends
 
 def end_process(status_logger_name):
