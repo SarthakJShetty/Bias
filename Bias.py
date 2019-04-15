@@ -17,8 +17,10 @@ from NLP_Engine import nlp_engine_main
 from Visualizer import visualizer_main
 '''Imports some of the functions required by different scripts here.'''
 from common_functions import pre_processing, arguments_parser, end_process
-'''Keywords from the user are extracted here'''
+'''Declaring tarballer here from system_functions() to tarball the LOG directory, & rm_original_folder to delete the directory and save space.'''
+from system_functions import tarballer, rm_original_folder
 
+'''Keywords from the user are extracted here'''
 keywords_to_search, trend_keywords = arguments_parser()
 
 '''Calling the pre_processing functions here so that data is available across the code.'''
@@ -45,5 +47,11 @@ lda_model, corpus, id2word = nlp_engine_main(abstracts_log_name, status_logger_n
 '''Importing the visualizer_main function to view the LDA Model built by the NLP_engine_main() function'''
 visualizer_main(abstract_word_dictionary, starting_year, ending_year, trend_keywords, lda_model, corpus, id2word, logs_folder_name, status_logger_name)
 
+'''Evoking the tarballer here to tarball the LOG directory generated during the run'''
+tarballer(logs_folder_name, status_logger_name)
+
 '''Declaring the end of a successful run of the code'''
 end_process(status_logger_name)
+
+'''Deleting the files generated once the directory has been tarballed'''
+rm_original_folder(logs_folder_name, status_logger_name)
