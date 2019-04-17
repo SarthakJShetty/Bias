@@ -2,6 +2,11 @@
 
 <strong>Note:</strong> This build-log is updated chronologically, latest to old, top to bottom.
 
+### Date: 17/04/2019
+- Fixed the Journal title scrapping error. Server code crashed midway after 3700ish scrapes.
+- ```tarballer()``` and ```rm_original_folder()``` function work well. Check out latest [LOGS](https://github.com/SarthakJShetty/Bias/tree/master/LOGS/LOG_2019-04-16_2_49_Atlantic_Forest_Conservation).
+- Currently working on generating more datasets and figuring out topic-modelling representation of papers.
+
 ### Date: 16/04/2019
 - Added a [system_functions.py](https://github.com/SarthakJShetty/Bias/blob/master/system_functions.py) script that contains a ```tarballer()``` and ```rm_original_folder()```.
 - ```tarballer()``` packages the LOG file generated as a ```<file_name>.tar.gz```.
