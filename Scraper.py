@@ -143,7 +143,7 @@ def abstract_year_dictionary_dumper(abstract_word_dictionary, abstracts_log_name
 	
 	permanent_word_sorter_list_end_status_key = "Dumped the entire dictionary to the disc"
 	status_logger(status_logger_name, permanent_word_sorter_list_end_status_key)
-		
+
 def abstract_page_scraper(abstract_url, abstract_input_tag_id, abstracts_log_name, permanent_word_sorter_list, trend_keywords, site_url_index, status_logger_name):
 	'''This function is written to scrape the actual abstract of the specific paper,
 	 that is being referenced within the list of abstracts'''
@@ -277,18 +277,28 @@ def author_scraper(abstract_soup, status_logger_name):
 	author_scraper_start_status_key = "Scraping the author name"
 	status_logger(status_logger_name, author_scraper_start_status_key)
 	author = str(abstract_soup.find('span', {'class':'authors__name'}).text.encode('utf-8'))[1:]
-	author_scraper_end_status_key = "Scraped the author name"
+	author_scraper_end_status_key = "Scraped the author's name:" + " "+str(author)
 	status_logger(status_logger_name, author_scraper_end_status_key)
 	return author
 
 def title_scraper(abstract_soup, status_logger_name):
-	'''This function scrapes the title of the text'''
+	'''This function scrapes the title of the text from the abstract'''
 	title_scraper_start_status_key = "Scraping the title of the abstract"
 	status_logger(status_logger_name, title_scraper_start_status_key)
+	'''Purpose of this block is to retrieve the title of the text even if an AttributeError arises'''
 	try:
 		title = str(abstract_soup.find('h1',{'class':'ArticleTitle'}).text.encode('utf-8'))[1:]
+	'''In case an incorrectly classified asset is to be scrapped (Journal/Chapter as opposed to Article), go through
+	this blog in an attempt to retrieve the title.'''
 	except AttributeError:
-		title = str(abstract_soup.find('h1',{'class':'ChapterTitle'}).text.encode('utf-8'))[1:]
+		try:
+			title = str(abstract_soup.find('h1',{'class':'ChapterTitle'}).text.encode('utf-8'))[1:]
+		except AttributeError:
+			try:
+				title = title = (soup.find('span', {'class':'JournalTitle'}).text)
+			except AttributeError:
+				title = "Title not available"
+
 	title_scraper_end_status_key = "Scraped the title of the abstract"
 	status_logger(status_logger_name, title_scraper_end_status_key)
 	return title
