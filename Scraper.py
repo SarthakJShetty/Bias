@@ -288,13 +288,13 @@ def title_scraper(abstract_soup, status_logger_name):
 	'''Purpose of this block is to retrieve the title of the text even if an AttributeError arises'''
 	try:
 		title = str(abstract_soup.find('h1',{'class':'ArticleTitle'}).text.encode('utf-8'))[1:]
-		'''In case an incorrectly classified asset is to be scrapped (Journal/Chapter as opposed to Article), go through this blog in an attempt to retrieve the title.'''
+		'''In case an incorrectly classified asset is to be scrapped (Journal/Chapter as opposed to Article), go through this block in an attempt to retrieve the title.'''
 	except AttributeError:
 		try:
 			title = str(abstract_soup.find('h1',{'class':'ChapterTitle'}).text.encode('utf-8'))[1:]
 		except AttributeError:
 			try:
-				title = title = (soup.find('span', {'class':'JournalTitle'}).text)
+				title = (soup.find('span', {'class':'JournalTitle'}).text)
 			except AttributeError:
 				title = "Title not available"
 
