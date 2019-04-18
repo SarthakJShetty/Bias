@@ -1,10 +1,14 @@
-# Analyzing biases in academic publications
+# Analyzing Trends in Research Topics/Areas Across Biodiversity Hotspots
 
 :warning: <strong>Code is buggy</strong> :warning:
 
 ## 1.0 Introduction:
 
-- A significant proportion of publications pertaining to the Western Ghats in the <em>pre-independence era</em> of India was motivated by economic benefits of the region.
+In recent years, threats to biodiversity have increased as a function of changes in global climate and anthropogenic transformation of land (Cardinale et al., 2012).The tropics in particular are undergoing massive conversion of suitable habitat into agricultural land, forest plantations and industrial zones (Newbold et al., 2015). While habitat loss and climate change are ongoing and pervasive drivers of biodiversity loss, other threats (as defined under the Millenium Ecosystem Assessment Goals) include the spread of invasive species, overexploitation of natural resources and pollution (Insert MEA Citation). To prevent further loss of biodiversity, we need timely and targeted research that addresses ongoing threats in different geographic regions (Fisher et al., ?).  
+
+More info. to follow.
+
+A significant proportion of publications pertaining to the Western Ghats in the <em>pre-independence era</em> of India was motivated by economic benefits of the region.
 
 - For example, a quick search on scientific repositories reveals that most of the scientific publications related to this geographic area are related to the Nilgiri hills, <strong>primarily due to the economic incentives of growing tea in the region.</strong>
 
