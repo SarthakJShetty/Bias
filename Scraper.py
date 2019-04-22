@@ -294,7 +294,7 @@ def title_scraper(abstract_soup, status_logger_name):
 			title = str(abstract_soup.find('h1',{'class':'ChapterTitle'}).text.encode('utf-8'))[1:]
 		except AttributeError:
 			try:
-				title = (soup.find('span', {'class':'JournalTitle'}).text)
+				title = (abstract_soup.find('span', {'class':'JournalTitle'}).text)
 			except AttributeError:
 				title = "Title not available"
 
