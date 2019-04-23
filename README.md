@@ -129,7 +129,7 @@ To run the code and generate the topic distribution and trend of research graphs
 
 - Due to lack of storage, we are yet to integrate the portion of the code that scrapes information from papers.
 
-#### Note:
+**Note:**
 
 - This repository is still under active development. The <a title="README" href="https://github.com/SarthakJShetty/Bias">README.md</a> is yet to be updated in detail.
 
