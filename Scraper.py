@@ -72,7 +72,10 @@ def url_generator(start_url, query_string, status_logger_name):
 		url_generator_while_status_key=total_url+" "+"has been obtained"
 		status_logger(status_logger_name, url_generator_while_status_key)
 		soup = BeautifulSoup(urlopen(total_url), 'html.parser')
-		determiner = soup.find('a', {'class':'title'})
+		try:
+			determiner = soup.find('a', {'class':'title'})
+		except:
+			pass
 		urls_to_scrape.append(total_url)
 	urls_to_scrape.pop(len(urls_to_scrape)-1)
 	#print(urls_to_scrape)
