@@ -126,7 +126,7 @@ To run the code and generate the topic distribution and trend of research graphs
 
 ## 6.0 Results:
 
-Currently, the <a title="LOGS" href="https://github.com/SarthakJShetty/Bias/blob/master/LOGS/" target="_blank">results</a> from the various biodiversity runs are stored as tarballs, in the <a title="LOGS" href="https://github.com/SarthakJShetty/Bias/blob/master/LOGS/" target="_blank">results</a>  folder, primarily to save space. 
+Currently, the <a title="LOGS" href="https://github.com/SarthakJShetty/Bias/blob/master/LOGS/" target="_blank">results</a> from the various biodiversity runs are stored as tarballs, in the <a title="LOGS" href="https://github.com/SarthakJShetty/Bias/blob/master/LOGS/" target="_blank">LOGS</a>  folder, primarily to save space.
 
 To view the logs, topic-modelling results & trends chart from the tarballs, run the following commands:
 
