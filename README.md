@@ -117,13 +117,28 @@
 - The research themes data visualization is stored as a <a title="Data Visualization" href="https://github.com/SarthakJShetty/Bias/blob/master/LOGS/LOG_2018-12-31_17_11_Western_Ghats_Ecology_Conservation_Policy/Data_Visualization.html">.html file</a> in the LOGS directory and can be viewed in the browser.
 
 ## 5.0 Usage:
+
 To run the code and generate the topic distribution and trend of research graphs:
 		
 		(Bias) E:\Bias python Bias.py --keywords="Western Ghats" --trends="Conservation"
 
-- This command will scrape the abstracts from Springer that are related to "Western Ghats", and calculate the frequency with which the term "Conservation" appears in their abstract.
+- This command will scrape the abstracts from <a title="Springer" href="https://link.springer.com/" target="_blank">Springer</a> that are related to "Western Ghats", and calculate the frequency with which the term "Conservation" appears in their abstract.
 
-## 6.0 Known Issues:
+## 6.0 Results:
+
+Currently, the <a title="LOGS" href="https://github.com/SarthakJShetty/Bias/blob/master/LOGS/" target="_blank">results</a> from the various biodiversity runs are stored as tarballs, in the <a title="LOGS" href="https://github.com/SarthakJShetty/Bias/blob/master/LOGS/" target="_blank">results</a>  folder, primarily to save space. 
+
+To view the logs, topic-modelling results & trends chart from the tarballs, run the following commands:
+
+		tar zxvf <log_folder_to_be_unarchived>.tar.gz
+
+**Example:**
+
+To view the logs & results generated from the run on <a title="east Melanesian Islands" target="_blank" href="https://github.com/SarthakJShetty/Bias/blob/master/LOGS/LOG_2019-04-24_19_35_East_Melanesian_Islands.tar.gz">"East Melanesian Islands"</a>:
+
+		tar zxvf LOG_2019-04-24_19_35_East_Melanesian_Islands.tar.gz
+
+## 7.0 Issues:
 
 - The Scraper can only scrape abstracts from Springer at the moment
 
@@ -133,4 +148,4 @@ To run the code and generate the topic distribution and trend of research graphs
 
 - This repository is still under active development. The <a title="README" href="https://github.com/SarthakJShetty/Bias">README.md</a> is yet to be updated in detail.
 
-- A detailed weekly build-log can be found <a href="https://github.com/SarthakJShetty/Bias/blob/master/build-log.md" title="README" target="_blank">here</a>.
+- A detailed weekly (almost) build-log can be found <a href="https://github.com/SarthakJShetty/Bias/blob/master/build-log.md" title="build-log" target="_blank">here</a>.
