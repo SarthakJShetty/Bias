@@ -232,7 +232,7 @@ def selenium_middleware(url, status_logger_name):
 	page = browser.page_source
 
 	selenium_middleware_end_status_key = "Chromium running"
-	status_logger(status_logger_name, selenium_middleware_start_end_key)
+	status_logger(status_logger_name, selenium_middleware_end_status_key)
 	return page
 
 def page_souper(page, status_logger_name):
