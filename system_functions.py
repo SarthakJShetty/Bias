@@ -7,6 +7,7 @@ This script has been renamed as the system_functions.py to carry out OS level in
 1. tarballing the LOGS generated to reduce space.
 2. Deleting the LOGs once the tarball has been created.
 3. (Eventually) enable shell script to send the tarballed file over mail to the user.
+4. (Eventually) enable shell script to upload the LOGS generated to GitHub.
 
 - Sarthak J. Shetty
 15/04/2019
