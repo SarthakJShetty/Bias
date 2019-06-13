@@ -13,7 +13,7 @@
 
 # In[ ]:
 
-
+'''Phasing out this library for now. Will be redundant for a while, will figure a use-case for this.'''
 from urllib.request import urlopen
 ''''Importing urllib.error to handle errors in HTTP pinging.'''
 import urllib.error
@@ -151,7 +151,7 @@ def url_reader(url, status_logger_name):
 	This is added here to try and ping the page. If it returns false the loop ignores it and
 	moves on to the next PII number'''
 	try:
-		page=urlopen(url)
+		page=selenium_middleware(url, status_logger_name)
 		page_status(page, status_logger_name)
 		return page
 	except (UnboundLocalError, urllib.error.HTTPError):
@@ -168,7 +168,7 @@ def results_determiner(url, status_logger_name):
 	once it looks up the keyword on link.springer.com
 	The function returns all the possible links containing results and then provides the total number of results
 	returned by a particular keyword, or combination of keywords.'''
-	first_page_to_scrape = urlopen(url)
+	first_page_to_scrape = selenium_middleware(url, status_logger_name)
 	first_page_to_scrape_soup = BeautifulSoup(first_page_to_scrape, 'html.parser')
 	number_of_results = first_page_to_scrape_soup.find('h1', {'id':'number-of-search-results-and-search-terms'}).find('strong').text
 
@@ -189,7 +189,7 @@ def url_generator(start_url, query_string, status_logger_name):
 	initial_url_status_key = total_url+" "+"has been obtained"
 	status_logger(status_logger_name, initial_url_status_key)
 	urls_to_scrape.append(total_url)
-	test_soup = BeautifulSoup(urlopen(total_url), 'html.parser')
+	test_soup = BeautifulSoup(selenium_middleware(total_url, status_logger_name), 'html.parser')
 	determiner = int(test_soup.find('span', {'class':'number-of-pages'}).text)
 	'''This while loop continuously pings and checks for new webpages, then stores them for scraping'''
 	while(counter <= determiner):
@@ -197,7 +197,7 @@ def url_generator(start_url, query_string, status_logger_name):
 		total_url = start_url+str(counter)+"?search-within=Journal&facet-journal-id=10531&query="
 		url_generator_while_status_key=total_url+" "+"has been obtained"
 		status_logger(status_logger_name, url_generator_while_status_key)
-		soup = BeautifulSoup(urlopen(total_url), 'html.parser')
+		soup = BeautifulSoup(selenium_middleware(total_url, status_logger_name), 'html.parser')
 		urls_to_scrape.append(total_url)
 	urls_to_scrape.pop(len(urls_to_scrape)-1)
 	return urls_to_scrape
