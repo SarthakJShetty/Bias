@@ -11,7 +11,7 @@
 
 # Here we are importing the libraries required to run the scraping code. We are retrieving the abstacts, paper title and author names from [Springer](https://link.springer.com).
 
-# In[ ]:
+# In[1]:
 
 
 from urllib.request import urlopen
@@ -35,7 +35,7 @@ import os
 
 # Declaring the ```keywords``` variable here, which is topic that the scrapping will take place on. It will be appended to the start and abstract URLs during retrival. Also defining the ```trend_keywords``` term here, whose frequency is to be studied using the trends chart.
 
-# In[ ]:
+# In[2]:
 
 
 keywords_to_search="Biodiversity and Conservation"
@@ -47,7 +47,7 @@ trend_keywords="Conservation"
 
 # This function carries out a number of functions, including creating the holding directrories, declaration of variables like ```start_url``` and ```abstract_url```.
 
-# In[ ]:
+# In[3]:
 
 
 def pre_processing(keywords):
@@ -113,7 +113,7 @@ def pre_processing(keywords):
 
 # Defining the ```status_logger()``` function here which will log the functioning of all the individual modules. Primarily designed to improve diagnostics of the code once the scrapping has commenced.
 
-# In[ ]:
+# In[4]:
 
 
 def status_logger(status_logger_name, status_key):
@@ -132,7 +132,7 @@ def status_logger(status_logger_name, status_key):
 
 # The ```pre_processing()``` function is responsible for setting up the fundamental files and variables required to get the scrapper up and running.
 
-# In[ ]:
+# In[5]:
 
 
 abstract_id_log_name, abstracts_log_name, start_url, abstract_url, query_string, logs_folder_name, status_logger_name = pre_processing(keywords_to_search)
@@ -140,7 +140,7 @@ abstract_id_log_name, abstracts_log_name, start_url, abstract_url, query_string,
 
 # This function is responsible for reading the pages using the ```urlopen``` function. If an error is encountered (i.e. ```UnboundLocalError```) the encountered is passed.
 
-# In[ ]:
+# In[6]:
 
 
 def url_reader(url, status_logger_name):
@@ -158,7 +158,7 @@ def url_reader(url, status_logger_name):
 
 # This function determines the number of articles are to be scrapped. This value is stored in the ```number_of_results``` variable.
 
-# In[ ]:
+# In[7]:
 
 
 def results_determiner(url, status_logger_name):
@@ -173,7 +173,7 @@ def results_determiner(url, status_logger_name):
 
 # This function generates the ```urls``` that are to be scrapped systematically. We have defined a ```determiner``` variable here as well, which retrieves the number of pages that a particular result returns.
 
-# In[ ]:
+# In[8]:
 
 
 def url_generator(start_url, query_string, status_logger_name):
@@ -203,7 +203,7 @@ def url_generator(start_url, query_string, status_logger_name):
 
 # This function checks the publishes the status of the page, borrowing functionality from the ```page.status``` tool available with ```urllib.request```
 
-# In[ ]:
+# In[9]:
 
 
 def page_status(page, status_logger_name):
@@ -214,7 +214,7 @@ def page_status(page, status_logger_name):
 
 # This function soups the page before retrieving the abstracts of the publications.
 
-# In[ ]:
+# In[10]:
 
 
 def page_souper(page, status_logger_name):
@@ -230,7 +230,7 @@ def page_souper(page, status_logger_name):
 
 # This function stores each word encountered in an abstract against the year of occurance. Pre-processing within the function includes lowereing all words and sorting.
 
-# In[ ]:
+# In[11]:
 
 
 def abstract_word_extractor(abstract, abstract_title, abstract_year, permanent_word_sorter_list, trend_keywords, status_logger_name):
@@ -257,7 +257,7 @@ def abstract_word_extractor(abstract, abstract_title, abstract_year, permanent_w
 
 # This function counts the occurance of each term, in each year and forms a well organized form, comprising of keywords, against their year for different years. This is used for the trends plotter function as well.
 
-# In[ ]:
+# In[12]:
 
 
 def abstract_year_list_post_processor(permanent_word_sorter_list, status_logger_name):
@@ -278,7 +278,7 @@ def abstract_year_list_post_processor(permanent_word_sorter_list, status_logger_
 
 # The abstract dictionary returned by the previous function is dumped as a ```.csv``` file to the disc.
 
-# In[ ]:
+# In[13]:
 
 
 def abstract_year_dictionary_dumper(abstract_word_dictionary, abstracts_log_name, status_logger_name):
@@ -298,7 +298,7 @@ def abstract_year_dictionary_dumper(abstract_word_dictionary, abstracts_log_name
 
 # Moving away from the post processing function, in this function we scrape meta-data including title, data and author name. This function is a container that connects a number of other functions spread across the notebook.
 
-# In[ ]:
+# In[14]:
 
 
 def abstract_page_scraper(abstract_url, abstract_input_tag_id, abstracts_log_name, permanent_word_sorter_list, trend_keywords, site_url_index, status_logger_name):
@@ -331,7 +331,7 @@ def abstract_page_scraper(abstract_url, abstract_input_tag_id, abstracts_log_nam
 
 # This is the main function which organizes the scrapping, and coordinates with the above function. The ```delay_function()``` is also inscribed here.
 
-# In[ ]:
+# In[15]:
 
 
 def abstract_crawler(abstract_url, abstract_id_log_name, abstracts_log_name, permanent_word_sorter_list, trend_keywords, site_url_index, status_logger_name):
@@ -353,7 +353,7 @@ def abstract_crawler(abstract_url, abstract_id_log_name, abstracts_log_name, per
 
 # This ```.txt``` file contains only the abstract and passes it over to the ```NLP_Engine``` script before plotting the visualizations. This way, a lot of edge cases in formatting are avoided.
 
-# In[ ]:
+# In[16]:
 
 
 def analytical_abstract_database_writer(title, author, abstract, abstracts_log_name, status_logger_name):
@@ -374,7 +374,7 @@ def analytical_abstract_database_writer(title, author, abstract, abstracts_log_n
 
 # This is the ```.txt``` and ```.csv``` writers that holds all the data, including meta-data alongwith abstracts; Primarily for readability.
 
-# In[ ]:
+# In[17]:
 
 
 def abstract_database_writer(abstract_page_url, title, author, abstract, abstracts_log_name, abstract_date, status_logger_name):
@@ -404,7 +404,7 @@ def abstract_database_writer(abstract_page_url, title, author, abstract, abstrac
 
 # This function reads the abstract ID's from the .txt file where they are saved. Retrieved values are appended  to the ```abstract_start_urls``` to scrape the abstract and meta-data.
 
-# In[ ]:
+# In[18]:
 
 
 def abstract_id_database_reader(abstract_id_log_name, site_url_index, status_logger_name):
@@ -424,7 +424,7 @@ def abstract_id_database_reader(abstract_id_log_name, site_url_index, status_log
 
 # This function stores the ```abstract_ids``` for reference, and also for accessing across functions. This ensures reusability of stored values.
 
-# In[ ]:
+# In[19]:
 
 
 def abstract_id_database_writer(abstract_id_log_name, abstract_input_tag_id, site_url_index):
@@ -438,7 +438,7 @@ def abstract_id_database_writer(abstract_id_log_name, abstract_input_tag_id, sit
 
 # Seld-explanatory, scrapes the abstract data as meta-data.
 
-# In[ ]:
+# In[20]:
 
 
 def abstract_date_scraper(title, abstract_soup, status_logger_name):
@@ -460,7 +460,7 @@ def abstract_date_scraper(title, abstract_soup, status_logger_name):
 
 # Checks for the ```<p>``` tag corresponding to the abstract and returns them to the main function where it's being called.
 
-# In[ ]:
+# In[21]:
 
 
 def abstract_scraper(abstract_soup):
@@ -474,7 +474,7 @@ def abstract_scraper(abstract_soup):
 
 # Once again, self-explanatory, meta-data component scrapping the author of the publication.
 
-# In[ ]:
+# In[22]:
 
 
 def author_scraper(abstract_soup, status_logger_name):
@@ -489,7 +489,7 @@ def author_scraper(abstract_soup, status_logger_name):
 
 # Once again, self-explanatory, meta-data component scrapping the title of the publication.
 
-# In[ ]:
+# In[23]:
 
 
 def title_scraper(abstract_soup, status_logger_name):
@@ -551,14 +551,12 @@ def word_sorter_list_generator(status_logger_name):
 def delay_function(status_logger_name):
 	'''Since the Springer servers are contstantly shutting down the remote connection, we introduce
 	this function in the processor function in order to reduce the number of pings it delivers to the remote.'''
-	delay_function_start_status_key = "Delaying remote server ping: 15 seconds"
+	delay_variable = np.random.randint(0, 20)
+	'''Sleep parameter causes the code to be be delayed by random number of seconds'''
+	delay_function_start_status_key = "Delaying remote server ping:"+' '+str(delay_variable)+' '+" seconds"
 	status_logger(status_logger_name, delay_function_start_status_key)
-
-	delay_variable = np.random.randint(0, 10)
-	'''Sleep parameter causes the code to be be delayed by 1 second'''
 	time.sleep(delay_variable)
-
-	delay_function_end_status_key = "Delayed remote server ping: 15 seconds"
+	delay_function_end_status_key = "Delayed remote server ping:"+' '+str(delay_variable)+' '+" seconds"
 	status_logger(status_logger_name, delay_function_end_status_key)
 
 
