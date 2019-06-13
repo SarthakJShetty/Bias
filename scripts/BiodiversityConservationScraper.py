@@ -167,7 +167,7 @@ def results_determiner(url, status_logger_name):
 	The function returns all the possible links containing results and then provides the total number of results
 	returned by a particular keyword, or combination of keywords.'''
 	first_page_to_scrape = urlopen(url)
-	first_page_to_scrape_soup = BeautifulSoup(first_page_to_scrape, 'html.parser')
+	first_page_to_scrape_soup = page_souper(first_page_to_scrape, status_logger_name)
 	number_of_results = first_page_to_scrape_soup.find('h1', {'id':'number-of-search-results-and-search-terms'}).find('strong').text
 
 
@@ -187,7 +187,7 @@ def url_generator(start_url, query_string, status_logger_name):
 	initial_url_status_key = total_url+" "+"has been obtained"
 	status_logger(status_logger_name, initial_url_status_key)
 	urls_to_scrape.append(total_url)
-	test_soup = BeautifulSoup(urlopen(total_url), 'html.parser')
+	test_soup = page_souper(urlopen(total_url), status_logger_name)
 	determiner = int(test_soup.find('span', {'class':'number-of-pages'}).text)
 	'''This while loop continuously pings and checks for new webpages, then stores them for scraping'''
 	while(counter <= determiner):
@@ -195,7 +195,6 @@ def url_generator(start_url, query_string, status_logger_name):
 		total_url = start_url+str(counter)+"?search-within=Journal&facet-journal-id=10531&query="
 		url_generator_while_status_key=total_url+" "+"has been obtained"
 		status_logger(status_logger_name, url_generator_while_status_key)
-		soup = BeautifulSoup(urlopen(total_url), 'html.parser')
 		urls_to_scrape.append(total_url)
 	urls_to_scrape.pop(len(urls_to_scrape)-1)
 	return urls_to_scrape
@@ -222,7 +221,9 @@ def page_souper(page, status_logger_name):
 	Note: Appropriate encoding has to be picked up beenfore souping'''
 	page_souper_start_status_key = "Souping page"
 	status_logger(status_logger_name, page_souper_start_status_key)
+
 	page_soup = BeautifulSoup(page, 'html.parser')
+
 	page_souper_stop_status_key = "Souped page"
 	status_logger(status_logger_name, page_souper_stop_status_key)
 	return page_soup
