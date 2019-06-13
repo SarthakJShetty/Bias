@@ -51,6 +51,11 @@ def abstract_url_scraper(journal_month):
 	
 	return abstract_urls
 
+def abstract_writer(abstract):
+	abstract_log = open('Abstracts.txt', 'a')
+	abstract_log.write(abstract)
+	abstract_log.write('\n')
+	abstract_log.close()
 
 journal_years = journal_years_scraper(journal_url)
 abstracts = []
@@ -69,4 +74,5 @@ for journal_year in journal_years:
 			abstract_soup = souper(abstract_page)
 			abstract = abstract_soup.find('div',{'class':'article-section__content en main'}).text 
 			abstracts.append(abstract)
+			abstract_writer(abstract)
 			print('Abstract:' + abstract)
