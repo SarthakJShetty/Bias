@@ -8,6 +8,10 @@ You can check out the project here: https://github.com/SarthakJShetty/Bias. This
 from selenium import webdriver
 '''Selenium prepares the HTML code, that is in turn passed onto BeautifulSoup to prettify it and make it searchable'''
 from bs4 import BeautifulSoup as bs
+'''From time library we are importing sleep to delay intermittent pings.'''
+import time
+'''To randomise the delay, introducing the numpy randint function here'''
+import numpy as np
 
 '''Wiley URL remains consistent throughout, for accessing the journal and the abstracts'''
 wiley_url = 'https://onlinelibrary.wiley.com'
@@ -21,6 +25,11 @@ def selenium_driver(url):
 	'''Collecting the HTML of the triggered page'''
 	page = browser.page_source
 	return page
+
+def delay_ping():
+	'''This function delays the time between intermittent pings of the website, to elude serverside tracking scripts'''
+	delay_time = np.random.randint(0, 20)
+	time.sleep(delay_time)
 
 def url_appender(wiley_url, appendee):
 	'''This is a simple list appender which attaches the extracted href tags with the standard wiley_url declared above'''
@@ -89,10 +98,12 @@ for journal_year in journal_years:
 	print('Year:' + journal_year)
 	'''Collecting the months from each of the years here.'''
 	journal_months = journal_months_scraper(journal_year)
+	delay_ping()
 	for journal_month in journal_months:
 		'''Scrapping each of the abstracts in each of the month'''
 		print('Month:' + journal_month)
 		abstract_urls = abstract_url_scraper(journal_month)
+		delay_ping()
 		for abstract_url in abstract_urls:
 			'''Collecting the abstract from the URL that was scrapped before'''
 			print('URL:' + abstract_url)
@@ -110,3 +121,4 @@ for journal_year in journal_years:
 					abstract = 'Not available!'
 			abstracts.append(abstract)
 			print('Abstract:' + abstract)
+			delay_ping()
