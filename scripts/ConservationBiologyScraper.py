@@ -89,7 +89,16 @@ def abstract_writer(abstract):
 	abstract_log.close()
 
 '''Collecting the journal years first, then the recursion starts below'''
-journal_years = journal_years_scraper(journal_url)
+journal_years = ['https://onlinelibrary.wiley.com/loi/15231739/year/2004', 
+'https://onlinelibrary.wiley.com/loi/15231739/year/2003', 'https://onlinelibrary.wiley.com/loi/15231739/year/2002', 
+'https://onlinelibrary.wiley.com/loi/15231739/year/2001', 'https://onlinelibrary.wiley.com/loi/15231739/year/2000', 
+'https://onlinelibrary.wiley.com/loi/15231739/year/1999', 'https://onlinelibrary.wiley.com/loi/15231739/year/1998', 
+'https://onlinelibrary.wiley.com/loi/15231739/year/1997', 'https://onlinelibrary.wiley.com/loi/15231739/year/1996', 
+'https://onlinelibrary.wiley.com/loi/15231739/year/1995', 'https://onlinelibrary.wiley.com/loi/15231739/year/1994', 
+'https://onlinelibrary.wiley.com/loi/15231739/year/1993', 'https://onlinelibrary.wiley.com/loi/15231739/year/1992', 
+'https://onlinelibrary.wiley.com/loi/15231739/year/1991', 'https://onlinelibrary.wiley.com/loi/15231739/year/1990', 
+'https://onlinelibrary.wiley.com/loi/15231739/year/1989', 'https://onlinelibrary.wiley.com/loi/15231739/year/1988', 
+'https://onlinelibrary.wiley.com/loi/15231739/year/1987']
 '''Abstract will be appended to this list'''
 abstracts = []
 
