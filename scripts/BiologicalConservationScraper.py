@@ -105,7 +105,11 @@ for page_url in urls_to_scrape:
 		abstract_html_code = selenium_driver(abstract_link)
 		abstract_soup = souper(abstract_html_code)
 		'''Collecting the abstract text'''
-		abstract = abstract_soup.find('div', {'id':'as0005'}).text
-		abstract_writer(abstract)
+		try:
+			abstract = abstract_soup.find('div', {'id':'as0005'}).text
+			abstract_writer(abstract)
+		except AttributeError:
+			abstract = 'Not found! Check URL for additional tags!'
+		#abstract_writer(abstract)
 		print(abstract+'\n')
 		delay_ping()
