@@ -138,11 +138,25 @@ To view the logs & results generated from the run on <a title="east Melanesian I
 
 		tar zxvf LOG_2019-04-24_19_35_East_Melanesian_Islands.tar.gz
 
-## 7.0 Issues:
+### 6.1 Topic Modelling Results:
 
-- The Scraper can only scrape abstracts from Springer at the moment
+The ```NLP_Engine.py``` module creates topic modelling charts such as the one shown below.
 
-- Due to lack of storage, we are yet to integrate the portion of the code that scrapes information from papers.
+<img src='https://raw.githubusercontent.com/SarthakJShetty/Bias/master/assets/Topic_Modelling_Results.jpg' alt='Topic Modelling Chart'>
+
+<i>Distribution of topics discussed in publications about <a title = 'Eastern Himalayas  tarball' href =" https://github.com/SarthakJShetty/Bias/blob/master/LOGS/LOG_2019-02-27_15_23_Eastern_Himalayas.tar.gz" target="_blank">Eastern Himalayas</a>.</i>
+
+- Circles indicate topics generated from the ```.txt``` file supplied to the ```NLP_Engine.py```, as part of the ```Bias``` pipeline.
+- Each topic is made of a number of top keywords that are seen on the right, with an adjustable relevancy metric on top.
+- More details regarding the visualizations and the udnerlying mechanics can be checked out [here](https://nlp.stanford.edu/events/illvi2014/papers/sievert-illvi2014.pdf).
+
+### 6.2 Trends Result:
+
+<img src = "https://raw.githubusercontent.com/SarthakJShetty/Bias/master/assets/Trends_Chart.png" alt = 'Trends Chart for Eastern '>
+
+- Here, abstracts pertaining to [Eastern Himalayas](https://github.com/SarthakJShetty/Bias/blob/master/LOGS/LOG_2019-02-27_15_23_Eastern_Himalayas.tar.gz) were scrapped and temporally trend of occurance for "Conservation" was checked.
+- The frequency is presented alongisde the bubble for each year on the chart.
+- Still working on the presentability. [This](https://raw.githubusercontent.com/SarthakJShetty/Bias/master/assets/XKCD_Rendering.png) is an alternative that we're personally excited about.
 
 **Note:**
 
