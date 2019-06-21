@@ -106,13 +106,24 @@ for page_url in urls_to_scrape:
 		abstract_soup = souper(abstract_html_code)
 		'''Collecting the abstract text'''
 		try:
+			'''Hard-coding a bunch of edge cases here which are regularly encountered throughout the corpus of data being retreived.'''
 			abstract = abstract_soup.find('div', {'id':'as0005'}).text
+			'''Saving the code to the database to run through the topic-modeller'''
 			abstract_writer(abstract)
 		except AttributeError:
 			try:
 				abstract = soup.find('div', {'id':'as5000'}).text
-			except:
-				abstract = 'Not found! Check URL for additional tags!'
-		#abstract_writer(abstract)
+				abstract_writer(abstract)
+			except AttributeError:
+				try:
+					abstract = soup.find('div', {'id':'aep-abstract-sec-id13'}).text
+					abstract_writer(abstract)
+				except AttributeError:
+					try:
+						abstract = soup.find('div', {'id':'as010'}).text
+						abstract_writer(abstract)
+					except:
+						abstract = 'Abstract not found! Look at URL'
 		print(abstract+'\n')
+		'''Delaying the ping for a random number of seconds before proceeding to the next abstract'''
 		delay_ping()
