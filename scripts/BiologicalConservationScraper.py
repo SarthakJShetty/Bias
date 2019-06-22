@@ -112,15 +112,15 @@ for page_url in urls_to_scrape:
 			abstract_writer(abstract)
 		except AttributeError:
 			try:
-				abstract = soup.find('div', {'id':'as5000'}).text
+				abstract = abstract_soup.find('div', {'id':'as5000'}).text
 				abstract_writer(abstract)
 			except AttributeError:
 				try:
-					abstract = soup.find('div', {'id':'aep-abstract-sec-id13'}).text
+					abstract = abstract_soup.find('div', {'id':'aep-abstract-sec-id13'}).text
 					abstract_writer(abstract)
 				except AttributeError:
 					try:
-						abstract = soup.find('div', {'id':'as010'}).text
+						abstract = abstract_soup.find('div', {'id':'as010'}).text
 						abstract_writer(abstract)
 					except:
 						abstract = 'Abstract not found! Look at URL'
