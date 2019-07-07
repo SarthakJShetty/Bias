@@ -7,7 +7,7 @@ You can check out the broader Bias project here: https;//GitHub.com/SarthakJShet
 (16/06/2019)'''
 
 '''Importing selenium here to trigger the Chrome isntance from where the HTML is collected for scrapping'''
-from selenium import webdriver
+from selenium import webdriver, common
 '''Making code readable using BeautifulSoup'''
 from bs4 import BeautifulSoup as bs
 '''To generate random integers for the delay function, numpy is used'''
@@ -103,8 +103,13 @@ for page_url in urls_to_scrape:
 	delay_ping()
 	for abstract_link in abstract_links:
 		print('Abstract Link:  '+abstract_link+'\n')
-		abstract_html_code = selenium_driver(abstract_link)
-		abstract_soup = souper(abstract_html_code)
+		try:
+			abstract_html_code = selenium_driver(abstract_link)
+			abstract_soup = souper(abstract_html_code)
+		except common.exceptions.TimeoutException:
+			print('Trying again!')
+			abstract_html_code = selenium_driver(abstract_link)
+			abstract_soup = souper(abstract_html_code)
 		'''Collecting the abstract text'''
 		try:
 			'''Hard-coding a bunch of edge cases here which are regularly encountered throughout the corpus of data being retreived.'''
