@@ -22,8 +22,8 @@ abstract_url = 'https://www.sciencedirect.com/search/advanced?pub=Biological%20C
 
 def selenium_driver(url):
 	'''Creating Chrome instances from where the HTMl is scrapped from'''
-	browser.set_page_load_timeout(60)
 	browser = webdriver.Chrome()
+	browser.set_page_load_timeout(60)
 	browser.get(url)
 	html_code = browser.page_source
 	
