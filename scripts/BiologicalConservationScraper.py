@@ -22,6 +22,7 @@ abstract_url = 'https://www.sciencedirect.com/search/advanced?pub=Biological%20C
 
 def selenium_driver(url):
 	'''Creating Chrome instances from where the HTMl is scrapped from'''
+	browser.set_page_load_timeout(60)
 	browser = webdriver.Chrome()
 	browser.get(url)
 	html_code = browser.page_source
@@ -107,7 +108,7 @@ for page_url in urls_to_scrape:
 		'''Collecting the abstract text'''
 		try:
 			'''Hard-coding a bunch of edge cases here which are regularly encountered throughout the corpus of data being retreived.'''
-			abstract = abstract_soup.find('div', {'class':'abstract author'}).text
+			abstract = abstract_soup.find('div', {'class':'abstract author'}).text[8:]
 			'''Saving the code to the database to run through the topic-modeller'''
 			abstract_writer(abstract)
 			print('#1 This works!')
