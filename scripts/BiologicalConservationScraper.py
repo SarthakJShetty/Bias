@@ -127,6 +127,7 @@ for page_url in urls_to_scrape:
 			abstract = abstract_soup.find('div', {'class':'abstract author'}).text[8:]
 			'''Saving the code to the database to run through the topic-modeller'''
 			abstract_writer(abstract)
+			browser.close()
 			print('#1 This works!')
 		except AttributeError:
 			try:
