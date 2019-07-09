@@ -27,7 +27,7 @@ def selenium_driver(url):
 	browser.get(url)
 	html_code = browser.page_source
 	
-	return html_code
+	return html_code, browser
 
 def souper(html_code):
 	'''Soupifying code, making it pretty and parsing it to be scrapped'''
@@ -37,7 +37,7 @@ def souper(html_code):
 
 def pages_to_scrape_number(url):
 	'''Collecting the number of pages containing abstract links to be scrapped'''
-	html_code = selenium_driver(url)
+	html_code, browser = selenium_driver(url)
 	soup = souper(html_code)
 
 	'''Returning the integer value of the number of pages to the main function pipeline'''
@@ -67,7 +67,7 @@ def abstract_link_appender(pre_abstract_links, science_direct_url):
 def abstract_link_scraper(url):
 	'''Scrapping the URL of the abstract page from the results obtained'''
 	pre_abstract_links = []
-	html_code = selenium_driver(url)
+	html_code, browser = selenium_driver(url)
 	soup = souper(html_code)
 	
 	abstracts_result_set = soup.findAll('a', {'class':'result-list-title-link u-font-serif text-s'})
@@ -90,6 +90,10 @@ def delay_ping():
 	print('Delaying by: '+str(delay_value)+'\n')
 	time.sleep(delay_value)
 
+def page_refresher(browser):
+	'''This function refreshes the webpage rendered by selenium, in case Chrome is unreachable'''
+	browser.refresh()
+
 '''Collecting the number of pages from the bottom of the results page'''
 number_of_pages = pages_to_scrape_number(abstract_url)
 print('Number of pages to scrape: '+str(number_of_pages))
@@ -104,11 +108,18 @@ for page_url in urls_to_scrape:
 	for abstract_link in abstract_links:
 		print('Abstract Link:  '+abstract_link+'\n')
 		try:
-			abstract_html_code = selenium_driver(abstract_link)
+			abstract_html_code, browser = selenium_driver(abstract_link)
+			abstract_soup = souper(abstract_html_code)
+		except common.exceptions.WebDriverException:
+			'''In case the browser is unreachable, open the instance again and refresh'''
+			abstract_html_code, browser = selenium_driver(abstract_link)
+			page_refresher(browser)
 			abstract_soup = souper(abstract_html_code)
 		except common.exceptions.TimeoutException:
-			print('Trying again!')
-			abstract_html_code = selenium_driver(abstract_link)
+			'''This chunk of code prevents timeouts in the connection. If said timeout occurs, it reinitializes the window'''
+			page_refresher(browser)
+			browser.close()
+			abstract_html_code, browser = selenium_driver(abstract_link)
 			abstract_soup = souper(abstract_html_code)
 		'''Collecting the abstract text'''
 		try:
