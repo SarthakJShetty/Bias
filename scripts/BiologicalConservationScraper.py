@@ -129,40 +129,6 @@ for page_url in urls_to_scrape:
 			abstract_writer(abstract)
 			browser.close()
 			print('#1 This works!')
-		except AttributeError:
-			try:
-				abstract = abstract_soup.find('div', {'id':'as5000'}).text
-				abstract_writer(abstract)
-			except AttributeError:
-				try:
-					abstract = abstract_soup.find('div', {'id':'aep-abstract-sec-id13'}).text
-					abstract_writer(abstract)
-				except AttributeError:
-					try:
-						abstract = abstract_soup.find('div', {'id':'as010'}).text
-						abstract_writer(abstract)
-					except AttributeError:
-						try:
-							abstract = abstract_soup.find('div', {'id':'aep-abstract-sec-id14'}).text
-							abstract_writer(abstract)
-						except AttributeError:
-							try:
-								abstract_soup.find('p', {'id':'simple-para.0080'}).text 
-								abstract_writer(abstract)
-							except AttributeError:
-								try:
-									abstract = abstract_soup.find('p', {'id':'simple-para.0030'}).text
-									abstract_writer(abstract)
-								except AttributeError:
-									try:
-										abstract = abstract_soup.find('p', {'id':'simple-para.0050'}).text
-										abstract_writer(abstract)
-									except AttributeError:
-										try:
-											abstract = abstract_soup.find('div', {'id':'as0005'}).text
-											abstract_writer(abstract)
-										except AttributeError:
-											abstract = 'Abstract not found! Look at URL'
 		print(abstract+'\n')
 		'''Delaying the ping for a random number of seconds before proceeding to the next abstract'''
 		delay_ping()
