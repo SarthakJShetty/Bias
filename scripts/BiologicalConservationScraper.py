@@ -122,13 +122,9 @@ for page_url in urls_to_scrape:
 			abstract_html_code, browser = selenium_driver(abstract_link)
 			abstract_soup = souper(abstract_html_code)
 		'''Collecting the abstract text'''
-		try:
-			'''Hard-coding a bunch of edge cases here which are regularly encountered throughout the corpus of data being retreived.'''
-			abstract = abstract_soup.find('div', {'class':'abstract author'}).text[8:]
-			'''Saving the code to the database to run through the topic-modeller'''
-			abstract_writer(abstract)
-			browser.close()
-			print('#1 This works!')
-		print(abstract+'\n')
-		'''Delaying the ping for a random number of seconds before proceeding to the next abstract'''
-		delay_ping()
+		'''Hard-coding a bunch of edge cases here which are regularly encountered throughout the corpus of data being retreived.'''
+		abstract = abstract_soup.find('div', {'class':'abstract author'}).text[8:]
+		'''Saving the code to the database to run through the topic-modeller'''
+		abstract_writer(abstract)
+		browser.close()
+		print('#1 This works!')
