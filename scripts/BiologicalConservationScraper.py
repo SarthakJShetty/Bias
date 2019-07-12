@@ -97,6 +97,7 @@ def page_refresher(browser):
 '''Collecting the number of pages from the bottom of the results page'''
 number_of_pages = pages_to_scrape_number(abstract_url)
 print('Number of pages to scrape: '+str(number_of_pages))
+
 '''Generating URLs from where the abstracts are to be scrapped'''
 urls_to_scrape = url_generator(abstract_url, number_of_pages)
 
@@ -107,6 +108,8 @@ for page_url in urls_to_scrape:
 	delay_ping()
 	for abstract_link in abstract_links:
 		print('Abstract Link:  '+abstract_link+'\n')
+
+		'''This set of try & except statements attempt to launch a stable Chrome window before scrapping is initiated'''
 		try:
 			abstract_html_code, browser = selenium_driver(abstract_link)
 			abstract_soup = souper(abstract_html_code)
@@ -121,10 +124,16 @@ for page_url in urls_to_scrape:
 			browser.close()
 			abstract_html_code, browser = selenium_driver(abstract_link)
 			abstract_soup = souper(abstract_html_code)
+		
 		'''Collecting the abstract text'''
 		'''Hard-coding a bunch of edge cases here which are regularly encountered throughout the corpus of data being retreived.'''
-		abstract = abstract_soup.find('div', {'class':'abstract author'}).text[8:]
+		try:
+			print('#1 This works!')
+			abstract = abstract_soup.find('div', {'class':'abstract author'}).text[8:]
+			abstract_writer(abstract+'\n')
+		except AttributeError:
+			'''Here, we hard-code case to move on to the next abstract if the paper does not have an abstract attached to it'''
+			abstract = "Not found! Check URL"
+		
 		'''Saving the code to the database to run through the topic-modeller'''
-		abstract_writer(abstract)
 		browser.close()
-		print('#1 This works!')
