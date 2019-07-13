@@ -3,6 +3,7 @@
 :warning: <strong>Code is buggy</strong> :warning:
 
 ## 1.0 Introduction:
+*This branch is contains code specifically for our "Threats to Themes" project. Here is the main [repository](https://github.com/SarthakJShetty/Bias).*
 
 - A significant proportion of publications pertaining to the Western Ghats in the <em>pre-independence era</em> of India was motivated by economic benefits of the region.
 
