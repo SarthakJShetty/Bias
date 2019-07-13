@@ -46,7 +46,7 @@ def pages_to_scrape_number(url):
 def url_generator(abstract_url, number_of_pages):
 	'''Generating URLs by appending a counter term to the ScienceDirect URL mentioned earlier'''
 	urls_to_scrape = []
-        for number in range(12, number_of_pages):
+	for number in range(12, number_of_pages):
 		if(number == 0):
 			'''In order to avoid looking at ugly 000 at the end of the first URL'''
 			temp_url = abstract_url + str(number)
