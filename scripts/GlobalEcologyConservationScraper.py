@@ -41,12 +41,12 @@ def pages_to_scrape_number(url):
 	soup = souper(html_code)
 
 	'''Returning the integer value of the number of pages to the main function pipeline'''
-	return int(((soup.find('ol', {'class':'Pagination hor-separated-list'}).text).split(' ')[3])[:2])
+	return int(soup.find('ol', {'class':'Pagination hor-separated-list'}).text.split(" ")[3][:1])
 
 def url_generator(abstract_url, number_of_pages):
 	'''Generating URLs by appending a counter term to the ScienceDirect URL mentioned earlier'''
 	urls_to_scrape = []
-	for number in range(55, number_of_pages):
+	for number in range(0, number_of_pages):
 		if(number == 0):
 			'''In order to avoid looking at ugly 000 at the end of the first URL'''
 			temp_url = abstract_url + str(number)
@@ -95,7 +95,7 @@ def page_refresher(browser):
 	browser.refresh()
 
 '''Collecting the number of pages from the bottom of the results page'''
-number_of_pages = 60
+number_of_pages = pages_to_scrape_number(abstract_url)
 print('Number of pages to scrape: '+str(number_of_pages))
 
 '''Generating URLs from where the abstracts are to be scrapped'''
