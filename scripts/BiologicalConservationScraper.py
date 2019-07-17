@@ -46,7 +46,7 @@ def pages_to_scrape_number(url):
 def url_generator(abstract_url, number_of_pages):
 	'''Generating URLs by appending a counter term to the ScienceDirect URL mentioned earlier'''
 	urls_to_scrape = []
-	for number in range(12, number_of_pages):
+	for number in range(0, number_of_pages):
 		if(number == 0):
 			'''In order to avoid looking at ugly 000 at the end of the first URL'''
 			temp_url = abstract_url + str(number)
@@ -130,10 +130,10 @@ for page_url in urls_to_scrape:
 		try:
 			print('#1 This works!')
 			abstract = abstract_soup.find('div', {'class':'abstract author'}).text[8:]
+			'''Saving the code to the database to run through the topic-modeller'''
 			abstract_writer(abstract+'\n')
 		except AttributeError:
 			'''Here, we hard-code case to move on to the next abstract if the paper does not have an abstract attached to it'''
 			abstract = "Not found! Check URL"
-		
-		'''Saving the code to the database to run through the topic-modeller'''
+		'''Closing the browser instance'''
 		browser.close()
