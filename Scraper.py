@@ -10,8 +10,8 @@ Sarthak J. Shetty
 
 '''Adding the libraries to be used here.'''
 
-'''urllib2 has since lost support and urllib.request has replaced it. urlopen has been borrowed from there.'''
-from urllib.request import urlopen
+'''Importing Selenium and deprecating urlopen'''
+from selenium import webdriver
 ''''Importing urllib.error to handle errors in HTTP pinging.'''
 import urllib.error
 '''BeautifulSoup is used for souping.'''
@@ -33,9 +33,12 @@ def url_reader(url, status_logger_name):
 	This is added here to try and ping the page. If it returns false the loop ignores it and
 	moves on to the next PII number'''
 	try:
-		page=urlopen(url)
-		page_status(page, status_logger_name)
-		return page
+		browser = webdriver.Chrome()
+		browser.get(url)
+		html_code = browser.page_source
+		return html_code			
+		'''Closing the abstract window after each abstract has been extracted'''
+		browser.close()
 	except (UnboundLocalError, urllib.error.HTTPError):
 		pass
 
@@ -44,7 +47,7 @@ def results_determiner(url, status_logger_name):
 	once it looks up the keyword on link.springer.com
 	The function returns all the possible links containing results and then provides the total number of results
 	returned by a particular keyword, or combination of keywords.'''
-	first_page_to_scrape = urlopen(url)
+	first_page_to_scrape = url_reader(url, status_logger_name)
 	first_page_to_scrape_soup = BeautifulSoup(first_page_to_scrape, 'html.parser')
 	number_of_results = first_page_to_scrape_soup.find('h1', {'id':'number-of-search-results-and-search-terms'}).find('strong').text
 	results_determiner_status_key = "Total number of results obtained: "+number_of_results
@@ -63,7 +66,7 @@ def url_generator(start_url, query_string, status_logger_name):
 	initial_url_status_key = total_url+" "+"has been obtained"
 	status_logger(status_logger_name, initial_url_status_key)
 	urls_to_scrape.append(total_url)
-	test_soup = BeautifulSoup(urlopen(total_url), 'html.parser')
+	test_soup = BeautifulSoup(url_reader(total_url, status_logger_name), 'html.parser')
 	determiner = test_soup.find('a', {'class':'title'})
 	'''This while loop continuously pings and checks for new webpages, then stores them for scraping'''
 	while(determiner):
@@ -71,18 +74,13 @@ def url_generator(start_url, query_string, status_logger_name):
 		total_url = start_url+str(counter)+"?facet-content-type=\"Article\"&query="+query_string
 		url_generator_while_status_key=total_url+" "+"has been obtained"
 		status_logger(status_logger_name, url_generator_while_status_key)
-		soup = BeautifulSoup(urlopen(total_url), 'html.parser')
+		soup = BeautifulSoup(url_reader(total_url, status_logger_name), 'html.parser')
 		determiner = soup.find('a', {'class':'title'})
 		urls_to_scrape.append(total_url)
 	urls_to_scrape.pop(len(urls_to_scrape)-1)
 	#print(urls_to_scrape)
 	url_generator_stop_status_key = "URLs have been obtained"
 	return urls_to_scrape
-
-def page_status(page, status_logger_name):
-	'''Prints the page status. Will be used whenever a new webpage is picked for scraping.'''
-	page_status_key = "Page status:"+" "+str(page.status)
-	status_logger(status_logger_name, page_status_key)
 
 def page_souper(page, status_logger_name):
 	'''Function soups the webpage elements and provided the tags for search.
@@ -171,7 +169,7 @@ def abstract_page_scraper(abstract_url, abstract_input_tag_id, abstracts_log_nam
 	abstract_database_writer(abstract_page_url, title, author, abstract, abstracts_log_name, abstract_date, status_logger_name)
 	analytical_abstract_database_writer(title, author, abstract, abstracts_log_name, status_logger_name)
 
-def abstract_crawler(abstract_url, abstract_id_log_name, abstracts_log_name, permanent_word_sorter_list, trend_keywords, site_url_index, status_logger_name):
+def abstract_crawler(abstract_url, abstract_id_log_name, abstracts_log_name, permanent_word_sorter_list, trend_keywords, site_url_index, browser, status_logger_name):
 	abstract_crawler_temp_index  = site_url_index
 	'''This function crawls the page and access each and every abstract'''
 	abstract_input_tag_ids = abstract_id_database_reader(abstract_id_log_name, abstract_crawler_temp_index, status_logger_name)
@@ -180,8 +178,6 @@ def abstract_crawler(abstract_url, abstract_id_log_name, abstracts_log_name, per
 			abstract_crawler_accept_status_key="Abstract Number:"+" "+str((abstract_input_tag_ids.index(abstract_input_tag_id)+1)+abstract_crawler_temp_index*20)
 			status_logger(status_logger_name, abstract_crawler_accept_status_key)
 			abstract_page_scraper(abstract_url, abstract_input_tag_id, abstracts_log_name, permanent_word_sorter_list, trend_keywords, site_url_index, status_logger_name)
-			'''Introduces a 5 second delay between successive pings.'''
-			delay_function(status_logger_name)
 		except TypeError:
 			abstract_crawler_reject_status_key="Abstract Number:"+" "+str(abstract_input_tag_ids.index(abstract_input_tag_id)+1)+" "+"could not be processed"
 			status_logger(status_logger_name, abstract_crawler_reject_status_key)
@@ -363,6 +359,8 @@ def processor(abstract_url, urls_to_scrape, abstract_id_log_name, abstracts_log_
 		abstract_id_scraper(abstract_id_log_name, page_soup, site_url_index, status_logger_name)
 		'''Actually obtaining the abstracts after combining ID with the abstract_url'''
 		abstract_crawler(abstract_url, abstract_id_log_name, abstracts_log_name, permanent_word_sorter_list, trend_keywords, site_url_index, status_logger_name)
+		'''Delaying after each page being scrapped, rather than after each abstract'''
+		delay_function(status_logger_name)
 
 	'''This line of code processes and generates a dictionary from the abstract data'''
 	
