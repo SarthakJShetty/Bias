@@ -1,6 +1,6 @@
-'''This is the one of the last bits of journal scrapers that we have written for this project. Here, we scrape approximately 10,000 odd papers from 
-Biological Conservation, a journal maintained by Elseiver/ScienceDirect. Most of the scrapping principles across the journals are same, bar a few
-features.
+'''This is the one of the last bits of journal scrapers that we have written for this project. Here, we scrape papers from The Journal For Nature Conservation, 
+maintained by Elseiver/ScienceDirect. Most of the scrapping principles across the journals are same, bar a few features.
+
 You can check out the broader Bias project here: https;//GitHub.com/SarthakJShetty/Bias
 
 -Sarthak

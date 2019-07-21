@@ -1,13 +1,7 @@
-#!/usr/bin/env python
-# coding: utf-8
+'''This script is a stripped down version of the [Scraper.py](https://github.com/SarthakJShetty/Bias/blob/master/Scraper.py) code that is used to generate the dataset for analyses of research trends. It's a small piece of the larger [Bias](https://GitHub.com/SarthakJShetty/Bias) project.
+Specifically, this script scrapes the [Biodiversity and Conservation Journal](https://link.springer.com/journal/10531), published by Springer. This code is reactive & unstable, and is tangential to our [Bias](https://github.com/SarthakJShetty/Bias) project.
 
-# ### Scraper Script
-
-# This script is a stripped down version of the [Scraper.py](https://github.com/SarthakJShetty/Bias/blob/master/Scraper.py) code that is used to generate the dataset for analyses of research trends. It's a small piece of the larger [Bias](https://GitHub.com/SarthakJShetty/Bias) project.
-
-# Specifically, this script scrapes the [Biodeiversity and Conservation Journal](https://link.springer.com/journal/10531), published by Springer. This code is reactive & unstable, and is tangential to our [Bias](https://github.com/SarthakJShetty/Bias) project.
-
-# ### 1.0 <u>Code</u>
+You can check out the broader Bias project here: https;//GitHub.com/SarthakJShetty/Bias'''
 
 # Here we are importing the libraries required to run the scraping code. We are retrieving the abstacts, paper title and author names from [Springer](https://link.springer.com).
 

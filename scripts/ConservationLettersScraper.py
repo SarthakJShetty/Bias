@@ -1,5 +1,5 @@
-'''This script is part of the larger Bias project, where we are trying to understand the trends and themes of research, across different biodiversity hotspots.
-You can check out the project here: https://github.com/SarthakJShetty/Bias. This script scrapes Conservation Biology, entirely to generate the baselines that we will use to compare the themes.
+'''This script is used to scrape the Conservation Letters Journals to generate the abstract corpus for the Threats to Themes project.
+You can check out the broader Bias project here: https;//GitHub.com/SarthakJShetty/Bias
 
 -Sarthak
 (14/06/2019)'''

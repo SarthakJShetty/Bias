@@ -1,6 +1,8 @@
 '''This script is part of the larger Bias project, where we are trying to understand the trends and themes of research, across different biodiversity hotspots.
 You can check out the project here: https://github.com/SarthakJShetty/Bias. This script scrapes Conservation Biology, entirely to generate the baselines that we will use to compare the themes.
 
+Publication Count: 
+
 -Sarthak
 (14/06/2019)'''
 
