@@ -80,6 +80,8 @@
 	<strong>Note:</strong> This step usually takes a few minutes, depending on your network speed.
 
 ## 4.0 How it works:
+<img src="assets/BiasFlow.png" alt="Bias Pipeline">
+<i>Diagramatic representation of pipeline for collecting papers and generating visualizations.</i>
 
 ### 4.1 Scraper:
 - The <a title="Scraper" href="https://github.com/SarthakJShetty/Bias/blob/master/Scraper.py">```Scraper.py```</a> currently scrapes only the abstracts from <a title="Springer" href="https://www.link.Springer.com">Springer</a>.
