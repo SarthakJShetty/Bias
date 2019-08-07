@@ -80,6 +80,7 @@ def url_generator(start_url, query_string, status_logger_name):
 	urls_to_scrape.pop(len(urls_to_scrape)-1)
 	#print(urls_to_scrape)
 	url_generator_stop_status_key = "URLs have been obtained"
+	status_logger(status_logger_name, url_generator_stop_status_key)
 	return urls_to_scrape
 
 def page_souper(page, status_logger_name):
@@ -170,6 +171,8 @@ def abstract_page_scraper(abstract_url, abstract_input_tag_id, abstracts_log_nam
 	analytical_abstract_database_writer(title, author, abstract, abstracts_log_name, status_logger_name)
 
 def abstract_crawler(abstract_url, abstract_id_log_name, abstracts_log_name, permanent_word_sorter_list, trend_keywords, site_url_index, browser, status_logger_name):
+	abstract_crawler_start_status_key = "Entered the Abstract Crawler"
+	status_logger(status_logger_name, abstract_crawler_start_status_key)
 	abstract_crawler_temp_index  = site_url_index
 	'''This function crawls the page and access each and every abstract'''
 	abstract_input_tag_ids = abstract_id_database_reader(abstract_id_log_name, abstract_crawler_temp_index, status_logger_name)
@@ -182,6 +185,8 @@ def abstract_crawler(abstract_url, abstract_id_log_name, abstracts_log_name, per
 			abstract_crawler_reject_status_key="Abstract Number:"+" "+str(abstract_input_tag_ids.index(abstract_input_tag_id)+1)+" "+"could not be processed"
 			status_logger(status_logger_name, abstract_crawler_reject_status_key)
 			pass
+	abstract_crawler_end_status_key = "Exiting the Abstract Crawler"
+	status_logger(status_logger_name, abstract_crawler_end_status_key)
 
 def analytical_abstract_database_writer(title, author, abstract, abstracts_log_name, status_logger_name):
 	'''This function will generate a secondary abstract file that will contain only the abstract.
