@@ -100,5 +100,4 @@ can be reverted by changing a single line of code. Check the commit correspondin
 
 ### Date: 28/08/2018
 - The Scraper.py code is ready.
-- It can scrape abstracts off of ScienceDirect and store them in the LOGS folder, corresponding to the date when the
-script was run.
+- It can scrape abstracts off of ScienceDirect and store them in the LOGS folder, corresponding to the date when the  script was run.
