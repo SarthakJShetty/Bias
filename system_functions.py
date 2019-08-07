@@ -33,7 +33,6 @@ def tarballer(logs_folder_name, status_logger_name):
 	status_logger(status_logger_name, tarballer_start_status_key)
 
 	command_to_tar_function = "tar czf"+" "+logs_folder_name+".tar.gz"+" "+logs_folder_name
-
 	os.system(command_to_tar_function)
 
 	tarballer_start_end_key = "Tarballed"+" "+logs_folder_name+" "+"into"+" "+logs_folder_name+".tar.gz"
