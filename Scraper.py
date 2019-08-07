@@ -170,7 +170,7 @@ def abstract_page_scraper(abstract_url, abstract_input_tag_id, abstracts_log_nam
 	abstract_database_writer(abstract_page_url, title, author, abstract, abstracts_log_name, abstract_date, status_logger_name)
 	analytical_abstract_database_writer(title, author, abstract, abstracts_log_name, status_logger_name)
 
-def abstract_crawler(abstract_url, abstract_id_log_name, abstracts_log_name, permanent_word_sorter_list, trend_keywords, site_url_index, browser, status_logger_name):
+def abstract_crawler(abstract_url, abstract_id_log_name, abstracts_log_name, permanent_word_sorter_list, trend_keywords, site_url_index, status_logger_name):
 	abstract_crawler_start_status_key = "Entered the Abstract Crawler"
 	status_logger(status_logger_name, abstract_crawler_start_status_key)
 	abstract_crawler_temp_index  = site_url_index
