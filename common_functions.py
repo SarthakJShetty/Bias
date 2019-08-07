@@ -111,8 +111,8 @@ def arguments_parser():
 	'''The entire list of the abstract words will be lowered and hence trends term has to be
 	lowered to obtain a match with those terms.'''
 	
-	if arguments.paper:
-		paper = arguments.paper
+	'''if arguments.paper:
+		paper = arguments.paper'''
 	'''If this argument is turned to Yes, then the papers will be downloaded as well'''
 	
 	trends = trends.lower()

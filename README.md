@@ -3,6 +3,7 @@
 :warning: <strong>Code is buggy</strong> :warning:
 
 ## 1.0 Introduction:
+*This branch is contains code specifically for our "Threats to Themes" project. Here is the main [repository](https://github.com/SarthakJShetty/Bias).*
 
 - A significant proportion of publications pertaining to the Western Ghats in the <em>pre-independence era</em> of India was motivated by economic benefits of the region.
 
@@ -158,10 +159,8 @@ The ```NLP_Engine.py``` module creates topic modelling charts such as the one sh
 
 - Here, abstracts pertaining to [Eastern Himalayas](https://github.com/SarthakJShetty/Bias/blob/master/LOGS/LOG_2019-02-27_15_23_Eastern_Himalayas.tar.gz) were scrapped and temporally trend of occurance for "Conservation" was checked.
 - The frequency is presented alongisde the bubble for each year on the chart.
-- Still working on the presentability. [This](https://raw.githubusercontent.com/SarthakJShetty/Bias/master/assets/XKCD_Rendering.png) is an alternative that we're personally excited about.
+- We're still working on the presentability of the keyword charts. [This](https://raw.githubusercontent.com/SarthakJShetty/Bias/master/assets/XKCD_Rendering.png) is an alternative that we're personally excited about.
 
 **Note:**
-
-- This repository is still under active development. The <a title="README" href="https://github.com/SarthakJShetty/Bias">README.md</a> is yet to be updated in detail.
 
 - A detailed weekly (almost) build-log can be found <a href="https://github.com/SarthakJShetty/Bias/blob/master/build-log.md" title="build-log" target="_blank">here</a>.

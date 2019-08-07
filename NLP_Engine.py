@@ -41,66 +41,70 @@ warnings.filterwarnings("ignore", category=DeprecationWarning)
 
 from nltk.corpus import stopwords
 stop_words = stopwords.words('english')
-stop_words.extend(['from', 'subject', 're', 'edu', 'use', 'com', 'https', 'url', 'link', 'xe', 'abstract', 'author', 'chapter', 'springer', 'title'])
+stop_words.extend(['from', 'subject', 're', 'edu', 'use', 'com', 'https', 'url', 'link', 'xe', 'abstract', 'author', 'chapter', 'springer', 'title', "the", "of", "and", "in", "to", "a", "is", "for", "from", "with", "that",	"by", "are", "on", "was", "as", 
+	"were", "url:", "abstract:", "abstract",  "author:", "title:", "at", "be", "an", "during", "have", "this", "which", "study", "been", "species", "not", "has", "between",
+	"using", "its", "also", "these", "this", "used", "over", "can", "within", "into", "all","due", "use", "about", "a", 'it', 'their', "where", "we", "most", "may", "through",
+	"though", "like", "or", "further", "e.g.", "along", "any", "those", "had", "toward", "due", "both", "some", "use", "even", "more", "but", "while", "pass", 
+	"well", "will", "when", "only", "after", "author", "title", "there", "our", "did", "much", "as", "if", "become", "still", "various", "very", "out",
+	"they", "via", "available", "such", "than", "different", "many", "areas", "no", "one", "two", "small", "first", "other", "such", "-", "could", "studies", "high",
+	"provide", "among", "highly", "no", "case", "across", "given", "need", "would", "under", "found", "low", "values", "xe2\\x80\\x89", "xa", "xc", "xb", "\xc2\xa0C\xc2\xa0ha\xe2\x88\x921", "suggest", "up", "'The", "area"])
 
-#This is where the data is obtained by the nlp engine
 def data_reader(abstracts_log_name, status_logger_name):
+	'''This wherer the file is being parsed from to the model'''
 	data_reader_start_status_key = abstracts_log_name+".txt is being ported to dataframe"
 	status_logger(status_logger_name, data_reader_start_status_key)
+
 	textual_dataframe = pd.read_csv(abstracts_log_name+'_'+'ANALYTICAL'+'.txt', delimiter="\t")
+	
 	data_reader_end_status_key = abstracts_log_name+".txt has been ported to dataframe"	
 	status_logger(status_logger_name, data_reader_end_status_key)
 	return textual_dataframe
-#Code to check if the data being obtained is legit or not
 
 def textual_data_trimmer(textual_dataframe, status_logger_name):
+	'''Converts each of the abstracts in the file into a list element, of size = (number of abstracts)'''
 	textual_data_trimmer_start_status_key = "Trimming data and preparing list of words"
 	status_logger(status_logger_name, textual_data_trimmer_start_status_key)
-	'''This function converts the textual data into a list and removes special characters, virtue of email correspondence'''
+
 	textual_data = textual_dataframe.values.tolist()
+	
 	textual_data_trimmer_end_status_key = "Trimmed data and prepared list of words"
 	status_logger(status_logger_name, textual_data_trimmer_end_status_key)
 	return textual_data
 
 def sent_to_words(textual_data, status_logger_name):
+	'''Removing unecessary characters and removing punctuations from the corpus. Resultant words are then tokenized.'''
 	sent_to_words_start_status_key = "Tokenizing words"
 	status_logger(status_logger_name, sent_to_words_start_status_key)
-	'''This function tokenizes each sentence into individual words; also called tokens'''
+
 	for sentence in textual_data:
-		yield(gensim.utils.simple_preprocess(str(textual_data), deacc=True))
-	textual_data = list(sent_to_words(textual_data))
+		yield(gensim.utils.simple_preprocess(str(sentence), deacc=True))
+	textual_data = list(sent_to_words(textual_data, status_logger_name))
+	
 	sent_to_words_end_status_key = "Tokenized words"
 	status_logger(status_logger_name, sent_to_words_end_status_key)	
 	return textual_data
 
 def bigram_generator(textual_data, status_logger_name):
+	'''Generating bigram model from the words that are in the corpus.'''
+	'''Bigrams: Words that occur together with a high frequency,'''
 	bigram_generator_start_status_key = "Generating word bigrams"
-	status_logger(status_logger_name, bigram_generator_start_status_key)	
-	'''Takes the textual data and prepares the bigram, two collectively high frequency words'''
+	status_logger(status_logger_name, bigram_generator_start_status_key)
+	
 	bigram = gensim.models.Phrases(textual_data, min_count=5, threshold=100)
 	bigram_mod = gensim.models.phrases.Phraser(bigram)
+
 	bigram_generator_end_status_key = "Generated word bigrams"
 	status_logger(status_logger_name, bigram_generator_end_status_key)	
 	return bigram_mod
 
-def trigram_generator(textual_data, status_logger_name):
-	'''Takes the textual data and prepares the trigram, three collectively high frequency words'''
-	trigram_generator_start_status_key = "Generating word trigrams"
-	status_logger(status_logger_name, trigram_generator_start_status_key)
-	trigram = gensim.models.Phrases(bigram[textual_data], threshold=100)
-	trigram_mod = gensim.models.phrases.Phraser(trigram)
-	print("Printing the trigram_mod\n")
-	pprint(trigram_mod[bigram_mod[textual_data[0]]])
-	print("Print of the trigram_mod has concluded\n")
-	trigram_generator_end_status_key = "Generating word trigrams"
-	status_logger(status_logger_name, trigram_generator_end_status_key)
-	return trigram_mod
-
 def remove_stopwords(textual_data, status_logger_name):
-	'''This function removes the standard set of stopwords from the corpus of abstract words'''
+	'''This function removes the standard set of stopwords from the corpus of abstract words.
+	We've added a bunch of other words in addition.'''
 	remove_stopwords_start_status_key = "Removing stopwords"
 	status_logger(status_logger_name, remove_stopwords_start_status_key)
+	
 	return [[word for word in simple_preprocess(str(doc)) if word not in stop_words] for doc in textual_data]
+	
 	remove_stopwords_end_status_key = "Removed stopwords"
 	status_logger(status_logger_name, remove_stopwords_end_status_key)
 
@@ -114,27 +118,18 @@ def make_bigrams(textual_data, status_logger_name):
 	
 	make_bigrams_end_status_key = "Generated bigrams"
 	status_logger(status_logger_name, make_bigrams_end_status_key)
-
-def make_trigram(textual_data, status_logger_name):
-	'''Generates multiple trigrams of triplet words in phrases that commonly occuring with each other over the abstract corpus'''
-	make_trigrams_start_status_key = "Generating trigrams"
-	status_logger(status_logger_name, make_trigrams_start_status_key)
-
-	trigram_mod = trigram_generator(textual_data)
-	return [trigram_mod[bigram_mod[doc]] for doc in textual_data]
 	
-	make_trigrams_end_status_key = "Generated trigrams"
-	status_logger(status_logger_name, make_trigrams_end_status_key)
-
 def lemmatization(status_logger_name, textual_data, allowed_postags=['NOUN', 'ADJ', 'VERB', 'ADV']):
+	'''Reducing a word to the root word. Running  -> Run for example'''
 	lemmatization_start_status_key = "Beginning lemmatization"
 	status_logger(status_logger_name, lemmatization_start_status_key)
-	"""https://spacy.io/api/annotation"""
+
 	texts_out = []
 	nlp = spacy.load('en', disable=['parser', 'ner'])
 	for sent in textual_data:
 		doc = nlp(" ".join(sent))
 		texts_out.append([token.lemma_ for token in doc if token.pos_ in allowed_postags])
+
 	lemmatization_end_status_key = "Ending lemmatization"
 	status_logger(status_logger_name, lemmatization_end_status_key)
 	return texts_out
@@ -151,27 +146,27 @@ def nlp_engine_main(abstracts_log_name, status_logger_name):
 	textual_data_no_stops = remove_stopwords(textual_data, status_logger_name)
 	'''Prepares bigrams'''
 	textual_data_words_bigrams = make_bigrams(textual_data_no_stops, status_logger_name)
-	'''Loads the English model from spaCy'''
-	nlp = spacy.load('en', disable=['parser', 'ner'])
-
+	'''Running -> Run'''
 	textual_data_lemmatized = lemmatization(status_logger_name, textual_data_words_bigrams, allowed_postags=['NOUN', 'ADJ', 'VERB', 'ADV'])
-
+	'''Creating a dictionary for each term as the key, and the value as their frequency in that sentence.'''
 	id2word = corpora.Dictionary(textual_data_lemmatized)
 
 	texts = textual_data_lemmatized
+	'''Creating a dictionary for the entire corpus and not just individual abstracts and documents.'''
 	corpus = [id2word.doc2bow(text) for text in texts]
 
-	[[(id2word[id], freq) for id, freq in cp] for cp in corpus[:1]]
-
 	'''Builds the actual LDA model that will be used for the visualization and inference'''
+	lda_model_generation_start_status_key = "Generating the LDA model using default parameter set"
+	status_logger(status_logger_name, lda_model_generation_start_status_key)
+
 	lda_model = gensim.models.ldamodel.LdaModel(corpus = corpus, id2word = id2word, num_topics = 10, random_state = 100, update_every = 1, chunksize = 100, passes = 10, alpha = 'auto', per_word_topics = True)
-
-	doc_lda = lda_model[corpus]
-
+	
+	lda_model_generation_end_status_key = "Generated the LDA model using default parameter set"
+	status_logger(status_logger_name, lda_model_generation_end_status_key)
+	
 	perplexity_score = lda_model.log_perplexity(corpus)
 
 	perplexity_status_key = "Issued perplexity:"+" "+str(perplexity_score)
-
 	status_logger(status_logger_name, perplexity_status_key)
 		
 	nlp_engine_main_end_status_key = "Idling the NLP Engine"
