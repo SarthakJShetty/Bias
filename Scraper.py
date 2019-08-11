@@ -36,9 +36,9 @@ def url_reader(url, status_logger_name):
 		browser = webdriver.Chrome()
 		browser.get(url)
 		html_code = browser.page_source
-		return html_code			
 		'''Closing the abstract window after each abstract has been extracted'''
 		browser.close()
+		return html_code			
 	except (UnboundLocalError, urllib.error.HTTPError):
 		pass
 
