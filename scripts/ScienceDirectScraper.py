@@ -96,7 +96,7 @@ def page_refresher(browser):
 	browser.refresh()
 
 '''Collecting the number of pages from the bottom of the results page'''
-number_of_pages = 7
+number_of_pages = pages_to_scrape_number(abstract_url)
 print('Number of pages to scrape: '+str(number_of_pages))
 
 '''Generating URLs from where the abstracts are to be scrapped'''
