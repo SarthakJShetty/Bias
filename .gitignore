@@ -1,0 +1,9 @@
+BackUp_Journal_LOGS/
+settings.json
+__pycache__
+scripts/mallet-2.0.8/
+Bias.code-workspace
+Bias.sublime-workspace
+webkit-server
+*-checkpoint.ipynb
+scripts/ScienceDirectScraper.py
