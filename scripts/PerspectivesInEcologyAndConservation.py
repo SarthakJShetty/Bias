@@ -111,18 +111,17 @@ for page_url in urls_to_scrape:
 		try:
 			abstract_html_code, browser = selenium_driver(abstract_link)
 			abstract_soup = souper(abstract_html_code)
-		except common.exceptions.WebDriverException:
-			'''In case the browser is unreachable, open the instance again and refresh'''
-			abstract_html_code, browser = selenium_driver(abstract_link)
-			page_refresher(browser)
-			abstract_soup = souper(abstract_html_code)
 		except common.exceptions.TimeoutException:
 			'''This chunk of code prevents timeouts in the connection. If said timeout occurs, it reinitializes the window'''
 			page_refresher(browser)
 			browser.close()
 			abstract_html_code, browser = selenium_driver(abstract_link)
 			abstract_soup = souper(abstract_html_code)
-		
+		except common.exceptions.WebDriverException:
+			'''In case the browser is unreachable, open the instance again and refresh'''
+			abstract_html_code, browser = selenium_driver(abstract_link)
+			page_refresher(browser)
+			abstract_soup = souper(abstract_html_code)
 		'''Collecting the abstract text'''
 		'''Hard-coding a bunch of edge cases here which are regularly encountered throughout the corpus of data being retreived.'''
 		try:
