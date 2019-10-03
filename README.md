@@ -3,7 +3,6 @@
 :warning: <strong>Code is buggy</strong> :warning:
 
 ## 1.0 Introduction:
-*This branch is contains code specifically for our "Threats to Themes" project. Here is the main [repository](https://github.com/SarthakJShetty/Bias).*
 
 - A significant proportion of publications pertaining to the Western Ghats in the <em>pre-independence era</em> of India was motivated by economic benefits of the region.
 
@@ -12,8 +11,6 @@
 - This project is a collaboration with <a title="Vijay" href="https://evolecol.weebly.com/" target="_blank">Vijay Ramesh</a> & <a title="Anand" href="https://www.earth.columbia.edu/articles/view/58#Osuri" target="_blank">Anand MO</a> from the <a title="E3B" href="http://e3b.columbia.edu/" target="_blank">Department of Ecology, Evolution & Environmental Biology</a>, <a href="https://www.columbia.edu/" title="Columbia University" target="_blank">Columbia University</a>.
 
 - This tool is being developed to prove (quantitatively) the existence of these biases.
-
-<strong>Note:</strong> This <a title="Latest run" href="https://github.com/SarthakJShetty/Bias/tree/master/LOGS/LOG_2019-02-14_11_13_Western_Ghats_Conservation">log</a> contains the most recent run of the program.
 
 ## 2.0 Model Overview:
 - The model is made up of three parts:
