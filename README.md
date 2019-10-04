@@ -77,7 +77,7 @@
 	<strong>Note:</strong> This step usually takes a few minutes, depending on your network speed.
 
 ## 4.0 How it works:
-<img src="assets/BiasFlow.png" alt="Bias Pipeline">
+<img src="assets/Bias.png" alt="Bias Pipeline">
 <i>Diagramatic representation of pipeline for collecting papers and generating visualizations.</i>
 
 ### 4.1 Scraper:
@@ -152,7 +152,7 @@ The ```NLP_Engine.py``` module creates topic modelling charts such as the one sh
 
 ### 6.2 Trends Result:
 
-<img src = "https://raw.githubusercontent.com/SarthakJShetty/Bias/master/assets/Trends_Chart.png" alt = 'Trends Chart for Eastern '>
+<img src = "https://raw.githubusercontent.com/SarthakJShetty/Bias/master/assets/XKCD.png" alt = 'Trends Chart for Eastern '>
 
 - Here, abstracts pertaining to [Eastern Himalayas](https://github.com/SarthakJShetty/Bias/blob/master/LOGS/LOG_2019-02-27_15_23_Eastern_Himalayas.tar.gz) were scrapped and temporally trend of occurance for "Conservation" was checked.
 - The frequency is presented alongisde the bubble for each year on the chart.
