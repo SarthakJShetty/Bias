@@ -68,6 +68,3 @@ def cleaner_main(abstract_directory):
     new_cleaned_texts_folder = cleaned_abstract_dumper(abstract_directory, cleaned_texts)
     '''Main contribution from this block of the code is the new cleaned .txt folder and cleaned abstracts. Just in case.'''
     return cleaned_texts, new_cleaned_texts_folder
-
-abstract_directory = '/home/sarthak/projects/Bias/BackUp_Journal_LOGS/Corpus_Bio_Hotspot_Data/WesternGhats_Springer_ScienceDirectOnly.txt'
-cleaner_main(abstract_directory)
