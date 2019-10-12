@@ -26,7 +26,7 @@ def analyzer_pre_processing(abstracts_log_name, status_logger_name):
 	status_logger(status_logger_name, analyzer_pre_processing_status_key)
 	'''This code strips the abstracts_log_name of its extension and adds a .csv to it'''
 	abstracts_csv_file_name=(os.path.splitext(abstracts_log_name)[0])+"_"+"FREQUENCY_CSV_DATA"+".csv"
-	abstracts_txt_file_name = abstracts_log_name+"_"+"ANALYTICAL"+".txt"
+	abstracts_txt_file_name = abstracts_log_name+"_"+"CLEANED"+".txt"
 	
 	analyzer_pre_processing_status_key = "Carried out pre-processing functions for analyzer"
 	status_logger(status_logger_name, analyzer_pre_processing_status_key)

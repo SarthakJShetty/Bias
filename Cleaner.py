@@ -20,8 +20,9 @@ cleaned_texts = []
 1. A way for each element containing \\ to be put into a list.
 2. Subtract said list from elements'''
 
-def txt_to_list(abstract_directory):
-    folder = open(abstract_directory, 'r')
+def txt_to_list(abstract_directory, status_logger_name):
+    cleaner_abstract_directory = (abstract_directory.split(".txt")[0])+"_"+'ANALYTICAL.txt'
+    folder = open(cleaner_abstract_directory, 'r')
     abstracts = []
 
     for line in folder:
@@ -29,7 +30,7 @@ def txt_to_list(abstract_directory):
 
     return abstracts
 
-def dirty_element_generator(texts):
+def dirty_element_generator(texts, status_logger_name):
     '''Finds all the elements which have the special character in them, makes a list and
     referes through them durng the next phases'''
     for text in texts:
@@ -39,7 +40,7 @@ def dirty_element_generator(texts):
                 dirty_elements.append(element)
     return dirty_elements
 
-def dirty_element_weeder(texts, dirty_elements):
+def dirty_element_weeder(texts, dirty_elements, status_logger_name):
     '''Refers to the list of dirty variables and cleans the abstracts'''
     cleaned_str_list =[]
     for text in texts:
@@ -51,20 +52,20 @@ def dirty_element_weeder(texts, dirty_elements):
         cleaned_str_list = []
     return cleaned_texts
 
-def cleaned_abstract_dumper(abstract_directory, cleaned_texts):
+def cleaned_abstract_dumper(abstract_directory, cleaned_texts, status_logger_name):
     '''Dumping the cleaned abstracts to the disc and will be referring to it henceforth in the code'''
     pre_new_cleaned_texts_folder = abstract_directory.split(".txt")[0]
-    new_cleaned_texts_folder = open(pre_new_cleaned_texts_folder + "_CLEANED.txt", 'w')
+    new_cleaned_texts_folder = open(pre_new_cleaned_texts_folder + "_"+"CLEANED.txt", 'w')
 
     for cleaned_text in cleaned_texts:
         new_cleaned_texts_folder.write(cleaned_text)
         new_cleaned_texts_folder.write('\n')
     return new_cleaned_texts_folder
 
-def cleaner_main(abstract_directory):
-    abstracts = txt_to_list(abstract_directory)
-    dirty_elements = dirty_element_generator(abstracts)
-    cleaned_texts = dirty_element_weeder(abstracts, dirty_elements)
-    new_cleaned_texts_folder = cleaned_abstract_dumper(abstract_directory, cleaned_texts)
+def cleaner_main(abstract_directory, status_logger_name):
+    abstracts = txt_to_list(abstract_directory, status_logger_name)
+    dirty_elements = dirty_element_generator(abstracts, status_logger_name)
+    cleaned_texts = dirty_element_weeder(abstracts, dirty_elements, status_logger_name)
+    new_cleaned_texts_folder = cleaned_abstract_dumper(abstract_directory, cleaned_texts, status_logger_name)
     '''Main contribution from this block of the code is the new cleaned .txt folder and cleaned abstracts. Just in case.'''
     return cleaned_texts, new_cleaned_texts_folder
