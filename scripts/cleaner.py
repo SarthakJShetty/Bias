@@ -41,6 +41,7 @@ def dirty_element_generator(texts):
 
 def dirty_element_weeder(texts, dirty_elements):
     '''Refers to the list of dirty variables and cleans the abstracts'''
+    cleaned_str_list =[]
     for text in texts:
         elements = text.split(" ")
         for element in elements:
@@ -67,3 +68,6 @@ def cleaner_main(abstract_directory):
     new_cleaned_texts_folder = cleaned_abstract_dumper(abstract_directory, cleaned_texts)
     '''Main contribution from this block of the code is the new cleaned .txt folder and cleaned abstracts. Just in case.'''
     return cleaned_texts, new_cleaned_texts_folder
+
+abstract_directory = '/home/sarthak/projects/Bias/BackUp_Journal_LOGS/Corpus_Bio_Hotspot_Data/WesternGhats_Springer_ScienceDirectOnly.txt'
+cleaner_main(abstract_directory)
