@@ -118,7 +118,7 @@ def make_bigrams(textual_data, status_logger_name):
 	
 	make_bigrams_end_status_key = "Generated bigrams"
 	status_logger(status_logger_name, make_bigrams_end_status_key)
-	
+
 def lemmatization(status_logger_name, textual_data, allowed_postags=['NOUN', 'ADJ', 'VERB', 'ADV']):
 	'''Reducing a word to the root word. Running  -> Run for example'''
 	lemmatization_start_status_key = "Beginning lemmatization"
@@ -163,7 +163,7 @@ def nlp_engine_main(abstracts_log_name, status_logger_name):
 	
 	lda_model_generation_end_status_key = "Generated the LDA model using default parameter set"
 	status_logger(status_logger_name, lda_model_generation_end_status_key)
-	
+
 	perplexity_score = lda_model.log_perplexity(corpus)
 
 	perplexity_status_key = "Issued perplexity:"+" "+str(perplexity_score)
