@@ -19,7 +19,7 @@ import time
 '''URL to which abstract href tags are appended to'''
 science_direct_url = 'https://sciencedirect.com'
 '''Abstracts are collected from iteration of this URL'''
-abstract_url = 'https://www.sciencedirect.com/search/advanced?qs=western%20ghats%20conservation&show=100&sortBy=relevance&articleTypes=REV%2CFLA&offset='
+abstract_url = 'https://www.sciencedirect.com/search/advanced?qs=atlantic%20forests%20conservation&show=100&sortBy=relevance&articleTypes=REV%2CFLA&offset='
 
 def selenium_driver(url):
 	'''Creating Chrome instances from where the HTMl is scrapped from'''
@@ -47,7 +47,7 @@ def pages_to_scrape_number(url):
 def url_generator(abstract_url, number_of_pages):
 	'''Generating URLs by appending a counter term to the ScienceDirect URL mentioned earlier'''
 	urls_to_scrape = []
-	for number in range(0, number_of_pages):
+	for number in range(20, 60):
 		if(number == 0):
 			'''In order to avoid looking at ugly 000 at the end of the first URL'''
 			temp_url = abstract_url + str(number)
@@ -80,7 +80,7 @@ def abstract_link_scraper(url):
 
 def abstract_writer(abstract):
 	'''Simple writer to hold the data in, before maybe feeding it into the topic modelling code'''
-	abstract_write = open('ScienceDirect_WesternGhats_Conservation.txt', 'a')
+	abstract_write = open('ScienceDirect_Atlantic_Forests.txt', 'a')
 	abstract_write.write(abstract)
 	abstract_write.write('\n')
 	abstract_write.close()
@@ -96,7 +96,7 @@ def page_refresher(browser):
 	browser.refresh()
 
 '''Collecting the number of pages from the bottom of the results page'''
-number_of_pages = 7
+number_of_pages = 20
 print('Number of pages to scrape: '+str(number_of_pages))
 
 '''Generating URLs from where the abstracts are to be scrapped'''
