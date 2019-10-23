@@ -1,0 +1,7 @@
+BackUp_Journal_LOGS/
+settings.json
+__pycache__
+mallet-2.0.8/
+Bias.code-workspace
+Bias.sublime-workspace
+*-checkpoint.ipynb
