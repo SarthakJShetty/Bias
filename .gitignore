@@ -5,3 +5,4 @@ mallet-2.0.8/
 Bias.code-workspace
 Bias.sublime-workspace
 *-checkpoint.ipynb
+*.db
