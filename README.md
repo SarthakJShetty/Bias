@@ -4,13 +4,15 @@
 
 ## 1.0 Introduction:
 
+***Note:*** *This branch is designed to contatin assets for validation tests and exploratory analysis being run for different biodiversity hotspots. Here's the main [repository](https://github.com/SarthakJShetty/Bias).*
+
 - A significant proportion of publications pertaining to the Western Ghats in the <em>pre-independence era</em> of India was motivated by economic benefits of the region.
 
 - For example, a quick search on scientific repositories reveals that most of the scientific publications related to this geographic area are related to the Nilgiri hills, <strong>primarily due to the economic incentives of growing tea in the region.</strong>
 
-- This project is a collaboration with <a title="Vijay" href="https://evolecol.weebly.com/" target="_blank">Vijay Ramesh</a> & <a title="Anand" href="https://www.earth.columbia.edu/articles/view/58#Osuri" target="_blank">Anand MO</a> from the <a title="E3B" href="http://e3b.columbia.edu/" target="_blank">Department of Ecology, Evolution & Environmental Biology</a>, <a href="https://www.columbia.edu/" title="Columbia University" target="_blank">Columbia University</a>.
+- This project is a collaboration with <a title="Vijay" href="https://evolecol.weebly.com/" target="_blank">Vijay Ramesh</a> from the <a title="E3B" href="http://e3b.columbia.edu/" target="_blank">Department of Ecology, Evolution & Environmental Biology</a>, <a href="https://www.columbia.edu/" title="Columbia University" target="_blank">Columbia University</a> and <a title="Anand" href="https://www.earth.columbia.edu/articles/view/58#Osuri" target="_blank">Anand MO</a>, from the <a title='NCF-India' href='http://ncf-india.org/'>Nature Conservation Foundation</a>.
 
-- This tool is being developed to prove (quantitatively) the existence of these biases.
+- This tool is being developed to quantitatively prove the existence of such biases.
 
 ## 2.0 Model Overview:
 - The model is made up of three parts:
@@ -19,9 +21,6 @@
 	2. <strong><a title="Analyzer" href="https://github.com/SarthakJShetty/Bias/tree/master/Analyzer.py/">Analyzer</a>:</strong> This component collects and measures the frequency of select keywords in the abstracts database.
 	3. <strong><a title="NLP Engine" href="https://github.com/SarthakJShetty/Bias/tree/master/NLP_Engine.py/">NLP Engine</a>:</strong> This component extracts insights from the abstracts collected by presenting topic modelling.
 	4. <strong><a title="Visualizer" href="https://github.com/SarthakJShetty/Bias/tree/master/Visualizer.py/">Visualizer</a>:</strong> This component presents the results and data from the Analyzer to the end user.
-		
-- Check out the <a title="LOGS" href="https://github.com/SarthakJShetty/Bias/tree/master/LOGS">LOGS</a> for the results of ```Scraper.py``` and ```Analyzer.py```.
-
 
 ## 3.0 How it works:
 <img src="assets/Bias.png" alt="Bias Pipeline">
