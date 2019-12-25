@@ -11,6 +11,8 @@ Sarthak J. Shetty
 from Scraper import scraper_main
 '''Importing the analyzer code here as well'''
 from Analyzer import analyzer_main
+'''Importing the Cleaner functions here that removes special characters from the corpus'''
+from Cleaner import cleaner_main
 '''Importing the visualizer and gensim code here'''
 from NLP_Engine import nlp_engine_main
 '''Importing the code to visualize the data interpreted by the NLP_Engine'''
@@ -37,6 +39,9 @@ abstract_id_log_name, abstracts_log_name, start_url, abstract_url, query_string,
 
 '''Runs the scraper here to scrape the details from the scientific repository'''
 abstract_word_dictionary, starting_year, ending_year = scraper_main(abstract_id_log_name, abstracts_log_name, start_url, abstract_url, query_string, trend_keywords, keywords_to_search, status_logger_name)
+
+'''Cleaning the corpus here before any of the other modules use it for analysis'''
+cleaner_main(abstracts_log_name, status_logger_name)
 
 '''Calling the Analyzer Function here'''
 analyzer_main(abstracts_log_name, status_logger_name)
