@@ -12,6 +12,8 @@ Sarthak J. Shetty
 
 '''Importing Selenium and deprecating urlopen'''
 from selenium import webdriver
+'''Exporting this specific patch to prevent the latest version of chromedriver from crashing'''
+from selenium.webdriver.chrome.options import Options
 ''''Importing urllib.error to handle errors in HTTP pinging.'''
 import urllib.error
 '''BeautifulSoup is used for souping.'''
@@ -33,7 +35,13 @@ def url_reader(url, status_logger_name):
 	This is added here to try and ping the page. If it returns false the loop ignores it and
 	moves on to the next PII number'''
 	try:
-		browser = webdriver.Chrome()
+		'''Experimental addition of the Options argument. Prevent repeated crashing of the chromedriver firmware powering the
+		Selenium instances.'''
+		chrome_options = Options()
+		chrome_options.add_argument('--headless')
+		chrome_options.add_argument('--no-sandbox')
+		chrome_options.add_argument('--disable-dev-shm-usage')
+		browser = webdriver.Chrome(chrome_options=chrome_options)
 		browser.get(url)
 		html_code = browser.page_source
 		'''Closing the abstract window after each abstract has been extracted'''

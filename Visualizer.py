@@ -23,7 +23,7 @@ def visualizer_generator(lda_model, corpus, id2word, logs_folder_name, status_lo
 	status_logger(status_logger_name, visualizer_generator_end_status_key)		
 
 def trends_histogram(abstract_word_dictionary, starting_year, ending_year, trend_keywords, logs_folder_name, status_logger_name):
-	#This function is responsible for generating the histograms to visualizations the trends in research topics.'''
+	'''This function is responsible for generating the histograms to visualizations the trends in research topics.'''
 	trends_histogram_start_status_key = "Generating the trends histogram"
 	status_logger(status_logger_name, trends_histogram_start_status_key)
 
