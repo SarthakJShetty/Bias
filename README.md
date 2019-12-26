@@ -143,7 +143,7 @@ To view the logs & results generated from the run on <a title="east Melanesian I
 
 The ```NLP_Engine.py``` module creates topic modelling charts such as the one shown below.
 
-<img src='https://raw.githubusercontent.com/SarthakJShetty/Bias/master/assets/Topic_Modelling_Results.jpg' alt='Topic Modelling Chart'>
+<img src='https://raw.githubusercontent.com/SarthakJShetty/Bias/master/assets/Topic_Modelling_Results.png' alt='Topic Modelling Chart'>
 
 <i>Distribution of topics discussed in publications about <a title = 'Eastern Himalayas  tarball' href =" https://github.com/SarthakJShetty/Bias/blob/master/LOGS/LOG_2019-02-27_15_23_Eastern_Himalayas.tar.gz" target="_blank">Eastern Himalayas</a>.</i>
 
