@@ -23,8 +23,15 @@
 	4. <strong><a title="Visualizer" href="https://github.com/SarthakJShetty/Bias/tree/master/Visualizer.py/">Visualizer</a>:</strong> This component presents the results and data from the Analyzer to the end user.
 
 ## 3.0 How it works:
+1. Representation of how the pipeline works to, i) retrieve publications, ii) clean the data, iii) infer topics and iv) present results.
+
 <img src="assets/Bias.png" alt="Bias Pipeline">
 <i>Diagramatic representation of pipeline for collecting papers and generating visualizations.</i>
+
+2. Below is a flowchart representing how we use the pipeline above to infer shifting research trends across biodiversity hotspots.
+
+<img src="assets/BiasFlowchart.png" alt="Flowchart">
+<i>Diagramatic representation of pipeline applied to infer research trends across biodiversity hotspots.</i>
 
 ### 3.1 Scraper:
 - The <a title="Scraper" href="https://github.com/SarthakJShetty/Bias/blob/master/Scraper.py">```Scraper.py```</a> currently scrapes only the abstracts from <a title="Springer" href="https://www.link.Springer.com">Springer</a>.
