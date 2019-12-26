@@ -6,3 +6,5 @@ Bias.code-workspace
 Bias.sublime-workspace
 *-checkpoint.ipynb
 *.db
+LOG*
+Test_Bed*
