@@ -1,4 +1,4 @@
-# ***pyResearchTrends:*** Analyzing research themes from academic publications
+# ***pyResearchThemes:*** Analyzing research themes from academic publications
 
 :warning: <strong>Code is buggy</strong> :warning:
 
@@ -28,9 +28,9 @@
 
 - However, existing tools such as *Leximancer* are expensive and lack in-depth analysis of publications.
 
-- To address these issues, we developed ***pyResearchTrends***, an open-source, automated text analysis tool that scrapes, analyzes and presents themes of research and other meta-data from scientific repositories.
+- To address these issues, we developed ***pyResearchThemes***, an open-source, automated text analysis tool that scrapes, analyzes and presents themes of research and other meta-data from scientific repositories.
 
-- ***pyResearchTrends*** is an end-to-end tool to:
+- ***pyResearchThemes*** is an end-to-end tool to:
 	- Scrape papers from scientific repositories,
 	- Analyse meta-data such as date and journal of publication,
 	- Present themes of research using natural language processing.
@@ -39,7 +39,7 @@
 
 ### 1.1 About:
 
-This project is a collaboration <a title="Sarthak" href="https://SarthakJShetty.github.io" target="_blank"> Sarthak J. Shetty</a>, from the <a title="Aerospace Engineering" href="https://aero.iisc.ac.in" >Department of Aerospace Engineering</a>, <a title="IISc" href="https://iisc.ac.in" target="_blank"> Indian Institute of Science</a> and <a title="Vijay" href="https://evolecol.weebly.com/" target="_blank"> Vijay Ramesh</a>, from the <a title="E3B" href="http://e3b.columbia.edu/" target="_blank">Department of Ecology, Evolution & Environmental Biology</a>, <a href="https://www.columbia.edu/" title="Columbia University" target="_blank">Columbia University</a>.
+This project is a collaboration between <a title="Sarthak" href="https://SarthakJShetty.github.io" target="_blank"> Sarthak J. Shetty</a>, from the <a title="Aerospace Engineering" href="https://aero.iisc.ac.in" >Department of Aerospace Engineering</a>, <a title="IISc" href="https://iisc.ac.in" target="_blank"> Indian Institute of Science</a> and <a title="Vijay" href="https://evolecol.weebly.com/" target="_blank"> Vijay Ramesh</a>, from the <a title="E3B" href="http://e3b.columbia.edu/" target="_blank">Department of Ecology, Evolution & Environmental Biology</a>, <a href="https://www.columbia.edu/" title="Columbia University" target="_blank">Columbia University</a>.
 
 ## 2.0 Model Overview:
 - The model is made up of three parts:
@@ -66,23 +66,35 @@ This project is a collaboration <a title="Sarthak" href="https://SarthakJShetty.
 
 - A default URL is provided in the code. Once the keywords are provided, the URLs are queried and the resultant webpage is souped and ```abstract_id``` is scraped.
 
-- A new <a title="Abstract ID" target="_blank" href="https://github.com/SarthakJShetty/Bias/blob/master/LOGS/LOG_2018-08-29_15_4_Western_Ghats/Abstract_ID_Database_2018-08-29_15_4_1.txt">```abstract_id_database```</a> is prepared for each result page, and is referenced when a new paper is scraped.
+<img src="assets/Scraper.png" alt="Scraper grabbing the papers from Springer">
 
-- The <a title="Abstract Database" target="_blank" href="https://github.com/SarthakJShetty/Bias/blob/master/LOGS/LOG_2018-08-29_15_4_Western_Ghats/Abstract_Database_2018-08-29_15_4.txt">```abstract_database```</a> contains the abstract along with the title, author and a complete URL from where the full text can be downloaded. They are saved in a ```.txt``` file
+<i> **Figure 3.2** <a title="Scraper" href="https://github.com/SarthakJShetty/Bias/blob/master/Scraper.py">```Scraper.py```</a> script grabbing the papers from <a title="Springer" href="https://www.link.Springer.com">Springer</a>.</i>
 
-- A <a title="Status Logger" href="https://github.com/SarthakJShetty/Bias/blob/master/LOGS/LOG_2018-08-29_15_4_Western_Ghats/Status_Logger_2018-08-29_15_4.txt" target="_blank">```status_logger```</a> is used to log the sequence of commands in the program.
+- A new <a title="Abstract ID" target="_blank" href="https://github.com/SarthakJShetty/Bias/blob/journal/LOGS/LOG_2019-04-24_19_35_East_Melanesian_Islands/Abstract_ID_Database_2019-04-24_19_35_1.txt">```abstract_id_database```</a> is prepared for each result page, and is referenced when a new paper is scraped.
+
+- The <a title="Abstract Database" target="_blank" href="https://github.com/SarthakJShetty/Bias/blob/journal/LOGS/LOG_2019-04-24_19_35_East_Melanesian_Islands/Abstract_Database_2019-04-24_19_35.txt">```abstract_database```</a> contains the abstract along with the title, author and a complete URL from where the full text can be downloaded. They are saved in a ```.txt``` file
+
+- A <a title="Status Logger" href="https://github.com/SarthakJShetty/Bias/blob/journal/LOGS/LOG_2019-04-24_19_35_East_Melanesian_Islands/Status_Logger_2019-04-24_19_35.txt" target="_blank">```status_logger```</a> is used to log the sequence of commands in the program.
 
 ### 3.2 Cleaner:
 - The <a title="Cleaner" href="https://github.com/SarthakJShetty/Bias/tree/master/Cleaner.py/">```Cleaner.py```</a> cleans the corpus scrapped from the repository, before the  topic models are generated.
 
-- This script creates a clean variant of the ```.txt``` corpus file that is then stored as ```_ANALYTICAL.txt```, for further analysis and modelling
+- This script creates a clean variant of the ```.txt``` corpus file that is then stored as <a href="https://github.com/SarthakJShetty/Bias/blob/journal/LOGS/LOG_2019-04-24_19_35_East_Melanesian_Islands/Abstract_Database_2019-04-24_19_35_ANALYTICAL.txt" title="Analytical File">```_ANALYTICAL.txt```</a>, for further analysis and modelling
+
+<img src='assets/Cleaner.png' alt="Cleaner.py cleaned up text">
+
+<i> **Figure 3.3** <a title="Cleaner" href="https://github.com/SarthakJShetty/Bias/tree/master/Cleaner.py/">```Cleaner.py```</a> script gets rid of formatting and special characters present in the corpus.</i>
 
 ### 3.3 Analyzer:
 - The <a title="Analyzer" href="https://github.com/SarthakJShetty/Bias/tree/master/Analyzer.py/">```Analyzer.py```</a> analyzes the frequency of different words used in the abstract.
 
-- It serves as an intermediary between the Scraper and the Visualizer, preparing the scraped data into a neat ```.csv``` <a title="Analyzer CSV file" href="https://github.com/SarthakJShetty/Bias/blob/master/LOGS/LOG_2019-02-14_11_13_Western_Ghats_Conservation/Abstract_Database_2019-02-14_11_13_FREQUENCY_CSV_DATA.csv">file</a>.
+- It serves as an intermediary between the Scraper and the Visualizer, preparing the scraped data into a <a title="Analyzer CSV file" href="https://github.com/SarthakJShetty/Bias/blob/journal/LOGS/LOG_2019-04-24_19_35_East_Melanesian_Islands/Abstract_Database_2019-04-24_19_35.csv">```.csv```</a>.
 
-- This ```.csv``` file is then passed on to the Visualizer.
+<img src="assets/Analyzer.png" alt="Analyzer sorting the frequency of each word occuring in the corpus">
+
+<i>**Figure 3.4** <a title="Analyzer" href="https://github.com/SarthakJShetty/Bias/tree/master/Analyzer.py/">```Analyzer.py```</a> script generates this ```.csv``` file for analysis by other parts of the pipeline.</i>
+
+- This ```.csv``` file is then passed on to the <a title="Visualizer" href="https://github.com/SarthakJShetty/Bias/blob/master/Visualizer.py">```Visualizer.py```</a> to generate the "Trends" <a href="https://github.com/SarthakJShetty/Bias/tree/journal#53-trends-result-" title="Trends Charts">chart</a>.
 
 ### 3.4 NLP Engine:
 
@@ -90,17 +102,17 @@ This project is a collaboration <a title="Sarthak" href="https://SarthakJShetty.
 
 - The corpus and model generated are then passed to the [Visualizer.py](https://github.com/SarthakJShetty/Bias/tree/master/Visualizer.py) script.
 
-- The top modelling chart can be checked out [here](https://github.com/SarthakJShetty/Bias/blob/master/LOGS/LOG_2019-02-27_15_23_Eastern_Himalayas/Data_Visualization_Topic_Modelling.html). It is interactive and a detailed guide explaining its parts will be uploaded soon.
+- The top modelling chart can be pulled from here [here](https://github.com/SarthakJShetty/Bias/blob/journal/LOGS/LOG_2019-04-24_19_35_East_Melanesian_Islands/Data_Visualization_Topic_Modelling.html).
 
-	**Note:** The ```.html``` file linked above has to be downloaded and opened in a JavaScript enabled browser to be viewed.
+	**Note:** The <a title="Topic Modelling .html" href="https://github.com/SarthakJShetty/Bias/blob/journal/LOGS/LOG_2019-04-24_19_35_East_Melanesian_Islands/Data_Visualization_Topic_Modelling.html">```.html```</a> file linked above has to be downloaded and opened in a JavaScript enabled browser to be viewed.
 
 ### 3.5 Visualizer:
 
 - The <a title="Visualizer" href="https://github.com/SarthakJShetty/Bias/blob/master/Visualizer.py">```Visualizer.py```</a> code is responsible for generating the visualization associated with a specific search.
 
-- Currently, the research theme visualization is functional. The trends histogram will soon be added.
+- Currently, the research theme visualization is functional. Check them out under the <a title="Results Section" href="https://github.com/SarthakJShetty/Bias/tree/journal#50-results">5.0 Results</a> section.
 
-- The research themes data visualization is stored as a <a title="Data Visualization" href="https://github.com/SarthakJShetty/Bias/blob/master/LOGS/LOG_2018-12-31_17_11_Western_Ghats_Ecology_Conservation_Policy/Data_Visualization.html">.html file</a> in the LOGS directory and can be viewed in the browser.
+- The research themes data visualization is stored as a <a title="Data Visualization" href="https://github.com/SarthakJShetty/Bias/blob/journal/LOGS/LOG_2019-04-24_19_35_East_Melanesian_Islands/Data_Visualization_Topic_Modelling.html">.html file</a> in the LOGS directory and can be viewed in the browser.
 
 ## 4.0 Installation Instructions:
 
@@ -201,7 +213,7 @@ The ```NLP_Engine.py``` module creates topic modelling charts such as the one sh
 
 ### 5.3 Trends Result *:
 
-<img src = "https://raw.githubusercontent.com/SarthakJShetty/Bias/master/assets/XKCD.png" alt = 'Trends Chart for Eastern '>
+<img src = "assets/XKCD.png" alt = 'Trends Chart for Eastern '>
 
 <i>***Figure 5.3*** Variation in the frequency of a the term "Conservation" over time in the corpus of text scrapped.</i>
 
