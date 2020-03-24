@@ -11,9 +11,9 @@
 
 [**4.0 Installation Instructions**](https://github.com/SarthakJShetty/Bias#40-installation-instructions) <br>
 
-[**5.0 Results**](https://github.com/SarthakJShetty/Bias#60-results) <br>
+[**5.0 Results**](https://github.com/SarthakJShetty/Bias#50-results) <br>
 
-[**6.0 Citations**](https://github.com/SarthakJShetty/Bias#70-citations)
+[**6.0 Citations**](https://github.com/SarthakJShetty/Bias#60-citations)
 
 
 ## 1.0 Introduction:
@@ -22,7 +22,7 @@
 
 <img src="assets/Increase.png" alt="Increase in number of scientific publications">
 
-<i>***Figure 1.1*** Increase in the number of scientific publications in the fields of physics and chemistry.</i>
+<i>***Figure 1.1*** Increase in the number of scientific publications in the fields of physics and chemistry [1].</i>
 
 - In order to *understand* such vast volumes of research, there is a need for **automated text analysis tools**.
 
@@ -220,3 +220,7 @@ The ```NLP_Engine.py``` module creates topic modelling charts such as the one sh
 - Here, abstracts pertaining to [Eastern Himalayas](https://github.com/SarthakJShetty/Bias/blob/master/LOGS/LOG_2019-02-27_15_23_Eastern_Himalayas.tar.gz) were scrapped and temporally trend of occurance for "Conservation" was checked.
 - The frequency is presented alongisde the bubble for each year on the chart.
 - &ast; We are still working on how to effectively present the trends and usage variations temporally. This feature is not part of the main package.
+
+## 6.0 Citations:
+
+- [1] - Larsen PO, von Ins M. *The rate of growth in scientific publication and the decline in coverage provided by Science Citation Index*. Scientometrics, *September, 2010*.
