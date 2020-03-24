@@ -62,13 +62,13 @@ This project is a collaboration between <a title="Sarthak" href="https://Sarthak
 <i>***Figure 3.1*** Diagramatic representation of pipeline for collecting papers and generating visualizations.</i>
 
 ### 3.1 Scraper:
-- The <a title="Scraper" href="https://github.com/SarthakJShetty/Bias/blob/master/Scraper.py">```Scraper.py```</a> currently scrapes only the abstracts from <a title="Springer" href="https://www.link.Springer.com">Springer</a>.
+- The <a title="Scraper" href="https://github.com/SarthakJShetty/Bias/blob/master/Scraper.py">```Scraper.py```</a> currently scrapes only the abstracts from <a title="Springer" href="https://www.link.Springer.com">Springer, using the <a title="BeautifulSoup" href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/" target="_blank">BeautifulSoup</a> and <a title="urllib" href="https://docs.python.org/3/library/urllib.request.html#module-urllib.request" target="_blank">urllib</a> packages</a>.
 
 - A default URL is provided in the code. Once the keywords are provided, the URLs are queried and the resultant webpage is souped and ```abstract_id``` is scraped.
 
 <img src="assets/Scraper.png" alt="Scraper grabbing the papers from Springer">
 
-<i> **Figure 3.2** <a title="Scraper" href="https://github.com/SarthakJShetty/Bias/blob/master/Scraper.py">```Scraper.py```</a> script grabbing the papers from <a title="Springer" href="https://www.link.Springer.com">Springer</a>.</i>
+<i> **Figure 3.2** <a title="Scraper" href="https://github.com/SarthakJShetty/Bias/blob/master/Scraper.py">```Scraper.py```</a> script grabbing the papers from <a title="Springer" href="https://www.link.Springer.com" target="_blank">Springer</a>.</i>
 
 - A new <a title="Abstract ID" target="_blank" href="https://github.com/SarthakJShetty/Bias/blob/journal/LOGS/LOG_2019-04-24_19_35_East_Melanesian_Islands/Abstract_ID_Database_2019-04-24_19_35_1.txt">```abstract_id_database```</a> is prepared for each result page, and is referenced when a new paper is scraped.
 
@@ -86,7 +86,7 @@ This project is a collaboration between <a title="Sarthak" href="https://Sarthak
 <i> **Figure 3.3** <a title="Cleaner" href="https://github.com/SarthakJShetty/Bias/tree/master/Cleaner.py/">```Cleaner.py```</a> script gets rid of formatting and special characters present in the corpus.</i>
 
 ### 3.3 Analyzer:
-- The <a title="Analyzer" href="https://github.com/SarthakJShetty/Bias/tree/master/Analyzer.py/">```Analyzer.py```</a> analyzes the frequency of different words used in the abstract.
+- The <a title="Analyzer" href="https://github.com/SarthakJShetty/Bias/tree/master/Analyzer.py/">```Analyzer.py```</a> analyzes the frequency of different words used in the abstract, and stores it in the form of a <a title="Pandas" href="https://pandas.pydata.org/">pandas</a> dataframe.
 
 - It serves as an intermediary between the Scraper and the Visualizer, preparing the scraped data into a <a title="Analyzer CSV file" href="https://github.com/SarthakJShetty/Bias/blob/journal/LOGS/LOG_2019-04-24_19_35_East_Melanesian_Islands/Abstract_Database_2019-04-24_19_35.csv">```.csv```</a>.
 
@@ -98,7 +98,9 @@ This project is a collaboration between <a title="Sarthak" href="https://Sarthak
 
 ### 3.4 NLP Engine:
 
-- The NLP Engine is used to generate the topic modelling charts for the [Visualizer.py](https://github.com/SarthakJShetty/Bias/tree/master/Visualizer.py) script. It generates the corpus and language model for analysis and use with other scripts.
+- The NLP Engine is used to generate the topic modelling charts for the [Visualizer.py](https://github.com/SarthakJShetty/Bias/tree/master/Visualizer.py) script. 
+
+- The language models are generated from the corpus for analysis using <a title="Gensim" href="https://pypi.org/project/gensim/">gensim</a> and <a title="spaCy" href="https://spacy.io">spaCy</a> packages that employ the <a href="https://dl.acm.org/doi/10.5555/944919.944937" title="LDA Modelling">Latent dirichlet allocation (LDA)</a> method <a title="LDA Modelling" href="">[2]</a>.
 
 - The corpus and model generated are then passed to the [Visualizer.py](https://github.com/SarthakJShetty/Bias/tree/master/Visualizer.py) script.
 
@@ -108,9 +110,9 @@ This project is a collaboration between <a title="Sarthak" href="https://Sarthak
 
 ### 3.5 Visualizer:
 
-- The <a title="Visualizer" href="https://github.com/SarthakJShetty/Bias/blob/master/Visualizer.py">```Visualizer.py```</a> code is responsible for generating the visualization associated with a specific search.
+- The <a title="Visualizer" href="https://github.com/SarthakJShetty/Bias/blob/master/Visualizer.py">```Visualizer.py```</a> code is responsible for generating the visualization associated with a specific search, using the <a title="Gensim" href="https://pypi.org/project/gensim/" target="_blank">gensim</a> and <a title="spaCy" href="https://spacy.io" target="_blank">spaCy</a> for research themes and <a title="Matplotlib" href="https://http://matplotlib.org/" target="_blank">matplotlib</a> library for the trends.
 
-- Currently, the research theme visualization is functional. Check them out under the <a title="Results Section" href="https://github.com/SarthakJShetty/Bias/tree/journal#50-results">5.0 Results</a> section.
+- The research theme visualization is functional are presented under the <a title="Results Section" href="https://github.com/SarthakJShetty/Bias/tree/journal#50-results">5.0 Results</a> section.
 
 - The research themes data visualization is stored as a <a title="Data Visualization" href="https://github.com/SarthakJShetty/Bias/blob/journal/LOGS/LOG_2019-04-24_19_35_East_Melanesian_Islands/Data_Visualization_Topic_Modelling.html">.html file</a> in the LOGS directory and can be viewed in the browser.
 
@@ -223,4 +225,5 @@ The ```NLP_Engine.py``` module creates topic modelling charts such as the one sh
 
 ## 6.0 Citations:
 
-- [1] - Larsen PO, von Ins M. *The rate of growth in scientific publication and the decline in coverage provided by Science Citation Index*. Scientometrics, *September, 2010*.
+- **[1]** - Larsen PO, von Ins M. *The rate of growth in scientific publication and the decline in coverage provided by Science Citation Index*. Scientometrics. *September, 2010*.
+- **[2]** - David Blei, Andrew Y. Ng, Michael I. Jordan. *Latent dirichlet allocation*. The Journal of Machine Learning Research. *March 2003*.
