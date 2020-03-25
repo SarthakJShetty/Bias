@@ -59,7 +59,7 @@ This project is a collaboration between <a title="Sarthak" href="https://Sarthak
 <i>***Figure 3.1*** Diagramatic representation of pipeline for collecting papers and generating visualizations.</i>
 
 ### 3.1 Scraper:
-- The <a title="Scraper" href="https://github.com/SarthakJShetty/Bias/blob/master/Scraper.py">```Scraper.py```</a> currently scrapes only the abstracts from <a title="Springer" href="https://www.link.Springer.com">Springer, using the <a title="BeautifulSoup" href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/" target="_blank">BeautifulSoup</a> and <a title="urllib" href="https://docs.python.org/3/library/urllib.request.html#module-urllib.request" target="_blank">urllib</a> packages</a>.
+- The <a title="Scraper" href="https://github.com/SarthakJShetty/Bias/blob/master/Scraper.py">```Scraper.py```</a> currently scrapes only the abstracts from <a title="Springer" href="https://www.link.Springer.com" target="_blank">Springer</a>  using the <a title="BeautifulSoup" href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/" target="_blank">BeautifulSoup</a> and <a title="urllib" href="https://docs.python.org/3/library/urllib.request.html#module-urllib.request" target="_blank">urllib</a> packages.
 
 - A default URL is provided in the code. Once the keywords are provided, the URLs are queried and the resultant webpage is souped and ```abstract_id``` is scraped.
 
