@@ -15,7 +15,6 @@
 
 [**6.0 Citations**](https://github.com/SarthakJShetty/Bias#60-citations)
 
-
 ## 1.0 Introduction:
 
 - Academic publishing has risen X-fold in the past ten years, making it nearly impossible to sift through a large number of papers and identify broad areas of research within disciplines.
@@ -40,6 +39,7 @@
 This project is a collaboration between <a title="Sarthak" href="https://SarthakJShetty.github.io" target="_blank"> Sarthak J. Shetty</a>, from the <a title="Aerospace Engineering" href="https://aero.iisc.ac.in" >Department of Aerospace Engineering</a>, <a title="IISc" href="https://iisc.ac.in" target="_blank"> Indian Institute of Science</a> and <a title="Vijay" href="https://evolecol.weebly.com/" target="_blank"> Vijay Ramesh</a>, from the <a title="E3B" href="http://e3b.columbia.edu/" target="_blank">Department of Ecology, Evolution & Environmental Biology</a>, <a href="https://www.columbia.edu/" title="Columbia University" target="_blank">Columbia University</a>.
 
 ## 2.0 Model Overview:
+
 - The model is made up of three parts:
 
 	1. <strong><a title="Scraper" href="https://github.com/SarthakJShetty/Bias/tree/master/Scraper.py/">Scraper</a>:</strong> This component scrapes scientific repository for publications containing the specific combination of keywords.
