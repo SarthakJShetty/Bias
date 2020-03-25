@@ -26,16 +26,14 @@
 
 - In order to *understand* such vast volumes of research, there is a need for **automated text analysis tools**.
 
-- However, existing tools such as *Leximancer* are expensive and lack in-depth analysis of publications.
+- However, existing tools such as *Leximancer* are **expensive and lack in-depth analysis of publications**.
 
-- To address these issues, we developed ***pyResearchThemes***, an open-source, automated text analysis tool that scrapes, analyzes and presents themes of research and other meta-data from scientific repositories.
+- To address these issues, we developed ***pyResearchThemes***, an **open-source, automated text analysis tool** that:
+	- **Scrape** papers from scientific repositories,
+	- **Analyse** meta-data such as date and journal of publication,
+	- **Visualizes** themes of research using natural language processing.
 
-- ***pyResearchThemes*** is an end-to-end tool to:
-	- Scrape papers from scientific repositories,
-	- Analyse meta-data such as date and journal of publication,
-	- Present themes of research using natural language processing.
-
-- To demonstrate the ability of this tool, we've analyzed the research themes from the field of Ecology & Conservation.
+- To demonstrate the ability of the tool, we have analyzed the research themes from the field of Ecology & Conservation.
 
 ### 1.1 About:
 
@@ -46,16 +44,15 @@ This project is a collaboration between <a title="Sarthak" href="https://Sarthak
 
 	1. <strong><a title="Scraper" href="https://github.com/SarthakJShetty/Bias/tree/master/Scraper.py/">Scraper</a>:</strong> This component scrapes scientific repository for publications containing the specific combination of keywords.
 
-	2. <strong><a title="Analyzer" href="https://github.com/SarthakJShetty/Bias/tree/master/Analyzer.py/">Analyzer</a>:</strong> This component collects and measures the frequency of select keywords in the abstracts database.
+	2. <strong><a title="Cleaner" href="https://github.com/SarthakJShetty/Bias/tree/master/Cleaner.py/">Cleaner</a>:</strong> This component cleans the corpus of text retreived from the repository and rids it of special characters that creep in during formatting and submission of manuscripts.
 
-	3. <strong><a title="Cleaner" href="https://github.com/SarthakJShetty/Bias/tree/master/Cleaner.py/">Cleaner</a>:</strong> This component cleans the corpus of text retreived from the repository and rids it of special characters that creep in during formatting and submission of manuscripts.
+	3. <strong><a title="Analyzer" href="https://github.com/SarthakJShetty/Bias/tree/master/Analyzer.py/">Analyzer</a>:</strong> This component collects and measures the frequency of select keywords in the abstracts database.
 
 	4. <strong><a title="NLP Engine" href="https://github.com/SarthakJShetty/Bias/tree/master/NLP_Engine.py/">NLP Engine</a>:</strong> This component extracts insights from the abstracts collected by presenting topic modelling.
 
 	5. <strong><a title="Visualizer" href="https://github.com/SarthakJShetty/Bias/tree/master/Visualizer.py/">Visualizer</a>:</strong> This component presents the results and data from the Analyzer to the end user.
 
 ## 3.0 How it works:
-1. Representation of how the pipeline works to, i) retrieve publications, ii) clean the data, iii) infer topics and iv) present results.
 
 <img src="assets/Bias.png" alt="Bias Pipeline">
 
@@ -66,15 +63,15 @@ This project is a collaboration between <a title="Sarthak" href="https://Sarthak
 
 - A default URL is provided in the code. Once the keywords are provided, the URLs are queried and the resultant webpage is souped and ```abstract_id``` is scraped.
 
-<img src="assets/Scraper.png" alt="Scraper grabbing the papers from Springer">
-
-<i> **Figure 3.2** <a title="Scraper" href="https://github.com/SarthakJShetty/Bias/blob/master/Scraper.py">```Scraper.py```</a> script grabbing the papers from <a title="Springer" href="https://www.link.Springer.com" target="_blank">Springer</a>.</i>
-
 - A new <a title="Abstract ID" target="_blank" href="https://github.com/SarthakJShetty/Bias/blob/journal/LOGS/LOG_2019-04-24_19_35_East_Melanesian_Islands/Abstract_ID_Database_2019-04-24_19_35_1.txt">```abstract_id_database```</a> is prepared for each result page, and is referenced when a new paper is scraped.
 
 - The <a title="Abstract Database" target="_blank" href="https://github.com/SarthakJShetty/Bias/blob/journal/LOGS/LOG_2019-04-24_19_35_East_Melanesian_Islands/Abstract_Database_2019-04-24_19_35.txt">```abstract_database```</a> contains the abstract along with the title, author and a complete URL from where the full text can be downloaded. They are saved in a ```.txt``` file
 
 - A <a title="Status Logger" href="https://github.com/SarthakJShetty/Bias/blob/journal/LOGS/LOG_2019-04-24_19_35_East_Melanesian_Islands/Status_Logger_2019-04-24_19_35.txt" target="_blank">```status_logger```</a> is used to log the sequence of commands in the program.
+
+<img src="assets/Scraper.png" alt="Scraper grabbing the papers from Springer">
+
+<i> **Figure 3.2** <a title="Scraper" href="https://github.com/SarthakJShetty/Bias/blob/master/Scraper.py">```Scraper.py```</a> script grabbing the papers from <a title="Springer" href="https://www.link.Springer.com" target="_blank">Springer</a>.</i>
 
 ### 3.2 Cleaner:
 - The <a title="Cleaner" href="https://github.com/SarthakJShetty/Bias/tree/master/Cleaner.py/">```Cleaner.py```</a> cleans the corpus scrapped from the repository, before the  topic models are generated.
@@ -90,11 +87,11 @@ This project is a collaboration between <a title="Sarthak" href="https://Sarthak
 
 - It serves as an intermediary between the Scraper and the Visualizer, preparing the scraped data into a <a title="Analyzer CSV file" href="https://github.com/SarthakJShetty/Bias/blob/journal/LOGS/LOG_2019-04-24_19_35_East_Melanesian_Islands/Abstract_Database_2019-04-24_19_35.csv">```.csv```</a>.
 
+- This ```.csv``` file is then passed on to the <a title="Visualizer" href="https://github.com/SarthakJShetty/Bias/blob/master/Visualizer.py">```Visualizer.py```</a> to generate the "Trends" <a href="https://github.com/SarthakJShetty/Bias/tree/journal#53-trends-result-" title="Trends Charts">chart</a>.
+
 <img src="assets/Analyzer.png" alt="Analyzer sorting the frequency of each word occuring in the corpus">
 
 <i>**Figure 3.4** <a title="Analyzer" href="https://github.com/SarthakJShetty/Bias/tree/master/Analyzer.py/">```Analyzer.py```</a> script generates this ```.csv``` file for analysis by other parts of the pipeline.</i>
-
-- This ```.csv``` file is then passed on to the <a title="Visualizer" href="https://github.com/SarthakJShetty/Bias/blob/master/Visualizer.py">```Visualizer.py```</a> to generate the "Trends" <a href="https://github.com/SarthakJShetty/Bias/tree/journal#53-trends-result-" title="Trends Charts">chart</a>.
 
 ### 3.4 NLP Engine:
 
