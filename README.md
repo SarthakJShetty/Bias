@@ -17,15 +17,17 @@
 
 ## 1.0 Introduction:
 
-- Academic publishing has risen X-fold in the past ten years, making it nearly impossible to sift through a large number of papers and identify broad areas of research within disciplines.
+- Academic publishing has risen 2-fold in the past ten years, making it nearly impossible to sift through a large number of papers and identify broad areas of research within disciplines.
 
-<img src="assets/Increase.png" alt="Increase in number of scientific publications">
+<div style="text-align:center">
+	<img src="assets/EcologyIncrease.png" alt="Increase in number of scientific publications">
+</div>
 
 <i>***Figure 1.1*** Increase in the number of scientific publications in the fields of physics and chemistry [1].</i>
 
 - In order to *understand* such vast volumes of research, there is a need for **automated text analysis tools**.
 
-- However, existing tools such as *Leximancer* are **expensive and lack in-depth analysis of publications**.
+- However, existing tools such are **expensive and lack in-depth analysis of publications**.
 
 - To address these issues, we developed ***pyResearchThemes***, an **open-source, automated text analysis tool** that:
 	- **Scrape** papers from scientific repositories,
@@ -222,5 +224,5 @@ The ```NLP_Engine.py``` module creates topic modelling charts such as the one sh
 
 ## 6.0 Citations:
 
-- **[1]** - Larsen PO, von Ins M. *The rate of growth in scientific publication and the decline in coverage provided by Science Citation Index*. Scientometrics. *September, 2010*.
+- **[1]** - Gabriela C. Nunez‐Mir  Basil V. Iannone III. *Automated content analysis: addressing the big literature challenge in ecology and evolution*. Methods in Ecology and Evolution. *June, 2016*.
 - **[2]** - David Blei, Andrew Y. Ng, Michael I. Jordan. *Latent dirichlet allocation*. The Journal of Machine Learning Research. *March 2003*.
