@@ -20,7 +20,7 @@
 - Academic publishing has risen 2-fold in the past ten years, making it nearly impossible to sift through a large number of papers and identify broad areas of research within disciplines.
 
 <div style="text-align:center">
-	<img src="assets/EcologyIncrease.png" alt="Increase in number of scientific publications">
+	<img src="assets/Increase.png" alt="Increase in number of scientific publications">
 </div>
 
 <i>***Figure 1.1*** Increase in the number of scientific publications in the fields of physics and chemistry [1].</i>
