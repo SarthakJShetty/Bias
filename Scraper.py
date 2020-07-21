@@ -10,6 +10,7 @@ Sarthak J. Shetty
 
 '''Adding the libraries to be used here.'''
 
+from urllib.request import urlopen
 '''Importing Selenium and deprecating urlopen'''
 from selenium import webdriver
 '''Exporting this specific patch to prevent the latest version of chromedriver from crashing'''
@@ -35,17 +36,9 @@ def url_reader(url, status_logger_name):
 	This is added here to try and ping the page. If it returns false the loop ignores it and
 	moves on to the next PII number'''
 	try:
-		'''Experimental addition of the Options argument. Prevent repeated crashing of the chromedriver firmware powering the
-		Selenium instances.'''
-		chrome_options = Options()
-		chrome_options.add_argument('--headless')
-		chrome_options.add_argument('--no-sandbox')
-		chrome_options.add_argument('--disable-dev-shm-usage')
-		browser = webdriver.Chrome(chrome_options=chrome_options)
-		browser.get(url)
-		html_code = browser.page_source
+		'''Using the urllib function, urlopen to extract the html_code of the given page'''
+		html_code = urlopen(url)
 		'''Closing the abstract window after each abstract has been extracted'''
-		browser.close()
 		return html_code			
 	except (UnboundLocalError, urllib.error.HTTPError):
 		pass
@@ -268,7 +261,7 @@ def abstract_date_scraper(title, abstract_soup, status_logger_name):
 def abstract_scraper(abstract_soup):
 	'''This function scrapes the abstract from the soup and returns to the page scraper'''
 	try:
-		abstract = str(abstract_soup.find('p', {'id':'Par1'}).text.encode('utf-8'))[1:]
+		abstract = abstract_soup.find('div', {'class':'c-article-section__content'}).text.encode('utf-8'))[1:]
 	except AttributeError:
 		abstract = str(abstract_soup.find('p', {'class':'Para'}).text.encode('utf-8'))[1:]
 	return abstract
