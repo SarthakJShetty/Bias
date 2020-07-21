@@ -10,9 +10,8 @@ Sarthak J. Shetty
 
 '''Adding the libraries to be used here.'''
 
+'''Importing urllib.request to use urlopen'''
 from urllib.request import urlopen
-'''Importing Selenium and deprecating urlopen'''
-from selenium import webdriver
 '''Exporting this specific patch to prevent the latest version of chromedriver from crashing'''
 from selenium.webdriver.chrome.options import Options
 ''''Importing urllib.error to handle errors in HTTP pinging.'''
