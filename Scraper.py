@@ -17,7 +17,7 @@ from selenium.webdriver.chrome.options import Options
 ''''Importing urllib.error to handle errors in HTTP pinging.'''
 import urllib.error
 '''BeautifulSoup is used for souping.'''
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup as bs
 '''Counter generates a dictionary from the abstract data, providing frequencies of occurences'''
 from collections import Counter
 '''Importing the CSV library here to dump the dictionary for further analysis and error checking if required. Will edit it out later.'''
@@ -56,7 +56,7 @@ def results_determiner(url, status_logger_name):
 	The function returns all the possible links containing results and then provides the total number of results
 	returned by a particular keyword, or combination of keywords.'''
 	first_page_to_scrape = url_reader(url, status_logger_name)
-	first_page_to_scrape_soup = BeautifulSoup(first_page_to_scrape, 'html.parser')
+	first_page_to_scrape_soup = bs(first_page_to_scrape, 'html.parser')
 	number_of_results = first_page_to_scrape_soup.find('h1', {'id':'number-of-search-results-and-search-terms'}).find('strong').text
 	results_determiner_status_key = "Total number of results obtained: "+number_of_results
 	status_logger(status_logger_name, results_determiner_status_key)
@@ -74,7 +74,7 @@ def url_generator(start_url, query_string, status_logger_name):
 	initial_url_status_key = total_url+" "+"has been obtained"
 	status_logger(status_logger_name, initial_url_status_key)
 	urls_to_scrape.append(total_url)
-	test_soup = BeautifulSoup(url_reader(total_url, status_logger_name), 'html.parser')
+	test_soup = bs(url_reader(total_url, status_logger_name), 'html.parser')
 	'''Here, we grab the page element that contains the number of pages to be scrapped'''
 	determiner = test_soup.findAll('span', {'class':'number-of-pages'})[0].text
 	'''We generate the urls_to_scrape from the stripped down determiner element'''
@@ -88,7 +88,7 @@ def page_souper(page, status_logger_name):
 	Note: Appropriate encoding has to be picked up beenfore souping'''
 	page_souper_start_status_key = "Souping page"
 	status_logger(status_logger_name, page_souper_start_status_key)
-	page_soup = BeautifulSoup(page, 'html.parser')
+	page_soup = bs(page, 'html.parser')
 	page_souper_stop_status_key = "Souped page"
 	status_logger(status_logger_name, page_souper_stop_status_key)
 	return page_soup
