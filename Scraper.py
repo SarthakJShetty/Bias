@@ -277,7 +277,8 @@ def author_scraper(abstract_soup, status_logger_name):
 	'''This function scrapes the author of the text, for easy navigation and search'''
 	author_scraper_start_status_key = "Scraping the author name"
 	status_logger(status_logger_name, author_scraper_start_status_key)
-	author = str(abstract_soup.find('span', {'class':'authors__name'}).text.encode('utf-8'))[1:]
+	'''This class element's text attribute contains all the authors names. It is converted to a findAll() list and then concatinated into a string for storage.'''
+	author = ''.join(str(author) for author in [authorElement.text for authorElement in abstract_soup.findAll('li', {'class':'c-author-list__item'})])
 	author_scraper_end_status_key = "Scraped the author's name:" + " "+str(author)
 	status_logger(status_logger_name, author_scraper_end_status_key)
 	return author
@@ -288,7 +289,7 @@ def title_scraper(abstract_soup, status_logger_name):
 	status_logger(status_logger_name, title_scraper_start_status_key)
 	'''Purpose of this block is to retrieve the title of the text even if an AttributeError arises'''
 	try:
-		title = str(abstract_soup.find('h1',{'class':'ArticleTitle'}).text.encode('utf-8'))[1:]
+		title = str(abstract_soup.find('h1', {'class':'c-article-title'}).text.encode('utf-8'))[1:]
 		'''In case an incorrectly classified asset is to be scrapped (Journal/Chapter as opposed to Article), go through this block in an attempt to retrieve the title.'''
 	except AttributeError:
 		try:
