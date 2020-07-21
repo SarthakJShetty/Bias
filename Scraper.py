@@ -75,19 +75,11 @@ def url_generator(start_url, query_string, status_logger_name):
 	status_logger(status_logger_name, initial_url_status_key)
 	urls_to_scrape.append(total_url)
 	test_soup = BeautifulSoup(url_reader(total_url, status_logger_name), 'html.parser')
-	determiner = test_soup.find('a', {'class':'title'})
-	'''This while loop continuously pings and checks for new webpages, then stores them for scraping'''
-	while(determiner):
-		counter = counter+1
-		total_url = start_url+str(counter)+"?facet-content-type=\"Article\"&query="+query_string
-		url_generator_while_status_key=total_url+" "+"has been obtained"
-		status_logger(status_logger_name, url_generator_while_status_key)
-		soup = BeautifulSoup(url_reader(total_url, status_logger_name), 'html.parser')
-		determiner = soup.find('a', {'class':'title'})
-		urls_to_scrape.append(total_url)
-	urls_to_scrape.pop(len(urls_to_scrape)-1)
-	#print(urls_to_scrape)
-	url_generator_stop_status_key = "URLs have been obtained"
+	'''Here, we grab the page element that contains the number of pages to be scrapped'''
+	determiner = test_soup.findAll('span', {'class':'number-of-pages'})[0].text
+	'''We generate the urls_to_scrape from the stripped down determiner element'''
+	urls_to_scrape = [(start_url+str(counter)+"?facet-content-type=\"Article\"&query="+query_string) for counter in range(0, (int(determiner.replace(',', '')) + 1))]
+	url_generator_stop_status_key = determiner.replace(',', '') + " URLs have been obtained"
 	status_logger(status_logger_name, url_generator_stop_status_key)
 	return urls_to_scrape
 
