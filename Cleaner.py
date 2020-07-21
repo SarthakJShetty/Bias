@@ -10,13 +10,13 @@ Clean the corpus of special character'''
 '''Importing the status logger function here to LOG the cleaner module working for debugging'''
 from common_functions import status_logger
 
-# This holds the elements of the abstract after it has been split at the spaces
+'''This holds the elements of the abstract after it has been split at the spaces'''
 elements = []
-# Holds the dirty elements that contain the \\ and // in them
+'''Holds the dirty elements that contain the \\ and // in them'''
 dirty_elements = []
-# Holds the clean members of the abstract elements
+'''Holds the clean members of the abstract elements'''
 cleaned_str_list = []
-# Holds the screened abstracts, null of any special character occurances
+'''Holds the screened abstracts, null of any special character occurances'''
 cleaned_texts = []
 
 '''What needs to be implemented here?
