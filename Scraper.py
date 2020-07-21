@@ -12,8 +12,6 @@ Sarthak J. Shetty
 
 '''Importing urllib.request to use urlopen'''
 from urllib.request import urlopen
-'''Exporting this specific patch to prevent the latest version of chromedriver from crashing'''
-from selenium.webdriver.chrome.options import Options
 ''''Importing urllib.error to handle errors in HTTP pinging.'''
 import urllib.error
 '''BeautifulSoup is used for souping.'''
@@ -62,7 +60,7 @@ def url_generator(start_url, query_string, status_logger_name):
 	it is popped later on from the list.'''
 	urls_to_scrape=[]
 	counter = 0
-	total_url = start_url+str(counter)+"?facet-content-type=\"Article\"&query="+query_string
+	total_url = start_url+str(counter)+"?facet-content-type=\"Article\"&query="+query_string+"&facet-language=\"En\""
 	initial_url_status_key = total_url+" "+"has been obtained"
 	status_logger(status_logger_name, initial_url_status_key)
 	urls_to_scrape.append(total_url)
@@ -70,7 +68,7 @@ def url_generator(start_url, query_string, status_logger_name):
 	'''Here, we grab the page element that contains the number of pages to be scrapped'''
 	determiner = test_soup.findAll('span', {'class':'number-of-pages'})[0].text
 	'''We generate the urls_to_scrape from the stripped down determiner element'''
-	urls_to_scrape = [(start_url+str(counter)+"?facet-content-type=\"Article\"&query="+query_string) for counter in range(0, (int(determiner.replace(',', '')) + 1))]
+	urls_to_scrape = [(start_url+str(counter)+"?facet-content-type=\"Article\"&query="+query_string+"&facet-language=\"En\"") for counter in range(1, (int(determiner.replace(',', '')) + 1))]
 	url_generator_stop_status_key = determiner.replace(',', '') + " URLs have been obtained"
 	status_logger(status_logger_name, url_generator_stop_status_key)
 	return urls_to_scrape
@@ -259,10 +257,7 @@ def abstract_date_scraper(title, abstract_soup, status_logger_name):
 
 def abstract_scraper(abstract_soup):
 	'''This function scrapes the abstract from the soup and returns to the page scraper'''
-	try:
-		abstract = abstract_soup.find('div', {'class':'c-article-section__content'}).text.encode('utf-8'))[1:]
-	except AttributeError:
-		abstract = str(abstract_soup.find('p', {'class':'Para'}).text.encode('utf-8'))[1:]
+	abstract = str(abstract_soup.find('div', {'id':'Abs1-content'}).text.encode('utf-8'))[1:]
 	return abstract
 
 def author_scraper(abstract_soup, status_logger_name):
@@ -345,8 +340,8 @@ def processor(abstract_url, urls_to_scrape, abstract_id_log_name, abstracts_log_
 	visualizer code to generate the trends histogram.'''
 	permanent_word_sorter_list = word_sorter_list_generator(status_logger_name)
 
-	for site_url_index in range(0, len(urls_to_scrape)):
-
+	for site_url_index in range(0, (len(urls_to_scrape)+1)):
+		print(urls_to_scrape[site_url_index])
 		if(site_url_index==0):
 			results_determiner(urls_to_scrape[site_url_index], status_logger_name)
 		'''Collects the web-page from the url for souping'''
@@ -368,7 +363,7 @@ def processor(abstract_url, urls_to_scrape, abstract_id_log_name, abstracts_log_
 
 def scraper_main(abstract_id_log_name, abstracts_log_name, start_url, abstract_url, query_string, trend_keywords, keywords_to_search, status_logger_name):
 	''''This function contains all the functions and contains this entire script here, so that it can be imported later to the main function'''
-	
+
 	'''Provides the links for the URLs to be scraped by the scraper'''
 	urls_to_scrape = url_generator(start_url, query_string, status_logger_name)
 	'''Calling the processor() function here'''
