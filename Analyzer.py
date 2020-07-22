@@ -24,6 +24,7 @@ def analyzer_pre_processing(abstracts_log_name, status_logger_name):
 	'''Carries out the pre-processing tasks, such as folder creation'''
 	analyzer_pre_processing_status_key="Carrying out pre-processing functions for analyzer"
 	status_logger(status_logger_name, analyzer_pre_processing_status_key)
+	
 	'''This code strips the abstracts_log_name of its extension and adds a .csv to it'''
 	abstracts_csv_file_name=(os.path.splitext(abstracts_log_name)[0])+"_"+"FREQUENCY_CSV_DATA"+".csv"
 	abstracts_txt_file_name = abstracts_log_name+"_"+"CLEANED"+".txt"
@@ -35,6 +36,7 @@ def analyzer_pre_processing(abstracts_log_name, status_logger_name):
 def list_cleaner(list_to_be_cleaned, status_logger_name):
 	list_cleaner_start_status_key = "Cleaning the list of words generated"
 	status_logger(status_logger_name, list_cleaner_start_status_key)
+	
 	'''This function cleans the list containing the words found in the abstract. It eliminates words found in
 	another pre-defined list of words.'''
 	words_to_be_eliminated = ["the", "of", "and", "in", "to", "a", "is", "for", "from", "with", "that",	"by", "are", "on", "was", "as", "were", "url:", "abstract:",
@@ -53,8 +55,6 @@ def list_cleaner(list_to_be_cleaned, status_logger_name):
 
 def transfer_function(abstracts_txt_file_name, abstracts_csv_file_name, status_logger_name):
 	'''This function is involved in the actual transfer of data from the .txt file to the .csv file'''
-	#transfer_function_status_key="Copying data from"+" "+ str(abstracts_txt_file_name)+" "+"to"+" "+str(abstracts_csv_file_name)
-
 	transfer_function_status_key = "Copying data from"+" "+str(abstracts_txt_file_name)+" "+"to"+" "+"pandas dataframe"
 	status_logger(status_logger_name, transfer_function_status_key)
 
@@ -110,6 +110,7 @@ def analyzer_main(abstracts_log_name, status_logger_name):
 	'''Calling the pre-processing and transfer functions here'''
 	abstracts_txt_file_name, abstracts_csv_file_name = analyzer_pre_processing(abstracts_log_name, status_logger_name)
 	transfer_function(abstracts_txt_file_name, abstracts_csv_file_name, status_logger_name)
+
 	'''Logs the end of the process Analyzer code in the status_logger'''
 	analyzer_main_status_key="Exiting the Analyzer.py code."
 	status_logger(status_logger_name, analyzer_main_status_key)
