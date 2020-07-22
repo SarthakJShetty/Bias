@@ -104,20 +104,20 @@ def arguments_parser():
 	if arguments.keywords:
 		keywords = arguments.keywords
 	'''The keyword if a string will be split and then be passed to the scraper functions'''
-	
+
 	keywords = keywords.split()
 	if arguments.trends:
 		trends = arguments.trends
 	'''The entire list of the abstract words will be lowered and hence trends term has to be
 	lowered to obtain a match with those terms.'''
-	
+
 	'''if arguments.paper:
 		paper = arguments.paper'''
 	'''If this argument is turned to Yes, then the papers will be downloaded as well'''
-	
+
 	trends = trends.lower()
 	trends = trends.split()
-	
+
 	return keywords, trends
 
 def end_process(status_logger_name):
