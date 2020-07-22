@@ -17,8 +17,10 @@ def visualizer_generator(lda_model, corpus, id2word, logs_folder_name, status_lo
 	'''This code generates the .html file with generates the visualization of the data prepared.'''
 	visualizer_generator_start_status_key = "Preparing the topic modeling visualization"
 	status_logger(status_logger_name, visualizer_generator_start_status_key)
+
 	textual_data_visualization = pyLDAvis.gensim.prepare(lda_model, corpus, id2word)
 	pyLDAvis.save_html(textual_data_visualization, logs_folder_name+"/"+"Data_Visualization_Topic_Modelling.html")
+
 	visualizer_generator_end_status_key = "Prepared the topic modeling visualization"+" "+logs_folder_name+"/"+"Data_Visualization_Topic_Modelling.html"
 	status_logger(status_logger_name, visualizer_generator_end_status_key)		
 
