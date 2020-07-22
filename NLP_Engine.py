@@ -55,9 +55,10 @@ def data_reader(abstracts_log_name, status_logger_name):
 	status_logger(status_logger_name, data_reader_start_status_key)
 
 	textual_dataframe = pd.read_csv(abstracts_log_name+'_'+'CLEANED'+'.txt', delimiter="\t")
-	
+
 	data_reader_end_status_key = abstracts_log_name+".txt has been ported to dataframe"	
 	status_logger(status_logger_name, data_reader_end_status_key)
+
 	return textual_dataframe
 
 def textual_data_trimmer(textual_dataframe, status_logger_name):
@@ -66,9 +67,10 @@ def textual_data_trimmer(textual_dataframe, status_logger_name):
 	status_logger(status_logger_name, textual_data_trimmer_start_status_key)
 
 	textual_data = textual_dataframe.values.tolist()
-	
+
 	textual_data_trimmer_end_status_key = "Trimmed data and prepared list of words"
 	status_logger(status_logger_name, textual_data_trimmer_end_status_key)
+
 	return textual_data
 
 def sent_to_words(textual_data, status_logger_name):
@@ -82,6 +84,7 @@ def sent_to_words(textual_data, status_logger_name):
 	
 	sent_to_words_end_status_key = "Tokenized words"
 	status_logger(status_logger_name, sent_to_words_end_status_key)	
+
 	return textual_data
 
 def bigram_generator(textual_data, status_logger_name):
@@ -95,6 +98,7 @@ def bigram_generator(textual_data, status_logger_name):
 
 	bigram_generator_end_status_key = "Generated word bigrams"
 	status_logger(status_logger_name, bigram_generator_end_status_key)	
+
 	return bigram_mod
 
 def remove_stopwords(textual_data, status_logger_name):
@@ -132,6 +136,7 @@ def lemmatization(status_logger_name, textual_data, allowed_postags=['NOUN', 'AD
 
 	lemmatization_end_status_key = "Ending lemmatization"
 	status_logger(status_logger_name, lemmatization_end_status_key)
+
 	return texts_out
 
 def nlp_engine_main(abstracts_log_name, status_logger_name):
