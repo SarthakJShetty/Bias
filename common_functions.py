@@ -28,6 +28,13 @@ def status_logger(status_logger_name, status_key):
 	status_log.write(complete_status_key+"\n")
 	status_log.close()
 
+def status_logger_creator(abstracts_log_name):
+	'''This is a standalone status_logger and session_folder filename generator, if someone is using the Bias components as standalone functions'''
+	session_folder_name = abstracts_log_name.split('/')[-1]
+	os.makedirs(session_folder_name)
+	status_logger_name = session_folder_name+"/"+"Status_Logger"
+	return status_logger_name, session_folder_name
+
 def pre_processing(keywords):
 	'''This function contains all the pre-processing statements related to the running of the program, including:
 	1. Default starter URL of the page to scrape.
@@ -55,7 +62,7 @@ def pre_processing(keywords):
 				folder_attachement = folder_attachement+keywords[keyword_index]+"_"
 	'''Declaring the LOG folder and the abstract, abstract_id & status_logger files.'''
 	logs_folder_name = "LOGS"+"/"+"LOG"+"_"+run_start_date+'_'+run_start_hour+'_'+run_start_minute+"_"+folder_attachement
-	abstract_id_log_name =logs_folder_name+"/"+'Abstract_ID_Database'+'_'+run_start_date+'_'+run_start_hour+'_'+run_start_minute+"_"
+	abstract_id_log_name = logs_folder_name+"/"+'Abstract_ID_Database'+'_'+run_start_date+'_'+run_start_hour+'_'+run_start_minute+"_"
 	abstracts_log_name = logs_folder_name+"/"+'Abstract_Database'+'_'+run_start_date+'_'+run_start_hour+'_'+run_start_minute
 	status_logger_name = logs_folder_name+"/"+'Status_Logger'+'_'+run_start_date+'_'+run_start_hour+'_'+run_start_minute
 
