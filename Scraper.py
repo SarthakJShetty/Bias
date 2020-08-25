@@ -25,7 +25,7 @@ import numpy as np
 '''This library is imported to check if we can feasibly introduce delays into the processor loop to reduce instances of the remote server, shutting the connection while scrapping extraordinarily large datasets.'''
 import time
 '''Fragmenting code into different scripts. Some functions are to be used across the different sub-parts as well. Hence, shifted some of the functions to the new script.'''
-from common_functions import pre_processing, arguments_parser,  status_logger
+from common_functions import pre_processing, status_logger
 
 def url_reader(url, status_logger_name):
 	'''This keyword is supplied to the URL and is hence used for souping.
@@ -384,7 +384,7 @@ def processor(abstract_url, urls_to_scrape, abstract_id_log_name, abstracts_log_
 
 	abstract_year_dictionary, starting_year, ending_year = abstract_year_list_post_processor(permanent_word_sorter_list, status_logger_name)
 
-	return abstract_year_dictionary, starting_year, ending_year
+	return abstract_year_dictionary
 
 def scraper_main(abstract_id_log_name, abstracts_log_name, start_url, abstract_url, query_string, trend_keywords, keywords_to_search, status_logger_name):
 	''''This function contains all the functions and contains this entire script here, so that it can be imported later to the main function'''
@@ -392,9 +392,8 @@ def scraper_main(abstract_id_log_name, abstracts_log_name, start_url, abstract_u
 	'''Provides the links for the URLs to be scraped by the scraper'''
 	urls_to_scrape = url_generator(start_url, query_string, status_logger_name)
 	'''Calling the processor() function here'''
-	abstract_year_dictionary, starting_year, ending_year = processor(abstract_url, urls_to_scrape, abstract_id_log_name, abstracts_log_name, status_logger_name, trend_keywords, keywords_to_search)
+	abstract_year_dictionary = processor(abstract_url, urls_to_scrape, abstract_id_log_name, abstracts_log_name, status_logger_name, trend_keywords, keywords_to_search)
 	'''This function dumps the entire dictionary onto the disc for further analysis and inference.'''
 	abstract_year_dictionary_dumper(abstract_year_dictionary, abstracts_log_name, status_logger_name)
 
-	'''Returning the abstract word dictionary here'''
-	return abstract_year_dictionary, starting_year, ending_year
+	return 0
