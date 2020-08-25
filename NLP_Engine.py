@@ -24,6 +24,7 @@ import gensim.corpora as corpora
 from gensim.utils import simple_preprocess
 from gensim.models import CoherenceModel
 from common_functions import status_logger
+from Visualizer import visualizer_main
 '''Industrial level toolkit for NLP'''
 import spacy
 
@@ -165,7 +166,7 @@ def nlp_engine_main(abstracts_log_name, status_logger_name):
 	status_logger(status_logger_name, lda_model_generation_start_status_key)
 
 	lda_model = gensim.models.ldamodel.LdaModel(corpus = corpus, id2word = id2word, num_topics = 10, random_state = 100, update_every = 1, chunksize = 100, passes = 10, alpha = 'auto', per_word_topics = True)
-	
+
 	lda_model_generation_end_status_key = "Generated the LDA model using default parameter set"
 	status_logger(status_logger_name, lda_model_generation_end_status_key)
 
@@ -173,8 +174,11 @@ def nlp_engine_main(abstracts_log_name, status_logger_name):
 
 	perplexity_status_key = "Issued perplexity:"+" "+str(perplexity_score)
 	status_logger(status_logger_name, perplexity_status_key)
-		
+
 	nlp_engine_main_end_status_key = "Idling the NLP Engine"
 	status_logger(status_logger_name, nlp_engine_main_end_status_key)
 
-	return lda_model, corpus, id2word
+	'''Importing the visualizer_main function to view the LDA Model built by the NLP_engine_main() function'''
+	visualizer_main(lda_model, corpus, id2word, logs_folder_name, status_logger_name)
+
+	return 0
