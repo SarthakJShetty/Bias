@@ -79,15 +79,13 @@ def trends_histogram(abstract_word_dictionary, starting_year, ending_year, trend
 
 	trends_histogram_end_status_key = "Generated the trends graph"+" "+logs_folder_name+"/"+"Data_Visualization_Trends_Graph"+"_"+trend_keywords[0]+".png"
 	status_logger(status_logger_name, trends_histogram_end_status_key)
-			
-def visualizer_main(abstract_word_dictionary, starting_year, ending_year, trend_keywords, lda_model, corpus, id2word, logs_folder_name, status_logger_name):
+
+def visualizer_main(lda_model, corpus, id2word, logs_folder_name, status_logger_name):
 	visualizer_main_start_status_key = "Entering the visualizer_main() code"
 	status_logger(status_logger_name, visualizer_main_start_status_key)
 
 	'''This the main visualizer code. Reorging this portion of the code to ensure modularity later on as well.'''
 	visualizer_generator(lda_model, corpus, id2word, logs_folder_name, status_logger_name)
-	'''Trends visualizer is called to generate the '''
-	trends_histogram(abstract_word_dictionary, starting_year, ending_year, trend_keywords, logs_folder_name, status_logger_name)
 
 	visualizer_main_end_status_key = "Exiting the visualizer_main() code"
 	status_logger(status_logger_name, visualizer_main_end_status_key)
