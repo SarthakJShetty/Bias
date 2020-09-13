@@ -4,4 +4,5 @@ __pycache__
 mallet-2.0.8/
 Bias.code-workspace
 *-checkpoint.ipynb
+assets/
 *.db
