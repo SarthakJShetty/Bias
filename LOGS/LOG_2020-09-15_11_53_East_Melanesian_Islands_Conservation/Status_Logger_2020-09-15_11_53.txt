@@ -1,0 +1,1814 @@
+Session: 15/9/2020
+Time: 11:53:48
+[INFO]11:53:48 Built LOG folder for session
+[INFO]11:53:48 https://link.springer.com/search/page/ start_url has been received
+[INFO]11:53:48 https://link.springer.com/search/page/0?facet-content-type="Article"&query=East+Melanesian+Islands+Conservation&facet-language="En" has been obtained
+[INFO]11:53:50 6 page URLs have been obtained
+[INFO]11:53:50 Generating the permanent archival list
+[INFO]11:53:50 Generated the permanent archival list
+[INFO]11:53:50 Souping page
+[INFO]11:53:51 Souped page
+[INFO]11:53:51 Total number of results obtained: 105
+[INFO]11:53:51 Souping page
+[INFO]11:53:52 Souped page
+[INFO]11:53:52 Scraping IDs
+[INFO]11:53:52 Scraped IDs
+[INFO]11:53:52 Entered the Abstract Crawler
+[INFO]11:53:52 Extracting Abstract IDs from disc
+[INFO]11:53:52 Extracted Abstract IDs from disc
+[INFO]11:53:52 Abstract Number: 1
+[INFO]11:53:52 Abstract ID: /article/10.1007/s11273-008-9097-3
+[INFO]11:53:54 Souping page
+[INFO]11:53:55 Souped page
+[INFO]11:53:55 Scraping the title of the abstract
+[INFO]11:53:55 Scraped the title of the abstract
+[INFO]11:53:55 Scraping date of the abstract titled: 'Wetlands of the Pacific Island region'
+[INFO]11:53:55 'Wetlands of the Pacific Island region' was published on 2008-05-13
+[INFO]11:53:55 Scraping the author name
+[INFO]11:53:55 Scraped the author's name: Joanna C. Ellison1 
+[INFO]11:53:55 Adding: 'Wetlands of the Pacific Island region' to the archival list
+[INFO]11:53:55 Added: 'Wetlands of the Pacific Island region' to the archival list
+[INFO]11:53:55 Writing 'Wetlands of the Pacific Island region' by Joanna C. Ellison1  to disc
+[INFO]11:53:55 Written 'Wetlands of the Pacific Island region' to disc
+[INFO]11:53:55 Writing 'Wetlands of the Pacific Island region' by Joanna C. Ellison1  to analytical abstracts file
+[INFO]11:53:55 Written 'Wetlands of the Pacific Island region' to disc
+[INFO]11:53:55 Abstract Number: 2
+[INFO]11:53:55 Abstract ID: /article/10.1007/BF02231482
+[INFO]11:53:57 Souping page
+[INFO]11:54:2 Souped page
+[INFO]11:54:2 Scraping the title of the abstract
+[INFO]11:54:2 Scraped the title of the abstract
+[INFO]11:54:2 Scraping date of the abstract titled: 'Archaeology in the Pacific Islands: An appraisal of recent research'
+[INFO]11:54:2 'Archaeology in the Pacific Islands: An appraisal of recent research' was published on 1994-12
+[INFO]11:54:2 Scraping the author name
+[INFO]11:54:2 Scraped the author's name: P. V. Kirch1 & M. I. Weisler2 
+[INFO]11:54:2 Adding: 'Archaeology in the Pacific Islands: An appraisal of recent research' to the archival list
+[INFO]11:54:2 Added: 'Archaeology in the Pacific Islands: An appraisal of recent research' to the archival list
+[INFO]11:54:2 Writing 'Archaeology in the Pacific Islands: An appraisal of recent research' by P. V. Kirch1 & M. I. Weisler2  to disc
+[INFO]11:54:2 Written 'Archaeology in the Pacific Islands: An appraisal of recent research' to disc
+[INFO]11:54:2 Writing 'Archaeology in the Pacific Islands: An appraisal of recent research' by P. V. Kirch1 & M. I. Weisler2  to analytical abstracts file
+[INFO]11:54:2 Written 'Archaeology in the Pacific Islands: An appraisal of recent research' to disc
+[INFO]11:54:2 Abstract Number: 3
+[INFO]11:54:2 Abstract ID: /article/10.1186/1746-4269-10-10
+[INFO]11:54:4 Souping page
+[INFO]11:54:5 Souped page
+[INFO]11:54:5 Scraping the title of the abstract
+[INFO]11:54:5 Scraped the title of the abstract
+[INFO]11:54:5 Scraping date of the abstract titled: 'Interaction between forest biodiversity and people\xe2\x80\x99s use of forest resources in Roviana, Solomon Islands: implications for biocultural conservation under socioeconomic changes'
+[INFO]11:54:5 'Interaction between forest biodiversity and people\xe2\x80\x99s use of forest resources in Roviana, Solomon Islands: implications for biocultural conservation under socioeconomic changes' was published on 2014-01-27
+[INFO]11:54:5 Scraping the author name
+[INFO]11:54:5 Scraped the author's name: Takuro Furusawa1, Myknee Qusa Sirikolo2, Masatoshi Sasaoka3 & Ryutaro Ohtsuka4 
+[INFO]11:54:5 Adding: 'Interaction between forest biodiversity and people\xe2\x80\x99s use of forest resources in Roviana, Solomon Islands: implications for biocultural conservation under socioeconomic changes' to the archival list
+[INFO]11:54:5 Added: 'Interaction between forest biodiversity and people\xe2\x80\x99s use of forest resources in Roviana, Solomon Islands: implications for biocultural conservation under socioeconomic changes' to the archival list
+[INFO]11:54:5 Writing 'Interaction between forest biodiversity and people\xe2\x80\x99s use of forest resources in Roviana, Solomon Islands: implications for biocultural conservation under socioeconomic changes' by Takuro Furusawa1, Myknee Qusa Sirikolo2, Masatoshi Sasaoka3 & Ryutaro Ohtsuka4  to disc
+[INFO]11:54:5 Written 'Interaction between forest biodiversity and people\xe2\x80\x99s use of forest resources in Roviana, Solomon Islands: implications for biocultural conservation under socioeconomic changes' to disc
+[INFO]11:54:5 Writing 'Interaction between forest biodiversity and people\xe2\x80\x99s use of forest resources in Roviana, Solomon Islands: implications for biocultural conservation under socioeconomic changes' by Takuro Furusawa1, Myknee Qusa Sirikolo2, Masatoshi Sasaoka3 & Ryutaro Ohtsuka4  to analytical abstracts file
+[INFO]11:54:5 Written 'Interaction between forest biodiversity and people\xe2\x80\x99s use of forest resources in Roviana, Solomon Islands: implications for biocultural conservation under socioeconomic changes' to disc
+[INFO]11:54:5 Abstract Number: 4
+[INFO]11:54:5 Abstract ID: /article/10.1007/s10722-012-9824-8
+[INFO]11:54:7 Souping page
+[INFO]11:54:8 Souped page
+[INFO]11:54:8 Scraping the title of the abstract
+[INFO]11:54:8 Scraped the title of the abstract
+[INFO]11:54:8 Scraping date of the abstract titled: 'Morphological diversity in breadfruit (Artocarpus, Moraceae): insights into domestication, conservation, and cultivar identification'
+[INFO]11:54:8 'Morphological diversity in breadfruit (Artocarpus, Moraceae): insights into domestication, conservation, and cultivar identification' was published on 2012-05-22
+[INFO]11:54:8 Scraping the author name
+[INFO]11:54:8 Scraped the author's name: A. Maxwell P. Jones1, Susan J. Murch2, Jim Wiseman3 & Diane Ragone4 
+[INFO]11:54:8 Adding: 'Morphological diversity in breadfruit (Artocarpus, Moraceae): insights into domestication, conservation, and cultivar identification' to the archival list
+[INFO]11:54:8 Added: 'Morphological diversity in breadfruit (Artocarpus, Moraceae): insights into domestication, conservation, and cultivar identification' to the archival list
+[INFO]11:54:8 Writing 'Morphological diversity in breadfruit (Artocarpus, Moraceae): insights into domestication, conservation, and cultivar identification' by A. Maxwell P. Jones1, Susan J. Murch2, Jim Wiseman3 & Diane Ragone4  to disc
+[INFO]11:54:8 Written 'Morphological diversity in breadfruit (Artocarpus, Moraceae): insights into domestication, conservation, and cultivar identification' to disc
+[INFO]11:54:8 Writing 'Morphological diversity in breadfruit (Artocarpus, Moraceae): insights into domestication, conservation, and cultivar identification' by A. Maxwell P. Jones1, Susan J. Murch2, Jim Wiseman3 & Diane Ragone4  to analytical abstracts file
+[INFO]11:54:8 Written 'Morphological diversity in breadfruit (Artocarpus, Moraceae): insights into domestication, conservation, and cultivar identification' to disc
+[INFO]11:54:8 Abstract Number: 5
+[INFO]11:54:8 Abstract ID: /article/10.1663/0013-0001%282006%2960%5B212%3ADCOTSO%5D2.0.CO%3B2
+[INFO]11:54:10 Souping page
+[INFO]11:54:11 Souped page
+[INFO]11:54:11 Scraping the title of the abstract
+[INFO]11:54:11 Scraped the title of the abstract
+[INFO]11:54:11 Scraping date of the abstract titled: 'Differential conservation of two species ofCanarium (burseraceae) among the Babatana and Ririo of Lauru (Choiseul), Solomon Islands'
+[INFO]11:54:11 'Differential conservation of two species ofCanarium (burseraceae) among the Babatana and Ririo of Lauru (Choiseul), Solomon Islands' was published on 2006-09
+[INFO]11:54:11 Scraping the author name
+[INFO]11:54:11 Scraped the author's name: Will McClatchey1, Myknee Qusa Bandikan Sirikolo2, Lazarus Kaleveke3 & Carefree Pitanapi4 
+[INFO]11:54:11 Adding: 'Differential conservation of two species ofCanarium (burseraceae) among the Babatana and Ririo of Lauru (Choiseul), Solomon Islands' to the archival list
+[INFO]11:54:11 Added: 'Differential conservation of two species ofCanarium (burseraceae) among the Babatana and Ririo of Lauru (Choiseul), Solomon Islands' to the archival list
+[INFO]11:54:11 Writing 'Differential conservation of two species ofCanarium (burseraceae) among the Babatana and Ririo of Lauru (Choiseul), Solomon Islands' by Will McClatchey1, Myknee Qusa Bandikan Sirikolo2, Lazarus Kaleveke3 & Carefree Pitanapi4  to disc
+[INFO]11:54:11 Written 'Differential conservation of two species ofCanarium (burseraceae) among the Babatana and Ririo of Lauru (Choiseul), Solomon Islands' to disc
+[INFO]11:54:11 Writing 'Differential conservation of two species ofCanarium (burseraceae) among the Babatana and Ririo of Lauru (Choiseul), Solomon Islands' by Will McClatchey1, Myknee Qusa Bandikan Sirikolo2, Lazarus Kaleveke3 & Carefree Pitanapi4  to analytical abstracts file
+[INFO]11:54:11 Written 'Differential conservation of two species ofCanarium (burseraceae) among the Babatana and Ririo of Lauru (Choiseul), Solomon Islands' to disc
+[INFO]11:54:11 Abstract Number: 6
+[INFO]11:54:11 Abstract ID: /article/10.1007/BF00975493
+[INFO]11:54:14 Souping page
+[INFO]11:54:15 Souped page
+[INFO]11:54:15 Scraping the title of the abstract
+[INFO]11:54:15 Scraped the title of the abstract
+[INFO]11:54:15 Scraping date of the abstract titled: 'The prehistory of Island Southeast Asia: A multidisciplinary review of recent research'
+[INFO]11:54:15 'The prehistory of Island Southeast Asia: A multidisciplinary review of recent research' was published on 1987-06
+[INFO]11:54:15 Scraping the author name
+[INFO]11:54:15 Scraped the author's name: Peter Bellwood1 
+[INFO]11:54:15 Adding: 'The prehistory of Island Southeast Asia: A multidisciplinary review of recent research' to the archival list
+[INFO]11:54:15 Added: 'The prehistory of Island Southeast Asia: A multidisciplinary review of recent research' to the archival list
+[INFO]11:54:15 Writing 'The prehistory of Island Southeast Asia: A multidisciplinary review of recent research' by Peter Bellwood1  to disc
+[INFO]11:54:15 Written 'The prehistory of Island Southeast Asia: A multidisciplinary review of recent research' to disc
+[INFO]11:54:15 Writing 'The prehistory of Island Southeast Asia: A multidisciplinary review of recent research' by Peter Bellwood1  to analytical abstracts file
+[INFO]11:54:15 Written 'The prehistory of Island Southeast Asia: A multidisciplinary review of recent research' to disc
+[INFO]11:54:15 Abstract Number: 7
+[INFO]11:54:15 Abstract ID: /article/10.1023/A%3A1011165119141
+[INFO]11:54:18 Souping page
+[INFO]11:54:20 Souped page
+[INFO]11:54:20 Scraping the title of the abstract
+[INFO]11:54:20 Scraped the title of the abstract
+[INFO]11:54:20 Scraping date of the abstract titled: 'The Archaeological Record of Human Impacts on Animal Populations'
+[INFO]11:54:20 'The Archaeological Record of Human Impacts on Animal Populations' was published on 2001-03
+[INFO]11:54:20 Scraping the author name
+[INFO]11:54:20 Scraped the author's name: Donald K. Grayson1 
+[INFO]11:54:20 Adding: 'The Archaeological Record of Human Impacts on Animal Populations' to the archival list
+[INFO]11:54:20 Added: 'The Archaeological Record of Human Impacts on Animal Populations' to the archival list
+[INFO]11:54:20 Writing 'The Archaeological Record of Human Impacts on Animal Populations' by Donald K. Grayson1  to disc
+[INFO]11:54:20 Written 'The Archaeological Record of Human Impacts on Animal Populations' to disc
+[INFO]11:54:20 Writing 'The Archaeological Record of Human Impacts on Animal Populations' by Donald K. Grayson1  to analytical abstracts file
+[INFO]11:54:20 Written 'The Archaeological Record of Human Impacts on Animal Populations' to disc
+[INFO]11:54:20 Abstract Number: 8
+[INFO]11:54:20 Abstract ID: /article/10.1023/A%3A1008652618350
+[INFO]11:54:22 Souping page
+[INFO]11:54:23 Souped page
+[INFO]11:54:23 Scraping the title of the abstract
+[INFO]11:54:23 Scraped the title of the abstract
+[INFO]11:54:23 Scraping date of the abstract titled: 'Fruit component analysis of south Pacific coconut palm populations'
+[INFO]11:54:23 'Fruit component analysis of south Pacific coconut palm populations' was published on 1997-08
+[INFO]11:54:23 Scraping the author name
+[INFO]11:54:23 Scraped the author's name: G.R. Ashburner1, W.K. Thompson1, G.M. Halloran2 & M.A. Foale3 
+[INFO]11:54:23 Adding: 'Fruit component analysis of south Pacific coconut palm populations' to the archival list
+[INFO]11:54:23 Added: 'Fruit component analysis of south Pacific coconut palm populations' to the archival list
+[INFO]11:54:23 Writing 'Fruit component analysis of south Pacific coconut palm populations' by G.R. Ashburner1, W.K. Thompson1, G.M. Halloran2 & M.A. Foale3  to disc
+[INFO]11:54:23 Written 'Fruit component analysis of south Pacific coconut palm populations' to disc
+[INFO]11:54:23 Writing 'Fruit component analysis of south Pacific coconut palm populations' by G.R. Ashburner1, W.K. Thompson1, G.M. Halloran2 & M.A. Foale3  to analytical abstracts file
+[INFO]11:54:23 Written 'Fruit component analysis of south Pacific coconut palm populations' to disc
+[INFO]11:54:23 Abstract Number: 9
+[INFO]11:54:23 Abstract ID: /article/10.1023/A%3A1003219931171
+[INFO]11:54:25 Souping page
+[INFO]11:54:26 Souped page
+[INFO]11:54:26 Scraping the title of the abstract
+[INFO]11:54:26 Scraped the title of the abstract
+[INFO]11:54:26 Scraping date of the abstract titled: 'Radiation of crenobiontic gastropods on an ancient continental island: the Hemistomia-clade in New Caledonia (Gastropoda: Hydrobiidae)'
+[INFO]11:54:26 'Radiation of crenobiontic gastropods on an ancient continental island: the Hemistomia-clade in New Caledonia (Gastropoda: Hydrobiidae)' was published on 1998-04
+[INFO]11:54:26 Scraping the author name
+[INFO]11:54:26 Scraped the author's name: Martin Haase & Philippe Bouchet 
+[INFO]11:54:26 Adding: 'Radiation of crenobiontic gastropods on an ancient continental island: the Hemistomia-clade in New Caledonia (Gastropoda: Hydrobiidae)' to the archival list
+[INFO]11:54:26 Added: 'Radiation of crenobiontic gastropods on an ancient continental island: the Hemistomia-clade in New Caledonia (Gastropoda: Hydrobiidae)' to the archival list
+[INFO]11:54:26 Writing 'Radiation of crenobiontic gastropods on an ancient continental island: the Hemistomia-clade in New Caledonia (Gastropoda: Hydrobiidae)' by Martin Haase & Philippe Bouchet  to disc
+[INFO]11:54:26 Written 'Radiation of crenobiontic gastropods on an ancient continental island: the Hemistomia-clade in New Caledonia (Gastropoda: Hydrobiidae)' to disc
+[INFO]11:54:26 Writing 'Radiation of crenobiontic gastropods on an ancient continental island: the Hemistomia-clade in New Caledonia (Gastropoda: Hydrobiidae)' by Martin Haase & Philippe Bouchet  to analytical abstracts file
+[INFO]11:54:26 Written 'Radiation of crenobiontic gastropods on an ancient continental island: the Hemistomia-clade in New Caledonia (Gastropoda: Hydrobiidae)' to disc
+[INFO]11:54:26 Abstract Number: 10
+[INFO]11:54:26 Abstract ID: /article/10.1007/s10745-012-9487-2
+[INFO]11:54:29 Souping page
+[INFO]11:54:30 Souped page
+[INFO]11:54:30 Scraping the title of the abstract
+[INFO]11:54:30 Scraped the title of the abstract
+[INFO]11:54:30 Scraping date of the abstract titled: 'Spatial Representation of Land Use and Population Density: Integrated Layers of Data Contribute to Environmental Planning in Vanuatu'
+[INFO]11:54:30 'Spatial Representation of Land Use and Population Density: Integrated Layers of Data Contribute to Environmental Planning in Vanuatu' was published on 2012-05-13
+[INFO]11:54:30 Scraping the author name
+[INFO]11:54:30 Scraped the author's name: Patricia Siméoni1 & Vincent Lebot2,3 
+[INFO]11:54:30 Adding: 'Spatial Representation of Land Use and Population Density: Integrated Layers of Data Contribute to Environmental Planning in Vanuatu' to the archival list
+[INFO]11:54:30 Added: 'Spatial Representation of Land Use and Population Density: Integrated Layers of Data Contribute to Environmental Planning in Vanuatu' to the archival list
+[INFO]11:54:30 Writing 'Spatial Representation of Land Use and Population Density: Integrated Layers of Data Contribute to Environmental Planning in Vanuatu' by Patricia Siméoni1 & Vincent Lebot2,3  to disc
+[INFO]11:54:30 Written 'Spatial Representation of Land Use and Population Density: Integrated Layers of Data Contribute to Environmental Planning in Vanuatu' to disc
+[INFO]11:54:30 Writing 'Spatial Representation of Land Use and Population Density: Integrated Layers of Data Contribute to Environmental Planning in Vanuatu' by Patricia Siméoni1 & Vincent Lebot2,3  to analytical abstracts file
+[INFO]11:54:30 Written 'Spatial Representation of Land Use and Population Density: Integrated Layers of Data Contribute to Environmental Planning in Vanuatu' to disc
+[INFO]11:54:30 Abstract Number: 11
+[INFO]11:54:30 Abstract ID: /article/10.1007/s10531-012-0384-1
+[INFO]11:54:32 Souping page
+[INFO]11:54:33 Souped page
+[INFO]11:54:33 Scraping the title of the abstract
+[INFO]11:54:33 Scraped the title of the abstract
+[INFO]11:54:33 Scraping date of the abstract titled: 'The rarest and least protected forests in biodiversity hotspots'
+[INFO]11:54:33 'The rarest and least protected forests in biodiversity hotspots' was published on 2012-11-01
+[INFO]11:54:33 Scraping the author name
+[INFO]11:54:33 Scraped the author's name: Thomas W. Gillespie1, Boris Lipkin1, Lauren Sullivan1, David R. Benowitz1, Stephanie Pau2 & Gunnar Keppel3 
+[INFO]11:54:33 Adding: 'The rarest and least protected forests in biodiversity hotspots' to the archival list
+[INFO]11:54:33 Added: 'The rarest and least protected forests in biodiversity hotspots' to the archival list
+[INFO]11:54:33 Writing 'The rarest and least protected forests in biodiversity hotspots' by Thomas W. Gillespie1, Boris Lipkin1, Lauren Sullivan1, David R. Benowitz1, Stephanie Pau2 & Gunnar Keppel3  to disc
+[INFO]11:54:33 Written 'The rarest and least protected forests in biodiversity hotspots' to disc
+[INFO]11:54:33 Writing 'The rarest and least protected forests in biodiversity hotspots' by Thomas W. Gillespie1, Boris Lipkin1, Lauren Sullivan1, David R. Benowitz1, Stephanie Pau2 & Gunnar Keppel3  to analytical abstracts file
+[INFO]11:54:33 Written 'The rarest and least protected forests in biodiversity hotspots' to disc
+[INFO]11:54:33 Abstract Number: 12
+[INFO]11:54:33 Abstract ID: /article/10.1007/BF02862202
+[INFO]11:54:35 Souping page
+[INFO]11:54:36 Souped page
+[INFO]11:54:36 Scraping the title of the abstract
+[INFO]11:54:36 Scraped the title of the abstract
+[INFO]11:54:36 Scraping date of the abstract titled: 'The origins of subsistence agriculture in Oceania and the potentials for future tropical food crops'
+[INFO]11:54:36 'The origins of subsistence agriculture in Oceania and the potentials for future tropical food crops' was published on 1993-01
+[INFO]11:54:36 Scraping the author name
+[INFO]11:54:36 Scraped the author's name: D. E. Yen1,2 
+[INFO]11:54:36 Adding: 'The origins of subsistence agriculture in Oceania and the potentials for future tropical food crops' to the archival list
+[INFO]11:54:36 Added: 'The origins of subsistence agriculture in Oceania and the potentials for future tropical food crops' to the archival list
+[INFO]11:54:36 Writing 'The origins of subsistence agriculture in Oceania and the potentials for future tropical food crops' by D. E. Yen1,2  to disc
+[INFO]11:54:36 Written 'The origins of subsistence agriculture in Oceania and the potentials for future tropical food crops' to disc
+[INFO]11:54:36 Writing 'The origins of subsistence agriculture in Oceania and the potentials for future tropical food crops' by D. E. Yen1,2  to analytical abstracts file
+[INFO]11:54:36 Written 'The origins of subsistence agriculture in Oceania and the potentials for future tropical food crops' to disc
+[INFO]11:54:36 Abstract Number: 13
+[INFO]11:54:36 Abstract ID: /article/10.1007/s00040-014-0354-6
+[INFO]11:54:38 Souping page
+[INFO]11:54:39 Souped page
+[INFO]11:54:39 Scraping the title of the abstract
+[INFO]11:54:39 Scraped the title of the abstract
+[INFO]11:54:39 Scraping date of the abstract titled: 'The ants of remote Polynesia revisited'
+[INFO]11:54:39 'The ants of remote Polynesia revisited' was published on 2014-06-21
+[INFO]11:54:39 Scraping the author name
+[INFO]11:54:39 Scraped the author's name: L. W. Morrison1 
+[INFO]11:54:39 Adding: 'The ants of remote Polynesia revisited' to the archival list
+[INFO]11:54:39 Added: 'The ants of remote Polynesia revisited' to the archival list
+[INFO]11:54:39 Writing 'The ants of remote Polynesia revisited' by L. W. Morrison1  to disc
+[INFO]11:54:39 Written 'The ants of remote Polynesia revisited' to disc
+[INFO]11:54:39 Writing 'The ants of remote Polynesia revisited' by L. W. Morrison1  to analytical abstracts file
+[INFO]11:54:39 Written 'The ants of remote Polynesia revisited' to disc
+[INFO]11:54:39 Abstract Number: 14
+[INFO]11:54:39 Abstract ID: /article/10.1007/s11274-004-3319-5
+[INFO]11:54:41 Souping page
+[INFO]11:54:42 Souped page
+[INFO]11:54:42 Scraping the title of the abstract
+[INFO]11:54:42 Scraped the title of the abstract
+[INFO]11:54:42 Scraping date of the abstract titled: 'The Pacific Islands: a biotechnology resource bank of medicinal plants and traditional intellectual property'
+[INFO]11:54:42 'The Pacific Islands: a biotechnology resource bank of medicinal plants and traditional intellectual property' was published on 2004-12
+[INFO]11:54:42 Scraping the author name
+[INFO]11:54:42 Scraped the author's name: Edgar J. Dasilva1, V.K. Murukesan2, Dilip Nandwani3, Mary Taylor4 & P.C. Josekutty5 
+[INFO]11:54:42 Adding: 'The Pacific Islands: a biotechnology resource bank of medicinal plants and traditional intellectual property' to the archival list
+[INFO]11:54:42 Added: 'The Pacific Islands: a biotechnology resource bank of medicinal plants and traditional intellectual property' to the archival list
+[INFO]11:54:42 Writing 'The Pacific Islands: a biotechnology resource bank of medicinal plants and traditional intellectual property' by Edgar J. Dasilva1, V.K. Murukesan2, Dilip Nandwani3, Mary Taylor4 & P.C. Josekutty5  to disc
+[INFO]11:54:42 Written 'The Pacific Islands: a biotechnology resource bank of medicinal plants and traditional intellectual property' to disc
+[INFO]11:54:42 Writing 'The Pacific Islands: a biotechnology resource bank of medicinal plants and traditional intellectual property' by Edgar J. Dasilva1, V.K. Murukesan2, Dilip Nandwani3, Mary Taylor4 & P.C. Josekutty5  to analytical abstracts file
+[INFO]11:54:42 Written 'The Pacific Islands: a biotechnology resource bank of medicinal plants and traditional intellectual property' to disc
+[INFO]11:54:42 Abstract Number: 15
+[INFO]11:54:42 Abstract ID: /article/10.1007/s10531-008-9517-y
+[INFO]11:54:44 Souping page
+[INFO]11:54:45 Souped page
+[INFO]11:54:45 Scraping the title of the abstract
+[INFO]11:54:45 Scraped the title of the abstract
+[INFO]11:54:45 Scraping date of the abstract titled: 'Arthropods in biodiversity hotspots: the case of the Phytoseiidae (Acari: Mesostigmata)'
+[INFO]11:54:45 'Arthropods in biodiversity hotspots: the case of the Phytoseiidae (Acari: Mesostigmata)' was published on 2008-12-12
+[INFO]11:54:45 Scraping the author name
+[INFO]11:54:45 Scraped the author's name: M.-S. Tixier1 & S. Kreiter1 
+[INFO]11:54:45 Adding: 'Arthropods in biodiversity hotspots: the case of the Phytoseiidae (Acari: Mesostigmata)' to the archival list
+[INFO]11:54:45 Added: 'Arthropods in biodiversity hotspots: the case of the Phytoseiidae (Acari: Mesostigmata)' to the archival list
+[INFO]11:54:45 Writing 'Arthropods in biodiversity hotspots: the case of the Phytoseiidae (Acari: Mesostigmata)' by M.-S. Tixier1 & S. Kreiter1  to disc
+[INFO]11:54:45 Written 'Arthropods in biodiversity hotspots: the case of the Phytoseiidae (Acari: Mesostigmata)' to disc
+[INFO]11:54:45 Writing 'Arthropods in biodiversity hotspots: the case of the Phytoseiidae (Acari: Mesostigmata)' by M.-S. Tixier1 & S. Kreiter1  to analytical abstracts file
+[INFO]11:54:45 Written 'Arthropods in biodiversity hotspots: the case of the Phytoseiidae (Acari: Mesostigmata)' to disc
+[INFO]11:54:45 Abstract Number: 16
+[INFO]11:54:45 Abstract ID: /article/10.1007/BF00118271
+[INFO]11:54:47 Souping page
+[INFO]11:54:48 Souped page
+[INFO]11:54:48 Scraping the title of the abstract
+[INFO]11:54:48 Scraped the title of the abstract
+[INFO]11:54:48 Scraping date of the abstract titled: 'Timberline and alpine vegetation on the tropical and warm-temperate oceanic islands of the world: elevation, structure and floristics'
+[INFO]11:54:48 'Timberline and alpine vegetation on the tropical and warm-temperate oceanic islands of the world: elevation, structure and floristics' was published on 1996-04
+[INFO]11:54:48 Scraping the author name
+[INFO]11:54:48 Scraped the author's name: Christoph Leuschner1 nAff2 
+[INFO]11:54:48 Adding: 'Timberline and alpine vegetation on the tropical and warm-temperate oceanic islands of the world: elevation, structure and floristics' to the archival list
+[INFO]11:54:48 Added: 'Timberline and alpine vegetation on the tropical and warm-temperate oceanic islands of the world: elevation, structure and floristics' to the archival list
+[INFO]11:54:48 Writing 'Timberline and alpine vegetation on the tropical and warm-temperate oceanic islands of the world: elevation, structure and floristics' by Christoph Leuschner1 nAff2  to disc
+[INFO]11:54:48 Written 'Timberline and alpine vegetation on the tropical and warm-temperate oceanic islands of the world: elevation, structure and floristics' to disc
+[INFO]11:54:48 Writing 'Timberline and alpine vegetation on the tropical and warm-temperate oceanic islands of the world: elevation, structure and floristics' by Christoph Leuschner1 nAff2  to analytical abstracts file
+[INFO]11:54:48 Written 'Timberline and alpine vegetation on the tropical and warm-temperate oceanic islands of the world: elevation, structure and floristics' to disc
+[INFO]11:54:48 Abstract Number: 17
+[INFO]11:54:48 Abstract ID: /article/10.1023/A%3A1008748504038
+[INFO]11:54:50 Souping page
+[INFO]11:54:50 Souped page
+[INFO]11:54:50 Scraping the title of the abstract
+[INFO]11:54:50 Scraped the title of the abstract
+[INFO]11:54:50 Scraping date of the abstract titled: 'Biomolecular evidence for plant domestication in Sahul'
+[INFO]11:54:50 'Biomolecular evidence for plant domestication in Sahul' was published on 1999-12
+[INFO]11:54:50 Scraping the author name
+[INFO]11:54:50 Scraped the author's name: V. Lebot1 
+[INFO]11:54:50 Adding: 'Biomolecular evidence for plant domestication in Sahul' to the archival list
+[INFO]11:54:50 Added: 'Biomolecular evidence for plant domestication in Sahul' to the archival list
+[INFO]11:54:50 Writing 'Biomolecular evidence for plant domestication in Sahul' by V. Lebot1  to disc
+[INFO]11:54:50 Written 'Biomolecular evidence for plant domestication in Sahul' to disc
+[INFO]11:54:50 Writing 'Biomolecular evidence for plant domestication in Sahul' by V. Lebot1  to analytical abstracts file
+[INFO]11:54:50 Written 'Biomolecular evidence for plant domestication in Sahul' to disc
+[INFO]11:54:50 Abstract Number: 18
+[INFO]11:54:50 Abstract ID: /article/10.1007/s13592-011-0079-8
+[INFO]11:54:53 Souping page
+[INFO]11:54:54 Souped page
+[INFO]11:54:54 Scraping the title of the abstract
+[INFO]11:54:54 Scraped the title of the abstract
+[INFO]11:54:54 Scraping date of the abstract titled: 'Bees in the Southwest Pacific: Origins, diversity and conservation'
+[INFO]11:54:54 'Bees in the Southwest Pacific: Origins, diversity and conservation' was published on 2011-08-24
+[INFO]11:54:54 Scraping the author name
+[INFO]11:54:54 Scraped the author's name: Scott V. C. Groom1 & Michael P. Schwarz1 
+[INFO]11:54:54 Adding: 'Bees in the Southwest Pacific: Origins, diversity and conservation' to the archival list
+[INFO]11:54:54 Added: 'Bees in the Southwest Pacific: Origins, diversity and conservation' to the archival list
+[INFO]11:54:54 Writing 'Bees in the Southwest Pacific: Origins, diversity and conservation' by Scott V. C. Groom1 & Michael P. Schwarz1  to disc
+[INFO]11:54:54 Written 'Bees in the Southwest Pacific: Origins, diversity and conservation' to disc
+[INFO]11:54:54 Writing 'Bees in the Southwest Pacific: Origins, diversity and conservation' by Scott V. C. Groom1 & Michael P. Schwarz1  to analytical abstracts file
+[INFO]11:54:54 Written 'Bees in the Southwest Pacific: Origins, diversity and conservation' to disc
+[INFO]11:54:54 Abstract Number: 19
+[INFO]11:54:54 Abstract ID: /article/10.1007/s40152-020-00176-0
+[INFO]11:54:56 Souping page
+[INFO]11:54:57 Souped page
+[INFO]11:54:57 Scraping the title of the abstract
+[INFO]11:54:57 Scraped the title of the abstract
+[INFO]11:54:57 Scraping date of the abstract titled: 'Nudging statutory law to make space for customary processes and community-based fisheries management in Solomon Islands'
+[INFO]11:54:57 'Nudging statutory law to make space for customary processes and community-based fisheries management in Solomon Islands' was published on 2020-05-16
+[INFO]11:54:57 Scraping the author name
+[INFO]11:54:57 Scraped the author's name: Anne-Maree Schwarz 
+            ORCID: orcid.org/0000-0002-9929-37841,2, Jean Gordon3 & Christain Ramofafia1 
+[INFO]11:54:57 Adding: 'Nudging statutory law to make space for customary processes and community-based fisheries management in Solomon Islands' to the archival list
+[INFO]11:54:57 Added: 'Nudging statutory law to make space for customary processes and community-based fisheries management in Solomon Islands' to the archival list
+[INFO]11:54:57 Writing 'Nudging statutory law to make space for customary processes and community-based fisheries management in Solomon Islands' by Anne-Maree Schwarz 
+            ORCID: orcid.org/0000-0002-9929-37841,2, Jean Gordon3 & Christain Ramofafia1  to disc
+[INFO]11:54:57 Written 'Nudging statutory law to make space for customary processes and community-based fisheries management in Solomon Islands' to disc
+[INFO]11:54:57 Writing 'Nudging statutory law to make space for customary processes and community-based fisheries management in Solomon Islands' by Anne-Maree Schwarz 
+            ORCID: orcid.org/0000-0002-9929-37841,2, Jean Gordon3 & Christain Ramofafia1  to analytical abstracts file
+[INFO]11:54:57 Written 'Nudging statutory law to make space for customary processes and community-based fisheries management in Solomon Islands' to disc
+[INFO]11:54:57 Abstract Number: 20
+[INFO]11:54:57 Abstract ID: /article/10.1007/s10745-018-0018-7
+[INFO]11:54:59 Souping page
+[INFO]11:55:0 Souped page
+[INFO]11:55:0 Scraping the title of the abstract
+[INFO]11:55:0 Scraped the title of the abstract
+[INFO]11:55:0 Scraping date of the abstract titled: 'Sea Swallowers and Land Devourers: Can Shark Lore Facilitate Conservation?'
+[INFO]11:55:0 'Sea Swallowers and Land Devourers: Can Shark Lore Facilitate Conservation?' was published on 2018-08-16
+[INFO]11:55:0 Scraping the author name
+[INFO]11:55:0 Scraped the author's name: Frédéric Torrente1,2, Tamatoa Bambridge1,3, Serge Planes1,3, Jean Guiart4 & Eric G. Clua 
+            ORCID: orcid.org/0000-0001-7629-26851,3 
+[INFO]11:55:0 Adding: 'Sea Swallowers and Land Devourers: Can Shark Lore Facilitate Conservation?' to the archival list
+[INFO]11:55:0 Added: 'Sea Swallowers and Land Devourers: Can Shark Lore Facilitate Conservation?' to the archival list
+[INFO]11:55:0 Writing 'Sea Swallowers and Land Devourers: Can Shark Lore Facilitate Conservation?' by Frédéric Torrente1,2, Tamatoa Bambridge1,3, Serge Planes1,3, Jean Guiart4 & Eric G. Clua 
+            ORCID: orcid.org/0000-0001-7629-26851,3  to disc
+[INFO]11:55:0 Written 'Sea Swallowers and Land Devourers: Can Shark Lore Facilitate Conservation?' to disc
+[INFO]11:55:0 Writing 'Sea Swallowers and Land Devourers: Can Shark Lore Facilitate Conservation?' by Frédéric Torrente1,2, Tamatoa Bambridge1,3, Serge Planes1,3, Jean Guiart4 & Eric G. Clua 
+            ORCID: orcid.org/0000-0001-7629-26851,3  to analytical abstracts file
+[INFO]11:55:0 Written 'Sea Swallowers and Land Devourers: Can Shark Lore Facilitate Conservation?' to disc
+[INFO]11:55:0 Exiting the Abstract Crawler
+[INFO]11:55:0 Delaying remote server ping: 13 seconds
+[INFO]11:55:13 Delayed remote server ping: 13 seconds
+[INFO]11:55:14 Souping page
+[INFO]11:55:14 Souped page
+[INFO]11:55:14 Scraping IDs
+[INFO]11:55:14 Scraped IDs
+[INFO]11:55:14 Entered the Abstract Crawler
+[INFO]11:55:14 Extracting Abstract IDs from disc
+[INFO]11:55:14 Extracted Abstract IDs from disc
+[INFO]11:55:14 Abstract Number: 21
+[INFO]11:55:14 Abstract ID: /article/10.1007/BF00545239
+[INFO]11:55:16 Souping page
+[INFO]11:55:17 Souped page
+[INFO]11:55:17 Scraping the title of the abstract
+[INFO]11:55:17 Scraped the title of the abstract
+[INFO]11:55:17 Scraping date of the abstract titled: 'Aboriginal man as an exterminator of Wallaby and Kangaroo populations on Islands Round Australia'
+[INFO]11:55:17 'Aboriginal man as an exterminator of Wallaby and Kangaroo populations on Islands Round Australia' was published on 1979-01
+[INFO]11:55:17 Scraping the author name
+[INFO]11:55:17 Scraped the author's name: Ian Abbott1 nAff2 
+[INFO]11:55:17 Adding: 'Aboriginal man as an exterminator of Wallaby and Kangaroo populations on Islands Round Australia' to the archival list
+[INFO]11:55:17 Added: 'Aboriginal man as an exterminator of Wallaby and Kangaroo populations on Islands Round Australia' to the archival list
+[INFO]11:55:17 Writing 'Aboriginal man as an exterminator of Wallaby and Kangaroo populations on Islands Round Australia' by Ian Abbott1 nAff2  to disc
+[INFO]11:55:17 Written 'Aboriginal man as an exterminator of Wallaby and Kangaroo populations on Islands Round Australia' to disc
+[INFO]11:55:17 Writing 'Aboriginal man as an exterminator of Wallaby and Kangaroo populations on Islands Round Australia' by Ian Abbott1 nAff2  to analytical abstracts file
+[INFO]11:55:17 Written 'Aboriginal man as an exterminator of Wallaby and Kangaroo populations on Islands Round Australia' to disc
+[INFO]11:55:17 Abstract Number: 22
+[INFO]11:55:17 Abstract ID: /article/10.1007/s10113-014-0697-6
+[INFO]11:55:19 Souping page
+[INFO]11:55:20 Souped page
+[INFO]11:55:20 Scraping the title of the abstract
+[INFO]11:55:20 Scraped the title of the abstract
+[INFO]11:55:20 Scraping date of the abstract titled: 'Development, global change and traditional food security in Pacific Island countries'
+[INFO]11:55:20 'Development, global change and traditional food security in Pacific Island countries' was published on 2014-10-07
+[INFO]11:55:20 Scraping the author name
+[INFO]11:55:20 Scraped the author's name: John Richard Campbell1 
+[INFO]11:55:20 Adding: 'Development, global change and traditional food security in Pacific Island countries' to the archival list
+[INFO]11:55:20 Added: 'Development, global change and traditional food security in Pacific Island countries' to the archival list
+[INFO]11:55:20 Writing 'Development, global change and traditional food security in Pacific Island countries' by John Richard Campbell1  to disc
+[INFO]11:55:20 Written 'Development, global change and traditional food security in Pacific Island countries' to disc
+[INFO]11:55:20 Writing 'Development, global change and traditional food security in Pacific Island countries' by John Richard Campbell1  to analytical abstracts file
+[INFO]11:55:20 Written 'Development, global change and traditional food security in Pacific Island countries' to disc
+[INFO]11:55:20 Abstract Number: 23
+[INFO]11:55:20 Abstract ID: /article/10.1007/s10457-006-9024-7
+[INFO]11:55:22 Souping page
+[INFO]11:55:23 Souped page
+[INFO]11:55:23 Scraping the title of the abstract
+[INFO]11:55:23 Scraped the title of the abstract
+[INFO]11:55:23 Scraping date of the abstract titled: 'Domestication potential and marketing of Canarium indicum nuts in the Pacific: 1. A literature review'
+[INFO]11:55:23 'Domestication potential and marketing of Canarium indicum nuts in the Pacific: 1. A literature review' was published on 2006-10-12
+[INFO]11:55:23 Scraping the author name
+[INFO]11:55:23 Scraped the author's name: Tio Nevenimo1, John Moxon1, John Wemin1, Mark Johnston1, Colin Bunt2 & R. R. B. Leakey3 
+[INFO]11:55:23 Adding: 'Domestication potential and marketing of Canarium indicum nuts in the Pacific: 1. A literature review' to the archival list
+[INFO]11:55:23 Added: 'Domestication potential and marketing of Canarium indicum nuts in the Pacific: 1. A literature review' to the archival list
+[INFO]11:55:23 Writing 'Domestication potential and marketing of Canarium indicum nuts in the Pacific: 1. A literature review' by Tio Nevenimo1, John Moxon1, John Wemin1, Mark Johnston1, Colin Bunt2 & R. R. B. Leakey3  to disc
+[INFO]11:55:23 Written 'Domestication potential and marketing of Canarium indicum nuts in the Pacific: 1. A literature review' to disc
+[INFO]11:55:23 Writing 'Domestication potential and marketing of Canarium indicum nuts in the Pacific: 1. A literature review' by Tio Nevenimo1, John Moxon1, John Wemin1, Mark Johnston1, Colin Bunt2 & R. R. B. Leakey3  to analytical abstracts file
+[INFO]11:55:23 Written 'Domestication potential and marketing of Canarium indicum nuts in the Pacific: 1. A literature review' to disc
+[INFO]11:55:23 Abstract Number: 24
+[INFO]11:55:23 Abstract ID: /article/10.1023/A%3A1018727607651
+[INFO]11:55:25 Souping page
+[INFO]11:55:26 Souped page
+[INFO]11:55:26 Scraping the title of the abstract
+[INFO]11:55:26 Scraped the title of the abstract
+[INFO]11:55:26 Scraping date of the abstract titled: 'Common Property Models of Sea Tenure: A Case Study from the Roviana and Vonavona Lagoons, New Georgia, Solomon Islands'
+[INFO]11:55:26 'Common Property Models of Sea Tenure: A Case Study from the Roviana and Vonavona Lagoons, New Georgia, Solomon Islands' was published on 1999-09
+[INFO]11:55:26 Scraping the author name
+[INFO]11:55:26 Scraped the author's name: Shankar Aswani 
+[INFO]11:55:26 Adding: 'Common Property Models of Sea Tenure: A Case Study from the Roviana and Vonavona Lagoons, New Georgia, Solomon Islands' to the archival list
+[INFO]11:55:26 Added: 'Common Property Models of Sea Tenure: A Case Study from the Roviana and Vonavona Lagoons, New Georgia, Solomon Islands' to the archival list
+[INFO]11:55:26 Writing 'Common Property Models of Sea Tenure: A Case Study from the Roviana and Vonavona Lagoons, New Georgia, Solomon Islands' by Shankar Aswani  to disc
+[INFO]11:55:26 Written 'Common Property Models of Sea Tenure: A Case Study from the Roviana and Vonavona Lagoons, New Georgia, Solomon Islands' to disc
+[INFO]11:55:26 Writing 'Common Property Models of Sea Tenure: A Case Study from the Roviana and Vonavona Lagoons, New Georgia, Solomon Islands' by Shankar Aswani  to analytical abstracts file
+[INFO]11:55:26 Written 'Common Property Models of Sea Tenure: A Case Study from the Roviana and Vonavona Lagoons, New Georgia, Solomon Islands' to disc
+[INFO]11:55:26 Abstract Number: 25
+[INFO]11:55:26 Abstract ID: /article/10.1007/s10872-010-0034-8
+[INFO]11:55:28 Souping page
+[INFO]11:55:29 Souped page
+[INFO]11:55:29 Scraping the title of the abstract
+[INFO]11:55:29 Scraped the title of the abstract
+[INFO]11:55:29 Scraping date of the abstract titled: 'Pacific ocean circulation based on observation'
+[INFO]11:55:29 'Pacific ocean circulation based on observation' was published on 2010-04-27
+[INFO]11:55:29 Scraping the author name
+[INFO]11:55:29 Scraped the author's name: Masaki Kawabe1 & Shinzou Fujio1 
+[INFO]11:55:29 Adding: 'Pacific ocean circulation based on observation' to the archival list
+[INFO]11:55:29 Added: 'Pacific ocean circulation based on observation' to the archival list
+[INFO]11:55:29 Writing 'Pacific ocean circulation based on observation' by Masaki Kawabe1 & Shinzou Fujio1  to disc
+[INFO]11:55:29 Written 'Pacific ocean circulation based on observation' to disc
+[INFO]11:55:29 Writing 'Pacific ocean circulation based on observation' by Masaki Kawabe1 & Shinzou Fujio1  to analytical abstracts file
+[INFO]11:55:29 Written 'Pacific ocean circulation based on observation' to disc
+[INFO]11:55:29 Abstract Number: 26
+[INFO]11:55:29 Abstract ID: /article/10.1134/S0001437006050079
+[INFO]11:55:31 Souping page
+[INFO]11:55:32 Souped page
+[INFO]11:55:32 Scraping the title of the abstract
+[INFO]11:55:32 Scraped the title of the abstract
+[INFO]11:55:32 Scraping date of the abstract titled: 'Magmatic evolution of the provinces of the Pacific Ocean floor'
+[INFO]11:55:32 'Magmatic evolution of the provinces of the Pacific Ocean floor' was published on 2006-10
+[INFO]11:55:32 Scraping the author name
+[INFO]11:55:32 Scraped the author's name: E. D. Golubeva1 
+[INFO]11:55:32 Adding: 'Magmatic evolution of the provinces of the Pacific Ocean floor' to the archival list
+[INFO]11:55:32 Added: 'Magmatic evolution of the provinces of the Pacific Ocean floor' to the archival list
+[INFO]11:55:32 Writing 'Magmatic evolution of the provinces of the Pacific Ocean floor' by E. D. Golubeva1  to disc
+[INFO]11:55:32 Written 'Magmatic evolution of the provinces of the Pacific Ocean floor' to disc
+[INFO]11:55:32 Writing 'Magmatic evolution of the provinces of the Pacific Ocean floor' by E. D. Golubeva1  to analytical abstracts file
+[INFO]11:55:32 Written 'Magmatic evolution of the provinces of the Pacific Ocean floor' to disc
+[INFO]11:55:32 Abstract Number: 27
+[INFO]11:55:32 Abstract ID: /article/10.1007/s10531-018-1497-y
+[INFO]11:55:34 Souping page
+[INFO]11:55:36 Souped page
+[INFO]11:55:36 Scraping the title of the abstract
+[INFO]11:55:36 Scraped the title of the abstract
+[INFO]11:55:36 Scraping date of the abstract titled: 'The conservation value of germplasm stored at the Millennium Seed Bank, Royal Botanic Gardens, Kew, UK'
+[INFO]11:55:36 'The conservation value of germplasm stored at the Millennium Seed Bank, Royal Botanic Gardens, Kew, UK' was published on 2018-01-13
+[INFO]11:55:36 Scraping the author name
+[INFO]11:55:36 Scraped the author's name: Udayangani Liu 
+            ORCID: orcid.org/0000-0002-6192-13191, Elinor Breman1, Tiziana Antonella Cossu1 & Siobhan Kenney1 nAff2 
+[INFO]11:55:36 Adding: 'The conservation value of germplasm stored at the Millennium Seed Bank, Royal Botanic Gardens, Kew, UK' to the archival list
+[INFO]11:55:36 Added: 'The conservation value of germplasm stored at the Millennium Seed Bank, Royal Botanic Gardens, Kew, UK' to the archival list
+[INFO]11:55:36 Writing 'The conservation value of germplasm stored at the Millennium Seed Bank, Royal Botanic Gardens, Kew, UK' by Udayangani Liu 
+            ORCID: orcid.org/0000-0002-6192-13191, Elinor Breman1, Tiziana Antonella Cossu1 & Siobhan Kenney1 nAff2  to disc
+[INFO]11:55:36 Written 'The conservation value of germplasm stored at the Millennium Seed Bank, Royal Botanic Gardens, Kew, UK' to disc
+[INFO]11:55:36 Writing 'The conservation value of germplasm stored at the Millennium Seed Bank, Royal Botanic Gardens, Kew, UK' by Udayangani Liu 
+            ORCID: orcid.org/0000-0002-6192-13191, Elinor Breman1, Tiziana Antonella Cossu1 & Siobhan Kenney1 nAff2  to analytical abstracts file
+[INFO]11:55:36 Written 'The conservation value of germplasm stored at the Millennium Seed Bank, Royal Botanic Gardens, Kew, UK' to disc
+[INFO]11:55:36 Abstract Number: 28
+[INFO]11:55:36 Abstract ID: /article/10.1007/s10722-005-3877-x
+[INFO]11:55:38 Souping page
+[INFO]11:55:38 Souped page
+[INFO]11:55:38 Scraping the title of the abstract
+[INFO]11:55:38 Scraped the title of the abstract
+[INFO]11:55:38 Scraping date of the abstract titled: 'Nature of taro (Colocasia esculenta (L.) Schott) genetic diversity prevalent in a Pacific Ocean island, Vanua Lava, Vanuatu'
+[INFO]11:55:38 'Nature of taro (Colocasia esculenta (L.) Schott) genetic diversity prevalent in a Pacific Ocean island, Vanua Lava, Vanuatu' was published on 2006-08-09
+[INFO]11:55:38 Scraping the author name
+[INFO]11:55:38 Scraped the author's name: S. Caillon1, J. Quero-Garcia2, J.-P. Lescure1 & V. Lebot3 
+[INFO]11:55:38 Adding: 'Nature of taro (Colocasia esculenta (L.) Schott) genetic diversity prevalent in a Pacific Ocean island, Vanua Lava, Vanuatu' to the archival list
+[INFO]11:55:38 Added: 'Nature of taro (Colocasia esculenta (L.) Schott) genetic diversity prevalent in a Pacific Ocean island, Vanua Lava, Vanuatu' to the archival list
+[INFO]11:55:38 Writing 'Nature of taro (Colocasia esculenta (L.) Schott) genetic diversity prevalent in a Pacific Ocean island, Vanua Lava, Vanuatu' by S. Caillon1, J. Quero-Garcia2, J.-P. Lescure1 & V. Lebot3  to disc
+[INFO]11:55:38 Written 'Nature of taro (Colocasia esculenta (L.) Schott) genetic diversity prevalent in a Pacific Ocean island, Vanua Lava, Vanuatu' to disc
+[INFO]11:55:38 Writing 'Nature of taro (Colocasia esculenta (L.) Schott) genetic diversity prevalent in a Pacific Ocean island, Vanua Lava, Vanuatu' by S. Caillon1, J. Quero-Garcia2, J.-P. Lescure1 & V. Lebot3  to analytical abstracts file
+[INFO]11:55:38 Written 'Nature of taro (Colocasia esculenta (L.) Schott) genetic diversity prevalent in a Pacific Ocean island, Vanua Lava, Vanuatu' to disc
+[INFO]11:55:38 Abstract Number: 29
+[INFO]11:55:38 Abstract ID: /article/10.1007/s10763-013-9441-9
+[INFO]11:55:40 Souping page
+[INFO]11:55:41 Souped page
+[INFO]11:55:41 Scraping the title of the abstract
+[INFO]11:55:41 Scraped the title of the abstract
+[INFO]11:55:41 Scraping date of the abstract titled: 'DIVERSIFYING OUR PERSPECTIVES ON MATHEMATICS ABOUT SPACE AND GEOMETRY: AN ECOCULTURAL APPROACH'
+[INFO]11:55:41 'DIVERSIFYING OUR PERSPECTIVES ON MATHEMATICS ABOUT SPACE AND GEOMETRY: AN ECOCULTURAL APPROACH' was published on 2013-11-20
+[INFO]11:55:41 Scraping the author name
+[INFO]11:55:41 Scraped the author's name: Kay Owens1 
+[INFO]11:55:41 Adding: 'DIVERSIFYING OUR PERSPECTIVES ON MATHEMATICS ABOUT SPACE AND GEOMETRY: AN ECOCULTURAL APPROACH' to the archival list
+[INFO]11:55:41 Added: 'DIVERSIFYING OUR PERSPECTIVES ON MATHEMATICS ABOUT SPACE AND GEOMETRY: AN ECOCULTURAL APPROACH' to the archival list
+[INFO]11:55:41 Writing 'DIVERSIFYING OUR PERSPECTIVES ON MATHEMATICS ABOUT SPACE AND GEOMETRY: AN ECOCULTURAL APPROACH' by Kay Owens1  to disc
+[INFO]11:55:41 Written 'DIVERSIFYING OUR PERSPECTIVES ON MATHEMATICS ABOUT SPACE AND GEOMETRY: AN ECOCULTURAL APPROACH' to disc
+[INFO]11:55:41 Writing 'DIVERSIFYING OUR PERSPECTIVES ON MATHEMATICS ABOUT SPACE AND GEOMETRY: AN ECOCULTURAL APPROACH' by Kay Owens1  to analytical abstracts file
+[INFO]11:55:41 Written 'DIVERSIFYING OUR PERSPECTIVES ON MATHEMATICS ABOUT SPACE AND GEOMETRY: AN ECOCULTURAL APPROACH' to disc
+[INFO]11:55:41 Abstract Number: 30
+[INFO]11:55:41 Abstract ID: /article/10.1007/s10761-015-0289-2
+[INFO]11:55:43 Souping page
+[INFO]11:55:44 Souped page
+[INFO]11:55:44 Scraping the title of the abstract
+[INFO]11:55:44 Scraped the title of the abstract
+[INFO]11:55:44 Scraping date of the abstract titled: '\xe2\x80\x9cBecause it is a Holy House of God\xe2\x80\x9d: Buildings Archaeology, Globalization, and Community Heritage in a Tanna Church'
+[INFO]11:55:44 '\xe2\x80\x9cBecause it is a Holy House of God\xe2\x80\x9d: Buildings Archaeology, Globalization, and Community Heritage in a Tanna Church' was published on 2015-03-06
+[INFO]11:55:44 Scraping the author name
+[INFO]11:55:44 Scraped the author's name: James L. Flexner1, Martin J. Jones2 & Philip D. Evans3,4 
+[INFO]11:55:44 Adding: '\xe2\x80\x9cBecause it is a Holy House of God\xe2\x80\x9d: Buildings Archaeology, Globalization, and Community Heritage in a Tanna Church' to the archival list
+[INFO]11:55:44 Added: '\xe2\x80\x9cBecause it is a Holy House of God\xe2\x80\x9d: Buildings Archaeology, Globalization, and Community Heritage in a Tanna Church' to the archival list
+[INFO]11:55:44 Writing '\xe2\x80\x9cBecause it is a Holy House of God\xe2\x80\x9d: Buildings Archaeology, Globalization, and Community Heritage in a Tanna Church' by James L. Flexner1, Martin J. Jones2 & Philip D. Evans3,4  to disc
+[INFO]11:55:44 Written '\xe2\x80\x9cBecause it is a Holy House of God\xe2\x80\x9d: Buildings Archaeology, Globalization, and Community Heritage in a Tanna Church' to disc
+[INFO]11:55:44 Writing '\xe2\x80\x9cBecause it is a Holy House of God\xe2\x80\x9d: Buildings Archaeology, Globalization, and Community Heritage in a Tanna Church' by James L. Flexner1, Martin J. Jones2 & Philip D. Evans3,4  to analytical abstracts file
+[INFO]11:55:44 Written '\xe2\x80\x9cBecause it is a Holy House of God\xe2\x80\x9d: Buildings Archaeology, Globalization, and Community Heritage in a Tanna Church' to disc
+[INFO]11:55:44 Abstract Number: 31
+[INFO]11:55:44 Abstract ID: /article/10.1007/s11295-014-0824-z
+[INFO]11:55:48 Souping page
+[INFO]11:55:49 Souped page
+[INFO]11:55:49 Scraping the title of the abstract
+[INFO]11:55:49 Scraped the title of the abstract
+[INFO]11:55:49 Scraping date of the abstract titled: 'Diversity in the breadfruit complex (Artocarpus, Moraceae): genetic characterization of critical germplasm'
+[INFO]11:55:49 'Diversity in the breadfruit complex (Artocarpus, Moraceae): genetic characterization of critical germplasm' was published on 2015-01-20
+[INFO]11:55:49 Scraping the author name
+[INFO]11:55:49 Scraped the author's name: Nyree Zerega1,2, Tyr Wiesner-Hanks1, Diane Ragone3, Brian Irish4, Brian Scheffler5, Sheron Simpson5 & Francis Zee6 
+[INFO]11:55:49 Adding: 'Diversity in the breadfruit complex (Artocarpus, Moraceae): genetic characterization of critical germplasm' to the archival list
+[INFO]11:55:49 Added: 'Diversity in the breadfruit complex (Artocarpus, Moraceae): genetic characterization of critical germplasm' to the archival list
+[INFO]11:55:49 Writing 'Diversity in the breadfruit complex (Artocarpus, Moraceae): genetic characterization of critical germplasm' by Nyree Zerega1,2, Tyr Wiesner-Hanks1, Diane Ragone3, Brian Irish4, Brian Scheffler5, Sheron Simpson5 & Francis Zee6  to disc
+[INFO]11:55:49 Written 'Diversity in the breadfruit complex (Artocarpus, Moraceae): genetic characterization of critical germplasm' to disc
+[INFO]11:55:49 Writing 'Diversity in the breadfruit complex (Artocarpus, Moraceae): genetic characterization of critical germplasm' by Nyree Zerega1,2, Tyr Wiesner-Hanks1, Diane Ragone3, Brian Irish4, Brian Scheffler5, Sheron Simpson5 & Francis Zee6  to analytical abstracts file
+[INFO]11:55:49 Written 'Diversity in the breadfruit complex (Artocarpus, Moraceae): genetic characterization of critical germplasm' to disc
+[INFO]11:55:49 Abstract Number: 32
+[INFO]11:55:49 Abstract ID: /article/10.1007/s10113-010-0160-2
+[INFO]11:55:51 Souping page
+[INFO]11:55:52 Souped page
+[INFO]11:55:52 Scraping the title of the abstract
+[INFO]11:55:52 Scraped the title of the abstract
+[INFO]11:55:52 Scraping date of the abstract titled: 'Dangerous climate change in the Pacific Islands: food production and food security'
+[INFO]11:55:52 'Dangerous climate change in the Pacific Islands: food production and food security' was published on 2010-10-10
+[INFO]11:55:52 Scraping the author name
+[INFO]11:55:52 Scraped the author's name: Jon Barnett1 
+[INFO]11:55:52 Adding: 'Dangerous climate change in the Pacific Islands: food production and food security' to the archival list
+[INFO]11:55:52 Added: 'Dangerous climate change in the Pacific Islands: food production and food security' to the archival list
+[INFO]11:55:52 Writing 'Dangerous climate change in the Pacific Islands: food production and food security' by Jon Barnett1  to disc
+[INFO]11:55:52 Written 'Dangerous climate change in the Pacific Islands: food production and food security' to disc
+[INFO]11:55:52 Writing 'Dangerous climate change in the Pacific Islands: food production and food security' by Jon Barnett1  to analytical abstracts file
+[INFO]11:55:52 Written 'Dangerous climate change in the Pacific Islands: food production and food security' to disc
+[INFO]11:55:52 Abstract Number: 33
+[INFO]11:55:52 Abstract ID: /article/10.1186/s12977-019-0504-z
+[INFO]11:55:54 Souping page
+[INFO]11:55:56 Souped page
+[INFO]11:55:56 Scraping the title of the abstract
+[INFO]11:55:56 Scraped the title of the abstract
+[INFO]11:55:56 Scraping date of the abstract titled: 'Molecular epidemiology, genetic variability and evolution of HTLV-1 with special emphasis on African genotypes'
+[INFO]11:55:56 'Molecular epidemiology, genetic variability and evolution of HTLV-1 with special emphasis on African genotypes' was published on 2019-12-16
+[INFO]11:55:56 Scraping the author name
+[INFO]11:55:56 Scraped the author's name: Philippe V. Afonso 
+            ORCID: orcid.org/0000-0002-4828-37971, Olivier Cassar1 & Antoine Gessain1 
+[INFO]11:55:56 Adding: 'Molecular epidemiology, genetic variability and evolution of HTLV-1 with special emphasis on African genotypes' to the archival list
+[INFO]11:55:56 Added: 'Molecular epidemiology, genetic variability and evolution of HTLV-1 with special emphasis on African genotypes' to the archival list
+[INFO]11:55:56 Writing 'Molecular epidemiology, genetic variability and evolution of HTLV-1 with special emphasis on African genotypes' by Philippe V. Afonso 
+            ORCID: orcid.org/0000-0002-4828-37971, Olivier Cassar1 & Antoine Gessain1  to disc
+[INFO]11:55:56 Written 'Molecular epidemiology, genetic variability and evolution of HTLV-1 with special emphasis on African genotypes' to disc
+[INFO]11:55:56 Writing 'Molecular epidemiology, genetic variability and evolution of HTLV-1 with special emphasis on African genotypes' by Philippe V. Afonso 
+            ORCID: orcid.org/0000-0002-4828-37971, Olivier Cassar1 & Antoine Gessain1  to analytical abstracts file
+[INFO]11:55:56 Written 'Molecular epidemiology, genetic variability and evolution of HTLV-1 with special emphasis on African genotypes' to disc
+[INFO]11:55:56 Abstract Number: 34
+[INFO]11:55:56 Abstract ID: /article/10.1007/s00338-007-0234-x
+[INFO]11:55:59 Souping page
+[INFO]11:55:59 Souped page
+[INFO]11:55:59 Scraping the title of the abstract
+[INFO]11:55:59 Scraped the title of the abstract
+[INFO]11:55:59 Scraping date of the abstract titled: 'Three millennia of human and sea turtle interactions in Remote Oceania'
+[INFO]11:55:59 'Three millennia of human and sea turtle interactions in Remote Oceania' was published on 2007-05-15
+[INFO]11:55:59 Scraping the author name
+[INFO]11:55:59 Scraped the author's name: M. S. Allen1 
+[INFO]11:55:59 Adding: 'Three millennia of human and sea turtle interactions in Remote Oceania' to the archival list
+[INFO]11:55:59 Added: 'Three millennia of human and sea turtle interactions in Remote Oceania' to the archival list
+[INFO]11:55:59 Writing 'Three millennia of human and sea turtle interactions in Remote Oceania' by M. S. Allen1  to disc
+[INFO]11:55:59 Written 'Three millennia of human and sea turtle interactions in Remote Oceania' to disc
+[INFO]11:55:59 Writing 'Three millennia of human and sea turtle interactions in Remote Oceania' by M. S. Allen1  to analytical abstracts file
+[INFO]11:55:59 Written 'Three millennia of human and sea turtle interactions in Remote Oceania' to disc
+[INFO]11:55:59 Abstract Number: 35
+[INFO]11:55:59 Abstract ID: /article/10.1007/BF00997802
+[INFO]11:56:2 Souping page
+[INFO]11:56:3 Souped page
+[INFO]11:56:3 Scraping the title of the abstract
+[INFO]11:56:3 Scraped the title of the abstract
+[INFO]11:56:3 Scraping date of the abstract titled: 'The culture history of Madagascar'
+[INFO]11:56:3 'The culture history of Madagascar' was published on 1993-12
+[INFO]11:56:3 Scraping the author name
+[INFO]11:56:3 Scraped the author's name: Robert E. Dewar1 & Henry T. Wright2 
+[INFO]11:56:3 Adding: 'The culture history of Madagascar' to the archival list
+[INFO]11:56:3 Added: 'The culture history of Madagascar' to the archival list
+[INFO]11:56:3 Writing 'The culture history of Madagascar' by Robert E. Dewar1 & Henry T. Wright2  to disc
+[INFO]11:56:3 Written 'The culture history of Madagascar' to disc
+[INFO]11:56:3 Writing 'The culture history of Madagascar' by Robert E. Dewar1 & Henry T. Wright2  to analytical abstracts file
+[INFO]11:56:3 Written 'The culture history of Madagascar' to disc
+[INFO]11:56:3 Abstract Number: 36
+[INFO]11:56:3 Abstract ID: /article/10.1007/BF00058425
+[INFO]11:56:5 Souping page
+[INFO]11:56:5 Souped page
+[INFO]11:56:5 Scraping the title of the abstract
+[INFO]11:56:5 Scraped the title of the abstract
+[INFO]11:56:5 Scraping date of the abstract titled: 'Plant extinction in New Caledonia: protection of sclerophyll forests urgently needed'
+[INFO]11:56:5 'Plant extinction in New Caledonia: protection of sclerophyll forests urgently needed' was published on 1995-06
+[INFO]11:56:5 Scraping the author name
+[INFO]11:56:5 Scraped the author's name: Philippe Bouchet1, Tanguy Jaffre1 & Jean-Marie Veillon1 
+[INFO]11:56:5 Adding: 'Plant extinction in New Caledonia: protection of sclerophyll forests urgently needed' to the archival list
+[INFO]11:56:5 Added: 'Plant extinction in New Caledonia: protection of sclerophyll forests urgently needed' to the archival list
+[INFO]11:56:5 Writing 'Plant extinction in New Caledonia: protection of sclerophyll forests urgently needed' by Philippe Bouchet1, Tanguy Jaffre1 & Jean-Marie Veillon1  to disc
+[INFO]11:56:5 Written 'Plant extinction in New Caledonia: protection of sclerophyll forests urgently needed' to disc
+[INFO]11:56:5 Writing 'Plant extinction in New Caledonia: protection of sclerophyll forests urgently needed' by Philippe Bouchet1, Tanguy Jaffre1 & Jean-Marie Veillon1  to analytical abstracts file
+[INFO]11:56:5 Written 'Plant extinction in New Caledonia: protection of sclerophyll forests urgently needed' to disc
+[INFO]11:56:5 Abstract Number: 37
+[INFO]11:56:5 Abstract ID: /article/10.1007/s10745-019-00078-8
+[INFO]11:56:7 Souping page
+[INFO]11:56:8 Souped page
+[INFO]11:56:8 Scraping the title of the abstract
+[INFO]11:56:8 Scraped the title of the abstract
+[INFO]11:56:8 Scraping date of the abstract titled: 'Governability of High-Value Fisheries in Low-Income Contexts: a Case Study of the Sea Cucumber Fishery in Papua New Guinea'
+[INFO]11:56:8 'Governability of High-Value Fisheries in Low-Income Contexts: a Case Study of the Sea Cucumber Fishery in Papua New Guinea' was published on 2019-06-28
+[INFO]11:56:8 Scraping the author name
+[INFO]11:56:8 Scraped the author's name: Kate Barclay 
+            ORCID: orcid.org/0000-0002-4779-09651, Michael Fabinyi1, Jeff Kinch2 & Simon Foale3 
+[INFO]11:56:8 Adding: 'Governability of High-Value Fisheries in Low-Income Contexts: a Case Study of the Sea Cucumber Fishery in Papua New Guinea' to the archival list
+[INFO]11:56:8 Added: 'Governability of High-Value Fisheries in Low-Income Contexts: a Case Study of the Sea Cucumber Fishery in Papua New Guinea' to the archival list
+[INFO]11:56:8 Writing 'Governability of High-Value Fisheries in Low-Income Contexts: a Case Study of the Sea Cucumber Fishery in Papua New Guinea' by Kate Barclay 
+            ORCID: orcid.org/0000-0002-4779-09651, Michael Fabinyi1, Jeff Kinch2 & Simon Foale3  to disc
+[INFO]11:56:8 Written 'Governability of High-Value Fisheries in Low-Income Contexts: a Case Study of the Sea Cucumber Fishery in Papua New Guinea' to disc
+[INFO]11:56:8 Writing 'Governability of High-Value Fisheries in Low-Income Contexts: a Case Study of the Sea Cucumber Fishery in Papua New Guinea' by Kate Barclay 
+            ORCID: orcid.org/0000-0002-4779-09651, Michael Fabinyi1, Jeff Kinch2 & Simon Foale3  to analytical abstracts file
+[INFO]11:56:8 Written 'Governability of High-Value Fisheries in Low-Income Contexts: a Case Study of the Sea Cucumber Fishery in Papua New Guinea' to disc
+[INFO]11:56:8 Abstract Number: 38
+[INFO]11:56:8 Abstract ID: /article/10.1007/s10228-014-0411-1
+[INFO]11:56:10 Souping page
+[INFO]11:56:11 Souped page
+[INFO]11:56:11 Scraping the title of the abstract
+[INFO]11:56:11 Scraped the title of the abstract
+[INFO]11:56:11 Scraping date of the abstract titled: 'Review of Indo-Pacific coral reef fish systematics: 1980 to 2014'
+[INFO]11:56:11 'Review of Indo-Pacific coral reef fish systematics: 1980 to 2014' was published on 2014-07-08
+[INFO]11:56:11 Scraping the author name
+[INFO]11:56:11 Scraped the author's name: Gerald R. Allen1 
+[INFO]11:56:11 Adding: 'Review of Indo-Pacific coral reef fish systematics: 1980 to 2014' to the archival list
+[INFO]11:56:11 Added: 'Review of Indo-Pacific coral reef fish systematics: 1980 to 2014' to the archival list
+[INFO]11:56:11 Writing 'Review of Indo-Pacific coral reef fish systematics: 1980 to 2014' by Gerald R. Allen1  to disc
+[INFO]11:56:11 Written 'Review of Indo-Pacific coral reef fish systematics: 1980 to 2014' to disc
+[INFO]11:56:11 Writing 'Review of Indo-Pacific coral reef fish systematics: 1980 to 2014' by Gerald R. Allen1  to analytical abstracts file
+[INFO]11:56:11 Written 'Review of Indo-Pacific coral reef fish systematics: 1980 to 2014' to disc
+[INFO]11:56:11 Abstract Number: 39
+[INFO]11:56:11 Abstract ID: /article/10.1007/BF02242482
+[INFO]11:56:13 Souping page
+[INFO]11:56:14 Souped page
+[INFO]11:56:14 Scraping the title of the abstract
+[INFO]11:56:14 Scraped the title of the abstract
+[INFO]11:56:14 Scraping date of the abstract titled: 'Environmental education in the South Pacific: Towards sustainable development'
+[INFO]11:56:14 'Environmental education in the South Pacific: Towards sustainable development' was published on 1989-03
+[INFO]11:56:14 Scraping the author name
+[INFO]11:56:14 Scraped the author's name: Jenny J. Bryant1 
+[INFO]11:56:14 Adding: 'Environmental education in the South Pacific: Towards sustainable development' to the archival list
+[INFO]11:56:14 Added: 'Environmental education in the South Pacific: Towards sustainable development' to the archival list
+[INFO]11:56:14 Writing 'Environmental education in the South Pacific: Towards sustainable development' by Jenny J. Bryant1  to disc
+[INFO]11:56:14 Written 'Environmental education in the South Pacific: Towards sustainable development' to disc
+[INFO]11:56:14 Writing 'Environmental education in the South Pacific: Towards sustainable development' by Jenny J. Bryant1  to analytical abstracts file
+[INFO]11:56:14 Written 'Environmental education in the South Pacific: Towards sustainable development' to disc
+[INFO]11:56:14 Abstract Number: 40
+[INFO]11:56:14 Abstract ID: /article/10.1007/s10763-004-6529-2
+[INFO]11:56:16 Souping page
+[INFO]11:56:16 Souped page
+[INFO]11:56:16 Scraping the title of the abstract
+[INFO]11:56:16 Scraped the title of the abstract
+[INFO]11:56:16 Scraping date of the abstract titled: 'Village Elders\xe2\x80\x99 and Secondary School Students\xe2\x80\x99 Explanations of Natural Phenomena in Papua New Guinea'
+[INFO]11:56:16 'Village Elders\xe2\x80\x99 and Secondary School Students\xe2\x80\x99 Explanations of Natural Phenomena in Papua New Guinea' was published on 2005-06
+[INFO]11:56:16 Scraping the author name
+[INFO]11:56:16 Scraped the author's name: Soikava Pauka1, David F. Treagust1 & Bruce Waldrip1 
+[INFO]11:56:16 Adding: 'Village Elders\xe2\x80\x99 and Secondary School Students\xe2\x80\x99 Explanations of Natural Phenomena in Papua New Guinea' to the archival list
+[INFO]11:56:16 Added: 'Village Elders\xe2\x80\x99 and Secondary School Students\xe2\x80\x99 Explanations of Natural Phenomena in Papua New Guinea' to the archival list
+[INFO]11:56:16 Writing 'Village Elders\xe2\x80\x99 and Secondary School Students\xe2\x80\x99 Explanations of Natural Phenomena in Papua New Guinea' by Soikava Pauka1, David F. Treagust1 & Bruce Waldrip1  to disc
+[INFO]11:56:16 Written 'Village Elders\xe2\x80\x99 and Secondary School Students\xe2\x80\x99 Explanations of Natural Phenomena in Papua New Guinea' to disc
+[INFO]11:56:16 Writing 'Village Elders\xe2\x80\x99 and Secondary School Students\xe2\x80\x99 Explanations of Natural Phenomena in Papua New Guinea' by Soikava Pauka1, David F. Treagust1 & Bruce Waldrip1  to analytical abstracts file
+[INFO]11:56:16 Written 'Village Elders\xe2\x80\x99 and Secondary School Students\xe2\x80\x99 Explanations of Natural Phenomena in Papua New Guinea' to disc
+[INFO]11:56:16 Exiting the Abstract Crawler
+[INFO]11:56:16 Delaying remote server ping: 11 seconds
+[INFO]11:56:27 Delayed remote server ping: 11 seconds
+[INFO]11:56:28 Souping page
+[INFO]11:56:29 Souped page
+[INFO]11:56:29 Scraping IDs
+[INFO]11:56:29 Scraped IDs
+[INFO]11:56:29 Entered the Abstract Crawler
+[INFO]11:56:29 Extracting Abstract IDs from disc
+[INFO]11:56:29 Extracted Abstract IDs from disc
+[INFO]11:56:29 Abstract Number: 41
+[INFO]11:56:29 Abstract ID: /article/10.1007/BF02219509
+[INFO]11:56:32 Souping page
+[INFO]11:56:32 Souped page
+[INFO]11:56:32 Scraping the title of the abstract
+[INFO]11:56:32 Scraped the title of the abstract
+[INFO]11:56:32 Scraping date of the abstract titled: 'Proceedings of The Ninth International Biometeorological Congress September 23\xe2\x80\x93October 1, 1981'
+[INFO]11:56:32 'Proceedings of The Ninth International Biometeorological Congress September 23\xe2\x80\x93October 1, 1981' was published on 1982-12
+[INFO]11:56:32 Scraping the author name
+[INFO]11:56:32 Scraped the author's name: 
+[INFO]11:56:32 Writing 'Proceedings of The Ninth International Biometeorological Congress September 23\xe2\x80\x93October 1, 1981' by  to disc
+[INFO]11:56:32 Written 'Proceedings of The Ninth International Biometeorological Congress September 23\xe2\x80\x93October 1, 1981' to disc
+[INFO]11:56:32 Writing 'Proceedings of The Ninth International Biometeorological Congress September 23\xe2\x80\x93October 1, 1981' by  to analytical abstracts file
+[INFO]11:56:32 Written 'Proceedings of The Ninth International Biometeorological Congress September 23\xe2\x80\x93October 1, 1981' to disc
+[INFO]11:56:32 Abstract Number: 42
+[INFO]11:56:32 Abstract ID: /article/10.1007/BF01295012
+[INFO]11:56:34 Souping page
+[INFO]11:56:35 Souped page
+[INFO]11:56:35 Scraping the title of the abstract
+[INFO]11:56:35 Scraped the title of the abstract
+[INFO]11:56:35 Scraping date of the abstract titled: 'Literature on archaeological remains of cultivated plants (1998/1999)'
+[INFO]11:56:35 'Literature on archaeological remains of cultivated plants (1998/1999)' was published on 2000-03
+[INFO]11:56:35 Scraping the author name
+[INFO]11:56:35 Scraped the author's name: Helmut Kroll1 
+[INFO]11:56:35 Adding: 'Literature on archaeological remains of cultivated plants (1998/1999)' to the archival list
+[INFO]11:56:35 Added: 'Literature on archaeological remains of cultivated plants (1998/1999)' to the archival list
+[INFO]11:56:35 Writing 'Literature on archaeological remains of cultivated plants (1998/1999)' by Helmut Kroll1  to disc
+[INFO]11:56:35 Written 'Literature on archaeological remains of cultivated plants (1998/1999)' to disc
+[INFO]11:56:35 Writing 'Literature on archaeological remains of cultivated plants (1998/1999)' by Helmut Kroll1  to analytical abstracts file
+[INFO]11:56:35 Written 'Literature on archaeological remains of cultivated plants (1998/1999)' to disc
+[INFO]11:56:35 Abstract Number: 43
+[INFO]11:56:35 Abstract ID: /article/10.1007/BF00857938
+[INFO]11:56:38 Souping page
+[INFO]11:56:39 Souped page
+[INFO]11:56:39 Scraping the title of the abstract
+[INFO]11:56:39 Scraped the title of the abstract
+[INFO]11:56:39 Scraping date of the abstract titled: 'Ernst Mayr, naturalist: His contributions to systematics and evolution'
+[INFO]11:56:39 'Ernst Mayr, naturalist: His contributions to systematics and evolution' was published on 1994-07
+[INFO]11:56:39 Scraping the author name
+[INFO]11:56:39 Scraped the author's name: Walter J. Bock1 
+[INFO]11:56:39 Adding: 'Ernst Mayr, naturalist: His contributions to systematics and evolution' to the archival list
+[INFO]11:56:39 Added: 'Ernst Mayr, naturalist: His contributions to systematics and evolution' to the archival list
+[INFO]11:56:39 Writing 'Ernst Mayr, naturalist: His contributions to systematics and evolution' by Walter J. Bock1  to disc
+[INFO]11:56:39 Written 'Ernst Mayr, naturalist: His contributions to systematics and evolution' to disc
+[INFO]11:56:39 Writing 'Ernst Mayr, naturalist: His contributions to systematics and evolution' by Walter J. Bock1  to analytical abstracts file
+[INFO]11:56:39 Written 'Ernst Mayr, naturalist: His contributions to systematics and evolution' to disc
+[INFO]11:56:39 Abstract Number: 44
+[INFO]11:56:39 Abstract ID: /article/10.1023/A%3A1024015327707
+[INFO]11:56:41 Souping page
+[INFO]11:56:42 Souped page
+[INFO]11:56:42 Scraping the title of the abstract
+[INFO]11:56:42 Scraped the title of the abstract
+[INFO]11:56:42 Scraping date of the abstract titled: 'Did biological control cause extinction of the coconut moth, Levuana iridescens, in Fiji?'
+[INFO]11:56:42 'Did biological control cause extinction of the coconut moth, Levuana iridescens, in Fiji?' was published on 2003-03
+[INFO]11:56:42 Scraping the author name
+[INFO]11:56:42 Scraped the author's name: Armand M. Kuris1 
+[INFO]11:56:42 Adding: 'Did biological control cause extinction of the coconut moth, Levuana iridescens, in Fiji?' to the archival list
+[INFO]11:56:42 Added: 'Did biological control cause extinction of the coconut moth, Levuana iridescens, in Fiji?' to the archival list
+[INFO]11:56:42 Writing 'Did biological control cause extinction of the coconut moth, Levuana iridescens, in Fiji?' by Armand M. Kuris1  to disc
+[INFO]11:56:42 Written 'Did biological control cause extinction of the coconut moth, Levuana iridescens, in Fiji?' to disc
+[INFO]11:56:42 Writing 'Did biological control cause extinction of the coconut moth, Levuana iridescens, in Fiji?' by Armand M. Kuris1  to analytical abstracts file
+[INFO]11:56:42 Written 'Did biological control cause extinction of the coconut moth, Levuana iridescens, in Fiji?' to disc
+[INFO]11:56:42 Abstract Number: 45
+[INFO]11:56:42 Abstract ID: /article/10.1007/s11111-012-0175-3
+[INFO]11:56:44 Souping page
+[INFO]11:56:44 Souped page
+[INFO]11:56:44 Scraping the title of the abstract
+[INFO]11:56:44 Scraped the title of the abstract
+[INFO]11:56:44 Scraping date of the abstract titled: 'Humans and biodiversity: population and demographic trends in the hotspots'
+[INFO]11:56:44 'Humans and biodiversity: population and demographic trends in the hotspots' was published on 2012-05-31
+[INFO]11:56:44 Scraping the author name
+[INFO]11:56:45 Scraped the author's name: John N. Williams1 
+[INFO]11:56:45 Adding: 'Humans and biodiversity: population and demographic trends in the hotspots' to the archival list
+[INFO]11:56:45 Added: 'Humans and biodiversity: population and demographic trends in the hotspots' to the archival list
+[INFO]11:56:45 Writing 'Humans and biodiversity: population and demographic trends in the hotspots' by John N. Williams1  to disc
+[INFO]11:56:45 Written 'Humans and biodiversity: population and demographic trends in the hotspots' to disc
+[INFO]11:56:45 Writing 'Humans and biodiversity: population and demographic trends in the hotspots' by John N. Williams1  to analytical abstracts file
+[INFO]11:56:45 Written 'Humans and biodiversity: population and demographic trends in the hotspots' to disc
+[INFO]11:56:45 Abstract Number: 46
+[INFO]11:56:45 Abstract ID: /article/10.1007/s11852-018-0598-9
+[INFO]11:56:47 Souping page
+[INFO]11:56:48 Souped page
+[INFO]11:56:48 Scraping the title of the abstract
+[INFO]11:56:48 Scraped the title of the abstract
+[INFO]11:56:48 Scraping date of the abstract titled: 'Restoring the natural functional capacity of coastal dune ecosystems: Utilising research records for New Zealand littoral refurbishment as a proxy for analogous global responses'
+[INFO]11:56:48 'Restoring the natural functional capacity of coastal dune ecosystems: Utilising research records for New Zealand littoral refurbishment as a proxy for analogous global responses' was published on 2018-05-08
+[INFO]11:56:48 Scraping the author name
+[INFO]11:56:48 Scraped the author's name: Gregory Kenneth Jenks1 
+[INFO]11:56:48 Adding: 'Restoring the natural functional capacity of coastal dune ecosystems: Utilising research records for New Zealand littoral refurbishment as a proxy for analogous global responses' to the archival list
+[INFO]11:56:48 Added: 'Restoring the natural functional capacity of coastal dune ecosystems: Utilising research records for New Zealand littoral refurbishment as a proxy for analogous global responses' to the archival list
+[INFO]11:56:48 Writing 'Restoring the natural functional capacity of coastal dune ecosystems: Utilising research records for New Zealand littoral refurbishment as a proxy for analogous global responses' by Gregory Kenneth Jenks1  to disc
+[INFO]11:56:48 Written 'Restoring the natural functional capacity of coastal dune ecosystems: Utilising research records for New Zealand littoral refurbishment as a proxy for analogous global responses' to disc
+[INFO]11:56:48 Writing 'Restoring the natural functional capacity of coastal dune ecosystems: Utilising research records for New Zealand littoral refurbishment as a proxy for analogous global responses' by Gregory Kenneth Jenks1  to analytical abstracts file
+[INFO]11:56:48 Written 'Restoring the natural functional capacity of coastal dune ecosystems: Utilising research records for New Zealand littoral refurbishment as a proxy for analogous global responses' to disc
+[INFO]11:56:48 Abstract Number: 47
+[INFO]11:56:48 Abstract ID: /article/10.1007/BF00349121
+[INFO]11:56:50 Souping page
+[INFO]11:56:51 Souped page
+[INFO]11:56:51 Scraping the title of the abstract
+[INFO]11:56:51 Scraped the title of the abstract
+[INFO]11:56:51 Scraping date of the abstract titled: 'Gene flow among giant clam (Tridacna gigas) populations in Pacific does not parallel ocean circulation'
+[INFO]11:56:51 'Gene flow among giant clam (Tridacna gigas) populations in Pacific does not parallel ocean circulation' was published on 1995-10
+[INFO]11:56:51 Scraping the author name
+[INFO]11:56:51 Scraped the author's name: J. A. H. Benzie1 & S. T. Williams1 
+[INFO]11:56:51 Adding: 'Gene flow among giant clam (Tridacna gigas) populations in Pacific does not parallel ocean circulation' to the archival list
+[INFO]11:56:51 Added: 'Gene flow among giant clam (Tridacna gigas) populations in Pacific does not parallel ocean circulation' to the archival list
+[INFO]11:56:51 Writing 'Gene flow among giant clam (Tridacna gigas) populations in Pacific does not parallel ocean circulation' by J. A. H. Benzie1 & S. T. Williams1  to disc
+[INFO]11:56:51 Written 'Gene flow among giant clam (Tridacna gigas) populations in Pacific does not parallel ocean circulation' to disc
+[INFO]11:56:51 Writing 'Gene flow among giant clam (Tridacna gigas) populations in Pacific does not parallel ocean circulation' by J. A. H. Benzie1 & S. T. Williams1  to analytical abstracts file
+[INFO]11:56:51 Written 'Gene flow among giant clam (Tridacna gigas) populations in Pacific does not parallel ocean circulation' to disc
+[INFO]11:56:51 Abstract Number: 48
+[INFO]11:56:51 Abstract ID: /article/10.1007/BF00888026
+[INFO]11:56:53 Souping page
+[INFO]11:56:54 Souped page
+[INFO]11:56:54 Scraping the title of the abstract
+[INFO]11:56:54 Scraped the title of the abstract
+[INFO]11:56:54 Scraping date of the abstract titled: "Women's fishing in Oceania"
+[INFO]11:56:54 "Women's fishing in Oceania" was published on 1987-09
+[INFO]11:56:54 Scraping the author name
+[INFO]11:56:54 Scraped the author's name: Margaret D. Chapman1 
+[INFO]11:56:54 Adding: "Women's fishing in Oceania" to the archival list
+[INFO]11:56:54 Added: "Women's fishing in Oceania" to the archival list
+[INFO]11:56:54 Writing "Women's fishing in Oceania" by Margaret D. Chapman1  to disc
+[INFO]11:56:54 Written "Women's fishing in Oceania" to disc
+[INFO]11:56:54 Writing "Women's fishing in Oceania" by Margaret D. Chapman1  to analytical abstracts file
+[INFO]11:56:54 Written "Women's fishing in Oceania" to disc
+[INFO]11:56:54 Abstract Number: 49
+[INFO]11:56:54 Abstract ID: /article/10.1007/s002679900049
+[INFO]11:56:56 Souping page
+[INFO]11:56:56 Souped page
+[INFO]11:56:56 Scraping the title of the abstract
+[INFO]11:56:56 Scraped the title of the abstract
+[INFO]11:56:56 Scraping date of the abstract titled: 'Transmigration in Indonesia: Lessons from Its Environmental and Social Impacts\n'
+[INFO]11:56:56 'Transmigration in Indonesia: Lessons from Its Environmental and Social Impacts\n' was published on 1997-07
+[INFO]11:56:56 Scraping the author name
+[INFO]11:56:56 Scraped the author's name: Philip M.  Fearnside1 
+[INFO]11:56:56 Adding: 'Transmigration in Indonesia: Lessons from Its Environmental and Social Impacts\n' to the archival list
+[INFO]11:56:56 Added: 'Transmigration in Indonesia: Lessons from Its Environmental and Social Impacts\n' to the archival list
+[INFO]11:56:56 Writing 'Transmigration in Indonesia: Lessons from Its Environmental and Social Impacts\n' by Philip M.  Fearnside1  to disc
+[INFO]11:56:56 Written 'Transmigration in Indonesia: Lessons from Its Environmental and Social Impacts\n' to disc
+[INFO]11:56:56 Writing 'Transmigration in Indonesia: Lessons from Its Environmental and Social Impacts\n' by Philip M.  Fearnside1  to analytical abstracts file
+[INFO]11:56:56 Written 'Transmigration in Indonesia: Lessons from Its Environmental and Social Impacts\n' to disc
+[INFO]11:56:56 Abstract Number: 50
+[INFO]11:56:56 Abstract ID: /article/10.1140/epjst/e2010-01232-1
+[INFO]11:56:58 Souping page
+[INFO]11:57:0 Souped page
+[INFO]11:57:0 Scraping the title of the abstract
+[INFO]11:57:0 Scraped the title of the abstract
+[INFO]11:57:0 Scraping date of the abstract titled: 'Markov chains or the game of structure and chance'
+[INFO]11:57:0 'Markov chains or the game of structure and chance' was published on 2010-07-19
+[INFO]11:57:0 Scraping the author name
+[INFO]11:57:0 Scraped the author's name: Ph. Blanchard1, J.R. Dawin1 & D. Volchenkov2 
+[INFO]11:57:0 Adding: 'Markov chains or the game of structure and chance' to the archival list
+[INFO]11:57:0 Added: 'Markov chains or the game of structure and chance' to the archival list
+[INFO]11:57:0 Writing 'Markov chains or the game of structure and chance' by Ph. Blanchard1, J.R. Dawin1 & D. Volchenkov2  to disc
+[INFO]11:57:0 Written 'Markov chains or the game of structure and chance' to disc
+[INFO]11:57:0 Writing 'Markov chains or the game of structure and chance' by Ph. Blanchard1, J.R. Dawin1 & D. Volchenkov2  to analytical abstracts file
+[INFO]11:57:0 Written 'Markov chains or the game of structure and chance' to disc
+[INFO]11:57:0 Abstract Number: 51
+[INFO]11:57:0 Abstract ID: /article/10.1023/A%3A1018331800939
+[INFO]11:57:2 Souping page
+[INFO]11:57:3 Souped page
+[INFO]11:57:3 Scraping the title of the abstract
+[INFO]11:57:3 Scraped the title of the abstract
+[INFO]11:57:3 Scraping date of the abstract titled: 'The conservation of agrobiodiversity on-farm: questioning the emerging paradigm'
+[INFO]11:57:3 'The conservation of agrobiodiversity on-farm: questioning the emerging paradigm' was published on 1997-01
+[INFO]11:57:3 Scraping the author name
+[INFO]11:57:3 Scraped the author's name: David Wood1 & Jillian M. Lenne´2 
+[INFO]11:57:3 Adding: 'The conservation of agrobiodiversity on-farm: questioning the emerging paradigm' to the archival list
+[INFO]11:57:3 Added: 'The conservation of agrobiodiversity on-farm: questioning the emerging paradigm' to the archival list
+[INFO]11:57:3 Writing 'The conservation of agrobiodiversity on-farm: questioning the emerging paradigm' by David Wood1 & Jillian M. Lenne´2  to disc
+[INFO]11:57:3 Written 'The conservation of agrobiodiversity on-farm: questioning the emerging paradigm' to disc
+[INFO]11:57:3 Writing 'The conservation of agrobiodiversity on-farm: questioning the emerging paradigm' by David Wood1 & Jillian M. Lenne´2  to analytical abstracts file
+[INFO]11:57:3 Written 'The conservation of agrobiodiversity on-farm: questioning the emerging paradigm' to disc
+[INFO]11:57:3 Abstract Number: 52
+[INFO]11:57:3 Abstract ID: /article/10.1007/s12520-018-0713-8
+[INFO]11:57:5 Souping page
+[INFO]11:57:7 Souped page
+[INFO]11:57:7 Scraping the title of the abstract
+[INFO]11:57:7 Scraped the title of the abstract
+[INFO]11:57:7 Scraping date of the abstract titled: 'Coastal mobility and lithic supply lines in northeast New Guinea'
+[INFO]11:57:7 'Coastal mobility and lithic supply lines in northeast New Guinea' was published on 2018-10-04
+[INFO]11:57:7 Scraping the author name
+[INFO]11:57:7 Scraped the author's name: Dylan Gaffney 
+            ORCID: orcid.org/0000-0003-4869-97301,2 & Glenn R. Summerhayes3,4 
+[INFO]11:57:7 Adding: 'Coastal mobility and lithic supply lines in northeast New Guinea' to the archival list
+[INFO]11:57:7 Added: 'Coastal mobility and lithic supply lines in northeast New Guinea' to the archival list
+[INFO]11:57:7 Writing 'Coastal mobility and lithic supply lines in northeast New Guinea' by Dylan Gaffney 
+            ORCID: orcid.org/0000-0003-4869-97301,2 & Glenn R. Summerhayes3,4  to disc
+[INFO]11:57:7 Written 'Coastal mobility and lithic supply lines in northeast New Guinea' to disc
+[INFO]11:57:7 Writing 'Coastal mobility and lithic supply lines in northeast New Guinea' by Dylan Gaffney 
+            ORCID: orcid.org/0000-0003-4869-97301,2 & Glenn R. Summerhayes3,4  to analytical abstracts file
+[INFO]11:57:7 Written 'Coastal mobility and lithic supply lines in northeast New Guinea' to disc
+[INFO]11:57:7 Abstract Number: 53
+[INFO]11:57:7 Abstract ID: /article/10.1023/B%3AJARM.0000005510.54214.57
+[INFO]11:57:10 Souping page
+[INFO]11:57:11 Souped page
+[INFO]11:57:11 Scraping the title of the abstract
+[INFO]11:57:11 Scraped the title of the abstract
+[INFO]11:57:11 Scraping date of the abstract titled: 'Domesticated Landscapes: The Subsistence Ecology of Plant and Animal Domestication'
+[INFO]11:57:11 'Domesticated Landscapes: The Subsistence Ecology of Plant and Animal Domestication' was published on 2003-12
+[INFO]11:57:11 Scraping the author name
+[INFO]11:57:11 Scraped the author's name: John Edward Terrell1, John P. Hart1, Sibel Barut1, Nicoletta Cellinese1, Antonio Curet1, Tim Denham1, Chapurukha M. Kusimba1, Kyle Latinis1, Rahul Oka1, Joel Palka1, Mary E. D. Pohl1, Kevin O. Pope1, Patrick Ryan Williams1, Helen Haines1 & John E. Staller1 
+[INFO]11:57:11 Adding: 'Domesticated Landscapes: The Subsistence Ecology of Plant and Animal Domestication' to the archival list
+[INFO]11:57:11 Added: 'Domesticated Landscapes: The Subsistence Ecology of Plant and Animal Domestication' to the archival list
+[INFO]11:57:11 Writing 'Domesticated Landscapes: The Subsistence Ecology of Plant and Animal Domestication' by John Edward Terrell1, John P. Hart1, Sibel Barut1, Nicoletta Cellinese1, Antonio Curet1, Tim Denham1, Chapurukha M. Kusimba1, Kyle Latinis1, Rahul Oka1, Joel Palka1, Mary E. D. Pohl1, Kevin O. Pope1, Patrick Ryan Williams1, Helen Haines1 & John E. Staller1  to disc
+[INFO]11:57:11 Written 'Domesticated Landscapes: The Subsistence Ecology of Plant and Animal Domestication' to disc
+[INFO]11:57:11 Writing 'Domesticated Landscapes: The Subsistence Ecology of Plant and Animal Domestication' by John Edward Terrell1, John P. Hart1, Sibel Barut1, Nicoletta Cellinese1, Antonio Curet1, Tim Denham1, Chapurukha M. Kusimba1, Kyle Latinis1, Rahul Oka1, Joel Palka1, Mary E. D. Pohl1, Kevin O. Pope1, Patrick Ryan Williams1, Helen Haines1 & John E. Staller1  to analytical abstracts file
+[INFO]11:57:11 Written 'Domesticated Landscapes: The Subsistence Ecology of Plant and Animal Domestication' to disc
+[INFO]11:57:11 Abstract Number: 54
+[INFO]11:57:11 Abstract ID: /article/10.1186/1746-4269-7-38
+[INFO]11:57:13 Souping page
+[INFO]11:57:14 Souped page
+[INFO]11:57:14 Scraping the title of the abstract
+[INFO]11:57:14 Scraped the title of the abstract
+[INFO]11:57:14 Scraping date of the abstract titled: 'Perceptions of the value of traditional ecological knowledge to formal school curricula: opportunities and challenges from Malekula Island, Vanuatu'
+[INFO]11:57:14 'Perceptions of the value of traditional ecological knowledge to formal school curricula: opportunities and challenges from Malekula Island, Vanuatu' was published on 2011-11-23
+[INFO]11:57:14 Scraping the author name
+[INFO]11:57:14 Scraped the author's name: Joe McCarter1 & Michael C Gavin1 
+[INFO]11:57:14 Adding: 'Perceptions of the value of traditional ecological knowledge to formal school curricula: opportunities and challenges from Malekula Island, Vanuatu' to the archival list
+[INFO]11:57:14 Added: 'Perceptions of the value of traditional ecological knowledge to formal school curricula: opportunities and challenges from Malekula Island, Vanuatu' to the archival list
+[INFO]11:57:14 Writing 'Perceptions of the value of traditional ecological knowledge to formal school curricula: opportunities and challenges from Malekula Island, Vanuatu' by Joe McCarter1 & Michael C Gavin1  to disc
+[INFO]11:57:14 Written 'Perceptions of the value of traditional ecological knowledge to formal school curricula: opportunities and challenges from Malekula Island, Vanuatu' to disc
+[INFO]11:57:14 Writing 'Perceptions of the value of traditional ecological knowledge to formal school curricula: opportunities and challenges from Malekula Island, Vanuatu' by Joe McCarter1 & Michael C Gavin1  to analytical abstracts file
+[INFO]11:57:14 Written 'Perceptions of the value of traditional ecological knowledge to formal school curricula: opportunities and challenges from Malekula Island, Vanuatu' to disc
+[INFO]11:57:14 Abstract Number: 55
+[INFO]11:57:14 Abstract ID: /article/10.1007/s10722-005-7468-7
+[INFO]11:57:16 Souping page
+[INFO]11:57:17 Souped page
+[INFO]11:57:17 Scraping the title of the abstract
+[INFO]11:57:17 Scraped the title of the abstract
+[INFO]11:57:17 Scraping date of the abstract titled: 'Collection and Characterization of Citrus indica Tanaka and C. macroptera Montr.: Wild Endangered Species of Northeastern India'
+[INFO]11:57:17 'Collection and Characterization of Citrus indica Tanaka and C. macroptera Montr.: Wild Endangered Species of Northeastern India' was published on 2006-04-03
+[INFO]11:57:17 Scraping the author name
+[INFO]11:57:17 Scraped the author's name: S. K. Malik1, R. Chaudhury1, O. P. Dhariwal2 & Rajwant K. Kalia1 
+[INFO]11:57:17 Adding: 'Collection and Characterization of Citrus indica Tanaka and C. macroptera Montr.: Wild Endangered Species of Northeastern India' to the archival list
+[INFO]11:57:17 Added: 'Collection and Characterization of Citrus indica Tanaka and C. macroptera Montr.: Wild Endangered Species of Northeastern India' to the archival list
+[INFO]11:57:17 Writing 'Collection and Characterization of Citrus indica Tanaka and C. macroptera Montr.: Wild Endangered Species of Northeastern India' by S. K. Malik1, R. Chaudhury1, O. P. Dhariwal2 & Rajwant K. Kalia1  to disc
+[INFO]11:57:17 Written 'Collection and Characterization of Citrus indica Tanaka and C. macroptera Montr.: Wild Endangered Species of Northeastern India' to disc
+[INFO]11:57:17 Writing 'Collection and Characterization of Citrus indica Tanaka and C. macroptera Montr.: Wild Endangered Species of Northeastern India' by S. K. Malik1, R. Chaudhury1, O. P. Dhariwal2 & Rajwant K. Kalia1  to analytical abstracts file
+[INFO]11:57:17 Written 'Collection and Characterization of Citrus indica Tanaka and C. macroptera Montr.: Wild Endangered Species of Northeastern India' to disc
+[INFO]11:57:17 Abstract Number: 56
+[INFO]11:57:17 Abstract ID: /article/10.1007/s10841-014-9665-1
+[INFO]11:57:19 Souping page
+[INFO]11:57:20 Souped page
+[INFO]11:57:20 Scraping the title of the abstract
+[INFO]11:57:20 Scraped the title of the abstract
+[INFO]11:57:20 Scraping date of the abstract titled: 'Recipe for disruption: multiple recent arrivals of megachilid bees in Pacific archipelagos'
+[INFO]11:57:20 'Recipe for disruption: multiple recent arrivals of megachilid bees in Pacific archipelagos' was published on 2014-07-03
+[INFO]11:57:20 Scraping the author name
+[INFO]11:57:20 Scraped the author's name: Scott V. C. Groom1, Sarah E. Hayes1, Hien T. Ngo2, Mark I. Stevens3,4 & Michael P. Schwarz1 
+[INFO]11:57:20 Adding: 'Recipe for disruption: multiple recent arrivals of megachilid bees in Pacific archipelagos' to the archival list
+[INFO]11:57:20 Added: 'Recipe for disruption: multiple recent arrivals of megachilid bees in Pacific archipelagos' to the archival list
+[INFO]11:57:20 Writing 'Recipe for disruption: multiple recent arrivals of megachilid bees in Pacific archipelagos' by Scott V. C. Groom1, Sarah E. Hayes1, Hien T. Ngo2, Mark I. Stevens3,4 & Michael P. Schwarz1  to disc
+[INFO]11:57:20 Written 'Recipe for disruption: multiple recent arrivals of megachilid bees in Pacific archipelagos' to disc
+[INFO]11:57:20 Writing 'Recipe for disruption: multiple recent arrivals of megachilid bees in Pacific archipelagos' by Scott V. C. Groom1, Sarah E. Hayes1, Hien T. Ngo2, Mark I. Stevens3,4 & Michael P. Schwarz1  to analytical abstracts file
+[INFO]11:57:20 Written 'Recipe for disruption: multiple recent arrivals of megachilid bees in Pacific archipelagos' to disc
+[INFO]11:57:20 Abstract Number: 57
+[INFO]11:57:20 Abstract ID: /article/10.1007/s10336-019-01722-2
+[INFO]11:57:22 Souping page
+[INFO]11:57:24 Souped page
+[INFO]11:57:24 Scraping the title of the abstract
+[INFO]11:57:24 Scraped the title of the abstract
+[INFO]11:57:24 Scraping date of the abstract titled: 'A new Myzomela honeyeater (Meliphagidae) from the highlands of Alor Island, Indonesia'
+[INFO]11:57:24 'A new Myzomela honeyeater (Meliphagidae) from the highlands of Alor Island, Indonesia' was published on 2019-10-05
+[INFO]11:57:24 Scraping the author name
+[INFO]11:57:24 Scraped the author's name: Mohammad Irham1, Hidayat Ashari1, Suparno1, Colin R. Trainor2, Philippe Verbelen3, Meng Yue Wu4 & Frank E. Rheindt 
+            ORCID: orcid.org/0000-0001-8946-70854 
+[INFO]11:57:24 Adding: 'A new Myzomela honeyeater (Meliphagidae) from the highlands of Alor Island, Indonesia' to the archival list
+[INFO]11:57:24 Added: 'A new Myzomela honeyeater (Meliphagidae) from the highlands of Alor Island, Indonesia' to the archival list
+[INFO]11:57:24 Writing 'A new Myzomela honeyeater (Meliphagidae) from the highlands of Alor Island, Indonesia' by Mohammad Irham1, Hidayat Ashari1, Suparno1, Colin R. Trainor2, Philippe Verbelen3, Meng Yue Wu4 & Frank E. Rheindt 
+            ORCID: orcid.org/0000-0001-8946-70854  to disc
+[INFO]11:57:24 Written 'A new Myzomela honeyeater (Meliphagidae) from the highlands of Alor Island, Indonesia' to disc
+[INFO]11:57:24 Writing 'A new Myzomela honeyeater (Meliphagidae) from the highlands of Alor Island, Indonesia' by Mohammad Irham1, Hidayat Ashari1, Suparno1, Colin R. Trainor2, Philippe Verbelen3, Meng Yue Wu4 & Frank E. Rheindt 
+            ORCID: orcid.org/0000-0001-8946-70854  to analytical abstracts file
+[INFO]11:57:24 Written 'A new Myzomela honeyeater (Meliphagidae) from the highlands of Alor Island, Indonesia' to disc
+[INFO]11:57:24 Abstract Number: 58
+[INFO]11:57:24 Abstract ID: /article/10.1023/A%3A1026406912992
+[INFO]11:57:26 Souping page
+[INFO]11:57:26 Souped page
+[INFO]11:57:26 Scraping the title of the abstract
+[INFO]11:57:26 Scraped the title of the abstract
+[INFO]11:57:26 Scraping date of the abstract titled: 'The impacts of recreation and tourism in the remote North Kimberly region of Western Australia'
+[INFO]11:57:26 'The impacts of recreation and tourism in the remote North Kimberly region of Western Australia' was published on 1999-09
+[INFO]11:57:26 Scraping the author name
+[INFO]11:57:26 Scraped the author's name: Marion Hercock1 
+[INFO]11:57:26 Adding: 'The impacts of recreation and tourism in the remote North Kimberly region of Western Australia' to the archival list
+[INFO]11:57:26 Added: 'The impacts of recreation and tourism in the remote North Kimberly region of Western Australia' to the archival list
+[INFO]11:57:26 Writing 'The impacts of recreation and tourism in the remote North Kimberly region of Western Australia' by Marion Hercock1  to disc
+[INFO]11:57:26 Written 'The impacts of recreation and tourism in the remote North Kimberly region of Western Australia' to disc
+[INFO]11:57:26 Writing 'The impacts of recreation and tourism in the remote North Kimberly region of Western Australia' by Marion Hercock1  to analytical abstracts file
+[INFO]11:57:26 Written 'The impacts of recreation and tourism in the remote North Kimberly region of Western Australia' to disc
+[INFO]11:57:26 Abstract Number: 59
+[INFO]11:57:26 Abstract ID: /article/10.1007/s10530-018-1892-z
+[INFO]11:57:29 Souping page
+[INFO]11:57:30 Souped page
+[INFO]11:57:30 Scraping the title of the abstract
+[INFO]11:57:30 Scraped the title of the abstract
+[INFO]11:57:30 Scraping date of the abstract titled: 'Invasive range expansion of the small carpenter bee, Ceratina dentipes (Hymenoptera: Apidae) into Hawaii with implications for native endangered species displacement'
+[INFO]11:57:30 'Invasive range expansion of the small carpenter bee, Ceratina dentipes (Hymenoptera: Apidae) into Hawaii with implications for native endangered species displacement' was published on 2018-12-01
+[INFO]11:57:30 Scraping the author name
+[INFO]11:57:30 Scraped the author's name: Wyatt A. Shell1 & Sandra M. Rehan 
+            ORCID: orcid.org/0000-0002-6441-51551 
+[INFO]11:57:30 Adding: 'Invasive range expansion of the small carpenter bee, Ceratina dentipes (Hymenoptera: Apidae) into Hawaii with implications for native endangered species displacement' to the archival list
+[INFO]11:57:30 Added: 'Invasive range expansion of the small carpenter bee, Ceratina dentipes (Hymenoptera: Apidae) into Hawaii with implications for native endangered species displacement' to the archival list
+[INFO]11:57:30 Writing 'Invasive range expansion of the small carpenter bee, Ceratina dentipes (Hymenoptera: Apidae) into Hawaii with implications for native endangered species displacement' by Wyatt A. Shell1 & Sandra M. Rehan 
+            ORCID: orcid.org/0000-0002-6441-51551  to disc
+[INFO]11:57:30 Written 'Invasive range expansion of the small carpenter bee, Ceratina dentipes (Hymenoptera: Apidae) into Hawaii with implications for native endangered species displacement' to disc
+[INFO]11:57:30 Writing 'Invasive range expansion of the small carpenter bee, Ceratina dentipes (Hymenoptera: Apidae) into Hawaii with implications for native endangered species displacement' by Wyatt A. Shell1 & Sandra M. Rehan 
+            ORCID: orcid.org/0000-0002-6441-51551  to analytical abstracts file
+[INFO]11:57:30 Written 'Invasive range expansion of the small carpenter bee, Ceratina dentipes (Hymenoptera: Apidae) into Hawaii with implications for native endangered species displacement' to disc
+[INFO]11:57:30 Abstract Number: 60
+[INFO]11:57:30 Abstract ID: /article/10.1007/s10764-010-9458-7
+[INFO]11:57:32 Souping page
+[INFO]11:57:33 Souped page
+[INFO]11:57:33 Scraping the title of the abstract
+[INFO]11:57:33 Scraped the title of the abstract
+[INFO]11:57:33 Scraping date of the abstract titled: 'Checkerboard Patterns, Interspecific Competition, and Extinction: Lessons from Distribution Patterns of Tarsiers (Tarsius) and Slow Lorises (Nycticebus) in Insular Southeast Asia'
+[INFO]11:57:33 'Checkerboard Patterns, Interspecific Competition, and Extinction: Lessons from Distribution Patterns of Tarsiers (Tarsius) and Slow Lorises (Nycticebus) in Insular Southeast Asia' was published on 2010-12-01
+[INFO]11:57:33 Scraping the author name
+[INFO]11:57:33 Scraped the author's name: V. Nijman1,2 & K. A. I. Nekaris1 
+[INFO]11:57:33 Adding: 'Checkerboard Patterns, Interspecific Competition, and Extinction: Lessons from Distribution Patterns of Tarsiers (Tarsius) and Slow Lorises (Nycticebus) in Insular Southeast Asia' to the archival list
+[INFO]11:57:33 Added: 'Checkerboard Patterns, Interspecific Competition, and Extinction: Lessons from Distribution Patterns of Tarsiers (Tarsius) and Slow Lorises (Nycticebus) in Insular Southeast Asia' to the archival list
+[INFO]11:57:33 Writing 'Checkerboard Patterns, Interspecific Competition, and Extinction: Lessons from Distribution Patterns of Tarsiers (Tarsius) and Slow Lorises (Nycticebus) in Insular Southeast Asia' by V. Nijman1,2 & K. A. I. Nekaris1  to disc
+[INFO]11:57:33 Written 'Checkerboard Patterns, Interspecific Competition, and Extinction: Lessons from Distribution Patterns of Tarsiers (Tarsius) and Slow Lorises (Nycticebus) in Insular Southeast Asia' to disc
+[INFO]11:57:33 Writing 'Checkerboard Patterns, Interspecific Competition, and Extinction: Lessons from Distribution Patterns of Tarsiers (Tarsius) and Slow Lorises (Nycticebus) in Insular Southeast Asia' by V. Nijman1,2 & K. A. I. Nekaris1  to analytical abstracts file
+[INFO]11:57:33 Written 'Checkerboard Patterns, Interspecific Competition, and Extinction: Lessons from Distribution Patterns of Tarsiers (Tarsius) and Slow Lorises (Nycticebus) in Insular Southeast Asia' to disc
+[INFO]11:57:33 Exiting the Abstract Crawler
+[INFO]11:57:33 Delaying remote server ping: 18 seconds
+[INFO]11:57:51 Delayed remote server ping: 18 seconds
+[INFO]11:57:52 Souping page
+[INFO]11:57:52 Souped page
+[INFO]11:57:52 Scraping IDs
+[INFO]11:57:52 Scraped IDs
+[INFO]11:57:52 Entered the Abstract Crawler
+[INFO]11:57:52 Extracting Abstract IDs from disc
+[INFO]11:57:52 Extracted Abstract IDs from disc
+[INFO]11:57:52 Abstract Number: 61
+[INFO]11:57:52 Abstract ID: /article/10.1007/s10682-010-9458-2
+[INFO]11:57:54 Souping page
+[INFO]11:57:55 Souped page
+[INFO]11:57:55 Scraping the title of the abstract
+[INFO]11:57:55 Scraped the title of the abstract
+[INFO]11:57:55 Scraping date of the abstract titled: 'Crucibles of creativity: the geographic origins of tropical molluscan innovations'
+[INFO]11:57:55 'Crucibles of creativity: the geographic origins of tropical molluscan innovations' was published on 2010-12-19
+[INFO]11:57:55 Scraping the author name
+[INFO]11:57:55 Scraped the author's name: Geerat J. Vermeij1 
+[INFO]11:57:55 Adding: 'Crucibles of creativity: the geographic origins of tropical molluscan innovations' to the archival list
+[INFO]11:57:55 Added: 'Crucibles of creativity: the geographic origins of tropical molluscan innovations' to the archival list
+[INFO]11:57:55 Writing 'Crucibles of creativity: the geographic origins of tropical molluscan innovations' by Geerat J. Vermeij1  to disc
+[INFO]11:57:55 Written 'Crucibles of creativity: the geographic origins of tropical molluscan innovations' to disc
+[INFO]11:57:55 Writing 'Crucibles of creativity: the geographic origins of tropical molluscan innovations' by Geerat J. Vermeij1  to analytical abstracts file
+[INFO]11:57:55 Written 'Crucibles of creativity: the geographic origins of tropical molluscan innovations' to disc
+[INFO]11:57:55 Abstract Number: 62
+[INFO]11:57:55 Abstract ID: /article/10.1007/s10531-013-0467-7
+[INFO]11:57:57 Souping page
+[INFO]11:57:58 Souped page
+[INFO]11:57:58 Scraping the title of the abstract
+[INFO]11:57:58 Scraped the title of the abstract
+[INFO]11:57:58 Scraping date of the abstract titled: 'The performance of the global protected area system in capturing vertebrate geographic ranges'
+[INFO]11:57:58 'The performance of the global protected area system in capturing vertebrate geographic ranges' was published on 2013-03-21
+[INFO]11:57:58 Scraping the author name
+[INFO]11:57:58 Scraped the author's name: Lisette Cantú-Salazar1 nAff2, C. David L. Orme3, Pamela C. Rasmussen4, Tim M. Blackburn5,7 & Kevin J. Gaston6 
+[INFO]11:57:58 Adding: 'The performance of the global protected area system in capturing vertebrate geographic ranges' to the archival list
+[INFO]11:57:58 Added: 'The performance of the global protected area system in capturing vertebrate geographic ranges' to the archival list
+[INFO]11:57:58 Writing 'The performance of the global protected area system in capturing vertebrate geographic ranges' by Lisette Cantú-Salazar1 nAff2, C. David L. Orme3, Pamela C. Rasmussen4, Tim M. Blackburn5,7 & Kevin J. Gaston6  to disc
+[INFO]11:57:58 Written 'The performance of the global protected area system in capturing vertebrate geographic ranges' to disc
+[INFO]11:57:58 Writing 'The performance of the global protected area system in capturing vertebrate geographic ranges' by Lisette Cantú-Salazar1 nAff2, C. David L. Orme3, Pamela C. Rasmussen4, Tim M. Blackburn5,7 & Kevin J. Gaston6  to analytical abstracts file
+[INFO]11:57:58 Written 'The performance of the global protected area system in capturing vertebrate geographic ranges' to disc
+[INFO]11:57:58 Abstract Number: 63
+[INFO]11:57:58 Abstract ID: /article/10.1007/s10336-010-0499-7
+[INFO]11:58:0 Souping page
+[INFO]11:58:1 Souped page
+[INFO]11:58:1 Scraping the title of the abstract
+[INFO]11:58:1 Scraped the title of the abstract
+[INFO]11:58:1 Scraping date of the abstract titled: 'Exponential population increase in the endangered Ouv\xc3\xa9a Parakeet (Eunymphicus uvaeensis) after community-based protection from nest poaching'
+[INFO]11:58:1 'Exponential population increase in the endangered Ouv\xc3\xa9a Parakeet (Eunymphicus uvaeensis) after community-based protection from nest poaching' was published on 2010-03-09
+[INFO]11:58:1 Scraping the author name
+[INFO]11:58:1 Scraped the author's name: Nicolas Barré1, Jörn Theuerkauf2, Ludovic Verfaille3, Pierre Primot3 & Maurice Saoumoé3 
+[INFO]11:58:1 Adding: 'Exponential population increase in the endangered Ouv\xc3\xa9a Parakeet (Eunymphicus uvaeensis) after community-based protection from nest poaching' to the archival list
+[INFO]11:58:1 Added: 'Exponential population increase in the endangered Ouv\xc3\xa9a Parakeet (Eunymphicus uvaeensis) after community-based protection from nest poaching' to the archival list
+[INFO]11:58:1 Writing 'Exponential population increase in the endangered Ouv\xc3\xa9a Parakeet (Eunymphicus uvaeensis) after community-based protection from nest poaching' by Nicolas Barré1, Jörn Theuerkauf2, Ludovic Verfaille3, Pierre Primot3 & Maurice Saoumoé3  to disc
+[INFO]11:58:1 Written 'Exponential population increase in the endangered Ouv\xc3\xa9a Parakeet (Eunymphicus uvaeensis) after community-based protection from nest poaching' to disc
+[INFO]11:58:1 Writing 'Exponential population increase in the endangered Ouv\xc3\xa9a Parakeet (Eunymphicus uvaeensis) after community-based protection from nest poaching' by Nicolas Barré1, Jörn Theuerkauf2, Ludovic Verfaille3, Pierre Primot3 & Maurice Saoumoé3  to analytical abstracts file
+[INFO]11:58:1 Written 'Exponential population increase in the endangered Ouv\xc3\xa9a Parakeet (Eunymphicus uvaeensis) after community-based protection from nest poaching' to disc
+[INFO]11:58:1 Abstract Number: 64
+[INFO]11:58:1 Abstract ID: /article/10.1007/s10722-003-6122-5
+[INFO]11:58:3 Souping page
+[INFO]11:58:3 Souped page
+[INFO]11:58:3 Scraping the title of the abstract
+[INFO]11:58:3 Scraped the title of the abstract
+[INFO]11:58:3 Scraping date of the abstract titled: 'Genetic Diversity of the Greater Yam (Dioscorea alata L.) and Relatedness to D. nummularia Lam. and D. transversa Br. as Revealed with AFLP Markers'
+[INFO]11:58:3 'Genetic Diversity of the Greater Yam (Dioscorea alata L.) and Relatedness to D. nummularia Lam. and D. transversa Br. as Revealed with AFLP Markers' was published on 2005-11
+[INFO]11:58:3 Scraping the author name
+[INFO]11:58:3 Scraped the author's name: R. Malapa1, G. Arnau2, J.L. Noyer1 & V. Lebot3 
+[INFO]11:58:3 Adding: 'Genetic Diversity of the Greater Yam (Dioscorea alata L.) and Relatedness to D. nummularia Lam. and D. transversa Br. as Revealed with AFLP Markers' to the archival list
+[INFO]11:58:3 Added: 'Genetic Diversity of the Greater Yam (Dioscorea alata L.) and Relatedness to D. nummularia Lam. and D. transversa Br. as Revealed with AFLP Markers' to the archival list
+[INFO]11:58:3 Writing 'Genetic Diversity of the Greater Yam (Dioscorea alata L.) and Relatedness to D. nummularia Lam. and D. transversa Br. as Revealed with AFLP Markers' by R. Malapa1, G. Arnau2, J.L. Noyer1 & V. Lebot3  to disc
+[INFO]11:58:3 Written 'Genetic Diversity of the Greater Yam (Dioscorea alata L.) and Relatedness to D. nummularia Lam. and D. transversa Br. as Revealed with AFLP Markers' to disc
+[INFO]11:58:3 Writing 'Genetic Diversity of the Greater Yam (Dioscorea alata L.) and Relatedness to D. nummularia Lam. and D. transversa Br. as Revealed with AFLP Markers' by R. Malapa1, G. Arnau2, J.L. Noyer1 & V. Lebot3  to analytical abstracts file
+[INFO]11:58:3 Written 'Genetic Diversity of the Greater Yam (Dioscorea alata L.) and Relatedness to D. nummularia Lam. and D. transversa Br. as Revealed with AFLP Markers' to disc
+[INFO]11:58:3 Abstract Number: 65
+[INFO]11:58:3 Abstract ID: /article/10.1023/A%3A1025028814962
+[INFO]11:58:6 Souping page
+[INFO]11:58:7 Souped page
+[INFO]11:58:7 Scraping the title of the abstract
+[INFO]11:58:7 Scraped the title of the abstract
+[INFO]11:58:7 Scraping date of the abstract titled: 'The Production and Exchange of Marine Shell Prestige Goods'
+[INFO]11:58:7 'The Production and Exchange of Marine Shell Prestige Goods' was published on 2003-09
+[INFO]11:58:7 Scraping the author name
+[INFO]11:58:7 Scraped the author's name: Mary Beth D. Trubitt1 
+[INFO]11:58:7 Adding: 'The Production and Exchange of Marine Shell Prestige Goods' to the archival list
+[INFO]11:58:7 Added: 'The Production and Exchange of Marine Shell Prestige Goods' to the archival list
+[INFO]11:58:7 Writing 'The Production and Exchange of Marine Shell Prestige Goods' by Mary Beth D. Trubitt1  to disc
+[INFO]11:58:7 Written 'The Production and Exchange of Marine Shell Prestige Goods' to disc
+[INFO]11:58:7 Writing 'The Production and Exchange of Marine Shell Prestige Goods' by Mary Beth D. Trubitt1  to analytical abstracts file
+[INFO]11:58:7 Written 'The Production and Exchange of Marine Shell Prestige Goods' to disc
+[INFO]11:58:7 Abstract Number: 66
+[INFO]11:58:7 Abstract ID: /article/10.1007/s10113-016-1012-5
+[INFO]11:58:9 Souping page
+[INFO]11:58:10 Souped page
+[INFO]11:58:10 Scraping the title of the abstract
+[INFO]11:58:10 Scraped the title of the abstract
+[INFO]11:58:10 Scraping date of the abstract titled: 'Social and cultural issues raised by climate change in Pacific Island countries: an overview'
+[INFO]11:58:10 'Social and cultural issues raised by climate change in Pacific Island countries: an overview' was published on 2016-07-05
+[INFO]11:58:10 Scraping the author name
+[INFO]11:58:10 Scraped the author's name: Tony Weir 
+            ORCID: orcid.org/0000-0001-8606-87321, Liz Dovey1 & Dan Orcherton2 
+[INFO]11:58:10 Adding: 'Social and cultural issues raised by climate change in Pacific Island countries: an overview' to the archival list
+[INFO]11:58:10 Added: 'Social and cultural issues raised by climate change in Pacific Island countries: an overview' to the archival list
+[INFO]11:58:10 Writing 'Social and cultural issues raised by climate change in Pacific Island countries: an overview' by Tony Weir 
+            ORCID: orcid.org/0000-0001-8606-87321, Liz Dovey1 & Dan Orcherton2  to disc
+[INFO]11:58:10 Written 'Social and cultural issues raised by climate change in Pacific Island countries: an overview' to disc
+[INFO]11:58:10 Writing 'Social and cultural issues raised by climate change in Pacific Island countries: an overview' by Tony Weir 
+            ORCID: orcid.org/0000-0001-8606-87321, Liz Dovey1 & Dan Orcherton2  to analytical abstracts file
+[INFO]11:58:10 Written 'Social and cultural issues raised by climate change in Pacific Island countries: an overview' to disc
+[INFO]11:58:10 Abstract Number: 67
+[INFO]11:58:10 Abstract ID: /article/10.1007/s10641-011-9907-y
+[INFO]11:58:12 Souping page
+[INFO]11:58:13 Souped page
+[INFO]11:58:13 Scraping the title of the abstract
+[INFO]11:58:13 Scraped the title of the abstract
+[INFO]11:58:13 Scraping date of the abstract titled: 'Otolith shape analysis for three Sicyopterus (Teleostei: Gobioidei: Sicydiinae) species from New Caledonia and Vanuatu'
+[INFO]11:58:13 'Otolith shape analysis for three Sicyopterus (Teleostei: Gobioidei: Sicydiinae) species from New Caledonia and Vanuatu' was published on 2011-07-28
+[INFO]11:58:13 Scraping the author name
+[INFO]11:58:13 Scraped the author's name: Clara Lord1,4, Fabien Morat2, Raymonde Lecomte-Finiger3 & Philippe Keith4 
+[INFO]11:58:13 Adding: 'Otolith shape analysis for three Sicyopterus (Teleostei: Gobioidei: Sicydiinae) species from New Caledonia and Vanuatu' to the archival list
+[INFO]11:58:13 Added: 'Otolith shape analysis for three Sicyopterus (Teleostei: Gobioidei: Sicydiinae) species from New Caledonia and Vanuatu' to the archival list
+[INFO]11:58:13 Writing 'Otolith shape analysis for three Sicyopterus (Teleostei: Gobioidei: Sicydiinae) species from New Caledonia and Vanuatu' by Clara Lord1,4, Fabien Morat2, Raymonde Lecomte-Finiger3 & Philippe Keith4  to disc
+[INFO]11:58:13 Written 'Otolith shape analysis for three Sicyopterus (Teleostei: Gobioidei: Sicydiinae) species from New Caledonia and Vanuatu' to disc
+[INFO]11:58:13 Writing 'Otolith shape analysis for three Sicyopterus (Teleostei: Gobioidei: Sicydiinae) species from New Caledonia and Vanuatu' by Clara Lord1,4, Fabien Morat2, Raymonde Lecomte-Finiger3 & Philippe Keith4  to analytical abstracts file
+[INFO]11:58:13 Written 'Otolith shape analysis for three Sicyopterus (Teleostei: Gobioidei: Sicydiinae) species from New Caledonia and Vanuatu' to disc
+[INFO]11:58:13 Abstract Number: 68
+[INFO]11:58:13 Abstract ID: /article/10.1007/s10551-010-0371-y
+[INFO]11:58:15 Souping page
+[INFO]11:58:16 Souped page
+[INFO]11:58:16 Scraping the title of the abstract
+[INFO]11:58:16 Scraped the title of the abstract
+[INFO]11:58:16 Scraping date of the abstract titled: 'Development, Power, and the Mining Industry in Papua: A Study of Freeport Indonesia'
+[INFO]11:58:16 'Development, Power, and the Mining Industry in Papua: A Study of Freeport Indonesia' was published on 2010-01-22
+[INFO]11:58:16 Scraping the author name
+[INFO]11:58:16 Scraped the author's name: P. A. Rifai-Hasan1 
+[INFO]11:58:16 Adding: 'Development, Power, and the Mining Industry in Papua: A Study of Freeport Indonesia' to the archival list
+[INFO]11:58:16 Added: 'Development, Power, and the Mining Industry in Papua: A Study of Freeport Indonesia' to the archival list
+[INFO]11:58:16 Writing 'Development, Power, and the Mining Industry in Papua: A Study of Freeport Indonesia' by P. A. Rifai-Hasan1  to disc
+[INFO]11:58:16 Written 'Development, Power, and the Mining Industry in Papua: A Study of Freeport Indonesia' to disc
+[INFO]11:58:16 Writing 'Development, Power, and the Mining Industry in Papua: A Study of Freeport Indonesia' by P. A. Rifai-Hasan1  to analytical abstracts file
+[INFO]11:58:16 Written 'Development, Power, and the Mining Industry in Papua: A Study of Freeport Indonesia' to disc
+[INFO]11:58:16 Abstract Number: 69
+[INFO]11:58:16 Abstract ID: /article/10.1023/A%3A1025024804641
+[INFO]11:58:18 Souping page
+[INFO]11:58:19 Souped page
+[INFO]11:58:19 Scraping the title of the abstract
+[INFO]11:58:19 Scraped the title of the abstract
+[INFO]11:58:19 Scraping date of the abstract titled: 'Assigned Territories, Family/Clan/Communal Holdings, and Common-Pool Resources in the Taimyr Autonomous Region, Northern Russia'
+[INFO]11:58:19 'Assigned Territories, Family/Clan/Communal Holdings, and Common-Pool Resources in the Taimyr Autonomous Region, Northern Russia' was published on 2003-09
+[INFO]11:58:19 Scraping the author name
+[INFO]11:58:19 Scraped the author's name: John P. Ziker1 
+[INFO]11:58:19 Adding: 'Assigned Territories, Family/Clan/Communal Holdings, and Common-Pool Resources in the Taimyr Autonomous Region, Northern Russia' to the archival list
+[INFO]11:58:19 Added: 'Assigned Territories, Family/Clan/Communal Holdings, and Common-Pool Resources in the Taimyr Autonomous Region, Northern Russia' to the archival list
+[INFO]11:58:19 Writing 'Assigned Territories, Family/Clan/Communal Holdings, and Common-Pool Resources in the Taimyr Autonomous Region, Northern Russia' by John P. Ziker1  to disc
+[INFO]11:58:19 Written 'Assigned Territories, Family/Clan/Communal Holdings, and Common-Pool Resources in the Taimyr Autonomous Region, Northern Russia' to disc
+[INFO]11:58:19 Writing 'Assigned Territories, Family/Clan/Communal Holdings, and Common-Pool Resources in the Taimyr Autonomous Region, Northern Russia' by John P. Ziker1  to analytical abstracts file
+[INFO]11:58:19 Written 'Assigned Territories, Family/Clan/Communal Holdings, and Common-Pool Resources in the Taimyr Autonomous Region, Northern Russia' to disc
+[INFO]11:58:19 Abstract Number: 70
+[INFO]11:58:19 Abstract ID: /article/10.1007/BF00889070
+[INFO]11:58:21 Souping page
+[INFO]11:58:21 Souped page
+[INFO]11:58:21 Scraping the title of the abstract
+[INFO]11:58:21 Scraped the title of the abstract
+[INFO]11:58:21 Scraping date of the abstract titled: 'The Tragedy of the Commons: Twenty-two years later'
+[INFO]11:58:21 'The Tragedy of the Commons: Twenty-two years later' was published on 1990-03
+[INFO]11:58:21 Scraping the author name
+[INFO]11:58:21 Scraped the author's name: David Feeny1, Fikret Berkes2, Bonnie J. McCay3 & James M. Acheson4 
+[INFO]11:58:21 Adding: 'The Tragedy of the Commons: Twenty-two years later' to the archival list
+[INFO]11:58:21 Added: 'The Tragedy of the Commons: Twenty-two years later' to the archival list
+[INFO]11:58:21 Writing 'The Tragedy of the Commons: Twenty-two years later' by David Feeny1, Fikret Berkes2, Bonnie J. McCay3 & James M. Acheson4  to disc
+[INFO]11:58:21 Written 'The Tragedy of the Commons: Twenty-two years later' to disc
+[INFO]11:58:21 Writing 'The Tragedy of the Commons: Twenty-two years later' by David Feeny1, Fikret Berkes2, Bonnie J. McCay3 & James M. Acheson4  to analytical abstracts file
+[INFO]11:58:21 Written 'The Tragedy of the Commons: Twenty-two years later' to disc
+[INFO]11:58:21 Abstract Number: 71
+[INFO]11:58:21 Abstract ID: /article/10.1007/s12225-007-9009-3
+[INFO]11:58:24 Souping page
+[INFO]11:58:25 Souped page
+[INFO]11:58:25 Scraping the title of the abstract
+[INFO]11:58:25 Scraped the title of the abstract
+[INFO]11:58:25 Scraping date of the abstract titled: 'A revision of the palm genera (Arecaceae) of New Caledonia'
+[INFO]11:58:25 'A revision of the palm genera (Arecaceae) of New Caledonia' was published on 2008-05-24
+[INFO]11:58:25 Scraping the author name
+[INFO]11:58:25 Scraped the author's name: Jean-Christophe Pintaud1 & William J. Baker2 
+[INFO]11:58:25 Adding: 'A revision of the palm genera (Arecaceae) of New Caledonia' to the archival list
+[INFO]11:58:25 Added: 'A revision of the palm genera (Arecaceae) of New Caledonia' to the archival list
+[INFO]11:58:25 Writing 'A revision of the palm genera (Arecaceae) of New Caledonia' by Jean-Christophe Pintaud1 & William J. Baker2  to disc
+[INFO]11:58:25 Written 'A revision of the palm genera (Arecaceae) of New Caledonia' to disc
+[INFO]11:58:25 Writing 'A revision of the palm genera (Arecaceae) of New Caledonia' by Jean-Christophe Pintaud1 & William J. Baker2  to analytical abstracts file
+[INFO]11:58:25 Written 'A revision of the palm genera (Arecaceae) of New Caledonia' to disc
+[INFO]11:58:25 Abstract Number: 72
+[INFO]11:58:25 Abstract ID: /article/10.1007/BF00728316
+[INFO]11:58:27 Souping page
+[INFO]11:58:27 Souped page
+[INFO]11:58:27 Scraping the title of the abstract
+[INFO]11:58:27 Scraped the title of the abstract
+[INFO]11:58:27 Scraping date of the abstract titled: 'Really rather like slavery: Law and labor in the colonial economy in Papua New Guinea'
+[INFO]11:58:27 'Really rather like slavery: Law and labor in the colonial economy in Papua New Guinea' was published on 1980-01
+[INFO]11:58:27 Scraping the author name
+[INFO]11:58:28 Scraped the author's name: Peter Fitzpatrick1 
+[INFO]11:58:28 Writing 'Really rather like slavery: Law and labor in the colonial economy in Papua New Guinea' by Peter Fitzpatrick1  to disc
+[INFO]11:58:28 Written 'Really rather like slavery: Law and labor in the colonial economy in Papua New Guinea' to disc
+[INFO]11:58:28 Writing 'Really rather like slavery: Law and labor in the colonial economy in Papua New Guinea' by Peter Fitzpatrick1  to analytical abstracts file
+[INFO]11:58:28 Written 'Really rather like slavery: Law and labor in the colonial economy in Papua New Guinea' to disc
+[INFO]11:58:28 Abstract Number: 73
+[INFO]11:58:28 Abstract ID: /article/10.1007/BF02442060
+[INFO]11:58:31 Souping page
+[INFO]11:58:32 Souped page
+[INFO]11:58:32 Scraping the title of the abstract
+[INFO]11:58:32 Scraped the title of the abstract
+[INFO]11:58:32 Scraping date of the abstract titled: 'Genetic distance: probing the origin of a Papua New Guinea isolate'
+[INFO]11:58:32 'Genetic distance: probing the origin of a Papua New Guinea isolate' was published on 1986-12
+[INFO]11:58:32 Scraping the author name
+[INFO]11:58:32 Scraped the author's name: E. D. Shields1, F. Décary2 & A. D. Russell3 
+[INFO]11:58:32 Adding: 'Genetic distance: probing the origin of a Papua New Guinea isolate' to the archival list
+[INFO]11:58:32 Added: 'Genetic distance: probing the origin of a Papua New Guinea isolate' to the archival list
+[INFO]11:58:32 Writing 'Genetic distance: probing the origin of a Papua New Guinea isolate' by E. D. Shields1, F. Décary2 & A. D. Russell3  to disc
+[INFO]11:58:32 Written 'Genetic distance: probing the origin of a Papua New Guinea isolate' to disc
+[INFO]11:58:32 Writing 'Genetic distance: probing the origin of a Papua New Guinea isolate' by E. D. Shields1, F. Décary2 & A. D. Russell3  to analytical abstracts file
+[INFO]11:58:32 Written 'Genetic distance: probing the origin of a Papua New Guinea isolate' to disc
+[INFO]11:58:32 Abstract Number: 74
+[INFO]11:58:32 Abstract ID: /article/10.1007/BF02908221
+[INFO]11:58:34 Souping page
+[INFO]11:58:35 Souped page
+[INFO]11:58:35 Scraping the title of the abstract
+[INFO]11:58:35 Scraped the title of the abstract
+[INFO]11:58:35 Scraping date of the abstract titled: 'Book reviews'
+[INFO]11:58:35 'Book reviews' was published on 1994-04
+[INFO]11:58:35 Scraping the author name
+[INFO]11:58:35 Scraped the author's name: Daniel F. Austin, Lawrence Kaplan1, Susan Carty2, Shirley Black Gerum3, Daniel F. Austin4, Kaoru Kitajima5, Russell G. Kerr6, Lytton J. Musselman7, Bradley C. Bennett8, G. Alex Marsh9, Raymond E. Miller10 & Martha Kaplan11 
+[INFO]11:58:35 Writing 'Book reviews' by Daniel F. Austin, Lawrence Kaplan1, Susan Carty2, Shirley Black Gerum3, Daniel F. Austin4, Kaoru Kitajima5, Russell G. Kerr6, Lytton J. Musselman7, Bradley C. Bennett8, G. Alex Marsh9, Raymond E. Miller10 & Martha Kaplan11  to disc
+[INFO]11:58:35 Written 'Book reviews' to disc
+[INFO]11:58:35 Writing 'Book reviews' by Daniel F. Austin, Lawrence Kaplan1, Susan Carty2, Shirley Black Gerum3, Daniel F. Austin4, Kaoru Kitajima5, Russell G. Kerr6, Lytton J. Musselman7, Bradley C. Bennett8, G. Alex Marsh9, Raymond E. Miller10 & Martha Kaplan11  to analytical abstracts file
+[INFO]11:58:35 Written 'Book reviews' to disc
+[INFO]11:58:35 Abstract Number: 75
+[INFO]11:58:35 Abstract ID: /article/10.1186/1471-2148-10-314
+[INFO]11:58:37 Souping page
+[INFO]11:58:40 Souped page
+[INFO]11:58:40 Scraping the title of the abstract
+[INFO]11:58:40 Scraped the title of the abstract
+[INFO]11:58:40 Scraping date of the abstract titled: 'The imprint of the Slave Trade in an African American population: mitochondrial DNA, Y chromosome and HTLV-1 analysis in the Noir Marron of French Guiana'
+[INFO]11:58:40 'The imprint of the Slave Trade in an African American population: mitochondrial DNA, Y chromosome and HTLV-1 analysis in the Noir Marron of French Guiana' was published on 2010-10-19
+[INFO]11:58:40 Scraping the author name
+[INFO]11:58:40 Scraped the author's name: Nicolas Brucato1, Olivier Cassar2, Laure Tonasso1, Patricia Tortevoye2, Florence Migot-Nabias3, Sabine Plancoulaine2,4, Evelyne Guitard1, Georges Larrouy1, Antoine Gessain2 & Jean-Michel Dugoujon1 
+[INFO]11:58:40 Adding: 'The imprint of the Slave Trade in an African American population: mitochondrial DNA, Y chromosome and HTLV-1 analysis in the Noir Marron of French Guiana' to the archival list
+[INFO]11:58:40 Added: 'The imprint of the Slave Trade in an African American population: mitochondrial DNA, Y chromosome and HTLV-1 analysis in the Noir Marron of French Guiana' to the archival list
+[INFO]11:58:40 Writing 'The imprint of the Slave Trade in an African American population: mitochondrial DNA, Y chromosome and HTLV-1 analysis in the Noir Marron of French Guiana' by Nicolas Brucato1, Olivier Cassar2, Laure Tonasso1, Patricia Tortevoye2, Florence Migot-Nabias3, Sabine Plancoulaine2,4, Evelyne Guitard1, Georges Larrouy1, Antoine Gessain2 & Jean-Michel Dugoujon1  to disc
+[INFO]11:58:40 Written 'The imprint of the Slave Trade in an African American population: mitochondrial DNA, Y chromosome and HTLV-1 analysis in the Noir Marron of French Guiana' to disc
+[INFO]11:58:40 Writing 'The imprint of the Slave Trade in an African American population: mitochondrial DNA, Y chromosome and HTLV-1 analysis in the Noir Marron of French Guiana' by Nicolas Brucato1, Olivier Cassar2, Laure Tonasso1, Patricia Tortevoye2, Florence Migot-Nabias3, Sabine Plancoulaine2,4, Evelyne Guitard1, Georges Larrouy1, Antoine Gessain2 & Jean-Michel Dugoujon1  to analytical abstracts file
+[INFO]11:58:40 Written 'The imprint of the Slave Trade in an African American population: mitochondrial DNA, Y chromosome and HTLV-1 analysis in the Noir Marron of French Guiana' to disc
+[INFO]11:58:40 Abstract Number: 76
+[INFO]11:58:40 Abstract ID: /article/10.1007/BF02862355
+[INFO]11:58:43 Souping page
+[INFO]11:58:43 Souped page
+[INFO]11:58:43 Scraping the title of the abstract
+[INFO]11:58:43 Scraped the title of the abstract
+[INFO]11:58:43 Scraping date of the abstract titled: 'Book reviews'
+[INFO]11:58:43 'Book reviews' was published on 1995-07
+[INFO]11:58:43 Scraping the author name
+[INFO]11:58:43 Scraped the author's name: Daniel F. Austin1, Richard J. Campbell2, Julia F. Morton3, Scott A. Mori4, Cath Cotton5, Neil A. Harriman6, Margie Mayfield7, Thomas E. Hemmerly8, G. W. Staples9 & Herbert H. Stewart10 
+[INFO]11:58:43 Writing 'Book reviews' by Daniel F. Austin1, Richard J. Campbell2, Julia F. Morton3, Scott A. Mori4, Cath Cotton5, Neil A. Harriman6, Margie Mayfield7, Thomas E. Hemmerly8, G. W. Staples9 & Herbert H. Stewart10  to disc
+[INFO]11:58:43 Written 'Book reviews' to disc
+[INFO]11:58:43 Writing 'Book reviews' by Daniel F. Austin1, Richard J. Campbell2, Julia F. Morton3, Scott A. Mori4, Cath Cotton5, Neil A. Harriman6, Margie Mayfield7, Thomas E. Hemmerly8, G. W. Staples9 & Herbert H. Stewart10  to analytical abstracts file
+[INFO]11:58:43 Written 'Book reviews' to disc
+[INFO]11:58:43 Abstract Number: 77
+[INFO]11:58:43 Abstract ID: /article/10.1023/B%3AEUPH.0000040521.00303.ac
+[INFO]11:58:46 Souping page
+[INFO]11:58:46 Souped page
+[INFO]11:58:46 Scraping the title of the abstract
+[INFO]11:58:46 Scraped the title of the abstract
+[INFO]11:58:46 Scraping date of the abstract titled: 'A germplasm stratification of taro (Colocasia esculenta) based on agro-morphological descriptors, validation by AFLP markers'
+[INFO]11:58:46 'A germplasm stratification of taro (Colocasia esculenta) based on agro-morphological descriptors, validation by AFLP markers' was published on 2004-06
+[INFO]11:58:46 Scraping the author name
+[INFO]11:58:46 Scraped the author's name: J. Quero-Garcia1, J.L. Noyer1, X. Perrier1, J.L. Marchand1 & V. Lebot1 
+[INFO]11:58:46 Adding: 'A germplasm stratification of taro (Colocasia esculenta) based on agro-morphological descriptors, validation by AFLP markers' to the archival list
+[INFO]11:58:46 Added: 'A germplasm stratification of taro (Colocasia esculenta) based on agro-morphological descriptors, validation by AFLP markers' to the archival list
+[INFO]11:58:46 Writing 'A germplasm stratification of taro (Colocasia esculenta) based on agro-morphological descriptors, validation by AFLP markers' by J. Quero-Garcia1, J.L. Noyer1, X. Perrier1, J.L. Marchand1 & V. Lebot1  to disc
+[INFO]11:58:46 Written 'A germplasm stratification of taro (Colocasia esculenta) based on agro-morphological descriptors, validation by AFLP markers' to disc
+[INFO]11:58:46 Writing 'A germplasm stratification of taro (Colocasia esculenta) based on agro-morphological descriptors, validation by AFLP markers' by J. Quero-Garcia1, J.L. Noyer1, X. Perrier1, J.L. Marchand1 & V. Lebot1  to analytical abstracts file
+[INFO]11:58:46 Written 'A germplasm stratification of taro (Colocasia esculenta) based on agro-morphological descriptors, validation by AFLP markers' to disc
+[INFO]11:58:46 Abstract Number: 78
+[INFO]11:58:46 Abstract ID: /article/10.1007/s10653-010-9338-2
+[INFO]11:58:48 Souping page
+[INFO]11:58:49 Souped page
+[INFO]11:58:49 Scraping the title of the abstract
+[INFO]11:58:49 Scraped the title of the abstract
+[INFO]11:58:49 Scraping date of the abstract titled: 'Dental fluorosis linked to degassing of Ambrym volcano, Vanuatu: a novel exposure pathway'
+[INFO]11:58:49 'Dental fluorosis linked to degassing of Ambrym volcano, Vanuatu: a novel exposure pathway' was published on 2010-08-12
+[INFO]11:58:49 Scraping the author name
+[INFO]11:58:49 Scraped the author's name: Rachel Allibone1 nAff2, Shane J. Cronin1, Douglas T. Charley3, Vince E. Neall1, Robert B. Stewart1 & Clive Oppenheimer4 
+[INFO]11:58:49 Adding: 'Dental fluorosis linked to degassing of Ambrym volcano, Vanuatu: a novel exposure pathway' to the archival list
+[INFO]11:58:49 Added: 'Dental fluorosis linked to degassing of Ambrym volcano, Vanuatu: a novel exposure pathway' to the archival list
+[INFO]11:58:49 Writing 'Dental fluorosis linked to degassing of Ambrym volcano, Vanuatu: a novel exposure pathway' by Rachel Allibone1 nAff2, Shane J. Cronin1, Douglas T. Charley3, Vince E. Neall1, Robert B. Stewart1 & Clive Oppenheimer4  to disc
+[INFO]11:58:49 Written 'Dental fluorosis linked to degassing of Ambrym volcano, Vanuatu: a novel exposure pathway' to disc
+[INFO]11:58:49 Writing 'Dental fluorosis linked to degassing of Ambrym volcano, Vanuatu: a novel exposure pathway' by Rachel Allibone1 nAff2, Shane J. Cronin1, Douglas T. Charley3, Vince E. Neall1, Robert B. Stewart1 & Clive Oppenheimer4  to analytical abstracts file
+[INFO]11:58:49 Written 'Dental fluorosis linked to degassing of Ambrym volcano, Vanuatu: a novel exposure pathway' to disc
+[INFO]11:58:49 Abstract Number: 79
+[INFO]11:58:49 Abstract ID: /article/10.1007/BF00585995
+[INFO]11:58:52 Souping page
+[INFO]11:58:52 Souped page
+[INFO]11:58:52 Scraping the title of the abstract
+[INFO]11:58:52 Scraped the title of the abstract
+[INFO]11:58:52 Scraping date of the abstract titled: 'Abstracts'
+[INFO]11:58:52 'Abstracts' was published on 1992-08
+[INFO]11:58:52 Scraping the author name
+[INFO]11:58:52 Scraped the author's name: 
+[INFO]11:58:52 Writing 'Abstracts' by  to disc
+[INFO]11:58:52 Written 'Abstracts' to disc
+[INFO]11:58:52 Writing 'Abstracts' by  to analytical abstracts file
+[INFO]11:58:52 Written 'Abstracts' to disc
+[INFO]11:58:52 Abstract Number: 80
+[INFO]11:58:52 Abstract ID: /article/10.1007/s10592-016-0833-6
+[INFO]11:58:54 Souping page
+[INFO]11:58:55 Souped page
+[INFO]11:58:55 Scraping the title of the abstract
+[INFO]11:58:55 Scraped the title of the abstract
+[INFO]11:58:55 Scraping date of the abstract titled: 'Social structure and landscape genetics of the endemic New Caledonian ant Leptomyrmex pallens Emery, 1883 (Hymenoptera: Formicidae: Dolichoderinae), in the context of fire-induced rainforest fragmentation'
+[INFO]11:58:55 'Social structure and landscape genetics of the endemic New Caledonian ant Leptomyrmex pallens Emery, 1883 (Hymenoptera: Formicidae: Dolichoderinae), in the context of fire-induced rainforest fragmentation' was published on 2016-03-17
+[INFO]11:58:55 Scraping the author name
+[INFO]11:58:55 Scraped the author's name: Maïa Berman1,2,3, Christopher M. Austin2,4, Christopher P. Burridge5 & Adam D. Miller6,7 
+[INFO]11:58:55 Adding: 'Social structure and landscape genetics of the endemic New Caledonian ant Leptomyrmex pallens Emery, 1883 (Hymenoptera: Formicidae: Dolichoderinae), in the context of fire-induced rainforest fragmentation' to the archival list
+[INFO]11:58:55 Added: 'Social structure and landscape genetics of the endemic New Caledonian ant Leptomyrmex pallens Emery, 1883 (Hymenoptera: Formicidae: Dolichoderinae), in the context of fire-induced rainforest fragmentation' to the archival list
+[INFO]11:58:55 Writing 'Social structure and landscape genetics of the endemic New Caledonian ant Leptomyrmex pallens Emery, 1883 (Hymenoptera: Formicidae: Dolichoderinae), in the context of fire-induced rainforest fragmentation' by Maïa Berman1,2,3, Christopher M. Austin2,4, Christopher P. Burridge5 & Adam D. Miller6,7  to disc
+[INFO]11:58:55 Written 'Social structure and landscape genetics of the endemic New Caledonian ant Leptomyrmex pallens Emery, 1883 (Hymenoptera: Formicidae: Dolichoderinae), in the context of fire-induced rainforest fragmentation' to disc
+[INFO]11:58:55 Writing 'Social structure and landscape genetics of the endemic New Caledonian ant Leptomyrmex pallens Emery, 1883 (Hymenoptera: Formicidae: Dolichoderinae), in the context of fire-induced rainforest fragmentation' by Maïa Berman1,2,3, Christopher M. Austin2,4, Christopher P. Burridge5 & Adam D. Miller6,7  to analytical abstracts file
+[INFO]11:58:55 Written 'Social structure and landscape genetics of the endemic New Caledonian ant Leptomyrmex pallens Emery, 1883 (Hymenoptera: Formicidae: Dolichoderinae), in the context of fire-induced rainforest fragmentation' to disc
+[INFO]11:58:55 Exiting the Abstract Crawler
+[INFO]11:58:55 Delaying remote server ping: 10 seconds
+[INFO]11:59:5 Delayed remote server ping: 10 seconds
+[INFO]11:59:5 Souping page
+[INFO]11:59:6 Souped page
+[INFO]11:59:6 Scraping IDs
+[INFO]11:59:6 Scraped IDs
+[INFO]11:59:6 Entered the Abstract Crawler
+[INFO]11:59:6 Extracting Abstract IDs from disc
+[INFO]11:59:6 Extracted Abstract IDs from disc
+[INFO]11:59:6 Abstract Number: 81
+[INFO]11:59:6 Abstract ID: /article/10.1007/BF02446275
+[INFO]11:59:8 Souping page
+[INFO]11:59:10 Souped page
+[INFO]11:59:10 Scraping the title of the abstract
+[INFO]11:59:10 Scraped the title of the abstract
+[INFO]11:59:10 Scraping date of the abstract titled: 'Warfare in prehistoric and early historic eastern North America'
+[INFO]11:59:10 'Warfare in prehistoric and early historic eastern North America' was published on 1999-06
+[INFO]11:59:10 Scraping the author name
+[INFO]11:59:10 Scraped the author's name: George R. Milner1 
+[INFO]11:59:10 Adding: 'Warfare in prehistoric and early historic eastern North America' to the archival list
+[INFO]11:59:10 Added: 'Warfare in prehistoric and early historic eastern North America' to the archival list
+[INFO]11:59:10 Writing 'Warfare in prehistoric and early historic eastern North America' by George R. Milner1  to disc
+[INFO]11:59:10 Written 'Warfare in prehistoric and early historic eastern North America' to disc
+[INFO]11:59:10 Writing 'Warfare in prehistoric and early historic eastern North America' by George R. Milner1  to analytical abstracts file
+[INFO]11:59:10 Written 'Warfare in prehistoric and early historic eastern North America' to disc
+[INFO]11:59:10 Abstract Number: 82
+[INFO]11:59:10 Abstract ID: /article/10.1007/s10814-005-0001-x
+[INFO]11:59:13 Souping page
+[INFO]11:59:15 Souped page
+[INFO]11:59:15 Scraping the title of the abstract
+[INFO]11:59:15 Scraped the title of the abstract
+[INFO]11:59:15 Scraping date of the abstract titled: 'Warfare in Prehistoric and Early Historic Eastern North America'
+[INFO]11:59:15 'Warfare in Prehistoric and Early Historic Eastern North America' was published on 1999-06
+[INFO]11:59:15 Scraping the author name
+[INFO]11:59:15 Scraped the author's name: George R. Milner1 
+[INFO]11:59:16 Adding: 'Warfare in Prehistoric and Early Historic Eastern North America' to the archival list
+[INFO]11:59:16 Added: 'Warfare in Prehistoric and Early Historic Eastern North America' to the archival list
+[INFO]11:59:16 Writing 'Warfare in Prehistoric and Early Historic Eastern North America' by George R. Milner1  to disc
+[INFO]11:59:16 Written 'Warfare in Prehistoric and Early Historic Eastern North America' to disc
+[INFO]11:59:16 Writing 'Warfare in Prehistoric and Early Historic Eastern North America' by George R. Milner1  to analytical abstracts file
+[INFO]11:59:16 Written 'Warfare in Prehistoric and Early Historic Eastern North America' to disc
+[INFO]11:59:16 Abstract Number: 83
+[INFO]11:59:16 Abstract ID: /article/10.1017/S1742758400017999
+[INFO]11:59:18 Souping page
+[INFO]11:59:18 Souped page
+[INFO]11:59:18 Scraping the title of the abstract
+[INFO]11:59:18 Scraped the title of the abstract
+[INFO]11:59:18 Scraping date of the abstract titled: 'Ecological Relationships Between Agromyzidae Feeding on Leguminous Plants and Species-Area Effects in Kenya'
+[INFO]11:59:18 'Ecological Relationships Between Agromyzidae Feeding on Leguminous Plants and Species-Area Effects in Kenya' was published on 1993-12-01
+[INFO]11:59:18 Scraping the author name
+[INFO]11:59:18 Scraped the author's name: Beatrices Tengecho Chemengich1 
+[INFO]11:59:18 Adding: 'Ecological Relationships Between Agromyzidae Feeding on Leguminous Plants and Species-Area Effects in Kenya' to the archival list
+[INFO]11:59:18 Added: 'Ecological Relationships Between Agromyzidae Feeding on Leguminous Plants and Species-Area Effects in Kenya' to the archival list
+[INFO]11:59:18 Writing 'Ecological Relationships Between Agromyzidae Feeding on Leguminous Plants and Species-Area Effects in Kenya' by Beatrices Tengecho Chemengich1  to disc
+[INFO]11:59:18 Written 'Ecological Relationships Between Agromyzidae Feeding on Leguminous Plants and Species-Area Effects in Kenya' to disc
+[INFO]11:59:18 Writing 'Ecological Relationships Between Agromyzidae Feeding on Leguminous Plants and Species-Area Effects in Kenya' by Beatrices Tengecho Chemengich1  to analytical abstracts file
+[INFO]11:59:18 Written 'Ecological Relationships Between Agromyzidae Feeding on Leguminous Plants and Species-Area Effects in Kenya' to disc
+[INFO]11:59:18 Abstract Number: 84
+[INFO]11:59:18 Abstract ID: /article/10.1007/BF02465603
+[INFO]11:59:20 Souping page
+[INFO]11:59:21 Souped page
+[INFO]11:59:21 Scraping the title of the abstract
+[INFO]11:59:21 Scraped the title of the abstract
+[INFO]11:59:21 Scraping date of the abstract titled: 'Behaviour of Australian brush-turkey (Alectura lathami, galliformes: Megapodiidae) chicks following underground hatching'
+[INFO]11:59:21 'Behaviour of Australian brush-turkey (Alectura lathami, galliformes: Megapodiidae) chicks following underground hatching' was published on 2002-10
+[INFO]11:59:21 Scraping the author name
+[INFO]11:59:21 Scraped the author's name: Ann Goth1 
+[INFO]11:59:21 Adding: 'Behaviour of Australian brush-turkey (Alectura lathami, galliformes: Megapodiidae) chicks following underground hatching' to the archival list
+[INFO]11:59:21 Added: 'Behaviour of Australian brush-turkey (Alectura lathami, galliformes: Megapodiidae) chicks following underground hatching' to the archival list
+[INFO]11:59:21 Writing 'Behaviour of Australian brush-turkey (Alectura lathami, galliformes: Megapodiidae) chicks following underground hatching' by Ann Goth1  to disc
+[INFO]11:59:21 Written 'Behaviour of Australian brush-turkey (Alectura lathami, galliformes: Megapodiidae) chicks following underground hatching' to disc
+[INFO]11:59:21 Writing 'Behaviour of Australian brush-turkey (Alectura lathami, galliformes: Megapodiidae) chicks following underground hatching' by Ann Goth1  to analytical abstracts file
+[INFO]11:59:21 Written 'Behaviour of Australian brush-turkey (Alectura lathami, galliformes: Megapodiidae) chicks following underground hatching' to disc
+[INFO]11:59:21 Abstract Number: 85
+[INFO]11:59:21 Abstract ID: /article/10.1007/s13280-018-1081-4
+[INFO]11:59:23 Souping page
+[INFO]11:59:24 Souped page
+[INFO]11:59:24 Scraping the title of the abstract
+[INFO]11:59:24 Scraped the title of the abstract
+[INFO]11:59:24 Scraping date of the abstract titled: 'Social capital plays a central role in transitions to sportfishing tourism in small-scale fishing communities in Papua New Guinea'
+[INFO]11:59:24 'Social capital plays a central role in transitions to sportfishing tourism in small-scale fishing communities in Papua New Guinea' was published on 2018-07-31
+[INFO]11:59:24 Scraping the author name
+[INFO]11:59:24 Scraped the author's name: Amy Diedrich 
+            ORCID: orcid.org/0000-0003-2373-04711,2,3,4, Claudia Benham1,3,4, Lina Pandihau5 & Marcus Sheaves1,2,3 
+[INFO]11:59:24 Adding: 'Social capital plays a central role in transitions to sportfishing tourism in small-scale fishing communities in Papua New Guinea' to the archival list
+[INFO]11:59:24 Added: 'Social capital plays a central role in transitions to sportfishing tourism in small-scale fishing communities in Papua New Guinea' to the archival list
+[INFO]11:59:24 Writing 'Social capital plays a central role in transitions to sportfishing tourism in small-scale fishing communities in Papua New Guinea' by Amy Diedrich 
+            ORCID: orcid.org/0000-0003-2373-04711,2,3,4, Claudia Benham1,3,4, Lina Pandihau5 & Marcus Sheaves1,2,3  to disc
+[INFO]11:59:24 Written 'Social capital plays a central role in transitions to sportfishing tourism in small-scale fishing communities in Papua New Guinea' to disc
+[INFO]11:59:24 Writing 'Social capital plays a central role in transitions to sportfishing tourism in small-scale fishing communities in Papua New Guinea' by Amy Diedrich 
+            ORCID: orcid.org/0000-0003-2373-04711,2,3,4, Claudia Benham1,3,4, Lina Pandihau5 & Marcus Sheaves1,2,3  to analytical abstracts file
+[INFO]11:59:24 Written 'Social capital plays a central role in transitions to sportfishing tourism in small-scale fishing communities in Papua New Guinea' to disc
+[INFO]11:59:24 Abstract Number: 86
+[INFO]11:59:24 Abstract ID: /article/10.1007/s13593-013-0155-8
+[INFO]11:59:26 Souping page
+[INFO]11:59:28 Souped page
+[INFO]11:59:28 Scraping the title of the abstract
+[INFO]11:59:28 Scraped the title of the abstract
+[INFO]11:59:28 Scraping date of the abstract titled: 'Give peas a chance? Urban agriculture in developing countries. A review'
+[INFO]11:59:28 'Give peas a chance? Urban agriculture in developing countries. A review' was published on 2013-06-04
+[INFO]11:59:28 Scraping the author name
+[INFO]11:59:28 Scraped the author's name: Andrew J. Hamilton1, Kristal Burry2, Hoi-Fei Mok2, S. Fiona Barker2, James R. Grove2 & Virginia G. Williamson3 
+[INFO]11:59:28 Adding: 'Give peas a chance? Urban agriculture in developing countries. A review' to the archival list
+[INFO]11:59:28 Added: 'Give peas a chance? Urban agriculture in developing countries. A review' to the archival list
+[INFO]11:59:28 Writing 'Give peas a chance? Urban agriculture in developing countries. A review' by Andrew J. Hamilton1, Kristal Burry2, Hoi-Fei Mok2, S. Fiona Barker2, James R. Grove2 & Virginia G. Williamson3  to disc
+[INFO]11:59:28 Written 'Give peas a chance? Urban agriculture in developing countries. A review' to disc
+[INFO]11:59:28 Writing 'Give peas a chance? Urban agriculture in developing countries. A review' by Andrew J. Hamilton1, Kristal Burry2, Hoi-Fei Mok2, S. Fiona Barker2, James R. Grove2 & Virginia G. Williamson3  to analytical abstracts file
+[INFO]11:59:28 Written 'Give peas a chance? Urban agriculture in developing countries. A review' to disc
+[INFO]11:59:28 Abstract Number: 87
+[INFO]11:59:28 Abstract ID: /article/10.1007/BF02904813
+[INFO]11:59:30 Souping page
+[INFO]11:59:31 Souped page
+[INFO]11:59:31 Scraping the title of the abstract
+[INFO]11:59:31 Scraped the title of the abstract
+[INFO]11:59:31 Scraping date of the abstract titled: 'Book reviews'
+[INFO]11:59:31 'Book reviews' was published on 1965-10
+[INFO]11:59:31 Scraping the author name
+[INFO]11:59:31 Scraped the author's name: Richard Evans Schultes1, J. P. Fulton2, John W. Thieret3, Richard Evans Schultes1, Andre F. Clewell4, Wm. T. Penfound5, W. W. Jeffrey6, Richard M. Klein7, Richard M. Klein7, Wm. T. Penfound5, Lawrence Kaplan8, John W. Thieret3, William D. Reese3, Eugene C. Ogden9, Frank W. Gould10, William D. Reese3, Donovan S. Correll11, Richard Evans Sciiultes1, Richard Evans Schultes1, Mildred E. Mathias1, Richard Evans Schultes1, Rtchard M. Klein7, Richard Evans Schultes1, Richard Evans Schultes1, Charles T. Mason JR.12, Mildred E. Mathtas13, John W. Thieret3, Gordon Stuart Johnston1, Áskell Löve14, R. E. Schultes1, Sigmond L. Solymosy3, Laery W. Jones15, Darrell Pratt16, Hans R. Schmidt17, Ralph L. Hossfeld18, Philip L. Johnson19, José Cuatrecasas20, Adam F. Szczawinski21, Ida K. Langman22, M. L. Stiff3, Shiu-Ying Hu23 & Eldon J. Gardneb24 
+[INFO]11:59:31 Writing 'Book reviews' by Richard Evans Schultes1, J. P. Fulton2, John W. Thieret3, Richard Evans Schultes1, Andre F. Clewell4, Wm. T. Penfound5, W. W. Jeffrey6, Richard M. Klein7, Richard M. Klein7, Wm. T. Penfound5, Lawrence Kaplan8, John W. Thieret3, William D. Reese3, Eugene C. Ogden9, Frank W. Gould10, William D. Reese3, Donovan S. Correll11, Richard Evans Sciiultes1, Richard Evans Schultes1, Mildred E. Mathias1, Richard Evans Schultes1, Rtchard M. Klein7, Richard Evans Schultes1, Richard Evans Schultes1, Charles T. Mason JR.12, Mildred E. Mathtas13, John W. Thieret3, Gordon Stuart Johnston1, Áskell Löve14, R. E. Schultes1, Sigmond L. Solymosy3, Laery W. Jones15, Darrell Pratt16, Hans R. Schmidt17, Ralph L. Hossfeld18, Philip L. Johnson19, José Cuatrecasas20, Adam F. Szczawinski21, Ida K. Langman22, M. L. Stiff3, Shiu-Ying Hu23 & Eldon J. Gardneb24  to disc
+[INFO]11:59:31 Written 'Book reviews' to disc
+[INFO]11:59:31 Writing 'Book reviews' by Richard Evans Schultes1, J. P. Fulton2, John W. Thieret3, Richard Evans Schultes1, Andre F. Clewell4, Wm. T. Penfound5, W. W. Jeffrey6, Richard M. Klein7, Richard M. Klein7, Wm. T. Penfound5, Lawrence Kaplan8, John W. Thieret3, William D. Reese3, Eugene C. Ogden9, Frank W. Gould10, William D. Reese3, Donovan S. Correll11, Richard Evans Sciiultes1, Richard Evans Schultes1, Mildred E. Mathias1, Richard Evans Schultes1, Rtchard M. Klein7, Richard Evans Schultes1, Richard Evans Schultes1, Charles T. Mason JR.12, Mildred E. Mathtas13, John W. Thieret3, Gordon Stuart Johnston1, Áskell Löve14, R. E. Schultes1, Sigmond L. Solymosy3, Laery W. Jones15, Darrell Pratt16, Hans R. Schmidt17, Ralph L. Hossfeld18, Philip L. Johnson19, José Cuatrecasas20, Adam F. Szczawinski21, Ida K. Langman22, M. L. Stiff3, Shiu-Ying Hu23 & Eldon J. Gardneb24  to analytical abstracts file
+[INFO]11:59:31 Written 'Book reviews' to disc
+[INFO]11:59:31 Abstract Number: 88
+[INFO]11:59:31 Abstract ID: /article/10.1007/s10722-015-0267-x
+[INFO]11:59:33 Souping page
+[INFO]11:59:34 Souped page
+[INFO]11:59:34 Scraping the title of the abstract
+[INFO]11:59:34 Scraped the title of the abstract
+[INFO]11:59:34 Scraping date of the abstract titled: 'Somaclonal variants of taro (Colocasia esculenta Schott) and yam (Dioscorea alata L.) are incorporated into farmers\xe2\x80\x99 varietal portfolios in Vanuatu'
+[INFO]11:59:34 'Somaclonal variants of taro (Colocasia esculenta Schott) and yam (Dioscorea alata L.) are incorporated into farmers\xe2\x80\x99 varietal portfolios in Vanuatu' was published on 2015-06-03
+[INFO]11:59:34 Scraping the author name
+[INFO]11:59:34 Scraped the author's name: H. Vandenbroucke1, P. Mournet1, H. Vignes1, H. Chaïr1, R. Malapa1, M. F. Duval1 & V. Lebot1 
+[INFO]11:59:34 Adding: 'Somaclonal variants of taro (Colocasia esculenta Schott) and yam (Dioscorea alata L.) are incorporated into farmers\xe2\x80\x99 varietal portfolios in Vanuatu' to the archival list
+[INFO]11:59:34 Added: 'Somaclonal variants of taro (Colocasia esculenta Schott) and yam (Dioscorea alata L.) are incorporated into farmers\xe2\x80\x99 varietal portfolios in Vanuatu' to the archival list
+[INFO]11:59:34 Writing 'Somaclonal variants of taro (Colocasia esculenta Schott) and yam (Dioscorea alata L.) are incorporated into farmers\xe2\x80\x99 varietal portfolios in Vanuatu' by H. Vandenbroucke1, P. Mournet1, H. Vignes1, H. Chaïr1, R. Malapa1, M. F. Duval1 & V. Lebot1  to disc
+[INFO]11:59:34 Written 'Somaclonal variants of taro (Colocasia esculenta Schott) and yam (Dioscorea alata L.) are incorporated into farmers\xe2\x80\x99 varietal portfolios in Vanuatu' to disc
+[INFO]11:59:34 Writing 'Somaclonal variants of taro (Colocasia esculenta Schott) and yam (Dioscorea alata L.) are incorporated into farmers\xe2\x80\x99 varietal portfolios in Vanuatu' by H. Vandenbroucke1, P. Mournet1, H. Vignes1, H. Chaïr1, R. Malapa1, M. F. Duval1 & V. Lebot1  to analytical abstracts file
+[INFO]11:59:34 Written 'Somaclonal variants of taro (Colocasia esculenta Schott) and yam (Dioscorea alata L.) are incorporated into farmers\xe2\x80\x99 varietal portfolios in Vanuatu' to disc
+[INFO]11:59:34 Abstract Number: 89
+[INFO]11:59:34 Abstract ID: /article/10.1007/s11625-020-00822-w
+[INFO]11:59:36 Souping page
+[INFO]11:59:38 Souped page
+[INFO]11:59:38 Scraping the title of the abstract
+[INFO]11:59:38 Scraped the title of the abstract
+[INFO]11:59:38 Scraping date of the abstract titled: 'Creating a space for place and multidimensional well-being: lessons learned from localizing the SDGs'
+[INFO]11:59:38 'Creating a space for place and multidimensional well-being: lessons learned from localizing the SDGs' was published on 2020-05-25
+[INFO]11:59:38 Scraping the author name
+[INFO]11:59:38 Scraped the author's name: Eleanor J. Sterling 
+            ORCID: orcid.org/0000-0003-2692-82641, Puaʻala Pascua1, Amanda Sigouin1, Nadav Gazit1, Lisa Mandle2, Erin Betley1, John Aini3, Simon Albert4, Sophie Caillon5, Jennifer E. Caselle6, Samantha H. Cheng1, Joachim Claudet7,8, Rachel Dacks9, Emily S. Darling10, Chris Filardi1,11, Stacy D. Jupiter12, Alexander Mawyer13, Manuel Mejia14, Kanoeʻulalani Morishige9, Winifereti Nainoca15, John Parks16, Jamie Tanguay17, Tamara Ticktin18, Ron Vave19, Veronica Wase20, Supin Wongbusarakum21,22 & Joe McCarter1,12 
+[INFO]11:59:38 Adding: 'Creating a space for place and multidimensional well-being: lessons learned from localizing the SDGs' to the archival list
+[INFO]11:59:38 Added: 'Creating a space for place and multidimensional well-being: lessons learned from localizing the SDGs' to the archival list
+[INFO]11:59:38 Writing 'Creating a space for place and multidimensional well-being: lessons learned from localizing the SDGs' by Eleanor J. Sterling 
+            ORCID: orcid.org/0000-0003-2692-82641, Puaʻala Pascua1, Amanda Sigouin1, Nadav Gazit1, Lisa Mandle2, Erin Betley1, John Aini3, Simon Albert4, Sophie Caillon5, Jennifer E. Caselle6, Samantha H. Cheng1, Joachim Claudet7,8, Rachel Dacks9, Emily S. Darling10, Chris Filardi1,11, Stacy D. Jupiter12, Alexander Mawyer13, Manuel Mejia14, Kanoeʻulalani Morishige9, Winifereti Nainoca15, John Parks16, Jamie Tanguay17, Tamara Ticktin18, Ron Vave19, Veronica Wase20, Supin Wongbusarakum21,22 & Joe McCarter1,12  to disc
+[INFO]11:59:38 Written 'Creating a space for place and multidimensional well-being: lessons learned from localizing the SDGs' to disc
+[INFO]11:59:38 Writing 'Creating a space for place and multidimensional well-being: lessons learned from localizing the SDGs' by Eleanor J. Sterling 
+            ORCID: orcid.org/0000-0003-2692-82641, Puaʻala Pascua1, Amanda Sigouin1, Nadav Gazit1, Lisa Mandle2, Erin Betley1, John Aini3, Simon Albert4, Sophie Caillon5, Jennifer E. Caselle6, Samantha H. Cheng1, Joachim Claudet7,8, Rachel Dacks9, Emily S. Darling10, Chris Filardi1,11, Stacy D. Jupiter12, Alexander Mawyer13, Manuel Mejia14, Kanoeʻulalani Morishige9, Winifereti Nainoca15, John Parks16, Jamie Tanguay17, Tamara Ticktin18, Ron Vave19, Veronica Wase20, Supin Wongbusarakum21,22 & Joe McCarter1,12  to analytical abstracts file
+[INFO]11:59:38 Written 'Creating a space for place and multidimensional well-being: lessons learned from localizing the SDGs' to disc
+[INFO]11:59:38 Abstract Number: 90
+[INFO]11:59:38 Abstract ID: /article/10.1007/BF02514935
+[INFO]11:59:40 Souping page
+[INFO]11:59:42 Souped page
+[INFO]11:59:42 Scraping the title of the abstract
+[INFO]11:59:42 Scraped the title of the abstract
+[INFO]11:59:42 Scraping date of the abstract titled: 'Biodiversity and community structure of temperate butterfly species within a gradient of human disturbance: An analysis based on the concept of generalist vs. Specialist strategies'
+[INFO]11:59:42 'Biodiversity and community structure of temperate butterfly species within a gradient of human disturbance: An analysis based on the concept of generalist vs. Specialist strategies' was published on 1994-12
+[INFO]11:59:42 Scraping the author name
+[INFO]11:59:42 Scraped the author's name: Masahiko Kitahara1 nAff2 & Koichi Fujii2 
+[INFO]11:59:42 Adding: 'Biodiversity and community structure of temperate butterfly species within a gradient of human disturbance: An analysis based on the concept of generalist vs. Specialist strategies' to the archival list
+[INFO]11:59:42 Added: 'Biodiversity and community structure of temperate butterfly species within a gradient of human disturbance: An analysis based on the concept of generalist vs. Specialist strategies' to the archival list
+[INFO]11:59:42 Writing 'Biodiversity and community structure of temperate butterfly species within a gradient of human disturbance: An analysis based on the concept of generalist vs. Specialist strategies' by Masahiko Kitahara1 nAff2 & Koichi Fujii2  to disc
+[INFO]11:59:42 Written 'Biodiversity and community structure of temperate butterfly species within a gradient of human disturbance: An analysis based on the concept of generalist vs. Specialist strategies' to disc
+[INFO]11:59:42 Writing 'Biodiversity and community structure of temperate butterfly species within a gradient of human disturbance: An analysis based on the concept of generalist vs. Specialist strategies' by Masahiko Kitahara1 nAff2 & Koichi Fujii2  to analytical abstracts file
+[INFO]11:59:42 Written 'Biodiversity and community structure of temperate butterfly species within a gradient of human disturbance: An analysis based on the concept of generalist vs. Specialist strategies' to disc
+[INFO]11:59:42 Abstract Number: 91
+[INFO]11:59:42 Abstract ID: /article/10.1023/A%3A1012282814475
+[INFO]11:59:44 Souping page
+[INFO]11:59:48 Souped page
+[INFO]11:59:48 Scraping the title of the abstract
+[INFO]11:59:48 Scraped the title of the abstract
+[INFO]11:59:48 Scraping date of the abstract titled: 'A Bibliography for Bioeconomics'
+[INFO]11:59:48 'A Bibliography for Bioeconomics' was published on 2000-10
+[INFO]11:59:48 Scraping the author name
+[INFO]11:59:48 Scraped the author's name: Michael T. Ghiselin1 
+[INFO]11:59:49 Writing 'A Bibliography for Bioeconomics' by Michael T. Ghiselin1  to disc
+[INFO]11:59:49 Written 'A Bibliography for Bioeconomics' to disc
+[INFO]11:59:49 Writing 'A Bibliography for Bioeconomics' by Michael T. Ghiselin1  to analytical abstracts file
+[INFO]11:59:49 Written 'A Bibliography for Bioeconomics' to disc
+[INFO]11:59:49 Abstract Number: 92
+[INFO]11:59:49 Abstract ID: /article/10.1007/s10624-009-9124-7
+[INFO]11:59:51 Souping page
+[INFO]11:59:51 Souped page
+[INFO]11:59:51 Scraping the title of the abstract
+[INFO]11:59:51 Scraped the title of the abstract
+[INFO]11:59:51 Scraping date of the abstract titled: 'Globalisation and bridewealth rhetoric'
+[INFO]11:59:51 'Globalisation and bridewealth rhetoric' was published on 2009-09-24
+[INFO]11:59:51 Scraping the author name
+[INFO]11:59:51 Scraped the author's name: Neil Maclean1 
+[INFO]11:59:51 Adding: 'Globalisation and bridewealth rhetoric' to the archival list
+[INFO]11:59:51 Added: 'Globalisation and bridewealth rhetoric' to the archival list
+[INFO]11:59:51 Writing 'Globalisation and bridewealth rhetoric' by Neil Maclean1  to disc
+[INFO]11:59:51 Written 'Globalisation and bridewealth rhetoric' to disc
+[INFO]11:59:51 Writing 'Globalisation and bridewealth rhetoric' by Neil Maclean1  to analytical abstracts file
+[INFO]11:59:51 Written 'Globalisation and bridewealth rhetoric' to disc
+[INFO]11:59:51 Abstract Number: 93
+[INFO]11:59:51 Abstract ID: /article/10.1007/BF00975110
+[INFO]11:59:54 Souping page
+[INFO]11:59:55 Souped page
+[INFO]11:59:55 Scraping the title of the abstract
+[INFO]11:59:55 Scraped the title of the abstract
+[INFO]11:59:55 Scraping date of the abstract titled: 'Neolithic economy in central Europe'
+[INFO]11:59:55 'Neolithic economy in central Europe' was published on 1989-12
+[INFO]11:59:55 Scraping the author name
+[INFO]11:59:55 Scraped the author's name: Sarunas Milisauskas1 & Janusz Kruk2 
+[INFO]11:59:55 Adding: 'Neolithic economy in central Europe' to the archival list
+[INFO]11:59:55 Added: 'Neolithic economy in central Europe' to the archival list
+[INFO]11:59:55 Writing 'Neolithic economy in central Europe' by Sarunas Milisauskas1 & Janusz Kruk2  to disc
+[INFO]11:59:55 Written 'Neolithic economy in central Europe' to disc
+[INFO]11:59:55 Writing 'Neolithic economy in central Europe' by Sarunas Milisauskas1 & Janusz Kruk2  to analytical abstracts file
+[INFO]11:59:55 Written 'Neolithic economy in central Europe' to disc
+[INFO]11:59:55 Abstract Number: 94
+[INFO]11:59:55 Abstract ID: /article/10.1007/s001250051188
+[INFO]11:59:57 Souping page
+[INFO]11:59:57 Souped page
+[INFO]11:59:57 Scraping the title of the abstract
+[INFO]11:59:57 Scraped the title of the abstract
+[INFO]11:59:57 Scraping date of the abstract titled: 'Diabetes epidemiology as a tool to trigger diabetes research  and care'
+[INFO]11:59:57 'Diabetes epidemiology as a tool to trigger diabetes research  and care' was published on 1999-04
+[INFO]11:59:57 Scraping the author name
+[INFO]11:59:57 Scraped the author's name: P. Z. Zimmet1 
+[INFO]11:59:57 Writing 'Diabetes epidemiology as a tool to trigger diabetes research  and care' by P. Z. Zimmet1  to disc
+[INFO]11:59:57 Written 'Diabetes epidemiology as a tool to trigger diabetes research  and care' to disc
+[INFO]11:59:57 Writing 'Diabetes epidemiology as a tool to trigger diabetes research  and care' by P. Z. Zimmet1  to analytical abstracts file
+[INFO]11:59:57 Written 'Diabetes epidemiology as a tool to trigger diabetes research  and care' to disc
+[INFO]11:59:57 Abstract Number: 95
+[INFO]11:59:57 Abstract ID: /article/10.1007/s10745-005-1654-2
+[INFO]11:59:59 Souping page
+[INFO]12:0:1 Souped page
+[INFO]12:0:1 Scraping the title of the abstract
+[INFO]12:0:1 Scraped the title of the abstract
+[INFO]12:0:1 Scraping date of the abstract titled: 'Palms, Pastures, and Swidden Fields: The Grounded Political Ecology of \xe2\x80\x9cAgro-Extractive/Shifting-cultivator Peasants\xe2\x80\x9d in Maranh\xc3\xa3o, Brazil'
+[INFO]12:0:1 'Palms, Pastures, and Swidden Fields: The Grounded Political Ecology of \xe2\x80\x9cAgro-Extractive/Shifting-cultivator Peasants\xe2\x80\x9d in Maranh\xc3\xa3o, Brazil' was published on 2005-02
+[INFO]12:0:1 Scraping the author name
+[INFO]12:0:1 Scraped the author's name: Roberto Porro1 
+[INFO]12:0:1 Adding: 'Palms, Pastures, and Swidden Fields: The Grounded Political Ecology of \xe2\x80\x9cAgro-Extractive/Shifting-cultivator Peasants\xe2\x80\x9d in Maranh\xc3\xa3o, Brazil' to the archival list
+[INFO]12:0:1 Added: 'Palms, Pastures, and Swidden Fields: The Grounded Political Ecology of \xe2\x80\x9cAgro-Extractive/Shifting-cultivator Peasants\xe2\x80\x9d in Maranh\xc3\xa3o, Brazil' to the archival list
+[INFO]12:0:1 Writing 'Palms, Pastures, and Swidden Fields: The Grounded Political Ecology of \xe2\x80\x9cAgro-Extractive/Shifting-cultivator Peasants\xe2\x80\x9d in Maranh\xc3\xa3o, Brazil' by Roberto Porro1  to disc
+[INFO]12:0:1 Written 'Palms, Pastures, and Swidden Fields: The Grounded Political Ecology of \xe2\x80\x9cAgro-Extractive/Shifting-cultivator Peasants\xe2\x80\x9d in Maranh\xc3\xa3o, Brazil' to disc
+[INFO]12:0:1 Writing 'Palms, Pastures, and Swidden Fields: The Grounded Political Ecology of \xe2\x80\x9cAgro-Extractive/Shifting-cultivator Peasants\xe2\x80\x9d in Maranh\xc3\xa3o, Brazil' by Roberto Porro1  to analytical abstracts file
+[INFO]12:0:1 Written 'Palms, Pastures, and Swidden Fields: The Grounded Political Ecology of \xe2\x80\x9cAgro-Extractive/Shifting-cultivator Peasants\xe2\x80\x9d in Maranh\xc3\xa3o, Brazil' to disc
+[INFO]12:0:1 Abstract Number: 96
+[INFO]12:0:1 Abstract ID: /article/10.1007/s10980-017-0534-7
+[INFO]12:0:3 Souping page
+[INFO]12:0:4 Souped page
+[INFO]12:0:4 Scraping the title of the abstract
+[INFO]12:0:4 Scraped the title of the abstract
+[INFO]12:0:4 Scraping date of the abstract titled: 'How does forest fragmentation affect tree communities? A critical case study in the biodiversity hotspot of New Caledonia'
+[INFO]12:0:4 'How does forest fragmentation affect tree communities? A critical case study in the biodiversity hotspot of New Caledonia' was published on 2017-05-29
+[INFO]12:0:4 Scraping the author name
+[INFO]12:0:4 Scraped the author's name: Thomas Ibanez 
+            ORCID: orcid.org/0000-0002-3192-17211, Vanessa Hequet2, Céline Chambrey1, Tanguy Jaffré2 & Philippe Birnbaum1,3 
+[INFO]12:0:4 Adding: 'How does forest fragmentation affect tree communities? A critical case study in the biodiversity hotspot of New Caledonia' to the archival list
+[INFO]12:0:4 Added: 'How does forest fragmentation affect tree communities? A critical case study in the biodiversity hotspot of New Caledonia' to the archival list
+[INFO]12:0:4 Writing 'How does forest fragmentation affect tree communities? A critical case study in the biodiversity hotspot of New Caledonia' by Thomas Ibanez 
+            ORCID: orcid.org/0000-0002-3192-17211, Vanessa Hequet2, Céline Chambrey1, Tanguy Jaffré2 & Philippe Birnbaum1,3  to disc
+[INFO]12:0:4 Written 'How does forest fragmentation affect tree communities? A critical case study in the biodiversity hotspot of New Caledonia' to disc
+[INFO]12:0:4 Writing 'How does forest fragmentation affect tree communities? A critical case study in the biodiversity hotspot of New Caledonia' by Thomas Ibanez 
+            ORCID: orcid.org/0000-0002-3192-17211, Vanessa Hequet2, Céline Chambrey1, Tanguy Jaffré2 & Philippe Birnbaum1,3  to analytical abstracts file
+[INFO]12:0:4 Written 'How does forest fragmentation affect tree communities? A critical case study in the biodiversity hotspot of New Caledonia' to disc
+[INFO]12:0:4 Abstract Number: 97
+[INFO]12:0:4 Abstract ID: /article/10.1186/1471-2148-8-248
+[INFO]12:0:6 Souping page
+[INFO]12:0:8 Souped page
+[INFO]12:0:8 Scraping the title of the abstract
+[INFO]12:0:8 Scraped the title of the abstract
+[INFO]12:0:8 Scraping date of the abstract titled: 'Meta-population structure in a coral reef fish demonstrated by genetic data on patterns of migration, extinction and re-colonisation'
+[INFO]12:0:8 'Meta-population structure in a coral reef fish demonstrated by genetic data on patterns of migration, extinction and re-colonisation' was published on 2008-09-12
+[INFO]12:0:8 Scraping the author name
+[INFO]12:0:8 Scraped the author's name: Line K Bay1,3,4, M Julian Caley2 & Ross H Crozier1 
+[INFO]12:0:8 Adding: 'Meta-population structure in a coral reef fish demonstrated by genetic data on patterns of migration, extinction and re-colonisation' to the archival list
+[INFO]12:0:8 Added: 'Meta-population structure in a coral reef fish demonstrated by genetic data on patterns of migration, extinction and re-colonisation' to the archival list
+[INFO]12:0:8 Writing 'Meta-population structure in a coral reef fish demonstrated by genetic data on patterns of migration, extinction and re-colonisation' by Line K Bay1,3,4, M Julian Caley2 & Ross H Crozier1  to disc
+[INFO]12:0:8 Written 'Meta-population structure in a coral reef fish demonstrated by genetic data on patterns of migration, extinction and re-colonisation' to disc
+[INFO]12:0:8 Writing 'Meta-population structure in a coral reef fish demonstrated by genetic data on patterns of migration, extinction and re-colonisation' by Line K Bay1,3,4, M Julian Caley2 & Ross H Crozier1  to analytical abstracts file
+[INFO]12:0:8 Written 'Meta-population structure in a coral reef fish demonstrated by genetic data on patterns of migration, extinction and re-colonisation' to disc
+[INFO]12:0:8 Abstract Number: 98
+[INFO]12:0:8 Abstract ID: /article/10.1007/s10113-010-0189-2
+[INFO]12:0:10 Souping page
+[INFO]12:0:11 Souped page
+[INFO]12:0:11 Scraping the title of the abstract
+[INFO]12:0:11 Scraped the title of the abstract
+[INFO]12:0:11 Scraping date of the abstract titled: 'Coral reef ecosystems and anthropogenic climate change'
+[INFO]12:0:11 'Coral reef ecosystems and anthropogenic climate change' was published on 2010-12-08
+[INFO]12:0:11 Scraping the author name
+[INFO]12:0:11 Scraped the author's name: Ove Hoegh-Guldberg1 
+[INFO]12:0:11 Adding: 'Coral reef ecosystems and anthropogenic climate change' to the archival list
+[INFO]12:0:11 Added: 'Coral reef ecosystems and anthropogenic climate change' to the archival list
+[INFO]12:0:11 Writing 'Coral reef ecosystems and anthropogenic climate change' by Ove Hoegh-Guldberg1  to disc
+[INFO]12:0:11 Written 'Coral reef ecosystems and anthropogenic climate change' to disc
+[INFO]12:0:11 Writing 'Coral reef ecosystems and anthropogenic climate change' by Ove Hoegh-Guldberg1  to analytical abstracts file
+[INFO]12:0:11 Written 'Coral reef ecosystems and anthropogenic climate change' to disc
+[INFO]12:0:11 Abstract Number: 99
+[INFO]12:0:11 Abstract ID: /article/10.1023/B%3AGRES.0000024656.41571.09
+[INFO]12:0:13 Souping page
+[INFO]12:0:14 Souped page
+[INFO]12:0:14 Scraping the title of the abstract
+[INFO]12:0:14 Scraped the title of the abstract
+[INFO]12:0:14 Scraping date of the abstract titled: 'Assessment of diversity using agro-morphological traits for selecting a core sample of Papua New Guinea taro (Colocasia esculenta (L.) Schott) collection'
+[INFO]12:0:14 'Assessment of diversity using agro-morphological traits for selecting a core sample of Papua New Guinea taro (Colocasia esculenta (L.) Schott) collection' was published on 2004-09-01
+[INFO]12:0:14 Scraping the author name
+[INFO]12:0:14 Scraped the author's name: T. Okpul1, D. Singh1, T. Gunua1 & M.E. Wagih2 
+[INFO]12:0:14 Adding: 'Assessment of diversity using agro-morphological traits for selecting a core sample of Papua New Guinea taro (Colocasia esculenta (L.) Schott) collection' to the archival list
+[INFO]12:0:14 Added: 'Assessment of diversity using agro-morphological traits for selecting a core sample of Papua New Guinea taro (Colocasia esculenta (L.) Schott) collection' to the archival list
+[INFO]12:0:14 Writing 'Assessment of diversity using agro-morphological traits for selecting a core sample of Papua New Guinea taro (Colocasia esculenta (L.) Schott) collection' by T. Okpul1, D. Singh1, T. Gunua1 & M.E. Wagih2  to disc
+[INFO]12:0:14 Written 'Assessment of diversity using agro-morphological traits for selecting a core sample of Papua New Guinea taro (Colocasia esculenta (L.) Schott) collection' to disc
+[INFO]12:0:14 Writing 'Assessment of diversity using agro-morphological traits for selecting a core sample of Papua New Guinea taro (Colocasia esculenta (L.) Schott) collection' by T. Okpul1, D. Singh1, T. Gunua1 & M.E. Wagih2  to analytical abstracts file
+[INFO]12:0:14 Written 'Assessment of diversity using agro-morphological traits for selecting a core sample of Papua New Guinea taro (Colocasia esculenta (L.) Schott) collection' to disc
+[INFO]12:0:14 Abstract Number: 100
+[INFO]12:0:14 Abstract ID: /article/10.1007/BF02436752
+[INFO]12:0:16 Souping page
+[INFO]12:0:16 Souped page
+[INFO]12:0:16 Scraping the title of the abstract
+[INFO]12:0:16 Scraped the title of the abstract
+[INFO]12:0:16 Scraping date of the abstract titled: 'The salience of number-power: An idea whose time has come?'
+[INFO]12:0:17 'The salience of number-power: An idea whose time has come?' was published on 2000-05
+[INFO]12:0:17 Scraping the author name
+[INFO]12:0:17 Scraped the author's name: Jack Parsons1 
+[INFO]12:0:17 Writing 'The salience of number-power: An idea whose time has come?' by Jack Parsons1  to disc
+[INFO]12:0:17 Written 'The salience of number-power: An idea whose time has come?' to disc
+[INFO]12:0:17 Writing 'The salience of number-power: An idea whose time has come?' by Jack Parsons1  to analytical abstracts file
+[INFO]12:0:17 Written 'The salience of number-power: An idea whose time has come?' to disc
+[INFO]12:0:17 Exiting the Abstract Crawler
+[INFO]12:0:17 Delaying remote server ping: 0 seconds
+[INFO]12:0:17 Delayed remote server ping: 0 seconds
+[INFO]12:0:17 Souping page
+[INFO]12:0:17 Souped page
+[INFO]12:0:17 Scraping IDs
+[INFO]12:0:17 Scraped IDs
+[INFO]12:0:17 Entered the Abstract Crawler
+[INFO]12:0:17 Extracting Abstract IDs from disc
+[INFO]12:0:17 Extracted Abstract IDs from disc
+[INFO]12:0:17 Abstract Number: 101
+[INFO]12:0:17 Abstract ID: /article/10.1007/BF00704328
+[INFO]12:0:19 Souping page
+[INFO]12:0:19 Souped page
+[INFO]12:0:19 Scraping the title of the abstract
+[INFO]12:0:19 Scraped the title of the abstract
+[INFO]12:0:19 Scraping date of the abstract titled: 'Cargo-cult discourse: Myth and the rationalization of labor relations in Papua New Guinea'
+[INFO]12:0:19 'Cargo-cult discourse: Myth and the rationalization of labor relations in Papua New Guinea' was published on 1988-06
+[INFO]12:0:19 Scraping the author name
+[INFO]12:0:19 Scraped the author's name: Pem Davidson Buck 
+[INFO]12:0:19 Writing 'Cargo-cult discourse: Myth and the rationalization of labor relations in Papua New Guinea' by Pem Davidson Buck  to disc
+[INFO]12:0:19 Written 'Cargo-cult discourse: Myth and the rationalization of labor relations in Papua New Guinea' to disc
+[INFO]12:0:19 Writing 'Cargo-cult discourse: Myth and the rationalization of labor relations in Papua New Guinea' by Pem Davidson Buck  to analytical abstracts file
+[INFO]12:0:19 Written 'Cargo-cult discourse: Myth and the rationalization of labor relations in Papua New Guinea' to disc
+[INFO]12:0:19 Abstract Number: 102
+[INFO]12:0:19 Abstract ID: /article/10.1007/s11558-012-9161-x
+[INFO]12:0:22 Souping page
+[INFO]12:0:22 Souped page
+[INFO]12:0:22 Scraping the title of the abstract
+[INFO]12:0:22 Scraped the title of the abstract
+[INFO]12:0:22 Scraping date of the abstract titled: 'Organization without delegation: Informal intergovernmental organizations (IIGOs) and the spectrum of intergovernmental arrangements'
+[INFO]12:0:22 'Organization without delegation: Informal intergovernmental organizations (IIGOs) and the spectrum of intergovernmental arrangements' was published on 2013-01-19
+[INFO]12:0:22 Scraping the author name
+[INFO]12:0:22 Scraped the author's name: Felicity Vabulas1 & Duncan Snidal2 
+[INFO]12:0:22 Adding: 'Organization without delegation: Informal intergovernmental organizations (IIGOs) and the spectrum of intergovernmental arrangements' to the archival list
+[INFO]12:0:22 Added: 'Organization without delegation: Informal intergovernmental organizations (IIGOs) and the spectrum of intergovernmental arrangements' to the archival list
+[INFO]12:0:22 Writing 'Organization without delegation: Informal intergovernmental organizations (IIGOs) and the spectrum of intergovernmental arrangements' by Felicity Vabulas1 & Duncan Snidal2  to disc
+[INFO]12:0:22 Written 'Organization without delegation: Informal intergovernmental organizations (IIGOs) and the spectrum of intergovernmental arrangements' to disc
+[INFO]12:0:22 Writing 'Organization without delegation: Informal intergovernmental organizations (IIGOs) and the spectrum of intergovernmental arrangements' by Felicity Vabulas1 & Duncan Snidal2  to analytical abstracts file
+[INFO]12:0:22 Written 'Organization without delegation: Informal intergovernmental organizations (IIGOs) and the spectrum of intergovernmental arrangements' to disc
+[INFO]12:0:22 Abstract Number: 103
+[INFO]12:0:22 Abstract ID: /article/10.1007/s00606-004-0279-z
+[INFO]12:0:24 Souping page
+[INFO]12:0:25 Souped page
+[INFO]12:0:25 Scraping the title of the abstract
+[INFO]12:0:25 Scraped the title of the abstract
+[INFO]12:0:25 Scraping date of the abstract titled: 'Molecular circumscription, intrafamilial relationships and biogeography of the Gondwanan liverwort family Pallaviciniaceae (Hepaticophytina, Bryophyta) Studies in austral temperate rain forest bryophytes 27'
+[INFO]12:0:25 'Molecular circumscription, intrafamilial relationships and biogeography of the Gondwanan liverwort family Pallaviciniaceae (Hepaticophytina, Bryophyta) Studies in austral temperate rain forest bryophytes 27' was published on 2005-03-15
+[INFO]12:0:25 Scraping the author name
+[INFO]12:0:25 Scraped the author's name: F. Schaumann1, W. Frey1, T. Pfeiffer1 & M. Stech1 
+[INFO]12:0:25 Adding: 'Molecular circumscription, intrafamilial relationships and biogeography of the Gondwanan liverwort family Pallaviciniaceae (Hepaticophytina, Bryophyta) Studies in austral temperate rain forest bryophytes 27' to the archival list
+[INFO]12:0:25 Added: 'Molecular circumscription, intrafamilial relationships and biogeography of the Gondwanan liverwort family Pallaviciniaceae (Hepaticophytina, Bryophyta) Studies in austral temperate rain forest bryophytes 27' to the archival list
+[INFO]12:0:25 Writing 'Molecular circumscription, intrafamilial relationships and biogeography of the Gondwanan liverwort family Pallaviciniaceae (Hepaticophytina, Bryophyta) Studies in austral temperate rain forest bryophytes 27' by F. Schaumann1, W. Frey1, T. Pfeiffer1 & M. Stech1  to disc
+[INFO]12:0:25 Written 'Molecular circumscription, intrafamilial relationships and biogeography of the Gondwanan liverwort family Pallaviciniaceae (Hepaticophytina, Bryophyta) Studies in austral temperate rain forest bryophytes 27' to disc
+[INFO]12:0:25 Writing 'Molecular circumscription, intrafamilial relationships and biogeography of the Gondwanan liverwort family Pallaviciniaceae (Hepaticophytina, Bryophyta) Studies in austral temperate rain forest bryophytes 27' by F. Schaumann1, W. Frey1, T. Pfeiffer1 & M. Stech1  to analytical abstracts file
+[INFO]12:0:25 Written 'Molecular circumscription, intrafamilial relationships and biogeography of the Gondwanan liverwort family Pallaviciniaceae (Hepaticophytina, Bryophyta) Studies in austral temperate rain forest bryophytes 27' to disc
+[INFO]12:0:25 Abstract Number: 104
+[INFO]12:0:25 Abstract ID: /article/10.1007/s10584-015-1583-z
+[INFO]12:0:27 Souping page
+[INFO]12:0:28 Souped page
+[INFO]12:0:28 Scraping the title of the abstract
+[INFO]12:0:28 Scraped the title of the abstract
+[INFO]12:0:28 Scraping date of the abstract titled: 'Climate change implications for Torres Strait fisheries: assessing vulnerability to inform adaptation'
+[INFO]12:0:28 'Climate change implications for Torres Strait fisheries: assessing vulnerability to inform adaptation' was published on 2015-12-23
+[INFO]12:0:28 Scraping the author name
+[INFO]12:0:28 Scraped the author's name: Johanna E. Johnson1,2 & David J. Welch2,3 
+[INFO]12:0:28 Adding: 'Climate change implications for Torres Strait fisheries: assessing vulnerability to inform adaptation' to the archival list
+[INFO]12:0:28 Added: 'Climate change implications for Torres Strait fisheries: assessing vulnerability to inform adaptation' to the archival list
+[INFO]12:0:28 Writing 'Climate change implications for Torres Strait fisheries: assessing vulnerability to inform adaptation' by Johanna E. Johnson1,2 & David J. Welch2,3  to disc
+[INFO]12:0:28 Written 'Climate change implications for Torres Strait fisheries: assessing vulnerability to inform adaptation' to disc
+[INFO]12:0:28 Writing 'Climate change implications for Torres Strait fisheries: assessing vulnerability to inform adaptation' by Johanna E. Johnson1,2 & David J. Welch2,3  to analytical abstracts file
+[INFO]12:0:28 Written 'Climate change implications for Torres Strait fisheries: assessing vulnerability to inform adaptation' to disc
+[INFO]12:0:28 Abstract Number: 105
+[INFO]12:0:28 Abstract ID: /article/10.1007/s00606-016-1344-0
+[INFO]12:0:31 Souping page
+[INFO]12:0:32 Souped page
+[INFO]12:0:32 Scraping the title of the abstract
+[INFO]12:0:32 Scraped the title of the abstract
+[INFO]12:0:32 Scraping date of the abstract titled: 'Phylogeny, classification and biogeography of Halfordia (Rutaceae) in Australia and New Caledonia'
+[INFO]12:0:32 'Phylogeny, classification and biogeography of Halfordia (Rutaceae) in Australia and New Caledonia' was published on 2016-08-22
+[INFO]12:0:32 Scraping the author name
+[INFO]12:0:32 Scraped the author's name: Michael J. Bayly 
+            ORCID: orcid.org/0000-0001-6836-54931, Gareth D. Holmes1,2, Paul I. Forster3, Jérôme Munzinger4, David J. Cantrill2 & Pauline Y. Ladiges1 
+[INFO]12:0:32 Adding: 'Phylogeny, classification and biogeography of Halfordia (Rutaceae) in Australia and New Caledonia' to the archival list
+[INFO]12:0:32 Added: 'Phylogeny, classification and biogeography of Halfordia (Rutaceae) in Australia and New Caledonia' to the archival list
+[INFO]12:0:32 Writing 'Phylogeny, classification and biogeography of Halfordia (Rutaceae) in Australia and New Caledonia' by Michael J. Bayly 
+            ORCID: orcid.org/0000-0001-6836-54931, Gareth D. Holmes1,2, Paul I. Forster3, Jérôme Munzinger4, David J. Cantrill2 & Pauline Y. Ladiges1  to disc
+[INFO]12:0:32 Written 'Phylogeny, classification and biogeography of Halfordia (Rutaceae) in Australia and New Caledonia' to disc
+[INFO]12:0:32 Writing 'Phylogeny, classification and biogeography of Halfordia (Rutaceae) in Australia and New Caledonia' by Michael J. Bayly 
+            ORCID: orcid.org/0000-0001-6836-54931, Gareth D. Holmes1,2, Paul I. Forster3, Jérôme Munzinger4, David J. Cantrill2 & Pauline Y. Ladiges1  to analytical abstracts file
+[INFO]12:0:32 Written 'Phylogeny, classification and biogeography of Halfordia (Rutaceae) in Australia and New Caledonia' to disc
+[INFO]12:0:32 Exiting the Abstract Crawler
+[INFO]12:0:32 Delaying remote server ping: 8 seconds
+[INFO]12:0:40 Delayed remote server ping: 8 seconds
+[INFO]12:0:40 Post processing of permanent word sorter list has commenced
+[INFO]12:0:40 Post processing of permanent word sorter list has completed
+[INFO]12:0:40 Dumping the entire dictionary to the disc
+[INFO]12:0:40 Dumped the entire dictionary to the disc
+[INFO]12:0:40 Entering the Cleaner module
+[INFO]12:0:40 Converting text to list
+[INFO]12:0:40 Converted text to list
+[INFO]12:0:40 Generating list with special elements for weeding out later
+[INFO]12:0:40 Generated list with special elements for weeding out later
+[INFO]12:0:40 Removing elements with special characters from the text list
+[INFO]12:0:40 Removed elements with special characters from the text list
+[INFO]12:0:40 Dumping the cleaned abstract .txt to the disc
+[INFO]12:0:40 Dumped the cleaned abstract .txt to the disc
+[INFO]12:0:40 Exiting the Cleaner module
+[INFO]12:0:40 Entered the Analyzer.py code.
+[INFO]12:0:40 Carrying out pre-processing functions for analyzer
+[INFO]12:0:40 Carried out pre-processing functions for analyzer
+[INFO]12:0:40 Copying data from LOGS/LOG_2020-09-15_11_53_East_Melanesian_Islands_Conservation/Abstract_Database_2020-09-15_11_53_CLEANED.txt to pandas dataframe
+[INFO]12:0:40 Cleaning the list of words generated
+[INFO]12:0:40 Cleaned the list of words generated
+[INFO]12:0:45 Copied data from LOGS/LOG_2020-09-15_11_53_East_Melanesian_Islands_Conservation/Abstract_Database_2020-09-15_11_53_CLEANED.txt to pandas dataframe
+[INFO]12:0:45 Copying data from pandas dataframe to LOGS/LOG_2020-09-15_11_53_East_Melanesian_Islands_Conservation/Abstract_Database_2020-09-15_11_53_FREQUENCY_CSV_DATA.csv
+[INFO]12:0:45 Copied data from pandas dataframe to LOGS/LOG_2020-09-15_11_53_East_Melanesian_Islands_Conservation/Abstract_Database_2020-09-15_11_53_FREQUENCY_CSV_DATA.csv
+[INFO]12:0:45 Exiting the Analyzer.py code.
+[INFO]12:0:45 Initiating the NLP Engine
+[INFO]12:0:45 LOGS/LOG_2020-09-15_11_53_East_Melanesian_Islands_Conservation/Abstract_Database_2020-09-15_11_53.txt is being ported to dataframe
+[INFO]12:0:45 LOGS/LOG_2020-09-15_11_53_East_Melanesian_Islands_Conservation/Abstract_Database_2020-09-15_11_53.txt has been ported to dataframe
+[INFO]12:0:45 Trimming data and preparing list of words
+[INFO]12:0:45 Trimmed data and prepared list of words
+[INFO]12:0:45 Removing stopwords
+[INFO]12:0:45 Generating bigrams
+[INFO]12:0:45 Generating word bigrams
+[INFO]12:0:45 Generated word bigrams
+[INFO]12:0:45 Beginning lemmatization
+[INFO]12:0:46 Ending lemmatization
+[INFO]12:0:46 Generating the LDA model using default parameter set
+[INFO]12:0:47 Generated the LDA model using default parameter set
+[INFO]12:0:47 Issued perplexity: -8.24923770455672
+[INFO]12:0:47 Idling the NLP Engine
+[INFO]12:0:47 Entering the visualizer_main() code
+[INFO]12:0:47 Preparing the topic modeling visualization
+[INFO]12:2:37 Prepared the topic modeling visualization LOGS/LOG_2020-09-15_11_53_East_Melanesian_Islands_Conservation/Data_Visualization_Topic_Modelling.html
+[INFO]12:2:37 Exiting the visualizer_main() code
+[INFO]12:2:37 Tarballing LOGS/LOG_2020-09-15_11_53_East_Melanesian_Islands_Conservation into LOGS/LOG_2020-09-15_11_53_East_Melanesian_Islands_Conservation.tar.gz
